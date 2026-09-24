@@ -213,21 +213,21 @@ def build_docx(data: dict, out_path: str):
     add_rule(doc)
     overview = data["research"]["country_overview"]
 
-    add_heading(doc, "Population and Demographics", level=2)
-    add_facts_table(doc, overview["demographics"]["facts"])
-    add_source_line(doc, overview["demographics"].get("sources", []))
-
-    add_heading(doc, "Government", level=2)
-    add_narrative(doc, overview["government"]["narrative"])
-    add_source_line(doc, overview["government"].get("sources", []))
-
-    add_heading(doc, "Economy", level=2)
-    add_narrative(doc, overview["economy"]["narrative"])
-    add_source_line(doc, overview["economy"].get("sources", []))
-
-    add_heading(doc, "Disease Prevalence", level=2)
-    add_facts_table(doc, overview["disease_prevalence"]["facts"])
-    add_source_line(doc, overview["disease_prevalence"].get("sources", []))
+    for section_key, title_text in [
+        ("demographics", "Population and Demographics"),
+        ("government", "Government"),
+        ("economy", "Economy"),
+        ("disease_prevalence", "Disease Prevalence"),
+    ]:
+        section = overview.get(section_key)
+        if not section:
+            continue
+        add_heading(doc, title_text, level=2)
+        if section.get("facts"):
+            add_facts_table(doc, section["facts"])
+        if section.get("narrative"):
+            add_narrative(doc, section["narrative"])
+        add_source_line(doc, section.get("sources", []))
 
     # ---- Health System ----
     add_heading(doc, f"{data['country']} Health System", level=1)
@@ -258,15 +258,19 @@ def build_docx(data: dict, out_path: str):
         add_heading(doc, "Recent Developments", level=1)
         add_rule(doc)
         for item in rd:
+            summary_text = item.get("summary") or item.get("development") or ""
             p = doc.add_paragraph()
             p.paragraph_format.space_after = Pt(2)
             date_run = p.add_run(f"{item['date']}  ")
             date_run.bold = True
             date_run.font.color.rgb = DARK_RED
-            title_run = p.add_run(item["headline"])
-            title_run.bold = True
-            body = doc.add_paragraph(item["summary"])
-            body.paragraph_format.space_after = Pt(2)
+            if item.get("headline"):
+                title_run = p.add_run(item["headline"])
+                title_run.bold = True
+                body = doc.add_paragraph(summary_text)
+                body.paragraph_format.space_after = Pt(2)
+            else:
+                p.add_run(summary_text)
             add_source_line(doc, item.get("sources", []))
 
     # ---- CSI Assessment (manual) ----
