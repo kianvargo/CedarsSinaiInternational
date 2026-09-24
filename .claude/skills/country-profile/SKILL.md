@@ -30,6 +30,16 @@ to `output/<country>_profile.json` in the exact schema the generator expects.
 Never retype an agent's JSON by hand: that copy step is itself a place for
 errors to slip in, and it burns tokens twice.
 
+**Primary sources need network access.** The cloud environment must have
+full network access, or search agents only see search-result snippets and
+the primary-source check below can't really happen. Test first with
+`curl -s -o /dev/null -w "%{http_code}" https://data.worldbank.org`. If the
+WebFetch tool is blocked, have agents open pages with
+`python3 scripts/fetch_text.py <URL> -k <keywords>`, which prints only the
+lines that match (cheap on tokens). Some hospital sites (Mayo Clinic, Johns
+Hopkins) refuse automated requests; use their press releases as republished
+on PR Newswire, Business Wire or EurekAlert instead.
+
 1. **Research pass.** Spawn a research agent (Agent tool, general-purpose or
    Explore, with web search) with this brief: gather the following for
    `<country>`, each fact tagged with a source name/URL:
