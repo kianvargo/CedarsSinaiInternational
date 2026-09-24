@@ -1,0 +1,71 @@
+{
+  "country": "Example Country",
+  "generated_date": "YYYY-MM-DD",
+  "research": {
+    "country_overview": {
+      "demographics": {
+        "facts": [
+          { "label": "Capital", "value": "..." },
+          { "label": "Official Language", "value": "..." },
+          { "label": "Population", "value": "..." },
+          { "label": "Area", "value": "..." },
+          { "label": "GDP Total (PPP)", "value": "..." },
+          { "label": "GDP (PPP) Per Capita", "value": "..." },
+          { "label": "Government", "value": "..." },
+          { "label": "Currency", "value": "..." }
+        ],
+        "sources": ["World Bank, <url>", "CIA World Factbook, <url>"]
+      },
+      "government": {
+        "narrative": "...",
+        "sources": ["..."]
+      },
+      "economy": {
+        "narrative": "...",
+        "sources": ["..."]
+      },
+      "disease_prevalence": {
+        "facts": [
+          { "label": "Top causes of death", "value": "..." },
+          { "label": "Top risk factors", "value": "..." }
+        ],
+        "sources": ["IHME Health Data, <url>"]
+      }
+    },
+    "health_system": {
+      "public_system": { "narrative": "...", "sources": ["..."] },
+      "private_system": { "narrative": "...", "sources": ["..."] },
+      "financing": { "facts": [{ "label": "Health expenditure % GDP", "value": "..." }], "sources": ["..."] },
+      "workforce": { "facts": [{ "label": "Physicians per 1,000", "value": "..." }], "sources": ["..."] },
+      "education": { "narrative": "...", "sources": ["..."] },
+      "outlook": { "narrative": "...", "sources": ["..."] },
+      "competitive_landscape": { "narrative": "...", "sources": ["..."] }
+    },
+    "recent_developments": [
+      {
+        "date": "YYYY-MM-DD",
+        "headline": "...",
+        "summary": "...",
+        "sources": ["..."]
+      }
+    ]
+  },
+  "verification_report": {
+    "flagged_claims": [
+      {
+        "severity": "high",
+        "claim": "The exact claim text as drafted",
+        "issue": "Why it's flagged (no source found / source says something different / figure looks stale)"
+      }
+    ]
+  },
+  "csi_manual": {
+    "patient_volume_and_revenue": "",
+    "referral_sources": "",
+    "relationship_history": "",
+    "complications": "",
+    "key_contacts": "",
+    "opportunities": "",
+    "csi_recommendation": ""
+  }
+}
