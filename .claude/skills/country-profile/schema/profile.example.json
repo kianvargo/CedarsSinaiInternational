@@ -5,40 +5,145 @@
     "country_overview": {
       "demographics": {
         "facts": [
-          { "label": "Capital", "value": "..." },
-          { "label": "Official Language", "value": "..." },
-          { "label": "Population", "value": "... (year)" },
-          { "label": "Area", "value": "..." },
-          { "label": "GDP (PPP) Total", "value": "... (year, source)" },
-          { "label": "GDP (PPP) Per Capita", "value": "... (year)" },
-          { "label": "Government", "value": "..." },
-          { "label": "Currency", "value": "..." }
+          {
+            "label": "Capital",
+            "value": "..."
+          },
+          {
+            "label": "Official Language",
+            "value": "..."
+          },
+          {
+            "label": "Population",
+            "value": "... (year)"
+          },
+          {
+            "label": "Area",
+            "value": "..."
+          },
+          {
+            "label": "GDP (PPP) Total",
+            "value": "... (year, source)"
+          },
+          {
+            "label": "GDP (PPP) Per Capita",
+            "value": "... (year)"
+          },
+          {
+            "label": "Government",
+            "value": "..."
+          },
+          {
+            "label": "Currency",
+            "value": "..."
+          }
         ],
         "narrative": "Optional paragraph on demographic trends relevant to healthcare.",
-        "sources": ["World Bank, <url>", "CIA World Factbook, <url>"]
+        "sources": [
+          "World Bank, <url>",
+          "CIA World Factbook, <url>"
+        ]
       },
-      "government": { "narrative": "...", "sources": ["..."] },
-      "economy": { "narrative": "...", "sources": ["..."] },
+      "government": {
+        "narrative": "A factual sentence.{{1}} An analytical sentence needs no marker.",
+        "sources": [
+          {
+            "author": "World Bank",
+            "title": "GDP, PPP (current international $), India",
+            "publisher": "World Development Indicators",
+            "date": "2026",
+            "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD?locations=IN"
+          }
+        ]
+      },
+      "economy": {
+        "narrative": "...",
+        "sources": [
+          "..."
+        ]
+      },
       "disease_prevalence": {
         "facts": [
-          { "label": "Top causes of death", "value": "..." },
-          { "label": "Top risk factors", "value": "..." }
+          {
+            "label": "Top causes of death",
+            "value": "..."
+          },
+          {
+            "label": "Top risk factors",
+            "value": "..."
+          }
         ],
         "narrative": "Optional.",
-        "sources": ["IHME Global Burden of Disease, <url>"]
+        "sources": [
+          "IHME Global Burden of Disease, <url>"
+        ]
       }
     },
     "health_system": {
-      "public_system": { "narrative": "...", "sources": ["..."] },
-      "private_system": { "narrative": "...", "sources": ["..."] },
-      "financing": { "facts": [{ "label": "Health expenditure, % of GDP", "value": "... (year)" }], "narrative": "Optional.", "sources": ["..."] },
-      "workforce": { "facts": [{ "label": "Physicians per 1,000", "value": "... (year)" }], "narrative": "Optional.", "sources": ["..."] },
-      "education": { "narrative": "...", "sources": ["..."] },
-      "outlook": { "narrative": "...", "sources": ["..."] },
-      "competitive_landscape": { "narrative": "...", "sources": ["..."] }
+      "public_system": {
+        "narrative": "...",
+        "sources": [
+          "..."
+        ]
+      },
+      "private_system": {
+        "narrative": "...",
+        "sources": [
+          "..."
+        ]
+      },
+      "financing": {
+        "facts": [
+          {
+            "label": "Health expenditure, % of GDP",
+            "value": "... (year)"
+          }
+        ],
+        "narrative": "Optional.",
+        "sources": [
+          "..."
+        ]
+      },
+      "workforce": {
+        "facts": [
+          {
+            "label": "Physicians per 1,000",
+            "value": "... (year)"
+          }
+        ],
+        "narrative": "Optional.",
+        "sources": [
+          "..."
+        ]
+      },
+      "education": {
+        "narrative": "...",
+        "sources": [
+          "..."
+        ]
+      },
+      "outlook": {
+        "narrative": "...",
+        "sources": [
+          "..."
+        ]
+      },
+      "competitive_landscape": {
+        "narrative": "...",
+        "sources": [
+          "..."
+        ]
+      }
     },
     "recent_developments": [
-      { "date": "YYYY-MM-DD", "headline": "...", "summary": "...", "sources": ["..."] }
+      {
+        "date": "YYYY-MM-DD",
+        "headline": "...",
+        "summary": "...",
+        "sources": [
+          "..."
+        ]
+      }
     ]
   },
   "resolution_log": [
@@ -52,5 +157,6 @@
     "key_contacts": "",
     "opportunities": "",
     "csi_recommendation": ""
-  }
+  },
+  "cover_image": "Optional path to a cover photo; omit to generate a map."
 }
