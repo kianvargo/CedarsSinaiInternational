@@ -1,0 +1,143 @@
+{
+  "country": "Vietnam",
+  "generated_date": "2026-09-24",
+  "research": {
+    "country_overview": {
+      "demographics": {
+        "facts": [
+          {"label": "Capital", "value": "Hanoi"},
+          {"label": "Official Language", "value": "Vietnamese"},
+          {"label": "Population", "value": "~100.3–102.3 million (2024–2026 estimates; sources converge in this range)"},
+          {"label": "Area", "value": "331,212 km² (127,882 sq mi)"},
+          {"label": "GDP (PPP) Total", "value": "~$1.46 trillion (2024 est., CIA World Factbook methodology) — note: a separately reported ~$2.03 trillion figure uses a different (IMF-style) methodology; the two are not directly comparable and should not be read as one year's growth"},
+          {"label": "GDP (PPP) Per Capita", "value": "~$14,400 (2024 est., CIA World Factbook methodology)"},
+          {"label": "Government", "value": "Single-party socialist republic under the Communist Party of Vietnam (CPV)"},
+          {"label": "Head of State", "value": "President, elected by the National Assembly; the CPV General Secretary is the most powerful figure in practice"},
+          {"label": "Head of Government", "value": "Prime Minister, elected by the National Assembly"},
+          {"label": "National Assembly", "value": "500 members (16th National Assembly, convened April 2026)"},
+          {"label": "Currency", "value": "Vietnamese Dong (VND)"}
+        ],
+        "sources": [
+          "The World Factbook (Vietnam), cia.gov",
+          "Worldometer, Vietnam Population",
+          "Wikipedia, Vietnam",
+          "National Election Council of Vietnam, 16th National Assembly results (2026)"
+        ]
+      },
+      "government": {
+        "narrative": "Vietnam is a one-party socialist republic led by the Communist Party of Vietnam (CPV); the CPV's General Secretary is the country's most powerful political figure in practice. The National Assembly (500 members as of the 16th Assembly, convened April 2026) is constitutionally the supreme organ of state power and elects both the President (head of state) and the Prime Minister (head of government, who runs the cabinet). Major policy direction is set through Party congresses and the Politburo rather than through the formal state offices alone.",
+        "sources": [
+          "Embassy of the Socialist Republic of Vietnam in the United States, Government Structure",
+          "WorldAtlas, What Type of Government Does Vietnam Have?",
+          "National Election Council of Vietnam, 16th National Assembly results (2026)"
+        ]
+      },
+      "economy": {
+        "narrative": "Vietnam has pursued rapid export- and manufacturing-led growth and is targeting GDP growth of at least 10% in 2026, in the final stretch of its 10-year Socio-Economic Development Strategy (2021-2030) emphasizing digital transformation and infrastructure investment. On healthcare specifically, the government has proposed free annual health check-ups for all citizens starting in 2026 and has stated goals around expanding universal health insurance coverage and phasing in free hospital care for vulnerable groups over the coming decade — but official messaging on the exact target year (2030, 2035, and 2045 have each appeared in different government statements) has not been consistent, so treat any single target date as directional rather than confirmed policy.",
+        "sources": [
+          "Vietnam Government Portal (baochinhphu.vn), 2026 GDP growth target",
+          "National Statistics Office of Vietnam, 2026 socio-economic reports",
+          "P4H Network, free annual health checks and universal coverage goals",
+          "VietnamNet / AsiaNews Network, Ministry of Health free check-up proposal"
+        ]
+      },
+      "disease_prevalence": {
+        "facts": [
+          {"label": "NCD share of deaths", "value": "~80-84% of all deaths (figures vary slightly by source/year)"},
+          {"label": "Leading cause of death", "value": "Stroke (~15.5% of deaths; ~167,000 deaths in 2021 per IHME Global Burden of Disease data), followed by ischemic heart disease, COPD, and lower respiratory infections"},
+          {"label": "NCD disease-burden share", "value": "~74% of national disease burden; cardiovascular disease leads at ~20.5%, followed by cancer (~13.3%)"},
+          {"label": "Top risk factors", "value": "Tobacco use, raised blood pressure, and high salt intake are the most-cited drivers of adult mortality"}
+        ],
+        "sources": [
+          "WHO Western Pacific, Caring for people with noncommunicable diseases in Viet Nam",
+          "ScienceDirect, Burden and risk factors of stroke in Vietnam 1990-2021 (GBD 2021 analysis)",
+          "VietnamNet / SGGP English Edition, NCD death-share reporting",
+          "Our World in Data, Vietnam Health Country Profile"
+        ]
+      }
+    },
+    "health_system": {
+      "public_system": {
+        "narrative": "Vietnam's public healthcare system runs on four tiers overseen by the Ministry of Health: commune, district, provincial, and central/national. Commune health stations provide first-contact primary care; district and provincial hospitals provide secondary care; and national/specialist hospitals under direct MOH management provide tertiary, specialized care. The system is coupled with a mandatory social health insurance scheme the government is working to expand toward universal coverage.",
+        "sources": ["OHSU-PSU School of Public Health", "PMC, A robust health system to achieve universal health coverage in Vietnam", "WHO, Health systems governance (Viet Nam)"]
+      },
+      "private_system": {
+        "narrative": "Vietnam's private hospital sector is growing rapidly and consolidating, led by domestic groups such as Vinmec (Vingroup), Hoan My, Thu Cuc, Tam Anh, and FV Hospital. The sector is attracting significant foreign and institutional capital: Singapore's Thomson Medical Group agreed in July 2023 to acquire FV Hospital's parent company (Far East Vietnam Medical Company) for up to $381.4 million, a deal that completed in January 2024 — reportedly Southeast Asia's largest healthcare M&A deal since 2020. The overall Vietnam healthcare market was valued at roughly $24.7 billion in 2025, with government targets calling for private hospital bed capacity to reach 15% of total beds by 2030.",
+        "sources": ["VietData, Private hospitals in Vietnam are actively seeking expansion", "Chambers and Partners, Healthcare M&A 2026 - Vietnam", "Ken Research, Vietnam Healthcare Market Report 2026-2032"]
+      },
+      "financing": {
+        "facts": [
+          {"label": "Current health expenditure, % of GDP", "value": "~4.59% (2022) — below typical OECD averages of ~9-10% of GDP"},
+          {"label": "Government health expenditure, % of GDP", "value": "~2.00% (2022)"}
+        ],
+        "narrative": "Note: an older per-capita spending figure (~$152, from a 2021 Joint Learning Network summary) was found during research but is inconsistent with the more current % of GDP figures above and could not be reconciled to a consistent year — it has been left out of this draft pending a direct pull from World Bank data (indicator SH.XPD.CHEX.PC.CD) for the correct current-year figure.",
+        "sources": ["CEIC Data, Vietnam Current Health Expenditure % of GDP", "World Bank, Current health expenditure (% of GDP) - Viet Nam"]
+      },
+      "workforce": {
+        "facts": [
+          {"label": "Physicians per 1,000 population", "value": "~1.25 (2023); government target is 1.5 per 1,000 by 2025"},
+          {"label": "Hospital beds per 1,000 population", "value": "~3.2; government targets 3.3 per 1,000 by 2025 and 3.5 by 2030"}
+        ],
+        "narrative": "Both figures remain below typical OECD benchmarks (OECD averages are roughly 3.7 physicians and 4.4 beds per 1,000). A precise current nurses-per-1,000 figure could not be confirmed during research and should be pulled directly from World Bank indicator SH.MED.NUMW.P3 before finalizing.",
+        "sources": ["VietnamNet, VN targets 15 doctors per 10,000 people by 2025", "World Bank, Physicians and Hospital beds (per 1,000 people) - Viet Nam"]
+      },
+      "education": {
+        "narrative": "Vietnamese medical education is a six-year undergraduate program leading directly to an MD degree, entered immediately after high school. The final years focus on clinical rotations; graduates are general practitioners and must pass a competitive national Residency Entrance Exam to specialize, followed by roughly three years of residency training.",
+        "sources": ["Frontiers in Medicine, Medical education in Vietnam", "PubMed, Medical education in Vietnam"]
+      },
+      "outlook": {
+        "narrative": "Vietnam's health sector is pursuing what officials call 'breakthrough reform' in 2026: free annual health check-ups from 2026, strengthened primary care, expanded mandatory health insurance, and a stated (though inconsistently dated across official statements) goal of universal free hospital care for vulnerable groups within the next decade. The government is also pushing rapid digital-health adoption, including mandatory electronic health records nationwide, alongside continued growth and consolidation in the private hospital sector.",
+        "sources": ["Vietnam News, Health sector posts strong 2021-2025 gains, gears up for breakthrough reforms in 2026", "WHO Western Pacific, Viet Nam ends 2025 with strong public health progress", "Chambers and Partners, Healthcare M&A 2026 - Vietnam"]
+      },
+      "competitive_landscape": {
+        "narrative": "The clearest documented US academic-medical-center engagement in Vietnam is between Cleveland Clinic and Vingroup's Vinmec Healthcare System: a second Vinmec hospital joined the 'Cleveland Clinic Connected' network in May 2024, and in April 2025 Cleveland Clinic and Vingroup announced collaboration on the clinical model for the new Vinmec Can Gio International General Hospital. Mayo Clinic has had smaller-scale educational involvement, with physicians supporting a gynecologic oncology fellowship in Da Nang since 2017. No confirmed partnerships were found for Johns Hopkins, MD Anderson, Memorial Sloan Kettering, Houston Methodist, UCLA, NewYork-Presbyterian, University of Pittsburgh Medical Center, Mass General Brigham, or Northwestern Medicine with Vietnamese institutions as of this research — these should be treated as not established unless CSI has proprietary knowledge otherwise. On foreign hospital investment more broadly, Singapore's Thomson Medical Group and Raffles Medical Group are the most active non-US foreign entrants.",
+        "sources": ["Cleveland Clinic Newsroom (May 2024, April 2025)", "Mayo Clinic Alumni Association", "b-company.jp, Expansion and growth strategy of private hospital chains in Vietnam"]
+      }
+    },
+    "recent_developments": [
+      {
+        "date": "2025-04-18",
+        "headline": "Cleveland Clinic and Vingroup collaborate on Vinmec Can Gio International General Hospital",
+        "summary": "Cleveland Clinic partnered with Vingroup to help design the clinical model of care for a new Vinmec hospital in Can Gio, extending its existing Cleveland Clinic Connected relationship with Vinmec.",
+        "sources": ["Cleveland Clinic Newsroom"]
+      },
+      {
+        "date": "2024-05-22",
+        "headline": "Vinmec Central Park joins Cleveland Clinic Connected network",
+        "summary": "A second Vinmec hospital, Vinmec Central Park International Hospital, became a member of Cleveland Clinic Connected.",
+        "sources": ["Cleveland Clinic Newsroom"]
+      },
+      {
+        "date": "2026-01",
+        "headline": "Free annual health check-up plan submitted to National Assembly for 2026 rollout",
+        "summary": "Vietnam's Ministry of Health proposed giving every citizen at least one free annual health check starting in 2026, part of a broader push toward universal preventive care.",
+        "sources": ["AsiaNews Network / VietnamNet", "P4H Network"]
+      },
+      {
+        "date": "2024-01",
+        "headline": "Thomson Medical Group completes $381.4M acquisition of FV Hospital's parent company",
+        "summary": "Singapore's Thomson Medical Group completed its acquisition of Far East Vietnam Medical Company (FV Hospital's owner), a deal agreed in mid-2023 and reported as Southeast Asia's largest healthcare M&A transaction since 2020.",
+        "sources": ["Chambers and Partners, Healthcare M&A 2026 - Vietnam"]
+      }
+    ]
+  },
+  "verification_report": {
+    "flagged_claims": [
+      {"severity": "high", "claim": "Population upper bound of 106.7 million", "issue": "No source found supporting this figure; corrected to the ~100.3-102.3M range that current sources converge on."},
+      {"severity": "medium", "claim": "GDP (PPP) total presented as a single clean 2025 estimate alongside a 2026 projection", "issue": "The $1.46T figure is actually 2024 Factbook data, and the $2.03T figure uses a different methodology — corrected to label both accurately and flag they aren't directly comparable."},
+      {"severity": "medium", "claim": "National Assembly: 498 members", "issue": "498 was the outgoing 15th Assembly; the current 16th Assembly (April 2026) has 500 members. Corrected."},
+      {"severity": "medium", "claim": "Universal free hospital care by 2030-2035 stated as settled policy", "issue": "Official Vietnamese government messaging on the target year has varied (2030, 2035, 2045 have each appeared); corrected to flag this as directional, not confirmed."},
+      {"severity": "medium", "claim": "Health expenditure per capita ~$152", "issue": "Traces to a 2021 JLN document using older, pre-2020-appearing data, inconsistent with the 2022 %-of-GDP figures used elsewhere; removed from facts and replaced with a note recommending a direct World Bank data pull."},
+      {"severity": "low", "claim": "Thomson Medical Group acquisition dated as completed in 2023", "issue": "Deal was agreed/announced in 2023 but completed in January 2024; corrected to distinguish agreement vs. completion dates."}
+    ]
+  },
+  "csi_manual": {
+    "patient_volume_and_revenue": "",
+    "referral_sources": "",
+    "relationship_history": "",
+    "complications": "",
+    "key_contacts": "",
+    "opportunities": "",
+    "csi_recommendation": ""
+  }
+}
