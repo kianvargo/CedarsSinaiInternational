@@ -53,27 +53,62 @@ Given a target country name (`$ARGUMENTS` or ask the user if not given):
    unsupported, contradicted, stale (e.g., a "recent" figure that's actually
    old), or a claim the source doesn't actually make. This catches silent
    fabrication that the research agent might otherwise introduce during
-   synthesis. Output a `verification_report.flagged_claims` list
-   (`severity`, `claim`, `issue`).
+   synthesis. Output a list of flagged claims with a severity and the
+   specific problem found.
 
-3. **Resolve flags.** For anything flagged `high` severity, remove or correct
-   the claim in the draft rather than shipping it with a footnote. Lower
-   severity flags can ship as noted flags in the "Fact-Verification Notes"
-   section for the human reviewer to resolve.
+3. **Resolution pass — do this before touching the draft.** A flag is not a
+   correction. Two things can be flagged and they need different handling:
+   - *Outright wrong* (no source supports it, or the source says something
+     different): just fix it — replace the claim with what the source
+     actually says.
+   - *Genuinely contended* (multiple credible sources disagree, or a figure
+     depends on methodology/date): spawn a third agent whose only job is to
+     adjudicate that specific point with targeted follow-up search — find
+     the most authoritative/current source, understand *why* the sources
+     disagree (different year, different methodology, different agency),
+     and decide what the profile should say. The output of this pass is not
+     a note — it's the actual replacement sentence or figure, written as
+     something a human analyst would write (e.g. "Vietnam's economy was
+     valued at approximately $1.46 trillion (PPP) in 2024, per the CIA World
+     Factbook; a commonly cited $2.03 trillion figure elsewhere uses IMF
+     projection methodology for a later year and isn't a same-year
+     comparison" folded into one flowing sentence — not a bracketed caveat).
+   Only if a point truly cannot be resolved (rare) does a brief, naturally
+   worded caveat stay in the sentence itself — never as a separate flagged
+   list or appendix.
 
-4. **Assemble.** Merge the verified research JSON with an empty
+4. **Merge directly into the draft.** Apply every correction and resolution
+   in place, in the actual section/paragraph it belongs to. There is no
+   separate "verification notes" page in the final document — corrections
+   are invisible seams, not visible footnotes. Keep an internal record (a
+   local file, not part of the docx) of what was changed and why, in case
+   the human reviewer wants to see it, but the document itself should read
+   as a single confident, coherent draft.
+
+5. **Assemble.** Merge the corrected research JSON with an empty
    `csi_manual` block (see schema) and run:
    ```
    python3 scripts/generate_profile.py <merged.json> output/<Country>_Profile_DRAFT.docx
    ```
-   This renders public-source content as normal text with source lines, and
+   This renders public-source content as normal prose with source lines, and
    renders every unfilled CSI field as a highlighted `[MANUAL INPUT
    REQUIRED]` placeholder — so nobody can mistake an empty field for "no
    opportunity" or mistake agent output for internal data.
 
-5. **Hand off.** Tell the user which fields still need manual input (list
-   them), and that the Fact-Verification Notes page should be reviewed and
-   deleted once resolved.
+6. **Hand off.** Tell the user which CSI fields still need manual input, and
+   summarize (in chat, not in the document) what the resolution pass changed
+   and why, so they can spot-check the calls that were made on their behalf.
+
+## Writing style
+
+- Avoid em/en dashes; write in full sentences with normal punctuation
+  (commas, periods, "which," "because," parentheses) the way a human analyst
+  would.
+- Narrative paragraphs should be substantive — aim for real depth (context,
+  mechanism, implication), not a compressed bullet-to-prose conversion.
+  Err toward more detail rather than a clipped summary sentence.
+- Write corrections and resolved ambiguities as natural prose within the
+  relevant paragraph, not as bracketed disclaimers or "Note:" asides.
 
 ## Do not
 

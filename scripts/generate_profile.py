@@ -6,68 +6,165 @@ JSON file (see schema/profile.example.json).
 Usage:
     python3 generate_profile.py <input.json> <output.docx>
 
-The JSON has two kinds of content, and the generator visually distinguishes them
-on purpose:
+Two kinds of content, rendered differently on purpose:
 
-  1. "research" sections: facts an agent gathered from public sources. Every
-     fact carries a citation. These render as normal body text with a small
-     source line under each subsection.
+  1. "research" sections: facts an agent gathered from public sources,
+     independently fact-checked, with corrections already merged into the
+     text itself (no separate "flagged claims" appendix in the document).
+     A small source line follows each subsection for traceability.
 
   2. "csi_manual" section: fields that must come from Cedars-Sinai's own
-     internal data (patient volume, revenue, referral relationships, contact
-     names, sensitive judgment calls). These render with a highlighted
-     "[MANUAL INPUT REQUIRED]" placeholder if left blank, so nobody mistakes
-     an unfilled field for a researched fact, and nobody mistakes agent output
-     for internal data.
+     internal data. These render with a highlighted "[MANUAL INPUT
+     REQUIRED]" placeholder if left blank.
 """
 import json
 import sys
 from pathlib import Path
 
 from docx import Document
-from docx.shared import Pt, RGBColor, Inches
-from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.enum.text import WD_COLOR_INDEX
+from docx.shared import Pt, RGBColor, Inches, Cm
+from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_COLOR_INDEX
+from docx.enum.table import WD_TABLE_ALIGNMENT
+from docx.oxml.ns import qn
+from docx.oxml import OxmlElement
 
 CEDARS_RED = RGBColor(0xD9, 0x1F, 0x2C)
-GRAY = RGBColor(0x66, 0x66, 0x66)
-PLACEHOLDER_COLOR = RGBColor(0xB8, 0x86, 0x00)
+DARK_RED = RGBColor(0xB3, 0x18, 0x22)
+INK = RGBColor(0x24, 0x24, 0x24)
+GRAY = RGBColor(0x6E, 0x6E, 0x6E)
+PLACEHOLDER_COLOR = RGBColor(0x99, 0x6A, 0x00)
 
+BODY_FONT = "Calibri"
 MANUAL_PLACEHOLDER = "[MANUAL INPUT REQUIRED]"
 
 
+def set_cell_shading(cell, hex_color):
+    tc_pr = cell._tc.get_or_add_tcPr()
+    shd = OxmlElement("w:shd")
+    shd.set(qn("w:val"), "clear")
+    shd.set(qn("w:color"), "auto")
+    shd.set(qn("w:fill"), hex_color)
+    tc_pr.append(shd)
+
+
+def style_document(doc):
+    normal = doc.styles["Normal"]
+    normal.font.name = BODY_FONT
+    normal.font.size = Pt(11)
+    normal.font.color.rgb = INK
+    normal.paragraph_format.space_after = Pt(8)
+    normal.paragraph_format.line_spacing = 1.18
+
+    h1 = doc.styles["Heading 1"]
+    h1.font.name = BODY_FONT
+    h1.font.size = Pt(20)
+    h1.font.bold = True
+    h1.font.color.rgb = CEDARS_RED
+    h1.paragraph_format.space_before = Pt(22)
+    h1.paragraph_format.space_after = Pt(10)
+
+    h2 = doc.styles["Heading 2"]
+    h2.font.name = BODY_FONT
+    h2.font.size = Pt(14)
+    h2.font.bold = True
+    h2.font.color.rgb = DARK_RED
+    h2.paragraph_format.space_before = Pt(14)
+    h2.paragraph_format.space_after = Pt(6)
+
+    bullet = doc.styles["List Bullet"]
+    bullet.font.name = BODY_FONT
+    bullet.font.size = Pt(11)
+    bullet.paragraph_format.space_after = Pt(4)
+    bullet.paragraph_format.line_spacing = 1.15
+
+    section = doc.sections[0]
+    section.left_margin = Cm(2.2)
+    section.right_margin = Cm(2.2)
+    section.top_margin = Cm(1.8)
+    section.bottom_margin = Cm(1.8)
+
+
 def add_heading(doc, text, level=1):
-    h = doc.add_heading(text, level=level)
-    for run in h.runs:
-        run.font.color.rgb = CEDARS_RED
-    return h
+    return doc.add_heading(text, level=level)
+
+
+def add_rule(doc, color=CEDARS_RED):
+    p = doc.add_paragraph()
+    p.paragraph_format.space_before = Pt(0)
+    p.paragraph_format.space_after = Pt(4)
+    p_pr = p._p.get_or_add_pPr()
+    borders = OxmlElement("w:pBdr")
+    bottom = OxmlElement("w:bottom")
+    bottom.set(qn("w:val"), "single")
+    bottom.set(qn("w:sz"), "12")
+    bottom.set(qn("w:space"), "1")
+    bottom.set(qn("w:color"), "D91F2C")
+    borders.append(bottom)
+    p_pr.append(borders)
 
 
 def add_source_line(doc, sources):
     if not sources:
         return
     p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(2)
-    p.paragraph_format.space_after = Pt(10)
+    p.paragraph_format.space_before = Pt(0)
+    p.paragraph_format.space_after = Pt(12)
     run = p.add_run("Sources: " + "; ".join(sources))
     run.italic = True
     run.font.size = Pt(8.5)
     run.font.color.rgb = GRAY
 
 
-def add_fact_block(doc, facts):
-    """facts: list of {label, value, source} rendered as a bullet list."""
-    for fact in facts:
-        p = doc.add_paragraph(style="List Bullet")
-        run = p.add_run(f"{fact['label']}: ")
-        run.bold = True
-        p.add_run(str(fact["value"]))
+def add_narrative(doc, text):
+    if not text:
+        return
+    doc.add_paragraph(text)
+
+
+def add_facts_table(doc, facts, columns=2):
+    """Facts render as a light two-column table (label | value) instead of a
+    bullet list, closer to the original template's info-box layout and
+    tighter on the page than one bullet per fact."""
+    if not facts:
+        return
+    rows = (len(facts) + columns - 1) // columns
+    table = doc.add_table(rows=rows, cols=columns * 2)
+    table.alignment = WD_TABLE_ALIGNMENT.LEFT
+    table.autofit = True
+
+    for idx, fact in enumerate(facts):
+        row, col_group = divmod(idx, columns)
+        label_cell = table.cell(row, col_group * 2)
+        value_cell = table.cell(row, col_group * 2 + 1)
+
+        lp = label_cell.paragraphs[0]
+        lp.paragraph_format.space_after = Pt(3)
+        lrun = lp.add_run(fact["label"])
+        lrun.bold = True
+        lrun.font.size = Pt(10.5)
+        lrun.font.color.rgb = DARK_RED
+
+        vp = value_cell.paragraphs[0]
+        vp.paragraph_format.space_after = Pt(3)
+        vrun = vp.add_run(str(fact["value"]))
+        vrun.font.size = Pt(10.5)
+
+    # fill any unused trailing cells so the table doesn't look ragged
+    total_cells = rows * columns
+    for idx in range(len(facts), total_cells):
+        row, col_group = divmod(idx, columns)
+        table.cell(row, col_group * 2).text = ""
+        table.cell(row, col_group * 2 + 1).text = ""
+
+    doc.add_paragraph().paragraph_format.space_after = Pt(2)
 
 
 def add_manual_field(doc, label, value):
     p = doc.add_paragraph()
-    run = p.add_run(f"{label}: ")
+    p.paragraph_format.space_after = Pt(10)
+    run = p.add_run(f"{label}\n")
     run.bold = True
+    run.font.color.rgb = DARK_RED
     text = value.strip() if value else ""
     if not text:
         run2 = p.add_run(MANUAL_PLACEHOLDER)
@@ -80,54 +177,63 @@ def add_manual_field(doc, label, value):
 
 def build_docx(data: dict, out_path: str):
     doc = Document()
+    style_document(doc)
 
-    # Title page
+    # ---- Title page ----
+    doc.add_paragraph().paragraph_format.space_after = Pt(60)
+    kicker = doc.add_paragraph()
+    kicker_run = kicker.add_run("COUNTRY PROFILE & MARKET INTELLIGENCE")
+    kicker_run.font.size = Pt(13)
+    kicker_run.font.color.rgb = GRAY
+    kicker_run.bold = True
+    kicker.paragraph_format.space_after = Pt(2)
+
     title = doc.add_paragraph()
-    title.alignment = WD_ALIGN_PARAGRAPH.LEFT
-    run = title.add_run("Country Profile & Market Intelligence:")
-    run.font.size = Pt(22)
-    run.font.color.rgb = CEDARS_RED
-    run.bold = True
-    title2 = doc.add_paragraph()
-    run2 = title2.add_run(data["country"])
-    run2.font.size = Pt(30)
-    run2.font.color.rgb = CEDARS_RED
-    run2.bold = True
+    trun = title.add_run(data["country"])
+    trun.font.size = Pt(36)
+    trun.font.color.rgb = CEDARS_RED
+    trun.bold = True
+    title.paragraph_format.space_after = Pt(30)
 
     meta = doc.add_paragraph()
     meta_run = meta.add_run(
-        f"Draft generated {data.get('generated_date', '')} — "
-        f"public-source sections are agent-researched and verified; "
-        f"the CSI Assessment section requires manual completion from internal data."
+        f"Draft prepared {data.get('generated_date', '')}. Public-source "
+        f"sections were researched and independently fact-checked before "
+        f"this draft was written; the CSI Assessment section requires "
+        f"completion from Cedars-Sinai's internal data."
     )
     meta_run.italic = True
     meta_run.font.color.rgb = GRAY
+    meta_run.font.size = Pt(10)
 
     doc.add_page_break()
 
     # ---- Country Overview ----
     add_heading(doc, "Country Overview", level=1)
+    add_rule(doc)
     overview = data["research"]["country_overview"]
+
     add_heading(doc, "Population and Demographics", level=2)
-    add_fact_block(doc, overview["demographics"]["facts"])
+    add_facts_table(doc, overview["demographics"]["facts"])
     add_source_line(doc, overview["demographics"].get("sources", []))
 
     add_heading(doc, "Government", level=2)
-    doc.add_paragraph(overview["government"]["narrative"])
+    add_narrative(doc, overview["government"]["narrative"])
     add_source_line(doc, overview["government"].get("sources", []))
 
     add_heading(doc, "Economy", level=2)
-    doc.add_paragraph(overview["economy"]["narrative"])
+    add_narrative(doc, overview["economy"]["narrative"])
     add_source_line(doc, overview["economy"].get("sources", []))
 
     add_heading(doc, "Disease Prevalence", level=2)
-    add_fact_block(doc, overview["disease_prevalence"]["facts"])
+    add_facts_table(doc, overview["disease_prevalence"]["facts"])
     add_source_line(doc, overview["disease_prevalence"].get("sources", []))
 
     # ---- Health System ----
     add_heading(doc, f"{data['country']} Health System", level=1)
+    add_rule(doc)
     hs = data["research"]["health_system"]
-    for section_key, title in [
+    for section_key, title_text in [
         ("public_system", "Public Healthcare System"),
         ("private_system", "Private Healthcare System"),
         ("financing", "Healthcare Financing"),
@@ -139,60 +245,44 @@ def build_docx(data: dict, out_path: str):
         section = hs.get(section_key)
         if not section:
             continue
-        add_heading(doc, title, level=2)
-        if "facts" in section:
-            add_fact_block(doc, section["facts"])
-        if "narrative" in section:
-            doc.add_paragraph(section["narrative"])
+        add_heading(doc, title_text, level=2)
+        if section.get("facts"):
+            add_facts_table(doc, section["facts"])
+        if section.get("narrative"):
+            add_narrative(doc, section["narrative"])
         add_source_line(doc, section.get("sources", []))
 
     # ---- Recent Developments ----
     rd = data["research"].get("recent_developments", [])
     if rd:
         add_heading(doc, "Recent Developments", level=1)
+        add_rule(doc)
         for item in rd:
             p = doc.add_paragraph()
-            date_run = p.add_run(f"{item['date']} — ")
+            p.paragraph_format.space_after = Pt(2)
+            date_run = p.add_run(f"{item['date']}  ")
             date_run.bold = True
+            date_run.font.color.rgb = DARK_RED
             title_run = p.add_run(item["headline"])
-            title_run.italic = True
-            doc.add_paragraph(item["summary"])
+            title_run.bold = True
+            body = doc.add_paragraph(item["summary"])
+            body.paragraph_format.space_after = Pt(2)
             add_source_line(doc, item.get("sources", []))
-
-    # ---- Verification note ----
-    doc.add_page_break()
-    add_heading(doc, "Fact-Verification Notes", level=1)
-    v = data.get("verification_report", {})
-    doc.add_paragraph(
-        "This section is generated by a second, independent review pass whose "
-        "only job is to check every factual claim above against its cited source "
-        "and flag anything unsupported, stale, or contradicted. It is retained "
-        "in the draft for reviewer transparency and should be resolved (and then "
-        "deleted) before the profile is finalized."
-    )
-    flagged = v.get("flagged_claims", [])
-    if flagged:
-        for item in flagged:
-            p = doc.add_paragraph(style="List Bullet")
-            run = p.add_run(f"[{item.get('severity', 'flag').upper()}] ")
-            run.bold = True
-            run.font.color.rgb = PLACEHOLDER_COLOR
-            p.add_run(f"{item['claim']} — {item['issue']}")
-    else:
-        doc.add_paragraph("No unresolved flags from the verification pass.")
 
     # ---- CSI Assessment (manual) ----
     doc.add_page_break()
     add_heading(doc, "CSI Assessment", level=1)
+    add_rule(doc)
     note = doc.add_paragraph()
     note_run = note.add_run(
         "Everything below comes from Cedars-Sinai's internal data (patient "
         "referral records, finance, relationship history) and human judgment, "
-        "not from the research agent. Fields left blank are marked and must be "
-        "completed by the analyst before this profile is used."
+        "not from the research agent. Fields left blank are marked and must "
+        "be completed by the analyst before this profile is used."
     )
     note_run.italic = True
     note_run.font.color.rgb = GRAY
+    note_run.font.size = Pt(10)
 
     manual = data.get("csi_manual", {})
     manual_fields = [
@@ -206,7 +296,6 @@ def build_docx(data: dict, out_path: str):
     ]
     for key, label in manual_fields:
         add_manual_field(doc, label, manual.get(key, ""))
-        doc.add_paragraph()
 
     doc.save(out_path)
 
