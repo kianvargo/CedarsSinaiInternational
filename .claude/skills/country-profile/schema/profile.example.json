@@ -7,58 +7,43 @@
         "facts": [
           { "label": "Capital", "value": "..." },
           { "label": "Official Language", "value": "..." },
-          { "label": "Population", "value": "..." },
+          { "label": "Population", "value": "... (year)" },
           { "label": "Area", "value": "..." },
-          { "label": "GDP Total (PPP)", "value": "..." },
-          { "label": "GDP (PPP) Per Capita", "value": "..." },
+          { "label": "GDP (PPP) Total", "value": "... (year, source)" },
+          { "label": "GDP (PPP) Per Capita", "value": "... (year)" },
           { "label": "Government", "value": "..." },
           { "label": "Currency", "value": "..." }
         ],
+        "narrative": "Optional paragraph on demographic trends relevant to healthcare.",
         "sources": ["World Bank, <url>", "CIA World Factbook, <url>"]
       },
-      "government": {
-        "narrative": "...",
-        "sources": ["..."]
-      },
-      "economy": {
-        "narrative": "...",
-        "sources": ["..."]
-      },
+      "government": { "narrative": "...", "sources": ["..."] },
+      "economy": { "narrative": "...", "sources": ["..."] },
       "disease_prevalence": {
         "facts": [
           { "label": "Top causes of death", "value": "..." },
           { "label": "Top risk factors", "value": "..." }
         ],
-        "sources": ["IHME Health Data, <url>"]
+        "narrative": "Optional.",
+        "sources": ["IHME Global Burden of Disease, <url>"]
       }
     },
     "health_system": {
       "public_system": { "narrative": "...", "sources": ["..."] },
       "private_system": { "narrative": "...", "sources": ["..."] },
-      "financing": { "facts": [{ "label": "Health expenditure % GDP", "value": "..." }], "sources": ["..."] },
-      "workforce": { "facts": [{ "label": "Physicians per 1,000", "value": "..." }], "sources": ["..."] },
+      "financing": { "facts": [{ "label": "Health expenditure, % of GDP", "value": "... (year)" }], "narrative": "Optional.", "sources": ["..."] },
+      "workforce": { "facts": [{ "label": "Physicians per 1,000", "value": "... (year)" }], "narrative": "Optional.", "sources": ["..."] },
       "education": { "narrative": "...", "sources": ["..."] },
       "outlook": { "narrative": "...", "sources": ["..."] },
       "competitive_landscape": { "narrative": "...", "sources": ["..."] }
     },
     "recent_developments": [
-      {
-        "date": "YYYY-MM-DD",
-        "headline": "...",
-        "summary": "...",
-        "sources": ["..."]
-      }
+      { "date": "YYYY-MM-DD", "headline": "...", "summary": "...", "sources": ["..."] }
     ]
   },
-  "verification_report": {
-    "flagged_claims": [
-      {
-        "severity": "high",
-        "claim": "The exact claim text as drafted",
-        "issue": "Why it's flagged (no source found / source says something different / figure looks stale)"
-      }
-    ]
-  },
+  "resolution_log": [
+    "Internal record of what verification flagged and how it was resolved. Not rendered in the document."
+  ],
   "csi_manual": {
     "patient_volume_and_revenue": "",
     "referral_sources": "",

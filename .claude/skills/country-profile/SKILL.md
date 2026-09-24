@@ -21,6 +21,15 @@ strictly separate:
 
 Given a target country name (`$ARGUMENTS` or ask the user if not given):
 
+**Hand off between agents through files, not chat.** Each agent writes its
+output with the Write tool to the session scratchpad (e.g.
+`<scratchpad>/<country>_research.json`, `<country>_verify_1.json` through
+`_verify_3.json`) and returns only a short summary. Later agents read those
+files directly. The resolution agent writes the final merged JSON straight
+to `output/<country>_profile.json` in the exact schema the generator expects.
+Never retype an agent's JSON by hand: that copy step is itself a place for
+errors to slip in, and it burns tokens twice.
+
 1. **Research pass.** Spawn a research agent (Agent tool, general-purpose or
    Explore, with web search) with this brief: gather the following for
    `<country>`, each fact tagged with a source name/URL:
