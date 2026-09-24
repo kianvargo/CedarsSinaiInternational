@@ -18,6 +18,7 @@ Two kinds of content, rendered differently on purpose:
      REQUIRED]" placeholder if left blank.
 """
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -118,7 +119,9 @@ def add_source_line(doc, sources):
 def add_narrative(doc, text):
     if not text:
         return
-    doc.add_paragraph(text)
+    for para in re.split(r"\n\s*\n|\n", text):
+        if para.strip():
+            doc.add_paragraph(para.strip())
 
 
 def add_facts_table(doc, facts, columns=2):
