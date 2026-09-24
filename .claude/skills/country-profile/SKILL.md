@@ -46,17 +46,35 @@ Given a target country name (`$ARGUMENTS` or ask the user if not given):
    skill's directory. Every `facts` entry and `narrative` must have a
    `sources` list — no source, no claim.
 
-2. **Verification pass.** Spawn a *second, independent* agent — do not give
-   it the first agent's reasoning, only its JSON output plus fresh web
-   access. Its only job: for each claim in the draft, check it against the
-   cited source (or find one if missing) and flag anything that is
-   unsupported, contradicted, stale (e.g., a "recent" figure that's actually
-   old), or a claim the source doesn't actually make. This catches silent
-   fabrication that the research agent might otherwise introduce during
-   synthesis. Output a list of flagged claims with a severity and the
-   specific problem found.
+2. **Verification pass — three independent agents in parallel, not one.**
+   Spawn three separate verification agents at the same time (single message,
+   multiple Agent calls). None of them sees the others' output or reasoning —
+   each gets only the research draft and fresh web access, and re-derives its
+   own findings from scratch. This costs roughly 3x a single verifier's
+   tokens, but a single verifier missing something (as happened on both the
+   Vietnam and China runs) is exactly the failure mode this guards against:
+   independent agents checking the same claim rarely make the identical
+   mistake for the identical reason.
 
-3. **Resolution pass — do this before touching the draft.** A flag is not a
+   For any claim naming a specific institution's partnership, relationship,
+   or status (the highest reputational-risk category — this is where the
+   China run's errors were), each verifier must check that institution's own
+   primary source (its newsroom, press releases, official site) rather than
+   accepting a secondary news article or aggregator's summary as sufficient.
+   A claim like "no partnership exists" or "this joint venture ended"
+   specifically requires a primary-source check before it can be marked
+   confirmed — these are exactly the claims that turned out wrong in prior
+   runs.
+
+   Each verifier outputs the same flagged-claims format as before (severity,
+   claim, issue). Take the three outputs and apply a consensus rule: a claim
+   is only "confirmed accurate as drafted" if none of the three verifiers
+   flagged it. If even one verifier flags a claim, or the three verifiers
+   disagree with each other about what the correct claim should be, it goes
+   to the resolution pass below, same as a single-verifier flag would have.
+
+3. **Resolution pass — do this before touching the draft.** A flag from any
+   of the three verifiers (or a disagreement between them) is not a
    correction. Two things can be flagged and they need different handling:
    - *Outright wrong* (no source supports it, or the source says something
      different): just fix it — replace the claim with what the source
