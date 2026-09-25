@@ -11,7 +11,7 @@
           },
           {
             "label": "Official languages",
-            "value": "Hindi and English are the official languages of the Union; the Constitution's Eighth Schedule lists 22 scheduled languages{{12}}"
+            "value": "Hindi is the official language of the Union, and Parliament has provided by law for the continued official use of English; the Eighth Schedule of the Constitution lists 22 languages{{12}}{{18}}"
           },
           {
             "label": "Population",
@@ -31,19 +31,19 @@
           },
           {
             "label": "Government type",
-            "value": "Federal parliamentary democratic republic{{12}}"
+            "value": "Parliamentary democratic republic with a federal structure; the Constitution describes India as a Union of States{{12}}{{18}}"
           },
           {
             "label": "Head of state",
-            "value": "President Droupadi Murmu (in office since 25 July 2022){{13}}"
+            "value": "President Droupadi Murmu (sworn in on 25 July 2022){{13}}"
           },
           {
             "label": "Head of government",
-            "value": "Prime Minister Narendra Modi (in office since 2014, third term since June 2024){{12}}{{13}}"
+            "value": "Prime Minister Narendra Modi (in office since 2014; sworn in for a third term on 9 June 2024){{16}}"
           },
           {
             "label": "Currency",
-            "value": "Indian rupee (INR){{12}}"
+            "value": "Indian rupee (INR){{17}}"
           },
           {
             "label": "Urban population",
@@ -62,7 +62,7 @@
             "value": "10.5% (2022), projected to reach 20.8% by 2050 (UNFPA India Ageing Report 2023){{6}}{{7}}"
           }
         ],
-        "narrative": "India is in the middle of a fast and uneven demographic transition. The UN estimates the population at about 1.46 billion in 2025 and projects a peak of roughly 1.7 billion in the early 2060s.{{1}}{{2}} Fertility has already dropped below replacement.{{3}}{{4}} The Registrar General's Sample Registration System Statistical Report 2024, released in May 2026, puts the national total fertility rate at 1.9 for 2024, and every state except six in the north (Bihar, Uttar Pradesh, Madhya Pradesh, Rajasthan, Chhattisgarh and Jharkhand) is now below the replacement level of 2.1.{{3}}{{4}}{{5}} The regional spread is wide, from 2.9 in Bihar to 1.2 in Delhi, with Kerala, Tamil Nadu and West Bengal at 1.3.{{3}}{{5}}\n\nThat gap effectively gives India two demographic profiles. Southern and western states such as Kerala and Tamil Nadu are ageing quickly, and UNFPA expects their share of people aged 60 and over to pass 20 percent by 2036.{{7}} The high-fertility northern states remain comparatively young and still carry heavy maternal and child health needs, even as national infant mortality has fallen to 24 per 1,000 live births in 2024 from 30 in 2019.{{4}} Nationally, UNFPA projects the 60-plus share to roughly double from 10.5 percent in 2022 to 20.8 percent by 2050.{{6}}{{7}} Urbanisation is still moderate at about 36 percent in 2025 (World Bank), but tertiary and quaternary care is concentrated in the metros, and patients travel long distances to reach it.{{8}}{{11}}\n\nDenominators are also about to change. The Census of 2027, the first since 2011, began house-listing in April 2026 and will enumerate the population in February 2027 against a reference date of 1 March 2027.{{14}}{{15}} Until then, most per-capita health indicators rest on projections. For a foreign academic medical center, the ageing, NCD-heavy south and west (Mumbai, Bengaluru, Chennai, Hyderabad, Kochi) and the National Capital Region are the most natural markets for high-acuity collaboration, while the younger northern states are better suited to public-health and capacity-building work.",
+        "narrative": "India's population was about 1.46 billion in 2025, and the UN projects a peak of about 1.7 billion in the early 2060s.{{1}}{{15}} The Sample Registration System puts the total fertility rate at 1.9 in 2024, below replacement in every state except six in the north: Bihar, Uttar Pradesh, Madhya Pradesh, Rajasthan, Chhattisgarh and Jharkhand.{{3}}{{4}}{{5}} State rates ranged in 2024 from 2.9 in Bihar to 1.2 in Delhi.{{3}}{{5}}\n\nIndia therefore has two demographic profiles. UNFPA expects the 60-plus share to pass 20 percent by 2036 in southern states such as Kerala and Tamil Nadu, and nationally to rise from 10.5 percent in 2022 to 20.8 percent by 2050.{{6}}{{7}} The northern states remain younger, with heavy maternal and child health needs, although national infant mortality fell to 24 per 1,000 live births in 2024 from 30 in 2019.{{4}}\n\nThe Census of 2027, the first since 2011, began house-listing in April 2026 and will enumerate the population in February 2027.{{14}} For a foreign academic medical center, the ageing south and west and the National Capital Region are the most natural markets for high-acuity collaboration, while the younger northern states suit public-health and capacity-building work.",
         "sources": [
           {
             "author": "Business Standard",
@@ -142,18 +142,18 @@
             "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.PP.CD?format=json"
           },
           {
-            "author": "Wikipedia contributors",
-            "title": "India",
-            "publisher": "Wikipedia",
+            "author": "Embassy of India, Khartoum",
+            "title": "India at a Glance",
+            "publisher": "Ministry of External Affairs, Government of India",
             "date": "",
-            "url": "https://en.wikipedia.org/wiki/India"
+            "url": "https://www.eoikhartoum.gov.in/india-at-a-glance.php"
           },
           {
-            "author": "Wikipedia contributors",
-            "title": "Presidency of Droupadi Murmu",
-            "publisher": "Wikipedia",
+            "author": "President's Secretariat, Government of India",
+            "title": "Profile of the President",
+            "publisher": "President of India",
             "date": "",
-            "url": "https://en.wikipedia.org/wiki/Presidency_of_Droupadi_Murmu"
+            "url": "https://www.presidentofindia.gov.in/Profile"
           },
           {
             "author": "Press Information Bureau, Government of India",
@@ -163,30 +163,44 @@
             "url": "https://www.pib.gov.in/PressReleasePage.aspx?lang=1&PRID=2246847&reg=3"
           },
           {
-            "author": "Wikipedia contributors",
-            "title": "2027 census of India",
-            "publisher": "Wikipedia",
+            "author": "Press Trust of India",
+            "title": "India's population to peak in early 2060s to 1.7 billion before declining: United Nations",
+            "publisher": "The Tribune",
+            "date": "12 July 2024",
+            "url": "https://www.tribuneindia.com/news/india/indias-population-to-peak-in-early-2060s-to-1-7-billion-before-declining-un-639130/"
+          },
+          {
+            "author": "Prime Minister's Office, Government of India",
+            "title": "Know the PM",
+            "publisher": "PM India",
             "date": "",
-            "url": "https://en.wikipedia.org/wiki/2027_census_of_India"
+            "url": "https://www.pmindia.gov.in/en/pms-profile/"
+          },
+          {
+            "author": "Reserve Bank of India",
+            "title": "Indian Currency (FAQs, updated as on April 15, 2025)",
+            "publisher": "Reserve Bank of India",
+            "date": "15 April 2025",
+            "url": "https://www.rbi.org.in/commonman/Upload/English/FAQs/PDFs/INDIANCURRENCY15042025.pdf"
+          },
+          {
+            "author": "Legislative Department, Ministry of Law and Justice, Government of India",
+            "title": "The Constitution of India (as on 1st May, 2024)",
+            "publisher": "Legislative Department",
+            "date": "1 May 2024",
+            "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
           }
         ]
       },
       "government": {
-        "narrative": "India is a federal parliamentary republic.{{9}} The President is the constitutional head of state, and executive power sits with the Prime Minister and the Union Council of Ministers, who answer to Parliament.{{9}} Narendra Modi has been Prime Minister since 2014 and began a third term in June 2024, and Droupadi Murmu has been President since July 2022.{{8}}{{9}} For health, the key feature is the constitutional division of powers. Entry 6 of the State List in the Seventh Schedule, 'public health and sanitation; hospitals and dispensaries', makes health care delivery a state responsibility.{{1}}{{2}} Education, including medical education, sits on the Concurrent List, where Union law prevails when the two conflict.{{1}} In practice, the Union shapes the system through money and regulation. It funds and designs flagship schemes such as the National Health Mission and Ayushman Bharat PM-JAY, it regulates medical education through the National Medical Commission, and it steers state priorities through Finance Commission grants.{{3}} The Fifteenth Finance Commission, for example, earmarked about Rs 70,051 crore in health grants through local governments for FY2021-22 to FY2025-26.{{3}} States still decide whether and how to take part. Odisha and Delhi joined PM-JAY only in 2025, and West Bengal signed on in June 2026, which completed nationwide rollout.{{4}}{{5}}{{6}} Several states also run their own insurance schemes alongside it. For a foreign partner, this means the relevant counterparty is often a state government rather than New Delhi. Cleveland Clinic's June 2026 MediCity memorandum, for instance, was signed with the Government of Maharashtra.{{7}} Regulation, land allocation, scheme empanelment and public-hospital collaboration all vary state by state, so market entry needs to be planned at state level.",
+        "narrative": "India is a parliamentary democratic republic with a federal structure.{{7}}{{1}} The President is head of state, and executive power rests with the Prime Minister and the Council of Ministers, who are collectively responsible to the Lok Sabha.{{1}}{{7}}\n\nHealth care delivery is a state responsibility: 'public health and sanitation; hospitals and dispensaries' is Entry 6 of the State List in the Seventh Schedule.{{1}} Medical education sits on the Concurrent List, where Union law prevails in a conflict.{{1}} The Union shapes the system through money and regulation; the Fifteenth Finance Commission, for example, earmarked about Rs 70,051 crore in health grants through local governments for FY2021-22 to FY2025-26.{{2}} States decide whether to join Union schemes: Odisha and Delhi adopted PM-JAY in 2025, and West Bengal's entry in June 2026 completed nationwide rollout.{{3}}{{4}}{{5}} Several states also finance their own health insurance schemes.{{8}} For a foreign partner, the counterparty is often a state government; Cleveland Clinic's June 2026 MediCity MoU, for example, was signed with the Government of Maharashtra.{{6}}",
         "sources": [
           {
-            "author": "Wikipedia contributors",
-            "title": "Seventh Schedule to the Constitution of India",
-            "publisher": "Wikipedia",
-            "date": "",
-            "url": "https://en.wikipedia.org/wiki/Seventh_Schedule_to_the_Constitution_of_India"
-          },
-          {
-            "author": "Prepp",
-            "title": "\"Public health and sanitation; hospitals and dispensaries\" is listed in the ________ list given in the Seventh Schedule in the Constitution of India.",
-            "publisher": "",
-            "date": "",
-            "url": "https://prepp.in/question/public-health-and-sanitation-hospitals-and-dispen-645ddd980ea67d595b114597"
+            "author": "Legislative Department, Ministry of Law and Justice, Government of India",
+            "title": "The Constitution of India (as on 1st May, 2024)",
+            "publisher": "Legislative Department",
+            "date": "1 May 2024",
+            "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
           },
           {
             "author": "Ministry of Health and Family Welfare, Government of India",
@@ -224,23 +238,23 @@
             "url": "https://www.freepressjournal.in/mumbai/maharashtra-signs-mou-with-cleveland-clinic-and-brookfield-for-navi-mumbai-international-medicity-indias-first-global-scale-healthcare-hub"
           },
           {
-            "author": "Wikipedia contributors",
-            "title": "Presidency of Droupadi Murmu",
-            "publisher": "Wikipedia",
+            "author": "Embassy of India, Khartoum",
+            "title": "India at a Glance",
+            "publisher": "Ministry of External Affairs, Government of India",
             "date": "",
-            "url": "https://en.wikipedia.org/wiki/Presidency_of_Droupadi_Murmu"
+            "url": "https://www.eoikhartoum.gov.in/india-at-a-glance.php"
           },
           {
-            "author": "Wikipedia contributors",
-            "title": "India",
-            "publisher": "Wikipedia",
-            "date": "",
-            "url": "https://en.wikipedia.org/wiki/India"
+            "author": "National Health Accounts Technical Secretariat, National Health Systems Resource Centre, Ministry of Health and Family Welfare, Government of India",
+            "title": "National Health Accounts Estimates for India 2022-23",
+            "publisher": "",
+            "date": "2026",
+            "url": "https://nhsrcindia.org/sites/default/files/2026-05/NHA%202022-23%20Report.pdf"
           }
         ]
       },
       "economy": {
-        "narrative": "India is the fastest-growing large economy. Provisional estimates from the National Statistics Office, released on 5 June 2026, put real GDP growth for FY2025-26 at 7.7 percent, up from 7.1 percent in FY2024-25, with growth of 7.8 percent in the January to March quarter.{{1}} Nominal GDP for the year is estimated at about Rs 346 lakh crore.{{1}} Momentum carried into the new fiscal year: estimates released on 31 August 2026 show real growth of 7.8 percent in April to June 2026.{{2}} These figures use a new national accounts series with base year 2022-23, introduced on 27 February 2026 to replace the 2011-12 base, so growth rates are not strictly comparable with older publications.{{1}}{{3}} In purchasing-power terms the World Bank puts 2025 GDP at about US$17.2 trillion, or about US$11,748 per person.{{4}}{{5}} India is therefore a very large but still lower-middle-income market, where a relatively small affluent and insured segment drives demand for premium care.\n\nThe economy is increasingly exposed to US trade policy, and the tariff regime facing Indian exporters has changed several times in a year. Washington raised tariffs on most Indian goods to 50 percent from 27 August 2025 over India's purchases of Russian oil.{{6}} After President Trump announced a trade understanding on 2 February 2026, a joint statement on 6 February set out a framework for an interim agreement with an 18 percent reciprocal rate, and the 25 percent Russian-oil penalty was removed.{{7}}{{16}} On 20 February 2026 the US Supreme Court struck down the emergency-powers (IEEPA) tariffs on which those rates rested.{{8}}{{9}} After a temporary 10 percent global tariff, most Indian goods have faced a 10 percent Section 301 duty since 24 July 2026.{{8}}{{9}} Generic pharmaceuticals remain tied to a US Section 232 investigation, and on 18 September 2026 President Trump signed the Lindsey O. Graham Sanctioning Russia and Iran Act, which lets him impose, but does not trigger, tariffs of up to 100 percent on the largest buyers of Russian energy, with India and China the most exposed.{{10}}{{11}}{{12}} This matters for health because pharmaceuticals are a major export: Pharmexcil data show record exports of US$31.1 billion in FY2025-26, of which the United States took about US$9.5 billion, roughly 30 percent, down nearly 10 percent on the year before.{{13}}\n\nOn the fiscal side, the Union Budget 2026-27 gave the Health Ministry Rs 1,06,530 crore, nearly 10 percent above the previous year's revised estimate, and announced support for five regional medical hubs built with states and private investors.{{14}}{{15}}",
+        "narrative": "The IMF's July 2026 World Economic Outlook Update describes India as among the fastest-growing major economies, with growth projected at 6.4 percent in FY2026-27.{{14}} Official provisional estimates put real GDP growth at 7.7 percent in FY2025-26, up from 7.1 percent a year earlier, and at 7.8 percent in April to June 2026.{{1}}{{2}} The World Bank puts 2025 GDP at about US$17.2 trillion in purchasing-power terms, or about US$11,748 per person.{{3}}{{4}} India is therefore a very large market in which a relatively small affluent and insured segment drives demand for premium care.\n\nUS trade policy is a major risk. The US raised tariffs on most Indian goods to 50 percent from 27 August 2025 over Russian oil purchases.{{5}} After the US Supreme Court struck down the IEEPA tariffs on 20 February 2026, most Indian goods have faced a 10 percent Section 301 duty since 24 July 2026.{{6}}{{7}} Generic pharmaceuticals remain under a Section 232 investigation, and a law signed on 18 September 2026 lets the President impose tariffs of up to 100 percent on the largest buyers of Russian energy, with India among the most exposed.{{8}}{{9}}{{10}} The United States took about US$9.5 billion of India's record US$31.1 billion in pharmaceutical exports in FY2025-26.{{11}}\n\nThe Union Budget 2026-27 gave the Health Ministry Rs 1,06,530 crore, nearly 10 percent above the previous year's revised estimate, and backed five regional medical hubs built with states and private investors.{{12}}{{13}}",
         "sources": [
           {
             "author": "National Statistics Office, Ministry of Statistics and Programme Implementation, Government of India",
@@ -255,13 +269,6 @@
             "publisher": "",
             "date": "31 August 2026",
             "url": "https://www.mospi.gov.in/uploads/latestReleases/latest_release_1788172583113_d65a77cf-240e-4491-82ee-59f78618fa41_Press_Note_on_GDP_Estimates_for_Q1_2026-27.pdf"
-          },
-          {
-            "author": "National Statistics Office, Ministry of Statistics and Programme Implementation, Government of India",
-            "title": "Press Note on New Series of GDP Estimates with Base Year 2022-23",
-            "publisher": "",
-            "date": "27 February 2026",
-            "url": "https://www.mospi.gov.in/uploads/latestReleases/latest_release_1772189865181_f040336d-bc57-4aed-b80f-586d9ccb279e_Press_Note_on_New_Series_of_GDP_Estimates_with_Base_Year_2022-23_27022026.pdf"
           },
           {
             "author": "World Bank",
@@ -283,13 +290,6 @@
             "publisher": "",
             "date": "27 August 2025",
             "url": "https://www.aljazeera.com/news/2025/8/27/us-imposes-50-percent-tariff-on-india-over-russian-oil-purchases"
-          },
-          {
-            "author": "The White House",
-            "title": "United States-India Joint Statement",
-            "publisher": "",
-            "date": "6 February 2026",
-            "url": "https://www.whitehouse.gov/briefings-statements/2026/02/united-states-india-joint-statement/"
           },
           {
             "author": "Akashvani News",
@@ -348,11 +348,11 @@
             "url": "https://www.business-standard.com/budget/news/govt-to-support-five-regional-medical-tourism-hubs-126020100321_1.html"
           },
           {
-            "author": "India Briefing",
-            "title": "What's in the India-US Trade Deal? Tariffs and Import Targets",
-            "publisher": "",
-            "date": "6 February 2026",
-            "url": "https://www.india-briefing.com/news/india-us-trade-deal-tariff-cuts-timeline-42471.html/"
+            "author": "International Monetary Fund",
+            "title": "World Economic Outlook Update, July 2026: Global Economy in Crosscurrents of War and Technology",
+            "publisher": "International Monetary Fund",
+            "date": "8 July 2026",
+            "url": "https://www.imf.org/-/media/files/publications/weo/2026/update/july/english/text.pdf"
           }
         ]
       },
@@ -368,34 +368,34 @@
           },
           {
             "label": "Circulatory diseases, share of medically certified deaths",
-            "value": "38.8% (2024, Medical Certification of Cause of Death report; certified deaths were 23.1% of all registered deaths){{6}}"
+            "value": "38.8% (2024, Medical Certification of Cause of Death report; certified deaths were 23.1% of all registered deaths){{5}}"
           },
           {
             "label": "Diabetes and prediabetes",
-            "value": "About 101 million people with diabetes (11.4%) and 136 million with prediabetes (15.3%) (ICMR-INDIAB, fieldwork 2008 to 2020, published 2023){{7}}"
+            "value": "About 101 million people with diabetes (11.4%) and 136 million with prediabetes (15.3%) (ICMR-INDIAB, fieldwork 2008 to 2020, published 2023){{6}}"
           },
           {
             "label": "Hypertension, adults 15 and over",
-            "value": "24.0% of men and 21.3% of women (NFHS-5, 2019 to 2021){{12}}"
+            "value": "24.0% of men and 21.3% of women (NFHS-5, 2019 to 2021){{11}}"
           },
           {
             "label": "Anaemia, women aged 15 to 49",
-            "value": "57% (NFHS-5, 2019 to 2021){{13}}"
+            "value": "57% (NFHS-5, 2019 to 2021){{12}}"
           },
           {
             "label": "New cancer cases",
-            "value": "About 1.53 million estimated (2024, ICMR National Cancer Registry Programme){{14}}"
+            "value": "About 1.53 million estimated (2024, ICMR National Cancer Registry Programme){{13}}"
           },
           {
             "label": "Tuberculosis",
-            "value": "About 25% of global TB cases; incidence 187 per 100,000 (2024, WHO Global TB Report 2025){{16}}{{17}}"
+            "value": "About 25% of global TB cases; incidence 187 per 100,000 (2024, WHO Global TB Report 2025){{15}}{{16}}"
           },
           {
             "label": "Deaths attributable to air pollution",
-            "value": "About 2.1 million (2021, State of Global Air 2024){{10}}{{11}}"
+            "value": "About 2.1 million (2021, State of Global Air 2024){{9}}{{10}}"
           }
         ],
-        "narrative": "Non-communicable diseases now dominate India's disease burden, but communicable, maternal and nutritional conditions have not gone away.{{4}} The ICMR, PHFI and IHME State-Level Disease Burden Initiative found that the NCD share of deaths rose from 37.9 percent in 1990 to 61.8 percent in 2016, and WHO estimates it at 66 percent in 2019.{{3}}{{1}} According to WHO's Global Health Observatory, a 30-year-old Indian had a 23.6 percent chance in 2021 of dying before 70 from cardiovascular disease, cancer, diabetes or chronic respiratory disease, roughly one in four and among the higher rates in Asia.{{2}} According to IHME's Global Burden of Disease work, ischaemic heart disease is the leading cause of death, followed by stroke and COPD.{{5}} The official Medical Certification of Cause of Death report attributes 38.8 percent of certified deaths in 2024 to circulatory disease, but only 23.1 percent of registered deaths were medically certified, which shows how thin the vital-statistics base remains.{{6}}\n\nMetabolic risk is very high. ICMR-INDIAB estimates 101 million people with diabetes and another 136 million with prediabetes.{{7}} GBD analyses rank air pollution, high blood pressure, dietary risks, high fasting plasma glucose and tobacco as leading risk factors, and the State of Global Air 2024 report attributes about 2.1 million Indian deaths in 2021 to air pollution.{{8}}{{9}}{{10}}{{11}} ICMR projects cancer cases to keep rising, led by oral and lung cancer in men and breast and cervical cancer in women.{{15}}{{14}}\n\nAlongside this NCD burden, India still accounted for about a quarter of the world's TB cases in 2024, although WHO credits it with a 21 percent fall in incidence since 2015, and 57 percent of women aged 15 to 49 are anaemic.{{16}}{{17}}{{13}} The government's response has been population-level NCD screening through its 75/25 initiative.{{18}} For a foreign academic partner, the demand is clearest in cardiology, oncology, metabolic and transplant medicine, and pulmonary and environmental health research.",
+        "narrative": "Non-communicable diseases now dominate India's disease burden.{{4}} The NCD share of deaths rose from 37.9 percent in 1990 to 61.8 percent in 2016 and was 66 percent in 2019, according to WHO.{{3}}{{1}} A 30-year-old Indian had a 23.6 percent chance in 2021 of dying before 70 from one of the four main NCDs.{{2}} Circulatory disease caused 38.8 percent of medically certified deaths in 2024, but only 23.1 percent of registered deaths were certified.{{5}}\n\nICMR-INDIAB, published in 2023, estimated 101 million people with diabetes and 136 million with prediabetes.{{6}} Air pollution, high blood pressure, diet, high fasting plasma glucose and tobacco are leading risk factors, and air pollution was linked to about 2.1 million deaths in 2021.{{7}}{{8}}{{9}}{{10}} ICMR expects cancer cases, about 1.53 million in 2024, to keep rising, led by oral and lung cancer in men and breast and cervical cancer in women.{{13}}{{14}}\n\nIndia had about a quarter of the world's TB cases in 2024 despite a 21 percent fall in incidence since 2015, and 57 percent of women aged 15 to 49 were anaemic in 2019-21.{{15}}{{16}}{{12}} For a foreign academic partner, demand is clearest in cardiology, oncology, metabolic and transplant medicine, and pulmonary research.",
         "sources": [
           {
             "author": "The Federal",
@@ -424,13 +424,6 @@
             "publisher": "Indian Council of Medical Research",
             "date": "14 November 2017",
             "url": "https://www.icmr.gov.in/icmrobject/custom_data/1702896954_indiastate-leveldiseaseburdeninitiative_pressrelease_sldbi_14nov17.pdf"
-          },
-          {
-            "author": "Think Global Health",
-            "title": "India's Call for Action on Noncommunicable Diseases",
-            "publisher": "Council on Foreign Relations",
-            "date": "3 July 2024",
-            "url": "https://www.thinkglobalhealth.org/article/indias-call-action-noncommunicable-diseases"
           },
           {
             "author": "The South First",
@@ -515,20 +508,13 @@
             "publisher": "",
             "date": "13 November 2025",
             "url": "https://www.business-standard.com/health/india-tops-global-tb-burden-2024-who-report-125111300014_1.html"
-          },
-          {
-            "author": "Press Information Bureau, Government of India",
-            "title": "Update on \"75/25\" Initiative",
-            "publisher": "",
-            "date": "11 March 2025",
-            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2110390"
           }
         ]
       }
     },
     "health_system": {
       "public_system": {
-        "narrative": "India's public system is built in tiers. At the base are sub-health centres, primary health centres and urban primary health centres, many of which have been upgraded into Ayushman Arogya Mandirs (formerly Health and Wellness Centres).{{1}}{{2}} Above them are community health centres, district hospitals, state medical college hospitals, and national institutes such as the AIIMS network, PGIMER Chandigarh and Tata Memorial Centre.{{1}}{{6}} By 30 November 2025 the Health Ministry reported 1,81,873 operational Ayushman Arogya Mandirs offering an expanded package of 12 services, including NCD screening and teleconsultation.{{1}}\n\nThe main financing and operating vehicle is the National Health Mission, which receives Rs 39,390 crore in the 2026-27 Union budget, supplemented by Rs 4,770 crore for the PM-Ayushman Bharat Health Infrastructure Mission.{{3}} The demand-side counterpart is Ayushman Bharat PM-JAY, a tax-funded scheme that pays for up to Rs 5 lakh of hospital care per family per year across 1,961 procedures, delivered through more than 38,000 public and private empanelled hospitals.{{4}}{{5}} Coverage was extended in September 2024 to everyone aged 70 and over, regardless of income.{{5}} By its eighth anniversary in September 2026, PM-JAY had funded 13.25 crore hospital admissions worth Rs 2.03 lakh crore, and 48.5 crore Ayushman cards had been issued.{{4}}{{5}}\n\nThe public system's main weakness is capacity. The Health Ministry counted 8,18,661 beds in public facilities from primary health centres up to medical colleges as of 31 March 2023, which works out to fewer than 0.6 beds per 1,000 people, against the National Health Policy 2017 norm of 2 per 1,000.{{6}} That count leaves out some other government hospitals, but on any measure public bed supply is well under one per 1,000 people, and far thinner in Bihar and Uttar Pradesh.{{6}}{{7}} Public care is much cheaper, though. The NSO's 2025 survey found average out-of-pocket spending of Rs 6,631 per hospitalisation, excluding childbirth, in public hospitals, against Rs 50,508 in private hospitals and Rs 34,064 across all facilities.{{8}}{{9}} For a foreign academic center, the public apex institutions are the natural partners for research, training and protocol work, while PM-JAY's tariffs set the price floor that private partners compete against.",
+        "narrative": "India's public system is tiered. Sub-health centres and primary health centres, many upgraded into Ayushman Arogya Mandirs, feed community health centres, district hospitals, state medical college hospitals and national institutes such as AIIMS, PGIMER Chandigarh and Tata Memorial Centre.{{1}}{{2}}{{6}} The Health Ministry reported 1,81,873 operational Ayushman Arogya Mandirs by 30 November 2025, offering 12 service packages including NCD screening and teleconsultation.{{1}}\n\nThe 2026-27 Union budget gives the National Health Mission Rs 39,390 crore and the PM-Ayushman Bharat Health Infrastructure Mission Rs 4,770 crore.{{3}} PM-JAY, a tax-funded scheme, pays for up to Rs 5 lakh of hospital care per family per year across 1,961 procedures at more than 38,000 empanelled public and private hospitals, and since September 2024 it has covered everyone aged 70 and over.{{4}}{{5}}\n\nCapacity is the main weakness. Public facilities from primary health centres to medical colleges had 8,18,661 beds on 31 March 2023, fewer than 0.6 per 1,000 people against the National Health Policy 2017 norm of 2, and supply is far thinner in Bihar and Uttar Pradesh.{{6}}{{7}} Public care is much cheaper: average out-of-pocket spending per hospitalisation, excluding childbirth, was Rs 6,631 in public hospitals in 2025, against Rs 50,508 in private hospitals.{{8}}{{9}} For a foreign academic center, public apex institutions suit research, training and protocol work, while PM-JAY tariffs set the price floor that private partners compete against.",
         "sources": [
           {
             "author": "Press Information Bureau, Government of India",
@@ -596,21 +582,14 @@
         ]
       },
       "private_system": {
-        "narrative": "Private providers deliver most of India's specialist and hospital care, and they are consolidating fast. The NSO's 2025 household health survey found that treating the same illness costs five to ten times more in a private hospital than in a government one.{{1}} The average out-of-pocket bill for a hospital stay, excluding childbirth, was Rs 50,508 in private hospitals against Rs 6,631 in public ones, and the median was Rs 24,000 against Rs 1,100.{{2}}\n\nThe corporate chains are growing through acquisition and greenfield projects. Manipal Hospitals reported 49 hospitals and 13,037 licensed beds as of 31 March 2026, up from 33 hospitals and 9,520 beds two years earlier after it bought AMRI, Medica and Sahyadri.{{3}} It listed on the stock exchanges on 5 August 2026 after a Rs 9,275 crore IPO that was subscribed nearly five times.{{4}} Apollo Hospitals reports 10,970 beds in 78 hospitals in India and overseas as of March 2026, a total that counts owned and managed hospitals as well as day-surgery and cradle units.{{5}}{{6}} The merger of Aster DM Healthcare with Blackstone-backed Quality Care India took effect in July 2026 and created Aster DM Quality Care, with 39 hospitals in 28 cities and more than 10,600 beds under the Aster, CARE, Evercare and KIMSHEALTH brands.{{7}}{{8}} Max Healthcare had 4,966 operational beds at 31 March 2026 and aims for 10,000 by FY2030, and Medanta had about 3,665 installed beds across six hospitals after adding 623 in FY2025-26.{{11}}{{12}}{{9}} Malaysia's IHH Healthcare has controlled Fortis since 2018 with about 31.17 percent.{{13}} Its long-delayed mandatory open offer closed in November 2025 with only 1,778 shares tendered, so the stake is essentially unchanged.{{13}} Narayana Health entered the UK in October 2025 by buying Practice Plus Group's hospitals.{{14}}\n\nAn EY-Parthenon review of FY2025-26, published in July 2026, found revenue and EBITDA growth above 15 percent at leading operators, occupancy mostly between 60 and 75 percent, and large pipelines: about 3,400 new beds at Apollo between FY2027 and FY2030, about 2,700 at Medanta over three to four years, about 1,800 at Fortis and roughly 4,445 at Aster DM Quality Care.{{15}}{{16}} Global private equity (Blackstone, KKR) is an active consolidator.{{7}}{{17}} For a foreign academic medical center, these chains are the most likely commercial counterparties for affiliations, second-opinion services and clinical program development, and each is actively looking for differentiation in high-acuity specialties.",
+        "narrative": "Private hospitals handled 57.9 percent of rural and 64.6 percent of urban hospitalisations in 2025, according to the NSS 80th round, counting those empanelled under government schemes.{{1}}\n\nThe corporate chains are consolidating. Manipal Hospitals reported 49 hospitals and 13,037 licensed beds at 31 March 2026, up from 33 hospitals and 9,520 beds two years earlier, and listed in August 2026.{{2}}{{3}} Apollo Hospitals reported 10,970 beds in 78 hospitals in India and overseas at March 2026, including managed hospitals and day-surgery and cradle units.{{4}}{{5}} Aster DM Quality Care, formed by the July 2026 merger of Aster DM Healthcare with Blackstone-backed Quality Care India, has 39 hospitals and more than 10,600 beds.{{6}}{{7}} Max Healthcare had 4,966 operational beds at 31 March 2026 and aims to nearly double bed capacity in five years, and Medanta had about 3,665 installed beds after adding 623 in FY2025-26.{{9}}{{10}}{{8}} IHH Healthcare held about 31.17 percent of Fortis in November 2025.{{11}}\n\nEY-Parthenon found revenue and EBITDA growth above 15 percent at leading operators in FY2025-26, occupancy mostly between 60 and 75 percent, and large bed pipelines.{{12}}{{13}} KKR agreed in August 2026 to buy Medicover India.{{14}} For a foreign academic medical center, these chains are the most likely commercial counterparties for affiliations, second-opinion services and clinical program development.",
         "sources": [
           {
-            "author": "Down To Earth",
-            "title": "Private hospitals cost up to 10 times more than government facilities for same illnesses, NSO survey finds",
-            "publisher": "",
-            "date": "5 May 2026",
-            "url": "https://www.downtoearth.org.in/health/private-hospitals-cost-up-to-10-times-more-than-government-facilities-for-same-illnesses-nso-survey-finds"
-          },
-          {
-            "author": "National Statistics Office, Ministry of Statistics and Programme Implementation, Government of India",
-            "title": "Press Note on Survey on Household Social Consumption: Health, NSS 80th Round (January-December, 2025)",
-            "publisher": "",
-            "date": "2026",
-            "url": "https://www.mospi.gov.in/uploads/release_calendar/1776681150721_PRESS_NOTE_HEALTH_REVISED.pdf"
+            "author": "Oommen C. Kurian",
+            "title": "India's 2025 National Health Survey Update: Higher Access, Persistent Financial Risk",
+            "publisher": "Observer Research Foundation",
+            "date": "13 May 2026",
+            "url": "https://www.orfonline.org/expert-speak/india-s-2025-national-health-survey-update-higher-access-persistent-financial-risk"
           },
           {
             "author": "Groww",
@@ -662,25 +641,18 @@
             "url": "https://www.indianpharmapost.com/hospitals/lite/medanta-delivers-record-fy26-performance-as-revenue-surges-profit-jumps-with-expansion-20233"
           },
           {
-            "author": "Business Standard",
-            "title": "Max Healthcare Institute Q4FY26 network PAT rises 3% to Rs 387 crore",
-            "publisher": "",
+            "author": "Max Healthcare Institute Limited",
+            "title": "Earnings update: Q4 & FY26 (filed with the stock exchanges under Regulation 30, SEBI LODR)",
+            "publisher": "Max Healthcare Institute Limited",
             "date": "21 May 2026",
-            "url": "https://www.business-standard.com/companies/quarterly-results/max-healthcare-institute-q4fy26-network-pat-rises-3-to-387-crore-126052101481_1.html"
+            "url": "https://max-website20-images.s3.ap-south-1.amazonaws.com/SE_Intimation_Reg_30_LODR_Earnings_Update_21_05_2026_ed3cd6e592.pdf"
           },
           {
-            "author": "InvestyWise",
-            "title": "Max Healthcare Q4 FY26 Revenue Rises 10% YoY to Rs 2,664 Crore",
-            "publisher": "",
-            "date": "21 May 2026",
-            "url": "https://www.investywise.com/max-healthcare-reports-strong-q4-and-fy26-financial-growth/"
-          },
-          {
-            "author": "Whalesbook",
-            "title": "Max Healthcare FY26 Revenue at Rs 10,538 crore, eyes 10,000 beds by FY30",
-            "publisher": "",
-            "date": "5 August 2026",
-            "url": "https://www.whalesbook.com/corporate-news/English/healthcarebiotech/Max-Healthcare-FY26-Revenue-at-indian-rupee10538-crore-eyes-10000-beds-by-FY30/6a73792c10bce1fd203ff7d1"
+            "author": "Max Healthcare Institute Limited",
+            "title": "Pushing the Boundaries of Indian Healthcare: Integrated Annual Report 2025-26",
+            "publisher": "Max Healthcare Institute Limited",
+            "date": "2026",
+            "url": "https://max-website20-images.s3.ap-south-1.amazonaws.com/FY_2025_26_Integrated_Annual_Report_ab5f34d431.pdf"
           },
           {
             "author": "InvestyWise",
@@ -688,13 +660,6 @@
             "publisher": "",
             "date": "10 November 2025",
             "url": "https://www.investywise.com/fortis-healthcare-results-of-open-offers/"
-          },
-          {
-            "author": "Narayana Health",
-            "title": "Narayana Health Expands Its Global Footprint With Acquisition Of UK Based Practice Plus Group Hospitals",
-            "publisher": "",
-            "date": "31 October 2025",
-            "url": "https://www.narayanahealth.org/news-media/narayana-health-expands-its-global-footprint-with-acquisition-of-UK-based-practice-plus-group-Hospitals"
           },
           {
             "author": "EY India",
@@ -762,7 +727,7 @@
             "value": "Government health spending of 2.5% of GDP by 2025 (National Health Policy 2017; also recommended by the Fifteenth Finance Commission){{9}}"
           }
         ],
-        "narrative": "India spends little on health relative to its income, and households still pay a large share directly. The tenth round of National Health Accounts, covering 2022-23 and released in May 2026, puts total health expenditure at 3.37 percent of GDP on the new GDP series, or Rs 6,373 per person.{{1}}{{2}}{{3}} Government spending reached 1.48 percent of GDP on the same series.{{1}} On the old 2011-12 series the two ratios are 3.28 and 1.43 percent.{{1}}{{4}} Either way, government spending is far short of the 2.5 percent target set by the National Health Policy 2017 for 2025.{{9}} Over the decade the trend has been positive: the government share of total spending rose from 28.6 percent in 2013-14 to 43.7 percent, and the out-of-pocket share fell from 64.2 percent to 43.4 percent.{{2}} In 2022-23, however, the trend reversed.{{3}} The previous NHA round had shown a COVID-era peak for 2021-22, with a 48 percent government share and out-of-pocket spending of only 39.4 percent.{{5}}{{2}} When emergency pandemic spending ended, households again picked up a larger part of the bill.{{3}} Insurance is spreading. The NSO's 2025 survey found health insurance coverage of 47.4 percent in rural areas and 44.3 percent in urban areas, up from 14.1 and 19.1 percent in 2017-18.{{7}}{{8}} Coverage is mainly through PM-JAY and state schemes, and it has not yet brought down out-of-pocket spending, which still averages Rs 34,064 per hospitalisation excluding childbirth, and Rs 50,508 in private hospitals.{{7}}{{8}} Union health spending continues to rise, with the 2026-27 budget up nearly 10 percent over the previous year's revised estimate.{{6}} For a foreign partner, the financing picture points to a two-tier market. A price-sensitive mass market is anchored by PM-JAY rates, and a smaller cash-paying and privately insured segment, together with inbound international patients, sustains premium tertiary care.",
+        "narrative": "The National Health Accounts for 2022-23 put total health expenditure at 3.37 percent of GDP, or Rs 6,373 per person, and government spending at 1.48 percent, both on the new GDP series; on the old 2011-12 series the ratios are 3.28 and 1.43 percent.{{1}}{{2}}{{3}}{{4}} Government spending is well short of the 2.5 percent target for 2025 set by the National Health Policy 2017.{{9}}\n\nFrom 2013-14 to 2022-23 the government share of total health spending rose from 28.6 to 43.7 percent, and the out-of-pocket share fell from 64.2 to 43.4 percent.{{2}} The out-of-pocket share had been 39.4 percent in COVID-affected 2021-22, and households paid more again once emergency spending ended.{{5}}{{2}}{{3}} Health insurance coverage reached 47.4 percent in rural and 44.3 percent in urban areas in 2025, up from 14.1 and 19.1 percent in 2017-18, yet out-of-pocket spending still averaged Rs 34,064 per hospitalisation, excluding childbirth.{{7}}{{8}} For a foreign partner, this means a two-tier market: a mass market anchored by PM-JAY rates and a smaller cash-paying, privately insured and international segment that sustains premium tertiary care.",
         "sources": [
           {
             "author": "National Health Accounts Technical Secretariat, National Health Systems Resource Centre, Ministry of Health and Family Welfare, Government of India",
@@ -864,7 +829,7 @@
             "value": "Roughly 4 practising doctors, 9.2 nurses and just over 4 hospital beds per 1,000 people (OECD averages, Health at a Glance 2025){{8}}{{9}}{{10}}"
           }
         ],
-        "narrative": "India's health workforce is growing but remains thin and unevenly distributed. The Health Ministry told Parliament in December 2025 that 13.88 lakh allopathic doctors were registered.{{1}}{{3}} That is fewer than one registered doctor per 1,000 people, and fewer still are actually practising.{{1}} The government's headline ratio of one doctor per 811 people is reached only by adding 7.5 lakh AYUSH (traditional medicine) practitioners and assuming 80 percent of all registrants are active.{{1}}{{3}} On nursing, a July 2026 reply to the Rajya Sabha reported 46.02 lakh registered nursing personnel as of December 2025, or 2.60 per 1,000.{{4}} Of these, 34.88 lakh were registered nurses and midwives and 10.59 lakh were auxiliary nurse midwives.{{4}} Only 14.24 lakh are enrolled in the national Nurses Registration and Tracking System, so the number actually working in India, rather than inactive or abroad, is uncertain.{{5}} Even on generous counts, India's combined density of doctors, nurses and midwives is below WHO's threshold of 4.45 per 1,000 and a fraction of OECD averages of roughly 4 doctors and 9 nurses per 1,000.{{4}}{{7}}{{8}}{{9}} Beds are a similar constraint: the 8.19 lakh beds in public facilities counted in March 2023 amount to fewer than 0.6 per 1,000 people.{{6}} Shortages are worst in the populous northern states, while specialists cluster in metro private hospitals.{{4}} The Union Budget 2026-27 targets the allied-health gap with a plan to add 1 lakh allied health professionals over five years across ten disciplines, including radiology, anaesthesia and operating-theatre technology, and to train 1.5 lakh caregivers.{{11}}{{12}}{{13}} For a foreign academic partner, workforce development is one of the clearest openings, including nursing excellence programs, sub-specialty fellowships, allied-health training and hospital leadership education.",
+        "narrative": "India's health workforce remains thin: it had 13.88 lakh registered allopathic doctors in December 2025, fewer than one per 1,000 people, and fewer still practise.{{1}}{{3}} The official ratio of one doctor per 811 people counts 7.5 lakh AYUSH practitioners and assumes 80 percent of registrants are active.{{1}}{{3}} India had 46.02 lakh registered nursing personnel at 31 December 2025, or 2.60 per 1,000, but only 14.24 lakh were enrolled in the Nurses Registration and Tracking System in 2026, so the number working in India is uncertain.{{4}}{{5}}\n\nIndia is below WHO's threshold of 4.45 doctors, nurses and midwives per 1,000 and far below OECD averages of roughly 4 doctors and 9 nurses per 1,000 reported in 2025.{{4}}{{7}}{{8}}{{9}} Shortages are worst in the northern states, and rural community health centres lacked 79.9 percent of their required specialists in March 2023.{{4}}{{15}} The Union Budget 2026-27 plans to add 1 lakh allied health professionals over five years and train 1.5 lakh caregivers.{{11}}{{12}}{{13}} For a foreign academic partner, workforce development, from nursing programs and fellowships to allied-health and leadership training, is one of the clearest openings.",
         "sources": [
           {
             "author": "Deccan Herald",
@@ -963,11 +928,18 @@
             "publisher": "",
             "date": "10 June 2025",
             "url": "https://www.business-standard.com/markets/capital-market-news/india-s-population-estimated-to-hit-1-46-billion-in-2025-says-un-125061001170_1.html"
+          },
+          {
+            "author": "Sohini Das",
+            "title": "Rural India CHCs see nearly 80% shortfall of specialist doctors: Govt report",
+            "publisher": "Business Standard",
+            "date": "10 September 2024",
+            "url": "https://www.business-standard.com/health/rural-india-chc-s-see-nearly-80-shortfall-of-specialist-doctors-govt-rpt-124091000561_1.html"
           }
         ]
       },
       "education": {
-        "narrative": "Medical education in India is regulated nationally by the National Medical Commission (NMC), which replaced the Medical Council of India. Admission is through a single competitive exam.{{3}} Every MBBS place, in government and private colleges alike, is allocated through NEET-UG, run by the National Testing Agency, and the 2026 cycle exposed the weakness of that single point of failure.{{3}} The first sitting, on 3 May 2026 for about 22 lakh registered candidates, was cancelled on 12 May after a question-paper leak, and the investigation was handed to the Central Bureau of Investigation.{{3}}{{2}} It was the second NEET integrity crisis in three years, after a similar controversy in 2024.{{3}} Nearly 20 lakh candidates sat the re-examination on 21 June 2026.{{1}}{{2}} Results were declared on 16 July 2026, and 11.21 lakh candidates qualified, more than 58 percent of them women.{{1}}{{2}}\n\nSupply has expanded quickly. NMC's updated seat matrix for 2026-27, issued in September 2026, lists 1,40,664 MBBS seats across 839 medical colleges, of which 64,121 are in government colleges.{{4}} The government had reported 1,28,875 undergraduate seats to Parliament in December 2025, up from 51,348 in 2014.{{5}}{{6}} The Prime Minister's August 2024 Independence Day pledge set a target of 75,000 new medical seats over five years.{{7}}\n\nPostgraduate training is the bottleneck, although it is also growing. The government told Parliament in December 2025 that postgraduate seats had risen from 31,185 in 2014 to 82,059, while an NMC notice for 2025-26 listed a narrower count of about 57,500 MD and MS seats in medical colleges.{{5}}{{8}} Diplomate of National Board (DNB) posts, administered separately by the National Board of Examinations in Medical Sciences, add capacity, particularly in private hospitals. The planned National Exit Test (NExT), meant to replace both NEET-PG and the licensing exam for foreign graduates, has been put off.{{9}} In October 2025 the NMC chair indicated that it would not be implemented for three to four years while mock tests are run.{{9}} The rapid addition of new colleges, many of them private, has created a pressing need for faculty, simulation-based training and accreditation-quality curricula. Adani Health City's two planned medical colleges, for which Adani has engaged Mayo Clinic as a strategic adviser, and the education pillar of Cleveland Clinic's Navi Mumbai MediCity show that leading US institutions already see graduate medical education and faculty development as a way into India.{{10}}{{11}}",
+        "narrative": "The National Medical Commission, which replaced the Medical Council of India in September 2020, regulates medical education nationally.{{10}} Admission to undergraduate medical courses runs through one exam, NEET-UG, conducted by the National Testing Agency.{{1}} The agency cancelled the 3 May 2026 sitting on 12 May over alleged irregularities, including a reported question-paper leak, and the government referred the case to the Central Bureau of Investigation.{{3}}{{12}} Close to 20 lakh candidates sat the re-examination on 21 June 2026, and 11.21 lakh qualified.{{1}}{{2}}\n\nNMC's seat matrix for 2026-27 lists 1,40,664 MBBS seats in 839 colleges, 64,121 of them in government colleges, against 51,348 seats in 2014.{{4}}{{5}}\n\nPostgraduate training is the bottleneck. The government reported 82,059 postgraduate seats in December 2025, up from 31,185 in 2014, while NMC counted about 57,500 MD and MS seats for 2025-26.{{5}}{{6}} The National Board of Examinations in Medical Sciences, an autonomous body under the Health Ministry, adds DNB and DrNB training in accredited institutions.{{11}} In October 2025 the NMC chair indicated that the National Exit Test would not be implemented immediately, and a doctors' federation said mock tests would run for the next three to four years.{{7}} Mayo Clinic's advisory role for Adani Health City's two planned medical colleges and the education pillar of Cleveland Clinic's Navi Mumbai MediCity show US institutions using graduate medical education as a way into India.{{8}}{{9}}",
         "sources": [
           {
             "author": "National Testing Agency, Ministry of Education, Government of India",
@@ -984,11 +956,11 @@
             "url": "https://www.pw.live/neet/exams/neet-ug-result-date-2026"
           },
           {
-            "author": "Wikipedia contributors",
-            "title": "2026 NEET scandal",
-            "publisher": "Wikipedia",
-            "date": "",
-            "url": "https://en.wikipedia.org/wiki/2026_NEET_controversy"
+            "author": "DD News",
+            "title": "NEET-UG 2026 cancelled, fresh exam to be held; CBI probe ordered",
+            "publisher": "Prasar Bharati",
+            "date": "12 May 2026",
+            "url": "https://ddnews.gov.in/en/neet-ug-2026-cancelled-fresh-exam-to-be-held-cbi-probe-ordered/"
           },
           {
             "author": "Medical Dialogues",
@@ -1003,20 +975,6 @@
             "publisher": "",
             "date": "2 December 2025",
             "url": "https://www.deccanherald.com/amp/story/india%2Fdoctor-population-ratio-1811-in-india-union-health-minister-j-p-nadda-3817146"
-          },
-          {
-            "author": "Sakshi Education",
-            "title": "MBBS Seats Cross 1.29 Lakh in 2025-26: Karnataka Tops, Check NMC Seat Matrix",
-            "publisher": "",
-            "date": "17 December 2025",
-            "url": "https://education.sakshi.com/en/neet/education-news/mbbs-seats-cross-129-lakh-india-check-seat-matrix-186935"
-          },
-          {
-            "author": "Careers360",
-            "title": "NMC approves 10,650 new MBBS seats, 41 new medical colleges for 2024-25",
-            "publisher": "",
-            "date": "19 October 2025",
-            "url": "https://news.careers360.com/nmc-approves-neet-ug-pg-10650-new-mbbs-seats-41-new-medical-colleges-for-2024-25-counselling-admission/amp"
           },
           {
             "author": "Medical Dialogues",
@@ -1045,11 +1003,32 @@
             "publisher": "",
             "date": "11 June 2026",
             "url": "https://www.freepressjournal.in/mumbai/maharashtra-signs-mou-with-cleveland-clinic-and-brookfield-for-navi-mumbai-international-medicity-indias-first-global-scale-healthcare-hub"
+          },
+          {
+            "author": "Press Information Bureau, Government of India",
+            "title": "Historic reform in Medical Education: National Medical Commission (NMC) constituted",
+            "publisher": "Press Information Bureau",
+            "date": "25 September 2020",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1659029"
+          },
+          {
+            "author": "National Board of Examinations in Medical Sciences",
+            "title": "About NBEMS",
+            "publisher": "National Board of Examinations in Medical Sciences",
+            "date": "",
+            "url": "https://natboard.edu.in/aboutus.php"
+          },
+          {
+            "author": "Outlook News Desk",
+            "title": "NEET-UG 2026 Exam Cancelled, Re-Exam Scheduled For June 21 By NTA",
+            "publisher": "Outlook India",
+            "date": "15 May 2026",
+            "url": "https://www.outlookindia.com/national/neet-ug-2026-exam-cancelled-re-exam-scheduled-for-june-21-by-nta"
           }
         ]
       },
       "outlook": {
-        "narrative": "India's health policy has a clear direction. Primary care is being strengthened through Ayushman Arogya Mandirs, hospital care is financed through a now-national PM-JAY, and a digital layer ties the system together. The Ayushman Bharat Digital Mission had created about 93.95 crore ABHA health IDs and linked more than 105 crore health records by 10 July 2026, with 5.33 lakh facilities and 9.85 lakh professionals registered.{{1}}{{2}} This interoperable, consent-based layer could support remote second opinions, tele-tumour boards and cross-border care coordination.\n\nThe private hospital sector is entering a capital-intensive expansion phase, backed by public markets (Manipal's IPO) and global private equity (Blackstone in Aster DM Quality Care, KKR's pending acquisition of Medicover India).{{11}}{{12}}{{9}} Government is also encouraging integrated 'health cities'. The Union Budget 2026-27 promised five regional medical hubs combining care, education and research, developed with states and private partners.{{3}} Maharashtra's Navi Mumbai International MediCity, with Cleveland Clinic as anchor under a June 2026 MoU, and Adani's two Health Cities in Ahmedabad and Mumbai, for which Mayo Clinic is a strategic adviser, are the leading examples.{{4}}{{5}}\n\nMedical value travel is the main uncertainty. Arrivals for medical purposes were 6.44 lakh in 2024, below 6.59 lakh in 2023 and 6.97 lakh in 2019.{{6}} Bangladesh, which supplied about 4.8 lakh of the 2024 arrivals, was hit hard by visa restrictions after August 2024, and provisional figures show only about 4.5 lakh medical travellers in January to November 2025.{{7}}{{8}}{{6}} Other risks include tight public budgets (government spending was 1.48 percent of GDP in 2022-23), workforce shortfalls, uneven state capacity, the integrity problems in medical entrance exams shown by the 2026 NEET cancellation, and a US tariff regime that has changed repeatedly and now includes authority for tariffs of up to 100 percent on buyers of Russian oil, which could affect pharmaceutical supply chains.{{13}}{{14}}{{10}} Overall, the outlook favours foreign academic centers that bring capability (training, protocols, quality systems and research) to fast-growing Indian partners, rather than those seeking to operate hospitals directly.",
+        "narrative": "India's health policy has a clear direction: primary care through Ayushman Arogya Mandirs, hospital financing through a now-national PM-JAY, and a digital layer. By 10 July 2026 the Ayushman Bharat Digital Mission had created about 93.95 crore ABHA health IDs and linked more than 105 crore health records.{{1}}{{2}} This consent-based layer could support remote second opinions, tele-tumour boards and cross-border coordination.\n\nPrivate hospitals are expanding with public-market capital, as in Manipal's 2026 IPO, and global private equity, as with Blackstone in Aster DM Quality Care and KKR's pending purchase of Medicover India.{{10}}{{11}}{{8}} Maharashtra's Navi Mumbai MediCity, anchored by Cleveland Clinic under a June 2026 MoU, and Adani's two Health Cities, advised by Mayo Clinic, are the leading examples of integrated health cities.{{3}}{{4}}\n\nMedical value travel is the main uncertainty. Medical arrivals were 6.44 lakh in 2024, below 6.97 lakh in 2019, and Bangladesh, which supplied about 4.8 lakh of them, was hit by visa restrictions after August 2024.{{5}}{{6}}{{7}} Other risks include government health spending of only 1.48 percent of GDP in 2022-23, workforce shortfalls, the 2026 NEET cancellation, and possible US tariffs of up to 100 percent on buyers of Russian oil, authorised in September 2026.{{12}}{{13}}{{9}} The outlook therefore favours foreign academic centers that bring training, protocols, quality systems and research to Indian partners rather than operating hospitals directly.",
         "sources": [
           {
             "author": "IBEF",
@@ -1064,13 +1043,6 @@
             "publisher": "",
             "date": "",
             "url": "https://www.gktoday.in/ayushman-bharat-digital-mission-crosses-93-95-crore-health-accounts/"
-          },
-          {
-            "author": "The Week",
-            "title": "Union Budget 2026: From BioPharma Shakti to medical tourism hubs, KEY announcements for health sector",
-            "publisher": "",
-            "date": "1 February 2026",
-            "url": "https://www.theweek.in/news/health/2026/02/01/union-budget-2026-from-biopharma-shakti-to-medical-tourism-hubs-key-announcements-for-health-sector.html"
           },
           {
             "author": "BW Healthcare World",
@@ -1143,16 +1115,139 @@
             "url": "https://nhsrcindia.org/sites/default/files/2026-05/NHA%202022-23%20Report.pdf"
           },
           {
-            "author": "Wikipedia contributors",
-            "title": "2026 NEET scandal",
-            "publisher": "Wikipedia",
-            "date": "",
-            "url": "https://en.wikipedia.org/wiki/2026_NEET_controversy"
+            "author": "DD News",
+            "title": "NEET-UG 2026 cancelled, fresh exam to be held; CBI probe ordered",
+            "publisher": "Prasar Bharati",
+            "date": "12 May 2026",
+            "url": "https://ddnews.gov.in/en/neet-ug-2026-cancelled-fresh-exam-to-be-held-cbi-probe-ordered/"
           }
         ]
       },
       "competitive_landscape": {
-        "narrative": "Several leading US systems already work in India, almost always through advisory, network, second-opinion or education models rather than equity ownership, and several of the announced relationships are older or quieter than their headlines suggest.\n\nMayo Clinic has the broadest footprint. AIG Hospitals in Hyderabad joined the Mayo Clinic Care Network in October 2019 as its first Indian member.{{1}}{{2}} Mayo's 2023 tax filings, as reported in February 2025, still listed India among the network's member locations, but AIG's own Mayo network page has been taken down and Mayo's current member list could not be checked, so present membership is not confirmed.{{3}} Mayo opened a patient information office in Mumbai in February 2023 to arrange appointments at its US campuses and in London, and the same filings show a Mumbai subsidiary, MC Healthcare Services India.{{4}}{{3}} In February 2025 the Adani Group announced that it had engaged Mayo Clinic to give strategic advice on two Adani Health City campuses in Ahmedabad and Mumbai, each with a 1,000-bed hospital and a medical college, funded by an Adani family donation of more than Rs 6,000 crore.{{5}}{{3}} Adani describes Mayo's role as advisory, and Mayo has not publicly detailed it.{{5}} In January 2025 Lilavati Hospital, Mumbai, announced a collaboration with Mayo covering a nursing excellence program, a planned 300-bed cancer institute in Bandra and a hospital project in GIFT City, Gujarat.{{6}} The first cohort of 120 nurses trained from 17 to 26 March 2025 with Mayo nursing advisers present.{{7}} The cancer institute and GIFT City projects, however, have been described only by Lilavati's trustees, Mayo did not answer press questions about them, and their current status is unknown.{{6}}{{3}}\n\nCleveland Clinic signed an MoU on 10 June 2026 with the Government of Maharashtra, Brookfield Asset Management and Arodhan Health City to anchor the planned US$1.2 billion, 250-acre Navi Mumbai International MediCity.{{8}}{{9}} The signing took place at Cleveland Clinic's headquarters with CEO Tom Mihaljevic, who is quoted in the state's announcement, although Cleveland Clinic has not posted a release of its own and the project is still at MoU stage.{{8}}{{9}} Cleveland Clinic also keeps an in-country patient representative for India.{{10}}\n\nJohns Hopkins Medicine International's consulting pages describe a 10-year affiliation with HCL Healthcare that began in February 2014 and covered outpatient and specialty care, training and clinical services.{{11}}{{12}} Its term would have run to 2024, and no renewal or current activity could be confirmed.{{11}} At university level, Johns Hopkins University and IIT Bombay's Koita Centre for Digital Health announced a digital-health research collaboration on 9 February 2023, which funds joint seed grants through the Gupta-Klinsky India Institute.{{13}}\n\nMemorial Sloan Kettering launched MSKCC India on 2 August 2021 with the telemedicine company iCliniq, offering remote opinions coordinated from a hub in Chennai.{{14}} By September 2026 iCliniq had permanently removed its MSK India pages and no current MSK statement about the service could be found, so the program may have ended and its status is unknown.{{15}}\n\nMD Anderson signed a sister-institution agreement with Tata Memorial Hospital, Mumbai, on 6 October 2003.{{16}} MD Anderson's own site currently lists Tata Memorial Hospital as a partner in its ECHO palliative-care program for Africa and India, which is funded through its Sister Institution Network Fund, so the two still work together, although the terms of the original agreement were not found.{{17}}\n\nUCLA's India links are department-level.{{18}} Its OB/GYN department launched a resident exchange with Narendra Modi Medical College, Ahmedabad, in 2024, began joint academic seminars in summer 2025, and has completed the first phase of a postpartum-haemorrhage quality project with AIIMS New Delhi.{{18}} These are grant-funded projects, not UCLA Health system affiliations.{{18}}\n\nThe closest peer model for a CSI affiliation is Mount Sinai Health System's agreement with Ramaiah Memorial Hospital, Bengaluru.{{19}}{{20}} Mount Sinai announced it on 12 July 2024 as an exclusive long-term collaboration, and Deccan Herald reported a 10-year term that began on 1 July 2024.{{19}}{{20}}{{21}} It covers support for centres of excellence in oncology, cardiology, neurosciences and urology-nephrology, work on quality and technology, and periodic joint review of Ramaiah's complex cases.{{19}}{{21}} Ramaiah's website still presents the partnership, though no progress report on specific programs was found.{{22}}\n\nOther US links are historical or dormant. NewYork-Presbyterian emergency-medicine volunteers ran disaster-preparedness training and drills in Ahmedabad in November 2007 and in Mumbai in October and November 2008, and no current program was found.{{23}} UPMC signed a telemedicine second-opinion agreement with Bangalore's TeleChikitsa Ventures in February 2014, its second India agreement after helping Citizens Hospital, Hyderabad, build a clinical pathology laboratory.{{24}} UPMC International's current pages list only Croatia, Ireland and Italy, and no current India activity was found.{{25}} Partners Harvard Medical International, part of what is now Mass General Brigham, worked with Wockhardt Hospitals from about 2001 and helped its Mumbai and Bangalore hospitals gain JCI accreditation in 2005 and 2008.{{26}}{{27}} No India hospital partnership was found on the international pages of Houston Methodist, Northwestern Medicine or Mass General Brigham.{{29}}{{30}}{{28}}\n\nAmong non-US players, Malaysia's IHH controls Fortis, Blackstone backs Aster DM Quality Care, Sweden's Medicover is selling its Indian hospitals to KKR, and King's College London and Guy's and St Thomas' formed a Health Partners Academy with P. D. Hinduja Hospital in April 2024.{{31}}{{37}}{{32}}{{33}}{{34}}\n\nIndia is also a competitor for patients. Medical-purpose arrivals were 6.44 lakh in 2024, led by Bangladesh (about 4.8 lakh), Iraq, Somalia, Oman and Uzbekistan, and Indian chains market lower-cost complex care to the same Gulf, African and Central Asian patients that US centers pursue.{{35}}{{36}}",
+        "narrative": "Leading US academic systems work in India mainly through advisory, network, second-opinion and education models rather than ownership, and several announced relationships are older or less visible than their headlines suggest. Foreign capital, by contrast, comes mainly from an Asian strategic owner and global private equity backing Indian hospital chains.{{31}}{{37}}{{40}}",
+        "entries": [
+          {
+            "group": "US academic medical centers",
+            "institution": "Mayo Clinic",
+            "partner": "AIG Hospitals (Hyderabad); Lilavati Hospital (Mumbai); Adani Health City (Ahmedabad and Mumbai)",
+            "model": "Care Network member; nursing program and planned projects; strategic advisory; Mumbai patient office",
+            "status": "AIG joined 2019, current membership not confirmed; Lilavati and Adani announced 2025, current status of the planned projects not confirmed",
+            "text": "AIG Hospitals joined the Mayo Clinic Care Network in October 2019, and Mayo's 2023 tax filings still listed India among member locations.{{1}}{{2}}{{3}} Lilavati announced a nursing program, a 300-bed cancer institute and a GIFT City project with Mayo in January 2025, and trained 120 nurses in March 2025.{{6}}{{7}} Adani engaged Mayo in February 2025 to advise on two Health City campuses.{{5}} Mayo opened a patient information office in Mumbai in February 2023.{{4}}"
+          },
+          {
+            "group": "US academic medical centers",
+            "institution": "Cleveland Clinic",
+            "partner": "Government of Maharashtra; Brookfield Asset Management; Arodhan Health City (Navi Mumbai International MediCity)",
+            "model": "Anchor institution under MoU; in-country patient representative",
+            "status": "MoU signed June 2026; project at MoU stage",
+            "text": "Cleveland Clinic signed an MoU on 10 June 2026 with Maharashtra, Brookfield and Arodhan Health City to anchor the planned US$1.2 billion, 250-acre Navi Mumbai International MediCity, and CEO Tom Mihaljevic is quoted in the state's announcement.{{8}}{{9}} The project is at MoU stage.{{8}} Cleveland Clinic also keeps a patient representative for India.{{10}}"
+          },
+          {
+            "group": "US academic medical centers",
+            "institution": "Johns Hopkins",
+            "partner": "HCL Healthcare; IIT Bombay (Koita Centre for Digital Health)",
+            "model": "Consulting affiliation through Johns Hopkins Medicine International; university research collaboration",
+            "status": "HCL affiliation began 2014 for 10 years, current status not confirmed; IIT Bombay collaboration announced 2023, current status not confirmed",
+            "text": "Johns Hopkins Medicine International describes a 10-year affiliation with HCL Healthcare from February 2014 covering outpatient and specialty care, training and clinical services.{{11}}{{12}} Whether it continued beyond 2024 is not publicly known. Johns Hopkins University and IIT Bombay's Koita Centre for Digital Health announced a digital-health research collaboration on 9 February 2023.{{13}}"
+          },
+          {
+            "group": "US academic medical centers",
+            "institution": "Memorial Sloan Kettering",
+            "partner": "iCliniq (Chennai)",
+            "model": "Remote second-opinion service (MSKCC India)",
+            "status": "Launched 2021; current status not confirmed",
+            "text": "Memorial Sloan Kettering launched MSKCC India with the telemedicine company iCliniq on 2 August 2021, offering remote opinions coordinated from Chennai.{{14}} iCliniq's MSK India pages had been permanently removed by September 2026, so the service may have ended.{{15}}"
+          },
+          {
+            "group": "US academic medical centers",
+            "institution": "MD Anderson Cancer Center",
+            "partner": "Tata Memorial Hospital (Mumbai)",
+            "model": "Sister institution; Project ECHO palliative-care partner",
+            "status": "Agreement signed 2003; Tata Memorial listed as ECHO partner on MD Anderson's site (2026)",
+            "text": "MD Anderson signed a sister-institution agreement with Tata Memorial Hospital on 6 October 2003.{{16}} MD Anderson's site lists Tata Memorial as a partner in its Project ECHO palliative-care program for Africa and India, funded through its Sister Institution Network Fund.{{17}}"
+          },
+          {
+            "group": "US academic medical centers",
+            "institution": "Mount Sinai Health System",
+            "partner": "Ramaiah Memorial Hospital (Bengaluru)",
+            "model": "Exclusive long-term collaboration: centres of excellence, quality, technology and complex-case review",
+            "status": "Signed July 2024; 10-year term reported; still presented on Ramaiah's website (2026)",
+            "text": "Mount Sinai announced an exclusive long-term collaboration with Ramaiah Memorial Hospital on 12 July 2024, and Deccan Herald reported a 10-year term from 1 July 2024.{{19}}{{20}}{{21}} It covers oncology, cardiology, neurosciences and urology-nephrology centres, quality and technology, and joint review of complex cases, and Ramaiah's website still presents it.{{19}}{{21}}{{22}} It is the closest peer model for a CSI affiliation."
+          },
+          {
+            "group": "US academic medical centers",
+            "institution": "UCLA Health",
+            "partner": "Narendra Modi Medical College (Ahmedabad); AIIMS New Delhi",
+            "model": "OB/GYN department resident exchange and quality project",
+            "status": "Began 2024; department level",
+            "text": "UCLA's OB/GYN department launched a resident exchange with Narendra Modi Medical College in 2024, began joint academic seminars in summer 2025 and completed the first phase of a postpartum-haemorrhage quality project with AIIMS New Delhi.{{18}} These are grant-funded departmental projects, not UCLA Health system affiliations.{{18}}"
+          },
+          {
+            "group": "US academic medical centers",
+            "institution": "NewYork-Presbyterian",
+            "partner": "Emergency services in Ahmedabad and Mumbai",
+            "model": "Volunteer disaster-preparedness training",
+            "status": "Held 2007 and 2008; no current program publicly listed",
+            "text": "NewYork-Presbyterian emergency-medicine volunteers ran disaster-preparedness training and drills in Ahmedabad in November 2007 and in Mumbai in October and November 2008.{{23}}"
+          },
+          {
+            "group": "US academic medical centers",
+            "institution": "UPMC",
+            "partner": "TeleChikitsa Ventures (Bangalore); Citizens Hospital (Hyderabad)",
+            "model": "Telemedicine second opinions; clinical pathology laboratory development",
+            "status": "Announced 2014; current status not confirmed; India not listed on UPMC International's locations page (2026)",
+            "text": "UPMC signed a telemedicine second-opinion agreement with TeleChikitsa Ventures in February 2014, its second India agreement after helping Citizens Hospital build a clinical pathology laboratory.{{24}} UPMC International's locations page lists Croatia, Ireland and Italy but not India.{{25}}"
+          },
+          {
+            "group": "US academic medical centers",
+            "institution": "Mass General Brigham",
+            "partner": "Wockhardt Hospitals",
+            "model": "Hospital development, clinical programs and quality improvement, through Harvard Medical International and later Partners Harvard Medical International",
+            "status": "Began about 2001; current status not confirmed; no India partnership on MGB's global partnerships page (2026)",
+            "text": "Harvard Medical International helped Wockhardt Hospitals develop facilities, clinical programs and a performance-improvement plan that led to international accreditation.{{26}} Partners HealthCare took over HMI in 2008 as Partners Harvard Medical International and announced in November 2019 that it would rename itself Mass General Brigham.{{38}}{{39}} Wockhardt described a ten-year PHMI relationship in 2010-11, and MGB's global partnerships page does not list India.{{27}}{{28}}"
+          },
+          {
+            "group": "US academic medical centers",
+            "institution": "Houston Methodist; Northwestern Medicine",
+            "partner": "None identified",
+            "model": "None identified",
+            "status": "No India partnership listed (2026)",
+            "text": "No India partnership was found on the international pages of Houston Methodist or Northwestern Medicine.{{29}}{{30}}"
+          },
+          {
+            "group": "Other foreign health systems and investors",
+            "institution": "IHH Healthcare (Malaysia)",
+            "partner": "Fortis Healthcare",
+            "model": "Controlling shareholder",
+            "status": "Controlling shareholder; open offer closed November 2025",
+            "text": "Malaysia's IHH Healthcare controls Fortis.{{31}} Its mandatory open offer closed in November 2025 with only 1,778 shares tendered, leaving its stake at about 31.17 percent.{{31}}"
+          },
+          {
+            "group": "Other foreign health systems and investors",
+            "institution": "Blackstone",
+            "partner": "Aster DM Quality Care (Aster DM Healthcare merged with Quality Care India)",
+            "model": "Private equity shareholder",
+            "status": "Merger announced January 2025; effective July 2026",
+            "text": "Aster DM Healthcare and Blackstone-backed Quality Care India announced their merger in January 2025, and the combined Aster DM Quality Care began operating in July 2026 with more than 10,600 beds.{{37}}{{41}}"
+          },
+          {
+            "group": "Other foreign health systems and investors",
+            "institution": "KKR",
+            "partner": "Medicover India (sold by Sweden's Medicover)",
+            "model": "Acquisition",
+            "status": "Agreed August 2026; closing expected in the fourth quarter of 2026",
+            "text": "KKR agreed on 6 August 2026 to buy Medicover India, 24 hospitals with about 4,800 beds, from Sweden's Medicover, which is leaving the Indian hospital market.{{40}}{{32}} Closing is expected in the fourth quarter of 2026, subject to approvals.{{32}}"
+          },
+          {
+            "group": "Other foreign health systems and investors",
+            "institution": "King's College London; Guy's and St Thomas' NHS Foundation Trust",
+            "partner": "P. D. Hinduja Hospital (Mumbai)",
+            "model": "Health Partners Academy",
+            "status": "Formed April 2024; current status not confirmed",
+            "text": "King's College London and Guy's and St Thomas' NHS Foundation Trust formed a Health Partners Academy with P. D. Hinduja Hospital in April 2024.{{33}}{{34}}"
+          }
+        ],
+        "closing": "India also competes for international patients. Medical-purpose arrivals were 6.44 lakh in 2024, led by Bangladesh with about 4.8 lakh, followed by Iraq, Somalia, Oman and Uzbekistan.{{35}}{{36}} Indian chains market lower-cost complex care to the same Gulf, African and Central Asian patients that US centers pursue, and the Union Budget 2026-27 backs five regional medical hubs to strengthen that position.{{35}}{{36}}{{42}}",
         "sources": [
           {
             "author": "Mayo Clinic",
@@ -1330,11 +1425,11 @@
             "url": "https://www.upmc.com/about/international-services/locations"
           },
           {
-            "author": "Wikipedia contributors",
-            "title": "Partners Harvard Medical International",
-            "publisher": "Wikipedia",
-            "date": "",
-            "url": "https://en.wikipedia.org/wiki/Partners_Harvard_Medical_International"
+            "author": "Harvard Magazine",
+            "title": "At Harvard Medical International, Changes Afoot",
+            "publisher": "Harvard Magazine",
+            "date": "January 2008",
+            "url": "https://www.harvardmagazine.com/2008/01/harvard-medical"
           },
           {
             "author": "Wockhardt Limited",
@@ -1412,6 +1507,41 @@
             "publisher": "",
             "date": "27 January 2025",
             "url": "https://www.asterdmhealthcare.in/newsroom/detail/aster-and-blackstone-backed-quality-care-have-merged-establish-one-of-top-3-hospital-chains-india"
+          },
+          {
+            "author": "Harvard Gazette",
+            "title": "Partners HealthCare to assume management of Harvard Medical International",
+            "publisher": "Harvard University",
+            "date": "24 April 2008",
+            "url": "https://news.harvard.edu/gazette/story/2008/04/partners-healthcare-to-assume-management-of-harvard-medical-international/"
+          },
+          {
+            "author": "WBUR News",
+            "title": "Brand-Aid: Hospital Giant Partners HealthCare Is Changing Names",
+            "publisher": "WBUR",
+            "date": "27 November 2019",
+            "url": "https://www.wbur.org/news/2019/11/27/partners-mass-general-brigham-hospitals"
+          },
+          {
+            "author": "KKR",
+            "title": "KKR to Acquire Leading Multi-Specialty Healthcare Provider Medicover India",
+            "publisher": "Nasdaq",
+            "date": "6 August 2026",
+            "url": "https://www.nasdaq.com/press-release/kkr-acquire-leading-multi-specialty-healthcare-provider-medicover-india-2026-08-06"
+          },
+          {
+            "author": "HealthCare Middle East & Africa",
+            "title": "Aster DM Quality Care begins operations post-merger with over 10,600 beds",
+            "publisher": "",
+            "date": "3 July 2026",
+            "url": "https://www.healthcaremea.com/2026/07/03/aster-dm-quality-care-begins-operations-post-merger-with-over-10600-beds/"
+          },
+          {
+            "author": "Business Standard",
+            "title": "Budget 2026: Govt to set up 5 medical tourism hubs, train 150K caregivers",
+            "publisher": "",
+            "date": "1 February 2026",
+            "url": "https://www.business-standard.com/budget/news/govt-to-support-five-regional-medical-tourism-hubs-126020100321_1.html"
           }
         ]
       }
@@ -1420,7 +1550,7 @@
       {
         "date": "2026-02-01",
         "headline": "Union Budget 2026-27 raises health allocation nearly 10% and backs five regional medical hubs",
-        "summary": "The Ministry of Health and Family Welfare received Rs 1,06,530.42 crore, nearly 10 percent above the previous year's revised estimate.{{1}} Allocations included Rs 39,390 crore for the National Health Mission, Rs 9,500 crore for PM-JAY and Rs 4,770 crore for PM-ABHIM.{{1}} The budget also announced a scheme for five regional medical hubs, developed with states and the private sector, combining care, education and research, along with plans to add 1 lakh allied health professionals and train 1.5 lakh caregivers.{{1}}{{2}} The hubs are intended to strengthen India's position in medical value travel.{{2}}",
+        "summary": "The Health Ministry received Rs 1,06,530.42 crore, nearly 10 percent above the previous year's revised estimate, including Rs 39,390 crore for the National Health Mission and Rs 9,500 crore for PM-JAY.{{1}} The budget also backed five regional medical hubs and plans to add 1 lakh allied health professionals and train 1.5 lakh caregivers.{{1}}{{2}}",
         "sources": [
           {
             "author": "Press Information Bureau, Government of India",
@@ -1440,15 +1570,15 @@
       },
       {
         "date": "2026-05-12",
-        "headline": "NEET-UG 2026 cancelled over a question-paper leak; re-examination held on 21 June",
-        "summary": "The National Testing Agency cancelled the NEET-UG examination held on 3 May 2026 for more than 22 lakh candidates after investigators found that questions had leaked in advance, and the case was handed to the Central Bureau of Investigation.{{1}} Nearly 20 lakh candidates sat the re-examination on 21 June 2026, and results were declared on 16 July 2026, with 11.21 lakh qualifying.{{2}}{{3}}{{1}} It was the second NEET integrity crisis in three years, a relevant consideration for any foreign partner relying on India's national admissions and licensing system.{{1}}",
+        "headline": "NEET-UG 2026 cancelled over alleged paper leak; re-examination held on 21 June",
+        "summary": "The National Testing Agency cancelled the 3 May 2026 NEET-UG examination on 12 May over alleged irregularities, including a reported paper leak, and the government referred the case to the CBI.{{1}}{{4}} Close to 20 lakh candidates sat the re-examination on 21 June, and 11.21 lakh qualified when results were declared on 16 July 2026.{{2}}{{3}}",
         "sources": [
           {
-            "author": "Wikipedia contributors",
-            "title": "2026 NEET scandal",
-            "publisher": "Wikipedia",
-            "date": "",
-            "url": "https://en.wikipedia.org/wiki/2026_NEET_controversy"
+            "author": "DD News",
+            "title": "NEET-UG 2026 cancelled, fresh exam to be held; CBI probe ordered",
+            "publisher": "Prasar Bharati",
+            "date": "12 May 2026",
+            "url": "https://ddnews.gov.in/en/neet-ug-2026-cancelled-fresh-exam-to-be-held-cbi-probe-ordered/"
           },
           {
             "author": "National Testing Agency, Ministry of Education, Government of India",
@@ -1463,13 +1593,20 @@
             "publisher": "",
             "date": "16 July 2026",
             "url": "https://www.pw.live/neet/exams/neet-ug-result-date-2026"
+          },
+          {
+            "author": "Outlook News Desk",
+            "title": "NEET-UG 2026 Exam Cancelled, Re-Exam Scheduled For June 21 By NTA",
+            "publisher": "Outlook India",
+            "date": "15 May 2026",
+            "url": "https://www.outlookindia.com/national/neet-ug-2026-exam-cancelled-re-exam-scheduled-for-june-21-by-nta"
           }
         ]
       },
       {
         "date": "2026-06-08",
         "headline": "West Bengal joins Ayushman Bharat PM-JAY, completing nationwide rollout",
-        "summary": "West Bengal signed an MoU with the National Health Authority at a ceremony presided over by Union Health Minister J P Nadda, in the presence of Chief Minister Suvendu Adhikari.{{1}}{{3}} It became the 36th state or union territory to implement PM-JAY, the last to do so.{{1}}{{2}} About 1.24 crore eligible families in the state gain up to Rs 5 lakh a year in hospital cover.{{1}} Including families of ASHAs, anganwadi workers and helpers, and senior citizens aged 70 and over, the beneficiary base is about 1.43 crore families.{{1}}",
+        "summary": "West Bengal signed an MoU with the National Health Authority on 8 June 2026 and became the 36th and last state or union territory to implement PM-JAY.{{1}}{{2}} About 1.24 crore eligible families in the state gain up to Rs 5 lakh a year in hospital cover.{{1}}",
         "sources": [
           {
             "author": "Press Information Bureau, Government of India",
@@ -1484,20 +1621,13 @@
             "publisher": "",
             "date": "8 June 2026",
             "url": "https://ddnews.gov.in/en/west-bengal-joins-ayushman-bharat-pm-jay-completing-nationwide-rollout-of-worlds-largest-health-assurance-scheme/"
-          },
-          {
-            "author": "Outlook Money",
-            "title": "West Bengal Set For Ayushman Bharat Rollout, State To Sign MoU With NHA On June 8",
-            "publisher": "",
-            "date": "8 June 2026",
-            "url": "https://www.outlookmoney.com/personal-finance/west-bengal-set-for-ayushman-bharat-rollout-state-to-sign-mou-with-nha-on-june-8"
           }
         ]
       },
       {
         "date": "2026-06-10",
         "headline": "Maharashtra signs MoU with Cleveland Clinic, Brookfield and Arodhan Health City for Navi Mumbai International MediCity",
-        "summary": "The Government of Maharashtra signed an MoU at Cleveland Clinic's headquarters in Cleveland with Cleveland Clinic, Brookfield Asset Management and Arodhan Health City to develop Navi Mumbai International MediCity, with Chief Minister Devendra Fadnavis joining by video.{{1}}{{2}}{{3}}{{4}} The planned 250-acre healthcare, research, medical education and medical tourism hub, next to the new Navi Mumbai airport, has expected investment of about US$1.2 billion and more than 10,000 jobs.{{1}}{{3}}{{4}} Cleveland Clinic is named as anchor institution, and CEO Tom Mihaljevic said in the state's announcement that it would contribute its expertise to the ecosystem.{{1}}{{4}} Cleveland Clinic has not issued its own release, and the project is at MoU stage.",
+        "summary": "Maharashtra signed an MoU at Cleveland Clinic's headquarters with Cleveland Clinic, Brookfield Asset Management and Arodhan Health City for a 250-acre healthcare, research, education and medical tourism hub near the new Navi Mumbai airport, with expected investment of about US$1.2 billion.{{1}}{{2}}{{3}}{{4}} Cleveland Clinic is named anchor institution, and the project is at MoU stage.{{1}}{{4}}",
         "sources": [
           {
             "author": "Free Press Journal",
@@ -1532,7 +1662,7 @@
       {
         "date": "2026-08-05",
         "headline": "Manipal Health Enterprises lists after Rs 9,275 crore IPO",
-        "summary": "Manipal Health Enterprises, which reports 49 hospitals and 13,037 licensed beds across 14 states and union territories as of 31 March 2026, listed on the NSE and BSE at about an 11 percent premium to its Rs 590 issue price.{{1}}{{2}}{{3}} The IPO was subscribed nearly five times, led by qualified institutional buyers.{{1}} Manipal grew from 33 hospitals and 9,520 beds in March 2024, mainly through acquisitions of AMRI, Medica and Sahyadri, and cites a CRISIL report describing it as the largest pan-India multispecialty network by bed capacity.{{3}}",
+        "summary": "Manipal Health Enterprises, with 49 hospitals and 13,037 licensed beds at 31 March 2026, listed on the NSE and BSE at about an 11 percent premium to its Rs 590 issue price.{{1}}{{2}}{{3}} The Rs 9,275 crore IPO was subscribed nearly five times, led by qualified institutional buyers.{{1}}",
         "sources": [
           {
             "author": "Business Standard",
@@ -1560,7 +1690,7 @@
       {
         "date": "2026-08-06",
         "headline": "KKR agrees to acquire Medicover India as Sweden's Medicover exits Indian hospitals",
-        "summary": "KKR signed definitive agreements to acquire Medicover India, a network of 24 hospitals with about 4,800 beds across South and West India.{{1}} Medicover said the transaction values Medicover Hospitals India at EUR 1.2 billion, about US$1.4 billion, and is expected to close in the fourth quarter of 2026, subject to regulatory approvals; KKR did not disclose terms.{{2}}{{1}} The seller, Swedish healthcare group Medicover, is leaving the Indian hospital market to focus on Poland, Germany and Romania.{{2}}{{3}} The deal is a further sign of global private equity driving hospital consolidation in India.",
+        "summary": "KKR agreed to acquire Medicover India, 24 hospitals with about 4,800 beds in South and West India.{{1}} Medicover valued the business at EUR 1.2 billion and expects the deal to close in the fourth quarter of 2026, subject to approvals, as it leaves Indian hospitals to focus on Poland, Germany and Romania.{{2}}{{3}}",
         "sources": [
           {
             "author": "KKR",
@@ -1588,7 +1718,7 @@
       {
         "date": "2026-09-23",
         "headline": "Ayushman Bharat PM-JAY marks eight years with 13.25 crore funded hospital admissions",
-        "summary": "On the scheme's eighth anniversary, Union Health Minister J P Nadda and the National Health Authority reported that PM-JAY had funded 13.25 crore hospital admissions worth Rs 2.03 lakh crore through more than 38,000 empanelled public and private hospitals.{{1}}{{2}} About 48.5 crore Ayushman cards have been issued, and more than 12 crore families have Rs 5 lakh in annual cover across 1,961 procedures in 27 specialties.{{1}}{{2}}{{3}}",
+        "summary": "On the scheme's eighth anniversary, the Health Minister and the National Health Authority reported 13.25 crore funded hospital admissions worth Rs 2.03 lakh crore through more than 38,000 empanelled hospitals.{{1}}{{2}} About 48.5 crore Ayushman cards have been issued, and more than 12 crore families have Rs 5 lakh in annual cover.{{1}}{{2}}{{3}}",
         "sources": [
           {
             "author": "ANI",
@@ -1663,7 +1793,33 @@
     "Citations: added the PIB Union Budget 2026-27 health release to workforce's sources for 1 lakh allied health professionals in 10 disciplines over five years and 1.5 lakh caregivers (V1, V2, V3 opened it). Also added the Business Standard UN population source (already cited in demographics) for the 2025 population used in the doctors-per-1,000 calculation.",
     "Citations: added the Free Press Journal MediCity report (V2 and V3 opened it) to education's sources. It states that the MediCity combines care with medical education.",
     "Citations: added four sources to outlook, each already cited elsewhere in the profile and opened by verifiers. They are the Business Standard Manipal listing report, Aster DM's merger release (Blackstone), the NHA 2022-23 report (1.48 percent GHE on the new GDP series) and Wikipedia, 2026 NEET scandal (the cancellation).",
-    "Citations: added Aster DM's merger release (V3 opened it) to competitive_landscape's sources to support 'Blackstone backs Aster DM Quality Care'."
+    "Citations: added Aster DM's merger release (V3 opened it) to competitive_landscape's sources to support 'Blackstone backs Aster DM Quality Care'.",
+    "REV2: Wikipedia removed everywhere. demographics: 'India' (Wikipedia) replaced by Embassy of India, Khartoum, 'India at a Glance' (MEA site, opened: capital New Delhi, area 32,87,263 sq km, 22 recognised languages, Hindi official with English continued under Art. 343(3), parliamentary republic, President head of state, PM head of government); currency now cited to RBI 'Indian Currency' FAQ (15 April 2025, opened: 'The Indian currency is called the Indian Rupee (INR)'); Constitution of India (Legislative Department PDF, as on 1 May 2024, opened: Art. 1 'Union of States', Art. 343, Eighth Schedule) added for languages and government type.",
+    "REV2: demographics/government: 'Presidency of Droupadi Murmu' (Wikipedia) replaced by President's Secretariat profile (presidentofindia.gov.in/Profile, opened: sworn in as 15th President on 25 July 2022). Head of government fact now cited to PMO 'Know the PM' (pmindia.gov.in, opened: sworn in for third time on 9 June 2024; PM 2014 to 2019 and 2019 to 2024); fact wording changed to 'sworn in for a third term on 9 June 2024'.",
+    "REV2: demographics: '2027 census of India' (Wikipedia) removed; the PIB press release of 30 March 2026 (opened) alone supports house-listing from April 2026, enumeration in February 2027, last census 2011. The reference-date clause was cut in trimming.",
+    "REV2: government: 'Seventh Schedule' and 'India' (Wikipedia) and the prepp.in quiz page replaced by the Constitution of India PDF (Legislative Department, opened: State List entry 6 'Public health and sanitation; hospitals and dispensaries'; Concurrent List entry 25 education including medical education; Art. 254 on inconsistency; Art. 75(3) collective responsibility to the House of the People) plus the Embassy of India, Khartoum page. The PM/President sentence was cut from the government narrative (restated the demographics facts).",
+    "REV2: NEET 2026: '2026 NEET scandal' (Wikipedia) replaced in education, outlook and recent development 2 by DD News (Prasar Bharati), 'NEET-UG 2026 cancelled, fresh exam to be held; CBI probe ordered', 12 May 2026 (opened: NTA cancelled the 3 May exam, matter referred to CBI, reports of paper leak), and Outlook India, 15 May 2026 (opened: re-exam fixed for 21 June 2026, CBI probe). Wording changed from 'cancelled after a question-paper leak' to 'over alleged irregularities, including a reported question-paper leak'. The '22 lakh registered candidates' figure was removed (no reputable source opened confirms it; NewsGram gives 22.7 lakh). The 'second NEET crisis in three years' sentence was first sourced to The Tribune (2024 NEET paper-leak CBI investigation, opened) and then cut in trimming.",
+    "REV2: competitive_landscape: 'Partners Harvard Medical International' (Wikipedia) replaced by Harvard Magazine, 'At Harvard Medical International, Changes Afoot', January 2008 (opened: HMI helped Wockhardt develop facilities and clinical programs and a performance-improvement plan that led to the network's international accreditation); Harvard Gazette, 24 April 2008 (opened: Partners HealthCare assumed management of HMI as PHMI); WBUR, 27 November 2019 (opened: Partners renamed Mass General Brigham). The specific claim that Mumbai and Bangalore hospitals gained JCI accreditation in 2005 and 2008 was removed (only Wikipedia and medical-tourism sites support the dates). 'From about 2001' now rests on Wockhardt's Annual Report 2010-11 describing a 'ten year relationship' with PHMI.",
+    "REV2: uncited (a) UN peak: sourced to PTI via The Tribune, 12 July 2024 (opened: WPP 2024 projects India's population to peak in the early 2060s at about 1.7 billion).",
+    "REV2: uncited (b) 'fastest-growing large economy' rephrased to the IMF's wording and sourced to the IMF World Economic Outlook Update, July 2026 (text PDF, opened: 'India remains among the fastest-growing major economies, with growth projected at 6.4 percent'; FY basis, FY2026-27).",
+    "REV2: uncited (c) 'Several states also run their own insurance schemes' kept as 'Several states also finance their own health insurance schemes', sourced to the National Health Accounts 2022-23 report (NHSRC PDF, opened: 'Union and State Government financed health insurance schemes (PMJAY and other State-specific health insurance schemes)').",
+    "REV2: uncited (d) NMC replaced MCI: sourced to PIB, 25 September 2020, 'Historic reform in Medical Education: National Medical Commission (NMC) constituted' (opened: MCI stands abolished). Added 'in September 2020'.",
+    "REV2: uncited (e) DNB sentence rewritten to what NBEMS's own About page (natboard.edu.in/aboutus.php, opened) supports: an autonomous body under the Ministry of Health and Family Welfare running DNB broad-specialty and DrNB super-specialty programmes in accredited institutions. 'Particularly in private hospitals' removed as unsupported.",
+    "REV2: uncited (f) 'specialists cluster in metro private hospitals' removed; replaced with the Health Dynamics of India 2022-23 finding that rural CHCs lacked 79.9 percent of required specialists in March 2023 (4,413 of 21,964), sourced to Business Standard, 10 September 2024 (opened).",
+    "REV2: uncited (g) 'Private providers deliver most specialist care' replaced by NSS 80th round (2025) figures: private hospitals handled 57.9 percent of rural and 64.6 percent of urban hospitalisations, including government-empanelled private hospitals, sourced to Oommen C. Kurian, Observer Research Foundation, 13 May 2026 (opened; analysis of NSS 80th round unit-level data).",
+    "REV2: other uncited sentences: 'lower-middle-income' descriptor dropped from economy; recent development 3 sentence 'Cleveland Clinic has not issued its own release' removed and 'project is at MoU stage' now carries markers; 'Metabolic risk is very high', 'Other US links are historical or dormant' and similar lead-ins removed or made analytical.",
+    "REV2: Max Healthcare beds CONFIRMED at 4,966 operational beds at 31 March 2026 (up from 4,654 at end FY25) from Max Healthcare's 'Earnings update: Q4 & FY26', 21 May 2026, filed under SEBI LODR Reg. 30 (max-website20-images S3 PDF, opened: 'Operational bed capacity as at Mar'26 end stood at 4,966'). Secondary sources (Business Standard, InvestyWise, Whalesbook) removed from private_system. The '10,000 beds by FY2030' target (Whalesbook) replaced by the Integrated Annual Report 2025-26 statement (opened) of 'nearly doubling bed capacity over the next five years'. Note for reviewers: the annual report also cites 'over 6,000 beds' network capacity and 3,841 average operational beds for the consolidated entity; the profile uses the network operational figure.",
+    "REV2: private_system: Narayana Health UK acquisition, Manipal IPO size, the NSS cost comparison (kept in public_system and financing) and EY pipeline figures (Apollo ~3,400, Medanta ~2,700, Fortis ~1,800, Aster ~4,445) removed in trimming; DownToEarth, NSS press note, Narayana, Business Standard Max, InvestyWise Max and Whalesbook sources dropped from this section.",
+    "REV2: trimming (about 25 percent requested; narratives cut to the per-section caps). Removed restatements and secondary detail: nominal GDP, base-year caveat sentence, February 2026 US-India framework sentence, pharma Section 232/Lindsey Graham act name, ischaemic heart disease ranking, 75/25 screening sentence, urban share sentence (still in facts), PM-JAY eighth-anniversary numbers in public_system (still in recent developments), 1,28,875 seats (Dec 2025), 75,000-seat pledge, NEET 58 percent women, faculty-need sentence, budget medical hubs sentence in outlook, Bangladesh Jan to Nov 2025 figure. Sources that became uncited were removed and markers renumbered: government (prepp, both Wikipedia, President and PMO profiles), economy (MoSPI new-series note, White House joint statement, India Briefing), disease (Think Global Health/CFR, PIB 75/25), education (Sakshi, Careers360, Tribune), outlook (The Week budget).",
+    "REV2: competitive_landscape restructured into intro, 15 entries (11 US, 4 other foreign) and closing. Added to its sources: KKR release (Nasdaq), healthcaremea Aster merger report, Business Standard budget-hubs report, all previously opened for other sections. Statuses state only what sources support; Mayo-AIG membership, JHMI-HCL, MSK India and PHMI-Wockhardt are marked 'current status not confirmed' or equivalent.",
+    "REV2: recent developments trimmed to 55 words or fewer each; West Bengal item dropped the Outlook Money source (CM presence detail cut); NEET item headline changed to 'cancelled over alleged paper leak'.",
+    "REV2: Word count (narratives, plus competitive-landscape entries and closing) fell from 4,231 to about 2,715; recent development summaries from 617 to 357.",
+    "REV2-CHECK: outlook: trimming removed the budget health-cities sentence, leaving 'are the leading examples' attached to the private-capital sentence; now reads 'are the leading examples of integrated health cities' (Business Standard budget report and sources 3 and 4 support).",
+    "REV2-CHECK: education: 'The NMC chair said ... would not be implemented for three to four years' overstated Medical Dialogues, 29 October 2025 (opened): the chair's own quote gives no timeline; the 3 to 4 years of mock tests is FAIMA's account of the meeting. Restored the qualified wording.",
+    "REV2-CHECK: competitive_landscape Mayo: 'Mayo has had a Mumbai patient office since 2023' asserted continuity the February 2023 Newswise release cannot show; restored 'opened ... in February 2023'. Status now says the Lilavati and Adani projects' current status is not confirmed (only 2025 announcements and the March 2025 nursing cohort are sourced).",
+    "REV2-CHECK: competitive_landscape MGB: WBUR, 27 November 2019 (opened) reports the announcement of the name change, not its completion; text now says Partners 'announced in November 2019 that it would rename itself'. Harvard Magazine (Jan 2008), Harvard Gazette (24 April 2008, 'Partners Harvard Medical International (PHMI)') and Wockhardt AR 2010-11 ('ten year relationship with Partners Harvard Medical International') confirmed. Status now states current status not confirmed, as the resolution log intended.",
+    "REV2-CHECK: competitive_landscape IHH: 'since 2018' was uncited and the cited InvestyWise report (10 November 2025, opened) gives only the 31.17 percent stake, 1,778 tendered shares and the mandatory open offer; removed the year from text and status and added marker 31 to the control sentence.",
+    "REV2-CHECK: competitive_landscape statuses: Johns Hopkins (IIT Bombay), UPMC and King's College London statuses now say current status is not confirmed, since only announcement-date sources support them; Mount Sinai status now names its only current evidence (Ramaiah's collaborations page)."
   ],
   "csi_manual": {
     "patient_volume_and_revenue": "",

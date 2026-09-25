@@ -155,6 +155,26 @@ on PR Newswire, Business Wire or EurekAlert instead.
    summarize (in chat, not in the document) what the resolution pass changed
    and why, so they can spot-check the calls that were made on their behalf.
 
+## Length and competitive landscape
+
+- Match CSI's existing profiles, which are concise. Narrative caps (words):
+  demographics 200, government 170, economy 240, disease_prevalence 200,
+  public_system 230, private_system 230, financing 180, workforce 180,
+  education 220, outlook 220. Recent-development summaries 55 at most.
+  Paragraphs no longer than about 130 words. The whole profile lands around
+  2,700 words.
+- Only reputable sources: official statistics, government, the institution
+  itself, multilaterals (World Bank, WHO, IMF, UN), peer-reviewed work, and
+  established news outlets. No Wikipedia.
+- `competitive_landscape` uses `narrative` (short intro, 70 words), `entries`
+  and `closing` (India-style "competitor for patients" paragraph, 90 words).
+  Each entry: `group` ("US academic medical centers" or "Other foreign health
+  systems and investors"), `institution`, `partner`, `model`, `status`,
+  `text` (1 to 3 sentences with markers). The generator turns these into a
+  "who is doing what" table followed by grouped entries. Status says only
+  what a source supports: "Active" or "Ended" needs evidence, otherwise
+  "current status not confirmed".
+
 ## Writing style
 
 - Avoid em/en dashes; write in full sentences with normal punctuation
