@@ -333,11 +333,108 @@ def add_section_body(doc, section, registry):
         if para.strip():
             last = doc.add_paragraph()
             cited |= add_cited_text(last, para.strip(), sources, registry)
+    if section.get("entries"):
+        cited |= add_entries(doc, section["entries"], sources, registry)
+    for para in re.split(r"\n\s*\n|\n", section.get("closing", "") or ""):
+        if para.strip():
+            last = doc.add_paragraph()
+            cited |= add_cited_text(last, para.strip(), sources, registry)
     if sources and not cited:
         # no per-sentence markers: cite the section's sources at its end
         if last is None:
             last = doc.add_paragraph()
         add_citations(last, sorted({registry.number(s) for s in sources}), registry)
+
+
+def set_cell_shading(cell, hex_fill):
+    shd = OxmlElement("w:shd")
+    shd.set(qn("w:val"), "clear")
+    shd.set(qn("w:color"), "auto")
+    shd.set(qn("w:fill"), hex_fill)
+    cell._tc.get_or_add_tcPr().append(shd)
+
+
+def set_table_borders(table, color="D9D9D9"):
+    tbl_pr = table._tbl.tblPr
+    borders = OxmlElement("w:tblBorders")
+    for edge in ("top", "left", "bottom", "right", "insideH", "insideV"):
+        el = OxmlElement(f"w:{edge}")
+        el.set(qn("w:val"), "single")
+        el.set(qn("w:sz"), "4")
+        el.set(qn("w:space"), "0")
+        el.set(qn("w:color"), color)
+        borders.append(el)
+    for tag in ("shd", "tblLayout", "tblCellMar", "tblLook", "tblCaption", "tblDescription"):
+        anchor = tbl_pr.find(qn(f"w:{tag}"))
+        if anchor is not None:
+            anchor.addprevious(borders)
+            return
+    tbl_pr.append(borders)
+
+
+def add_entries(doc, entries, sources, registry):
+    """Competitive landscape: summary table, then entries grouped by type."""
+    groups = []
+    for e in entries:
+        if e.get("group") not in groups:
+            groups.append(e.get("group"))
+
+    cap = doc.add_paragraph()
+    cr = cap.add_run("Who is doing what")
+    cr.bold = True
+    cr.font.color.rgb = DARK_RED
+    cap.paragraph_format.space_after = Pt(4)
+    headers = ["Institution", "Partner(s) in country", "Relationship", "Status"]
+    table = doc.add_table(rows=1, cols=4)
+    set_table_borders(table)
+    widths = [Cm(3.4), Cm(5.0), Cm(4.2), Cm(4.0)]
+    for i, h in enumerate(headers):
+        cell = table.rows[0].cells[i]
+        set_cell_shading(cell, "D91F2C")
+        r = cell.paragraphs[0].add_run(h)
+        r.bold = True
+        r.font.size = Pt(9.5)
+        r.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
+    for g in groups:
+        row = table.add_row()
+        merged = row.cells[0].merge(row.cells[3])
+        set_cell_shading(merged, "F6E3E4")
+        gr = merged.paragraphs[0].add_run(g or "")
+        gr.bold = True
+        gr.font.size = Pt(9.5)
+        gr.font.color.rgb = DARK_RED
+        for e in (x for x in entries if x.get("group") == g):
+            cells = table.add_row().cells
+            for i, key in enumerate(("institution", "partner", "model", "status")):
+                run = cells[i].paragraphs[0].add_run(e.get(key, ""))
+                run.font.size = Pt(9.5)
+                run.bold = key == "institution"
+    for row in table.rows:
+        for i, w in enumerate(widths):
+            if i < len(row.cells):
+                row.cells[i].width = w
+    doc.add_paragraph().paragraph_format.space_after = Pt(2)
+
+    cited = False
+    for g in groups:
+        gp = doc.add_paragraph()
+        gp.paragraph_format.space_before = Pt(6)
+        gp.paragraph_format.space_after = Pt(4)
+        grun = gp.add_run((g or "") + ":")
+        grun.bold = True
+        grun.underline = True
+        for e in (x for x in entries if x.get("group") == g):
+            p = doc.add_paragraph()
+            p.paragraph_format.space_after = Pt(6)
+            nr = p.add_run(e.get("institution", "") + ": ")
+            nr.bold = True
+            nr.font.color.rgb = DARK_RED
+            cited |= add_cited_text(p, e.get("text", ""), sources, registry)
+            if e.get("status"):
+                sr = p.add_run(f" ({e['status']})")
+                sr.italic = True
+                sr.font.color.rgb = GRAY
+    return cited
 
 
 def add_manual_field(doc, label, value):
