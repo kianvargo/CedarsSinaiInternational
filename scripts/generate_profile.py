@@ -303,7 +303,7 @@ def add_cited_text(paragraph, text, sources, registry, size=None):
                     g = registry.number(sources[n - 1])
                     if g not in nums:
                         nums.append(g)
-            add_citations(paragraph, nums, registry)
+            add_citations(paragraph, sorted(nums), registry)
             found = True
         else:
             r = paragraph.add_run(chunk)

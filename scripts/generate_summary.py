@@ -206,7 +206,7 @@ def write_cited(p, text, profile, registry, size=10.5, color=None):
             if color:
                 r.font.color.rgb = color
         if m:
-            gp.add_citations(p, cite_numbers(profile, registry, REF.findall(m.group(0))), registry)
+            gp.add_citations(p, sorted(cite_numbers(profile, registry, REF.findall(m.group(0)))), registry)
             pos = m.end()
 
 
