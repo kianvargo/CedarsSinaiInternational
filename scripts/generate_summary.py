@@ -192,25 +192,27 @@ CHARTS = {
 
 # ---------------------------------------------------------------- docx
 
-def cited_paragraph(doc, text, profile, registry, style=None, size=10.5, color=None):
-    p = doc.add_paragraph(style=style) if style else doc.add_paragraph()
+REF_GROUP = re.compile(r"(?:\{\{\w+\.\w+:\d+\}\})+")
+
+
+def write_cited(p, text, profile, registry, size=10.5, color=None):
+    """Adds text to p; each run of adjacent refs becomes one comma-separated citation group."""
     pos = 0
-    for m in REF.finditer(text):
-        chunk = text[pos:m.start()]
-        pos = m.end()
+    for m in list(REF_GROUP.finditer(text)) + [None]:
+        chunk = text[pos:m.start()] if m else text[pos:]
         if chunk:
             r = p.add_run(chunk)
             r.font.size = Pt(size)
             if color:
                 r.font.color.rgb = color
-        # gather a run of adjacent refs into one citation group
-        gp.add_citations(p, cite_numbers(profile, registry, [m.groups()]), registry)
-    tail = text[pos:]
-    if tail:
-        r = p.add_run(tail)
-        r.font.size = Pt(size)
-        if color:
-            r.font.color.rgb = color
+        if m:
+            gp.add_citations(p, cite_numbers(profile, registry, REF.findall(m.group(0))), registry)
+            pos = m.end()
+
+
+def cited_paragraph(doc, text, profile, registry, style=None, size=10.5, color=None):
+    p = doc.add_paragraph(style=style) if style else doc.add_paragraph()
+    write_cited(p, text, profile, registry, size, color)
     return p
 
 
@@ -394,12 +396,7 @@ def build(profile_path, summary_path, out_path):
         dr.bold = True
         dr.font.size = Pt(10)
         dr.font.color.rgb = gp.DARK_RED
-        pos = 0
-        for m in REF.finditer(item["text"]):
-            p.add_run(item["text"][pos:m.start()]).font.size = Pt(10)
-            gp.add_citations(p, cite_numbers(profile, registry, [m.groups()]), registry)
-            pos = m.end()
-        p.add_run(item["text"][pos:]).font.size = Pt(10)
+        write_cited(p, item["text"], profile, registry, size=10)
 
     doc.save(out_path)
     print(f"Wrote {out_path} (charts in {chart_dir})")
