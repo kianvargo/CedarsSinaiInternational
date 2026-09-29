@@ -175,6 +175,30 @@ on PR Newswire, Business Wire or EurekAlert instead.
   what a source supports: "Active" or "Ended" needs evidence, otherwise
   "current status not confirmed".
 
+## Short visual summary (optional second document)
+
+When asked for a summary / executive version: build it from the finished,
+verified profile JSON only. It adds no new facts, so it needs no web research.
+
+1. **Draft:** an agent condenses the profile into
+   `<scratchpad>/<country>_summary.json` with keys `at_a_glance` (8 tiles:
+   value + label with year + cite), `key_takeaways` (4), `health_system` (3),
+   `market` (3), `competitors` (US institutions: institution, partner, status),
+   `competitor_note`, `opportunities` (3), `risks` (3), `recent` (3). Citations
+   use `{{group.section:n}}`, meaning source n of that profile section, so the
+   summary prints the same numbers as the profile's `_SOURCES` document.
+2. **Verify and tighten:** a separate agent checks every line against the
+   profile (numbers, qualifiers, years, statuses, markers) and cuts it to 380
+   to 450 visible words, bullets at most 20 words.
+3. **Build:** `python3 scripts/generate_summary.py output/<country>_profile.json
+   <summary.json> output/<Country>_Summary_DRAFT.docx`. Title page, then about
+   four pages: At a Glance tiles and takeaways; health system with two charts;
+   market with a chart and competitor table; opportunities, risks, recent.
+   Charts are defined per country in `CHARTS` in that script: every plotted
+   value names the profile text it comes from, and the build stops if the
+   number is not there. Chart colors (Cedars red vs comparison blue) passed the
+   dataviz palette validator; follow the dataviz skill for new charts.
+
 ## House preferences (from the analyst's hand edits, Sep 2026)
 
 - American spelling in document text (center, aging, hospitalization,
