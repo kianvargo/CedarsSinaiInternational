@@ -1,0 +1,143 @@
+{
+  "country": "India",
+  "at_a_glance": [
+    {
+      "value": "About 1.46 billion",
+      "label": "Population, 2025 estimate",
+      "cite": "{{country_overview.demographics:1}}"
+    },
+    {
+      "value": "About $11,748",
+      "label": "GDP per capita (PPP), 2025",
+      "cite": "{{country_overview.demographics:10}}"
+    },
+    {
+      "value": "3.37%",
+      "label": "Health spending, share of GDP, 2022-23",
+      "cite": "{{health_system.financing:1}}"
+    },
+    {
+      "value": "43.4%",
+      "label": "Out-of-pocket share of spending, 2022-23",
+      "cite": "{{health_system.financing:2}}"
+    },
+    {
+      "value": "About 0.95",
+      "label": "Registered doctors per 1,000, 2025",
+      "cite": "{{health_system.workforce:1}}"
+    },
+    {
+      "value": "13.25 crore",
+      "label": "PM-JAY admissions in 8 years, to 2026",
+      "cite": "{{recent_developments.6:1}}"
+    },
+    {
+      "value": "64.6%",
+      "label": "Private share of urban admissions, 2025",
+      "cite": "{{health_system.private_system:1}}"
+    },
+    {
+      "value": "6.44 lakh",
+      "label": "Medical-purpose arrivals, 2024",
+      "cite": "{{health_system.outlook:5}}"
+    }
+  ],
+  "key_takeaways": [
+    "Two-tier market: PM-JAY rates anchor mass care; a smaller paying and international segment sustains premium care.{{health_system.financing:7}}{{health_system.public_system:4}}",
+    "Mount Sinai's exclusive Ramaiah collaboration, reportedly 10 years, is CSI's closest peer model.{{health_system.competitive_landscape:19}}{{health_system.competitive_landscape:21}}",
+    "Private chains are the likeliest commercial partners; state governments are often the counterparty.{{health_system.private_system:12}}{{country_overview.government:6}}",
+    "Workforce training, from nursing to leadership, is one of the clearest openings.{{health_system.workforce:1}}{{health_system.workforce:4}}"
+  ],
+  "health_system": [
+    "States run delivery, from 1,81,873 Ayushman Arogya Mandirs to AIIMS and Tata Memorial Centre.{{country_overview.government:1}}{{health_system.public_system:1}}",
+    "Government health spending was 1.48% of GDP in 2022-23, short of the 2.5% target.{{health_system.financing:1}}{{health_system.financing:9}}",
+    "Under one registered doctor and 0.6 public beds per 1,000; rural centers lacked 79.9% of specialists in 2023.{{health_system.workforce:1}}{{health_system.workforce:6}}{{health_system.workforce:15}}"
+  ],
+  "market": [
+    "Manipal (13,037 licensed beds), Apollo (10,970, including overseas) and Aster DM Quality Care (over 10,600) lead.{{health_system.private_system:2}}{{health_system.private_system:4}}{{health_system.private_system:7}}",
+    "Capital: Manipal's Rs 9,275 crore IPO, Blackstone in Aster, KKR's pending Medicover deal, IHH controlling Fortis.{{recent_developments.4:1}}{{health_system.private_system:6}}{{health_system.private_system:14}}{{health_system.private_system:11}}",
+    "Cleveland Clinic anchors Navi Mumbai MediCity under an MoU; Mayo advises Adani's two Health Cities.{{health_system.outlook:3}}{{health_system.outlook:4}}"
+  ],
+  "competitors": [
+    {
+      "institution": "Mayo Clinic",
+      "partner": "AIG, Lilavati, Adani",
+      "status": "2019, 2025; not confirmed"
+    },
+    {
+      "institution": "Cleveland Clinic",
+      "partner": "Maharashtra, Brookfield, Arodhan",
+      "status": "MoU signed June 2026"
+    },
+    {
+      "institution": "Johns Hopkins",
+      "partner": "HCL; IIT Bombay",
+      "status": "2014, 2023; not confirmed"
+    },
+    {
+      "institution": "Memorial Sloan Kettering",
+      "partner": "iCliniq",
+      "status": "2021; not confirmed"
+    },
+    {
+      "institution": "MD Anderson",
+      "partner": "Tata Memorial Hospital",
+      "status": "Sister agreement 2003; ECHO partner"
+    },
+    {
+      "institution": "Mount Sinai",
+      "partner": "Ramaiah Memorial Hospital",
+      "status": "July 2024; 10-year term reported"
+    },
+    {
+      "institution": "UCLA Health",
+      "partner": "Narendra Modi Medical College; AIIMS",
+      "status": "2024; department level"
+    },
+    {
+      "institution": "NewYork-Presbyterian",
+      "partner": "Emergency services",
+      "status": "2007, 2008; none currently listed"
+    },
+    {
+      "institution": "UPMC",
+      "partner": "TeleChikitsa; Citizens Hospital",
+      "status": "2014; not confirmed"
+    },
+    {
+      "institution": "Mass General Brigham",
+      "partner": "Wockhardt Hospitals",
+      "status": "About 2001; not confirmed"
+    },
+    {
+      "institution": "Houston Methodist; Northwestern",
+      "partner": "None identified",
+      "status": "None listed"
+    }
+  ],
+  "competitor_note": "US ties are mostly advisory, network or education deals, not ownership; several are less visible than headlines suggest.",
+  "opportunities": [
+    "Nursing, fellowship and allied-health training, backing budget plans for 1 lakh more allied health professionals.{{health_system.workforce:4}}{{health_system.workforce:11}}",
+    "Affiliations, second-opinion services and clinical program development with corporate hospital chains.{{health_system.private_system:2}}{{health_system.private_system:12}}",
+    "Cardiology, oncology, metabolic and transplant care in the aging south, west and National Capital Region.{{country_overview.demographics:6}}{{country_overview.disease_prevalence:1}}{{country_overview.disease_prevalence:13}}"
+  ],
+  "risks": [
+    "Medical arrivals fell from 6.97 lakh in 2019 to 6.44 lakh in 2024; Bangladesh, the top source, faced visa limits.{{health_system.outlook:5}}{{health_system.outlook:7}}",
+    "A 2026 US law allows tariffs up to 100% on the largest Russian energy buyers; generics face Section 232 review.{{country_overview.economy:10}}{{country_overview.economy:8}}",
+    "Thin public funding and staffing; PM-JAY tariffs set the price floor for private partners.{{health_system.outlook:12}}{{health_system.workforce:15}}{{health_system.public_system:4}}"
+  ],
+  "recent": [
+    {
+      "date": "2026-06-10",
+      "text": "Maharashtra's MoU names Cleveland Clinic anchor of planned US$1.2 billion Navi Mumbai MediCity.{{recent_developments.3:1}}{{recent_developments.3:4}}"
+    },
+    {
+      "date": "2026-08-06",
+      "text": "KKR agreed to buy Medicover India's 24 hospitals; closing expected fourth quarter 2026.{{recent_developments.5:1}}{{recent_developments.5:2}}"
+    },
+    {
+      "date": "2026-09-23",
+      "text": "PM-JAY turned eight: 13.25 crore funded admissions at over 38,000 empaneled hospitals.{{recent_developments.6:1}}{{recent_developments.6:2}}"
+    }
+  ]
+}
