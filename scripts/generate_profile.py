@@ -153,7 +153,29 @@ def update_fields_on_open(doc):
 def add_page_number_footer(doc):
     p = doc.sections[0].footer.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+    r = p.add_run("Cedars-Sinai International   ")
+    r.font.size = Pt(9)
+    r.font.color.rgb = GRAY
     add_field(p, "PAGE", "", size=9, color=GRAY)
+
+
+def usable_width(doc):
+    s = doc.sections[0]
+    return s.page_width - s.left_margin - s.right_margin
+
+
+COVER_RED = RGBColor(0xCC, 0x00, 0x00)
+
+
+def add_cover_title(doc, doc_type, country):
+    """'Country Profile: India' in 20pt red, document type in bold."""
+    p = doc.add_paragraph()
+    for text, bold in ((f"{doc_type}: ", True), (country, False)):
+        r = p.add_run(text)
+        r.bold = bold
+        r.font.size = Pt(20)
+        r.font.color.rgb = COVER_RED
+    return p
 
 
 def add_field(paragraph, instr, cached, size=None, color=None):
@@ -464,11 +486,12 @@ def cover_image_path(data, out_path):
 
 def build_toc(placeholder, headings):
     toc_title = placeholder.insert_paragraph_before()
+    toc_title.paragraph_format.space_before = Pt(12)
     r = toc_title.add_run("Table of Contents")
-    r.font.size = Pt(20)
+    r.font.size = Pt(16)
     r.font.color.rgb = CEDARS_RED
     toc_title.paragraph_format.space_after = Pt(14)
-    usable = Cm(21.0 - 4.4)
+    usable = usable_width(placeholder.part.document)
     for level, text, anchor in headings.items:
         p = placeholder.insert_paragraph_before()
         pf = p.paragraph_format
@@ -492,40 +515,9 @@ def build_profile(data, out_path, registry):
     country = data["country"]
     research = data["research"]
 
-    # Cover
-    kicker = doc.add_paragraph()
-    kr = kicker.add_run("COUNTRY PROFILE & MARKET INTELLIGENCE")
-    kr.font.size = Pt(13)
-    kr.font.color.rgb = GRAY
-    kr.bold = True
-    kicker.paragraph_format.space_before = Pt(40)
-    kicker.paragraph_format.space_after = Pt(2)
-    title = doc.add_paragraph()
-    tr = title.add_run(country)
-    tr.font.size = Pt(40)
-    tr.font.color.rgb = CEDARS_RED
-    tr.bold = True
-    title.paragraph_format.space_after = Pt(28)
-    doc.add_picture(cover_image_path(data, out_path), width=Cm(21.0 - 4.4))
-    meta = doc.add_paragraph()
-    meta.paragraph_format.space_before = Pt(24)
-    mr = meta.add_run(
-        f"Draft prepared {data.get('generated_date', '')}. Superscript numbers refer to the numbered "
-        f"sources in the companion document, {Path(out_path).stem}_SOURCES.docx. The CSI Assessment "
-        f"section requires completion from Cedars-Sinai's internal data."
-    )
-    mr.italic = True
-    mr.font.size = Pt(10)
-    mr.font.color.rgb = GRAY
-    logo = doc.add_paragraph()
-    logo.alignment = WD_ALIGN_PARAGRAPH.RIGHT
-    logo.paragraph_format.space_before = Pt(60)
-    lr = logo.add_run("Cedars-Sinai  |  INTERNATIONAL")
-    lr.bold = True
-    lr.font.size = Pt(11)
-    lr.font.color.rgb = GRAY
-    doc.add_page_break()
-
+    # Cover and table of contents share page 1 (house layout, from the analyst's hand edits)
+    add_cover_title(doc, "Country Profile", country)
+    doc.add_picture(cover_image_path(data, out_path), width=usable_width(doc))
     # Table of contents is filled in after the headings exist
     toc_placeholder = doc.add_paragraph()
     doc.add_page_break()

@@ -175,6 +175,20 @@ on PR Newswire, Business Wire or EurekAlert instead.
   what a source supports: "Active" or "Ended" needs evidence, otherwise
   "current status not confirmed".
 
+## House preferences (from the analyst's hand edits, Sep 2026)
+
+- American spelling in document text (center, aging, hospitalization,
+  empaneled, travelers, anesthesia, hemorrhage). Keep proper nouns and
+  source titles exactly as published (Tata Memorial Centre, UNFPA "India
+  Ageing Report"). The hospital is "NewYork-Presbyterian", with no space.
+- Quick-fact values are short: "Hindi and English", "About 1.46 billion
+  (2025 estimate)", "Federal parliamentary democratic republic". No source
+  names or commentary inside fact values; the citation carries the source.
+- Layout (handled by the generator): page 1 holds the title "Country
+  Profile: <Country>" (20pt red, "Country Profile:" bold), the map at full
+  text width and the table of contents; content starts on page 2; footer
+  reads "Cedars-Sinai International" and the page number.
+
 ## Writing style
 
 - Avoid em/en dashes; write in full sentences with normal punctuation
