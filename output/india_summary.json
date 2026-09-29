@@ -2,13 +2,13 @@
   "country": "India",
   "at_a_glance": [
     {
-      "value": "About 1.46 billion",
+      "value": "1.46 bn",
       "label": "Population, 2025 estimate",
       "cite": "{{country_overview.demographics:1}}"
     },
     {
-      "value": "About $11,748",
-      "label": "GDP per capita (PPP), 2025",
+      "value": "$11,748",
+      "label": "GDP per capita (PPP), about, 2025",
       "cite": "{{country_overview.demographics:10}}"
     },
     {
@@ -22,13 +22,13 @@
       "cite": "{{health_system.financing:2}}"
     },
     {
-      "value": "About 0.95",
-      "label": "Registered doctors per 1,000, 2025",
+      "value": "0.95",
+      "label": "Registered doctors per 1,000, about, 2025",
       "cite": "{{health_system.workforce:1}}"
     },
     {
-      "value": "13.25 crore",
-      "label": "PM-JAY admissions in 8 years, to 2026",
+      "value": "132.5 m",
+      "label": "PM-JAY admissions funded, 8 years to 2026",
       "cite": "{{recent_developments.6:1}}"
     },
     {
@@ -37,7 +37,7 @@
       "cite": "{{health_system.private_system:1}}"
     },
     {
-      "value": "6.44 lakh",
+      "value": "644,000",
       "label": "Medical-purpose arrivals, 2024",
       "cite": "{{health_system.outlook:5}}"
     }
