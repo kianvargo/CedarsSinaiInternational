@@ -182,7 +182,7 @@ verified profile JSON only. It adds no new facts, so it needs no web research.
 
 1. **Draft:** an agent condenses the profile into
    `<scratchpad>/<country>_summary.json` with keys `at_a_glance` (8 tiles:
-   value + label with year + cite), `key_takeaways` (4), `health_system` (3),
+   value + label with year + cite), `country_background` (one paragraph, about 150 words: capital, government, leaders, economy, demographics, key risk), `key_takeaways` (4), `health_system` (3),
    `market` (3), `competitors` (US institutions: institution, partner, status),
    `competitor_note`, `opportunities` (3), `risks` (3), `recent` (3). Citations
    use `{{group.section:n}}`, meaning source n of that profile section, so the

@@ -351,6 +351,9 @@ def build(profile_path, summary_path, out_path):
     # Page 1: at a glance
     heading(doc, "At a Glance")
     stat_tiles(doc, summary["at_a_glance"], profile, registry)
+    if summary.get("country_background"):
+        subhead(doc, "Country background")
+        cited_paragraph(doc, summary["country_background"], profile, registry, size=10.5)
     subhead(doc, "Key takeaways for CSI")
     bullets(doc, summary["key_takeaways"], profile, registry)
     doc.add_page_break()
