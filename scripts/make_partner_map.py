@@ -53,7 +53,7 @@ COUNTRIES = {
 
 
 def size(n):
-    return 40 + 48 * n
+    return 170 + 36 * n  # smallest circle still fits its number
 
 
 def rings(geom):
@@ -87,7 +87,7 @@ def main(country, out):
     for name, n in active.items():
         (lon, lat), _ = cfg["cities"][name]
         ax.scatter([lon], [lat], s=size(n), color=RED, alpha=0.9, edgecolor="white", linewidth=1.2, zorder=5)
-        ax.text(lon, lat, str(n), ha="center", va="center", fontsize=8 if n < 10 else 7, color="white",
+        ax.text(lon, lat, str(n), ha="center", va="center", fontsize=7.5, color="white",
                 fontweight="bold", zorder=6)
     for name, n in unclear.items():
         if name not in active:
