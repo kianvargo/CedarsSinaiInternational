@@ -115,7 +115,8 @@ def export(out=None):
     fills = {"Active": "D9EAD3", "Unclear": "FCE8B2", "Ended": "E7E6E6"}
     for r in rows:
         src = r["sources"][0] if r["sources"] else {}
-        label = " ".join(x for x in (src.get("author", ""), src.get("date", "")) if x) or "Source"
+        who = src.get("publisher") or src.get("author", "")
+        label = ", ".join(x for x in (who, src.get("date", "")) if x) or "Source"
         ws.append([r["status"], r["country"], r["foreign_institution"], r["foreign_country"], r["indian_partner"],
                    r["type"], r["description"], fmt_period(r.get("start")), fmt_period(r.get("end")),
                    r.get("last_evidence", ""), r["evidence"], label])
