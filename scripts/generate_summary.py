@@ -184,7 +184,7 @@ CHARTS = {
                     "July 2026 merger; Medicover India is being acquired by KKR.",
             "values": [("health_system", "private_system", "13,037"), ("health_system", "private_system", "10,970"),
                        ("health_system", "private_system", "10,600"), ("health_system", "private_system", "4,966"),
-                       ("health_system", "competitive_landscape", "4,800")],
+                       ("recent_developments", "5", "4,800")],
         },
     }
 }
@@ -376,14 +376,27 @@ def build(profile_path, summary_path, out_path):
     # Page 3: market and competition
     heading(doc, "Market and Competition")
     bullets(doc, summary["market"], profile, registry)
-    add_chart(doc, specs["chains"], pngs["chains"], profile, registry, Cm(15.5))
-    subhead(doc, "US academic medical centers in India")
-    competitor_table(doc, summary["competitors"])
-    cited_paragraph(doc, summary["competitor_note"], profile, registry, size=10).paragraph_format.space_before = Pt(6)
+    subhead(doc, "Where foreign health systems partner in " + country)
+    rows = gp.tracker_rows(country)
+    counts = {s: sum(r["status"] == s for r in rows) for s in ("Active", "Unclear", "Ended")}
+    lead = doc.add_paragraph()
+    lr = lead.add_run(f"{len(rows)} partnerships active or active within five years: {counts['Active']} active, "
+                      f"{counts['Unclear']} unclear, {counts['Ended']} ended. Full list with sources in the profile "
+                      f"and the partnerships tracker.")
+    lr.font.size = Pt(10)
+    doc.add_picture(str(gp.partner_map(country, chart_dir)), width=Cm(12.0))
+    doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
+    cap = doc.add_paragraph()
+    cr = cap.add_run(gp.MAP_CAPTION.format(country=country, checked=max(r["last_checked"] for r in rows)))
+    cr.italic = True
+    cr.font.size = Pt(8)
+    cr.font.color.rgb = gp.GRAY
     doc.add_page_break()
 
-    # Page 4: opportunities, risks, recent
+    # Page 4: potential partners, opportunities, risks, recent
     heading(doc, "Opportunities and Risks for CSI")
+    specs["chains"]["title"] = "Potential partners: " + specs["chains"]["title"][0].lower() + specs["chains"]["title"][1:]
+    add_chart(doc, specs["chains"], pngs["chains"], profile, registry, Cm(14.5))
     subhead(doc, "Opportunities")
     bullets(doc, summary["opportunities"], profile, registry)
     subhead(doc, "Risks and watch items")

@@ -1,0 +1,278 @@
+{
+  "_how": "City of the partner institution in India. Metro areas grouped: Delhi NCR includes Faridabad; Mumbai includes Navi Mumbai; Ahmedabad includes GIFT City, Gandhinagar. Apollo group-level partnerships are placed at Apollo's Chennai headquarters. A partnership spanning two cities is listed in both.",
+  "locations": {
+    "india--children-s-hospital-of-philadelphia-chop--amrita-hospital-faridabad": {
+      "cities": [
+        "Delhi NCR"
+      ],
+      "partner": "Amrita Hospital, Faridabad"
+    },
+    "india--cleveland-clinic--government-of-maharashtra-and-arodhan-health-city-navi-mumbai-international-medicity-brookfield-asset-management-is-a-co-signatory-investor": {
+      "cities": [
+        "Mumbai"
+      ],
+      "partner": "Government of Maharashtra and Arodhan Health City (Navi Mumbai International MediCity); Brookfield Asset Management is a co-signatory investor"
+    },
+    "india--emory-university-emory-global-diabetes-research-center--iit-madras-shankar-center-of-excellence-in-diabetes-research-with-aiims-madras-diabetes-research-foundation-and-others": {
+      "cities": [
+        "Chennai"
+      ],
+      "partner": "IIT Madras Shankar Center of Excellence in Diabetes Research, with AIIMS, Madras Diabetes Research Foundation and others"
+    },
+    "india--hackensack-meridian-health--apollo-hospitals": {
+      "cities": [
+        "Chennai"
+      ],
+      "partner": "Apollo Hospitals"
+    },
+    "india--johns-hopkins-university--ajit-isaac-foundation-bengaluru": {
+      "cities": [
+        "Bengaluru"
+      ],
+      "partner": "Ajit Isaac Foundation, Bengaluru"
+    },
+    "india--johns-hopkins-university--dr-d-y-patil-medical-college-and-vidyapeeth-pune": {
+      "cities": [
+        "Pune"
+      ],
+      "partner": "Dr. D.Y. Patil Medical College and Vidyapeeth, Pune"
+    },
+    "india--johns-hopkins-university--iit-bombay-koita-centre-for-digital-health": {
+      "cities": [
+        "Mumbai"
+      ],
+      "partner": "IIT Bombay, Koita Centre for Digital Health"
+    },
+    "india--johns-hopkins-university-school-of-medicine--byramjee-jeejeebhoy-government-medical-college-and-sassoon-general-hospitals-pune-bjgmc-jhu-clinical-research-site": {
+      "cities": [
+        "Pune"
+      ],
+      "partner": "Byramjee Jeejeebhoy Government Medical College and Sassoon General Hospitals, Pune (BJGMC-JHU Clinical Research Site)"
+    },
+    "india--md-anderson-cancer-center--tata-memorial-centre-mumbai": {
+      "cities": [
+        "Mumbai"
+      ],
+      "partner": "Tata Memorial Centre, Mumbai"
+    },
+    "india--mayo-clinic--aiims-new-delhi-departments-of-pathology-and-nephrology": {
+      "cities": [
+        "Delhi NCR"
+      ],
+      "partner": "AIIMS New Delhi (Departments of Pathology and Nephrology)"
+    },
+    "india--mayo-clinic--adani-group-adani-health-city-ahmedabad-and-mumbai-planned-kolkata-campus": {
+      "cities": [
+        "Ahmedabad",
+        "Mumbai"
+      ],
+      "partner": "Adani Group (Adani Health City, Ahmedabad and Mumbai; planned Kolkata campus)"
+    },
+    "india--mayo-clinic--lilavati-hospital-gift-city-gujarat": {
+      "cities": [
+        "Ahmedabad"
+      ],
+      "partner": "Lilavati Hospital, GIFT City, Gujarat"
+    },
+    "india--mayo-clinic--lilavati-hospital-mumbai": {
+      "cities": [
+        "Mumbai"
+      ],
+      "partner": "Lilavati Hospital, Mumbai"
+    },
+    "india--mount-sinai-health-system--ramaiah-memorial-hospital-bengaluru": {
+      "cities": [
+        "Bengaluru"
+      ],
+      "partner": "Ramaiah Memorial Hospital, Bengaluru"
+    },
+    "india--rutgers-robert-wood-johnson-medical-school-rutgers-health--govind-ballabh-pant-institute-of-postgraduate-medical-education-and-research-gipmer-new-delhi": {
+      "cities": [
+        "Delhi NCR"
+      ],
+      "partner": "Govind Ballabh Pant Institute of Postgraduate Medical Education and Research (GIPMER), New Delhi"
+    },
+    "india--stanford-health-care--national-cancer-grid-ncg-india-including-tata-memorial-network-centres": {
+      "cities": [
+        "Mumbai"
+      ],
+      "partner": "National Cancer Grid (NCG) India, including Tata Memorial network centres"
+    },
+    "india--stanford-medicine-emergency-medicine-international-center-for-innovation-in-global-health--emergency-management-and-research-institute-emri-india": {
+      "cities": [
+        "Hyderabad"
+      ],
+      "partner": "Emergency Management and Research Institute (EMRI), India"
+    },
+    "india--thomas-jefferson-university-jefferson-health-jefferson-india-center--kle-academy-of-higher-education-and-research-j-n-medical-college-belagavi-lv-prasad-eye-institute-hyderabad-listed-by-jefferson-no-recent-dated-activity": {
+      "cities": [
+        "Belagavi",
+        "Hyderabad"
+      ],
+      "partner": "KLE Academy of Higher Education and Research (J N Medical College, Belagavi); LV Prasad Eye Institute, Hyderabad (listed by Jefferson, no recent dated activity)"
+    },
+    "india--ucla-health--all-india-institute-of-medical-sciences-new-delhi": {
+      "cities": [
+        "Delhi NCR"
+      ],
+      "partner": "All India Institute of Medical Sciences, New Delhi"
+    },
+    "india--ucla-health--federation-of-obstetric-and-gynaecological-societies-of-india-fogsi-and-safog": {
+      "cities": [
+        "Mumbai"
+      ],
+      "partner": "Federation of Obstetric and Gynaecological Societies of India (FOGSI) and SAFOG"
+    },
+    "india--ucla-health--narendra-modi-medical-college-ahmedabad": {
+      "cities": [
+        "Ahmedabad"
+      ],
+      "partner": "Narendra Modi Medical College, Ahmedabad"
+    },
+    "india--university-of-alabama-at-birmingham-heersink-school-of-medicine--pravara-institute-of-medical-sciences-loni-and-bharati-vidyapeeth-medical-college-pune": {
+      "cities": [
+        "Loni",
+        "Pune"
+      ],
+      "partner": "Pravara Institute of Medical Sciences (Loni) and Bharati Vidyapeeth Medical College (Pune)"
+    },
+    "india--university-of-california-san-francisco-francis-i-proctor-foundation--aravind-eye-care-system-madurai": {
+      "cities": [
+        "Madurai"
+      ],
+      "partner": "Aravind Eye Care System, Madurai"
+    },
+    "india--university-of-iowa-carver-college-of-medicine-ophthalmology--dr-shroff-s-charity-eye-hospital-new-delhi": {
+      "cities": [
+        "Delhi NCR"
+      ],
+      "partner": "Dr. Shroff's Charity Eye Hospital, New Delhi"
+    },
+    "india--university-of-michigan-medical-school-michigan-medicine--aiims-jammu": {
+      "cities": [
+        "Jammu"
+      ],
+      "partner": "AIIMS Jammu"
+    },
+    "india--university-of-wisconsin-madison-department-of-ophthalmology-and-visual-sciences-uw-health--dr-shroff-s-charity-eye-hospital-new-delhi": {
+      "cities": [
+        "Delhi NCR"
+      ],
+      "partner": "Dr. Shroff's Charity Eye Hospital, New Delhi"
+    },
+    "india--weill-cornell-medicine-center-for-global-health--byramjee-jeejeebhoy-government-medical-college-and-sassoon-hospital-pune-deep-griha-society": {
+      "cities": [
+        "Pune"
+      ],
+      "partner": "Byramjee Jeejeebhoy Government Medical College and Sassoon Hospital, Pune; Deep Griha Society"
+    },
+    "india--cambridge-university-hospitals-nhs-foundation-trust-with-cambridge-global-health-partnerships--himalayan-hospital-dehradun-and-ganga-prem-hospice-rishikesh-via-rama-foundation": {
+      "cities": [
+        "Dehradun"
+      ],
+      "partner": "Himalayan Hospital (Dehradun) and Ganga Prem Hospice, Rishikesh, via Rama Foundation"
+    },
+    "india--juntendo-university-tokyo--saint-hardyal-educational-and-orphans-welfare-society-sheows-delhi": {
+      "cities": [
+        "Delhi NCR"
+      ],
+      "partner": "Saint Hardyal Educational and Orphans' Welfare Society (SHEOWS), Delhi"
+    },
+    "india--king-s-college-london-and-guy-s-and-st-thomas-nhs-foundation-trust--p-d-hinduja-hospital-and-medical-research-centre-mumbai-national-health-education-society": {
+      "cities": [
+        "Mumbai"
+      ],
+      "partner": "P. D. Hinduja Hospital and Medical Research Centre, Mumbai (National Health & Education Society)"
+    },
+    "india--monash-university-faculty-of-information-technology--apollo-hospitals-and-the-apollo-university": {
+      "cities": [
+        "Chennai"
+      ],
+      "partner": "Apollo Hospitals and The Apollo University"
+    },
+    "india--singhealth--athulya-senior-care-chennai": {
+      "cities": [
+        "Chennai"
+      ],
+      "partner": "Athulya Senior Care, Chennai"
+    },
+    "india--university-college-london--aiims-new-delhi-and-iit-delhi": {
+      "cities": [
+        "Delhi NCR"
+      ],
+      "partner": "AIIMS New Delhi and IIT Delhi"
+    },
+    "india--university-of-leicester-and-university-hospitals-of-leicester-nhs-trust--apollo-hospitals-and-the-apollo-university": {
+      "cities": [
+        "Chennai"
+      ],
+      "partner": "Apollo Hospitals and The Apollo University"
+    },
+    "india--university-of-leicester-university-hospitals-of-leicester-nhs-trust-and-bapio-training-academy--apollo-health-resources-apollo-hospitals": {
+      "cities": [
+        "Chennai"
+      ],
+      "partner": "Apollo Health Resources (Apollo Hospitals)"
+    },
+    "india--university-of-liverpool--saveetha-institute-of-medical-and-technical-sciences-simats-chennai": {
+      "cities": [
+        "Chennai"
+      ],
+      "partner": "Saveetha Institute of Medical and Technical Sciences (SIMATS), Chennai"
+    },
+    "india--cleveland-clinic--apollo-hospitals-group": {
+      "cities": [
+        "Chennai"
+      ],
+      "partner": "Apollo Hospitals Group"
+    },
+    "india--johns-hopkins-university--college-of-nursing-christian-medical-college-vellore": {
+      "cities": [
+        "Vellore"
+      ],
+      "partner": "College of Nursing, Christian Medical College Vellore"
+    },
+    "india--mayo-clinic--aig-hospitals-hyderabad": {
+      "cities": [
+        "Hyderabad"
+      ],
+      "partner": "AIG Hospitals, Hyderabad"
+    },
+    "india--memorial-sloan-kettering--icliniq-chennai-mskcc-india": {
+      "cities": [
+        "Chennai"
+      ],
+      "partner": "iCliniq, Chennai (MSKCC India)"
+    },
+    "india--northwell-health-center-for-global-health--christian-medical-college-cmc-vellore": {
+      "cities": [
+        "Vellore"
+      ],
+      "partner": "Christian Medical College (CMC) Vellore"
+    },
+    "india--lmu-klinikum-university-hospital-munich--aiims-new-delhi": {
+      "cities": [
+        "Delhi NCR"
+      ],
+      "partner": "AIIMS New Delhi"
+    },
+    "india--university-of-bolton-institute-of-medicine-now-university-of-greater-manchester-medical-school--aiims-new-delhi": {
+      "cities": [
+        "Delhi NCR"
+      ],
+      "partner": "AIIMS New Delhi"
+    },
+    "india--johns-hopkins-medicine-international--hcl-healthcare": {
+      "cities": [
+        "Delhi NCR"
+      ],
+      "partner": "HCL Healthcare"
+    },
+    "india--md-anderson-cancer-center--tata-memorial-hospital-mumbai-project-echo-palliative-care-africa-ii": {
+      "cities": [
+        "Mumbai"
+      ],
+      "partner": "Tata Memorial Hospital, Mumbai (Project ECHO Palliative Care Africa II)"
+    }
+  }
+}

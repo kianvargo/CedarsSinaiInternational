@@ -355,7 +355,10 @@ def add_section_body(doc, section, registry):
         if para.strip():
             last = doc.add_paragraph()
             cited |= add_cited_text(last, para.strip(), sources, registry)
-    if section.get("entries"):
+    if section.get("tracker_country"):
+        add_tracker_block(doc, section["tracker_country"], registry)
+        cited = True
+    elif section.get("entries"):
         cited |= add_entries(doc, section["entries"], sources, registry)
     for para in re.split(r"\n\s*\n|\n", section.get("closing", "") or ""):
         if para.strip():
@@ -392,6 +395,78 @@ def set_table_borders(table, color="D9D9D9"):
             anchor.addprevious(borders)
             return
     tbl_pr.append(borders)
+
+
+ROOT = SCRIPTS.parent
+MAP_CAPTION = ("Foreign health-system partnerships by city of the partner in {country}: active, and unclear where "
+               "no active partnership exists. Source: CSI partnerships tracker, verified {checked}. "
+               "Boundaries: Natural Earth; not an official depiction.")
+
+
+def partner_map(country, out_dir):
+    png = Path(out_dir) / f"{country}_partnerships_map.png"
+    subprocess.run([sys.executable, str(SCRIPTS / "make_partner_map.py"), country, str(png)], check=True,
+                   capture_output=True)
+    return png
+
+
+def tracker_rows(country):
+    data = json.loads((ROOT / "data" / "partnerships.json").read_text())
+    return [r for r in data["relationships"] if r["country"] == country]
+
+
+def add_tracker_block(doc, country, registry, map_width=Cm(13.5), out_dir=None):
+    """Competitive landscape from the verified tracker: map, then who-is-doing-what table."""
+    rows = tracker_rows(country)
+    checked = max(r["last_checked"] for r in rows)
+    doc.add_picture(str(partner_map(country, out_dir or ROOT / "output")), width=map_width)
+    doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
+    cap = doc.add_paragraph()
+    cr = cap.add_run(MAP_CAPTION.format(country=country, checked=checked))
+    cr.italic = True
+    cr.font.size = Pt(8)
+    cr.font.color.rgb = GRAY
+
+    t = doc.add_paragraph()
+    t.paragraph_format.space_before = Pt(8)
+    tr = t.add_run("Who is doing what")
+    tr.bold = True
+    tr.font.color.rgb = DARK_RED
+    table = doc.add_table(rows=1, cols=5)
+    set_table_borders(table)
+    for i, h in enumerate(("Institution", f"Partner in {country}", "Type", "Status", "Latest evidence")):
+        cell = table.rows[0].cells[i]
+        set_cell_shading(cell, "D91F2C")
+        r = cell.paragraphs[0].add_run(h)
+        r.bold = True
+        r.font.size = Pt(9)
+        r.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
+    order = {"Active": 0, "Unclear": 1, "Ended": 2}
+    for group in ("US academic medical centers", "Other foreign health systems"):
+        members = sorted((r for r in rows if r["group"] == group),
+                         key=lambda r: (order[r["status"]], r["foreign_institution"], r["indian_partner"]))
+        if not members:
+            continue
+        row = table.add_row()
+        merged = row.cells[0].merge(row.cells[4])
+        set_cell_shading(merged, "F6E3E4")
+        gr = merged.paragraphs[0].add_run(group)
+        gr.bold = True
+        gr.font.size = Pt(9)
+        gr.font.color.rgb = DARK_RED
+        for r in members:
+            cells = table.add_row().cells
+            status = r["status"] + (f" {r['end'][:4]}" if r["status"] == "Ended" and r.get("end") else "")
+            for i, text in enumerate((r["foreign_institution"], r["indian_partner"], r["type"], status, r.get("last_evidence", ""))):
+                run = cells[i].paragraphs[0].add_run(text)
+                run.font.size = Pt(8.5)
+                run.bold = i in (0, 3)
+            if r["sources"]:
+                add_citations(cells[4].paragraphs[0], [registry.number(r["sources"][0])], registry)
+    for row in table.rows:
+        for i, w in enumerate((Cm(4.2), Cm(4.8), Cm(3.4), Cm(1.8), Cm(2.8))):
+            row.cells[i].width = w
+    doc.add_paragraph().paragraph_format.space_after = Pt(2)
 
 
 def add_entries(doc, entries, sources, registry):

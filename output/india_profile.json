@@ -1124,129 +1124,7 @@
         ]
       },
       "competitive_landscape": {
-        "narrative": "Leading US academic systems work in India mainly through advisory, network, second-opinion and education models rather than ownership, and several announced relationships are older or less visible than their headlines suggest. Foreign capital, by contrast, comes mainly from an Asian strategic owner and global private equity backing Indian hospital chains.{{31}}{{37}}{{40}}",
-        "entries": [
-          {
-            "group": "US academic medical centers",
-            "institution": "Mayo Clinic",
-            "partner": "AIG Hospitals (Hyderabad); Lilavati Hospital (Mumbai); Adani Health City (Ahmedabad and Mumbai)",
-            "model": "Care Network member; nursing program and planned projects; strategic advisory; Mumbai patient office",
-            "status": "AIG joined 2019, current membership not confirmed; Lilavati and Adani announced 2025, current status of the planned projects not confirmed",
-            "text": "AIG Hospitals joined the Mayo Clinic Care Network in October 2019, and Mayo's 2023 tax filings still listed India among member locations.{{1}}{{2}}{{3}} Lilavati announced a nursing program, a 300-bed cancer institute and a GIFT City project with Mayo in January 2025, and trained 120 nurses in March 2025.{{6}}{{7}} Adani engaged Mayo in February 2025 to advise on two Health City campuses.{{5}} Mayo opened a patient information office in Mumbai in February 2023.{{4}}"
-          },
-          {
-            "group": "US academic medical centers",
-            "institution": "Cleveland Clinic",
-            "partner": "Government of Maharashtra; Brookfield Asset Management; Arodhan Health City (Navi Mumbai International MediCity)",
-            "model": "Anchor institution under MoU; in-country patient representative",
-            "status": "MoU signed June 2026; project at MoU stage",
-            "text": "Cleveland Clinic signed an MoU on 10 June 2026 with Maharashtra, Brookfield and Arodhan Health City to anchor the planned US$1.2 billion, 250-acre Navi Mumbai International MediCity, and CEO Tom Mihaljevic is quoted in the state's announcement.{{8}}{{9}} The project is at MoU stage.{{8}} Cleveland Clinic also keeps a patient representative for India.{{10}}"
-          },
-          {
-            "group": "US academic medical centers",
-            "institution": "Johns Hopkins",
-            "partner": "HCL Healthcare; IIT Bombay (Koita Centre for Digital Health)",
-            "model": "Consulting affiliation through Johns Hopkins Medicine International; university research collaboration",
-            "status": "HCL affiliation began 2014 for 10 years, current status not confirmed; IIT Bombay collaboration announced 2023, current status not confirmed",
-            "text": "Johns Hopkins Medicine International describes a 10-year affiliation with HCL Healthcare from February 2014 covering outpatient and specialty care, training and clinical services.{{11}}{{12}} Whether it continued beyond 2024 is not publicly known. Johns Hopkins University and IIT Bombay's Koita Centre for Digital Health announced a digital-health research collaboration on 9 February 2023.{{13}}"
-          },
-          {
-            "group": "US academic medical centers",
-            "institution": "Memorial Sloan Kettering",
-            "partner": "iCliniq (Chennai)",
-            "model": "Remote second-opinion service (MSKCC India)",
-            "status": "Launched 2021; current status not confirmed",
-            "text": "Memorial Sloan Kettering launched MSKCC India with the telemedicine company iCliniq on 2 August 2021, offering remote opinions coordinated from Chennai.{{14}} iCliniq's MSK India pages had been permanently removed by September 2026, so the service may have ended.{{15}}"
-          },
-          {
-            "group": "US academic medical centers",
-            "institution": "MD Anderson Cancer Center",
-            "partner": "Tata Memorial Hospital (Mumbai)",
-            "model": "Sister institution; Project ECHO palliative-care partner",
-            "status": "Agreement signed 2003; Tata Memorial listed as ECHO partner on MD Anderson's site (2026)",
-            "text": "MD Anderson signed a sister-institution agreement with Tata Memorial Hospital on 6 October 2003.{{16}} MD Anderson's site lists Tata Memorial as a partner in its Project ECHO palliative-care program for Africa and India, funded through its Sister Institution Network Fund.{{17}}"
-          },
-          {
-            "group": "US academic medical centers",
-            "institution": "Mount Sinai Health System",
-            "partner": "Ramaiah Memorial Hospital (Bengaluru)",
-            "model": "Exclusive long-term collaboration: centers of excellence, quality, technology and complex-case review",
-            "status": "Signed July 2024; 10-year term reported; still presented on Ramaiah's website (2026)",
-            "text": "Mount Sinai announced an exclusive long-term collaboration with Ramaiah Memorial Hospital on 12 July 2024, and Deccan Herald reported a 10-year term from 1 July 2024.{{19}}{{20}}{{21}} It covers oncology, cardiology, neurosciences and urology-nephrology centers, quality and technology, and joint review of complex cases, and Ramaiah's website still presents it.{{19}}{{21}}{{22}} It is the closest peer model for a CSI affiliation."
-          },
-          {
-            "group": "US academic medical centers",
-            "institution": "UCLA Health",
-            "partner": "Narendra Modi Medical College (Ahmedabad); AIIMS New Delhi",
-            "model": "OB/GYN department resident exchange and quality project",
-            "status": "Began 2024; department level",
-            "text": "UCLA's OB/GYN department launched a resident exchange with Narendra Modi Medical College in 2024, began joint academic seminars in summer 2025 and completed the first phase of a postpartum-hemorrhage quality project with AIIMS New Delhi.{{18}} These are grant-funded departmental projects, not UCLA Health system affiliations.{{18}}"
-          },
-          {
-            "group": "US academic medical centers",
-            "institution": "NewYork-Presbyterian",
-            "partner": "Emergency services in Ahmedabad and Mumbai",
-            "model": "Volunteer disaster-preparedness training",
-            "status": "Held 2007 and 2008; no current program publicly listed",
-            "text": "NewYork-Presbyterian emergency-medicine volunteers ran disaster-preparedness training and drills in Ahmedabad in November 2007 and in Mumbai in October and November 2008.{{23}}"
-          },
-          {
-            "group": "US academic medical centers",
-            "institution": "UPMC",
-            "partner": "TeleChikitsa Ventures (Bangalore); Citizens Hospital (Hyderabad)",
-            "model": "Telemedicine second opinions; clinical pathology laboratory development",
-            "status": "Announced 2014; current status not confirmed; India not listed on UPMC International's locations page (2026)",
-            "text": "UPMC signed a telemedicine second-opinion agreement with TeleChikitsa Ventures in February 2014, its second India agreement after helping Citizens Hospital build a clinical pathology laboratory.{{24}} UPMC International's locations page lists Croatia, Ireland and Italy but not India.{{25}}"
-          },
-          {
-            "group": "US academic medical centers",
-            "institution": "Mass General Brigham",
-            "partner": "Wockhardt Hospitals",
-            "model": "Hospital development, clinical programs and quality improvement, through Harvard Medical International and later Partners Harvard Medical International",
-            "status": "Began about 2001; current status not confirmed; no India partnership on MGB's global partnerships page (2026)",
-            "text": "Harvard Medical International helped Wockhardt Hospitals develop facilities, clinical programs and a performance-improvement plan that led to international accreditation.{{26}} Partners HealthCare took over HMI in 2008 as Partners Harvard Medical International and announced in November 2019 that it would rename itself Mass General Brigham.{{38}}{{39}} Wockhardt described a ten-year PHMI relationship in 2010-11, and MGB's global partnerships page does not list India.{{27}}{{28}}"
-          },
-          {
-            "group": "US academic medical centers",
-            "institution": "Houston Methodist; Northwestern Medicine",
-            "partner": "None identified",
-            "model": "None identified",
-            "status": "No India partnership listed (2026)",
-            "text": "No India partnership was found on the international pages of Houston Methodist or Northwestern Medicine.{{29}}{{30}}"
-          },
-          {
-            "group": "Other foreign health systems and investors",
-            "institution": "IHH Healthcare (Malaysia)",
-            "partner": "Fortis Healthcare",
-            "model": "Controlling shareholder",
-            "status": "Controlling shareholder; open offer closed November 2025",
-            "text": "Malaysia's IHH Healthcare controls Fortis.{{31}} Its mandatory open offer closed in November 2025 with only 1,778 shares tendered, leaving its stake at about 31.17 percent.{{31}}"
-          },
-          {
-            "group": "Other foreign health systems and investors",
-            "institution": "Blackstone",
-            "partner": "Aster DM Quality Care (Aster DM Healthcare merged with Quality Care India)",
-            "model": "Private equity shareholder",
-            "status": "Merger announced January 2025; effective July 2026",
-            "text": "Aster DM Healthcare and Blackstone-backed Quality Care India announced their merger in January 2025, and the combined Aster DM Quality Care began operating in July 2026 with more than 10,600 beds.{{37}}{{41}}"
-          },
-          {
-            "group": "Other foreign health systems and investors",
-            "institution": "KKR",
-            "partner": "Medicover India (sold by Sweden's Medicover)",
-            "model": "Acquisition",
-            "status": "Agreed August 2026; closing expected in the fourth quarter of 2026",
-            "text": "KKR agreed on 6 August 2026 to buy Medicover India, 24 hospitals with about 4,800 beds, from Sweden's Medicover, which is leaving the Indian hospital market.{{40}}{{32}} Closing is expected in the fourth quarter of 2026, subject to approvals.{{32}}"
-          },
-          {
-            "group": "Other foreign health systems and investors",
-            "institution": "King's College London; Guy's and St Thomas' NHS Foundation Trust",
-            "partner": "P. D. Hinduja Hospital (Mumbai)",
-            "model": "Health Partners Academy",
-            "status": "Formed April 2024; current status not confirmed",
-            "text": "King's College London and Guy's and St Thomas' NHS Foundation Trust formed a Health Partners Academy with P. D. Hinduja Hospital in April 2024.{{33}}{{34}}"
-          }
-        ],
+        "narrative": "CSI's partnerships tracker identified 45 partnerships between foreign health systems and Indian institutions that are active or were active within the past five years: 36 active, 7 unclear and 2 ended. 34 involve US academic medical centers. Most are research and training collaborations, with a few clinical affiliations and almost no ownership stakes, and they cluster in Delhi, Mumbai, Chennai and Pune.",
         "closing": "India also competes for international patients. Medical-purpose arrivals were 6.44 lakh in 2024, led by Bangladesh with about 4.8 lakh, followed by Iraq, Somalia, Oman and Uzbekistan.{{35}}{{36}} Indian chains market lower-cost complex care to the same Gulf, African and Central Asian patients that US centers pursue, and the Union Budget 2026-27 backs five regional medical hubs to strengthen that position.{{35}}{{36}}{{42}}",
         "sources": [
           {
@@ -1543,7 +1421,8 @@
             "date": "1 February 2026",
             "url": "https://www.business-standard.com/budget/news/govt-to-support-five-regional-medical-tourism-hubs-126020100321_1.html"
           }
-        ]
+        ],
+        "tracker_country": "India"
       }
     },
     "recent_developments": [
@@ -1820,7 +1699,8 @@
     "REV2-CHECK: competitive_landscape MGB: WBUR, 27 November 2019 (opened) reports the announcement of the name change, not its completion; text now says Partners 'announced in November 2019 that it would rename itself'. Harvard Magazine (Jan 2008), Harvard Gazette (24 April 2008, 'Partners Harvard Medical International (PHMI)') and Wockhardt AR 2010-11 ('ten year relationship with Partners Harvard Medical International') confirmed. Status now states current status not confirmed, as the resolution log intended.",
     "REV2-CHECK: competitive_landscape IHH: 'since 2018' was uncited and the cited InvestyWise report (10 November 2025, opened) gives only the 31.17 percent stake, 1,778 tendered shares and the mandatory open offer; removed the year from text and status and added marker 31 to the control sentence.",
     "REV2-CHECK: competitive_landscape statuses: Johns Hopkins (IIT Bombay), UPMC and King's College London statuses now say current status is not confirmed, since only announcement-date sources support them; Mount Sinai status now names its only current evidence (Ramaiah's collaborations page).",
-    "ANALYST-EDIT: Applied the analyst's hand edits from India_Profile_DRAFT_1.docx (29 Sep 2026): US spelling in document text (proper nouns and source titles unchanged), shorter fact values for Official languages, Population and Government type."
+    "ANALYST-EDIT: Applied the analyst's hand edits from India_Profile_DRAFT_1.docx (29 Sep 2026): US spelling in document text (proper nouns and source titles unchanged), shorter fact values for Official languages, Population and Government type.",
+    "TRACKER-SYNC (30 Sep 2026): competitive landscape entries replaced by the verified partnerships tracker (map and table); section sources kept so existing citations remain valid."
   ],
   "csi_manual": {
     "patient_volume_and_revenue": "",
