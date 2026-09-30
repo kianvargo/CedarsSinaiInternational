@@ -52,11 +52,8 @@ everything on Opus. Don't move verifiers to a cheaper model to save more.
 **Start from the partnerships tracker.** Before research, run
 `python3 scripts/tracker.py brief <Country> <scratchpad>/<country>_tracker_brief.json`
 and give that file to the research agent and all three verifiers. It lists
-what is already verified: every record for this country, and how each
-monitored US institution works elsewhere. Records for this country verified
-within the last 90 days (`reuse_without_recheck: true`) may be reused as they
-stand; everything else is a lead to confirm against primary sources, never a
-fact to copy.
+what is already known for this country and the same foreign institutions
+elsewhere. These are leads to re-confirm, never facts to copy.
 
 1. **Research pass.** Spawn a research agent (Agent tool, general-purpose or
    Explore, with web search, `model: "sonnet"`) with this brief: gather the following for
@@ -169,14 +166,22 @@ fact to copy.
    fields: Word fills them in when the document is opened (it asks to update
    fields; click Yes).
 
-5b. **Update the tracker.** Record the verified competitor entries so the next
-   profile can reuse them, then refresh the Excel view:
+5b. **Tracker run (partnerships).** The tracker lists foreign health systems'
+   partnerships in the country that are Active (dated evidence from the last
+   24 months), Ended (within five years, with the year) or Unclear (started
+   or last active within five years, not settled). Nothing older. No
+   investors, drug or device deals, referral offices, or individual-faculty
+   ties. Method, as for the profile: three research agents in parallel on
+   `model: "sonnet"` (the 12 monitored US systems; other US academic centers;
+   non-US systems), a combined list, three independent verifiers, and a
+   resolution pass. Then:
    ```
-   python3 scripts/tracker.py update output/<country>_profile.json
+   python3 scripts/tracker.py import <Country> <scratchpad>/tracker_final.json
    python3 scripts/tracker.py export
    ```
    `data/partnerships.json` is the source of truth; `output/Partnerships_Tracker.xlsx`
-   is regenerated from it (it flags records not re-checked in 90 days).
+   is generated from it. Keep the profile's competitive landscape consistent
+   with the tracker.
 
 6. **Hand off.** Tell the user which CSI fields still need manual input, and
    summarize (in chat, not in the document) what the resolution pass changed

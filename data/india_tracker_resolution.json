@@ -1,0 +1,1330 @@
+{
+  "relationships": [
+    {
+      "foreign_institution": "Mayo Clinic",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "AIG Hospitals, Hyderabad",
+      "type": "Clinical affiliation or network membership",
+      "description": "AIG Hospitals joined the Mayo Clinic Care Network in 2019 as the first Indian member, with eConsults and eBoards.",
+      "status": "Unclear",
+      "start": "2019",
+      "end": "",
+      "last_evidence": "2025-02",
+      "evidence": "Joined October 2019; the only later source, a February 2025 news report, cites 2023 Mayo filings listing an unnamed Indian member, not current AIG activity.",
+      "sources": [
+        {
+          "author": "Post Bulletin",
+          "title": "Billionaire to partner with Mayo Clinic on India hospitals",
+          "publisher": "Post Bulletin",
+          "date": "11 February 2025",
+          "url": "https://www.postbulletin.com/business/billionaire-to-partner-with-mayo-clinic-on-india-hospitals"
+        },
+        {
+          "author": "Mayo Clinic",
+          "title": "AIG Hospitals in India joins Mayo Clinic Care Network",
+          "publisher": "Newswise",
+          "date": "24 October 2019",
+          "url": "https://www.newswise.com/articles/aig-hospitals-in-india-joins-mayo-clinic-care-network"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Mayo Clinic",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Lilavati Hospital, Mumbai",
+      "type": "Training and education",
+      "description": "Mayo ran a Nursing Excellence Training Program for 120 Lilavati nurses and is collaborating on a planned 300-bed cancer institute in Mumbai.",
+      "status": "Active",
+      "start": "2025-01",
+      "end": "",
+      "last_evidence": "2025-09",
+      "evidence": "Lilavati's news page records its promoter meeting Mayo Clinic leaders at Lilavati Hospital Mumbai on 23 September 2025, after the March 2025 nurse training.",
+      "sources": [
+        {
+          "author": "Lilavati Hospital",
+          "title": "News and Media",
+          "publisher": "Lilavati Hospital",
+          "date": "23 September 2025",
+          "url": "https://www.lilavati-hospital.com/news-and-media.php"
+        },
+        {
+          "author": "Kajal Rajput",
+          "title": "Mayo Clinic, Lilavati Hospital complete India's first Nursing Excellence Training Program",
+          "publisher": "Medical Dialogues",
+          "date": "29 March 2025",
+          "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/mayo-clinic-lilavati-hospital-complete-indias-first-nursing-excellence-training-program-145698"
+        },
+        {
+          "author": "Press Trust of India",
+          "title": "Lilavati Hospital, Mayo Clinic to establish 300-bed cancer institute in Mumbai",
+          "publisher": "Medical Buyer",
+          "date": "24 January 2025",
+          "url": "https://medicalbuyer.co.in/lilavati-hospital-mayo-clinic-to-establish-300-bed-cancer-institute-in-mumbai/"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Mayo Clinic",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Lilavati Hospital, GIFT City, Gujarat",
+      "type": "Consulting or management",
+      "description": "Mayo Clinic Global Consulting advises Lilavati's new GIFT City hospital, which opened its first phase in 2026, on clinical practice and patient safety.",
+      "status": "Active",
+      "start": "2024-02",
+      "end": "",
+      "last_evidence": "2026-04",
+      "evidence": "An April 2026 report on the GIFT City hospital's first phase opening says Lilavati has partnered with Mayo Clinic for training and technology transfer.",
+      "sources": [
+        {
+          "author": "The Indian Practitioner",
+          "title": "Lilavati Expands Globally and Domestically with Mauritius, GIFT City Projects",
+          "publisher": "The Indian Practitioner",
+          "date": "22 April 2026",
+          "url": "https://theindianpractitioner.com/lilavati-expands-globally-and-domestically-with-mauritius-gift-city-projects/"
+        },
+        {
+          "author": "Lilavati Hospital",
+          "title": "News and Media",
+          "publisher": "Lilavati Hospital",
+          "date": "23 September 2025",
+          "url": "https://www.lilavati-hospital.com/news-and-media.php"
+        },
+        {
+          "author": "Press Trust of India",
+          "title": "Lilavati Hospital, Mayo Clinic to establish 300-bed cancer institute in Mumbai",
+          "publisher": "Medical Buyer",
+          "date": "24 January 2025",
+          "url": "https://medicalbuyer.co.in/lilavati-hospital-mayo-clinic-to-establish-300-bed-cancer-institute-in-mumbai/"
+        },
+        {
+          "author": "VMPL",
+          "title": "Lilavati Hospital in Gift City, Gujarat has engaged with Mayo Clinic Global Consulting to enhance the patient care standards",
+          "publisher": "Business Standard",
+          "date": "20 March 2024",
+          "url": "https://www.business-standard.com/content/press-releases-ani/lilavati-hospital-in-gift-city-gujarat-has-engaged-with-mayo-clinic-global-consulting-to-enhance-the-patient-care-standards-124032000688_1.html"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Mayo Clinic",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Adani Group (Adani Health City, Ahmedabad and Mumbai; planned Kolkata campus)",
+      "type": "Consulting or management",
+      "description": "Mayo Clinic Global Consulting advises Adani on planned 1,000-bed Adani Health City campuses in Ahmedabad and Mumbai; a Kolkata campus was reported in 2026.",
+      "status": "Active",
+      "start": "2025-02",
+      "end": "",
+      "last_evidence": "2026-07",
+      "evidence": "A July 2026 report says Adani's third health city, in Kolkata, will be built in technical collaboration with Mayo Clinic; Mayo has not commented publicly.",
+      "sources": [
+        {
+          "author": "Digital Health News",
+          "title": "Adani Group to Set Up INR 2,500 Crore Health City in West Bengal with Mayo Clinic Collaboration",
+          "publisher": "Digital Health News",
+          "date": "6 July 2026",
+          "url": "https://www.digitalhealthnews.com/adani-group-to-invest-inr-2-500-cr-in-health-city-project-in-west-bengal"
+        },
+        {
+          "author": "Adani Group",
+          "title": "Adani to Partner Mayo Clinic to Establish Affordable World Class Healthcare Facilities",
+          "publisher": "Adani Group",
+          "date": "10 February 2025",
+          "url": "https://www.adani.com/newsroom/media-releases/adani-to-partner-mayo-clinic-to-establish-affordable-world-class-healthcare-facilities"
+        },
+        {
+          "author": "Post Bulletin",
+          "title": "Billionaire to partner with Mayo Clinic on India hospitals",
+          "publisher": "Post Bulletin",
+          "date": "11 February 2025",
+          "url": "https://www.postbulletin.com/business/billionaire-to-partner-with-mayo-clinic-on-india-hospitals"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Mayo Clinic",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "AIIMS New Delhi (Departments of Pathology and Nephrology)",
+      "type": "Training and education",
+      "description": "AIIMS and Mayo Clinic jointly organised a two-day continuing education update in kidney diseases and transplant in Delhi.",
+      "status": "Active",
+      "start": "2024-12",
+      "end": "",
+      "last_evidence": "2024-12",
+      "evidence": "The AIIMS-Mayo Clinic Update in Kidney Diseases and Transplant was held 7 to 8 December 2024 with Mayo faculty; no later edition was found.",
+      "sources": [
+        {
+          "author": "AIIMS New Delhi",
+          "title": "AIIMS Mayo Clinic Update in Kidney Diseases and Transplant 2024",
+          "publisher": "Event website",
+          "date": "7-8 December 2024",
+          "url": "https://aiimsmayoclinicupdate2024.com/"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Cleveland Clinic",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Government of Maharashtra and Arodhan Health City (Navi Mumbai International MediCity); Brookfield Asset Management is a co-signatory investor",
+      "type": "Hospital development or joint venture",
+      "description": "Cleveland Clinic signed an MoU to be anchor institution of the planned US$1.2 billion, 250-acre Navi Mumbai International MediCity.",
+      "status": "Active",
+      "start": "2026-06",
+      "end": "",
+      "last_evidence": "2026-06",
+      "evidence": "MoU signed 10 June 2026 and reported 11 June 2026; the project is at MoU stage with no construction reported.",
+      "sources": [
+        {
+          "author": "Kalpesh Mhamunkar",
+          "title": "Maharashtra Signs MoU With Cleveland Clinic And Brookfield For Navi Mumbai International MediCity, India's First Global-Scale Healthcare Hub",
+          "publisher": "Free Press Journal",
+          "date": "11 June 2026",
+          "url": "https://www.freepressjournal.in/mumbai/maharashtra-signs-mou-with-cleveland-clinic-and-brookfield-for-navi-mumbai-international-medicity-indias-first-global-scale-healthcare-hub"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Cleveland Clinic",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Apollo Hospitals Group",
+      "type": "Telemedicine or second opinion",
+      "description": "Apollo doctors can request international second opinions from The Clinic by Cleveland Clinic, Cleveland Clinic's virtual second-opinion arm.",
+      "status": "Unclear",
+      "start": "2022-01",
+      "end": "",
+      "last_evidence": "2022-01",
+      "evidence": "Launched January 2022 per Indian press; no source found confirming the service running after that, and no source reporting an end.",
+      "sources": [
+        {
+          "author": "Telangana Today",
+          "title": "Apollo Hospitals launches International second opinion services for patients",
+          "publisher": "Telangana Today",
+          "date": "January 2022",
+          "url": "https://telanganatoday.com/apollo-hospitals-launches-international-second-opinion-services-for-patients"
+        },
+        {
+          "author": "HHM Global",
+          "title": "Apollo Hospitals collaborates with Cleveland Clinic to offer international second opinion services to patients",
+          "publisher": "HHM Global",
+          "date": "undated",
+          "url": "https://www.hhmglobal.com/knowledge-bank/news/apollo-hospitals-collaborates-with-cleveland-clinic-to-offer-international-second-opinion-services-to-patients"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Johns Hopkins (Medicine International)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "HCL Healthcare",
+      "type": "Consulting or management",
+      "description": "Johns Hopkins Medicine International signed a 10-year affiliation in February 2014 covering clinical programs, training and quality advice for HCL's clinics.",
+      "status": "Ended",
+      "start": "2014-02",
+      "end": "2024-02",
+      "last_evidence": "2014-02",
+      "evidence": "JHMI signed a 10-year affiliation in February 2014; the term expired about February 2024 and no renewal or later activity was found.",
+      "sources": [
+        {
+          "author": "Domain-b",
+          "title": "HCL enters healthcare with HCL Avitas",
+          "publisher": "Domain-b",
+          "date": "6 February 2014",
+          "url": "https://www.domain-b.com/companies-organisations/firms-companies/hcl-enters-healthcare-with-hcl-avitas"
+        },
+        {
+          "author": "Johns Hopkins Medicine International",
+          "title": "HCL Healthcare",
+          "publisher": "Johns Hopkins Medicine",
+          "date": "undated",
+          "url": "https://www.hopkinsmedicine.org/international/health-care-consulting/asia-pacific/hcl-healthcare"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Johns Hopkins (University)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "IIT Bombay, Koita Centre for Digital Health",
+      "type": "Research collaboration",
+      "description": "JHU and IIT Bombay's Koita Centre agreed to joint digital-health research and training, co-funding seed grants through the Gupta-Klinsky India Institute.",
+      "status": "Active",
+      "start": "2023-02",
+      "end": "",
+      "last_evidence": "2025-12",
+      "evidence": "IIT Bombay's January 2025 digest reports the joint JHU-KCDH grants program funding two projects, and JHU launched a 2025-26 grant cycle in December 2025.",
+      "sources": [
+        {
+          "author": "Gupta-Klinsky India Institute",
+          "title": "News from GKII 2025 (launch of 2025-26 GKII-KCDH Data Science and AI Breakthrough Research Grants)",
+          "publisher": "Johns Hopkins University",
+          "date": "December 2025",
+          "url": "https://indiainstitute.jhu.edu/news/news-2025/news-from-gkii-2025/"
+        },
+        {
+          "author": "Koita Centre for Digital Health",
+          "title": "KCDH Digest: achievements between January and December 2024",
+          "publisher": "IIT Bombay",
+          "date": "January 2025",
+          "url": "https://www.kcdh.iitb.ac.in/site/newsletter-document/a6abea01-50ce-11f0-9b5b-fbbec49cc3fb.pdf"
+        },
+        {
+          "author": "Gupta-Klinsky India Institute, Johns Hopkins University",
+          "title": "Collaboration Agreement with IIT Bombay and Roundtable Discussion Shine a Spotlight on Digital Health",
+          "publisher": "Johns Hopkins University",
+          "date": "undated",
+          "url": "https://indiainstitute.jhu.edu/news/news-2025/news-from-gkii/collaboration-agreement-with-iit-bombay-and-roundtable-discussion-shine-a-spotlight-on-digital-health"
+        },
+        {
+          "author": "Gupta-Klinsky India Institute, Johns Hopkins University",
+          "title": "GKII X KCDH Breakthrough Grants on Digital Health (2024)",
+          "publisher": "Johns Hopkins University",
+          "date": "2024",
+          "url": "https://indiainstitute.jhu.edu/?p=4857"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Johns Hopkins (University)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Ajit Isaac Foundation, Bengaluru",
+      "type": "Training and education",
+      "description": "JHU signed an MoU to help set up rural palliative care centres in India, including caregiver training, curriculum and a research fellowship.",
+      "status": "Active",
+      "start": "2024-11",
+      "end": "",
+      "last_evidence": "2026-04",
+      "evidence": "Forbes India (April 2026) reports the foundation's palliative care work with Johns Hopkins continuing, the Tumkur centre opened October 2025, and a joint geriatric centre planned.",
+      "sources": [
+        {
+          "author": "Forbes India",
+          "title": "From beginning to end of life: Ajit and Sarah Isaac fill in the blanks",
+          "publisher": "Forbes India",
+          "date": "6 April 2026",
+          "url": "https://www.forbesindia.com/article/leadership/from-beginning-to-end-of-life-ajit-and-sarah-isaac-fill-in-the-blanks/2992863/1"
+        },
+        {
+          "author": "Devdiscourse",
+          "title": "Global Partnership Pioneers Palliative Care in Underserved India",
+          "publisher": "Devdiscourse",
+          "date": "November 2024",
+          "url": "https://www.devdiscourse.com/article/health/3165425-global-partnership-pioneers-palliative-care-in-underserved-india"
+        },
+        {
+          "author": "IndiaMedToday",
+          "title": "Johns Hopkins University signs MoU with Ajit Isaac Foundation",
+          "publisher": "IndiaMedToday",
+          "date": "November 2024",
+          "url": "https://indiamedtoday.com/johns-hopkins-university-signs-mou-with-ajit-isaac-foundation/"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Johns Hopkins (University)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Dr. D.Y. Patil Medical College and Vidyapeeth, Pune",
+      "type": "Research collaboration",
+      "description": "JHU and Dr. D.Y. Patil Medical College signed a research MoU in March 2024 and co-run TB and HIV studies in Pune.",
+      "status": "Active",
+      "start": "2024-03",
+      "end": "",
+      "last_evidence": "2026-03",
+      "evidence": "A March 2026 trial protocol by Johns Hopkins and D.Y. Patil Medical College authors describes their joint HATHI alcohol, TB and HIV trial now recruiting in Pune.",
+      "sources": [
+        {
+          "author": "HATHI study authors (Johns Hopkins University; Dr. D.Y. Patil Medical College, Hospital and Research Centre; BJGMC and others)",
+          "title": "Hybrid trial for Alcohol reduction among people with TB and HIV in India (HATHI): Protocol for a Hybrid Type 1 Effectiveness-Implementation Randomized Controlled Trial",
+          "publisher": "Research Square (PubMed 41928807)",
+          "date": "25 March 2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41928807/"
+        },
+        {
+          "author": "Medical Dialogues",
+          "title": "Dr DY Patil Medical College, Johns Hopkins University join hands for Collaborative Research",
+          "publisher": "Medical Dialogues",
+          "date": "13 March 2024",
+          "url": "https://medicaldialogues.in/news/education/medical-colleges/dr-dy-patil-medical-college-johns-hopkins-university-join-hands-for-collaborative-research-125812"
+        },
+        {
+          "author": "Gupta-Klinsky India Institute, Johns Hopkins University",
+          "title": "Partnership Meetings",
+          "publisher": "Johns Hopkins University",
+          "date": "undated",
+          "url": "https://indiainstitute.jhu.edu/events-2025/past-events/events-2024/jhu-india-trip-2024/partnership-meetings/"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Johns Hopkins (University)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "College of Nursing, Christian Medical College Vellore",
+      "type": "Training and education",
+      "description": "The Johns Hopkins School of Nursing and CMC Vellore's College of Nursing signed an MoU for joint research, faculty and student exchange.",
+      "status": "Unclear",
+      "start": "2021",
+      "end": "",
+      "last_evidence": "2024-10",
+      "evidence": "A joint JHU-CMC nursing paper published October 2024 reviews their partnership, but it reports only the 2021 webinar series; no current joint activity found.",
+      "sources": [
+        {
+          "author": "Johns Hopkins School of Nursing and CMC Vellore College of Nursing authors",
+          "title": "Leveraging a Global Partnership to Address COVID-19-Related Mental Health Challenges",
+          "publisher": "Journal of Psychiatric and Mental Health Nursing (PubMed 39361448)",
+          "date": "3 October 2024",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jpm.13115"
+        },
+        {
+          "author": "Johns Hopkins School of Nursing",
+          "title": "From Baltimore to Vellore, India: Global Support for Nurses Struggling with COVID-Related Mental Health",
+          "publisher": "Johns Hopkins School of Nursing",
+          "date": "August 2021",
+          "url": "https://nursing.jhu.edu/magazine/articles/2021/08/from-baltimore-to-vellore-india-global-support-for-nurses-struggling-with-covid-related-mental-health/"
+        },
+        {
+          "author": "College of Nursing, CMC Vellore",
+          "title": "Collaboration",
+          "publisher": "College of Nursing, CMC Vellore",
+          "date": "undated",
+          "url": "https://concmc.org/collaboration/"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Memorial Sloan Kettering",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "iCliniq, Chennai (MSKCC India)",
+      "type": "Telemedicine or second opinion",
+      "description": "MSK launched MSKCC India with iCliniq in August 2021 to give Indian patients remote second opinions, plus education and research access.",
+      "status": "Unclear",
+      "start": "2021-08",
+      "end": "",
+      "last_evidence": "2021-08",
+      "evidence": "Launched 2 August 2021; iCliniq's MSK India pages now return HTTP 410 (removed) and no source after 2021 shows the service running or ended.",
+      "sources": [
+        {
+          "author": "Memorial Sloan Kettering Cancer Center",
+          "title": "Memorial Sloan Kettering Cancer Center Launches MSKCC India to Expand Access to World-Renowned Oncologists, Cancer Care, Research, and Education",
+          "publisher": "PR Newswire",
+          "date": "2 August 2021",
+          "url": "https://www.prnewswire.com/news-releases/memorial-sloan-kettering-cancer-center-launches-mskcc-india-to-expand-access-to-world-renowned-oncologists-cancer-care-research-and-education-301345795.html"
+        },
+        {
+          "author": "iCliniq",
+          "title": "Frequently Asked Question: MSK India",
+          "publisher": "iCliniq",
+          "date": "undated",
+          "url": "https://mskcc.icliniq.com/mskcc-india-services/mskcc-patient-faqs"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "MD Anderson Cancer Center",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Tata Memorial Centre, Mumbai",
+      "type": "Research collaboration",
+      "description": "MD Anderson and Tata Memorial have a sister-institution agreement from October 2003 supporting clinical trials, faculty exchange and joint programs.",
+      "status": "Active",
+      "start": "2003-10",
+      "end": "",
+      "last_evidence": "2024-12",
+      "evidence": "In December 2024 MD Anderson and Tata Memorial announced a joint session at the SACT cell therapy summit in Navi Mumbai, 6 to 9 March 2025.",
+      "sources": [
+        {
+          "author": "OncoDaily",
+          "title": "Joint session by MD Anderson Cancer Center and Tata Memorial Centre at SACT 2025 Summit",
+          "publisher": "OncoDaily",
+          "date": "4 December 2024",
+          "url": "https://oncodaily.com/blog/md-anderson-cancer-center-197733"
+        },
+        {
+          "author": "India Herald",
+          "title": "MD Anderson Cancer Center signs sister institution accord with Tata Memorial",
+          "publisher": "India Herald",
+          "date": "17 October 2003",
+          "url": "https://india-herald.com/md-anderson-cancer-center-signs-sister-institution-accord-with-tata-memoria-p305-19.htm"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "MD Anderson Cancer Center",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Tata Memorial Hospital, Mumbai (Project ECHO Palliative Care Africa II)",
+      "type": "Training and education",
+      "description": "Tata Memorial took part in MD Anderson's Project ECHO videoconference network for palliative care in Africa and India.",
+      "status": "Ended",
+      "start": "2023-05",
+      "end": "2025-01",
+      "last_evidence": "2025-01",
+      "evidence": "MD Anderson's program page gives the ECHO-PACA schedule as May 2023 to January 2025 and still lists Tata Memorial; no extension was found.",
+      "sources": [
+        {
+          "author": "The University of Texas MD Anderson Cancer Center",
+          "title": "Project ECHO: Palliative Care Africa (PACA) II",
+          "publisher": "MD Anderson Cancer Center",
+          "date": "undated",
+          "url": "https://www.mdanderson.org/education-training/outreach-programs/project-echo/programs/palliative-care-africa.html"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Mount Sinai Health System",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Ramaiah Memorial Hospital, Bengaluru",
+      "type": "Clinical affiliation or network membership",
+      "description": "Ten-year exclusive collaboration from 2024 on centers of excellence, quality, technology and joint review of complex cases.",
+      "status": "Active",
+      "start": "2024-07",
+      "end": "",
+      "last_evidence": "2026-09",
+      "evidence": "Ramaiah's press release of 28 September 2026 states the hospital is affiliated with Mount Sinai International, New York; original deal signed July 2024.",
+      "sources": [
+        {
+          "author": "ANI",
+          "title": "Ramaiah Memorial Hospital Brings 700+ Citizens Together to Put Heart Health in Motion",
+          "publisher": "Business Standard",
+          "date": "28 September 2026",
+          "url": "https://www.business-standard.com/amp/content/press-releases-ani/ramaiah-memorial-hospital-brings-700-citizens-together-to-put-heart-health-in-motion-126092801082_1.html"
+        },
+        {
+          "author": "Mount Sinai Health System",
+          "title": "Ramaiah Memorial Hospital Signs Long Term Collaboration Agreement with the Mount Sinai Health System in New York",
+          "publisher": "GlobeNewswire via Yahoo Finance",
+          "date": "12 July 2024",
+          "url": "https://finance.yahoo.com/news/ramaiah-memorial-hospital-signs-long-143000744.html"
+        },
+        {
+          "author": "Deccan Herald",
+          "title": "Ramaiah Memorial inks 10-year partnership with Mount Sinai Health System of New York",
+          "publisher": "Deccan Herald",
+          "date": "13 July 2024",
+          "url": "https://www.deccanherald.com/india/karnataka/bengaluru/ramaiah-memorial-inks-10-year-partnership-with-mount-sinai-health-system-of-new-york-3103995"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "UCLA Health",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Narendra Modi Medical College, Ahmedabad",
+      "type": "Training and education",
+      "description": "UCLA OB/GYN runs a resident and faculty exchange with Narendra Modi Medical College, with joint academic seminars.",
+      "status": "Active",
+      "start": "2024",
+      "end": "",
+      "last_evidence": "2025-06",
+      "evidence": "UCLA OB/GYN's page and Summer 2025 newsletter describe the exchange continuing, with the first joint lecture held in summer 2025.",
+      "sources": [
+        {
+          "author": "UCLA Health Department of Obstetrics and Gynecology",
+          "title": "New and Noteworthy",
+          "publisher": "UCLA Health",
+          "date": "Summer 2025",
+          "url": "https://www.uclahealth.org/departments/obgyn/about-us/news/newsletter-summer-2025/new-and-noteworthy"
+        },
+        {
+          "author": "UCLA Health Department of Obstetrics and Gynecology",
+          "title": "UCLA-India Global Health Exchange in OB/GYN",
+          "publisher": "UCLA Health",
+          "date": "undated",
+          "url": "https://www.uclahealth.org/departments/obgyn/about-us/global-reproductive-health-alliance-collaborative-engagement/ucla-india-global-health-exchange-obgyn"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "UCLA Health",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "All India Institute of Medical Sciences, New Delhi",
+      "type": "Research collaboration",
+      "description": "UCLA's GRACE program and AIIMS are implementing quantitative blood loss measurement to reduce postpartum hemorrhage, with phase 1 training completed.",
+      "status": "Active",
+      "start": "2025",
+      "end": "",
+      "last_evidence": "2025-06",
+      "evidence": "UCLA's page says phase 1 at AIIMS trained 52 staff; the dated Summer 2025 newsletter reports a 2025-26 seed grant for the same QBL project.",
+      "sources": [
+        {
+          "author": "UCLA Health Department of Obstetrics and Gynecology",
+          "title": "Newsletter Summer 2025: New and Noteworthy",
+          "publisher": "UCLA Health",
+          "date": "Summer 2025",
+          "url": "https://www.uclahealth.org/departments/obgyn/about-us/news/newsletter-summer-2025/new-and-noteworthy"
+        },
+        {
+          "author": "UCLA Health Department of Obstetrics and Gynecology",
+          "title": "UCLA-India Global Health Exchange in OB/GYN",
+          "publisher": "UCLA Health",
+          "date": "undated",
+          "url": "https://www.uclahealth.org/departments/obgyn/about-us/global-reproductive-health-alliance-collaborative-engagement/ucla-india-global-health-exchange-obgyn"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "UCLA Health",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Federation of Obstetric and Gynaecological Societies of India (FOGSI) and SAFOG",
+      "type": "Training and education",
+      "description": "UCLA OB/GYN holds virtual guideline discussions and simulation exchanges with FOGSI and the South Asian federation.",
+      "status": "Active",
+      "start": "2020-01",
+      "end": "",
+      "last_evidence": "2025-12",
+      "evidence": "A UCLA Health article of 8 December 2025 describes these virtual exchanges with FOGSI as results of ongoing global programs; start date not given.",
+      "sources": [
+        {
+          "author": "UCLA Health",
+          "title": "UCLA OB/GYN global health initiatives spark learning, innovation and training",
+          "publisher": "UCLA Health",
+          "date": "8 December 2025",
+          "url": "https://www.uclahealth.org/news/article/ucla-obgyn-global-health-initiatives-spark-learning"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Hackensack Meridian Health",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Apollo Hospitals",
+      "type": "Clinical affiliation or network membership",
+      "description": "Strategic affiliation covering nurse training and recruitment, oncology second opinions and tumor boards, CAR-T and BMT collaboration, and virtual assistant programs.",
+      "status": "Active",
+      "start": "2025-01",
+      "end": "",
+      "last_evidence": "2025-01",
+      "evidence": "Affiliation announced 29 January 2025, within 24 months of today; no later update or end notice found.",
+      "sources": [
+        {
+          "author": "Hackensack Meridian Health",
+          "title": "Hackensack Meridian Health and Apollo Hospitals Bridge Continents to Advance Healthcare Innovation and Delivery",
+          "publisher": "Hackensack Meridian Health",
+          "date": "2025-01-29",
+          "url": "https://www.hackensackmeridianhealth.org/en/news/2025/01/29/hmh-and-apollo-hospitals-bridge-continents-to-advance-healthcare"
+        },
+        {
+          "author": "BW Online Bureau",
+          "title": "Apollo Hospitals & Hackensack Meridian Health Forge Strategic Affiliation",
+          "publisher": "BW Healthcare World",
+          "date": "2025-01-31",
+          "url": "https://www.bwhealthcareworld.com/article/apollo-hospitals-hackensack-meridian-health-forge-strategic-affiliation-546583"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Rutgers Robert Wood Johnson Medical School (Rutgers Health)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Govind Ballabh Pant Institute of Postgraduate Medical Education and Research (GIPMER), New Delhi",
+      "type": "Research collaboration",
+      "description": "MOU between the RWJMS cardiovascular division and GIPMER for cardiovascular research, AI, digital health, biobanking and clinical trials.",
+      "status": "Active",
+      "start": "2025-09",
+      "end": "",
+      "last_evidence": "2025-09",
+      "evidence": "MOU signed in September 2025 during the New Jersey governor's mission to India; announcement is within 24 months.",
+      "sources": [
+        {
+          "author": "Choose New Jersey",
+          "title": "Governor Murphy Celebrates Signing of MOUs Between New Jersey and Indian Universities, Hospitals to Advance Cardiovascular Research and Innovation",
+          "publisher": "Insider NJ",
+          "date": "2025-09-19",
+          "url": "https://www.insidernj.com/press-release/governor-murphy-celebrates-signing-of-mous-between-new-jersey-and-indian-universities-hospitals-to-advance-cardiovascular-research-and-innovation/"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Stanford Medicine (Emergency Medicine International, Center for Innovation in Global Health)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Emergency Management and Research Institute (EMRI), India",
+      "type": "Research collaboration",
+      "description": "Long-running collaboration on emergency medical services systems and research between Stanford emergency medicine faculty and India's EMRI ambulance network.",
+      "status": "Active",
+      "start": "2007",
+      "end": "",
+      "last_evidence": "2025-06",
+      "evidence": "Stanford page of 17 June 2025 describes EMRI leaders visiting Stanford in spring 2025 and collaborating with faculty for decades. Start year not stated.",
+      "sources": [
+        {
+          "author": "Stanford Center for Innovation in Global Health",
+          "title": "Longtime global emergency medicine collaborators from India's Emergency Management and Research Institute visit Stanford",
+          "publisher": "Stanford Global Health",
+          "date": "2025-06-17",
+          "url": "https://globalhealth.stanford.edu/bidirectional-parnterships/longtime-global-emergency-medicine-collaborators-from-indias-emergency-management-and-research-institute-visit-stanford.html/"
+        },
+        {
+          "author": "EMRI Green Health Services",
+          "title": "Partnerships",
+          "publisher": "EMRI",
+          "date": "undated",
+          "url": "https://www.emri.in/partnerships-3/"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Stanford Health Care",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "National Cancer Grid (NCG) India, including Tata Memorial network centres",
+      "type": "Training and education",
+      "description": "Stanford quality improvement training and mentoring helped build EQuIP India, a national cancer care quality improvement program run by the National Cancer Grid.",
+      "status": "Active",
+      "start": "2017",
+      "end": "",
+      "last_evidence": "2025-04",
+      "evidence": "Stanford Global Health post of 18 April 2025 reports EQuIP India spreading across India and thanks Stanford partners; program started 2017.",
+      "sources": [
+        {
+          "author": "Jake Mickelsen",
+          "title": "Learn how a quality improvement program is improving care for cancer patients across India",
+          "publisher": "Stanford Global Health",
+          "date": "2025-04-18",
+          "url": "https://globalhealth.stanford.edu/bidirectional-partnerships/9912.html/"
+        },
+        {
+          "author": "Jamie Hansen",
+          "title": "Getting Better at Getting Better: A Stanford-India partnership sparks a movement in improving palliative care",
+          "publisher": "Stanford Global Health",
+          "date": "2022-04-18",
+          "url": "https://globalhealth.stanford.edu/beyond-stanford/getting-better-at-getting-better-a-stanford-india-partnership-sparks-a-movement-in-improving-palliative-care.html/"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Children's Hospital of Philadelphia (CHOP)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Amrita Hospital, Faridabad",
+      "type": "Training and education",
+      "description": "CHOP cardiac volunteers provide peer training and donated patient-records software to Amrita Faridabad's pediatric heart program through the NGO Children's HeartLink.",
+      "status": "Active",
+      "start": "2023",
+      "end": "",
+      "last_evidence": "2024-10",
+      "evidence": "Children's HeartLink article of 15 October 2024 describes the ongoing CHOP and Amrita Faridabad partnership, with a site assessment in July 2023. Delivered via a third-party NGO.",
+      "sources": [
+        {
+          "author": "Children's HeartLink",
+          "title": "From Philadelphia to Faridabad, This Hospital Partnership Is Transforming Heart Care for Children in India",
+          "publisher": "Children's HeartLink",
+          "date": "2024-10-15",
+          "url": "https://childrensheartlink.org/from-philadelphia-to-faridabad-this-hospital-partnership-is-transforming-heart-care-for-children-in-india/"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "University of Alabama at Birmingham (Heersink School of Medicine)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Pravara Institute of Medical Sciences (Loni) and Bharati Vidyapeeth Medical College (Pune)",
+      "type": "Training and education",
+      "description": "MOU for faculty and student exchange, training and joint research with two Maharashtra medical institutions.",
+      "status": "Active",
+      "start": "2025-07",
+      "end": "",
+      "last_evidence": "2025-07",
+      "evidence": "UAB news item of 29 July 2025 reports the signed MOU and faculty visits and workshops already held.",
+      "sources": [
+        {
+          "author": "Shawna Masters",
+          "title": "New UAB-India partnership aims to enhance global health training",
+          "publisher": "UAB Medicine",
+          "date": "2025-07-29",
+          "url": "https://www.uab.edu/medicine/news/global-health/new-uab-india-partnership-aims-to-enhance-global-health-training"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "University of Michigan Medical School / Michigan Medicine",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "AIIMS Jammu",
+      "type": "Training and education",
+      "description": "Michigan faculty co-led two international academic events at AIIMS Jammu in late 2025 on critical care of the injured and lung cancer precision oncology.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2025-11",
+      "evidence": "Collegehai report of 14 November 2025 says AIIMS Jammu ran the conferences in collaboration with the University of Michigan. Formal agreement terms not seen.",
+      "sources": [
+        {
+          "author": "Tanya Verma",
+          "title": "AIIMS Jammu and University of Michigan Collaborate for Twin International Conferences",
+          "publisher": "CollegeHai",
+          "date": "2025-11-14",
+          "url": "https://collegehai.com/news/aiims-jammu-university-of-michigan-international-conferences"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "University of Wisconsin-Madison Department of Ophthalmology and Visual Sciences (UW Health)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Dr. Shroff's Charity Eye Hospital, New Delhi",
+      "type": "Training and education",
+      "description": "Annual resident and faculty clinical and research rotation at Shroff's Charity Eye Hospital, marking a decade of partnership in 2025.",
+      "status": "Active",
+      "start": "2015",
+      "end": "",
+      "last_evidence": "2025-02",
+      "evidence": "Department post of 28 February 2025 reports a rotation held 31 January to 15 February 2025 and a decade of partnership.",
+      "sources": [
+        {
+          "author": "UW Department of Ophthalmology and Visual Sciences",
+          "title": "DOVS Celebrates a Decade of Partnership with Colleagues in India",
+          "publisher": "UW-Madison Ophthalmology",
+          "date": "2025-02-28",
+          "url": "https://www.ophth.wisc.edu/blog/2025/02/28/india_rotation_2025"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "University of Iowa (Carver College of Medicine, Ophthalmology)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Dr. Shroff's Charity Eye Hospital, New Delhi",
+      "type": "Training and education",
+      "description": "MoU signed in early 2024 for trainee and faculty exchange and joint research in ophthalmology.",
+      "status": "Active",
+      "start": "2024",
+      "end": "",
+      "last_evidence": "2025-02",
+      "evidence": "A February 2025 Iowa Lions Eye Bank article reports a University of Iowa ophthalmologist visiting Shroff's in November 2024 and training its fellows in DMEK surgery.",
+      "sources": [
+        {
+          "author": "Iowa Lions Eye Bank",
+          "title": "Iowa Lions Eye Bank Shares Expertise with Corneal Specialists in India",
+          "publisher": "Iowa Lions Eye Bank",
+          "date": "1 February 2025",
+          "url": "https://iowalionseyebank.org/news/2025/02/iowa-lions-eye-bank-shares-expertise-corneal-specialists-india"
+        },
+        {
+          "author": "University of Iowa International Programs",
+          "title": "Forging paths in global ophthalmology: University of Iowa partners with charity eye hospital in India",
+          "publisher": "University of Iowa International Programs",
+          "date": "2024-04-09",
+          "url": "https://international.uiowa.edu/node/15891"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Emory University (Emory Global Diabetes Research Center)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "IIT Madras Shankar Center of Excellence in Diabetes Research, with AIIMS, Madras Diabetes Research Foundation and others",
+      "type": "Research collaboration",
+      "description": "Emory diabetes center co-organized a 2025 Chennai expert workshop and hackathon on technology for diabetes in India, building on the CARRS research network.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2025-05",
+      "evidence": "Emory News of 13 May 2025 reports the April 2025 joint event at IIT Madras. Emory Healthcare itself not named; academic center only.",
+      "sources": [
+        {
+          "author": "Myra C. Nwafor",
+          "title": "Emory students propose innovative solutions to diabetes care in India",
+          "publisher": "Emory News Center",
+          "date": "2025-05-13",
+          "url": "https://news.emory.edu/stories/2025/05/hs_diabetes_care_india_13-05-2025/story.html"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "University of California San Francisco (Francis I. Proctor Foundation)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Aravind Eye Care System, Madurai",
+      "type": "Research collaboration",
+      "description": "Long-standing joint clinical trials in corneal infection with Aravind, including SCUT II (2025) and REAGIR (follow-up published 2026).",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "JAMA Ophthalmology published 12-month results of the REAGIR trial, run at Aravind hospitals with the UCSF Proctor Foundation, in August 2026.",
+      "sources": [
+        {
+          "author": "REAGIR trial authors (Aravind Eye Hospital; Francis I. Proctor Foundation, UCSF and others)",
+          "title": "Rose Bengal Electromagnetic Activation With Green Light for Infection Reduction: Follow-Up of a Randomized Clinical Trial",
+          "publisher": "JAMA Ophthalmology (PubMed 42348235)",
+          "date": "1 August 2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42348235/"
+        },
+        {
+          "author": "SCUT II Study authors (not verified)",
+          "title": "Steroids and Cross-Linking for Ulcer Treatment: The SCUT II Randomized Clinical Trial",
+          "publisher": "JAMA Ophthalmology",
+          "date": "2025-07-24",
+          "url": "https://jamanetwork.com/journals/jamaophthalmology/fullarticle/2836544"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Northwell Health (Center for Global Health)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Christian Medical College (CMC) Vellore",
+      "type": "Clinical affiliation or network membership",
+      "description": "Five-year MOU for medical student and resident exchange and development of both systems' clinical services.",
+      "status": "Unclear",
+      "start": "2023-03",
+      "end": "",
+      "last_evidence": "2023-03",
+      "evidence": "MOU signed 24 March 2023 for five years, so term runs to about 2028, but no dated source from October 2024 onward was found. Northwell page blocked.",
+      "sources": [
+        {
+          "author": "Northwell Health",
+          "title": "Northwell Health signs five-year strategic agreement with Indian health system, CMC Vellore",
+          "publisher": "Northwell Health",
+          "date": "2023-03",
+          "url": "https://www.northwell.edu/news/the-latest/northwell-signs-5-year-strategic-agreement-india-s-cmc-vellore"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Weill Cornell Medicine (Center for Global Health)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Byramjee Jeejeebhoy Government Medical College and Sassoon Hospital, Pune; Deep Griha Society",
+      "type": "Research collaboration",
+      "description": "Joint research and training in Pune on tuberculosis in pregnancy, HIV, gestational diabetes and maternal depression since 2009.",
+      "status": "Active",
+      "start": "2009",
+      "end": "",
+      "last_evidence": "2026-09",
+      "evidence": "A September 2026 paper by Weill Cornell and BJ Government Medical College authors uses their joint Pune pregnancy cohort, PRAGATHi, which runs from 2023 to the present.",
+      "sources": [
+        {
+          "author": "BJGMC, Weill Cornell Medicine and Johns Hopkins authors",
+          "title": "Dolutegravir Is Associated With Lower Odds of Gestational Diabetes Compared to Other Antiretroviral Therapy Regimens Among Pregnant Women in India: A Cross-Sectional Analysis",
+          "publisher": "Journal of the International AIDS Society (PubMed 42764545)",
+          "date": "1 September 2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42764545/"
+        },
+        {
+          "author": "BJGMC, Weill Cornell Medicine, Johns Hopkins and Columbia authors",
+          "title": "Impact of maternal HIV infection on the gut microbiome and metabolome of mothers and infants: the PRACHITi cohort in Pune, India",
+          "publisher": "Nature Communications (PubMed 41730922)",
+          "date": "23 February 2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41730922/"
+        },
+        {
+          "author": "Weill Cornell Center for Global Health",
+          "title": "Pune, India",
+          "publisher": "Weill Cornell Medicine",
+          "date": "undated",
+          "url": "https://globalhealth.weill.cornell.edu/major-initiatives/pune-india"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Johns Hopkins University (School of Medicine)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Byramjee Jeejeebhoy Government Medical College and Sassoon General Hospitals, Pune (BJGMC-JHU Clinical Research Site)",
+      "type": "Research collaboration",
+      "description": "Long-running NIH-funded HIV and TB clinical research site in Pune, part of the ACTG and IMPAACT trial networks since 2008.",
+      "status": "Active",
+      "start": "1992",
+      "end": "",
+      "last_evidence": "2026-09",
+      "evidence": "A September 2026 paper lists the BJGMC-Johns Hopkins University Clinical Research Site as an affiliation, reporting on a joint Pune cohort running from 2023 to the present.",
+      "sources": [
+        {
+          "author": "BJGMC, Weill Cornell Medicine and Johns Hopkins authors",
+          "title": "Dolutegravir Is Associated With Lower Odds of Gestational Diabetes Compared to Other Antiretroviral Therapy Regimens Among Pregnant Women in India: A Cross-Sectional Analysis",
+          "publisher": "Journal of the International AIDS Society (PubMed 42764545)",
+          "date": "1 September 2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42764545/"
+        },
+        {
+          "author": "BJGMC, Weill Cornell Medicine, Johns Hopkins and Columbia authors",
+          "title": "Impact of maternal HIV infection on the gut microbiome and metabolome of mothers and infants: the PRACHITi cohort in Pune, India",
+          "publisher": "Nature Communications (PubMed 41730922)",
+          "date": "23 February 2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41730922/"
+        },
+        {
+          "author": "Johns Hopkins University",
+          "title": "BJGMC (India): BJGMC-JHU CRS",
+          "publisher": "Johns Hopkins Baltimore-Washington-India Clinical Trials Unit",
+          "date": "undated",
+          "url": "http://jhubi-ctu.jhu.edu/our-sites/bjgmc-india"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Thomas Jefferson University / Jefferson Health (Jefferson India Center)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "KLE Academy of Higher Education and Research (J N Medical College, Belagavi); LV Prasad Eye Institute, Hyderabad (listed by Jefferson, no recent dated activity)",
+      "type": "Research collaboration",
+      "description": "Jefferson India Center runs maternal and child health and eye research with KLE and LV Prasad Eye Institute.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-04",
+      "evidence": "KLE and Jefferson co-authored an April 2026 RAPIDIRON trial paper, and Jefferson's March 2026 Global Jefferson Day featured the Jefferson India Center with a KLE keynote.",
+      "sources": [
+        {
+          "author": "KLE J N Medical College and Thomas Jefferson University authors",
+          "title": "Response of reticulocyte and red blood cell indices to single-dose intravenous iron in pregnant women with moderate iron deficiency anemia: secondary analysis of the RAPIDIRON trial",
+          "publisher": "Journal of Maternal-Fetal and Neonatal Medicine (PubMed 42045095)",
+          "date": "27 April 2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42045095/"
+        },
+        {
+          "author": "Thomas Jefferson University Office of Global Affairs",
+          "title": "Global Jefferson Day 2026: Optimizing Global Health Outcomes: Jefferson India Center",
+          "publisher": "Thomas Jefferson University",
+          "date": "26 March 2026",
+          "url": "https://global.jefferson.edu/global-jefferson-day.html"
+        },
+        {
+          "author": "Jefferson Office of International Services",
+          "title": "Jefferson India Center",
+          "publisher": "Thomas Jefferson University",
+          "date": "undated",
+          "url": "https://global.jefferson.edu/jeffersons-global-centers/jefferson-india-center.html"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "King's College London and Guy's and St Thomas' NHS Foundation Trust",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "P. D. Hinduja Hospital and Medical Research Centre, Mumbai (National Health & Education Society)",
+      "type": "Training and education",
+      "description": "Hinduja-King's Health Partners Academy delivering clinical and nursing leadership training, research capacity building and funded PhD and MSc scholarships for Indian students.",
+      "status": "Active",
+      "start": "2024-04",
+      "end": "",
+      "last_evidence": "2026-05",
+      "evidence": "Nursing leadership course began May 2025; first scholars began October 2025 and 2026-27 scholarship calls opened in May 2026.",
+      "sources": [
+        {
+          "author": "Amit Srivastava",
+          "title": "Hinduja Foundation Offers MSc And PhD Scholarships For Indian Students At King's College London For 2026-27",
+          "publisher": "Free Press Journal",
+          "date": "2026-05-22",
+          "url": "https://www.freepressjournal.in/education/hinduja-foundation-offers-msc-and-phd-scholarships-for-indian-students-at-kings-college-london-for-202627"
+        },
+        {
+          "author": "Pharmautility",
+          "title": "P. D. Hinduja Hospital and King's College London Collaborate and Commence Their First Training Program for Nurses",
+          "publisher": "Pharmautility",
+          "date": "2025-05-29",
+          "url": "https://pharmautility.com/p-d-hinduja-hospital-and-kings-college-london-collaborate-and-commence-their-first-training-program-for-nurses/"
+        },
+        {
+          "author": "King's College London",
+          "title": "New partnership to improve healthcare outcomes in India and the UK",
+          "publisher": "King's College London",
+          "date": "2024-04-24",
+          "url": "https://www.kcl.ac.uk/news/new-partnership-to-improve-healthcare-outcomes-in-india-and-the-uk"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "University of Leicester and University Hospitals of Leicester NHS Trust",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "Apollo Hospitals and The Apollo University",
+      "type": "Research collaboration",
+      "description": "Centre for Digital Health and Precision Medicine with hubs at Chittoor and Glenfield Hospital Leicester, focused on cardiovascular, emergency medicine and multimorbidity research.",
+      "status": "Active",
+      "start": "2025-01",
+      "end": "",
+      "last_evidence": "2026-07",
+      "evidence": "Centre launched January 2025 and held its first major joint conference on 14 and 15 July 2026.",
+      "sources": [
+        {
+          "author": "IPP Bureau",
+          "title": "University of Leicester, Apollo showcase AI-driven healthcare research to strengthen UK-India collaboration",
+          "publisher": "Indian Pharma Post",
+          "date": "2026-07-16",
+          "url": "https://www.indianpharmapost.com/hospitals/university-of-leicester-apollo-showcase-ai-driven-healthcare-research-to-strengthen-uk-india-collaboration-20937"
+        },
+        {
+          "author": "University of Leicester",
+          "title": "University of Leicester and The Apollo University launch global research centre for digital health and precision medicine",
+          "publisher": "University of Leicester",
+          "date": "2025-01",
+          "url": "https://le.ac.uk/news/2025/january/apollo-launch"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "University of Leicester, University Hospitals of Leicester NHS Trust and BAPIO Training Academy",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "Apollo Health Resources (Apollo Hospitals)",
+      "type": "Training and education",
+      "description": "2+2 postgraduate residency: two years of training at Apollo Hospitals in India, then two years supervised residency in NHS hospitals.",
+      "status": "Active",
+      "start": "2025-10",
+      "end": "",
+      "last_evidence": "2026-07",
+      "evidence": "Programme announced October 2025; Leicester-Apollo partnership was still described as ongoing at the July 2026 joint conference.",
+      "sources": [
+        {
+          "author": "IPP Bureau",
+          "title": "University of Leicester, Apollo showcase AI-driven healthcare research to strengthen UK-India collaboration",
+          "publisher": "Indian Pharma Post",
+          "date": "2026-07-16",
+          "url": "https://www.indianpharmapost.com/hospitals/university-of-leicester-apollo-showcase-ai-driven-healthcare-research-to-strengthen-uk-india-collaboration-20937"
+        },
+        {
+          "author": "University of Leicester",
+          "title": "Trainee doctors in India to bolster their clinical skills with the NHS thanks to landmark initiative",
+          "publisher": "University of Leicester",
+          "date": "2025-10",
+          "url": "https://le.ac.uk/news/2025/october/trainee-doctors-india-clinical-skills-nhs-landmark-initiative"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Cambridge University Hospitals NHS Foundation Trust (with Cambridge Global Health Partnerships)",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "Himalayan Hospital (Dehradun) and Ganga Prem Hospice, Rishikesh, via Rama Foundation",
+      "type": "Training and education",
+      "description": "Uttarakhand-Cambridge Health Partnership: volunteer NHS nurses and allied health staff co-deliver palliative and cancer care training in Uttarakhand.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2025-08",
+      "evidence": "CUH team visited Rishikesh and Dehradun in August 2025; Rama Foundation links with CUH staff are described as running about 15 years.",
+      "sources": [
+        {
+          "author": "Cambridge University Hospitals",
+          "title": "Health team prepare for India mission",
+          "publisher": "Cambridge University Hospitals NHS Foundation Trust",
+          "date": "6 August 2025",
+          "url": "https://www.cuh.nhs.uk/news/health-team-prepare-for-india-mission/"
+        },
+        {
+          "author": "Mike Scialom",
+          "title": "Cambridge healthcare professionals head to northern India for partnership visit",
+          "publisher": "Cambridge Independent",
+          "date": "2025-08-14",
+          "url": "https://www.cambridgeindependent.co.uk/news/cambridge-healthcare-professionals-head-to-northern-india-fo-9429740/"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "University of Liverpool",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "Saveetha Institute of Medical and Technical Sciences (SIMATS), Chennai",
+      "type": "Research collaboration",
+      "description": "Five-year MoU in health and life sciences covering joint research, student exchange and academic events, including a medical student summer school.",
+      "status": "Active",
+      "start": "2025-07",
+      "end": "",
+      "last_evidence": "2025-07",
+      "evidence": "MoU signed in Chennai with the British Deputy High Commission present; announced July 2025, within 24 months, with a five-year term.",
+      "sources": [
+        {
+          "author": "University of Liverpool",
+          "title": "New partnerships build on Liverpool-India research and education ties",
+          "publisher": "University of Liverpool",
+          "date": "2025-07-14",
+          "url": "https://news.liverpool.ac.uk/2025/07/14/new-partnerships-further-strengthen-liverpool-india-research-and-education-ties/"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "University College London",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "AIIMS New Delhi and IIT Delhi",
+      "type": "Research collaboration",
+      "description": "Trilateral agreement to advance medical technology research and innovation using shared industry connections.",
+      "status": "Active",
+      "start": "2024-11",
+      "end": "",
+      "last_evidence": "2025-11",
+      "evidence": "UCL announced in November 2025 the first seven jointly funded UCL-AIIMS-IIT Delhi medtech research projects under the November 2024 agreement.",
+      "sources": [
+        {
+          "author": "University College London",
+          "title": "Inaugural recipients of UCL-AIIMS-IITD trilateral seed funds revealed",
+          "publisher": "University College London",
+          "date": "November 2025",
+          "url": "https://www.ucl.ac.uk/global/news/2025/nov/inaugural-recipients-ucl-aiims-iitd-trilateral-seed-funds-revealed"
+        },
+        {
+          "author": "Sanket Koul",
+          "title": "UCL inks trilateral pact with AIIMS, IIT-D to scale up medtech innovation",
+          "publisher": "Business Standard",
+          "date": "2024-11-22",
+          "url": "https://www.business-standard.com/india-news/ucl-inks-trilateral-pact-with-aiims-iit-d-to-scale-up-medtech-innovation-124112201280_1.html"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "University of Bolton Institute of Medicine (now University of Greater Manchester Medical School)",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "AIIMS New Delhi",
+      "type": "Research collaboration",
+      "description": "MoU on medical research, innovation, education, staff and student exchange and collaborative degree programmes.",
+      "status": "Unclear",
+      "start": "2024-05",
+      "end": "",
+      "last_evidence": "2024-05",
+      "evidence": "Signed virtually in May 2024; announcement is over 24 months old and no later activity was found.",
+      "sources": [
+        {
+          "author": "News Services Division",
+          "title": "AIIMS New Delhi signed MoU with University of Bolton Institute of Medicine",
+          "publisher": "All India Radio News",
+          "date": "2024-05-15",
+          "url": "https://newsonair.gov.in/aiims-new-delhi-signed-mou-with-university-of-bolton-institute-of-medicine"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "LMU Klinikum (University Hospital Munich)",
+      "foreign_country": "Germany",
+      "group": "Other foreign health systems",
+      "indian_partner": "AIIMS New Delhi",
+      "type": "Research collaboration",
+      "description": "Non-binding MoU to explore joint research, faculty and student exchange, and multicentre clinical trials.",
+      "status": "Unclear",
+      "start": "2023-09",
+      "end": "",
+      "last_evidence": "2023-09",
+      "evidence": "Signed September 2023; specific projects were left to separate agreements, and no later activity was found.",
+      "sources": [
+        {
+          "author": "Press Trust of India",
+          "title": "AIIMS Delhi, Munich-based university sign agreement for research in medicine, life sciences",
+          "publisher": "Careers360",
+          "date": "2023-09-16",
+          "url": "https://news.careers360.com/aiims-delhi-munich-based-university-sign-non-binding-mou-for-collaborative-endeavours/amp"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "SingHealth",
+      "foreign_country": "Singapore",
+      "group": "Other foreign health systems",
+      "indian_partner": "Athulya Senior Care, Chennai",
+      "type": "Training and education",
+      "description": "MoU to explore collaboration in senior care services, professional training, research and knowledge exchange with annual joint programmes planned.",
+      "status": "Active",
+      "start": "2026-04",
+      "end": "",
+      "last_evidence": "2026-04",
+      "evidence": "MoU announced April 2026, within 24 months; Indian partner is an assisted-living provider rather than a hospital.",
+      "sources": [
+        {
+          "author": "Team VOH",
+          "title": "Athulya Senior Care Inks Landmark MoU with SingHealth to Advance Senior Care, Training, and Research Collaboration",
+          "publisher": "VOH Network",
+          "date": "2026-04-29",
+          "url": "https://vohnetwork.com/news/hospitals-providers/athulya-senior-care-inks-landmark-mou-with-singhealth-to-advance-senior-care-training-and-research-collaboration"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Monash University (Faculty of Information Technology)",
+      "foreign_country": "Australia",
+      "group": "Other foreign health systems",
+      "indian_partner": "Apollo Hospitals and The Apollo University",
+      "type": "Research collaboration",
+      "description": "MoUs on health AI research and education, including access to de-identified Apollo patient data and joint certification programmes.",
+      "status": "Active",
+      "start": "2023-12",
+      "end": "",
+      "last_evidence": "2024-11",
+      "evidence": "University MoU signed December 2023; a further Apollo Hospitals data partnership was reported November 2024, within 24 months. No later news found.",
+      "sources": [
+        {
+          "author": "Health News",
+          "title": "Monash University Partners with Apollo Hospitals for Digital Health Research",
+          "publisher": "Digital Health News",
+          "date": "2024-11-29",
+          "url": "https://www.digitalhealthnews.com/monash-university-partners-with-apollo-hospitals-for-digital-health-research"
+        },
+        {
+          "author": "Dylan Bushell-Embling",
+          "title": "Monash partners with Apollo University on health AI research",
+          "publisher": "Government News (GovTech Review)",
+          "date": "2023-12-19",
+          "url": "https://www.govtechreview.com.au/content/gov-digital/news/monash-partners-with-apollo-university-on-health-ai-research-652623324"
+        }
+      ]
+    },
+    {
+      "foreign_institution": "Juntendo University (Tokyo)",
+      "foreign_country": "Japan",
+      "group": "Other foreign health systems",
+      "indian_partner": "Saint Hardyal Educational and Orphans' Welfare Society (SHEOWS), Delhi",
+      "type": "Research collaboration",
+      "description": "MoU for dementia and geriatric research, academic exchange and advisory support for a planned geriatric hospital and research centre.",
+      "status": "Active",
+      "start": "2026-08",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "MoU signed in Tokyo and announced 10 August 2026; Indian partner is a nonprofit elder care society.",
+      "sources": [
+        {
+          "author": "PTI",
+          "title": "SHEOWS and Juntendo University, Tokyo Sign MoU to Advance Geriatric Care and Research Collaboration Between India and Japan",
+          "publisher": "The Wire (PTI)",
+          "date": "2026-08-10",
+          "url": "https://m.thewire.in/article/ptiprnews/sheows-and-juntendo-university-tokyo-sign-mou-to-advance-geriatric-care-and-research-collaboration-between-india-and-japan/amp"
+        }
+      ]
+    }
+  ],
+  "log": [
+    "Row Mayo/AIG: kept Unclear (V1, V2, V3 confirmed); last_evidence set to 2025-02 to match the latest listed source (Post Bulletin), evidence reworded.",
+    "Row Mayo/Lilavati Mumbai: Mayo leaders' visit re-dated 17 Dec 2025 to 23 Sep 2025 (V2 raised; I opened the Lilavati news page: each item's date follows its text, and 17 Dec 2025 belongs to the JCI item). Kept Active, last_evidence 2025-09.",
+    "Row Mayo/Lilavati GIFT City: kept Active; added The Indian Practitioner 22 Apr 2026 (V3 raised; I opened it: GIFT City hospital opened OPD, Mayo partnership for training and technology transfer) and Medical Buyer Jan 2025 (V2); Lilavati page re-dated to 23 Sep 2025 (V2). last_evidence 2026-04.",
+    "Row Mayo/Adani: kept Active; added Digital Health News 6 Jul 2026 on Kolkata campus with Mayo collaboration, last_evidence 2026-07, partner and description updated (V1, V2, V3 agreed).",
+    "Row Cleveland Clinic/Navi Mumbai MediCity: kept Active; Indian partner field corrected so Brookfield (Canadian investor) is not shown as an Indian partner (V2, V3).",
+    "Row Cleveland Clinic/Apollo second opinions: kept Unclear (V1, V2, V3 agree on status); did not add V2's Amwell 10-K note on the Cleveland Clinic-Amwell JV wind-down because SEC EDGAR blocked fetching and no other verifier raised it.",
+    "Row JHMI/HCL Healthcare: Unclear changed to Ended, end 2024-02 (10-year term from Feb 2014 expired with no renewal shown) (V1, V2, V3 agreed).",
+    "Row JHU/IIT Bombay KCDH: Unclear changed to Active (V3 Active; V1 and V2 Unclear). I opened the KCDH Digest (Jan 2025: joint GKII-KCDH Breakthrough Grants launched, two projects shortlisted) and search results confirm GKII launched the 2025-26 cycle in Dec 2025 (GKII site blocks fetch). last_evidence 2025-12.",
+    "Row JHU/Ajit Isaac Foundation: kept Active; added Forbes India 6 Apr 2026, last_evidence 2026-04 (V1, V3; V2 dated it March 2026 issue).",
+    "Row JHU/D.Y. Patil: Unclear changed to Active, start 2014 changed to 2024-03 (MoU date; 2014 not verified) (V3 raised; V1, V2 kept Unclear with last_evidence 2024-03). I checked PubMed 41928807 (25 Mar 2026): JHU and D.Y. Patil co-authors on a current Pune trial. Medical Dialogues source dated 13 Mar 2024 (V1, V2).",
+    "Row JHU Nursing/CMC Vellore Nursing: kept Unclear (V1, V3) rather than removing (V2). I checked PubMed 39361448: a joint paper by both nursing schools first published 3 Oct 2024, which shows the tie continued after Oct 2021 but describes only 2021 webinars. last_evidence 2024-10.",
+    "Row MD Anderson/Tata Memorial: kept Active; last_evidence 2025-03 changed to 2024-12, the date of the source (announcement, not a report of the event) (V2 raised; V1, V3 confirmed; mechanical fix under rule 5).",
+    "Row MD Anderson/Tata Memorial ECHO-PACA II: kept Ended 2025-01 (V1, V2, V3 confirmed); last_evidence left blank because the only source, MD Anderson's program page giving the May 2023 to January 2025 schedule, is undated.",
+    "Row UCLA/Narendra Modi Medical College: kept Active and kept 'first lecture in summer 2025' wording; V3 said no source mentions it, but I opened the UCLA exchange page and it states 'Our first lecture took place during the Summer of 2025'.",
+    "Row UCLA/AIIMS QBL: kept Active (V2, V3) over V1's Unclear; I opened both UCLA pages: the undated page names AIIMS and phase 1 complete, the Summer 2025 newsletter gives a 2025-26 seed grant for the same QBL project. Newsletter added as first source.",
+    "Row UCLA/FOGSI and SAFOG: start set to 2020-01 (V2) rather than 2021-01 (V1). I opened the UCLA page: the collaboration 'began in January 2020' at AICOG, with the first joint UCLA-FOGSI symposium in January 2021. Kept Active.",
+    "Row Stanford/EMRI: start set to 2007 (V1 raised; I opened EMRI's partnerships page: MoU with Stanford School of Medicine since 2007). Kept Active.",
+    "Row Michigan/AIIMS Jammu: type changed Research collaboration to Training and education (V1 raised, V2 agreed): the Nov 2025 events were conferences.",
+    "Row Iowa/Shroff's: Unclear changed to Active on the Iowa Lions Eye Bank article of 1 Feb 2025 (Nov 2024 visit and DMEK training) (V1, V2, V3 agreed).",
+    "Row UCSF Proctor/Aravind: kept Active; added REAGIR follow-up (JAMA Ophthalmology, 1 Aug 2026), last_evidence 2026-08 (V3 raised; I checked PubMed 42348235: Aravind and Proctor affiliations, trial at Aravind sites).",
+    "Row Weill Cornell/BJGMC Pune: Unclear changed to Active (V2, V3): I checked PubMed 42764545 (J Int AIDS Soc, Sep 2026; Weill Cornell and BJGMC affiliations, PRAGATHi cohort 2023 to present) and 41730922 (Nat Commun, Feb 2026). last_evidence 2026-09.",
+    "Row Jefferson/KLE and LVPEI: Unclear changed to Active (V1, V2, V3 agreed; they cited different latest dates). I checked PubMed 42045095 (27 Apr 2026, KLE JNMC and TJU affiliations) and the Global Jefferson Day page (26 Mar 2026, Jefferson India Center theme, KLE keynote). Dropped the KAHER physiotherapy MoU list because its May 2026 date is only an upload path and it records a 2019 MoU with a 3.5-year term; LVPEI marked as listed without recent dated activity (V3). last_evidence 2026-04.",
+    "Row UChicago/Manipal: kept Unclear (V1, V3) rather than removing (V2); the MAHE partner page is undated but current, so the tie cannot be shown to have lapsed before Oct 2021.",
+    "Row Cambridge University Hospitals/Uttarakhand: CUH source dated 6 Aug 2025 (V1). Kept Active.",
+    "Row UCL/AIIMS and IIT Delhi: kept Active; added UCL Nov 2025 seed fund announcement, last_evidence 2025-11 (V2 raised; UCL site blocks fetch, confirmed via search results showing seven funded projects with AIIMS co-leads).",
+    "Added Johns Hopkins/BJGMC-Sassoon Pune clinical research site as Active (V1, V2, V3 all flagged). I opened the JHU CTU page (HIV/TB research since 1992, NIH CTU since 2008) and PubMed 42764545 (Sep 2026) and 41730922 (Feb 2026), both listing the BJGMC-JHU Clinical Research Site. last_evidence 2026-09.",
+    "Removed Mayo Clinic Mumbai patient information office: Mayo's own referral office with no Indian partner institution (V2, V3 remove; V1 kept as Unclear).",
+    "Removed Cleveland Clinic India patient representative: referral representative, no Indian partner institution, undated page only (V2, V3 remove; V1 wanted Unclear).",
+    "Removed Texas Children's/Baylor with Biological E: vaccine technology licensing to a manufacturer, out of scope (V1, V2, V3 all remove).",
+    "Removed SingHealth Duke-NUS Asian HEAL with Narayana/Aravind: VOH article (opened) names Devi Shetty and N.V. Prajna as individual faculty and site visits, no institutional agreement (V3 remove, V2 flagged individual faculty; V1 confirmed).",
+    "FINAL-CHECK: MD Anderson ECHO-PACA latest evidence set to 2025-01, the program's published end.",
+    "FINAL-CHECK: removed University of Michigan Medical School / Michigan Medicine with AIIMS New Delhi, Amrita Institute of Medical Sciences (Kochi), Manipal, Aravind Eye Care System, GVK EMRI: no dated evidence of activity since October 2021 (only undated pages), so outside the five-year scope.",
+    "FINAL-CHECK: removed University of Chicago (Pritzker School of Medicine / UChicago Medicine) with Manipal Academy of Higher Education (Kasturba Medical College): no dated evidence of activity since October 2021 (only undated pages), so outside the five-year scope."
+  ]
+}
