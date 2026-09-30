@@ -551,12 +551,31 @@ def add_manual_field(doc, label, value):
 
 
 def cover_image_path(data, out_path):
+    """Cover picture: explicit cover_image, else assets/covers/<Country>.jpg, else the red map."""
     if data.get("cover_image") and Path(data["cover_image"]).exists():
         return data["cover_image"]
+    photo = SCRIPTS.parent / "assets" / "covers" / f"{data['country']}.jpg"
+    if photo.exists():
+        return str(photo)
     png = Path(out_path).with_name(f"{data['country'].replace(' ', '_')}_cover_map.png")
     if not png.exists():
         subprocess.run([sys.executable, str(SCRIPTS / "make_cover_map.py"), data["country"], str(png)], check=True)
     return str(png)
+
+
+def add_cover_picture(doc, data, out_path):
+    """Adds the cover picture and, for licensed photos, the required credit line."""
+    doc.add_picture(cover_image_path(data, out_path), width=usable_width(doc))
+    meta = SCRIPTS.parent / "assets" / "covers" / f"{data['country']}.json"
+    if meta.exists() and not data.get("cover_image"):
+        credit = json.loads(meta.read_text()).get("credit", "")
+        if credit:
+            p = doc.add_paragraph()
+            p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+            p.paragraph_format.space_after = Pt(4)
+            r = p.add_run(credit)
+            r.font.size = Pt(7)
+            r.font.color.rgb = GRAY
 
 
 def build_toc(placeholder, headings):
@@ -592,7 +611,7 @@ def build_profile(data, out_path, registry):
 
     # Cover and table of contents share page 1 (house layout, from the analyst's hand edits)
     add_cover_title(doc, "Country Profile", country)
-    doc.add_picture(cover_image_path(data, out_path), width=usable_width(doc))
+    add_cover_picture(doc, data, out_path)
     # Table of contents is filled in after the headings exist
     toc_placeholder = doc.add_paragraph()
     doc.add_page_break()

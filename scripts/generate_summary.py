@@ -338,7 +338,7 @@ def build(profile_path, summary_path, out_path):
     # Title page
     t = gp.add_cover_title(doc, "Country Summary", country)
     t.paragraph_format.space_before = Pt(60)
-    doc.add_picture(gp.cover_image_path(profile, str(Path(out_path).with_name(f"{country}_Profile_DRAFT.docx"))), width=width)
+    gp.add_cover_picture(doc, profile, str(Path(out_path).with_name(f"{country}_Profile_DRAFT.docx")))
     note = doc.add_paragraph()
     note.paragraph_format.space_before = Pt(18)
     nr = note.add_run(
