@@ -50,3 +50,11 @@ completed JSON file:
 ```
 python3 scripts/generate_profile.py path/to/profile.json output/<Country>_Profile_DRAFT.docx
 ```
+
+## Partnerships tracker
+
+`data/partnerships.json` holds one verified record per institution and country
+(partner, relationship, status, sources, last-verified date), fed by each
+profile run. `python3 scripts/tracker.py export` writes the Excel view,
+`output/Partnerships_Tracker.xlsx`, which flags records not re-checked in 90
+days. New profiles start from `python3 scripts/tracker.py brief <Country>`.

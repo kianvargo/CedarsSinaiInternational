@@ -1,0 +1,502 @@
+{
+  "monitored_institutions": [
+    "Mayo Clinic",
+    "Cleveland Clinic",
+    "Johns Hopkins",
+    "Memorial Sloan Kettering",
+    "MD Anderson Cancer Center",
+    "Houston Methodist",
+    "UCLA Health",
+    "NewYork-Presbyterian",
+    "UPMC",
+    "Mass General Brigham",
+    "Northwestern Medicine",
+    "Mount Sinai Health System"
+  ],
+  "stale_after_days": 90,
+  "relationships": [
+    {
+      "id": "india--blackstone",
+      "country": "India",
+      "group": "Other foreign health systems and investors",
+      "institution": "Blackstone",
+      "partner": "Aster DM Quality Care (Aster DM Healthcare merged with Quality Care India)",
+      "model": "Private equity shareholder",
+      "status": "Merger announced January 2025; effective July 2026",
+      "summary": "Aster DM Healthcare and Blackstone-backed Quality Care India announced their merger in January 2025, and the combined Aster DM Quality Care began operating in July 2026 with more than 10,600 beds.",
+      "last_verified": "2026-09-25",
+      "verification": "Country-profile pipeline: research, three independent verifiers, resolution; primary sources",
+      "sources": [
+        {
+          "author": "Aster DM Healthcare",
+          "title": "Aster and Blackstone-backed Quality Care have merged to establish one of the top 3 Hospital chains in India with 10,150+ beds",
+          "publisher": "",
+          "date": "27 January 2025",
+          "url": "https://www.asterdmhealthcare.in/newsroom/detail/aster-and-blackstone-backed-quality-care-have-merged-establish-one-of-top-3-hospital-chains-india"
+        },
+        {
+          "author": "HealthCare Middle East & Africa",
+          "title": "Aster DM Quality Care begins operations post-merger with over 10,600 beds",
+          "publisher": "",
+          "date": "3 July 2026",
+          "url": "https://www.healthcaremea.com/2026/07/03/aster-dm-quality-care-begins-operations-post-merger-with-over-10600-beds/"
+        }
+      ]
+    },
+    {
+      "id": "india--ihh-healthcare-malaysia",
+      "country": "India",
+      "group": "Other foreign health systems and investors",
+      "institution": "IHH Healthcare (Malaysia)",
+      "partner": "Fortis Healthcare",
+      "model": "Controlling shareholder",
+      "status": "Controlling shareholder; open offer closed November 2025",
+      "summary": "Malaysia's IHH Healthcare controls Fortis. Its mandatory open offer closed in November 2025 with only 1,778 shares tendered, leaving its stake at about 31.17 percent.",
+      "last_verified": "2026-09-25",
+      "verification": "Country-profile pipeline: research, three independent verifiers, resolution; primary sources",
+      "sources": [
+        {
+          "author": "InvestyWise",
+          "title": "Fortis Healthcare IHH Completes Open Offer, Increases Stake",
+          "publisher": "",
+          "date": "10 November 2025",
+          "url": "https://www.investywise.com/fortis-healthcare-results-of-open-offers/"
+        }
+      ]
+    },
+    {
+      "id": "india--kkr",
+      "country": "India",
+      "group": "Other foreign health systems and investors",
+      "institution": "KKR",
+      "partner": "Medicover India (sold by Sweden's Medicover)",
+      "model": "Acquisition",
+      "status": "Agreed August 2026; closing expected in the fourth quarter of 2026",
+      "summary": "KKR agreed on 6 August 2026 to buy Medicover India, 24 hospitals with about 4,800 beds, from Sweden's Medicover, which is leaving the Indian hospital market. Closing is expected in the fourth quarter of 2026, subject to approvals.",
+      "last_verified": "2026-09-25",
+      "verification": "Country-profile pipeline: research, three independent verifiers, resolution; primary sources",
+      "sources": [
+        {
+          "author": "KKR",
+          "title": "KKR to Acquire Leading Multi-Specialty Healthcare Provider Medicover India",
+          "publisher": "Nasdaq",
+          "date": "6 August 2026",
+          "url": "https://www.nasdaq.com/press-release/kkr-acquire-leading-multi-specialty-healthcare-provider-medicover-india-2026-08-06"
+        },
+        {
+          "author": "Medicover",
+          "title": "Medicover divests its India hospital business, enabling accelerated strategy execution in Europe",
+          "publisher": "Modular Finance via TradingView",
+          "date": "6 August 2026",
+          "url": "https://www.tradingview.com/news/modular_finance:0f6ef34bba47c:0-medicover-divests-its-india-hospital-business-enabling-accelerated-strategy-execution-in-europe/"
+        }
+      ]
+    },
+    {
+      "id": "india--king-s-college-london-guy-s-and-st-thomas-nhs-foundation-trust",
+      "country": "India",
+      "group": "Other foreign health systems and investors",
+      "institution": "King's College London; Guy's and St Thomas' NHS Foundation Trust",
+      "partner": "P. D. Hinduja Hospital (Mumbai)",
+      "model": "Health Partners Academy",
+      "status": "Formed April 2024; current status not confirmed",
+      "summary": "King's College London and Guy's and St Thomas' NHS Foundation Trust formed a Health Partners Academy with P. D. Hinduja Hospital in April 2024.",
+      "last_verified": "2026-09-25",
+      "verification": "Country-profile pipeline: research, three independent verifiers, resolution; primary sources",
+      "sources": [
+        {
+          "author": "King's College London",
+          "title": "New partnership to improve healthcare outcomes in India and the UK",
+          "publisher": "",
+          "date": "24 April 2024",
+          "url": "https://www.kcl.ac.uk/news/new-partnership-to-improve-healthcare-outcomes-in-india-and-the-uk"
+        },
+        {
+          "author": "P. D. Hinduja Hospital",
+          "title": "King's College London and Guy's and St Thomas' NHS Foundation Trust, with P. D. Hinduja Hospital and the Hinduja Foundation establish a Health Partners Academy",
+          "publisher": "",
+          "date": "24 April 2024",
+          "url": "https://www.hindujahospital.com/press-release/kings-college-london-and-guys-and-st-thomas-nhs-foundation-trust-p-d-hinduja-hospital/"
+        }
+      ]
+    },
+    {
+      "id": "india--cleveland-clinic",
+      "country": "India",
+      "group": "US academic medical centers",
+      "institution": "Cleveland Clinic",
+      "partner": "Government of Maharashtra; Brookfield Asset Management; Arodhan Health City (Navi Mumbai International MediCity)",
+      "model": "Anchor institution under MoU; in-country patient representative",
+      "status": "MoU signed June 2026; project at MoU stage",
+      "summary": "Cleveland Clinic signed an MoU on 10 June 2026 with Maharashtra, Brookfield and Arodhan Health City to anchor the planned US$1.2 billion, 250-acre Navi Mumbai International MediCity, and CEO Tom Mihaljevic is quoted in the state's announcement. The project is at MoU stage. Cleveland Clinic also keeps a patient representative for India.",
+      "last_verified": "2026-09-25",
+      "verification": "Country-profile pipeline: research, three independent verifiers, resolution; primary sources",
+      "sources": [
+        {
+          "author": "Free Press Journal",
+          "title": "Maharashtra Signs MoU With Cleveland Clinic And Brookfield For Navi Mumbai International MediCity, India's First Global-Scale Healthcare Hub",
+          "publisher": "",
+          "date": "11 June 2026",
+          "url": "https://www.freepressjournal.in/mumbai/maharashtra-signs-mou-with-cleveland-clinic-and-brookfield-for-navi-mumbai-international-medicity-indias-first-global-scale-healthcare-hub"
+        },
+        {
+          "author": "Anurag Roushan",
+          "title": "Maharashtra's mega 'MediCity' takes off: Cleveland Clinic joins Rs 10,000 crore healthcare hub",
+          "publisher": "India TV News",
+          "date": "11 June 2026",
+          "url": "https://www.indiatvnews.com/maharashtra/maharashtra-s-mega-medicity-takes-off-cleveland-clinic-joins-rs-10000-crore-healthcare-hub-2026-06-11-1044486"
+        },
+        {
+          "author": "Cleveland Clinic",
+          "title": "India Resources: A Top Hospital In The US",
+          "publisher": "",
+          "date": "",
+          "url": "https://my.clevelandclinic.org/patients/international/locations/india"
+        }
+      ]
+    },
+    {
+      "id": "india--houston-methodist-northwestern-medicine",
+      "country": "India",
+      "group": "US academic medical centers",
+      "institution": "Houston Methodist; Northwestern Medicine",
+      "partner": "None identified",
+      "model": "None identified",
+      "status": "No India partnership listed (2026)",
+      "summary": "No India partnership was found on the international pages of Houston Methodist or Northwestern Medicine.",
+      "last_verified": "2026-09-25",
+      "verification": "Country-profile pipeline: research, three independent verifiers, resolution; primary sources",
+      "sources": [
+        {
+          "author": "Houston Methodist",
+          "title": "Houston Methodist Global Health Care Network",
+          "publisher": "",
+          "date": "",
+          "url": "https://www.houstonmethodist.org/for-health-professionals/global-health-care-services/affiliations/"
+        },
+        {
+          "author": "Northwestern Medicine Global Services",
+          "title": "Global Healthcare Case Studies & Partnerships",
+          "publisher": "",
+          "date": "",
+          "url": "https://www.northwesternglobalservices.com/case-studies.html"
+        }
+      ]
+    },
+    {
+      "id": "india--johns-hopkins",
+      "country": "India",
+      "group": "US academic medical centers",
+      "institution": "Johns Hopkins",
+      "partner": "HCL Healthcare; IIT Bombay (Koita Centre for Digital Health)",
+      "model": "Consulting affiliation through Johns Hopkins Medicine International; university research collaboration",
+      "status": "HCL affiliation began 2014 for 10 years, current status not confirmed; IIT Bombay collaboration announced 2023, current status not confirmed",
+      "summary": "Johns Hopkins Medicine International describes a 10-year affiliation with HCL Healthcare from February 2014 covering outpatient and specialty care, training and clinical services. Whether it continued beyond 2024 is not publicly known. Johns Hopkins University and IIT Bombay's Koita Centre for Digital Health announced a digital-health research collaboration on 9 February 2023.",
+      "last_verified": "2026-09-25",
+      "verification": "Country-profile pipeline: research, three independent verifiers, resolution; primary sources",
+      "sources": [
+        {
+          "author": "Johns Hopkins Medicine International",
+          "title": "HCL Healthcare",
+          "publisher": "",
+          "date": "",
+          "url": "https://www.hopkinsmedicine.org/international/health-care-consulting/asia-pacific/hcl-healthcare"
+        },
+        {
+          "author": "Domain-b",
+          "title": "HCL enters healthcare with HCL Avitas",
+          "publisher": "",
+          "date": "6 February 2014",
+          "url": "https://www.domain-b.com/companies-organisations/firms-companies/hcl-enters-healthcare-with-hcl-avitas"
+        },
+        {
+          "author": "Gupta-Klinsky India Institute, Johns Hopkins University",
+          "title": "Collaboration Agreement with IIT Bombay and Roundtable Discussion Shine a Spotlight on Digital Health",
+          "publisher": "",
+          "date": "",
+          "url": "https://indiainstitute.jhu.edu/news/news-2025/news-from-gkii/collaboration-agreement-with-iit-bombay-and-roundtable-discussion-shine-a-spotlight-on-digital-health"
+        }
+      ]
+    },
+    {
+      "id": "india--md-anderson-cancer-center",
+      "country": "India",
+      "group": "US academic medical centers",
+      "institution": "MD Anderson Cancer Center",
+      "partner": "Tata Memorial Hospital (Mumbai)",
+      "model": "Sister institution; Project ECHO palliative-care partner",
+      "status": "Agreement signed 2003; Tata Memorial listed as ECHO partner on MD Anderson's site (2026)",
+      "summary": "MD Anderson signed a sister-institution agreement with Tata Memorial Hospital on 6 October 2003. MD Anderson's site lists Tata Memorial as a partner in its Project ECHO palliative-care program for Africa and India, funded through its Sister Institution Network Fund.",
+      "last_verified": "2026-09-25",
+      "verification": "Country-profile pipeline: research, three independent verifiers, resolution; primary sources",
+      "sources": [
+        {
+          "author": "India Herald",
+          "title": "MD Anderson Cancer Center signs sister institution accord with Tata Memorial",
+          "publisher": "",
+          "date": "17 October 2003",
+          "url": "https://india-herald.com/md-anderson-cancer-center-signs-sister-institution-accord-with-tata-memoria-p305-19.htm"
+        },
+        {
+          "author": "The University of Texas MD Anderson Cancer Center",
+          "title": "Project ECHO: Palliative Care Africa (PACA) II",
+          "publisher": "",
+          "date": "",
+          "url": "https://www.mdanderson.org/education-training/outreach-programs/project-echo/programs/palliative-care-africa.html"
+        }
+      ]
+    },
+    {
+      "id": "india--mass-general-brigham",
+      "country": "India",
+      "group": "US academic medical centers",
+      "institution": "Mass General Brigham",
+      "partner": "Wockhardt Hospitals",
+      "model": "Hospital development, clinical programs and quality improvement, through Harvard Medical International and later Partners Harvard Medical International",
+      "status": "Began about 2001; current status not confirmed; no India partnership on MGB's global partnerships page (2026)",
+      "summary": "Harvard Medical International helped Wockhardt Hospitals develop facilities, clinical programs and a performance-improvement plan that led to international accreditation. Partners HealthCare took over HMI in 2008 as Partners Harvard Medical International and announced in November 2019 that it would rename itself Mass General Brigham. Wockhardt described a ten-year PHMI relationship in 2010-11, and MGB's global partnerships page does not list India.",
+      "last_verified": "2026-09-25",
+      "verification": "Country-profile pipeline: research, three independent verifiers, resolution; primary sources",
+      "sources": [
+        {
+          "author": "Harvard Magazine",
+          "title": "At Harvard Medical International, Changes Afoot",
+          "publisher": "Harvard Magazine",
+          "date": "January 2008",
+          "url": "https://www.harvardmagazine.com/2008/01/harvard-medical"
+        },
+        {
+          "author": "Harvard Gazette",
+          "title": "Partners HealthCare to assume management of Harvard Medical International",
+          "publisher": "Harvard University",
+          "date": "24 April 2008",
+          "url": "https://news.harvard.edu/gazette/story/2008/04/partners-healthcare-to-assume-management-of-harvard-medical-international/"
+        },
+        {
+          "author": "WBUR News",
+          "title": "Brand-Aid: Hospital Giant Partners HealthCare Is Changing Names",
+          "publisher": "WBUR",
+          "date": "27 November 2019",
+          "url": "https://www.wbur.org/news/2019/11/27/partners-mass-general-brigham-hospitals"
+        },
+        {
+          "author": "Wockhardt Limited",
+          "title": "Annual Report 2010-11",
+          "publisher": "",
+          "date": "",
+          "url": "https://www.wockhardt.com/wp-content/uploads/2022/08/annual-report-2010-11-53a4d.pdf"
+        },
+        {
+          "author": "Mass General Brigham",
+          "title": "Global Partnerships",
+          "publisher": "",
+          "date": "",
+          "url": "https://www.massgeneralbrigham.org/en/about/members-affiliates/global-partnerships"
+        }
+      ]
+    },
+    {
+      "id": "india--mayo-clinic",
+      "country": "India",
+      "group": "US academic medical centers",
+      "institution": "Mayo Clinic",
+      "partner": "AIG Hospitals (Hyderabad); Lilavati Hospital (Mumbai); Adani Health City (Ahmedabad and Mumbai)",
+      "model": "Care Network member; nursing program and planned projects; strategic advisory; Mumbai patient office",
+      "status": "AIG joined 2019, current membership not confirmed; Lilavati and Adani announced 2025, current status of the planned projects not confirmed",
+      "summary": "AIG Hospitals joined the Mayo Clinic Care Network in October 2019, and Mayo's 2023 tax filings still listed India among member locations. Lilavati announced a nursing program, a 300-bed cancer institute and a GIFT City project with Mayo in January 2025, and trained 120 nurses in March 2025. Adani engaged Mayo in February 2025 to advise on two Health City campuses. Mayo opened a patient information office in Mumbai in February 2023.",
+      "last_verified": "2026-09-25",
+      "verification": "Country-profile pipeline: research, three independent verifiers, resolution; primary sources",
+      "sources": [
+        {
+          "author": "Mayo Clinic",
+          "title": "AIG Hospitals in India joins Mayo Clinic Care Network",
+          "publisher": "Newswise",
+          "date": "24 October 2019",
+          "url": "https://www.newswise.com/articles/aig-hospitals-in-india-joins-mayo-clinic-care-network"
+        },
+        {
+          "author": "Mayo Clinic",
+          "title": "AIG Hospitals in India joins Mayo Clinic Care Network",
+          "publisher": "Mayo Clinic News Network",
+          "date": "24 October 2019",
+          "url": "https://newsnetwork.mayoclinic.org/discussion/aig-hospitals-in-india-joins-mayo-clinic-care-network/"
+        },
+        {
+          "author": "Post Bulletin",
+          "title": "Billionaire to partner with Mayo Clinic on India hospitals",
+          "publisher": "",
+          "date": "11 February 2025",
+          "url": "https://www.postbulletin.com/business/billionaire-to-partner-with-mayo-clinic-on-india-hospitals"
+        },
+        {
+          "author": "Press Trust of India",
+          "title": "Lilavati Hospital, Mayo Clinic to establish 300-bed cancer institute in Mumbai",
+          "publisher": "Medical Buyer",
+          "date": "24 January 2025",
+          "url": "https://medicalbuyer.co.in/lilavati-hospital-mayo-clinic-to-establish-300-bed-cancer-institute-in-mumbai/"
+        },
+        {
+          "author": "Kajal Rajput",
+          "title": "Mayo Clinic, Lilavati Hospital complete India's first Nursing Excellence Training Program",
+          "publisher": "Medical Dialogues",
+          "date": "29 March 2025",
+          "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/mayo-clinic-lilavati-hospital-complete-indias-first-nursing-excellence-training-program-145698"
+        },
+        {
+          "author": "Adani Group",
+          "title": "Adani to Partner Mayo Clinic to Establish Affordable World Class Healthcare Facilities",
+          "publisher": "",
+          "date": "10 February 2025",
+          "url": "https://www.adani.com/newsroom/media-releases/adani-to-partner-mayo-clinic-to-establish-affordable-world-class-healthcare-facilities"
+        },
+        {
+          "author": "Mayo Clinic",
+          "title": "Mayo Clinic opens patient information office in India",
+          "publisher": "Newswise",
+          "date": "6 February 2023",
+          "url": "https://www.newswise.com/articles/mayo-clinic-opens-patient-information-office-in-india"
+        }
+      ]
+    },
+    {
+      "id": "india--memorial-sloan-kettering",
+      "country": "India",
+      "group": "US academic medical centers",
+      "institution": "Memorial Sloan Kettering",
+      "partner": "iCliniq (Chennai)",
+      "model": "Remote second-opinion service (MSKCC India)",
+      "status": "Launched 2021; current status not confirmed",
+      "summary": "Memorial Sloan Kettering launched MSKCC India with the telemedicine company iCliniq on 2 August 2021, offering remote opinions coordinated from Chennai. iCliniq's MSK India pages had been permanently removed by September 2026, so the service may have ended.",
+      "last_verified": "2026-09-25",
+      "verification": "Country-profile pipeline: research, three independent verifiers, resolution; primary sources",
+      "sources": [
+        {
+          "author": "Memorial Sloan Kettering Cancer Center",
+          "title": "Memorial Sloan Kettering Cancer Center Launches MSKCC India to Expand Access to World-Renowned Oncologists, Cancer Care, Research, and Education",
+          "publisher": "PR Newswire",
+          "date": "2 August 2021",
+          "url": "https://www.prnewswire.com/news-releases/memorial-sloan-kettering-cancer-center-launches-mskcc-india-to-expand-access-to-world-renowned-oncologists-cancer-care-research-and-education-301345795.html"
+        },
+        {
+          "author": "iCliniq",
+          "title": "Frequently Asked Question: MSK India",
+          "publisher": "",
+          "date": "",
+          "url": "https://mskcc.icliniq.com/mskcc-india-services/mskcc-patient-faqs"
+        }
+      ]
+    },
+    {
+      "id": "india--mount-sinai-health-system",
+      "country": "India",
+      "group": "US academic medical centers",
+      "institution": "Mount Sinai Health System",
+      "partner": "Ramaiah Memorial Hospital (Bengaluru)",
+      "model": "Exclusive long-term collaboration: centers of excellence, quality, technology and complex-case review",
+      "status": "Signed July 2024; 10-year term reported; still presented on Ramaiah's website (2026)",
+      "summary": "Mount Sinai announced an exclusive long-term collaboration with Ramaiah Memorial Hospital on 12 July 2024, and Deccan Herald reported a 10-year term from 1 July 2024. It covers oncology, cardiology, neurosciences and urology-nephrology centers, quality and technology, and joint review of complex cases, and Ramaiah's website still presents it. It is the closest peer model for a CSI affiliation.",
+      "last_verified": "2026-09-25",
+      "verification": "Country-profile pipeline: research, three independent verifiers, resolution; primary sources",
+      "sources": [
+        {
+          "author": "Mount Sinai Health System",
+          "title": "Ramaiah Memorial Hospital Signs Long Term Collaboration Agreement with the Mount Sinai Health System in New York for Specialty Care Development and Quality and Technological Advancements",
+          "publisher": "GlobeNewswire via Yahoo Finance",
+          "date": "12 July 2024",
+          "url": "https://finance.yahoo.com/news/ramaiah-memorial-hospital-signs-long-143000744.html"
+        },
+        {
+          "author": "Mount Sinai Health System",
+          "title": "Ramaiah Memorial Hospital Signs Long Term Collaboration Agreement with the Mount Sinai Health System in New York for Specialty Care Development and Quality and Technological Advancements",
+          "publisher": "",
+          "date": "2024",
+          "url": "https://www.mountsinai.org/about/newsroom/2024/ramaiah-memorial-hospital-signs-long-term-collaboration-agreement-with-the-mount-sinai-health-system-in-new-york-for-specialty-care-development-and-quality-and-technological-advancements"
+        },
+        {
+          "author": "Deccan Herald",
+          "title": "Ramaiah Memorial inks 10-year partnership with Mount Sinai Health System of New York",
+          "publisher": "",
+          "date": "13 July 2024",
+          "url": "https://www.deccanherald.com/india/karnataka/bengaluru/ramaiah-memorial-inks-10-year-partnership-with-mount-sinai-health-system-of-new-york-3103995"
+        },
+        {
+          "author": "M S Ramaiah Memorial Hospital",
+          "title": "MS Ramaiah Hospital, Bangalore and Mount Sinai Hospital, New York Teams Up",
+          "publisher": "",
+          "date": "",
+          "url": "https://msrmh.com/collaborations/"
+        }
+      ]
+    },
+    {
+      "id": "india--newyork-presbyterian",
+      "country": "India",
+      "group": "US academic medical centers",
+      "institution": "NewYork-Presbyterian",
+      "partner": "Emergency services in Ahmedabad and Mumbai",
+      "model": "Volunteer disaster-preparedness training",
+      "status": "Held 2007 and 2008; no current program publicly listed",
+      "summary": "NewYork-Presbyterian emergency-medicine volunteers ran disaster-preparedness training and drills in Ahmedabad in November 2007 and in Mumbai in October and November 2008.",
+      "last_verified": "2026-09-25",
+      "verification": "Country-profile pipeline: research, three independent verifiers, resolution; primary sources",
+      "sources": [
+        {
+          "author": "NewYork-Presbyterian",
+          "title": "Disaster Experts from NewYork-Presbyterian Go to India and Sri Lanka to Improve Emergency Preparedness and Response",
+          "publisher": "",
+          "date": "6 November 2008",
+          "url": "https://www.nyp.org/news/nyp-disaster-experts-go-to-india-and-sri-lanka-improve-emergency"
+        }
+      ]
+    },
+    {
+      "id": "india--ucla-health",
+      "country": "India",
+      "group": "US academic medical centers",
+      "institution": "UCLA Health",
+      "partner": "Narendra Modi Medical College (Ahmedabad); AIIMS New Delhi",
+      "model": "OB/GYN department resident exchange and quality project",
+      "status": "Began 2024; department level",
+      "summary": "UCLA's OB/GYN department launched a resident exchange with Narendra Modi Medical College in 2024, began joint academic seminars in summer 2025 and completed the first phase of a postpartum-hemorrhage quality project with AIIMS New Delhi. These are grant-funded departmental projects, not UCLA Health system affiliations.",
+      "last_verified": "2026-09-25",
+      "verification": "Country-profile pipeline: research, three independent verifiers, resolution; primary sources",
+      "sources": [
+        {
+          "author": "UCLA Health, Department of Obstetrics and Gynecology",
+          "title": "UCLA-India Global Health Exchange in OB/GYN",
+          "publisher": "",
+          "date": "",
+          "url": "https://www.uclahealth.org/departments/obgyn/about-us/global-reproductive-health-alliance-collaborative-engagement/ucla-india-global-health-exchange-obgyn"
+        }
+      ]
+    },
+    {
+      "id": "india--upmc",
+      "country": "India",
+      "group": "US academic medical centers",
+      "institution": "UPMC",
+      "partner": "TeleChikitsa Ventures (Bangalore); Citizens Hospital (Hyderabad)",
+      "model": "Telemedicine second opinions; clinical pathology laboratory development",
+      "status": "Announced 2014; current status not confirmed; India not listed on UPMC International's locations page (2026)",
+      "summary": "UPMC signed a telemedicine second-opinion agreement with TeleChikitsa Ventures in February 2014, its second India agreement after helping Citizens Hospital build a clinical pathology laboratory. UPMC International's locations page lists Croatia, Ireland and Italy but not India.",
+      "last_verified": "2026-09-25",
+      "verification": "Country-profile pipeline: research, three independent verifiers, resolution; primary sources",
+      "sources": [
+        {
+          "author": "UPMC",
+          "title": "Physicians in India access UPMC medical expertise through telemedicine",
+          "publisher": "EurekAlert!",
+          "date": "21 February 2014",
+          "url": "https://www.eurekalert.org/news-releases/679748"
+        },
+        {
+          "author": "UPMC International",
+          "title": "Locations and Partnerships",
+          "publisher": "",
+          "date": "",
+          "url": "https://www.upmc.com/about/international-services/locations"
+        }
+      ]
+    }
+  ]
+}

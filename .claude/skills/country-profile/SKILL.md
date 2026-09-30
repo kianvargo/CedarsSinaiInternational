@@ -40,8 +40,26 @@ lines that match (cheap on tokens). Some hospital sites (Mayo Clinic, Johns
 Hopkins) refuse automated requests; use their press releases as republished
 on PR Newswire, Business Wire or EurekAlert instead.
 
+**Which model runs which step (cost).** Drafting is cheap to redo and gets
+checked; checking is where errors are caught. So:
+- Research pass and summary draft: pass `model: "sonnet"` on the Agent call
+  (about half the per-token price of the session's Opus model).
+- The three verifiers, the resolution pass, and the summary check: leave
+  `model` unset so they run on the session's strongest model.
+Expect roughly 20 to 30 percent lower cost per profile than running
+everything on Opus. Don't move verifiers to a cheaper model to save more.
+
+**Start from the partnerships tracker.** Before research, run
+`python3 scripts/tracker.py brief <Country> <scratchpad>/<country>_tracker_brief.json`
+and give that file to the research agent and all three verifiers. It lists
+what is already verified: every record for this country, and how each
+monitored US institution works elsewhere. Records for this country verified
+within the last 90 days (`reuse_without_recheck: true`) may be reused as they
+stand; everything else is a lead to confirm against primary sources, never a
+fact to copy.
+
 1. **Research pass.** Spawn a research agent (Agent tool, general-purpose or
-   Explore, with web search) with this brief: gather the following for
+   Explore, with web search, `model: "sonnet"`) with this brief: gather the following for
    `<country>`, each fact tagged with a source name/URL:
    - Demographics: capital, official language, population, area, GDP (PPP)
      total and per capita with world rank, government type, head of
@@ -151,6 +169,15 @@ on PR Newswire, Business Wire or EurekAlert instead.
    fields: Word fills them in when the document is opened (it asks to update
    fields; click Yes).
 
+5b. **Update the tracker.** Record the verified competitor entries so the next
+   profile can reuse them, then refresh the Excel view:
+   ```
+   python3 scripts/tracker.py update output/<country>_profile.json
+   python3 scripts/tracker.py export
+   ```
+   `data/partnerships.json` is the source of truth; `output/Partnerships_Tracker.xlsx`
+   is regenerated from it (it flags records not re-checked in 90 days).
+
 6. **Hand off.** Tell the user which CSI fields still need manual input, and
    summarize (in chat, not in the document) what the resolution pass changed
    and why, so they can spot-check the calls that were made on their behalf.
@@ -180,14 +207,14 @@ on PR Newswire, Business Wire or EurekAlert instead.
 When asked for a summary / executive version: build it from the finished,
 verified profile JSON only. It adds no new facts, so it needs no web research.
 
-1. **Draft:** an agent condenses the profile into
+1. **Draft:** an agent (`model: "sonnet"`) condenses the profile into
    `<scratchpad>/<country>_summary.json` with keys `at_a_glance` (8 tiles:
    value + label with year + cite), `country_background` (one paragraph, about 150 words: capital, government, leaders, economy, demographics, key risk), `key_takeaways` (4), `health_system` (3),
    `market` (3), `competitors` (US institutions: institution, partner, status),
    `competitor_note`, `opportunities` (3), `risks` (3), `recent` (3). Citations
    use `{{group.section:n}}`, meaning source n of that profile section, so the
    summary prints the same numbers as the profile's `_SOURCES` document.
-2. **Verify and tighten:** a separate agent checks every line against the
+2. **Verify and tighten:** a separate agent (session model) checks every line against the
    profile (numbers, qualifiers, years, statuses, markers) and cuts it to 380
    to 450 visible words, bullets at most 20 words.
 3. **Build:** `python3 scripts/generate_summary.py output/<country>_profile.json
