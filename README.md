@@ -53,8 +53,12 @@ python3 scripts/generate_profile.py path/to/profile.json output/<Country>_Profil
 
 ## Partnerships tracker
 
-`data/partnerships.json` holds one verified record per institution and country
-(partner, relationship, status, sources, last-verified date), fed by each
-profile run. `python3 scripts/tracker.py export` writes the Excel view,
-`output/Partnerships_Tracker.xlsx`, which flags records not re-checked in 90
-days. New profiles start from `python3 scripts/tracker.py brief <Country>`.
+`data/partnerships.json` lists foreign health systems' partnerships in each
+profiled country that are Active (dated evidence from the last 24 months),
+Ended (within five years) or Unclear, each with sources. It comes from its own
+research run (three research agents, three independent verifiers, a
+resolution pass). `python3 scripts/tracker.py export` writes
+`output/Partnerships_Tracker.xlsx`; `python3 scripts/make_partner_map.py India
+output/India_partnerships_map.png` draws the city map. The profile's
+competitive landscape and the summary read from this file, so they cannot
+drift apart.
