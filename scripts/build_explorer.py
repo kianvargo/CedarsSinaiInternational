@@ -141,9 +141,18 @@ def originals():
     return recs
 
 
+def csi_partnerships():
+    """Cedars-Sinai's own international partnerships (public sources, verified), for the map pins."""
+    path = ROOT / "data" / "csi_partnerships.json"
+    if not path.exists():
+        return []
+    return [r for r in json.loads(path.read_text())["partnerships"] if r.get("lat") is not None]
+
+
 def write(path, geo, profiles):
     html = TEMPLATE.read_text()
     html = html.replace("/*__GEO__*/null", geo)
+    html = html.replace("/*__CSI__*/[]", json.dumps(csi_partnerships(), ensure_ascii=False, separators=(",", ":")))
     html = html.replace("/*__PROFILES__*/null", json.dumps(profiles, ensure_ascii=False, separators=(",", ":")))
     path.parent.mkdir(exist_ok=True)
     path.write_text(html)

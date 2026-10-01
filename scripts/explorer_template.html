@@ -11,6 +11,7 @@
   --profiled: #e8a3a8;
   --original: #e9c88c;
   --original-strong: #b07a1c;
+  --pin: #1f4e8c;
   --accent: #c8202e;
   --ink: #1d2227;
   --muted: #5d6670;
@@ -25,14 +26,14 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #14171a; --ocean: #181c20; --land: #343b42; --land-edge: #181c20; --profiled: #8f3a42; --original: #7a5f2c; --original-strong: #e0a948;
+    --bg: #14171a; --ocean: #181c20; --land: #343b42; --land-edge: #181c20; --profiled: #8f3a42; --original: #7a5f2c; --original-strong: #e0a948; --pin: #7fb2ff;
     --accent: #ff5a66; --ink: #eceef0; --muted: #9aa3ad; --panel: #1c2024; --line: #2c3238;
     --chip-active: #4fcf8e; --chip-unclear: #e3b341; --chip-ended: #9aa3ad; --shadow: rgba(0, 0, 0, .7);
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #14171a; --ocean: #181c20; --land: #343b42; --land-edge: #181c20; --profiled: #8f3a42; --original: #7a5f2c; --original-strong: #e0a948;
+  --bg: #14171a; --ocean: #181c20; --land: #343b42; --land-edge: #181c20; --profiled: #8f3a42; --original: #7a5f2c; --original-strong: #e0a948; --pin: #7fb2ff;
   --accent: #ff5a66; --ink: #eceef0; --muted: #9aa3ad; --panel: #1c2024; --line: #2c3238;
   --chip-active: #4fcf8e; --chip-unclear: #e3b341; --chip-ended: #9aa3ad; --shadow: rgba(0, 0, 0, .7);
   color-scheme: dark;
@@ -78,8 +79,31 @@ svg.map:active { cursor: grabbing; }
 .tip span { color: var(--muted); margin-left: 6px; }
 .tip span.ok { color: var(--accent); }
 .tip span.orig { color: var(--original-strong); }
-.legend { position: absolute; left: 16px; bottom: 16px; display: flex; gap: 14px; font-size: 12px; color: var(--muted); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; }
+.legend { position: absolute; left: 16px; bottom: 16px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; max-width: calc(100% - 150px); font-size: 12px; color: var(--muted); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; }
 .legend i { display: inline-block; width: 11px; height: 11px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.pin circle { fill: var(--pin); stroke: var(--panel); vector-effect: non-scaling-stroke; stroke-width: 1.5; cursor: pointer; transition: fill .15s; }
+.pin.unclear circle { fill: var(--panel); stroke: var(--pin); stroke-width: 2; }
+.pin.ended circle { fill: var(--chip-ended); }
+.pin text { fill: var(--panel); font-family: var(--body); font-weight: 600; text-anchor: middle; dominant-baseline: central; pointer-events: none; }
+.pin.unclear text { fill: var(--pin); }
+.pin:hover circle, .pin.on circle { stroke: var(--accent); stroke-width: 2.5; }
+.pins.off { display: none; }
+.legend label { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; color: var(--ink); }
+.legend label input { margin: 0; accent-color: var(--pin); }
+.legend .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--pin); border: 1.5px solid var(--panel); box-shadow: 0 0 0 1px var(--pin); }
+.tip .t2 { display: block; margin: 2px 0 0; color: var(--muted); font-size: 12px; }
+.csi { padding: 10px 0; border-top: 1px solid var(--line); display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 10px; font-size: 14px; }
+.csi .who { font-weight: 600; }
+.csi .sub, .csi .desc, .csi .src { grid-column: 1 / -1; }
+.csi .sub { color: var(--muted); font-size: 13px; }
+.csi .desc { margin-top: 2px; }
+.csi .src { font-size: 12.5px; }
+.csi .src a { color: var(--pin); }
+.csi.flash { animation: flash 1.4s ease; }
+@keyframes flash { 0%, 40% { background: var(--ocean); } 100% { background: transparent; } }
+.countrylist { display: flex; flex-wrap: wrap; gap: 6px; }
+.countrylist button { font: inherit; font-size: 13px; color: var(--ink); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 3px 10px; cursor: pointer; font-variant-numeric: tabular-nums; }
+.countrylist button:hover { border-color: var(--pin); color: var(--pin); }
 .reset { position: absolute; right: 16px; bottom: 16px; font: inherit; font-size: 13px; padding: 6px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
 
 aside { min-width: 0; min-height: 0; overflow-y: auto; background: var(--panel); border-left: 1px solid var(--line); }
@@ -138,7 +162,8 @@ dl.facts dd { margin: 0; }
   header { padding: 12px 16px; }
   .search { max-width: none; margin-left: 0; }
   .panel { padding: 18px 16px 32px; }
-  .legend { display: none; }
+  .legend span { display: none; }
+  .legend { left: 10px; bottom: 10px; }
   .ptitle h2 { font-size: 28px; }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -169,6 +194,7 @@ dl.facts dd { margin: 0; }
 <script>
 const GEO = /*__GEO__*/null;
 const PROFILES = /*__PROFILES__*/null;
+const CSI = /*__CSI__*/[];
 
 const svg = d3.select("#map");
 const wrap = document.getElementById("mapwrap");
@@ -186,6 +212,41 @@ const path = d3.geoPath(projection);
 const zoomLayer = svg.append("g");
 const landLayer = zoomLayer.append("g");
 const liftLayer = zoomLayer.append("g");
+const pinLayer = zoomLayer.append("g").attr("class", "pins");
+
+// Cedars-Sinai's partnerships, one pin per city; a number shows several partners in one city.
+const sites = Array.from(d3.group(CSI, r => r.partner_city + "|" + r.map_country), ([, items]) => ({
+  city: items[0].partner_city, country: items[0].map_country, lat: items[0].lat, lon: items[0].lon, items,
+  state: items.some(r => r.status === "Active") ? "active" : items.some(r => r.status === "Unclear") ? "unclear" : "ended",
+}));
+const pins = pinLayer.selectAll("g").data(sites).join("g")
+  .attr("class", d => "pin " + d.state)
+  .attr("tabindex", 0).attr("role", "button")
+  .attr("aria-label", d => `${d.city}: ${d.items.map(r => r.partner).join(", ")}`)
+  .on("pointerenter", (e, d) => pinTip(d))
+  .on("pointermove", e => moveTip(e))
+  .on("pointerleave", () => { tip.hidden = true; })
+  .on("click", (e, d) => { e.stopPropagation(); openPin(d); })
+  .on("keydown", (e, d) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openPin(d); } });
+pins.append("circle");
+pins.append("text").text(d => d.items.length > 1 ? d.items.length : "");
+const pinR = d => 4.5 + 1.6 * Math.sqrt(d.items.length);
+function sizePins() {
+  pins.select("circle").attr("r", d => pinR(d) / transform.k);
+  pins.select("text").attr("font-size", 8.5 / transform.k);
+}
+function pinTip(d) {
+  tip.innerHTML = `<b>${esc(d.city)}, ${esc(d.country)}</b>` + d.items.map(r =>
+    `<span class="t2">Cedars-Sinai and ${esc(r.partner)} · ${esc(r.status)}</span>`).join("");
+  tip.hidden = false;
+}
+function openPin(d) {
+  select(d.country);
+  requestAnimationFrame(() => {
+    const el = panel.querySelector(`.csi[data-city="${CSS.escape(d.city)}"]`);
+    if (el) { el.scrollIntoView({ block: "center", behavior: "smooth" }); el.classList.add("flash"); }
+  });
+}
 
 const land = landLayer.selectAll("path").data(GEO.features).join("path")
   .attr("class", d => "land" + (has(d.properties.name) ? " has" : "") + (isOrig(d.properties.name) ? " orig" : ""))
@@ -197,6 +258,7 @@ const land = landLayer.selectAll("path").data(GEO.features).join("path")
 const zoom = d3.zoom().scaleExtent([1, 12]).on("zoom", e => {
   transform = e.transform;
   zoomLayer.attr("transform", transform);
+  sizePins();
 });
 svg.call(zoom).on("dblclick.zoom", null);
 
@@ -206,6 +268,8 @@ function layout() {
   svg.attr("viewBox", `0 0 ${W} ${H}`);
   projection.fitExtent([[12, 12], [W - 12, H - 12]], GEO);
   land.attr("d", path);
+  pins.attr("transform", d => `translate(${projection([d.lon, d.lat])})`);
+  sizePins();
   liftLayer.selectAll("path").attr("d", d => path(d));
   zoom.translateExtent([[0, 0], [W, H]]).extent([[0, 0], [W, H]]);
   if (selected) focus(selected, false);
@@ -317,6 +381,7 @@ function render(name) {
   if (p.downloads.length) h += `<section><h3>Download the brief</h3><div class="dl">${p.downloads.map((d, i) =>
     `<a class="file" href="${esc(d.file)}" download data-i="${i}"><span class="kind">${esc(d.kind)}</span><span class="fname">${esc(d.label)}</span><span class="size">${fmtSize(d.size)}</span></a>`).join("")}</div>
     <p class="dlmsg" id="dlmsg" hidden></p></section>`;
+  h += csiSection(name);
   if (p.background) h += `<section><h3>${p.kind === "original" ? "Overview" : "Background"}</h3><p>${esc(p.background)}</p></section>`;
   if (p.tiles) h += `<section><h3>At a glance</h3><div class="tiles">${p.tiles.map(t => `<div class="tile"><b>${esc(t.value)}</b><span>${esc(t.label)}</span></div>`).join("")}</div></section>`;
   else if (p.facts.length) h += `<section><h3>Key facts</h3><dl class="facts">${p.facts.slice(0, 8).map(f => `<dt>${esc(f.label)}</dt><dd>${esc(f.value)}</dd>`).join("")}</dl></section>`;
@@ -382,10 +447,24 @@ function backBar(name) {
     : `<p class="hint">Previewing. Click ${esc(name)} on the map to keep this open.</p>`;
 }
 
+const csiFor = name => CSI.filter(r => r.map_country === name);
+function csiSection(name, heading = "Cedars-Sinai partnerships here") {
+  const rows = csiFor(name);
+  if (!rows.length) return "";
+  return `<section><h3>${heading}</h3>${rows.map(r => {
+    const src = r.sources[0] || {};
+    return `<div class="csi" data-city="${esc(r.partner_city)}"><span class="who">${esc(r.partner)}</span><span class="st ${esc(r.status)}">${esc(r.status)}</span>
+      <span class="sub">${esc(r.partner_city)} · ${esc(r.type)}${r.start ? " · since " + esc(r.start.slice(0, 4)) : ""}${r.end ? " · ended " + esc(r.end) : ""}</span>
+      <span class="desc">${esc(r.description)}</span>
+      ${src.url ? `<span class="src">Source: <a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.publisher || src.title)}${src.date ? ", " + esc(fmtDate(src.date.slice(0, 7))) : ""}</a></span>` : ""}</div>`;
+  }).join("")}</section>`;
+}
+
 function renderEmpty(name) {
   const prompt = `Using the country-profile skill, build the full brief package for ${name}: the verified country profile, the partnerships tracker run, the partnerships map, a landmark cover photo and the short visual summary, then package it into deliverables/${name}.`;
   panel.innerHTML = `<div class="panel empty">${backBar(name)}
     <div class="ptitle"><small>No profile yet</small><h2>${esc(name)}</h2></div>
+    ${csiSection(name)}
     <section><p>CSI has not built a brief for ${esc(name)}. To create one, open a Claude Code session on the repo and send this prompt:</p></section>
     <div class="prompt"><div id="ptext">${esc(prompt)}</div><button type="button" id="copy">Copy prompt</button></div>
     <p class="note">When it finishes, re-run <code>python3 scripts/build_explorer.py</code> and ${esc(name)} turns red on the map.</p></div>`;
@@ -401,6 +480,13 @@ function renderOverview() {
   const ps = Object.values(PROFILES);
   panel.innerHTML = `<div class="panel"><div class="ptitle"><small>${ps.length} profiles</small><h2>Where CSI has looked</h2></div>
     <section><p>Hover a country to preview its brief here, or search above. Click a country to keep its brief open while you read or download. Click it again, or the ocean, to come back here.</p></section>
+    ${CSI.length ? (() => {
+      const byC = d3.rollups(CSI, v => v.length, r => r.map_country).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+      const n = s => CSI.filter(r => r.status === s).length;
+      return `<section><h3>Cedars-Sinai partnerships worldwide</h3>
+        <p>${CSI.length} partnerships in ${byC.length} countries from public sources: ${n("Active")} active, ${n("Unclear")} unclear, ${n("Ended")} ended in the last five years. Blue pins mark them on the map; click one for details.</p>
+        <div class="countrylist" style="margin-top:10px">${byC.map(([c, k]) => `<button type="button" data-n="${esc(c)}">${esc(c)} ${k}</button>`).join("")}</div></section>`;
+    })() : ""}
     ${ps.map(p => `<div class="partner" style="cursor:pointer" data-n="${esc(p.country)}"><span class="who">${esc(p.country)}</span>
       <span class="st ${p.verified ? "Active" : "Unclear"}">${p.kind === "original" ? "CSI original" : p.verified ? "Verified" : "Earlier format"}</span>
       <span class="sub">${esc(p.date ? fmtDate(p.date) : p.date_note || "")}${p.partners.length ? ` · ${p.partners.length} partnerships tracked` : ""}</span></div>`).join("")}</div>`;
@@ -454,7 +540,10 @@ Object.keys(PROFILES).forEach(n => {
 document.getElementById("reset").onclick = reset;
 document.getElementById("legend").innerHTML = `<span><i style="background:var(--profiled)"></i>Researched profile</span>`
   + (Object.keys(PROFILES).some(isOrig) ? `<span><i style="background:var(--original)"></i>CSI original</span>` : "")
-  + `<span><i style="background:var(--land)"></i>No profile yet</span>`;
+  + `<span><i style="background:var(--land)"></i>No profile yet</span>`
+  + (CSI.length ? `<label><input type="checkbox" id="pintoggle" checked><i class="dot"></i>Cedars-Sinai partnerships</label>` : "");
+const pt = document.getElementById("pintoggle");
+if (pt) pt.onchange = () => pinLayer.classed("off", !pt.checked);
 new ResizeObserver(layout).observe(wrap);
 layout();
 let start = "";
