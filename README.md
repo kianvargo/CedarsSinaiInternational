@@ -65,4 +65,4 @@ drift apart.
 
 ## Country explorer
 
-`python3 scripts/build_explorer.py` writes `explorer/index.html`, an interactive world map: hover or search a country to lift it out of the map and open its profile in the side panel. Countries with a profile in `output/` are shaded red; any other country shows the prompt to build one. Re-run the script after each new profile. The page layout lives in `scripts/explorer_template.html`.
+`python3 scripts/build_explorer.py` writes `explorer/index.html`, an interactive world map: hover or search a country to lift it out of the map and open its profile in the side panel. Countries with a profile in `output/` are shaded red; any other country shows the prompt to build one. Re-run the script after each new profile. The page layout lives in `scripts/explorer_template.html`. Each brief's Word, Excel, map and zip files are offered for download in the side panel. claude.ai only hosts web file types, so the script also writes base64 text copies to `explorer/files/` (not committed) and lists them in `explorer/publish_files.json`. Pass that list as the `files` map when republishing the artifact.

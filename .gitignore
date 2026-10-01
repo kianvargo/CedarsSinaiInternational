@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+explorer/files/
+explorer/publish_files.json

@@ -5,16 +5,30 @@ lifts a country out of the map and opens its profile in a side panel.
 
 Usage: python3 scripts/build_explorer.py
 Reads output/<country>_profile.json (and <country>_summary.json, data/partnerships.json
-when present) and writes explorer/index.html, one self-contained page.
+when present) and writes explorer/index.html. Each country's finished documents are
+copied to explorer/files/ so the page can offer them for download.
 Re-run it after a new profile is built and the new country lights up on the map.
 """
+import base64
 import json
 import re
+import shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "explorer" / "index.html"
 TEMPLATE = ROOT / "scripts" / "explorer_template.html"
+
+FILES = OUT.parent / "files"
+# What each brief offers for download, in panel order. Missing files are skipped.
+DOWNLOADS = [
+    ("Short visual summary", "Word", "output/{c}_Summary_DRAFT.docx"),
+    ("Full country profile", "Word", "output/{c}_Profile_DRAFT.docx"),
+    ("Sources", "Word", "output/{c}_Profile_DRAFT_SOURCES.docx"),
+    ("Partnerships tracker", "Excel", "output/Partnerships_Tracker.xlsx"),
+    ("Partnerships map", "PNG", "output/{c}_partnerships_map.png"),
+    ("Everything, zipped", "ZIP", "deliverables/{c}_Brief_Package.zip"),
+]
 
 CITE = re.compile(r"\{\{[^}]*\}\}")
 
@@ -58,6 +72,20 @@ def partnerships(country):
              "type": r["type"], "status": r["status"], "what": r["description"]} for r in rows]
 
 
+def downloads(country, partners):
+    out = []
+    for label, kind, pattern in DOWNLOADS:
+        src = ROOT / pattern.format(c=country)
+        if not src.exists() or ("Tracker" in src.name and not partners):
+            continue
+        FILES.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(src, FILES / src.name)
+        # claude.ai only serves web file types, so the published page fetches a base64 text copy.
+        (FILES / (src.name + ".b64.txt")).write_bytes(base64.b64encode(src.read_bytes()))
+        out.append({"label": label, "kind": kind, "file": "files/" + src.name, "size": src.stat().st_size})
+    return out
+
+
 def profile(path):
     d = json.loads(path.read_text())
     country = d["country"]
@@ -75,6 +103,7 @@ def profile(path):
         "partners": partnerships(country),
         "verified": "resolution_log" in d and any("{{" in f["value"] for f in demo.get("facts", [])),
     }
+    rec["downloads"] = downloads(country, rec["partners"])
     summ = path.with_name(path.name.replace("_profile", "_summary"))
     if summ.exists():
         s = json.loads(summ.read_text())
@@ -87,6 +116,8 @@ def profile(path):
 
 
 def main():
+    if FILES.exists():
+        shutil.rmtree(FILES)
     profiles = {}
     for p in sorted((ROOT / "output").glob("*_profile.json")):
         rec = profile(p)
@@ -96,6 +127,8 @@ def main():
     html = html.replace("/*__PROFILES__*/null", json.dumps(profiles, ensure_ascii=False, separators=(",", ":")))
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text(html)
+    (OUT.parent / "publish_files.json").write_text(json.dumps(
+        {f"files/{f.name}": str(f.relative_to(ROOT)) for f in sorted(FILES.glob("*.b64.txt"))}, indent=1) + "\n")
     print(f"Wrote {OUT} ({OUT.stat().st_size // 1024} KB) with {len(profiles)} profiles: {', '.join(profiles)}")
 
 
