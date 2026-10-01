@@ -214,11 +214,18 @@ const landLayer = zoomLayer.append("g");
 const liftLayer = zoomLayer.append("g");
 const pinLayer = zoomLayer.append("g").attr("class", "pins");
 
-// Cedars-Sinai's partnerships, one pin per city; a number shows several partners in one city.
-const sites = Array.from(d3.group(CSI, r => r.partner_city + "|" + r.map_country), ([, items]) => ({
-  city: items[0].partner_city, country: items[0].map_country, lat: items[0].lat, lon: items[0].lon, items,
-  state: items.some(r => r.status === "Active") ? "active" : items.some(r => r.status === "Unclear") ? "unclear" : "ended",
-}));
+// Cedars-Sinai's partnerships: one pin per place. Partners within about 100 km share a numbered pin,
+// so clusters such as central Israel stay readable at world scale.
+const sites = [];
+CSI.forEach(r => {
+  const near = sites.find(s => s.country === r.map_country && Math.hypot(s.lat - r.lat, s.lon - r.lon) < 1);
+  if (near) { near.items.push(r); if (!near.cities.includes(r.partner_city)) near.cities.push(r.partner_city); }
+  else sites.push({ country: r.map_country, lat: r.lat, lon: r.lon, cities: [r.partner_city], items: [r] });
+});
+sites.forEach(s => {
+  s.city = s.cities.join(", ");
+  s.state = s.items.some(r => r.status === "Active") ? "active" : s.items.some(r => r.status === "Unclear") ? "unclear" : "ended";
+});
 const pins = pinLayer.selectAll("g").data(sites).join("g")
   .attr("class", d => "pin " + d.state)
   .attr("tabindex", 0).attr("role", "button")
@@ -237,13 +244,13 @@ function sizePins() {
 }
 function pinTip(d) {
   tip.innerHTML = `<b>${esc(d.city)}, ${esc(d.country)}</b>` + d.items.map(r =>
-    `<span class="t2">Cedars-Sinai and ${esc(r.partner)} · ${esc(r.status)}</span>`).join("");
+    `<span class="t2">${esc(r.partner)} · ${esc(r.status)}</span>`).join("") + `<span class="t2">Click for details</span>`;
   tip.hidden = false;
 }
 function openPin(d) {
   select(d.country);
   requestAnimationFrame(() => {
-    const el = panel.querySelector(`.csi[data-city="${CSS.escape(d.city)}"]`);
+    const el = panel.querySelector(`.csi[data-city="${CSS.escape(d.cities[0])}"]`);
     if (el) { el.scrollIntoView({ block: "center", behavior: "smooth" }); el.classList.add("flash"); }
   });
 }
