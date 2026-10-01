@@ -62,3 +62,7 @@ resolution pass). `python3 scripts/tracker.py export` writes
 output/India_partnerships_map.png` draws the city map. The profile's
 competitive landscape and the summary read from this file, so they cannot
 drift apart.
+
+## Country explorer
+
+`python3 scripts/build_explorer.py` writes `explorer/index.html`, an interactive world map: hover or search a country to lift it out of the map and open its profile in the side panel. Countries with a profile in `output/` are shaded red; any other country shows the prompt to build one. Re-run the script after each new profile. The page layout lives in `scripts/explorer_template.html`.

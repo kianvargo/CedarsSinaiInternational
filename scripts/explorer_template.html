@@ -1,0 +1,389 @@
+<title>CSI Country Explorer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&family=Instrument+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: a full-height atlas, map on the left, profile panel on the right; panel becomes a bottom sheet on phones */
+:root {
+  --bg: #f6f6f4;
+  --ocean: #e9edf0;
+  --land: #d5d9dd;
+  --land-edge: #f6f6f4;
+  --profiled: #e8a3a8;
+  --accent: #c8202e;
+  --ink: #1d2227;
+  --muted: #5d6670;
+  --panel: #ffffff;
+  --line: #e2e4e7;
+  --chip-active: #1f7a4d;
+  --chip-unclear: #9a6b00;
+  --chip-ended: #6b7280;
+  --shadow: rgba(30, 20, 20, .35);
+  --display: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --body: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #14171a; --ocean: #181c20; --land: #343b42; --land-edge: #181c20; --profiled: #8f3a42;
+    --accent: #ff5a66; --ink: #eceef0; --muted: #9aa3ad; --panel: #1c2024; --line: #2c3238;
+    --chip-active: #4fcf8e; --chip-unclear: #e3b341; --chip-ended: #9aa3ad; --shadow: rgba(0, 0, 0, .7);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #14171a; --ocean: #181c20; --land: #343b42; --land-edge: #181c20; --profiled: #8f3a42;
+  --accent: #ff5a66; --ink: #eceef0; --muted: #9aa3ad; --panel: #1c2024; --line: #2c3238;
+  --chip-active: #4fcf8e; --chip-unclear: #e3b341; --chip-ended: #9aa3ad; --shadow: rgba(0, 0, 0, .7);
+  color-scheme: dark;
+}
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.5; }
+.app { height: 100%; display: grid; grid-template-columns: minmax(0, 1fr) 420px; grid-template-rows: auto minmax(0, 1fr); }
+header { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; padding: 14px 20px; border-bottom: 1px solid var(--line); background: var(--panel); }
+.brand { display: flex; flex-direction: column; min-width: 0; }
+.brand small { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+.brand h1 { margin: 0; font-family: var(--display); font-weight: 600; font-size: 22px; line-height: 1.15; }
+.search { position: relative; flex: 1 1 260px; max-width: 420px; margin-left: auto; }
+.search input { width: 100%; box-sizing: border-box; font: inherit; padding: 9px 12px 9px 34px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--ink); }
+.search input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.search svg { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); width: 15px; height: 15px; fill: none; stroke: var(--muted); stroke-width: 2; }
+.results { position: absolute; z-index: 20; top: calc(100% + 4px); left: 0; right: 0; margin: 0; padding: 4px; list-style: none; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; box-shadow: 0 10px 30px var(--shadow); max-height: 320px; overflow: auto; }
+.results li { display: flex; justify-content: space-between; gap: 8px; padding: 7px 10px; border-radius: 6px; cursor: pointer; }
+.results li[aria-selected="true"], .results li:hover { background: var(--ocean); }
+.results .tag { font-size: 12px; color: var(--accent); font-weight: 600; white-space: nowrap; }
+.quick { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; font-size: 13px; color: var(--muted); }
+.quick button { font: inherit; font-weight: 500; color: var(--ink); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 3px 10px; cursor: pointer; }
+.quick button:hover, .quick button[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
+.quick button:focus-visible, .reset:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.mapwrap { position: relative; min-width: 0; min-height: 0; background: var(--ocean); overflow: hidden; }
+svg.map { width: 100%; height: 100%; display: block; cursor: grab; touch-action: none; }
+svg.map:active { cursor: grabbing; }
+.land { fill: var(--land); stroke: var(--land-edge); stroke-width: .6; vector-effect: non-scaling-stroke; transition: fill .25s, opacity .3s; }
+.land.has { fill: var(--profiled); cursor: pointer; }
+.land.dim { opacity: .55; }
+.lift { pointer-events: none; transform-box: fill-box; transform-origin: center; stroke: var(--panel); stroke-width: 1.4; vector-effect: non-scaling-stroke;
+  transform: translateY(0) scale(1); filter: drop-shadow(0 0 0 transparent);
+  transition: transform .42s cubic-bezier(.2, 1.4, .4, 1), filter .42s ease; }
+.lift.up { transform: translateY(calc(var(--rise) * -1px)) scale(var(--s)); filter: drop-shadow(0 calc(var(--rise) * 1px) calc(var(--rise) * 1px) var(--shadow)); }
+.lift.hover { fill: var(--land); }
+.lift.hover.has { fill: var(--accent); opacity: .9; }
+.lift.sel { fill: var(--accent); }
+.lift.sel.none { fill: var(--muted); }
+.tip { position: absolute; z-index: 5; pointer-events: none; background: var(--panel); color: var(--ink); border: 1px solid var(--line); border-radius: 6px; padding: 5px 9px; font-size: 13px; box-shadow: 0 6px 18px var(--shadow); white-space: nowrap; }
+.tip b { font-weight: 600; }
+.tip span { color: var(--muted); margin-left: 6px; }
+.tip span.ok { color: var(--accent); }
+.legend { position: absolute; left: 16px; bottom: 16px; display: flex; gap: 14px; font-size: 12px; color: var(--muted); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; }
+.legend i { display: inline-block; width: 11px; height: 11px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.reset { position: absolute; right: 16px; bottom: 16px; font: inherit; font-size: 13px; padding: 6px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
+
+aside { min-width: 0; min-height: 0; overflow-y: auto; background: var(--panel); border-left: 1px solid var(--line); }
+.panel { padding: 22px 24px 40px; display: flex; flex-direction: column; gap: 22px; animation: slide .4s ease; }
+@keyframes slide { from { transform: translateX(14px); opacity: .4; } to { transform: none; opacity: 1; } }
+.ptitle small { display: block; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.ptitle h2 { margin: 2px 0 8px; font-family: var(--display); font-size: 34px; font-weight: 600; line-height: 1.1; text-wrap: balance; }
+.badges { display: flex; flex-wrap: wrap; gap: 6px; }
+.badge { font-size: 12px; font-weight: 500; padding: 2px 9px; border-radius: 999px; border: 1px solid currentColor; }
+.badge.good { color: var(--chip-active); }
+.badge.warn { color: var(--chip-unclear); }
+.badge.plain { color: var(--muted); }
+section h3 { margin: 0 0 10px; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+section p { margin: 0; max-width: 65ch; }
+.tiles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.tile { background: var(--panel); padding: 10px 12px; min-width: 0; }
+.tile b { display: block; font-family: var(--display); font-size: 22px; font-weight: 600; font-variant-numeric: tabular-nums; line-height: 1.2; }
+.tile span { font-size: 12px; color: var(--muted); line-height: 1.35; display: block; }
+ul.points { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 6px; }
+dl.facts { margin: 0; display: grid; grid-template-columns: minmax(0, 9em) minmax(0, 1fr); gap: 6px 14px; font-size: 14px; }
+dl.facts dt { color: var(--muted); }
+dl.facts dd { margin: 0; }
+.bar { display: flex; height: 10px; border-radius: 999px; overflow: hidden; background: var(--line); margin-bottom: 8px; }
+.bar i { display: block; height: 100%; }
+.barkey { display: flex; gap: 14px; font-size: 13px; color: var(--muted); margin-bottom: 12px; font-variant-numeric: tabular-nums; flex-wrap: wrap; }
+.barkey i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 5px; }
+.partner { padding: 9px 0; border-top: 1px solid var(--line); display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 10px; font-size: 14px; }
+.partner .who { font-weight: 600; }
+.partner .sub { grid-column: 1 / -1; color: var(--muted); font-size: 13px; }
+.st { font-size: 12px; font-weight: 600; }
+.st.Active { color: var(--chip-active); }
+.st.Unclear { color: var(--chip-unclear); }
+.st.Ended { color: var(--chip-ended); }
+.more { font: inherit; font-size: 13px; color: var(--accent); background: none; border: 0; padding: 6px 0 0; cursor: pointer; }
+.recent { display: flex; flex-direction: column; gap: 8px; font-size: 14px; }
+.recent time { display: block; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.note { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 14px; }
+.empty p { color: var(--muted); }
+.prompt { position: relative; background: var(--ocean); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; font-size: 13px; line-height: 1.5; }
+.prompt button { margin-top: 8px; font: inherit; font-size: 13px; font-weight: 500; padding: 4px 10px; border-radius: 6px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
+
+@media (max-width: 820px) {
+  .app { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(260px, 46%) minmax(0, 1fr); }
+  aside { border-left: 0; border-top: 1px solid var(--line); }
+  header { padding: 12px 16px; }
+  .search { max-width: none; margin-left: 0; }
+  .panel { padding: 18px 16px 32px; }
+  .legend { display: none; }
+  .ptitle h2 { font-size: 28px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .lift, .panel, .land { transition: none; animation: none; }
+}
+</style>
+
+<div class="app">
+  <header>
+    <div class="brand"><small>Cedars-Sinai International</small><h1>Country Explorer</h1></div>
+    <div class="quick" id="quick"><span>Profiles:</span></div>
+    <div class="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-4-4"></path></svg>
+      <input id="q" type="search" placeholder="Search a country" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="results" aria-label="Search a country">
+      <ul class="results" id="results" role="listbox" hidden></ul>
+    </div>
+  </header>
+  <div class="mapwrap" id="mapwrap">
+    <svg class="map" id="map" role="img" aria-label="World map. Countries with a CSI profile are shaded red."></svg>
+    <div class="tip" id="tip" hidden></div>
+    <div class="legend"><span><i style="background:var(--profiled)"></i>Profile ready</span><span><i style="background:var(--land)"></i>No profile yet</span></div>
+    <button class="reset" id="reset" type="button">World view</button>
+  </div>
+  <aside id="panel" aria-live="polite"></aside>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const GEO = /*__GEO__*/null;
+const PROFILES = /*__PROFILES__*/null;
+
+const svg = d3.select("#map");
+const wrap = document.getElementById("mapwrap");
+const tip = document.getElementById("tip");
+const panel = document.getElementById("panel");
+const names = GEO.features.map(f => f.properties.name).sort();
+const byName = new Map(GEO.features.map(f => [f.properties.name, f]));
+const has = n => Object.prototype.hasOwnProperty.call(PROFILES, n);
+
+let W = 0, H = 0, selected = null, hovered = null, transform = d3.zoomIdentity;
+const projection = d3.geoNaturalEarth1();
+const path = d3.geoPath(projection);
+const zoomLayer = svg.append("g");
+const landLayer = zoomLayer.append("g");
+const liftLayer = zoomLayer.append("g");
+
+const land = landLayer.selectAll("path").data(GEO.features).join("path")
+  .attr("class", d => "land" + (has(d.properties.name) ? " has" : ""))
+  .on("pointerenter", (e, d) => hover(d))
+  .on("pointermove", e => moveTip(e))
+  .on("pointerleave", () => unhover())
+  .on("click", (e, d) => select(d.properties.name));
+
+const zoom = d3.zoom().scaleExtent([1, 12]).on("zoom", e => {
+  transform = e.transform;
+  zoomLayer.attr("transform", transform);
+});
+svg.call(zoom).on("dblclick.zoom", null);
+
+function layout() {
+  const r = wrap.getBoundingClientRect();
+  W = r.width; H = r.height;
+  svg.attr("viewBox", `0 0 ${W} ${H}`);
+  projection.fitExtent([[12, 12], [W - 12, H - 12]], GEO);
+  land.attr("d", path);
+  liftLayer.selectAll("path").attr("d", d => path(d));
+  zoom.translateExtent([[0, 0], [W, H]]).extent([[0, 0], [W, H]]);
+  if (selected) focus(selected, false);
+}
+
+// How far a country pops: small countries grow more so they stay readable, big ones barely move.
+function popFor(f) {
+  const [[x0, y0], [x1, y1]] = path.bounds(f);
+  const size = Math.max(x1 - x0, y1 - y0) * transform.k;
+  return { s: Math.min(1.9, Math.max(1.05, 1 + 26 / Math.max(size, 1))), rise: Math.max(3, Math.min(9, 60 / Math.sqrt(size + 1))) };
+}
+
+function raise(f, cls) {
+  const p = liftLayer.append("path").datum(f).attr("d", path(f))
+    .attr("class", `lift ${cls}` + (has(f.properties.name) ? " has" : " none"));
+  const { s, rise } = popFor(f);
+  p.style("--s", s).style("--rise", rise / transform.k);
+  requestAnimationFrame(() => requestAnimationFrame(() => p.classed("up", true)));
+  return p;
+}
+
+function drop(sel) {
+  sel.classed("up", false);
+  sel.transition().delay(380).remove();
+}
+
+function hover(f) {
+  const n = f.properties.name;
+  if (hovered === n) return;
+  unhover(true);
+  hovered = n;
+  if (n !== selected) raise(f, "hover");
+  liftLayer.select(".sel").raise();
+  tip.innerHTML = `<b>${n}</b><span class="${has(n) ? "ok" : ""}">${has(n) ? "Profile ready" : "No profile yet"}</span>`;
+  tip.hidden = false;
+}
+function unhover(keepTip) {
+  drop(liftLayer.selectAll(".lift.hover"));
+  hovered = null;
+  if (!keepTip) tip.hidden = true;
+}
+function moveTip(e) {
+  const r = wrap.getBoundingClientRect();
+  let x = e.clientX - r.left + 14, y = e.clientY - r.top + 14;
+  if (x + tip.offsetWidth > W - 8) x = e.clientX - r.left - tip.offsetWidth - 14;
+  if (y + tip.offsetHeight > H - 8) y = e.clientY - r.top - tip.offsetHeight - 14;
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+
+function focus(name, animate = true) {
+  const f = byName.get(name);
+  const [[x0, y0], [x1, y1]] = path.bounds(f);
+  const k = Math.min(8, 0.55 / Math.max((x1 - x0) / W, (y1 - y0) / H));
+  const t = d3.zoomIdentity.translate(W / 2, H / 2).scale(Math.max(1, k)).translate(-(x0 + x1) / 2, -(y0 + y1) / 2);
+  (animate ? svg.transition().duration(900).ease(d3.easeCubicInOut) : svg).call(zoom.transform, t);
+}
+
+function select(name, push = true) {
+  if (!byName.has(name)) return;
+  selected = name;
+  drop(liftLayer.selectAll(".lift"));
+  land.classed("dim", d => d.properties.name !== name);
+  focus(name);
+  setTimeout(() => { if (selected === name) raise(byName.get(name), "sel"); }, 450);
+  document.querySelectorAll("#quick button").forEach(b => b.setAttribute("aria-pressed", b.dataset.n === name));
+  render(name);
+  if (push) try { history.replaceState(null, "", "#" + name.replace(/ /g, "_")); } catch (e) {}
+}
+
+function reset() {
+  selected = null;
+  drop(liftLayer.selectAll(".lift"));
+  land.classed("dim", false);
+  svg.transition().duration(800).call(zoom.transform, d3.zoomIdentity);
+  document.querySelectorAll("#quick button").forEach(b => b.setAttribute("aria-pressed", "false"));
+  renderOverview();
+}
+
+// ---------- panel ----------
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const list = xs => `<ul class="points">${xs.map(x => `<li>${esc(x)}</li>`).join("")}</ul>`;
+const fmtDate = d => { if (!d) return ""; const [y, m] = d.split("-"); return m ? new Date(+y, +m - 1).toLocaleString("en-US", { month: "short", year: "numeric" }) : y; };
+
+function render(name) {
+  if (!has(name)) return renderEmpty(name);
+  const p = PROFILES[name];
+  const counts = { Active: 0, Unclear: 0, Ended: 0 };
+  p.partners.forEach(x => counts[x.status] = (counts[x.status] || 0) + 1);
+  const total = p.partners.length;
+  const colors = { Active: "var(--chip-active)", Unclear: "var(--chip-unclear)", Ended: "var(--chip-ended)" };
+  let h = `<div class="panel">
+    <div class="ptitle"><small>Country profile · ${esc(fmtDate(p.date))}</small><h2>${esc(name)}</h2>
+      <div class="badges">${p.verified
+        ? `<span class="badge good">Three-verifier fact check</span><span class="badge plain">Numbered sources</span>`
+        : `<span class="badge warn">Earlier format, lighter verification</span>`}</div></div>`;
+  if (p.background) h += `<section><h3>Background</h3><p>${esc(p.background)}</p></section>`;
+  if (p.tiles) h += `<section><h3>At a glance</h3><div class="tiles">${p.tiles.map(t => `<div class="tile"><b>${esc(t.value)}</b><span>${esc(t.label)}</span></div>`).join("")}</div></section>`;
+  else if (p.facts.length) h += `<section><h3>Key facts</h3><dl class="facts">${p.facts.slice(0, 8).map(f => `<dt>${esc(f.label)}</dt><dd>${esc(f.value)}</dd>`).join("")}</dl></section>`;
+  if (p.takeaways) h += `<section><h3>Key takeaways</h3>${list(p.takeaways)}</section>`;
+  if (total) {
+    h += `<section><h3>Foreign health-system partnerships</h3>
+      <div class="bar">${["Active", "Unclear", "Ended"].map(s => `<i style="width:${counts[s] / total * 100}%;background:${colors[s]}"></i>`).join("")}</div>
+      <div class="barkey">${["Active", "Unclear", "Ended"].map(s => `<span><i style="background:${colors[s]}"></i>${counts[s]} ${s.toLowerCase()}</span>`).join("")}<span>${total} total</span></div>
+      <div id="plist"></div></section>`;
+  }
+  if (p.opportunities) h += `<section><h3>Opportunities</h3>${list(p.opportunities)}</section>`;
+  if (p.risks) h += `<section><h3>Risks</h3>${list(p.risks)}</section>`;
+  if (p.recent.length) h += `<section><h3>Recent developments</h3><div class="recent">${p.recent.map(r => `<div><time>${esc(fmtDate(r.date))}</time>${esc(r.text)}</div>`).join("")}</div></section>`;
+  h += `<p class="note">Preview of the full brief. Every figure is cited in the full profile and its sources document (deliverables/${esc(name)} in the repo). The CSI assessment section is filled in by hand there.</p></div>`;
+  panel.innerHTML = h;
+  panel.scrollTop = 0;
+  if (total) partnerList(p.partners, 6);
+}
+
+function partnerList(rows, n) {
+  const el = document.getElementById("plist");
+  el.innerHTML = rows.slice(0, n).map(r => `<div class="partner"><span class="who">${esc(r.who)}</span><span class="st ${esc(r.status)}">${esc(r.status)}</span>
+    <span class="sub">${esc(r.partner)} · ${esc(r.type)}</span></div>`).join("")
+    + (rows.length > n ? `<button class="more" type="button">Show all ${rows.length}</button>` : "");
+  const b = el.querySelector(".more");
+  if (b) b.onclick = () => partnerList(rows, rows.length);
+}
+
+function renderEmpty(name) {
+  const prompt = `Using the country-profile skill, build the full brief package for ${name}: the verified country profile, the partnerships tracker run, the partnerships map, a landmark cover photo and the short visual summary, then package it into deliverables/${name}.`;
+  panel.innerHTML = `<div class="panel empty">
+    <div class="ptitle"><small>No profile yet</small><h2>${esc(name)}</h2></div>
+    <section><p>CSI has not built a brief for ${esc(name)}. To create one, open a Claude Code session on the repo and send this prompt:</p></section>
+    <div class="prompt"><div id="ptext">${esc(prompt)}</div><button type="button" id="copy">Copy prompt</button></div>
+    <p class="note">When it finishes, re-run <code>python3 scripts/build_explorer.py</code> and ${esc(name)} turns red on the map.</p></div>`;
+  document.getElementById("copy").onclick = e => {
+    navigator.clipboard.writeText(prompt).then(() => e.target.textContent = "Copied", () => {
+      const r = document.createRange(); r.selectNodeContents(document.getElementById("ptext"));
+      const s = getSelection(); s.removeAllRanges(); s.addRange(r); e.target.textContent = "Press Ctrl+C to copy";
+    });
+  };
+}
+
+function renderOverview() {
+  const ps = Object.values(PROFILES);
+  panel.innerHTML = `<div class="panel"><div class="ptitle"><small>${ps.length} profiles</small><h2>Where CSI has looked</h2></div>
+    <section><p>Hover a country to lift it from the map, or search above. Click a red country to open its brief here.</p></section>
+    ${ps.map(p => `<div class="partner" style="cursor:pointer" data-n="${esc(p.country)}"><span class="who">${esc(p.country)}</span>
+      <span class="st ${p.verified ? "Active" : "Unclear"}">${p.verified ? "Verified" : "Earlier format"}</span>
+      <span class="sub">${esc(fmtDate(p.date))}${p.partners.length ? ` · ${p.partners.length} partnerships tracked` : ""}</span></div>`).join("")}</div>`;
+  panel.querySelectorAll("[data-n]").forEach(el => el.onclick = () => select(el.dataset.n));
+}
+
+// ---------- search ----------
+const q = document.getElementById("q"), results = document.getElementById("results");
+let matches = [], active = 0;
+function showResults() {
+  const t = q.value.trim().toLowerCase();
+  if (!t) { results.hidden = true; q.setAttribute("aria-expanded", "false"); return; }
+  matches = names.filter(n => n.toLowerCase().includes(t))
+    .sort((a, b) => (has(b) - has(a)) || (b.toLowerCase().startsWith(t) - a.toLowerCase().startsWith(t)) || a.localeCompare(b)).slice(0, 8);
+  active = 0;
+  results.innerHTML = matches.length
+    ? matches.map((n, i) => `<li role="option" id="opt${i}" aria-selected="${i === 0}" data-n="${esc(n)}"><span>${esc(n)}</span>${has(n) ? '<span class="tag">Profile ready</span>' : ""}</li>`).join("")
+    : `<li aria-disabled="true"><span>No country matches "${esc(q.value)}"</span></li>`;
+  results.hidden = false; q.setAttribute("aria-expanded", "true");
+  results.querySelectorAll("[data-n]").forEach(li => {
+    li.onmouseenter = () => preview(li.dataset.n);
+    li.onmousedown = e => { e.preventDefault(); choose(li.dataset.n); };
+  });
+  if (matches[0]) preview(matches[0]);
+}
+function preview(n) { const f = byName.get(n); if (f && n !== selected) hover(f); tip.hidden = true; }
+function choose(n) { q.value = ""; results.hidden = true; q.setAttribute("aria-expanded", "false"); unhover(); select(n); q.blur(); }
+q.addEventListener("input", showResults);
+q.addEventListener("keydown", e => {
+  if (results.hidden || !matches.length) return;
+  if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+    e.preventDefault();
+    active = (active + (e.key === "ArrowDown" ? 1 : matches.length - 1)) % matches.length;
+    results.querySelectorAll("li").forEach((li, i) => li.setAttribute("aria-selected", i === active));
+    q.setAttribute("aria-activedescendant", "opt" + active);
+    preview(matches[active]);
+  } else if (e.key === "Enter") { e.preventDefault(); choose(matches[active]); }
+  else if (e.key === "Escape") { results.hidden = true; unhover(); }
+});
+q.addEventListener("blur", () => setTimeout(() => { results.hidden = true; }, 120));
+
+// ---------- start ----------
+const quick = document.getElementById("quick");
+Object.keys(PROFILES).forEach(n => {
+  const b = document.createElement("button");
+  b.type = "button"; b.textContent = n; b.dataset.n = n; b.setAttribute("aria-pressed", "false");
+  b.onclick = () => select(n);
+  quick.appendChild(b);
+});
+document.getElementById("reset").onclick = reset;
+new ResizeObserver(layout).observe(wrap);
+layout();
+let start = "";
+try { start = decodeURIComponent(location.hash.slice(1)).replace(/_/g, " "); } catch (e) {}
+const first = byName.has(start) ? start : (has("India") ? "India" : Object.keys(PROFILES)[0]);
+if (first) select(first, false); else renderOverview();
+</script>
