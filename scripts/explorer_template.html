@@ -77,8 +77,11 @@ svg.map:active { cursor: grabbing; }
 .reset { position: absolute; right: 16px; bottom: 16px; font: inherit; font-size: 13px; padding: 6px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
 
 aside { min-width: 0; min-height: 0; overflow-y: auto; background: var(--panel); border-left: 1px solid var(--line); }
-.panel { padding: 22px 24px 40px; display: flex; flex-direction: column; gap: 22px; animation: slide .4s ease; }
-@keyframes slide { from { transform: translateX(14px); opacity: .4; } to { transform: none; opacity: 1; } }
+.panel { padding: 22px 24px 40px; display: flex; flex-direction: column; gap: 22px; animation: slide .22s ease; }
+.back { align-self: flex-start; font: inherit; font-size: 13px; font-weight: 500; color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; }
+.back:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.hint { margin: 0; font-size: 12.5px; color: var(--muted); }
+@keyframes slide { from { transform: translateX(8px); opacity: .5; } to { transform: none; opacity: 1; } }
 .ptitle small { display: block; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
 .ptitle h2 { margin: 2px 0 8px; font-family: var(--display); font-size: 34px; font-weight: 600; line-height: 1.1; text-wrap: balance; }
 .badges { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -169,7 +172,7 @@ const names = GEO.features.map(f => f.properties.name).sort();
 const byName = new Map(GEO.features.map(f => [f.properties.name, f]));
 const has = n => Object.prototype.hasOwnProperty.call(PROFILES, n);
 
-let W = 0, H = 0, selected = null, hovered = null, transform = d3.zoomIdentity;
+let W = 0, H = 0, selected = null, hovered = null, shown, previewTimer, transform = d3.zoomIdentity;
 const projection = d3.geoNaturalEarth1();
 const path = d3.geoPath(projection);
 const zoomLayer = svg.append("g");
@@ -181,7 +184,7 @@ const land = landLayer.selectAll("path").data(GEO.features).join("path")
   .on("pointerenter", (e, d) => hover(d))
   .on("pointermove", e => moveTip(e))
   .on("pointerleave", () => unhover())
-  .on("click", (e, d) => select(d.properties.name));
+  .on("click", (e, d) => d.properties.name === selected ? clearSelection() : select(d.properties.name));
 
 const zoom = d3.zoom().scaleExtent([1, 12]).on("zoom", e => {
   transform = e.transform;
@@ -229,6 +232,7 @@ function hover(f) {
   unhover(true);
   hovered = n;
   raise(f);
+  if (!selected) schedule(n, 120);
   tip.innerHTML = `<b>${n}</b><span class="${has(n) ? "ok" : ""}">${has(n) ? "Profile ready" : "No profile yet"}</span>`;
   tip.hidden = false;
 }
@@ -236,6 +240,20 @@ function unhover(keepTip) {
   drop(liftLayer.selectAll(".lift:not(.leaving)"));
   hovered = null;
   if (!keepTip) tip.hidden = true;
+  if (!selected) schedule(null, 250);
+}
+
+// The panel follows the pointer until a country is clicked; with nothing hovered or clicked it shows the overview.
+// The short delays stop it flickering while the pointer sweeps across borders.
+function schedule(name, ms) {
+  clearTimeout(previewTimer);
+  previewTimer = setTimeout(() => show(name), ms);
+}
+function show(name) {
+  clearTimeout(previewTimer);
+  if (shown === name) return;
+  shown = name;
+  name ? render(name) : renderOverview();
 }
 function moveTip(e) {
   const r = wrap.getBoundingClientRect();
@@ -251,8 +269,17 @@ function select(name, push = true) {
   selected = name;
   land.classed("sel", d => d.properties.name === name);
   document.querySelectorAll("#quick button").forEach(b => b.setAttribute("aria-pressed", b.dataset.n === name));
-  render(name);
+  shown = undefined;
+  show(name);
   if (push) try { history.replaceState(null, "", "#" + name.replace(/ /g, "_")); } catch (e) {}
+}
+
+function clearSelection() {
+  selected = null;
+  land.classed("sel", false);
+  document.querySelectorAll("#quick button").forEach(b => b.setAttribute("aria-pressed", "false"));
+  show(hovered);
+  try { history.replaceState(null, "", location.pathname + location.search); } catch (e) {}
 }
 
 function reset() {
@@ -271,7 +298,7 @@ function render(name) {
   p.partners.forEach(x => counts[x.status] = (counts[x.status] || 0) + 1);
   const total = p.partners.length;
   const colors = { Active: "var(--chip-active)", Unclear: "var(--chip-unclear)", Ended: "var(--chip-ended)" };
-  let h = `<div class="panel">
+  let h = `<div class="panel">${backBar(name)}
     <div class="ptitle"><small>Country profile · ${esc(fmtDate(p.date))}</small><h2>${esc(name)}</h2>
       <div class="badges">${p.verified
         ? `<span class="badge good">Three-verifier fact check</span><span class="badge plain">Numbered sources</span>`
@@ -337,9 +364,15 @@ function partnerList(rows, n) {
   if (b) b.onclick = () => partnerList(rows, rows.length);
 }
 
+function backBar(name) {
+  return name === selected
+    ? `<button class="back" type="button">← All profiles</button>`
+    : `<p class="hint">Previewing. Click ${esc(name)} on the map to keep this open.</p>`;
+}
+
 function renderEmpty(name) {
   const prompt = `Using the country-profile skill, build the full brief package for ${name}: the verified country profile, the partnerships tracker run, the partnerships map, a landmark cover photo and the short visual summary, then package it into deliverables/${name}.`;
-  panel.innerHTML = `<div class="panel empty">
+  panel.innerHTML = `<div class="panel empty">${backBar(name)}
     <div class="ptitle"><small>No profile yet</small><h2>${esc(name)}</h2></div>
     <section><p>CSI has not built a brief for ${esc(name)}. To create one, open a Claude Code session on the repo and send this prompt:</p></section>
     <div class="prompt"><div id="ptext">${esc(prompt)}</div><button type="button" id="copy">Copy prompt</button></div>
@@ -355,11 +388,12 @@ function renderEmpty(name) {
 function renderOverview() {
   const ps = Object.values(PROFILES);
   panel.innerHTML = `<div class="panel"><div class="ptitle"><small>${ps.length} profiles</small><h2>Where CSI has looked</h2></div>
-    <section><p>Hover a country to lift it from the map, or search above. Click a red country to open its brief here.</p></section>
+    <section><p>Hover a country to preview its brief here, or search above. Click a country to keep its brief open while you read or download. Click it again, or the ocean, to come back here.</p></section>
     ${ps.map(p => `<div class="partner" style="cursor:pointer" data-n="${esc(p.country)}"><span class="who">${esc(p.country)}</span>
       <span class="st ${p.verified ? "Active" : "Unclear"}">${p.verified ? "Verified" : "Earlier format"}</span>
       <span class="sub">${esc(fmtDate(p.date))}${p.partners.length ? ` · ${p.partners.length} partnerships tracked` : ""}</span></div>`).join("")}</div>`;
   panel.querySelectorAll("[data-n]").forEach(el => el.onclick = () => select(el.dataset.n));
+  panel.scrollTop = 0;
 }
 
 // ---------- search ----------
@@ -410,6 +444,8 @@ new ResizeObserver(layout).observe(wrap);
 layout();
 let start = "";
 try { start = decodeURIComponent(location.hash.slice(1)).replace(/_/g, " "); } catch (e) {}
-const first = byName.has(start) ? start : (has("India") ? "India" : Object.keys(PROFILES)[0]);
-if (first) select(first, false); else renderOverview();
+if (byName.has(start)) select(start, false); else show(null);
+svg.on("click", e => { if (e.target === svg.node() && selected) clearSelection(); });
+panel.addEventListener("click", e => { if (e.target.closest(".back")) clearSelection(); });
+document.addEventListener("keydown", e => { if (e.key === "Escape" && selected && document.activeElement !== q) clearSelection(); });
 </script>
