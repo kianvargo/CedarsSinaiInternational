@@ -66,3 +66,5 @@ drift apart.
 ## Country explorer
 
 `python3 scripts/build_explorer.py` writes `explorer/index.html`, an interactive world map: hover or search a country to lift it out of the map and open its profile in the side panel. Countries with a profile in `output/` are shaded red; any other country shows the prompt to build one. Re-run the script after each new profile. The page layout lives in `scripts/explorer_template.html`. Each brief's Word, Excel, map and zip files are offered for download in the side panel. claude.ai only hosts web file types, so the script also writes base64 text copies to `explorer/files/` (not committed) and lists them in `explorer/publish_files.json`. Pass that list as the `files` map when republishing the artifact.
+
+CSI's own earlier profiles (with patient and revenue figures) go in `private/csi_profiles/` with an `archive.json` index. That folder is ignored by git because this repository is public. When it exists, the script also writes `explorer/index_full.html` (also ignored), which adds those countries to the map in a separate color with their original files; publish that file, not `index.html`, to the private artifact.

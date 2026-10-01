@@ -7,6 +7,11 @@ Usage: python3 scripts/build_explorer.py
 Reads output/<country>_profile.json (and <country>_summary.json, data/partnerships.json
 when present) and writes explorer/index.html. Each country's finished documents are
 copied to explorer/files/ so the page can offer them for download.
+
+CSI's own earlier profiles live in private/csi_profiles/ (ignored by git, because they
+hold patient and revenue figures and the repository is public). When that folder exists,
+the script also writes explorer/index_full.html, which adds them to the map; publish that
+file as the private artifact. explorer/index.html, the committed copy, never includes them.
 Re-run it after a new profile is built and the new country lights up on the map.
 """
 import base64
@@ -17,6 +22,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "explorer" / "index.html"
+OUT_FULL = ROOT / "explorer" / "index_full.html"
+PRIVATE = ROOT / "private" / "csi_profiles"
 TEMPLATE = ROOT / "scripts" / "explorer_template.html"
 
 FILES = OUT.parent / "files"
@@ -72,17 +79,21 @@ def partnerships(country):
              "type": r["type"], "status": r["status"], "what": r["description"]} for r in rows]
 
 
+def add_file(src, label, kind):
+    FILES.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(src, FILES / src.name)
+    # claude.ai only serves web file types, so the published page fetches a base64 text copy.
+    (FILES / (src.name + ".b64.txt")).write_bytes(base64.b64encode(src.read_bytes()))
+    return {"label": label, "kind": kind, "file": "files/" + src.name, "size": src.stat().st_size}
+
+
 def downloads(country, partners):
     out = []
     for label, kind, pattern in DOWNLOADS:
         src = ROOT / pattern.format(c=country)
         if not src.exists() or ("Tracker" in src.name and not partners):
             continue
-        FILES.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(src, FILES / src.name)
-        # claude.ai only serves web file types, so the published page fetches a base64 text copy.
-        (FILES / (src.name + ".b64.txt")).write_bytes(base64.b64encode(src.read_bytes()))
-        out.append({"label": label, "kind": kind, "file": "files/" + src.name, "size": src.stat().st_size})
+        out.append(add_file(src, label, kind))
     return out
 
 
@@ -101,6 +112,7 @@ def profile(path):
         "recent": [{"date": x.get("date", ""), "text": strip(x.get("headline") or first_sentences(x.get("summary", ""), 1))}
                    for x in r.get("recent_developments", [])][:5],
         "partners": partnerships(country),
+        "kind": "pipeline",
         "verified": "resolution_log" in d and any("{{" in f["value"] for f in demo.get("facts", [])),
     }
     rec["downloads"] = downloads(country, rec["partners"])
@@ -115,6 +127,29 @@ def profile(path):
     return rec
 
 
+def originals():
+    """CSI's own earlier profiles: shown as they are, with the original file to download."""
+    index = PRIVATE / "archive.json"
+    if not index.exists():
+        return {}
+    recs = {}
+    for r in json.loads(index.read_text()):
+        src = PRIVATE / r["file"]
+        kind = "PDF" if src.suffix == ".pdf" else "Word"
+        recs[r["country"]] = {**r, "kind": "original", "verified": False, "recent": [], "partners": [],
+                              "downloads": [add_file(src, "Original CSI profile", kind)]}
+    return recs
+
+
+def write(path, geo, profiles):
+    html = TEMPLATE.read_text()
+    html = html.replace("/*__GEO__*/null", geo)
+    html = html.replace("/*__PROFILES__*/null", json.dumps(profiles, ensure_ascii=False, separators=(",", ":")))
+    path.parent.mkdir(exist_ok=True)
+    path.write_text(html)
+    print(f"Wrote {path.relative_to(ROOT)} ({path.stat().st_size // 1024} KB) with {len(profiles)} profiles: {', '.join(sorted(profiles))}")
+
+
 def main():
     if FILES.exists():
         shutil.rmtree(FILES)
@@ -122,14 +157,13 @@ def main():
     for p in sorted((ROOT / "output").glob("*_profile.json")):
         rec = profile(p)
         profiles[rec["country"]] = rec
-    html = TEMPLATE.read_text()
-    html = html.replace("/*__GEO__*/null", json.dumps(geometry(), separators=(",", ":")))
-    html = html.replace("/*__PROFILES__*/null", json.dumps(profiles, ensure_ascii=False, separators=(",", ":")))
-    OUT.parent.mkdir(exist_ok=True)
-    OUT.write_text(html)
+    geo = json.dumps(geometry(), separators=(",", ":"))
+    write(OUT, geo, profiles)
+    extra = {c: r for c, r in originals().items() if c not in profiles}
+    if extra:
+        write(OUT_FULL, geo, {**profiles, **extra})
     (OUT.parent / "publish_files.json").write_text(json.dumps(
         {f"files/{f.name}": str(f.relative_to(ROOT)) for f in sorted(FILES.glob("*.b64.txt"))}, indent=1) + "\n")
-    print(f"Wrote {OUT} ({OUT.stat().st_size // 1024} KB) with {len(profiles)} profiles: {', '.join(profiles)}")
 
 
 if __name__ == "__main__":

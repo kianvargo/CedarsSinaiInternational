@@ -9,6 +9,8 @@
   --land: #d5d9dd;
   --land-edge: #f6f6f4;
   --profiled: #e8a3a8;
+  --original: #e9c88c;
+  --original-strong: #b07a1c;
   --accent: #c8202e;
   --ink: #1d2227;
   --muted: #5d6670;
@@ -23,14 +25,14 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #14171a; --ocean: #181c20; --land: #343b42; --land-edge: #181c20; --profiled: #8f3a42;
+    --bg: #14171a; --ocean: #181c20; --land: #343b42; --land-edge: #181c20; --profiled: #8f3a42; --original: #7a5f2c; --original-strong: #e0a948;
     --accent: #ff5a66; --ink: #eceef0; --muted: #9aa3ad; --panel: #1c2024; --line: #2c3238;
     --chip-active: #4fcf8e; --chip-unclear: #e3b341; --chip-ended: #9aa3ad; --shadow: rgba(0, 0, 0, .7);
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #14171a; --ocean: #181c20; --land: #343b42; --land-edge: #181c20; --profiled: #8f3a42;
+  --bg: #14171a; --ocean: #181c20; --land: #343b42; --land-edge: #181c20; --profiled: #8f3a42; --original: #7a5f2c; --original-strong: #e0a948;
   --accent: #ff5a66; --ink: #eceef0; --muted: #9aa3ad; --panel: #1c2024; --line: #2c3238;
   --chip-active: #4fcf8e; --chip-unclear: #e3b341; --chip-ended: #9aa3ad; --shadow: rgba(0, 0, 0, .7);
   color-scheme: dark;
@@ -60,18 +62,22 @@ svg.map { width: 100%; height: 100%; display: block; cursor: grab; touch-action:
 svg.map:active { cursor: grabbing; }
 .land { fill: var(--land); stroke: var(--land-edge); stroke-width: .6; vector-effect: non-scaling-stroke; transition: fill .25s, opacity .3s; }
 .land.has { fill: var(--profiled); cursor: pointer; }
+.land.has.orig { fill: var(--original); }
 .land.sel { fill: var(--accent); }
+.land.sel.orig { fill: var(--original-strong); }
 .land.sel:not(.has) { fill: var(--muted); }
 .lift { pointer-events: none; transform-box: fill-box; transform-origin: center; stroke: var(--panel); stroke-width: 1.4; vector-effect: non-scaling-stroke;
   fill: var(--land); transform: translateY(0) scale(1); filter: drop-shadow(0 0 0 transparent);
   transition: transform .28s cubic-bezier(.2, .8, .2, 1), filter .28s ease; }
 .lift.up { transform: translateY(calc(var(--rise) * -1px)) scale(var(--s)); filter: drop-shadow(0 calc(var(--rise) * 1px) calc(var(--rise) * 1px) var(--shadow)); }
 .lift.has { fill: var(--accent); }
+.lift.has.orig { fill: var(--original-strong); }
 .lift.sel.none { fill: var(--muted); }
 .tip { position: absolute; z-index: 5; pointer-events: none; background: var(--panel); color: var(--ink); border: 1px solid var(--line); border-radius: 6px; padding: 5px 9px; font-size: 13px; box-shadow: 0 6px 18px var(--shadow); white-space: nowrap; }
 .tip b { font-weight: 600; }
 .tip span { color: var(--muted); margin-left: 6px; }
 .tip span.ok { color: var(--accent); }
+.tip span.orig { color: var(--original-strong); }
 .legend { position: absolute; left: 16px; bottom: 16px; display: flex; gap: 14px; font-size: 12px; color: var(--muted); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; }
 .legend i { display: inline-block; width: 11px; height: 11px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
 .reset { position: absolute; right: 16px; bottom: 16px; font: inherit; font-size: 13px; padding: 6px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
@@ -153,7 +159,7 @@ dl.facts dd { margin: 0; }
   <div class="mapwrap" id="mapwrap">
     <svg class="map" id="map" role="img" aria-label="World map. Countries with a CSI profile are shaded red."></svg>
     <div class="tip" id="tip" hidden></div>
-    <div class="legend"><span><i style="background:var(--profiled)"></i>Profile ready</span><span><i style="background:var(--land)"></i>No profile yet</span></div>
+    <div class="legend" id="legend"></div>
     <button class="reset" id="reset" type="button">World view</button>
   </div>
   <aside id="panel" aria-live="polite"></aside>
@@ -171,6 +177,8 @@ const panel = document.getElementById("panel");
 const names = GEO.features.map(f => f.properties.name).sort();
 const byName = new Map(GEO.features.map(f => [f.properties.name, f]));
 const has = n => Object.prototype.hasOwnProperty.call(PROFILES, n);
+const isOrig = n => has(n) && PROFILES[n].kind === "original";
+const status = n => !has(n) ? ["", "No profile yet"] : isOrig(n) ? ["orig", "CSI original profile"] : ["ok", "Profile ready"];
 
 let W = 0, H = 0, selected = null, hovered = null, shown, previewTimer, transform = d3.zoomIdentity;
 const projection = d3.geoNaturalEarth1();
@@ -180,7 +188,7 @@ const landLayer = zoomLayer.append("g");
 const liftLayer = zoomLayer.append("g");
 
 const land = landLayer.selectAll("path").data(GEO.features).join("path")
-  .attr("class", d => "land" + (has(d.properties.name) ? " has" : ""))
+  .attr("class", d => "land" + (has(d.properties.name) ? " has" : "") + (isOrig(d.properties.name) ? " orig" : ""))
   .on("pointerenter", (e, d) => hover(d))
   .on("pointermove", e => moveTip(e))
   .on("pointerleave", () => unhover())
@@ -213,7 +221,7 @@ function popFor(f) {
 function raise(f) {
   const n = f.properties.name;
   const p = liftLayer.append("path").datum(f).attr("d", path(f))
-    .attr("class", "lift" + (has(n) ? " has" : " none") + (n === selected ? " sel" : ""));
+    .attr("class", "lift" + (has(n) ? " has" : " none") + (isOrig(n) ? " orig" : "") + (n === selected ? " sel" : ""));
   const { s, rise } = popFor(f);
   p.style("--s", s).style("--rise", rise / transform.k);
   requestAnimationFrame(() => requestAnimationFrame(() => p.classed("up", true)));
@@ -233,7 +241,8 @@ function hover(f) {
   hovered = n;
   raise(f);
   if (!selected) schedule(n, 120);
-  tip.innerHTML = `<b>${n}</b><span class="${has(n) ? "ok" : ""}">${has(n) ? "Profile ready" : "No profile yet"}</span>`;
+  const [cls, label] = status(n);
+  tip.innerHTML = `<b>${esc(n)}</b><span class="${cls}">${label}</span>`;
   tip.hidden = false;
 }
 function unhover(keepTip) {
@@ -299,14 +308,16 @@ function render(name) {
   const total = p.partners.length;
   const colors = { Active: "var(--chip-active)", Unclear: "var(--chip-unclear)", Ended: "var(--chip-ended)" };
   let h = `<div class="panel">${backBar(name)}
-    <div class="ptitle"><small>Country profile · ${esc(fmtDate(p.date))}</small><h2>${esc(name)}</h2>
-      <div class="badges">${p.verified
+    <div class="ptitle"><small>${p.kind === "original" ? "CSI profile" : "Country profile"} · ${esc(p.date ? fmtDate(p.date) : p.date_note || "")}</small><h2>${esc(name)}</h2>
+      <div class="badges">${p.kind === "original"
+        ? `<span class="badge plain">Written by CSI</span><span class="badge warn">Not re-verified, may be out of date</span>`
+        : p.verified
         ? `<span class="badge good">Three-verifier fact check</span><span class="badge plain">Numbered sources</span>`
         : `<span class="badge warn">Earlier format, lighter verification</span>`}</div></div>`;
   if (p.downloads.length) h += `<section><h3>Download the brief</h3><div class="dl">${p.downloads.map((d, i) =>
     `<a class="file" href="${esc(d.file)}" download data-i="${i}"><span class="kind">${esc(d.kind)}</span><span class="fname">${esc(d.label)}</span><span class="size">${fmtSize(d.size)}</span></a>`).join("")}</div>
     <p class="dlmsg" id="dlmsg" hidden></p></section>`;
-  if (p.background) h += `<section><h3>Background</h3><p>${esc(p.background)}</p></section>`;
+  if (p.background) h += `<section><h3>${p.kind === "original" ? "Overview" : "Background"}</h3><p>${esc(p.background)}</p></section>`;
   if (p.tiles) h += `<section><h3>At a glance</h3><div class="tiles">${p.tiles.map(t => `<div class="tile"><b>${esc(t.value)}</b><span>${esc(t.label)}</span></div>`).join("")}</div></section>`;
   else if (p.facts.length) h += `<section><h3>Key facts</h3><dl class="facts">${p.facts.slice(0, 8).map(f => `<dt>${esc(f.label)}</dt><dd>${esc(f.value)}</dd>`).join("")}</dl></section>`;
   if (p.takeaways) h += `<section><h3>Key takeaways</h3>${list(p.takeaways)}</section>`;
@@ -319,7 +330,8 @@ function render(name) {
   if (p.opportunities) h += `<section><h3>Opportunities</h3>${list(p.opportunities)}</section>`;
   if (p.risks) h += `<section><h3>Risks</h3>${list(p.risks)}</section>`;
   if (p.recent.length) h += `<section><h3>Recent developments</h3><div class="recent">${p.recent.map(r => `<div><time>${esc(fmtDate(r.date))}</time>${esc(r.text)}</div>`).join("")}</div></section>`;
-  h += `<p class="note">Preview of the brief. Every figure is cited in the full profile and its sources document, both downloadable above. The CSI assessment section is filled in by hand in the full profile.</p></div>`;
+  if (p.kind === "original") h += `<p class="note">CSI's own earlier profile, shown as written. Its facts have not been re-checked. To refresh it with verified public research, run the country-profile pipeline for ${esc(name)}.</p></div>`;
+  else h += `<p class="note">Preview of the brief. Every figure is cited in the full profile and its sources document, both downloadable above. The CSI assessment section is filled in by hand in the full profile.</p></div>`;
   panel.innerHTML = h;
   panel.scrollTop = 0;
   if (total) partnerList(p.partners, 6);
@@ -390,8 +402,8 @@ function renderOverview() {
   panel.innerHTML = `<div class="panel"><div class="ptitle"><small>${ps.length} profiles</small><h2>Where CSI has looked</h2></div>
     <section><p>Hover a country to preview its brief here, or search above. Click a country to keep its brief open while you read or download. Click it again, or the ocean, to come back here.</p></section>
     ${ps.map(p => `<div class="partner" style="cursor:pointer" data-n="${esc(p.country)}"><span class="who">${esc(p.country)}</span>
-      <span class="st ${p.verified ? "Active" : "Unclear"}">${p.verified ? "Verified" : "Earlier format"}</span>
-      <span class="sub">${esc(fmtDate(p.date))}${p.partners.length ? ` · ${p.partners.length} partnerships tracked` : ""}</span></div>`).join("")}</div>`;
+      <span class="st ${p.verified ? "Active" : "Unclear"}">${p.kind === "original" ? "CSI original" : p.verified ? "Verified" : "Earlier format"}</span>
+      <span class="sub">${esc(p.date ? fmtDate(p.date) : p.date_note || "")}${p.partners.length ? ` · ${p.partners.length} partnerships tracked` : ""}</span></div>`).join("")}</div>`;
   panel.querySelectorAll("[data-n]").forEach(el => el.onclick = () => select(el.dataset.n));
   panel.scrollTop = 0;
 }
@@ -406,7 +418,7 @@ function showResults() {
     .sort((a, b) => (has(b) - has(a)) || (b.toLowerCase().startsWith(t) - a.toLowerCase().startsWith(t)) || a.localeCompare(b)).slice(0, 8);
   active = 0;
   results.innerHTML = matches.length
-    ? matches.map((n, i) => `<li role="option" id="opt${i}" aria-selected="${i === 0}" data-n="${esc(n)}"><span>${esc(n)}</span>${has(n) ? '<span class="tag">Profile ready</span>' : ""}</li>`).join("")
+    ? matches.map((n, i) => `<li role="option" id="opt${i}" aria-selected="${i === 0}" data-n="${esc(n)}"><span>${esc(n)}</span>${has(n) ? `<span class="tag">${status(n)[1]}</span>` : ""}</li>`).join("")
     : `<li aria-disabled="true"><span>No country matches "${esc(q.value)}"</span></li>`;
   results.hidden = false; q.setAttribute("aria-expanded", "true");
   results.querySelectorAll("[data-n]").forEach(li => {
@@ -440,6 +452,9 @@ Object.keys(PROFILES).forEach(n => {
   quick.appendChild(b);
 });
 document.getElementById("reset").onclick = reset;
+document.getElementById("legend").innerHTML = `<span><i style="background:var(--profiled)"></i>Researched profile</span>`
+  + (Object.keys(PROFILES).some(isOrig) ? `<span><i style="background:var(--original)"></i>CSI original</span>` : "")
+  + `<span><i style="background:var(--land)"></i>No profile yet</span>`;
 new ResizeObserver(layout).observe(wrap);
 layout();
 let start = "";
