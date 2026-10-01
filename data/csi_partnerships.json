@@ -1,0 +1,602 @@
+{
+ "schema": 1,
+ "scope": "Cedars-Sinai relationships with named non-US institutions; Active (dated evidence within 24 months), Unclear, or Ended within five years. Public sources only.",
+ "method": "Three regional research passes, one independent primary-source verification pass, corrections applied 2026-10-01.",
+ "last_checked": "2026-10-01",
+ "partnerships": [
+  {
+   "partner": "Taikang Healthcare (Shenzhen Qianhai Taikang Hospital)",
+   "partner_city": "Shenzhen",
+   "partner_country": "China",
+   "cedars_unit": "Cedars-Sinai International",
+   "type": "Clinical affiliation",
+   "description": "Long-term collaboration agreement signed in December 2020 under which Cedars-Sinai shares clinical and operational expertise with Shenzhen Qianhai Taikang Hospital and is to become its affiliated academic partner. The hospital opened in August 2024. A five-year strategic collaboration followed the hospital's opening.",
+   "status": "Active",
+   "start": "2020-12",
+   "end": "",
+   "last_evidence": "2026-07",
+   "evidence": "Shenzhen press reported the hospital's official opening on 9 August 2024; no dated source from October 2024 onward confirms the Cedars-Sinai arrangement is continuing.",
+   "sources": [
+    {
+     "author": "Chen Junyang",
+     "title": "Qianhai Taikang Hospital Starts Operation",
+     "publisher": "EYESHENZHEN",
+     "date": "2024-08-12",
+     "url": "https://www.eyeshenzhen.com/content/2024-08/12/content_31143372.htm"
+    },
+    {
+     "author": "",
+     "title": "Cedars-Sinai and Taikang Group Sign Collaboration Agreement",
+     "publisher": "Cedars-Sinai",
+     "date": "2020-12-19",
+     "url": "https://www.cedars-sinai.org/international-stories/cedars-sinai-and-taikang-group-collaboration.html"
+    },
+    {
+     "author": "",
+     "title": "Cedars Goes Global",
+     "publisher": "Los Angeles Business Journal",
+     "date": "2026-07-06",
+     "url": "https://labusinessjournal.com/special-reports/healthcare-cedars-goes-global/"
+    },
+    {
+     "author": "",
+     "title": "",
+     "publisher": "Guangzhou Daily",
+     "date": "2025-01-14",
+     "url": "https://news.dayoo.com/gzrbrmt/202501/14/170629_54774956.htm"
+    }
+   ],
+   "map_country": "China",
+   "lat": 22.54,
+   "lon": 114.06
+  },
+  {
+   "partner": "Tsinghua University (Tsinghua Medicine)",
+   "partner_city": "Beijing",
+   "partner_country": "China",
+   "cedars_unit": "Cedars-Sinai graduate research education; Cedars-Sinai International",
+   "type": "Training and education",
+   "description": "Agreement bringing Tsinghua medical students to Cedars-Sinai for two years of research training, with the first cohort arriving in September 2023, plus Cedars-Sinai strategic guidance to Tsinghua Medicine and a visiting scholar program.",
+   "status": "Active",
+   "start": "2023",
+   "end": "",
+   "last_evidence": "2026-07",
+   "evidence": "The LA Business Journal in July 2026 describes the Tsinghua collaboration as ongoing, with students coming to Cedars-Sinai for two years of training.",
+   "sources": [
+    {
+     "author": "",
+     "title": "Cedars-Sinai and Tsinghua University Collaborate for Impact",
+     "publisher": "Cedars-Sinai Discoveries",
+     "date": "2024-01-08",
+     "url": "https://www.cedars-sinai.org/discoveries/cedars-sinai-tsinghua-university-collaborate-for-impact.html"
+    },
+    {
+     "author": "Howard Fine",
+     "title": "Healthcare: Cedars Goes Global",
+     "publisher": "Los Angeles Business Journal",
+     "date": "2026-07-06",
+     "url": "https://labusinessjournal.com/special-reports/healthcare-cedars-goes-global/"
+    }
+   ],
+   "map_country": "China",
+   "lat": 39.9,
+   "lon": 116.4
+  },
+  {
+   "partner": "Zhejiang University",
+   "partner_city": "Hangzhou",
+   "partner_country": "China",
+   "cedars_unit": "Cedars-Sinai Medical Center",
+   "type": "Research collaboration",
+   "description": "Memorandum of understanding between Zhejiang University and Cedars-Sinai Medical Center, listed in the university's international agreements database under an equipment sharing platform category.",
+   "status": "Active",
+   "start": "2025-04",
+   "end": "",
+   "last_evidence": "2025-04",
+   "evidence": "Zhejiang University's international office lists the MOU with Cedars-Sinai dated 14 April 2025; scope details are not published.",
+   "sources": [
+    {
+     "author": "",
+     "title": "Cedars-Sinai Medical Center (MEMORANDUM OF UNDERSTANDING Between ZHEJIANG UNIVERSITY And Cedars-Sinai Medical Center)",
+     "publisher": "Zhejiang University Office of Global Engagement",
+     "date": "2025-04-14",
+     "url": "https://www.intl.zju.edu.cn/en/node/17752"
+    }
+   ],
+   "map_country": "China",
+   "lat": 30.27,
+   "lon": 120.16
+  },
+  {
+   "partner": "Hospital de los Valles",
+   "partner_city": "Quito",
+   "partner_country": "Ecuador",
+   "cedars_unit": "Cedars-Sinai International",
+   "type": "Advisory and consulting",
+   "description": "Institutional agreement for medical staff training, support toward international accreditation, emergency department advice, plus second opinion and telemedicine access. The initial term was two and a half years.",
+   "status": "Active",
+   "start": "2023-04",
+   "end": "",
+   "last_evidence": "2025-06",
+   "evidence": "Press coverage from April to May 2023 reports the signing with a three-year initial term; the hospital's own site still presents the alliance but is undated.",
+   "sources": [
+    {
+     "author": "",
+     "title": "Cedars-Sinai Opens Ecuador Office",
+     "publisher": "Cedars-Sinai Newsroom",
+     "date": "2025-06",
+     "url": "https://www.cedars-sinai.org/newsroom/cedars-sinai-opens-ecuador-office/"
+    },
+    {
+     "author": "",
+     "title": "Hospital de los Valles firma acuerdo con Cedars-Sinai para mejorar atención médica",
+     "publisher": "El Comercio",
+     "date": "2023-05-02",
+     "url": "https://www.elcomercio.com/actualidad/negocios/hospital-valles-acuerdo-cedars-sinai/"
+    },
+    {
+     "author": "Redacción",
+     "title": "Alianza entre Hospital de los Valles y Cedars-Sinai de Estados Unidos busca mejorar la atención médica",
+     "publisher": "Edición Médica",
+     "date": "2023-04-27",
+     "url": "https://www.edicionmedica.ec/secciones/empresas/alianza-entre-hospital-de-los-valles-y-cedars-sinai-de-estados-unidos-busca-mejorar-la-atencion-medica-100471"
+    },
+    {
+     "author": "",
+     "title": "Cedars-Sinai",
+     "publisher": "Hospital de los Valles",
+     "date": "2026-10-01",
+     "url": "https://hospitaldelosvalles.com/cedars-sinai/"
+    }
+   ],
+   "map_country": "Ecuador",
+   "lat": -0.18,
+   "lon": -78.47
+  },
+  {
+   "partner": "Eka Hospital Group",
+   "partner_city": "Jakarta",
+   "partner_country": "Indonesia",
+   "cedars_unit": "Cedars-Sinai International",
+   "type": "Training and education",
+   "description": "Three-year collaboration agreement signed in August 2022 to strengthen emergency medicine and trauma care, including a teaching mission by Cedars-Sinai emergency nurses in Jakarta.",
+   "status": "Unclear",
+   "start": "2022-08",
+   "end": "",
+   "last_evidence": "2024-05",
+   "evidence": "The MOU was signed on 24 August 2022 for three years; no source found showing renewal or end after the term.",
+   "sources": [
+    {
+     "author": "",
+     "title": "Eka Hospital Group Jalin Kerja Sama dengan Cedars-Sinai Hospital",
+     "publisher": "Kompas.com",
+     "date": "2022-08-25",
+     "url": "https://biz.kompas.com/read/2022/08/25/121418528/eka-hospital-group-jalin-kerja-sama-dengan-cedars-sinai-hospital"
+    },
+    {
+     "author": "",
+     "title": "Cedars-Sinai Launches Collaboration in Indonesia",
+     "publisher": "Cedars-Sinai",
+     "date": "",
+     "url": "https://www.cedars-sinai.org/international-stories/cedars-sinai-launches-collaboration-in-indonesia.html"
+    }
+   ],
+   "map_country": "Indonesia",
+   "lat": -6.21,
+   "lon": 106.85
+  },
+  {
+   "partner": "Assuta Ashdod Medical Center",
+   "partner_city": "Ashdod",
+   "partner_country": "Israel",
+   "cedars_unit": "Cedars-Sinai Medical Center",
+   "type": "Clinical affiliation",
+   "description": "Cedars-Sinai teams are implementing the Sheba inflammatory bowel disease program at Assuta Ashdod in southern Israel.",
+   "status": "Active",
+   "start": "",
+   "end": "",
+   "last_evidence": "2026-05",
+   "evidence": "The May 2026 Cedars-Sinai release lists Assuta Ashdod as a site of the program.",
+   "sources": [
+    {
+     "author": "",
+     "title": "Cedars-Sinai Expands Ties With Israel Healthcare Partners",
+     "publisher": "Cedars-Sinai Newsroom",
+     "date": "2026-05-21",
+     "url": "https://www.cedars-sinai.org/newsroom/cedars-sinai-expands-medical-and-research-ties-with-israel-healthcare-partners/"
+    }
+   ],
+   "map_country": "Israel",
+   "lat": 31.8,
+   "lon": 34.65
+  },
+  {
+   "partner": "Emek Medical Center",
+   "partner_city": "Afula",
+   "partner_country": "Israel",
+   "cedars_unit": "Cedars-Sinai Medical Center",
+   "type": "Clinical affiliation",
+   "description": "Cedars-Sinai teams are implementing the Sheba inflammatory bowel disease program at Emek Medical Center in northern Israel.",
+   "status": "Active",
+   "start": "",
+   "end": "",
+   "last_evidence": "2026-05",
+   "evidence": "The May 2026 Cedars-Sinai release lists Emek as a site of the program Cedars-Sinai staff are implementing.",
+   "sources": [
+    {
+     "author": "",
+     "title": "Cedars-Sinai Expands Ties With Israel Healthcare Partners",
+     "publisher": "Cedars-Sinai Newsroom",
+     "date": "2026-05-21",
+     "url": "https://www.cedars-sinai.org/newsroom/cedars-sinai-expands-medical-and-research-ties-with-israel-healthcare-partners/"
+    }
+   ],
+   "map_country": "Israel",
+   "lat": 32.61,
+   "lon": 35.29
+  },
+  {
+   "partner": "Sheba Medical Center",
+   "partner_city": "Ramat Gan",
+   "partner_country": "Israel",
+   "cedars_unit": "Cedars-Sinai Medical Center",
+   "type": "Research collaboration",
+   "description": "A long running collaboration that began in cardiovascular medicine and now includes digital health and AI work with Sheba's ARC Center, a perioperative inflammatory bowel disease program and stem cell research on the International Space Station.",
+   "status": "Active",
+   "start": "",
+   "end": "",
+   "last_evidence": "2026-05",
+   "evidence": "The May 2026 Cedars-Sinai release describes current joint programs with Sheba.",
+   "sources": [
+    {
+     "author": "",
+     "title": "Cedars-Sinai Expands Ties With Israel Healthcare Partners",
+     "publisher": "Cedars-Sinai Newsroom",
+     "date": "2026-05-21",
+     "url": "https://www.cedars-sinai.org/newsroom/cedars-sinai-expands-medical-and-research-ties-with-israel-healthcare-partners/"
+    }
+   ],
+   "map_country": "Israel",
+   "lat": 32.07,
+   "lon": 34.82
+  },
+  {
+   "partner": "Tel Aviv Sourasky Medical Center (Ichilov)",
+   "partner_city": "Tel Aviv",
+   "partner_country": "Israel",
+   "cedars_unit": "Cedars-Sinai Medical Center and Cedars-Sinai medical faculty",
+   "type": "Research collaboration",
+   "description": "A research collaboration signed in March 2024 in big data science, regenerative medicine, proteomics, endocrinology and oncology. It now includes joint fellowship training in oncology, gynecology and endocrinology and joint data science and AI programs.",
+   "status": "Active",
+   "start": "2024-03",
+   "end": "",
+   "last_evidence": "2026-05",
+   "evidence": "The May 2026 Cedars-Sinai release describes ongoing joint fellowships, data science and AI research and conferences with Ichilov Hospital.",
+   "sources": [
+    {
+     "author": "",
+     "title": "Cedars-Sinai Expands Ties With Israel Healthcare Partners",
+     "publisher": "Cedars-Sinai Newsroom",
+     "date": "2026-05-21",
+     "url": "https://www.cedars-sinai.org/newsroom/cedars-sinai-expands-medical-and-research-ties-with-israel-healthcare-partners/"
+    },
+    {
+     "author": "",
+     "title": "Cedars-Sinai Collaborates With Tel Aviv Sourasky Medical Center",
+     "publisher": "Cedars-Sinai Newsroom",
+     "date": "2024-03-29",
+     "url": "https://www.cedars-sinai.org/newsroom/cedars-sinai-collaborates-with-tel-aviv-sourasky-medical-center/"
+    }
+   ],
+   "map_country": "Israel",
+   "lat": 32.08,
+   "lon": 34.78
+  },
+  {
+   "partner": "Weizmann Institute of Science",
+   "partner_city": "Rehovot",
+   "partner_country": "Israel",
+   "cedars_unit": "Cedars-Sinai Medical Center",
+   "type": "Research collaboration",
+   "description": "Cedars-Sinai scientists are collaborating on several joint projects with the Weizmann Institute of Science, including one using CAR T cells to treat solid cancers.",
+   "status": "Active",
+   "start": "",
+   "end": "",
+   "last_evidence": "2026-05",
+   "evidence": "The May 2026 Cedars-Sinai release lists joint projects with Weizmann scientists as a current Israel partnership.",
+   "sources": [
+    {
+     "author": "Soshea Leibler",
+     "title": "Cedars-Sinai Expands Ties With Israel Healthcare Partners",
+     "publisher": "Cedars-Sinai Newsroom",
+     "date": "2026-05-21",
+     "url": "https://www.cedars-sinai.org/newsroom/cedars-sinai-expands-medical-and-research-ties-with-israel-healthcare-partners/"
+    },
+    {
+     "author": "Howard Fine",
+     "title": "Healthcare: Cedars Goes Global",
+     "publisher": "Los Angeles Business Journal",
+     "date": "2026-07-06",
+     "url": "https://labusinessjournal.com/special-reports/healthcare-cedars-goes-global/"
+    }
+   ],
+   "map_country": "Israel",
+   "lat": 31.89,
+   "lon": 34.81
+  },
+  {
+   "partner": "Core Medical & Surgery Center",
+   "partner_city": "Tijuana",
+   "partner_country": "Mexico",
+   "cedars_unit": "Cedars-Sinai International",
+   "type": "Clinical affiliation",
+   "description": "Agreement to develop patient care programs in several specialties and set up a telehealth and referral office inside the Tijuana hospital. It also covers coordinated care for complex patients treated in Los Angeles.",
+   "status": "Active",
+   "start": "2026-01",
+   "end": "",
+   "last_evidence": "2026-01",
+   "evidence": "TV Azteca Baja California reported the signed agreement on 29 July 2026.",
+   "sources": [
+    {
+     "author": "",
+     "title": "",
+     "publisher": "TV Azteca Baja California",
+     "date": "2026-01-15",
+     "url": "https://www.tvaztecabajacalifornia.com/noticias/acuerdo-cedars-sinai-y-core-medical-and-surgery-center-fortalece-atencion/"
+    },
+    {
+     "author": "",
+     "title": "",
+     "publisher": "Uniradio Informa",
+     "date": "2026-01-14",
+     "url": "https://www.uniradioinforma.com/sociedad/video-core-medical-surgery-center-firma-tijuana-colaboracion-cedars-sinai-n863908"
+    }
+   ],
+   "map_country": "Mexico",
+   "lat": 32.51,
+   "lon": -117.04
+  },
+  {
+   "partner": "The View Hospital (Apex Health, Estithmar Holding)",
+   "partner_city": "Doha",
+   "partner_country": "Qatar",
+   "cedars_unit": "Cedars-Sinai International",
+   "type": "Clinical affiliation",
+   "description": "The View Hospital in Doha operates in affiliation with Cedars-Sinai, which provides clinical protocols, second opinions via telehealth, a visiting physician program and joint work on quality, education, training and research. Apex Health and Cedars-Sinai leaders met in 2025 to deepen the affiliation.",
+   "status": "Active",
+   "start": "2022",
+   "end": "",
+   "last_evidence": "2026-07",
+   "evidence": "A June 2025 press release reports an Apex Health delegation visiting Cedars-Sinai to expand the ongoing affiliation with The View Hospital.",
+   "sources": [
+    {
+     "author": "",
+     "title": "Apex Health Leadership visits Cedars-Sinai to strengthen strategic affiliation with The View Hospital",
+     "publisher": "The Peninsula Qatar",
+     "date": "2025-06-23",
+     "url": "https://thepeninsulaqatar.com/article/23/06/2025/apex-health-leadership-visits-cedars-sinai-to-strengthen-strategic-affiliation-with-the-view-hospital"
+    },
+    {
+     "author": "",
+     "title": "The View Hospital in Affiliation With Cedars-Sinai Hosts Innovations in Orthopedics Symposium 2024 in Doha, Qatar",
+     "publisher": "Cedars-Sinai Newsroom",
+     "date": "2024-01-21",
+     "url": "https://www.cedars-sinai.org/newsroom/the-view-hospital-in-affiliation-with-cedars-sinai-hosts-innovations-in-orthopedics-symposium-2024-in-doha-qatar/"
+    },
+    {
+     "author": "",
+     "title": "Cedars Goes Global",
+     "publisher": "Los Angeles Business Journal",
+     "date": "2026-07-06",
+     "url": "https://labusinessjournal.com/special-reports/healthcare-cedars-goes-global/"
+    }
+   ],
+   "map_country": "Qatar",
+   "lat": 25.29,
+   "lon": 51.53
+  },
+  {
+   "partner": "Alfaisal University",
+   "partner_city": "Riyadh",
+   "partner_country": "Saudi Arabia",
+   "cedars_unit": "Cedars-Sinai International",
+   "type": "Training and education",
+   "description": "Collaboration agreement signed at the Global Health Exhibition 2025 covering academic program advisory services from Cedars-Sinai International, faculty exchange for joint research, and clinical training and observerships for Alfaisal medical students.",
+   "status": "Active",
+   "start": "2025-10",
+   "end": "",
+   "last_evidence": "2025-11",
+   "evidence": "Alfaisal University's news site reported on 2 November 2025 the agreement signed in Riyadh during the 27 to 30 October 2025 exhibition.",
+   "sources": [
+    {
+     "author": "",
+     "title": "Alfaisal University Signs a Memorandum of Understanding with Cedars-Sinai Medical Center",
+     "publisher": "Alfaisal University",
+     "date": "2025-11-02",
+     "url": "https://news.alfaisal.edu/alfaisal-university-signs-a-memorandum-of-understanding-with-cedars-sinai-medical-center/"
+    }
+   ],
+   "map_country": "Saudi Arabia",
+   "lat": 24.71,
+   "lon": 46.68
+  },
+  {
+   "partner": "Seoul National University Hospital",
+   "partner_city": "Seoul",
+   "partner_country": "South Korea",
+   "cedars_unit": "Cedars-Sinai International",
+   "type": "Research collaboration",
+   "description": "Memorandum of understanding with Seoul National University Hospital and InTheSmart on gastrointestinal cancer research, augmented-reality surgical imaging and a physician and trainee exchange. The two hospitals also held a joint international cancer conference in June 2022.",
+   "status": "Active",
+   "start": "2019-09",
+   "end": "",
+   "last_evidence": "2026-07",
+   "evidence": "A joint Cedars-Sinai and SNUH cancer conference was held online on 23 to 24 June 2022; the MOU article is undated in the version retrieved and nothing later was found.",
+   "sources": [
+    {
+     "author": "",
+     "title": "Cedars Goes Global",
+     "publisher": "Los Angeles Business Journal",
+     "date": "2026-07-06",
+     "url": "https://labusinessjournal.com/special-reports/healthcare-cedars-goes-global/"
+    },
+    {
+     "author": "",
+     "title": "2022 Cedars-Sinai & Seoul National University Hospital Joint International Cancer Conference",
+     "publisher": "Cedars-Sinai Continuing Education",
+     "date": "2022-06-23",
+     "url": "https://cedars.cloud-cme.com/cssnuhcancer"
+    },
+    {
+     "author": "",
+     "title": "Cedars-Sinai and South Korea Organizations Sign Memorandum of Understanding",
+     "publisher": "Cedars-Sinai",
+     "date": "",
+     "url": "https://www.cedars-sinai.org/international-stories/cedars-sinai-and-south-korea-organizations-sign-m-o-u.html"
+    }
+   ],
+   "map_country": "South Korea",
+   "lat": 37.57,
+   "lon": 126.98
+  },
+  {
+   "partner": "Soongsil University (G-LAMP Project Group, AI Bio Convergence Research Institute)",
+   "partner_city": "Seoul",
+   "partner_country": "South Korea",
+   "cedars_unit": "Cedars-Sinai Department of Artificial Intelligence in Medicine",
+   "type": "Research collaboration",
+   "description": "Memorandum of understanding for joint research and researcher exchange in AI and bioscience, signed alongside a joint symposium.",
+   "status": "Active",
+   "start": "2026-08",
+   "end": "",
+   "last_evidence": "2026-08",
+   "evidence": "Asia Economy reported on 26 August 2026 that Soongsil's G-LAMP group signed the MOU with Cedars-Sinai's AI department and held a joint symposium.",
+   "sources": [
+    {
+     "author": "이지예",
+     "title": "숭실대, 美 의료기관과 AI·바이오 연구 맞손",
+     "publisher": "Asia Economy (asiae.co.kr)",
+     "date": "2026-08-26",
+     "url": "https://view.asiae.co.kr/article/2026082511293701160"
+    }
+   ],
+   "map_country": "South Korea",
+   "lat": 37.57,
+   "lon": 126.98
+  },
+  {
+   "partner": "Khalifa University College of Medicine and Health Sciences",
+   "partner_city": "Abu Dhabi",
+   "partner_country": "United Arab Emirates",
+   "cedars_unit": "Cedars-Sinai International; Cedars-Sinai medical education",
+   "type": "Training and education",
+   "description": "Agreement giving Khalifa University third and fourth year medical students four to eight week clinical rotations and observerships at Cedars-Sinai, with student and faculty exchange that began in 2021.",
+   "status": "Active",
+   "start": "2021",
+   "end": "",
+   "last_evidence": "2026-07",
+   "evidence": "The LA Business Journal in July 2026 lists the Khalifa University medical student and faculty exchange, begun in 2021, among Cedars-Sinai's ongoing collaborations.",
+   "sources": [
+    {
+     "author": "Howard Fine",
+     "title": "Healthcare: Cedars Goes Global",
+     "publisher": "Los Angeles Business Journal",
+     "date": "2026-07-06",
+     "url": "https://labusinessjournal.com/special-reports/healthcare-cedars-goes-global/"
+    },
+    {
+     "author": "",
+     "title": "Business Council Report Member Spotlight: Cedars-Sinai",
+     "publisher": "U.S.-U.A.E. Business Council",
+     "date": "2024-05-01",
+     "url": "https://usuaebusiness.org/wp-content/uploads/2024/05/CorporateSpotlight-Cedar-Sinai-2024-Web.pdf"
+    }
+   ],
+   "map_country": "United Arab Emirates",
+   "lat": 24.45,
+   "lon": 54.38
+  },
+  {
+   "partner": "The Health Bank (THB Global)",
+   "partner_city": "Dubai",
+   "partner_country": "United Arab Emirates",
+   "cedars_unit": "Cedars-Sinai International",
+   "type": "Advisory and consulting",
+   "description": "A collaboration agreement covering telehealth services, faculty and expert speaking events and joint consultancy in hospital management and operations. It was inaugurated at the US Pavilion at Expo 2020 Dubai.",
+   "status": "Unclear",
+   "start": "2022",
+   "end": "",
+   "last_evidence": "2022-04",
+   "evidence": "The Khaleej Times release of April 2022 reports the signed collaboration agreement, and no later evidence was found.",
+   "sources": [
+    {
+     "author": "",
+     "title": "The Health Bank and Cedars-Sinai collaborate to strengthen patient care services in the region",
+     "publisher": "Khaleej Times",
+     "date": "2022-04-01",
+     "url": "https://www.khaleejtimes.com/kt-network/the-health-bank-and-cedars-sinai-collaborate-to-strengthen-patient-care-services-in-the-region"
+    }
+   ],
+   "map_country": "United Arab Emirates",
+   "lat": 25.2,
+   "lon": 55.27
+  },
+  {
+   "partner": "Guy's and St Thomas' NHS Foundation Trust",
+   "partner_city": "London",
+   "partner_country": "United Kingdom",
+   "cedars_unit": "Cedars-Sinai International",
+   "type": "Clinical affiliation",
+   "description": "Strategic collaboration agreement signed in London to share expertise in patient care, research and medical innovation. It came with a Cedars-Sinai clinic in the Royal Brompton & Harefield Specialist Care building.",
+   "status": "Active",
+   "start": "2025-03",
+   "end": "",
+   "last_evidence": "2025-03",
+   "evidence": "The Cedars-Sinai newsroom release of 13 March 2025 (page updated December 2025) announces the signed strategic collaboration, which is within the last 24 months.",
+   "sources": [
+    {
+     "author": "Cedars-Sinai",
+     "title": "Cedars-Sinai, Guy's and St Thomas' NHS Foundation Trust Advance UK Healthcare",
+     "publisher": "Cedars-Sinai Newsroom",
+     "date": "2025-03-13",
+     "url": "https://www.cedars-sinai.org/newsroom/cedars-sinai-guys-and-st-thomas-nhs-foundation-trust-advance-uk-healthcare/"
+    },
+    {
+     "author": "",
+     "title": "Guy's and St Thomas' forms strategic collaboration with US hospital",
+     "publisher": "Healthcare Management UK",
+     "date": "2025-03-13",
+     "url": "https://www.healthcare-management.uk/guys-st-thomas-forms-strategic-collaboration-us-hospital"
+    }
+   ],
+   "map_country": "United Kingdom",
+   "lat": 51.51,
+   "lon": -0.13
+  },
+  {
+   "partner": "University of Surrey",
+   "partner_city": "Guildford",
+   "partner_country": "United Kingdom",
+   "cedars_unit": "Cedars-Sinai International; Simulation and Interprofessional Education",
+   "type": "Training and education",
+   "description": "Memorandum of understanding covering collaborative research, student and staff mobility, joint curriculum development and faculty exchange in medical education.",
+   "status": "Unclear",
+   "start": "2024",
+   "end": "",
+   "last_evidence": "2024-06",
+   "evidence": "The University of Surrey news item of 28 June 2024 reports the MoU signed in spring 2024; no later dated evidence found.",
+   "sources": [
+    {
+     "author": "",
+     "title": "University of Surrey and Cedars-Sinai sign new MoU",
+     "publisher": "University of Surrey",
+     "date": "2024-06-28",
+     "url": "https://www.surrey.ac.uk/news/university-surrey-and-cedars-sinai-sign-new-mou"
+    }
+   ],
+   "map_country": "United Kingdom",
+   "lat": 51.24,
+   "lon": -0.57
+  }
+ ]
+}
