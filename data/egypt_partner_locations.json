@@ -1,0 +1,179 @@
+{
+ "note": "All Egyptian partners are in Greater Cairo (Cairo, Giza, 6th of October City), shown as one place at country scale.",
+ "bounds": [
+  24.4,
+  37.4,
+  21.4,
+  32.6
+ ],
+ "metros": [
+  "Greater Cairo",
+  "Alexandria",
+  "Port Said",
+  "Suez",
+  "Mansoura",
+  "Tanta",
+  "Asyut",
+  "Luxor",
+  "Aswan"
+ ],
+ "cities": {
+  "Greater Cairo": [
+   [
+    31.24,
+    30.04
+   ],
+   [
+    -14,
+    2
+   ]
+  ],
+  "Alexandria": [
+   [
+    29.92,
+    31.2
+   ],
+   [
+    -12,
+    4
+   ]
+  ],
+  "Port Said": [
+   [
+    32.3,
+    31.26
+   ],
+   [
+    10,
+    6
+   ]
+  ],
+  "Suez": [
+   [
+    32.55,
+    29.97
+   ],
+   [
+    12,
+    -6
+   ]
+  ],
+  "Mansoura": [
+   [
+    31.38,
+    31.04
+   ],
+   [
+    10,
+    -6
+   ]
+  ],
+  "Tanta": [
+   [
+    31.0,
+    30.79
+   ],
+   [
+    -12,
+    6
+   ]
+  ],
+  "Asyut": [
+   [
+    31.18,
+    27.18
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Luxor": [
+   [
+    32.64,
+    25.69
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Aswan": [
+   [
+    32.9,
+    24.09
+   ],
+   [
+    12,
+    0
+   ]
+  ]
+ },
+ "locations": {
+  "egypt--mayo-clinic--saudi-german-hospital-cairo-saudi-german-health": {
+   "cities": [
+    "Greater Cairo"
+   ]
+  },
+  "egypt--university-of-texas-medical-branch-utmb-health--badya-university": {
+   "cities": [
+    "Greater Cairo"
+   ]
+  },
+  "egypt--ap-hp-beaujon-hospital-with-universit-paris-cit--theodor-bilharz-research-institute-with-cairo-university-faculty-of-medicine-kasr-al-ainy": {
+   "cities": [
+    "Greater Cairo"
+   ]
+  },
+  "egypt--alder-hey-children-s-hospital-alder-hey-global--ain-shams-university-hospitals": {
+   "cities": [
+    "Greater Cairo"
+   ]
+  },
+  "egypt--barraquer-ophthalmology-centre--ministry-of-health-and-population-memorial-institute-for-ophthalmic-research": {
+   "cities": [
+    "Greater Cairo"
+   ]
+  },
+  "egypt--burjeel-holdings-burjeel-medical-city-burjeel-cancer-institute--ministry-of-health-and-population-secretariat-of-specialized-medical-centers": {
+   "cities": [
+    "Greater Cairo"
+   ]
+  },
+  "egypt--freiburg-university-cancer-center--national-cancer-institute-new-500500-hospital-sheikh-zayed": {
+   "cities": [
+    "Greater Cairo"
+   ]
+  },
+  "egypt--gruppo-san-donato-with-gksd-group--ministry-of-health-and-population-and-health-insurance-organization-new-heliopolis-hospital": {
+   "cities": [
+    "Greater Cairo"
+   ]
+  },
+  "egypt--gustave-roussy-gustave-roussy-international--gustave-roussy-international-egypt-former-dar-al-salam-hermel-oncology-hospital-with-the-egyptian-government-and-elevate-p-e": {
+   "cities": [
+    "Greater Cairo"
+   ]
+  },
+  "egypt--university-of-oxford--national-cancer-institute-new-500500-hospital-cairo-university": {
+   "cities": [
+    "Greater Cairo"
+   ]
+  },
+  "egypt--great-ormond-street-hospital-for-children-nhs-foundation-trust--ain-shams-university-hospitals-children-s-hospital": {
+   "cities": [
+    "Greater Cairo"
+   ]
+  },
+  "egypt--royal-brompton-and-harefield-hospitals-guy-s-and-st-thomas-nhs-foundation-trust--ain-shams-university-hospitals-cardiovascular-diseases-and-surgery-hospital": {
+   "cities": [
+    "Greater Cairo"
+   ]
+  },
+  "egypt--university-of-hertfordshire--cleopatra-hospitals-group": {
+   "cities": [
+    "Greater Cairo"
+   ]
+  }
+ }
+}

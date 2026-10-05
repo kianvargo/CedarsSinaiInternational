@@ -3,6 +3,449 @@
   "scope": "Active, or ended or last active within the past five years",
   "relationships": [
     {
+      "foreign_institution": "Mayo Clinic",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Saudi German Hospital Cairo (Saudi German Health)",
+      "partner_city": "Cairo",
+      "type": "Clinical affiliation",
+      "description": "Saudi German Hospital Cairo has been a member of the Mayo Clinic Care Network since July 2019, the first in Egypt and Africa, giving its physicians access to Mayo Clinic knowledge and expertise. The relationship was expanded group wide at a signing ceremony in Cairo in October 2025.",
+      "status": "Active",
+      "start": "2019-07",
+      "end": "",
+      "last_evidence": "2025-10",
+      "evidence": "Trade Arabia, 4 October 2025, reports the expanded Mayo Clinic Care Network relationship signed at the Waldorf Astoria Cairo with a Mayo Clinic delegation present. Mayo's 15 July 2019 release (republished by KROC News) confirms membership since 2019.",
+      "sources": [
+        {
+          "author": "Trade Arabia",
+          "title": "Saudi German Health boosts relationship with Mayo Clinic",
+          "publisher": "Trade Arabia",
+          "date": "2025-10-04",
+          "url": "https://tradearabia.com/News/328805/Saudi-German-Health-boosts-relationship-with-Mayo-Clinic"
+        },
+        {
+          "author": "Mayo Clinic News Network",
+          "title": "Saudi German Health strengthens relationship with Mayo Clinic, becoming largest group of Mayo Clinic Care Network members in the region",
+          "publisher": "Mayo Clinic",
+          "date": "2025-10",
+          "url": "https://newsnetwork.mayoclinic.org/discussion/saudi-german-health-strengthens-relationship-with-mayo-clinic-becoming-largest-group-of-mayo-clinic-care-network-members-in-the-region/"
+        },
+        {
+          "author": "Mayo Clinic News Network",
+          "title": "Saudi German Hospital Cairo joins Mayo Clinic Care Network",
+          "publisher": "Mayo Clinic",
+          "date": "2019-07-15",
+          "url": "https://newsnetwork.mayoclinic.org/discussion/saudi-german-hospital-cairo-joins-mayo-clinic-care-network/"
+        },
+        {
+          "author": "Andy Brownell",
+          "title": "Egyptian Hospital Joins Mayo Clinic Care Network",
+          "publisher": "KROC News",
+          "date": "2019-07-15",
+          "url": "https://krocnews.com/egyptian-hospital-joins-mayo-clinic-care-network/"
+        }
+      ],
+      "country": "Egypt",
+      "last_checked": "2026-10-05",
+      "id": "egypt--mayo-clinic--saudi-german-hospital-cairo-saudi-german-health"
+    },
+    {
+      "foreign_institution": "University of Texas Medical Branch (UTMB Health)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Badya University",
+      "partner_city": "New October City (Giza)",
+      "type": "Training and education",
+      "description": "Academic partnership under which UTMB provides technical assistance to Badya University's schools of medicine, dentistry and physical therapy, covering curriculum and faculty development, student exchanges and joint research.",
+      "status": "Active",
+      "start": "2023",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "Badya newsroom: UTMB delegation ran a three week academic exchange on 2 to 20 February 2025; Badya students presented posters at the 2026 UTMB Research Summit (21 May 2026); a 'Clinical exchange program at UTMB' item is dated 4 August 2026. Start year from verifier research, not confirmed on a dated page.",
+      "sources": [
+        {
+          "author": "Badya University",
+          "title": "Academic Partnership",
+          "publisher": "Badya University",
+          "date": "",
+          "url": "https://www.badyauni.edu.eg/about-badya-university/academic-partnership/"
+        },
+        {
+          "author": "Badya University",
+          "title": "UTMB Delegation Engages in Three-Week Academic Exchange with Badya University",
+          "publisher": "Badya University",
+          "date": "2025-02-23",
+          "url": "https://www.badyauni.edu.eg/utmb-delegation-engages-in-three-week-academic-exchange-with-badya-university/"
+        },
+        {
+          "author": "Badya University",
+          "title": "Presentation of research posters at the 2026 UTMB Research Summit in Galveston, Texas",
+          "publisher": "Badya University",
+          "date": "2026-05-21",
+          "url": "https://www.badyauni.edu.eg/presentation-of-research-posters-at-the-2026-utmb-research-summit-in-galveston-texas/"
+        },
+        {
+          "author": "Badya University",
+          "title": "Badya University Takes Confident Steps Toward Leadership in Medical Education (news listing incl. 'Clinical exchange program at UTMB', 4 August 2026)",
+          "publisher": "Badya University",
+          "date": "2026-08",
+          "url": "https://www.badyauni.edu.eg/?p=1534"
+        }
+      ],
+      "country": "Egypt",
+      "last_checked": "2026-10-05",
+      "id": "egypt--university-of-texas-medical-branch-utmb-health--badya-university"
+    },
+    {
+      "foreign_institution": "AP-HP Beaujon Hospital (with Université Paris Cité)",
+      "foreign_country": "France",
+      "group": "Other foreign health systems",
+      "indian_partner": "Theodor Bilharz Research Institute, with Cairo University Faculty of Medicine (Kasr Al Ainy)",
+      "partner_city": "Giza",
+      "type": "Research collaboration",
+      "description": "Long-running cooperation agreement in gastroenterology, hepatology and endoscopy, covering joint scientific meetings, training of Egyptian physicians and researchers at Beaujon and joint research. It was renewed for the fourth time in July 2023 with Cairo University and Université Paris Cité joining.",
+      "status": "Active",
+      "start": "2007",
+      "end": "",
+      "last_evidence": "2025-04",
+      "evidence": "Theodor Bilharz Research Institute news item dated 13 April 2025 describes the cooperation as ongoing, reports the higher education minister's endorsement and says the next phase will expand collaboration; the agreement was renewed on 11 July 2023. The Kasr Al Ainy French-language medical degree reported by Al-Fanar was not confirmed on a primary page and is not included.",
+      "sources": [
+        {
+          "author": "Theodor Bilharz Research Institute",
+          "title": "Sustainable Academic and Research Cooperation with Beaujon Hospital, with the Participation of Cairo University and Université Paris Cité",
+          "publisher": "Theodor Bilharz Research Institute",
+          "date": "2025-04-13",
+          "url": "https://www.tbri.sci.eg/en/institute-news/sustainable-academic-and-research-cooperation-with-beaujon-hospital"
+        }
+      ],
+      "country": "Egypt",
+      "last_checked": "2026-10-05",
+      "id": "egypt--ap-hp-beaujon-hospital-with-universit-paris-cit--theodor-bilharz-research-institute-with-cairo-university-faculty-of-medicine-kasr-al-ainy"
+    },
+    {
+      "foreign_institution": "Alder Hey Children's Hospital (Alder Hey Global)",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "Ain Shams University Hospitals",
+      "partner_city": "Cairo",
+      "type": "Training and education",
+      "description": "Alder Hey runs annual visiting surgical teams and training in pediatric cardiology and cardiac surgery at Ain Shams, under an MoU signed in June 2025 covering clinical training, research and academic collaboration.",
+      "status": "Active",
+      "start": "2024",
+      "end": "",
+      "last_evidence": "2026-07",
+      "evidence": "Ain Shams reports the third annual Alder Hey visiting team (18 complex pediatric heart operations) on 19 July 2026 under the cooperation protocol; Alder Hey news of 30 June 2025 reports the MoU signed by its Global Project Manager for the trust.",
+      "sources": [
+        {
+          "author": "Alder Hey Children's Hospital",
+          "title": "Alder Hey and Ain Shams University sign official partnership",
+          "publisher": "Alder Hey",
+          "date": "2025-06-30",
+          "url": "https://www.alderhey.nhs.uk/?p=112799"
+        },
+        {
+          "author": "Ain Shams University",
+          "title": "Unprecedented Medical Achievement: 18 Complex Pediatric Heart Surgeries Successfully Performed at Ain Shams University Hospitals in Collaboration with British Experts",
+          "publisher": "Ain Shams University",
+          "date": "2026-07-19",
+          "url": "https://www.asu.edu.eg/10235/news"
+        }
+      ],
+      "country": "Egypt",
+      "last_checked": "2026-10-05",
+      "id": "egypt--alder-hey-children-s-hospital-alder-hey-global--ain-shams-university-hospitals"
+    },
+    {
+      "foreign_institution": "Barraquer Ophthalmology Centre",
+      "foreign_country": "Spain",
+      "group": "Other foreign health systems",
+      "indian_partner": "Ministry of Health and Population (Memorial Institute for Ophthalmic Research)",
+      "partner_city": "Cairo",
+      "type": "Clinical affiliation",
+      "description": "Memorandum of understanding covering treatment of complex eye cases in Egypt and Barcelona, training of ophthalmologists and technical staff, and joint research.",
+      "status": "Active",
+      "start": "2026-02",
+      "end": "",
+      "last_evidence": "2026-02",
+      "evidence": "Barraquer newsroom, 26 February 2026, announces the MoU, signed for Egypt by the director of the Memorial Institute for Ophthalmic Research on behalf of the health minister.",
+      "sources": [
+        {
+          "author": "Barraquer",
+          "title": "We signed a collaboration agreement with the Ministry of Health and Population of Egypt",
+          "publisher": "Barraquer",
+          "date": "2026-02-26",
+          "url": "https://www.barraquer.com/en/news/we-signed-collaboration-agreement-ministry-health-population-egypt"
+        }
+      ],
+      "country": "Egypt",
+      "last_checked": "2026-10-05",
+      "id": "egypt--barraquer-ophthalmology-centre--ministry-of-health-and-population-memorial-institute-for-ophthalmic-research"
+    },
+    {
+      "foreign_institution": "Burjeel Holdings (Burjeel Medical City, Burjeel Cancer Institute)",
+      "foreign_country": "United Arab Emirates",
+      "group": "Other foreign health systems",
+      "indian_partner": "Ministry of Health and Population (Secretariat of Specialized Medical Centers)",
+      "partner_city": "Cairo",
+      "type": "Clinical affiliation",
+      "description": "MoU signed at Arab Health 2025 to develop a comprehensive bone marrow transplant program in Egypt, led by Burjeel Medical City with support from Burjeel Cancer Institute.",
+      "status": "Active",
+      "start": "2025-01",
+      "end": "",
+      "last_evidence": "2025-01",
+      "evidence": "Gulf Today, 30 January 2025, reports the MoU signed by the head of the ministry's Secretariat of Specialized Medical Centers and Burjeel's group CEO in the presence of the health minister. Nothing newer found.",
+      "sources": [
+        {
+          "author": "Gulf Today",
+          "title": "Egypt's Health Ministry, Burjeel Holdings collaborate to develop advanced BMT program",
+          "publisher": "Gulf Today",
+          "date": "2025-01-30",
+          "url": "https://gulftoday.ae/business/2025/01/30/egypts-health-ministry-burjeel-holdings-collaborate-to-develop-advanced-bmt-program"
+        }
+      ],
+      "country": "Egypt",
+      "last_checked": "2026-10-05",
+      "id": "egypt--burjeel-holdings-burjeel-medical-city-burjeel-cancer-institute--ministry-of-health-and-population-secretariat-of-specialized-medical-centers"
+    },
+    {
+      "foreign_institution": "Freiburg University Cancer Center",
+      "foreign_country": "Germany",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Institute (new '500500' hospital), Sheikh Zayed",
+      "partner_city": "Giza",
+      "type": "Clinical affiliation",
+      "description": "A partnership agreement for scientific cooperation on cancer care, covering hospital equipment and operations and training, for Egypt's new 500500 cancer hospital.",
+      "status": "Active",
+      "start": "2024",
+      "end": "",
+      "last_evidence": "2024-12",
+      "evidence": "Reported by Egypt's higher education minister at a cabinet meeting on 24 December 2024 (inside the window, so Active under the rule); single Egyptian-side source, no German-side release found. On 14 June 2026 the prime minister directed a partnership with an unnamed global operator to run the 500500 hospital, so the operating role may be unsettled.",
+      "sources": [
+        {
+          "author": "Daily News Egypt",
+          "title": "'500500' Hospital project to enhance cancer care, says Egyptian PM",
+          "publisher": "Daily News Egypt",
+          "date": "2024-12-24",
+          "url": "https://www.dailynewsegypt.com/2024/12/24/500500-hospital-project-to-enhance-cancer-care-says-egyptian-pm/"
+        },
+        {
+          "author": "Safia Hamdi",
+          "title": "Prime Minister: partnership with a global operator to run the 500500 hospital (Arabic)",
+          "publisher": "Al Mal News",
+          "date": "2026-06-14",
+          "url": "https://almalnews.com/2119185/"
+        }
+      ],
+      "country": "Egypt",
+      "last_checked": "2026-10-05",
+      "id": "egypt--freiburg-university-cancer-center--national-cancer-institute-new-500500-hospital-sheikh-zayed"
+    },
+    {
+      "foreign_institution": "Gruppo San Donato (with GKSD Group)",
+      "foreign_country": "Italy",
+      "group": "Other foreign health systems",
+      "indian_partner": "Ministry of Health and Population and Health Insurance Organization (New Heliopolis Hospital)",
+      "partner_city": "Cairo",
+      "type": "Ownership or management",
+      "description": "Agreement signed with Egypt's Health Insurance Organization to manage the New Heliopolis Hospital for 15 years, with the contract starting in 2027 once construction is complete. In September 2026 the health minister met San Donato and GKSD and raised the planned capacity from 424 to 495 beds.",
+      "status": "Active",
+      "start": "2026-03",
+      "end": "",
+      "last_evidence": "2026-09",
+      "evidence": "Signed 30 March 2026 at EGYPS (Italpress, LaPresse). Daily News Egypt, 28 September 2026, reports the minister's meeting with San Donato, GKSD and Eni on accelerating the hospital. A 1 September 2026 report says the ministry is reviewing a concession proposal for the hospital, naming no party, so the contract may not be final.",
+      "sources": [
+        {
+          "author": "Italpress",
+          "title": "GKSD and Gruppo San Donato sign agreement to manage new hospital in Egypt",
+          "publisher": "Italpress",
+          "date": "2026-03-31",
+          "url": "https://www.italpress.com/?p=665165"
+        },
+        {
+          "author": "LaPresse",
+          "title": "Il Gruppo San Donato gestirà per 15 anni un nuovo ospedale al Cairo",
+          "publisher": "LaPresse",
+          "date": "2026-03-31",
+          "url": "https://www.lapresse.it/salute/sanita/2026/03/31/il-gruppo-san-donato-gestira-per-15-anni-nuovo-ospedale-al-cairo/"
+        },
+        {
+          "author": "Daily News Egypt",
+          "title": "Health ministry accelerates New Heliopolis Hospital project, raises capacity to 495 beds",
+          "publisher": "Daily News Egypt",
+          "date": "2026-09-28",
+          "url": "https://www.dailynewsegypt.com/2026/09/28/health-ministry-accelerates-new-heliopolis-hospital-project-raises-capacity-to-495-beds/"
+        },
+        {
+          "author": "Daily News Egypt",
+          "title": "Health Ministry reviews concession to operate New Heliopolis Hospital",
+          "publisher": "Daily News Egypt",
+          "date": "2026-09-01",
+          "url": "https://www.dailynewsegypt.com/2026/09/01/health-ministry-reviews-concession-to-operate-new-heliopolis-hospital/"
+        }
+      ],
+      "country": "Egypt",
+      "last_checked": "2026-10-05",
+      "id": "egypt--gruppo-san-donato-with-gksd-group--ministry-of-health-and-population-and-health-insurance-organization-new-heliopolis-hospital"
+    },
+    {
+      "foreign_institution": "Gustave Roussy (Gustave Roussy International)",
+      "foreign_country": "France",
+      "group": "Other foreign health systems",
+      "indian_partner": "Gustave Roussy International Egypt (former Dar Al-Salam Hermel Oncology Hospital), with the Egyptian government and Elevate P.E.",
+      "partner_city": "Cairo",
+      "type": "Clinical affiliation",
+      "description": "Gustave Roussy licensed its brand to a Cairo cancer center (the former Dar Al-Salam Hermel Oncology Hospital) that opened in April 2025, in partnership with the Egyptian government and Elevate P.E., with training of Egyptian staff. The Universal Health Insurance Authority signed a services agreement with the center in May 2025.",
+      "status": "Active",
+      "start": "2025-04",
+      "end": "",
+      "last_evidence": "2025-05",
+      "evidence": "Gustave Roussy news page published 9 April 2025 confirms the brand licensing agreement and opening; Amwal Al Ghad reports the UHIA services agreement signed 28 May 2025. Nothing newer found.",
+      "sources": [
+        {
+          "author": "Gustave Roussy",
+          "title": "Opening of the First Gustave Roussy-Branded Facility in Egypt",
+          "publisher": "Gustave Roussy",
+          "date": "2025-04-09",
+          "url": "https://www.gustaveroussy.fr/en/news-opening-first-gustave-roussy-branded-facility-egypt"
+        },
+        {
+          "author": "Amwal Al Ghad",
+          "title": "Egypt's UHIA signs oncology care deal with Gustave Roussy",
+          "publisher": "Amwal Al Ghad",
+          "date": "2025-05-28",
+          "url": "https://en.amwalalghad.com/?p=203380"
+        }
+      ],
+      "country": "Egypt",
+      "last_checked": "2026-10-05",
+      "id": "egypt--gustave-roussy-gustave-roussy-international--gustave-roussy-international-egypt-former-dar-al-salam-hermel-oncology-hospital-with-the-egyptian-government-and-elevate-p-e"
+    },
+    {
+      "foreign_institution": "University of Oxford",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Institute (new '500500' hospital), Cairo University",
+      "partner_city": "Giza",
+      "type": "Research collaboration",
+      "description": "Memorandum of understanding to develop gene therapy for cancer at the new 500500 National Cancer Institute hospital.",
+      "status": "Active",
+      "start": "2024-12",
+      "end": "",
+      "last_evidence": "2024-12",
+      "evidence": "Reported by the higher education minister at the cabinet meeting of 24 December 2024 alongside the Freiburg agreement (inside the window, so Active under the rule); single Egyptian-side source, no Oxford-side release or later evidence found.",
+      "sources": [
+        {
+          "author": "Daily News Egypt",
+          "title": "'500500' Hospital project to enhance cancer care, says Egyptian PM",
+          "publisher": "Daily News Egypt",
+          "date": "2024-12-24",
+          "url": "https://www.dailynewsegypt.com/2024/12/24/500500-hospital-project-to-enhance-cancer-care-says-egyptian-pm/"
+        }
+      ],
+      "country": "Egypt",
+      "last_checked": "2026-10-05",
+      "id": "egypt--university-of-oxford--national-cancer-institute-new-500500-hospital-cairo-university"
+    },
+    {
+      "foreign_institution": "Great Ormond Street Hospital for Children NHS Foundation Trust",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "Ain Shams University Hospitals (Children's Hospital)",
+      "partner_city": "Cairo",
+      "type": "Training and education",
+      "description": "Five year program funded by the CIB Foundation in intensive care, hematology and oncology, with visiting GOSH consultants, a clinical education program and observerships in London.",
+      "status": "Unclear",
+      "start": "2020-08",
+      "end": "",
+      "last_evidence": "2021-12",
+      "evidence": "Contract signed August 2020 (GOV.UK). Ain Shams reported a GOSH delegation visit 'activating the partnership' on 8 December 2021. The five year term would have run to about 2025; no later evidence found.",
+      "sources": [
+        {
+          "author": "British Embassy Cairo",
+          "title": "GOSH Hospital signs a five-year contract with Ain Shams University Hospital",
+          "publisher": "GOV.UK",
+          "date": "2020-08-19",
+          "url": "https://www.gov.uk/government/news/gosh-hospital-signs-a-five-year-contract-with-ain-shams-university-hospital"
+        },
+        {
+          "author": "Ain Shams University",
+          "title": "Activating the partnership between Ain Shams University Hospitals and GOSH British Hospital",
+          "publisher": "Ain Shams University",
+          "date": "2021-12-08",
+          "url": "https://www.asu.edu.eg/3337/news"
+        }
+      ],
+      "country": "Egypt",
+      "last_checked": "2026-10-05",
+      "id": "egypt--great-ormond-street-hospital-for-children-nhs-foundation-trust--ain-shams-university-hospitals-children-s-hospital"
+    },
+    {
+      "foreign_institution": "Royal Brompton and Harefield Hospitals (Guy's and St Thomas' NHS Foundation Trust)",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "Ain Shams University Hospitals (Cardiovascular Diseases and Surgery Hospital)",
+      "partner_city": "Cairo",
+      "type": "Clinical affiliation",
+      "description": "Cooperation protocol signed in November 2021 to build an aortic surgery center at Ain Shams, with visiting British surgical teams, clinical systems development, education and research. A second protocol in June 2022, with Essentia Trending, covers development of the Ain Shams Oncology Center.",
+      "status": "Unclear",
+      "start": "2021-11",
+      "end": "",
+      "last_evidence": "2024-01",
+      "evidence": "Ain Shams news: protocol 15 November 2021; oncology protocol 16 June 2022; a Royal Brompton aortic team visit announced for 13 to 18 January 2024 (news of 4 January 2024). Nothing newer found.",
+      "sources": [
+        {
+          "author": "Ain Shams University",
+          "title": "A cooperation protocol between Ain Shams University Hospitals, Royal Brompton and Harefield Hospitals",
+          "publisher": "Ain Shams University",
+          "date": "2021-11-15",
+          "url": "https://www.asu.edu.eg/3150/news"
+        },
+        {
+          "author": "Ain Shams University",
+          "title": "A cooperation protocol between Ain Shams University Hospitals, Guy's Hospital, St. Thomas Hospital, NHS and Essentia Trending Limited",
+          "publisher": "Ain Shams University",
+          "date": "2022-06-16",
+          "url": "https://www.asu.edu.eg/4427/news"
+        },
+        {
+          "author": "Ain Shams University",
+          "title": "The British Royal Brompton crew arrives at the Heart Academy on January 13",
+          "publisher": "Ain Shams University",
+          "date": "2024-01-04",
+          "url": "https://www.asu.edu.eg/7191/news"
+        }
+      ],
+      "country": "Egypt",
+      "last_checked": "2026-10-05",
+      "id": "egypt--royal-brompton-and-harefield-hospitals-guy-s-and-st-thomas-nhs-foundation-trust--ain-shams-university-hospitals-cardiovascular-diseases-and-surgery-hospital"
+    },
+    {
+      "foreign_institution": "University of Hertfordshire",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "Cleopatra Hospitals Group",
+      "partner_city": "Cairo",
+      "type": "Training and education",
+      "description": "MoU on clinical pharmacy, pharmaceutical care, IT, training and research.",
+      "status": "Unclear",
+      "start": "2023-07",
+      "end": "",
+      "last_evidence": "2023-07",
+      "evidence": "Cleopatra press release of 12 July 2023; nothing newer found. Signed with the university's Cairo branch.",
+      "sources": [
+        {
+          "author": "Cleopatra Hospitals Group",
+          "title": "Cleopatra Hospitals Group signs MoU with the University of Hertfordshire",
+          "publisher": "Cleopatra Hospitals Group",
+          "date": "2023-07-12",
+          "url": "https://cleopatrahospitals.com/en/media-center/cleopatra-hospitals-group-is-proud-to-announce-the-signing-of-a-memorandum-of-understanding-mou-with-the-university-of-hertfordshire"
+        }
+      ],
+      "country": "Egypt",
+      "last_checked": "2026-10-05",
+      "id": "egypt--university-of-hertfordshire--cleopatra-hospitals-group"
+    },
+    {
       "foreign_institution": "Children's Hospital of Philadelphia (CHOP)",
       "foreign_country": "United States",
       "group": "US academic medical centers",

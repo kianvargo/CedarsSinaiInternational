@@ -1,0 +1,1065 @@
+{
+ "country": "Egypt",
+ "generated_date": "2026-10-05",
+ "research": {
+  "country_overview": {
+   "demographics": {
+    "facts": [
+     {
+      "label": "Capital",
+      "value": "Cairo{{5}}"
+     },
+     {
+      "label": "Official language",
+      "value": "Arabic{{5}}"
+     },
+     {
+      "label": "Population",
+      "value": "About 108.6 million (start of 2026, national count){{1}}"
+     },
+     {
+      "label": "Area",
+      "value": "About 1,001,450 sq km{{2}}"
+     },
+     {
+      "label": "GDP (PPP), total",
+      "value": "About $2.39 trillion (2025){{3}}"
+     },
+     {
+      "label": "GDP (PPP), per capita",
+      "value": "About $20,200 (2025){{4}}"
+     },
+     {
+      "label": "Government type",
+      "value": "Republic with a directly elected president and a bicameral parliament{{5}}"
+     },
+     {
+      "label": "Head of state",
+      "value": "President Abdel Fattah el-Sisi{{7}}"
+     },
+     {
+      "label": "Head of government",
+      "value": "Prime Minister Mostafa Madbouly{{8}}"
+     },
+     {
+      "label": "Currency",
+      "value": "Egyptian pound (EGP){{13}}"
+     },
+     {
+      "label": "Urban population",
+      "value": "42.9% (2025){{11}}"
+     },
+     {
+      "label": "Total fertility rate",
+      "value": "2.41 births per woman (2024, national figure){{9}}"
+     },
+     {
+      "label": "Infant mortality rate",
+      "value": "20.8 per 1,000 live births (2024){{10}}"
+     }
+    ],
+    "narrative": "Egypt is the most populous Arab country. Its national count reached about 108.6 million at the start of 2026, up from 94.8 million in 2017, and CAPMAS projects it will become the world's 11th most populous country by 2050.{{1}} Growth is slowing. The health ministry's total fertility rate fell to 2.41 in 2024 from 2.54 in 2023, and annual births dropped below two million for the first time in nearly two decades.{{9}} The World Bank's estimate, which draws on UN population modeling, is higher, at about 118 million for 2025.{{12}} Only about 43 percent of people live in urban areas, and most of the population lives along the Nile valley and delta on a small share of the country's roughly one million square kilometers.{{11}}{{2}}\n\nFor a foreign academic medical center, the demographic picture points to a very large domestic patient base that is still young but beginning to age, with growing demand for chronic disease care, cardiology, oncology and maternal and child services. The public Healthcare Authority's medical tourism program is still small, earning about $8 million in 2025, so the larger opportunity lies in training, quality systems and specialty programs for a population of this size.{{6}}",
+    "sources": [
+     {
+      "author": "Central Agency for Public Mobilization and Statistics (CAPMAS)",
+      "title": "Egypt projected to become world's 11th most populous country by 2050",
+      "publisher": "Ahram Online",
+      "date": "July 2026",
+      "url": "https://english.ahram.org.eg/News/572647.aspx"
+     },
+     {
+      "author": "World Bank",
+      "title": "Surface area (sq. km) (AG.SRF.TOTL.K2), Egypt, Arab Rep.",
+      "publisher": "World Development Indicators",
+      "date": "2026",
+      "url": "https://data.worldbank.org/indicator/AG.SRF.TOTL.K2?locations=EG"
+     },
+     {
+      "author": "World Bank",
+      "title": "GDP, PPP (current international $) (NY.GDP.MKTP.PP.CD), Egypt, Arab Rep.",
+      "publisher": "World Development Indicators",
+      "date": "2026",
+      "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD?locations=EG"
+     },
+     {
+      "author": "World Bank",
+      "title": "GDP per capita, PPP (current international $) (NY.GDP.PCAP.PP.CD), Egypt, Arab Rep.",
+      "publisher": "World Development Indicators",
+      "date": "2026",
+      "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=EG"
+     },
+     {
+      "author": "Constitute Project",
+      "title": "Egypt's Constitution of 2014 with Amendments through 2019",
+      "publisher": "Constitute Project",
+      "date": "2019",
+      "url": "https://www.constituteproject.org/constitution/Egypt_2019"
+     },
+     {
+      "author": "Egyptian Streets",
+      "title": "Egypt's Medical Tourism Revenues Hit $8 Million in 2025",
+      "publisher": "Egyptian Streets",
+      "date": "2026-03-29",
+      "url": "https://egyptianstreets.com/2026/03/29/egypts-medical-tourism-revenues-hit-8-million-in-2025/"
+     },
+     {
+      "author": "Al-Monitor",
+      "title": "Egyptian president Sisi sworn in for third term",
+      "publisher": "Al-Monitor",
+      "date": "2 April 2024",
+      "url": "https://www.al-monitor.com/originals/2024/04/egyptian-president-sisi-sworn-third-term"
+     },
+     {
+      "author": "Amwal Al Ghad",
+      "title": "Egypt's parliament approves Cabinet reshuffle under PM Madbouly",
+      "publisher": "Amwal Al Ghad",
+      "date": "February 2026",
+      "url": "https://en.amwalalghad.com/?p=225102"
+     },
+     {
+      "author": "Gulf News",
+      "title": "Annual births in Egypt fall below two million for the first time in nearly two decades",
+      "publisher": "Gulf News",
+      "date": "2025",
+      "url": "https://gulfnews.com/world/mena/annual-births-in-egypt-fall-below-two-million-for-the-first-time-in-nearly-two-decades-1.500027040"
+     },
+     {
+      "author": "World Bank",
+      "title": "Mortality rate, infant (per 1,000 live births) (SP.DYN.IMRT.IN), Egypt, Arab Rep.",
+      "publisher": "World Development Indicators",
+      "date": "2026",
+      "url": "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN?locations=EG"
+     },
+     {
+      "author": "World Bank",
+      "title": "Urban population (% of total population) (SP.URB.TOTL.IN.ZS), Egypt, Arab Rep.",
+      "publisher": "World Development Indicators",
+      "date": "2026",
+      "url": "https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS?locations=EG"
+     },
+     {
+      "author": "World Bank",
+      "title": "Population, total (SP.POP.TOTL), Egypt, Arab Rep.",
+      "publisher": "World Development Indicators",
+      "date": "2026",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=EG"
+     },
+     {
+      "author": "Central Bank of Egypt",
+      "title": "Egypt's central bank floats the Egyptian pound against the US dollar",
+      "publisher": "The New Arab",
+      "date": "March 2024",
+      "url": "https://www.newarab.com/news/egypts-central-bank-floats-egyptian-pound-against-us-dollar"
+     }
+    ]
+   },
+   "government": {
+    "narrative": "Egypt is a republic with a strong, directly elected presidency under the 2014 Constitution, as amended in 2019. The amendments lengthened presidential terms from four to six years and added an upper chamber, the Senate, alongside the House of Representatives.{{1}}{{5}} President Abdel Fattah el-Sisi was sworn in for a third six-year term in April 2024, which runs to 2030.{{2}} Prime Minister Mostafa Madbouly leads the cabinet, and a reshuffle in February 2026 kept Khaled Abdel Ghaffar as Minister of Health and Population, no longer also deputy prime minister for human development.{{3}}{{6}} The prime minister personally reviews major health reforms, including amendments to the Universal Health Insurance Law that are meant to secure the system's finances before it expands to more governorates.{{4}} Health policy is therefore set centrally, and decisions on hospitals, insurance and private partnerships generally pass through the cabinet.",
+    "sources": [
+     {
+      "author": "Constitute Project",
+      "title": "Egypt's Constitution of 2014 with Amendments through 2019",
+      "publisher": "Constitute Project",
+      "date": "2019",
+      "url": "https://www.constituteproject.org/constitution/Egypt_2019"
+     },
+     {
+      "author": "Al-Monitor",
+      "title": "Egyptian president Sisi sworn in for third term",
+      "publisher": "Al-Monitor",
+      "date": "2 April 2024",
+      "url": "https://www.al-monitor.com/originals/2024/04/egyptian-president-sisi-sworn-third-term"
+     },
+     {
+      "author": "Amwal Al Ghad",
+      "title": "Egypt's parliament approves Cabinet reshuffle under PM Madbouly",
+      "publisher": "Amwal Al Ghad",
+      "date": "February 2026",
+      "url": "https://en.amwalalghad.com/?p=225102"
+     },
+     {
+      "author": "Zawya / Arab Finance",
+      "title": "Egypt: Madbouly reviews amendments to Universal Health Insurance Law ahead of second phase expansion",
+      "publisher": "Zawya",
+      "date": "2026",
+      "url": "https://www.zawya.com/en/economy/north-africa/egypt-madbouly-reviews-amendments-to-universal-health-insurance-law-ahead-of-second-phase-expansion-nymrg2si"
+     },
+     {
+      "author": "Egyptian Streets",
+      "title": "Parliament approves constitutional amendments extending president's term",
+      "publisher": "Egyptian Streets",
+      "date": "16 April 2019",
+      "url": "https://egyptianstreets.com/2019/04/16/parliament-approves-constitutional-amendments-extending-president-term"
+     },
+     {
+      "author": "Business Today Egypt",
+      "title": "Egyptian parliament approves cabinet reshuffle",
+      "publisher": "Business Today Egypt",
+      "date": "2026-02-10",
+      "url": "https://www.businesstodayegypt.com/amp/1/7128/Egyptian-parliament-approves-cabinet-reshuffle"
+     }
+    ]
+   },
+   "economy": {
+    "narrative": "Egypt is one of the largest Arab economies, with GDP of about $2.39 trillion on a purchasing power parity basis in 2025.{{5}} The economy is recovering from a severe currency and inflation shock. Consumer price inflation was 14.1 percent in 2025 after 28.3 percent in 2024.{{4}} On 30 July 2026 the IMF Executive Board completed the seventh review of Egypt's Extended Fund Facility and the second review of its Resilience and Sustainability Facility, unlocking about $1.77 billion and pressing for faster structural reforms and a smaller state footprint.{{1}}{{2}} The Fund expects growth of about 4.6 percent in FY2025/26 and 4.4 percent in FY2026/27, and it expects inflation to rise to about 16.7 percent in the second half of 2026, delaying its return to the central bank's target range by about a year.{{1}}{{2}} The FY2026/27 budget targets growth of 5.4 percent and raises health spending by 30 percent.{{3}} The government is also courting private capital, and private investment reached 47 percent of total investment in FY2024/25, its highest share in five years, according to the finance ministry.{{6}}",
+    "sources": [
+     {
+      "author": "International Monetary Fund",
+      "title": "IMF Executive Board Completes the Seventh Review Under the Extended Arrangement Under the Extended Fund Facility and Second Review Under the Resilience and Sustainability Facility Arrangement for Egypt (PR26/271)",
+      "publisher": "International Monetary Fund",
+      "date": "2026-07-30",
+      "url": "https://www.imf.org/en/news/articles/2026/07/30/pr26271-egypt-imf-completes-the-7th-review-under-eff-and-2nd-review-under-the-rsf"
+     },
+     {
+      "author": "Daily News Egypt",
+      "title": "IMF board approves $1.8bn disbursement for Egypt following seventh review",
+      "publisher": "Daily News Egypt",
+      "date": "2026-07-31",
+      "url": "https://www.dailynewsegypt.com/2026/07/31/imf-board-approves-1-8bn-disbursement-for-egypt-following-seventh-review/"
+     },
+     {
+      "author": "Zawya / Arab Finance",
+      "title": "Egypt prioritizes health, education in FY 2026/2027 budget with increased spending, tax reforms",
+      "publisher": "Zawya",
+      "date": "2026",
+      "url": "https://www.zawya.com/en/economy/north-africa/egypt-prioritizes-health-education-in-fy-2026-2027-budget-with-increased-spending-tax-reforms-n5c22ehs"
+     },
+     {
+      "author": "World Bank",
+      "title": "Inflation, consumer prices (annual %) (FP.CPI.TOTL.ZG), Egypt, Arab Rep.",
+      "publisher": "World Development Indicators",
+      "date": "2026",
+      "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=EG"
+     },
+     {
+      "author": "World Bank",
+      "title": "GDP, PPP (current international $) (NY.GDP.MKTP.PP.CD), Egypt, Arab Rep.",
+      "publisher": "World Development Indicators",
+      "date": "2026",
+      "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD?locations=EG"
+     },
+     {
+      "author": "Nadim Kawach",
+      "title": "Egypt announces project to build medical city in Cairo",
+      "publisher": "Arab Gulf Business Insight",
+      "date": "2026-01-20",
+      "url": "https://www.agbi.com/health/2026/01/egypt-announces-project-to-build-medical-city-in-cairo/"
+     }
+    ]
+   },
+   "disease_prevalence": {
+    "facts": [
+     {
+      "label": "NCD share of all deaths",
+      "value": "About 80%, as stated by the Deputy Health Minister (2025){{1}}"
+     },
+     {
+      "label": "Cardiovascular share of all deaths",
+      "value": "About 44% (2025){{1}}"
+     },
+     {
+      "label": "Hepatitis C",
+      "value": "WHO gold tier on the path to elimination (October 2023){{2}}"
+     }
+    ],
+    "narrative": "Noncommunicable diseases now dominate Egypt's disease burden. In September 2025 Deputy Health Minister Amr Kandil said they account for about 80 percent of deaths, with cardiovascular disease alone responsible for 44 percent.{{1}} World Bank data put the NCD share of deaths at about 86 percent in 2019, before COVID-19 deaths temporarily lowered the share in 2020 and 2021, so the two sources agree that chronic disease is the central challenge.{{3}} Egypt's past infectious disease burden has shifted sharply. In October 2023 WHO named Egypt the first country to reach the gold tier on the path to eliminating hepatitis C, after it diagnosed 87 percent of people living with the infection and treated 93 percent of those diagnosed.{{2}} The health authority is now emphasizing cardiac prevention, and it plans seven new cardiac excellence centers under the second phase of universal health insurance, four of them in Minya.{{1}} WHO's national STEPwise survey program tracks risk factors such as raised blood pressure, raised glucose and obesity.{{4}}",
+    "sources": [
+     {
+      "author": "Daily News Egypt",
+      "title": "Egypt hosts second annual Cardiac Excellence Conference amid rising burden of noncommunicable diseases",
+      "publisher": "Daily News Egypt",
+      "date": "30 September 2025",
+      "url": "https://www.dailynewsegypt.com/2025/09/30/egypt-hosts-second-annual-cardiac-excellence-conference-amid-rising-burden-of-noncommunicable-diseases/"
+     },
+     {
+      "author": "World Health Organization Regional Office for the Eastern Mediterranean",
+      "title": "Egypt becomes the first country to achieve WHO validation on the path to elimination of hepatitis C",
+      "publisher": "WHO EMRO",
+      "date": "9 October 2023",
+      "url": "https://www.emro.who.int/media/news/egypt-becomes-the-first-country-to-achieve-who-validation-on-the-path-to-elimination-of-hepatitis-c.html"
+     },
+     {
+      "author": "World Bank",
+      "title": "Cause of death, by non-communicable diseases (% of total) (SH.DTH.NCOM.ZS), Egypt, Arab Rep.",
+      "publisher": "World Development Indicators",
+      "date": "2026",
+      "url": "https://data.worldbank.org/indicator/SH.DTH.NCOM.ZS?locations=EG"
+     },
+     {
+      "author": "World Health Organization",
+      "title": "Egypt STEPwise approach to risk factor surveillance",
+      "publisher": "WHO EMRO",
+      "date": "",
+      "url": "https://www.emro.who.int/egy/egypt-infocus/stepwise-surveillance.html"
+     }
+    ]
+   }
+  },
+  "health_system": {
+   "public_system": {
+    "narrative": "Egypt's public health system is run by several bodies. The Ministry of Health and Population oversees primary care and general hospitals, university hospitals sit under the higher education ministry, and the General Authority for Healthcare operates facilities in governorates that have moved to the new insurance model.{{1}}{{3}} University hospitals grew from 88 in 2013 to 147 in 2026, with their annual budget rising from EGP 10 billion to EGP 28 billion.{{3}}\n\nThe flagship reform is Universal Health Insurance, which separates the purchaser (the Universal Health Insurance Authority) from the providers and contracts with both public and private facilities. Phase one has been completed in six governorates: Port Said, Ismailia, Suez, South Sinai, Luxor and Aswan.{{2}} Phase two covers Minya, Matrouh, Damietta, Kafr El-Sheikh and North Sinai.{{4}} Minya, with more than six million residents, is the first phase-two governorate and is starting with a one-year trial, supported by projects expected to add about 1,506 hospital beds.{{1}}{{5}} Private providers make up 35 percent of contracted providers, and the government is amending the law to put the authority's finances on a sustainable footing.{{2}}",
+    "sources": [
+     {
+      "author": "Daily News Egypt (via Zawya)",
+      "title": "Egypt prepares to extend Universal Health Insurance to Minya in second phase",
+      "publisher": "Zawya",
+      "date": "2026",
+      "url": "https://www.zawya.com/en/business/healthcare/egypt-prepares-to-extend-universal-health-insurance-to-minya-in-second-phase-pvumdu10"
+     },
+     {
+      "author": "Zawya / Arab Finance",
+      "title": "Egypt: Madbouly reviews amendments to Universal Health Insurance Law ahead of second phase expansion",
+      "publisher": "Zawya",
+      "date": "2026",
+      "url": "https://www.zawya.com/en/economy/north-africa/egypt-madbouly-reviews-amendments-to-universal-health-insurance-law-ahead-of-second-phase-expansion-nymrg2si"
+     },
+     {
+      "author": "Ministry of Higher Education and Scientific Research",
+      "title": "Egypt's higher education and scientific research system achieves unprecedented progress over 13 years (2013-2026)",
+      "publisher": "Ministry of Higher Education and Scientific Research",
+      "date": "June 2026",
+      "url": "https://dportal.mohesr.gov.eg/en/all-news/on-the-anniversary-of-the-june-30-revolution-egypt’s-higher-education-and-scientific-research-system-achieves-unprecedented-progress-over-13-years-2013–2026"
+     },
+     {
+      "author": "Amwal Al Ghad",
+      "title": "Egypt's PM reviews rollout of second phase of universal health insurance scheme",
+      "publisher": "Amwal Al Ghad",
+      "date": "2025-12-22",
+      "url": "https://en.amwalalghad.com/?p=223893"
+     },
+     {
+      "author": "Daily News Egypt",
+      "title": "Egypt gears up to launch universal health insurance in Minya",
+      "publisher": "Daily News Egypt",
+      "date": "2026-06-13",
+      "url": "https://www.dailynewsegypt.com/2026/06/13/egypt-gears-up-to-launch-universal-health-insurance-in-minya/"
+     }
+    ]
+   },
+   "private_system": {
+    "narrative": "Egypt's private sector is large, fragmented and still concentrated in Greater Cairo and Alexandria. Out-of-pocket payments covered 57 percent of current health spending in 2023, which sustains demand for private clinics and hospitals among those who can pay.{{5}} Cleopatra Hospitals Group, listed on the Egyptian Exchange, reports the largest patient base of any private provider and had about 1,000 operating beds at the end of 2025 across a network that grew to 17 facilities.{{1}} It officially opened Cleopatra El Tagamoa in East Cairo on 27 January 2026, after a phased outpatient launch in late December 2025, and plans to expand it to 240 beds during 2026.{{6}} Saudi German Hospital Cairo, part of the Saudi-owned Saudi German Health group, became in 2019 the first provider in Egypt and Africa to join the Mayo Clinic Care Network, and the group expanded its Mayo relationship in October 2025.{{2}}{{7}}{{8}} In 2019 the group said it planned to invest EGP 40 to 50 billion in Egypt over 15 years.{{9}} Dar Al Fouad is another leading private hospital in Cairo.{{4}} Private groups are also contracting with the insurance authority, which positions them as long-term partners in the national reform.{{3}}",
+    "sources": [
+     {
+      "author": "Cleopatra Hospitals Group",
+      "title": "Investor Relations Presentation FY2025",
+      "publisher": "Cleopatra Hospitals Group",
+      "date": "2026",
+      "url": "https://www.cleopatrahospitals.com/media/qcxjlaq4/chg-irp-fy2025.pdf"
+     },
+     {
+      "author": "Mayo Clinic News Network",
+      "title": "Saudi German Hospital Cairo joins Mayo Clinic Care Network",
+      "publisher": "Mayo Clinic",
+      "date": "2019-07-15",
+      "url": "https://newsnetwork.mayoclinic.org/discussion/saudi-german-hospital-cairo-joins-mayo-clinic-care-network/"
+     },
+     {
+      "author": "Zawya / Arab Finance",
+      "title": "Egypt: Madbouly reviews amendments to Universal Health Insurance Law ahead of second phase expansion",
+      "publisher": "Zawya",
+      "date": "2026",
+      "url": "https://www.zawya.com/en/economy/north-africa/egypt-madbouly-reviews-amendments-to-universal-health-insurance-law-ahead-of-second-phase-expansion-nymrg2si"
+     },
+     {
+      "author": "International Finance Corporation",
+      "title": "Dar Al Fouad",
+      "publisher": "IFC Disclosures",
+      "date": "",
+      "url": "https://disclosures.ifc.org/project-detail/ERS/24418/dar-al-fouad"
+     },
+     {
+      "author": "World Bank",
+      "title": "Out-of-pocket expenditure (% of current health expenditure) (SH.XPD.OOPC.CH.ZS), Egypt, Arab Rep.",
+      "publisher": "World Development Indicators",
+      "date": "2026",
+      "url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=EG"
+     },
+     {
+      "author": "Cleopatra Hospitals Group",
+      "title": "Cleopatra Hospitals Group Reports 1Q2026 Results (earnings release)",
+      "publisher": "Cleopatra Hospitals Group",
+      "date": "2026-06-07",
+      "url": "https://www.cleopatrahospitals.com/media/5xajea03/cleopatra-earnings-release-1q2026.pdf"
+     },
+     {
+      "author": "Andy Brownell",
+      "title": "Egyptian Hospital Joins Mayo Clinic Care Network",
+      "publisher": "KROC News",
+      "date": "2019-07-15",
+      "url": "https://krocnews.com/egyptian-hospital-joins-mayo-clinic-care-network/"
+     },
+     {
+      "author": "Trade Arabia",
+      "title": "Saudi German Health boosts relationship with Mayo Clinic",
+      "publisher": "Trade Arabia",
+      "date": "2025-10-04",
+      "url": "https://tradearabia.com/News/328805/Saudi-German-Health-boosts-relationship-with-Mayo-Clinic"
+     },
+     {
+      "author": "Enterprise",
+      "title": "Saudi German Hospital to invest tens of bns in Egypt as part of 15-year plan",
+      "publisher": "Enterprise",
+      "date": "2019-07-16",
+      "url": "https://enterpriseam.com/egypt/2019/07/16/saudi-german-hospital-to-invest-tens-of-bns-in-egypt-as-part-of-15-year-plan/"
+     }
+    ]
+   },
+   "financing": {
+    "facts": [
+     {
+      "label": "Current health expenditure, share of GDP",
+      "value": "4.9% (2023){{1}}"
+     },
+     {
+      "label": "Current health expenditure per capita",
+      "value": "$141 (2023){{2}}"
+     },
+     {
+      "label": "Out-of-pocket share of current health expenditure",
+      "value": "57.2% (2023){{3}}"
+     },
+     {
+      "label": "Government health expenditure, share of GDP",
+      "value": "1.6% (2023){{4}}"
+     }
+    ],
+    "narrative": "Egypt spent about 4.9 percent of GDP on health in 2023, or roughly $141 per person, and the figure has stayed between about 4.2 and 5.4 percent since 2010.{{1}}{{2}} Households carry most of the cost. Out-of-pocket payments were 57 percent of current health spending in 2023, and domestic government spending was only 1.6 percent of GDP.{{3}}{{4}} The 2014 Constitution commits the state to government health spending of at least 3 percent of national output, rising gradually to global rates, so measured public spending remains well short of the constitutional floor.{{6}}{{4}} The FY2026/27 budget raises the health allocation by 30 percent, including EGP 47.5 billion for state-funded treatment, health insurance and medicines and EGP 90.5 billion for the Unified Procurement Authority.{{5}} The currency devaluations of 2022 and 2023 cut the dollar value of per capita spending, which is why the 2023 figure is below the 2021 figure of about $177.{{2}}",
+    "sources": [
+     {
+      "author": "World Bank",
+      "title": "Current health expenditure (% of GDP) (SH.XPD.CHEX.GD.ZS), Egypt, Arab Rep.",
+      "publisher": "World Development Indicators",
+      "date": "2026",
+      "url": "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS?locations=EG"
+     },
+     {
+      "author": "World Bank",
+      "title": "Current health expenditure per capita (current US$) (SH.XPD.CHEX.PC.CD), Egypt, Arab Rep.",
+      "publisher": "World Development Indicators",
+      "date": "2026",
+      "url": "https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD?locations=EG"
+     },
+     {
+      "author": "World Bank",
+      "title": "Out-of-pocket expenditure (% of current health expenditure) (SH.XPD.OOPC.CH.ZS), Egypt, Arab Rep.",
+      "publisher": "World Development Indicators",
+      "date": "2026",
+      "url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=EG"
+     },
+     {
+      "author": "World Bank",
+      "title": "Domestic general government health expenditure (% of GDP) (SH.XPD.GHED.GD.ZS), Egypt, Arab Rep.",
+      "publisher": "World Development Indicators",
+      "date": "2026",
+      "url": "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS?locations=EG"
+     },
+     {
+      "author": "Zawya / Arab Finance",
+      "title": "Egypt prioritizes health, education in FY 2026/2027 budget with increased spending, tax reforms",
+      "publisher": "Zawya",
+      "date": "2026",
+      "url": "https://www.zawya.com/en/economy/north-africa/egypt-prioritizes-health-education-in-fy-2026-2027-budget-with-increased-spending-tax-reforms-n5c22ehs"
+     },
+     {
+      "author": "Constitute Project",
+      "title": "Egypt's Constitution of 2014 with Amendments through 2019",
+      "publisher": "Constitute Project",
+      "date": "2019",
+      "url": "https://www.constituteproject.org/constitution/Egypt_2019"
+     }
+    ]
+   },
+   "workforce": {
+    "facts": [
+     {
+      "label": "Physicians per 1,000",
+      "value": "0.67 (2020){{1}}"
+     },
+     {
+      "label": "Nurses and midwives per 1,000",
+      "value": "1.79 (2018){{2}}"
+     },
+     {
+      "label": "Hospital beds per 1,000",
+      "value": "1.06 (2021){{3}}"
+     },
+     {
+      "label": "Physicians per 1,000, OECD average",
+      "value": "3.43 (2022){{1}}"
+     }
+    ],
+    "narrative": "Egypt has about 0.67 physicians and 1.79 nurses and midwives per 1,000 people, and 1.06 hospital beds per 1,000.{{1}}{{2}}{{3}} The physician ratio is about a fifth of the OECD average of 3.43 and well below Saudi Arabia, Jordan and Turkey.{{1}} Bed density has fallen from 1.4 per 1,000 in 2011 to 1.06 in 2021 as the population grew faster than capacity.{{3}} Emigration worsens the shortage. The Egyptian Medical Syndicate reports that only 38 percent of doctors licensed in Egypt work in the country, with the rest abroad or on extended leave, and nearly 7,000 doctors left to work abroad in 2023 alone.{{4}} This is why the syndicate's register of licensed doctors is far larger than the number the World Bank counts as practicing.{{4}}{{1}}",
+    "sources": [
+     {
+      "author": "World Bank",
+      "title": "Physicians (per 1,000 people) (SH.MED.PHYS.ZS), Egypt, Arab Rep.",
+      "publisher": "World Development Indicators",
+      "date": "2026",
+      "url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=EG"
+     },
+     {
+      "author": "World Bank",
+      "title": "Nurses and midwives (per 1,000 people) (SH.MED.NUMW.P3), Egypt, Arab Rep.",
+      "publisher": "World Development Indicators",
+      "date": "2026",
+      "url": "https://data.worldbank.org/indicator/SH.MED.NUMW.P3?locations=EG"
+     },
+     {
+      "author": "World Bank",
+      "title": "Hospital beds (per 1,000 people) (SH.MED.BEDS.ZS), Egypt, Arab Rep.",
+      "publisher": "World Development Indicators",
+      "date": "2026",
+      "url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=EG"
+     },
+     {
+      "author": "Egyptian Streets",
+      "title": "Doctors overworked and underpaid continue to leave Egypt",
+      "publisher": "Egyptian Streets",
+      "date": "14 May 2025",
+      "url": "https://egyptianstreets.com/2025/05/14/doctors-overworked-and-underpaid-continue-to-leave-egypt/"
+     }
+    ]
+   },
+   "education": {
+    "narrative": "Under a reform approved in 2017, medical education in Egypt is a five-year undergraduate program after secondary school, entered through a competitive score cutoff, followed by a two-year internship, replacing the older system of six years of study and one internship year; postgraduate training follows.{{1}} Public universities have long supplied most doctors, and the health ministry puts annual medical graduates at about 9,000.{{2}} New private universities are adding capacity. Badya University in New October City, for example, runs schools of medicine, dentistry and physical therapy with technical assistance from the University of Texas Medical Branch.{{3}} The government has also launched a plan for a Cairo medical city with 4,000 beds and capacity for more than 4,000 students.{{4}} Debate continues over whether private colleges have enough teaching hospitals to train students well.{{5}} From 2025, the mandatory government assignment (takleef) of new medical graduates is no longer automatic, and the health ministry now places graduates according to staffing needs.{{6}}",
+    "sources": [
+     {
+      "author": "Egypt Independent",
+      "title": "Cabinet approves proposal on 5 years study in Faculty of Medicine",
+      "publisher": "Egypt Independent",
+      "date": "2017-10-05",
+      "url": "https://www.egyptindependent.com/cabinet-approves-proposal-5-years-study-faculty-medicine/"
+     },
+     {
+      "author": "Egyptian Streets",
+      "title": "Doctors overworked and underpaid continue to leave Egypt",
+      "publisher": "Egyptian Streets",
+      "date": "2025-05-14",
+      "url": "https://egyptianstreets.com/2025/05/14/doctors-overworked-and-underpaid-continue-to-leave-egypt/"
+     },
+     {
+      "author": "Badya University",
+      "title": "Academic Partnership",
+      "publisher": "Badya University",
+      "date": "",
+      "url": "https://www.badyauni.edu.eg/about-badya-university/academic-partnership/"
+     },
+     {
+      "author": "Nadim Kawach",
+      "title": "Egypt announces project to build medical city in Cairo",
+      "publisher": "Arab Gulf Business Insight",
+      "date": "2026-01-20",
+      "url": "https://www.agbi.com/health/2026/01/egypt-announces-project-to-build-medical-city-in-cairo/"
+     },
+     {
+      "author": "Al-Fanar Media",
+      "title": "Egyptian discussion on private medical colleges' readiness to train students",
+      "publisher": "Al-Fanar Media",
+      "date": "2026-09",
+      "url": "https://al-fanarmedia.org/2026/09/bulletin-egyptian-discussion-on-private-medical-colleges-readiness-to-train-students-sharjah-academy-for-education-launches-new-postgraduate-programmes/"
+     },
+     {
+      "author": "Egyptian Streets",
+      "title": "Egypt Exempts Mandatory Assignment for Medical School Graduates",
+      "publisher": "Egyptian Streets",
+      "date": "2024-08-18",
+      "url": "https://egyptianstreets.com/2024/08/18/egypt-exempts-mandatory-assignment-for-medical-school-graduates/"
+     }
+    ]
+   },
+   "outlook": {
+    "narrative": "Egypt's health policy is organized around Universal Health Insurance, which the government plans to extend to about 13 million people in the second phase, with investment of more than EGP 115 billion.{{1}}{{2}} The second phase depends on financing, and the law is being amended so the insurance authority can stay solvent as coverage widens.{{3}} The state is also trying to bring in private capital through partnerships, including the planned Cairo medical city, for which it is seeking a foreign operator.{{4}} A medical tourism brand, In Egypt We Care, was launched in January 2026 to market the Healthcare Authority's facilities to patients abroad.{{5}} Budget support is rising, with a 30 percent increase for health in FY2026/27.{{6}} The main constraints are the shortage and emigration of doctors, high out-of-pocket spending and fiscal pressure from IMF-supported adjustment. For foreign partners, the most realistic openings are in clinical training, quality accreditation, specialty centers such as cardiac excellence centers, and management support for new insurance-era hospitals.",
+    "sources": [
+     {
+      "author": "Amwal Al Ghad",
+      "title": "Egypt's PM reviews rollout of second phase of universal health insurance scheme",
+      "publisher": "Amwal Al Ghad",
+      "date": "2025-12-22",
+      "url": "https://en.amwalalghad.com/?p=223893"
+     },
+     {
+      "author": "Amwal Al Ghad",
+      "title": "Egypt to expand universal health insurance to 18m citizens with EGP115b investment",
+      "publisher": "Amwal Al Ghad",
+      "date": "2025-11-26",
+      "url": "https://en.amwalalghad.com/?p=222888"
+     },
+     {
+      "author": "Zawya / Arab Finance",
+      "title": "Egypt: Madbouly reviews amendments to Universal Health Insurance Law ahead of second phase expansion",
+      "publisher": "Zawya",
+      "date": "2026",
+      "url": "https://www.zawya.com/en/economy/north-africa/egypt-madbouly-reviews-amendments-to-universal-health-insurance-law-ahead-of-second-phase-expansion-nymrg2si"
+     },
+     {
+      "author": "Nadim Kawach",
+      "title": "Egypt announces project to build medical city in Cairo",
+      "publisher": "Arab Gulf Business Insight",
+      "date": "2026-01-20",
+      "url": "https://www.agbi.com/health/2026/01/egypt-announces-project-to-build-medical-city-in-cairo/"
+     },
+     {
+      "author": "Egyptian Streets",
+      "title": "“In Egypt We Care”: Healthcare Authority Launches Digital Platforms to Boost Medical Tourism",
+      "publisher": "Egyptian Streets",
+      "date": "2026-01-11",
+      "url": "https://egyptianstreets.com/2026/01/11/in-egypt-we-care-healthcare-authority-launches-digital-platforms-to-boost-medical-tourism/"
+     },
+     {
+      "author": "Zawya / Arab Finance",
+      "title": "Egypt prioritizes health, education in FY 2026/2027 budget with increased spending, tax reforms",
+      "publisher": "Zawya",
+      "date": "2026",
+      "url": "https://www.zawya.com/en/economy/north-africa/egypt-prioritizes-health-education-in-fy-2026-2027-budget-with-increased-spending-tax-reforms-n5c22ehs"
+     }
+    ]
+   },
+   "competitive_landscape": {
+    "tracker_country": "Egypt",
+    "narrative": "Foreign health systems active in Egypt are mostly European, with two American institutions. Mayo Clinic counts Saudi German Hospital Cairo in its Care Network, and the University of Texas Medical Branch supports Badya University's health schools.{{1}}{{2}} France's Gustave Roussy licensed its brand to a Cairo cancer center, Italy's Gruppo San Donato agreed to manage the New Heliopolis Hospital, and British, Spanish and Emirati institutions run training and specialty programs.{{3}}{{4}}{{5}}{{8}}{{9}}",
+    "closing": "Egypt is only beginning to compete for international patients. The General Authority for Healthcare reported treating about 35,000 patients from 124 countries in 2025, with revenue of about $8 million, up from about $3.7 million in 2024.{{6}} Its In Egypt We Care platforms, launched in January 2026, market treatment at the authority's own facilities and handle the patient journey from first inquiry to follow-up care.{{7}} At this scale Egypt is better seen as a source of patients for complex care than as a rival to Cedars-Sinai.",
+    "sources": [
+     {
+      "author": "Trade Arabia",
+      "title": "Saudi German Health boosts relationship with Mayo Clinic",
+      "publisher": "Trade Arabia",
+      "date": "2025-10-04",
+      "url": "https://tradearabia.com/News/328805/Saudi-German-Health-boosts-relationship-with-Mayo-Clinic"
+     },
+     {
+      "author": "Badya University",
+      "title": "Presentation of research posters at the 2026 UTMB Research Summit in Galveston, Texas",
+      "publisher": "Badya University",
+      "date": "2026-05-21",
+      "url": "https://www.badyauni.edu.eg/presentation-of-research-posters-at-the-2026-utmb-research-summit-in-galveston-texas/"
+     },
+     {
+      "author": "Gustave Roussy",
+      "title": "Opening of the First Gustave Roussy-Branded Facility in Egypt",
+      "publisher": "Gustave Roussy",
+      "date": "2025-04-09",
+      "url": "https://www.gustaveroussy.fr/en/news-opening-first-gustave-roussy-branded-facility-egypt"
+     },
+     {
+      "author": "Daily News Egypt",
+      "title": "Health ministry accelerates New Heliopolis Hospital project, raises capacity to 495 beds",
+      "publisher": "Daily News Egypt",
+      "date": "2026-09-28",
+      "url": "https://www.dailynewsegypt.com/2026/09/28/health-ministry-accelerates-new-heliopolis-hospital-project-raises-capacity-to-495-beds/"
+     },
+     {
+      "author": "Ain Shams University",
+      "title": "Unprecedented Medical Achievement: 18 Complex Pediatric Heart Surgeries Successfully Performed at Ain Shams University Hospitals in Collaboration with British Experts",
+      "publisher": "Ain Shams University",
+      "date": "2026-07-19",
+      "url": "https://www.asu.edu.eg/10235/news"
+     },
+     {
+      "author": "Egyptian Streets",
+      "title": "Egypt's Medical Tourism Revenues Hit $8 Million in 2025",
+      "publisher": "Egyptian Streets",
+      "date": "2026-03-29",
+      "url": "https://egyptianstreets.com/2026/03/29/egypts-medical-tourism-revenues-hit-8-million-in-2025/"
+     },
+     {
+      "author": "Egyptian Streets",
+      "title": "“In Egypt We Care”: Healthcare Authority Launches Digital Platforms to Boost Medical Tourism",
+      "publisher": "Egyptian Streets",
+      "date": "2026-01-11",
+      "url": "https://egyptianstreets.com/2026/01/11/in-egypt-we-care-healthcare-authority-launches-digital-platforms-to-boost-medical-tourism/"
+     },
+     {
+      "author": "Barraquer",
+      "title": "We signed a collaboration agreement with the Ministry of Health and Population of Egypt",
+      "publisher": "Barraquer",
+      "date": "2026-02-26",
+      "url": "https://www.barraquer.com/en/news/we-signed-collaboration-agreement-ministry-health-population-egypt"
+     },
+     {
+      "author": "Gulf Today",
+      "title": "Egypt's Health Ministry, Burjeel Holdings collaborate to develop advanced BMT program",
+      "publisher": "Gulf Today",
+      "date": "2025-01-30",
+      "url": "https://gulftoday.ae/business/2025/01/30/egypts-health-ministry-burjeel-holdings-collaborate-to-develop-advanced-bmt-program"
+     }
+    ]
+   }
+  },
+  "recent_developments": [
+   {
+    "date": "2026-01-20",
+    "headline": "Government announces a Cairo medical city with 4,000 beds",
+    "summary": "The government announced a medical city with 4,000 beds, 18 specialized institutes and capacity for more than 4,000 medical students, to be built as a public-private partnership.{{1}} Egypt is seeking a foreign partner to operate it.{{1}}",
+    "sources": [
+     {
+      "author": "Nadim Kawach",
+      "title": "Egypt announces project to build medical city in Cairo",
+      "publisher": "Arab Gulf Business Insight",
+      "date": "2026-01-20",
+      "url": "https://www.agbi.com/health/2026/01/egypt-announces-project-to-build-medical-city-in-cairo/"
+     }
+    ]
+   },
+   {
+    "date": "2026-01-09",
+    "headline": "Healthcare Authority launches In Egypt We Care medical tourism platforms",
+    "summary": "The General Authority for Healthcare launched digital platforms for a new medical tourism initiative on 9 January 2026.{{1}} The platforms cover the patient journey from inquiry through treatment and follow-up care.{{1}}",
+    "sources": [
+     {
+      "author": "Egyptian Streets",
+      "title": "“In Egypt We Care”: Healthcare Authority Launches Digital Platforms to Boost Medical Tourism",
+      "publisher": "Egyptian Streets",
+      "date": "2026-01-11",
+      "url": "https://egyptianstreets.com/2026/01/11/in-egypt-we-care-healthcare-authority-launches-digital-platforms-to-boost-medical-tourism/"
+     }
+    ]
+   },
+   {
+    "date": "2026-03-28",
+    "headline": "Healthcare Authority reports about $8 million in medical tourism revenue for 2025",
+    "summary": "The General Authority for Healthcare reported treating about 35,000 patients from 124 countries in 2025, with revenue of about $8 million, up from about $3.7 million in 2024.{{1}}",
+    "sources": [
+     {
+      "author": "Egyptian Streets",
+      "title": "Egypt's Medical Tourism Revenues Hit $8 Million in 2025",
+      "publisher": "Egyptian Streets",
+      "date": "2026-03-29",
+      "url": "https://egyptianstreets.com/2026/03/29/egypts-medical-tourism-revenues-hit-8-million-in-2025/"
+     }
+    ]
+   },
+   {
+    "date": "2026-06-13",
+    "headline": "Minya prepares to launch universal health insurance",
+    "summary": "The health minister said Minya, home to about seven million people, will be the first governorate in the second phase of universal health insurance, operating at first on a one-year trial basis.{{1}}",
+    "sources": [
+     {
+      "author": "Daily News Egypt",
+      "title": "Egypt gears up to launch universal health insurance in Minya",
+      "publisher": "Daily News Egypt",
+      "date": "2026-06-13",
+      "url": "https://www.dailynewsegypt.com/2026/06/13/egypt-gears-up-to-launch-universal-health-insurance-in-minya/"
+     }
+    ]
+   },
+   {
+    "date": "2026-07-30",
+    "headline": "IMF completes seventh Egypt review and unlocks about $1.77 billion",
+    "summary": "The IMF Executive Board completed the seventh Extended Fund Facility review and second Resilience and Sustainability Facility review, releasing about $1.77 billion.{{1}}{{2}} It urged faster reforms to support private sector led growth.{{1}}",
+    "sources": [
+     {
+      "author": "International Monetary Fund",
+      "title": "IMF Executive Board Completes the Seventh Review Under the Extended Arrangement Under the Extended Fund Facility and Second Review Under the Resilience and Sustainability Facility Arrangement for Egypt (PR26/271)",
+      "publisher": "International Monetary Fund",
+      "date": "2026-07-30",
+      "url": "https://www.imf.org/en/news/articles/2026/07/30/pr26271-egypt-imf-completes-the-7th-review-under-eff-and-2nd-review-under-the-rsf"
+     },
+     {
+      "author": "Daily News Egypt",
+      "title": "IMF board approves $1.8bn disbursement for Egypt following seventh review",
+      "publisher": "Daily News Egypt",
+      "date": "2026-07-31",
+      "url": "https://www.dailynewsegypt.com/2026/07/31/imf-board-approves-1-8bn-disbursement-for-egypt-following-seventh-review/"
+     }
+    ]
+   }
+  ]
+ },
+ "resolution_log": [
+  "Economy and IMF news item: replaced the unreadable Ahram Online and Egypt Today citations (HTTP 403) with the IMF press release PR26/271 and Daily News Egypt's 31 July 2026 report, which reproduces it (all three verifiers).",
+  "Economy: kept the line that inflation delays the return to the central bank's target by about a year, because the IMF statement says so (it projects 16.7 percent inflation in H2 2026); two verifiers had flagged it as unsupported but the Daily News Egypt reproduction of the IMF text confirms it.",
+  "Economy: changed 'third-largest Arab economy' to 'one of the largest Arab economies' because the third-largest ranking is nominal while the figure quoted is PPP (one verifier; checked).",
+  "Economy: added FY2024/25 and the finance ministry attribution to the 47 percent private investment share (all three verifiers).",
+  "Recent developments: replaced placeholder dates with real ones: medical city 20 January 2026 (AGBI), Minya 13 June 2026 (Daily News Egypt, new source), IMF review 30 July 2026, medical tourism statement 28 March 2026.",
+  "Recent developments: medical city item now says Egypt is seeking a foreign operator, as AGBI reports; Minya item rewritten to the June 2026 ministry statement (first phase-two governorate, one-year trial) because the undated Zawya article could not be dated.",
+  "Medical tourism (closing and news item): dropped the '77 percent' growth figure because the source's own numbers ($3.7m to $8m) imply about 116 percent; now reports the two figures only (one verifier; checked).",
+  "Competitive landscape closing: deleted the claims that In Egypt We Care targets cosmetic, fertility, obesity and dental care and positions Cairo, Alexandria and the Red Sea as hubs, and the 'price and proximity' claim; no cited source says this (all three verifiers).",
+  "Competitive landscape narrative: rewrote to match the final tracker (mostly European players plus two US institutions, Mayo Clinic and UTMB), replacing the incorrect 'regional rather than American' framing and the unsupported Gulf investor claim (all three verifiers).",
+  "Private system: corrected Cleopatra Hospitals Group to what its FY2025 investor presentation and 1Q2026 earnings release say (largest patient base, about 1,000 operating beds at end-2025, 17 facilities; El Tagamoa officially opened 27 January 2026 and scaling to 240 beds during 2026); the cited FY2025 earnings release URL was dead (all three verifiers).",
+  "Private system: Saudi German Hospital Cairo joined the Mayo Clinic Care Network in 2019, expanded in October 2025; the EGP 40 to 50 billion plan is now dated to 2019; replaced the empty Gulfbase page with the Mayo 2019 release, KROC News, Trade Arabia and Enterprise (all three verifiers).",
+  "Workforce: replaced the unsupported '120,000 of 220,000 doctors abroad' and Gulf/UK destinations with what the source says (only 38 percent of licensed doctors work in Egypt; nearly 7,000 left in 2023) (all three verifiers).",
+  "Education: corrected the program structure from six years plus one to the 5+2 system approved in 2017 (one verifier; confirmed via Egypt Independent).",
+  "Education: replaced the unverifiable 15,000 and 25,000 graduate projections (dead Enterprise link) with the health ministry's figure of about 9,000 graduates a year (all three verifiers).",
+  "Education: re-sourced the Badya University example to Badya's own partnership page (UTMB technical assistance) instead of the AGBI article, which does not mention it (all three verifiers).",
+  "Education: rewrote the mandatory assignment sentence: from 2025 takleef is need-based rather than automatic; removed the unsupported 'easier to work abroad' inference (all three verifiers).",
+  "Financing: corrected the GDP range to 4.2 to 5.4 percent since 2010 (two verifiers) and the devaluation years to 2022 and 2023, since a 2024 devaluation cannot affect a 2023 figure (one verifier; checked).",
+  "Financing: the constitutional health floor is now worded as 3 percent of national output and cited to the constitution text; verifiers said GNP, the Constitute translation says GDP, so the wording avoids the translation dispute; replaced the unreadable Mada Masr source and the unsupported 'successive budgets fell short' claim with a comparison to World Bank government health spending (1.6 percent of GDP).",
+  "Disease prevalence: removed the unsupported ranking of cancer, respiratory disease and diabetes; replaced the Trading Economics link with the World Bank series and noted the COVID-19 distortion after 2019; removed 'which remain widespread' from the STEPwise sentence (verifiers 1 to 3 and 2).",
+  "Demographics: replaced the unsupported 'non-citizens' explanation for the World Bank's 118 million with the fact that it draws on UN population modeling (one verifier; WDI page confirms the UN WPP source); labeled TFR 2.41 as a national figure (two verifiers); limited the medical tourism point to the Healthcare Authority's program (one verifier; checked).",
+  "Demographics and government: replaced the Embry-Riddle drone textbook with the constitution (Constitute Project) for capital, official language, government type, six-year terms and the Senate; changed the government type to 'Republic with a directly elected president and a bicameral parliament', which the constitution supports.",
+  "Government: added Business Today Egypt's cabinet list as support for the health minister no longer being deputy prime minister (two verifiers).",
+  "Public system and outlook: added Amwal Al Ghad (22 December 2025) for the phase-two governorates and 13 million target and Amwal Al Ghad (26 November 2025) for the EGP 115 billion investment; corrected '13 million more people' to '13 million people' (all three verifiers).",
+  "Sources: removed uncited sources (CairoScene population, AGBI and Embry-Riddle in demographics, In Egypt We Care in public system, MoHESR in education) and renumbered markers in each section.",
+  "Charts: values unchanged; workforce chart title and note now state that comparison years differ (2020 to 2023).",
+  "Tracker: final list has 13 records (10 Active, 3 Unclear, 0 Ended); dropped China National Health Commission (government body); Freiburg and Oxford set to Active under the literal rule (December 2024 evidence); Mayo start corrected to July 2019; Alder Hey evidence extended to July 2026; Gruppo San Donato evidence extended to September 2026.",
+  "Tracker additions, each confirmed on a primary or party page: UTMB with Badya University (Active), Burjeel Holdings (Active), Barraquer (Active), AP-HP Beaujon Hospital with Université Paris Cité, TBRI and Kasr Al Ainy (Active, TBRI page of April 2025), University of Oxford with the 500500 hospital (Active), Great Ormond Street with Ain Shams (Unclear, last 2021-12), Royal Brompton and Harefield with Ain Shams (Unclear, last 2024-01).",
+  "Tracker exclusions: Bambino Gesù (signed by an individual clinician and a Holy See official, no institutional source); Guy's and St Thomas' with Elevate P.E. (counterparty is a foreign investment platform; New Giza signing undated); Saudi German Health's September 2024 EHA MoU (activity of an operator already in Egypt); the Kasr Al Ainy French-language degree program with AP-HP was not confirmed on a primary page and is not described."
+ ],
+ "csi_manual": {
+  "patient_volume_and_revenue": "",
+  "referral_sources": "",
+  "relationship_history": "",
+  "complications": "",
+  "key_contacts": "",
+  "opportunities": "",
+  "csi_recommendation": ""
+ },
+ "charts": [
+  {
+   "id": "spending",
+   "page": "health",
+   "kind": "line",
+   "title": "Egypt: health spending and out-of-pocket share, 2012 to 2023",
+   "unit": "%",
+   "note": "Current health expenditure as a share of GDP, and out-of-pocket spending as a share of current health expenditure.",
+   "highlight": "Egypt",
+   "series": [
+    {
+     "name": "Current health expenditure (% of GDP)",
+     "points": [
+      [
+       "2012",
+       4.46
+      ],
+      [
+       "2013",
+       4.67
+      ],
+      [
+       "2014",
+       4.77
+      ],
+      [
+       "2015",
+       5.06
+      ],
+      [
+       "2016",
+       5.07
+      ],
+      [
+       "2017",
+       5.35
+      ],
+      [
+       "2018",
+       4.75
+      ],
+      [
+       "2019",
+       4.6
+      ],
+      [
+       "2020",
+       4.15
+      ],
+      [
+       "2021",
+       4.61
+      ],
+      [
+       "2022",
+       4.72
+      ],
+      [
+       "2023",
+       4.88
+      ]
+     ]
+    },
+    {
+     "name": "Out-of-pocket (% of current health expenditure)",
+     "points": [
+      [
+       "2012",
+       60.9
+      ],
+      [
+       "2013",
+       57.9
+      ],
+      [
+       "2014",
+       55.1
+      ],
+      [
+       "2015",
+       58.8
+      ],
+      [
+       "2016",
+       59.0
+      ],
+      [
+       "2017",
+       56.4
+      ],
+      [
+       "2018",
+       62.6
+      ],
+      [
+       "2019",
+       62.5
+      ],
+      [
+       "2020",
+       59.3
+      ],
+      [
+       "2021",
+       54.9
+      ],
+      [
+       "2022",
+       53.7
+      ],
+      [
+       "2023",
+       57.2
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Bank",
+     "title": "Current health expenditure (% of GDP) (SH.XPD.CHEX.GD.ZS), Egypt, Arab Rep.",
+     "publisher": "World Development Indicators",
+     "date": "2026",
+     "url": "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS?locations=EG"
+    },
+    {
+     "author": "World Bank",
+     "title": "Out-of-pocket expenditure (% of current health expenditure) (SH.XPD.OOPC.CH.ZS), Egypt, Arab Rep.",
+     "publisher": "World Development Indicators",
+     "date": "2026",
+     "url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=EG"
+    }
+   ],
+   "split": true
+  },
+  {
+   "id": "workforce",
+   "page": "health",
+   "kind": "bar",
+   "title": "Physicians per 1,000 people, Egypt and comparators (latest year available)",
+   "unit": "per 1,000",
+   "note": "Latest year available for each country in the World Bank series, shown in brackets; comparison years differ (2020 to 2023).",
+   "highlight": "Egypt (2020)",
+   "series": [
+    {
+     "name": "Physicians per 1,000",
+     "points": [
+      [
+       "Egypt (2020)",
+       0.67
+      ],
+      [
+       "Morocco (2021)",
+       0.74
+      ],
+      [
+       "Tunisia (2021)",
+       1.32
+      ],
+      [
+       "World (2022)",
+       1.86
+      ],
+      [
+       "Turkey (2022)",
+       2.24
+      ],
+      [
+       "Jordan (2022)",
+       2.85
+      ],
+      [
+       "Saudi Arabia (2023)",
+       3.41
+      ],
+      [
+       "OECD (2022)",
+       3.43
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Bank",
+     "title": "Physicians (per 1,000 people) (SH.MED.PHYS.ZS), Egypt, Arab Rep.",
+     "publisher": "World Development Indicators",
+     "date": "2026",
+     "url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=EG"
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "page": "market",
+   "kind": "line",
+   "title": "Egypt: hospital beds per 1,000 people, 2012 to 2021",
+   "unit": "per 1,000",
+   "note": "Hospital beds include public and private facilities, as reported to the World Bank.",
+   "highlight": "2021",
+   "series": [
+    {
+     "name": "Hospital beds per 1,000",
+     "points": [
+      [
+       "2012",
+       1.38
+      ],
+      [
+       "2013",
+       1.37
+      ],
+      [
+       "2014",
+       1.34
+      ],
+      [
+       "2015",
+       1.25
+      ],
+      [
+       "2016",
+       1.25
+      ],
+      [
+       "2017",
+       1.27
+      ],
+      [
+       "2018",
+       1.24
+      ],
+      [
+       "2019",
+       1.19
+      ],
+      [
+       "2020",
+       1.11
+      ],
+      [
+       "2021",
+       1.06
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Bank",
+     "title": "Hospital beds (per 1,000 people) (SH.MED.BEDS.ZS), Egypt, Arab Rep.",
+     "publisher": "World Development Indicators",
+     "date": "2026",
+     "url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=EG"
+    }
+   ]
+  }
+ ]
+}
