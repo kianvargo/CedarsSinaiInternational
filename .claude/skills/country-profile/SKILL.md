@@ -203,14 +203,19 @@ elsewhere. These are leads to re-confirm, never facts to copy.
 - Only reputable sources: official statistics, government, the institution
   itself, multilaterals (World Bank, WHO, IMF, UN), peer-reviewed work, and
   established news outlets. No Wikipedia.
-- `competitive_landscape` uses `narrative` (short intro, 70 words), `entries`
-  and `closing` (India-style "competitor for patients" paragraph, 90 words).
-  Each entry: `group` ("US academic medical centers" or "Other foreign health
-  systems and investors"), `institution`, `partner`, `model`, `status`,
-  `text` (1 to 3 sentences with markers). The generator turns these into a
-  "who is doing what" table followed by grouped entries. Status says only
-  what a source supports: "Active" or "Ended" needs evidence, otherwise
-  "current status not confirmed".
+- `competitive_landscape` uses `narrative` (short intro, 70 words), `closing`
+  (India-style "competitor for patients" paragraph, 90 words) and
+  `"tracker_country": "<Country>"`, with no `entries`. The generator builds
+  the rest from the verified tracker (analyst feedback, Oct 2026): a map and a
+  table of **confirmed active partnerships only**, one row per foreign
+  institution, giving the **nature of the collaboration** (research, training
+  and education, advisory and consulting, clinical affiliation, and so on),
+  not the name of the partner hospital. Unclear and ended partnerships stay in
+  the tracker spreadsheet, not in the profile. The map needs
+  `data/<country>_partner_locations.json`: `{"locations": {<tracker id>:
+  {"cities": [...]}}, "cities": {"Cairo": [[lon, lat], [label dx, dy]]},
+  "metros": [...], "bounds": [lon0, lon1, lat0, lat1]}`; without it the
+  profile still builds, just without the map.
 
 ## Short visual summary (optional second document)
 
@@ -220,8 +225,9 @@ verified profile JSON only. It adds no new facts, so it needs no web research.
 1. **Draft:** an agent (`model: "sonnet"`) condenses the profile into
    `<scratchpad>/<country>_summary.json` with keys `at_a_glance` (8 tiles:
    value + label with year + cite), `country_background` (one paragraph, about 150 words: capital, government, leaders, economy, demographics, key risk), `key_takeaways` (4), `health_system` (3),
-   `market` (3), `competitors` (US institutions: institution, partner, status),
-   `competitor_note`, `opportunities` (3), `risks` (3), `recent` (3). Citations
+   `market` (3), `risks` (3), `recent` (3). No opportunities and no CSI
+   partnership text: those sections print as `[MANUAL INPUT REQUIRED]` for CSI
+   to fill in (analyst feedback, Oct 2026). Citations
    use `{{group.section:n}}`, meaning source n of that profile section, so the
    summary prints the same numbers as the profile's `_SOURCES` document.
 2. **Verify and tighten:** a separate agent (session model) checks every line against the
@@ -230,11 +236,25 @@ verified profile JSON only. It adds no new facts, so it needs no web research.
 3. **Build:** `python3 scripts/generate_summary.py output/<country>_profile.json
    <summary.json> output/<Country>_Summary_DRAFT.docx`. Title page, then about
    four pages: At a Glance tiles and takeaways; health system with two charts;
-   market with a chart and competitor table; opportunities, risks, recent.
-   Charts are defined per country in `CHARTS` in that script: every plotted
-   value names the profile text it comes from, and the build stops if the
-   number is not there. Chart colors (Cedars red vs comparison blue) passed the
-   dataviz palette validator; follow the dataviz skill for new charts.
+   market with a chart, the active-partnership map and a table of institutions
+   and the nature of their work; then CSI partnerships and opportunities
+   (blank placeholders), risks and recent news.
+   **Charts must be high quality** (analyst feedback: a two-point chart is not
+   acceptable). The research pass adds a top-level `charts` list to the
+   profile JSON: three charts (`spending` and `workforce` on the health page,
+   `market` on the market page), each `{"id", "page", "kind": "line"|"bar",
+   "title", "unit", "note", "highlight", "series": [{"name", "points":
+   [[label, value], ...]}], "sources": [...]}`. A line chart needs at least 6
+   yearly points per series (8 to 12 is better); a bar chart at least 5 bars;
+   the generator refuses anything thinner. Verifiers check every plotted value
+   against its source. Chart sources are numbered in the profile's
+   `_SOURCES` document. Colors (Cedars red highlight vs comparison blue)
+   passed the dataviz palette validator.
+
+4. **Package and publish:** `python3 scripts/package.py <Country>` puts the
+   summary, profile, sources, tracker, map and a README in
+   `deliverables/<Country>/` plus a zip. Then `python3 scripts/build_explorer.py`
+   adds the country to the interactive explorer (see README).
 
 ## House preferences (from the analyst's hand edits, Sep 2026)
 

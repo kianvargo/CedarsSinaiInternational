@@ -22,6 +22,7 @@ def main(country):
         out / "Partnerships_Tracker.xlsx",
         out / f"{country}_partnerships_map.png",
     ]
+    files = [f for f in files if f.exists() or not f.name.endswith("_partnerships_map.png")]  # map is optional
     missing = [f.name for f in files if not f.exists()]
     if missing:
         sys.exit(f"Missing: {', '.join(missing)}")
@@ -36,7 +37,7 @@ def main(country):
         f"{country}_Summary_DRAFT.docx         Short visual summary (title page + about 4 pages)\n"
         f"{country}_Profile_DRAFT.docx         Full country profile\n"
         f"{country}_Profile_DRAFT_SOURCES.docx Numbered sources for both documents\n"
-        f"Partnerships_Tracker.xlsx         Verified foreign health-system partnerships\n"
+        f"Partnerships_Tracker.xlsx         Verified foreign health-system partnerships, all countries\n"
         f"{country}_partnerships_map.png       Partnerships by city (also inside both documents)\n\n"
         "In Word, click Yes if asked to update fields: it fills in the table-of-contents page numbers.\n"
     )

@@ -6,11 +6,17 @@ verified tracker (data/partnerships.json) and the partner-city file
 
 Usage: python3 make_partner_map.py India output/India_partnerships_map.png
 
-Red circles: active partnerships per city (area proportional to count).
+Map settings (bounds, big metros, city coordinates and label offsets) come from COUNTRIES
+below or, for any other country, from optional "bounds", "metros" and "cities" keys in the
+partner-location file, with cities written as {"Cairo": [[31.24, 30.04], [10, 6]]}.
+
+Red circles: active partnerships per city (area proportional to count). Only active
+partnerships are mapped; unclear and ended ones stay in the tracker.
 Dark squares: the largest metros, shown whether or not they have partnerships.
 Boundaries: Natural Earth 1:50m (public domain); not an official depiction.
 """
 import json
+import math
 import sys
 from collections import Counter
 from pathlib import Path
@@ -63,16 +69,19 @@ def rings(geom):
 
 
 def main(country, out):
-    cfg = COUNTRIES[country]
     tracker = json.loads((ROOT / "data" / "partnerships.json").read_text())["relationships"]
-    locs = json.loads((ROOT / "data" / f"{country.lower()}_partner_locations.json").read_text())["locations"]
+    locfile = json.loads((ROOT / "data" / f"{country.lower().replace(' ', '_')}_partner_locations.json").read_text())
+    locs = locfile["locations"]
+    cfg = {**COUNTRIES.get(country, {}), **{k: locfile[k] for k in ("bounds", "metros") if k in locfile}}
+    cfg["cities"] = {**cfg.get("cities", {}), **{k: (tuple(v[0]), tuple(v[1])) for k, v in locfile.get("cities", {}).items()}}
     rows = [r for r in tracker if r["country"] == country]
     active = Counter(c for r in rows if r["status"] == "Active" for c in locs[r["id"]]["cities"])
-    unclear = Counter(c for r in rows if r["status"] == "Unclear" for c in locs[r["id"]]["cities"])
 
     features = json.loads((ROOT / "assets" / "ne_50m_countries.geojson").read_text())["features"]
     x0, x1, y0, y1 = cfg["bounds"]
-    fig, ax = plt.subplots(figsize=(7.0, 7.6), dpi=220)
+    aspect = 1.0 / math.cos(math.radians((y0 + y1) / 2))
+    ratio = (y1 - y0) * aspect / (x1 - x0)
+    fig, ax = plt.subplots(figsize=(7.0, 7.0 * ratio), dpi=220)
     for f in features:
         is_c = f["properties"].get("ADMIN") == country or f["properties"].get("NAME") == country
         for ring in rings(f["geometry"]):
@@ -89,12 +98,7 @@ def main(country, out):
         ax.scatter([lon], [lat], s=size(n), color=RED, alpha=0.9, edgecolor="white", linewidth=1.2, zorder=5)
         ax.text(lon, lat, str(n), ha="center", va="center", fontsize=7.5, color="white",
                 fontweight="bold", zorder=6)
-    for name, n in unclear.items():
-        if name not in active:
-            (lon, lat), _ = cfg["cities"][name]
-            ax.scatter([lon], [lat], s=90, facecolor="white", edgecolor=INK_2, linewidth=1.2, zorder=5)
-
-    labelled = set(cfg["metros"]) | set(active) | set(unclear)
+    labelled = set(cfg["metros"]) | set(active)
     for name in labelled:
         (lon, lat), (dx, dy) = cfg["cities"][name]
         radius = (size(active[name]) ** 0.5) / 2 if active.get(name) else 5
@@ -103,8 +107,6 @@ def main(country, out):
         parts = []
         if active.get(name):
             parts.append(f"{active[name]} active")
-        if unclear.get(name):
-            parts.append(f"{unclear[name]} unclear")
         is_metro = name in cfg["metros"]
         ax.annotate(name, (lon, lat), xytext=(dx, dy), textcoords="offset points",
                     ha="center" if dx == 0 else ("left" if dx > 0 else "right"), va="center", fontsize=9 if is_metro else 8,
@@ -119,18 +121,16 @@ def main(country, out):
     handles = [
         Line2D([], [], marker="o", linestyle="", markersize=11, markerfacecolor=RED, markeredgecolor="white",
                label="Active partnerships (number in circle)"),
-        Line2D([], [], marker="o", linestyle="", markersize=8, markerfacecolor="white", markeredgecolor=INK_2,
-               label="Unclear status only"),
         Line2D([], [], marker="s", linestyle="", markersize=5, color=INK, label="Major metro"),
     ]
     ax.legend(handles=handles, loc="lower left", frameon=False, fontsize=8, labelcolor=INK, borderaxespad=0.2)
     ax.set_xlim(x0, x1)
     ax.set_ylim(y0, y1)
-    ax.set_aspect(1.0 / 0.93)  # rough latitude correction for India's mid-latitudes
+    ax.set_aspect(aspect)  # latitude correction
     ax.axis("off")
     plt.subplots_adjust(0, 0, 1, 1)
     fig.savefig(out, facecolor="white")
-    print(f"Wrote {out}: active {dict(active)}, unclear {dict(unclear)}")
+    print(f"Wrote {out}: active {dict(active)}")
 
 
 if __name__ == "__main__":

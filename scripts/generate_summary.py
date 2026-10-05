@@ -10,8 +10,13 @@ Citations in the summary use {{group.section:n}}, meaning source n of that profi
 section. They are printed with the SAME numbers as the profile's _SOURCES document,
 so one sources document serves both.
 
-Charts are defined in CHARTS below per country: every data point names the profile
-text it comes from, and the build fails if that number is not in that text.
+Charts come from the profile's top-level "charts" list (data series with their own
+sources, which the profile's _SOURCES document also lists). The build refuses thin
+charts: a line chart needs at least 6 points per series and a bar chart at least 5 bars.
+Older profiles without "charts" use the hand-written specs in CHARTS below, where every
+data point names the profile text it comes from.
+
+The CSI partnerships and opportunities sections are left as manual-input placeholders.
 """
 import json
 import re
@@ -39,6 +44,8 @@ INK_2 = "#52514e"
 GRID = "#e1e0d9"
 AXIS = "#c3c2b7"
 REF = re.compile(r"\{\{(\w+)\.(\w+):(\d+)\}\}")
+MIN_LINE_POINTS = 6
+MIN_BARS = 5
 
 
 # ---------------------------------------------------------------- profile access
@@ -158,6 +165,79 @@ def chart_chains(path):
     plt.close(fig)
 
 
+def fmt(v):
+    return f"{v:,.0f}" if abs(v) >= 100 else f"{v:g}"
+
+
+def draw_line(spec, path):
+    series = spec["series"]
+    for s_ in series:
+        if len(s_["points"]) < MIN_LINE_POINTS:
+            raise SystemExit(f"Chart '{spec['id']}': series '{s_['name']}' has {len(s_['points'])} points; "
+                             f"a line chart needs at least {MIN_LINE_POINTS}")
+    fig, ax = plt.subplots(figsize=(6.4, 2.9), dpi=220)
+    colors = [INDIA_RED, COMPARE_BLUE]
+    labels = [p_[0] for p_ in series[0]["points"]]
+    for i, s_ in enumerate(series):
+        xs = [labels.index(p_[0]) if p_[0] in labels else None for p_ in s_["points"]]
+        ys = [p_[1] for p_ in s_["points"]]
+        c = colors[i % 2]
+        ax.plot(xs, ys, color=c, linewidth=2, marker="o", markersize=3.5, label=s_["name"])
+        ax.annotate(fmt(ys[0]), (xs[0], ys[0]), textcoords="offset points", xytext=(-6, 0), ha="right",
+                    va="center", fontsize=8.5, color=INK)
+        ax.annotate(fmt(ys[-1]), (xs[-1], ys[-1]), textcoords="offset points", xytext=(6, 0), ha="left",
+                    va="center", fontsize=8.5, color=INK, fontweight="bold")
+    step = max(1, len(labels) // 7)
+    ax.set_xticks(range(0, len(labels), step), labels[::step], fontsize=9, color=INK)
+    ax.set_xlim(-0.8, len(labels) - 0.2)
+    lo = min(p_[1] for s_ in series for p_ in s_["points"])
+    hi = max(p_[1] for s_ in series for p_ in s_["points"])
+    pad = (hi - lo) * 0.18 or 1
+    ax.set_ylim(max(0, lo - pad) if lo >= 0 else lo - pad, hi + pad)
+    ax.set_ylabel(spec.get("unit", ""), fontsize=8.5, color=INK_2)
+    for side in ("top", "right"):
+        ax.spines[side].set_visible(False)
+    ax.spines["left"].set_color(AXIS)
+    ax.spines["bottom"].set_color(AXIS)
+    ax.tick_params(colors=INK_2, labelsize=9, length=0)
+    ax.yaxis.grid(True, color=GRID, linewidth=0.6)
+    ax.set_axisbelow(True)
+    if len(series) > 1:
+        ax.legend(frameon=False, fontsize=8.5, loc="upper center", ncol=len(series), labelcolor=INK,
+                  bbox_to_anchor=(0.5, 1.12))
+    fig.tight_layout()
+    fig.savefig(path, facecolor="white")
+    plt.close(fig)
+
+
+def draw_bar(spec, path):
+    pts = spec["series"][0]["points"]
+    if len(pts) < MIN_BARS:
+        raise SystemExit(f"Chart '{spec['id']}' has {len(pts)} bars; a bar chart needs at least {MIN_BARS}")
+    pts = sorted(pts, key=lambda p_: -p_[1])
+    names = [p_[0] for p_ in pts]
+    vals = [p_[1] for p_ in pts]
+    hl = spec.get("highlight", "")
+    colors = [INDIA_RED if (hl and hl.lower() in n.lower()) else COMPARE_BLUE for n in names]
+    fig, ax = plt.subplots(figsize=(6.4, 0.42 * len(pts) + 0.9), dpi=220)
+    ax.barh(range(len(pts)), vals, height=0.6, color=colors)
+    top = max(vals)
+    for i, v in enumerate(vals):
+        ax.text(v + top * 0.015, i, fmt(v), va="center", fontsize=8.5, color=INK)
+    ax.set_yticks(range(len(pts)), names, fontsize=9.5, color=INK)
+    ax.invert_yaxis()
+    ax.set_xlim(0, top * 1.15)
+    ax.xaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: fmt(v)))
+    ax.set_xlabel(spec.get("unit", ""), fontsize=8.5, color=INK_2)
+    style_axes(ax)
+    fig.tight_layout()
+    fig.savefig(path, facecolor="white")
+    plt.close(fig)
+
+
+DRAW = {"line": draw_line, "bar": draw_bar}
+
+
 CHARTS = {
     "India": {
         "workforce": {
@@ -249,15 +329,19 @@ def add_chart(doc, spec, png, profile, registry, width):
     tr.bold = True
     tr.font.size = Pt(10.5)
     doc.add_picture(str(png), width=width)
-    refs = []
-    for group, key, needle in spec["values"]:
-        refs += markers_near(profile, group, key, needle)
+    if "sources" in spec:
+        nums = sorted({registry.number(src) for src in spec["sources"]})
+    else:
+        refs = []
+        for group, key, needle in spec["values"]:
+            refs += markers_near(profile, group, key, needle)
+        nums = cite_numbers(profile, registry, refs)
     note = doc.add_paragraph()
     note.paragraph_format.space_after = Pt(8)
-    nr = note.add_run(spec["note"] + " Sources: ")
+    nr = note.add_run((spec.get("note", "") + " Sources: ").lstrip())
     nr.font.size = Pt(8)
     nr.font.color.rgb = gp.GRAY
-    gp.add_citations(note, cite_numbers(profile, registry, refs), registry)
+    gp.add_citations(note, nums, registry)
 
 
 def stat_tiles(doc, tiles, profile, registry, cols=4):
@@ -292,6 +376,43 @@ def stat_tiles(doc, tiles, profile, registry, cols=4):
     tbl_pr = table._tbl.tblPr
     look = tbl_pr.find(gp.qn("w:tblLook"))
     (look.addprevious(top) if look is not None else tbl_pr.append(top))
+
+
+def manual_block(doc, label):
+    """A clearly marked blank for CSI's own input, matching the profile's placeholders."""
+    subhead(doc, label)
+    p = doc.add_paragraph()
+    r = p.add_run(gp.MANUAL_PLACEHOLDER)
+    r.bold = True
+    r.font.size = Pt(10)
+    r.font.color.rgb = gp.PLACEHOLDER_COLOR
+    r.font.highlight_color = 7  # yellow
+    hint = doc.add_paragraph()
+    hr = hint.add_run("To be completed by CSI from internal data; not researched.")
+    hr.italic = True
+    hr.font.size = Pt(8.5)
+    hr.font.color.rgb = gp.GRAY
+
+
+def nature_table(doc, insts):
+    table = doc.add_table(rows=1, cols=2)
+    gp.set_table_borders(table)
+    for i, h in enumerate(("Institution", "Nature of collaboration")):
+        cell = table.rows[0].cells[i]
+        gp.set_cell_shading(cell, "D91F2C")
+        r = cell.paragraphs[0].add_run(h)
+        r.bold = True
+        r.font.size = Pt(9)
+        r.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
+    for e in insts:
+        cells = table.add_row().cells
+        r = cells[0].paragraphs[0].add_run(e["institution"])
+        r.bold = True
+        r.font.size = Pt(9)
+        cells[1].paragraphs[0].add_run(", ".join(e["natures"])).font.size = Pt(9)
+    for row in table.rows:
+        row.cells[0].width = Cm(6.5)
+        row.cells[1].width = Cm(10.5)
 
 
 def competitor_table(doc, rows):
@@ -360,7 +481,15 @@ def build(profile_path, summary_path, out_path):
     bullets(doc, summary["key_takeaways"], profile, registry)
     doc.add_page_break()
 
-    specs = CHARTS[country]
+    if profile.get("charts"):
+        specs = {}
+        for c in profile["charts"]:
+            specs[c["id"]] = {**c, "draw": (lambda spec: lambda path: DRAW[spec["kind"]](spec, path))(c)}
+        pages = {"health": [k for k, c in specs.items() if c.get("page") == "health"],
+                 "market": [k for k, c in specs.items() if c.get("page") != "health"]}
+    else:  # older profiles: hand-written specs
+        specs = CHARTS[country]
+        pages = {"health": ["spending", "workforce"], "market": ["chains"]}
     pngs = {}
     for name, spec in specs.items():
         pngs[name] = chart_dir / f"{name}.png"
@@ -369,36 +498,46 @@ def build(profile_path, summary_path, out_path):
     # Page 2: health system
     heading(doc, "Health System")
     bullets(doc, summary["health_system"], profile, registry)
-    add_chart(doc, specs["spending"], pngs["spending"], profile, registry, Cm(15.5))
-    add_chart(doc, specs["workforce"], pngs["workforce"], profile, registry, Cm(15.5))
+    for name in pages["health"]:
+        add_chart(doc, specs[name], pngs[name], profile, registry, Cm(15.5))
     doc.add_page_break()
 
     # Page 3: market and competition
     heading(doc, "Market and Competition")
     bullets(doc, summary["market"], profile, registry)
-    subhead(doc, "Where foreign health systems partner in " + country)
-    rows = gp.tracker_rows(country)
-    counts = {s: sum(r["status"] == s for r in rows) for s in ("Active", "Unclear", "Ended")}
+    for name in pages["market"]:
+        add_chart(doc, specs[name], pngs[name], profile, registry, Cm(14.5))
+    subhead(doc, "Foreign health systems active in " + country)
+    insts = gp.active_by_institution(country)
+    active = gp.tracker_rows(country, "Active")
     lead = doc.add_paragraph()
-    lr = lead.add_run(f"{len(rows)} partnerships active or active within five years: {counts['Active']} active, "
-                      f"{counts['Unclear']} unclear, {counts['Ended']} ended. Full list with sources in the profile "
-                      f"and the partnerships tracker.")
+    if insts:
+        kinds = {}
+        for r in active:
+            kinds[r["type"]] = kinds.get(r["type"], 0) + 1
+        lr = lead.add_run(f"{len(insts)} foreign institutions with confirmed active partnerships ({len(active)} in all): "
+                          + ", ".join(f"{n} {k.lower()}" for k, n in sorted(kinds.items(), key=lambda kv: -kv[1]))
+                          + ". Sources in the profile and the partnerships tracker.")
+    else:
+        lr = lead.add_run("No foreign health-system partnership could be confirmed as active from public sources.")
     lr.font.size = Pt(10)
-    doc.add_picture(str(gp.partner_map(country, chart_dir)), width=Cm(12.0))
-    doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
-    cap = doc.add_paragraph()
-    cr = cap.add_run(gp.MAP_CAPTION.format(country=country, checked=max(r["last_checked"] for r in rows)))
-    cr.italic = True
-    cr.font.size = Pt(8)
-    cr.font.color.rgb = gp.GRAY
+    png = gp.partner_map(country, chart_dir) if insts else None
+    if png:
+        doc.add_picture(str(png), width=Cm(10.5))
+        doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
+        cap = doc.add_paragraph()
+        cr = cap.add_run(gp.MAP_CAPTION.format(country=country, checked=max(r["last_checked"] for r in active)))
+        cr.italic = True
+        cr.font.size = Pt(8)
+        cr.font.color.rgb = gp.GRAY
+    if insts:
+        nature_table(doc, insts)
     doc.add_page_break()
 
-    # Page 4: potential partners, opportunities, risks, recent
-    heading(doc, "Opportunities and Risks for CSI")
-    specs["chains"]["title"] = "Potential partners: " + specs["chains"]["title"][0].lower() + specs["chains"]["title"][1:]
-    add_chart(doc, specs["chains"], pngs["chains"], profile, registry, Cm(14.5))
-    subhead(doc, "Opportunities")
-    bullets(doc, summary["opportunities"], profile, registry)
+    # Page 4: CSI's own position (manual), risks, recent
+    heading(doc, "CSI Position, Risks and Recent News")
+    manual_block(doc, "CSI partnerships in " + country)
+    manual_block(doc, "Opportunities for CSI")
     subhead(doc, "Risks and watch items")
     bullets(doc, summary["risks"], profile, registry)
     subhead(doc, "Recent developments")

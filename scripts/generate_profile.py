@@ -398,75 +398,105 @@ def set_table_borders(table, color="D9D9D9"):
 
 
 ROOT = SCRIPTS.parent
-MAP_CAPTION = ("Foreign health-system partnerships by city of the partner in {country}: active, and unclear where "
-               "no active partnership exists. Source: CSI partnerships tracker, verified {checked}. "
-               "Boundaries: Natural Earth; not an official depiction.")
+MAP_CAPTION = ("Active foreign health-system partnerships by city of the partner in {country}. "
+               "Source: CSI partnerships tracker, verified {checked}. Boundaries: Natural Earth; not an official depiction.")
+GROUPS = ("US academic medical centers", "Other foreign health systems")
 
 
 def partner_map(country, out_dir):
+    """Map of active partnerships, or None when the country has no partner-location file yet."""
     png = Path(out_dir) / f"{country}_partnerships_map.png"
+    locs = ROOT / "data" / f"{country.lower().replace(' ', '_')}_partner_locations.json"
+    if not locs.exists():
+        return None
     subprocess.run([sys.executable, str(SCRIPTS / "make_partner_map.py"), country, str(png)], check=True,
                    capture_output=True)
     return png
 
 
-def tracker_rows(country):
+def tracker_rows(country, status=None):
     data = json.loads((ROOT / "data" / "partnerships.json").read_text())
-    return [r for r in data["relationships"] if r["country"] == country]
+    return [r for r in data["relationships"] if r["country"] == country and (status is None or r["status"] == status)]
+
+
+def active_by_institution(country):
+    """One entry per foreign institution with confirmed active partnerships: what kind of work, not with whom."""
+    out = {}
+    for r in tracker_rows(country, "Active"):
+        e = out.setdefault(r["foreign_institution"], {"institution": r["foreign_institution"], "group": r["group"],
+                                                      "based_in": r.get("foreign_country", ""), "natures": set(),
+                                                      "latest": "", "sources": []})
+        e["natures"].add(r["type"])
+        e["latest"] = max(e["latest"], r.get("last_evidence", ""))
+        if r["sources"] and r["sources"][0] not in e["sources"]:
+            e["sources"].append(r["sources"][0])
+    for e in out.values():
+        e["natures"] = sorted(e["natures"])
+    return sorted(out.values(), key=lambda e: (GROUPS.index(e["group"]) if e["group"] in GROUPS else 9, e["institution"]))
 
 
 def add_tracker_block(doc, country, registry, map_width=Cm(13.5), out_dir=None):
-    """Competitive landscape from the verified tracker: map, then who-is-doing-what table."""
-    rows = tracker_rows(country)
-    checked = max(r["last_checked"] for r in rows)
-    doc.add_picture(str(partner_map(country, out_dir or ROOT / "output")), width=map_width)
-    doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
-    cap = doc.add_paragraph()
-    cr = cap.add_run(MAP_CAPTION.format(country=country, checked=checked))
-    cr.italic = True
-    cr.font.size = Pt(8)
-    cr.font.color.rgb = GRAY
+    """Competitive landscape from the verified tracker: confirmed active partnerships only,
+    summarized by the nature of the collaboration rather than the partner hospital."""
+    rows = tracker_rows(country, "Active")
+    insts = active_by_institution(country)
+    if not rows:
+        p = doc.add_paragraph()
+        p.add_run(f"CSI's partnerships tracker found no foreign health-system partnership in {country} that "
+                  "could be confirmed as active from public sources.").italic = True
+        return
+    checked = max(r["last_checked"] for r in tracker_rows(country))
+    png = partner_map(country, out_dir or ROOT / "output")
+    if png:
+        doc.add_picture(str(png), width=map_width)
+        doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
+        cap = doc.add_paragraph()
+        cr = cap.add_run(MAP_CAPTION.format(country=country, checked=checked))
+        cr.italic = True
+        cr.font.size = Pt(8)
+        cr.font.color.rgb = GRAY
 
     t = doc.add_paragraph()
     t.paragraph_format.space_before = Pt(8)
-    tr = t.add_run("Who is doing what")
+    tr = t.add_run("Confirmed active partnerships by institution")
     tr.bold = True
     tr.font.color.rgb = DARK_RED
-    table = doc.add_table(rows=1, cols=5)
+    table = doc.add_table(rows=1, cols=4)
     set_table_borders(table)
-    for i, h in enumerate(("Institution", f"Partner in {country}", "Type", "Status", "Latest evidence")):
+    for i, h in enumerate(("Institution", "Based in", "Nature of collaboration", "Latest evidence")):
         cell = table.rows[0].cells[i]
         set_cell_shading(cell, "D91F2C")
         r = cell.paragraphs[0].add_run(h)
         r.bold = True
         r.font.size = Pt(9)
         r.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
-    order = {"Active": 0, "Unclear": 1, "Ended": 2}
-    for group in ("US academic medical centers", "Other foreign health systems"):
-        members = sorted((r for r in rows if r["group"] == group),
-                         key=lambda r: (order[r["status"]], r["foreign_institution"], r["indian_partner"]))
+    for group in GROUPS:
+        members = [e for e in insts if e["group"] == group]
         if not members:
             continue
         row = table.add_row()
-        merged = row.cells[0].merge(row.cells[4])
+        merged = row.cells[0].merge(row.cells[3])
         set_cell_shading(merged, "F6E3E4")
         gr = merged.paragraphs[0].add_run(group)
         gr.bold = True
         gr.font.size = Pt(9)
         gr.font.color.rgb = DARK_RED
-        for r in members:
+        for e in members:
             cells = table.add_row().cells
-            status = r["status"] + (f" {r['end'][:4]}" if r["status"] == "Ended" and r.get("end") else "")
-            for i, text in enumerate((r["foreign_institution"], r["indian_partner"], r["type"], status, r.get("last_evidence", ""))):
+            for i, text in enumerate((e["institution"], e["based_in"], ", ".join(e["natures"]), e["latest"])):
                 run = cells[i].paragraphs[0].add_run(text)
                 run.font.size = Pt(8.5)
-                run.bold = i in (0, 3)
-            if r["sources"]:
-                add_citations(cells[4].paragraphs[0], [registry.number(r["sources"][0])], registry)
+                run.bold = i == 0
+            add_citations(cells[3].paragraphs[0], sorted({registry.number(s) for s in e["sources"]}), registry)
     for row in table.rows:
-        for i, w in enumerate((Cm(4.2), Cm(4.8), Cm(3.4), Cm(1.8), Cm(2.8))):
+        for i, w in enumerate((Cm(5.0), Cm(3.0), Cm(6.2), Cm(2.8))):
             row.cells[i].width = w
-    doc.add_paragraph().paragraph_format.space_after = Pt(2)
+    note = doc.add_paragraph()
+    nr = note.add_run("Only partnerships with dated evidence of activity in the last 24 months are listed. "
+                      "Unclear and recently ended partnerships are in the CSI partnerships tracker.")
+    nr.italic = True
+    nr.font.size = Pt(8)
+    nr.font.color.rgb = GRAY
 
 
 def add_entries(doc, entries, sources, registry):
@@ -650,6 +680,11 @@ def build_profile(data, out_path, registry):
                 body = p
             if not add_cited_text(body, summary, sources, registry) and sources:
                 add_citations(body, sorted({registry.number(s) for s in sources}), registry)
+
+    # Chart data used by the short summary gets numbers here too, so one sources document serves both.
+    for chart in data.get("charts", []):
+        for src in chart.get("sources", []):
+            registry.number(src)
 
     doc.add_page_break()
     headings.add(doc, "CSI Assessment", 1)
