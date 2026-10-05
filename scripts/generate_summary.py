@@ -558,7 +558,7 @@ def build(profile_path, summary_path, out_path):
     lr.font.size = Pt(10)
     png = gp.partner_map(country, chart_dir) if insts else None
     if png:
-        doc.add_picture(str(png), width=Cm(10.5))
+        doc.add_picture(str(png), width=Cm(8.5))
         doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
         cap = doc.add_paragraph()
         cr = cap.add_run(gp.MAP_CAPTION.format(country=country, checked=max(r["last_checked"] for r in active)))

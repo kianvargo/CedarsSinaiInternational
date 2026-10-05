@@ -1,0 +1,81 @@
+{
+ "country": "Egypt",
+ "at_a_glance": [
+  {
+   "value": "108.6 m",
+   "label": "Population, start of 2026 (national count)",
+   "cite": "{{country_overview.demographics:1}}"
+  },
+  {
+   "value": "$20,200",
+   "label": "GDP per capita (PPP), about, 2025",
+   "cite": "{{country_overview.demographics:4}}"
+  },
+  {
+   "value": "4.9%",
+   "label": "Health spending, share of GDP, 2023",
+   "cite": "{{health_system.financing:1}}"
+  },
+  {
+   "value": "57.2%",
+   "label": "Out-of-pocket share of spending, 2023",
+   "cite": "{{health_system.financing:3}}"
+  },
+  {
+   "value": "0.67",
+   "label": "Physicians per 1,000, 2020",
+   "cite": "{{health_system.workforce:1}}"
+  },
+  {
+   "value": "1.06",
+   "label": "Hospital beds per 1,000, 2021",
+   "cite": "{{health_system.workforce:3}}"
+  },
+  {
+   "value": "80%",
+   "label": "NCD share of all deaths, about, 2025",
+   "cite": "{{country_overview.disease_prevalence:1}}"
+  },
+  {
+   "value": "$8 m",
+   "label": "International patient revenue, Egypt Healthcare Authority, 2025",
+   "cite": "{{recent_developments.2:1}}"
+  }
+ ],
+ "key_takeaways": [
+  "Out-of-pocket payments covered 57 percent of current health spending in 2023, sustaining private demand among those who can pay.{{health_system.private_system:5}}",
+  "Second-phase Universal Health Insurance is planned to reach about 13 million people, with investment of more than EGP 115 billion.{{health_system.outlook:1}}{{health_system.outlook:2}}",
+  "Only 38 percent of doctors licensed in Egypt work in the country, according to the Egyptian Medical Syndicate.{{health_system.workforce:4}}",
+  "Egypt is seeking a foreign operator for a planned Cairo medical city with 4,000 beds.{{health_system.outlook:4}}{{recent_developments.0:1}}"
+ ],
+ "health_system": [
+  "University hospitals grew from 88 in 2013 to 147 in 2026.{{health_system.public_system:3}}",
+  "Phase one of Universal Health Insurance is complete in six governorates; Minya starts phase two with a one-year trial.{{health_system.public_system:2}}{{health_system.public_system:1}}{{health_system.public_system:5}}",
+  "Government health spending was 1.6 percent of GDP in 2023, below the Constitution's commitment of at least 3 percent.{{health_system.financing:4}}{{health_system.financing:6}}"
+ ],
+ "market": [
+  "Cleopatra Hospitals Group had about 1,000 operating beds at the end of 2025 across 17 facilities.{{health_system.private_system:1}}",
+  "Saudi German Hospital Cairo joined the Mayo Clinic Care Network in 2019; the group expanded the relationship in October 2025.{{health_system.private_system:2}}{{health_system.private_system:7}}{{health_system.private_system:8}}",
+  "Private providers make up 35 percent of contracted providers under Universal Health Insurance.{{health_system.public_system:2}}"
+ ],
+ "risks": [
+  "The IMF expects inflation to rise to about 16.7 percent in the second half of 2026.{{country_overview.economy:1}}{{country_overview.economy:2}}",
+  "Bed density fell from 1.4 per 1,000 in 2011 to 1.06 in 2021 as the population grew faster than capacity.{{health_system.workforce:3}}",
+  "Universal Health Insurance phase two depends on financing, and the law is being amended so the authority stays solvent.{{health_system.outlook:3}}"
+ ],
+ "recent": [
+  {
+   "date": "2026-03-28",
+   "text": "The Healthcare Authority reported treating about 35,000 patients from 124 countries in 2025, with revenue of about $8 million.{{recent_developments.2:1}}"
+  },
+  {
+   "date": "2026-06-13",
+   "text": "The health minister said Minya, home to about seven million people, will lead phase two on a one-year trial.{{recent_developments.3:1}}"
+  },
+  {
+   "date": "2026-07-30",
+   "text": "The IMF Executive Board completed the seventh Extended Fund Facility review, releasing about $1.77 billion.{{recent_developments.4:1}}{{recent_developments.4:2}}"
+  }
+ ],
+ "country_background": "Egypt, with about 108.6 million people at the start of 2026, is a republic with a directly elected president and a bicameral parliament, and its capital is Cairo.{{country_overview.demographics:1}}{{country_overview.demographics:5}} President Abdel Fattah el-Sisi was sworn in for a third six-year term in April 2024, and Prime Minister Mostafa Madbouly leads the cabinet.{{country_overview.government:2}}{{country_overview.government:3}} Egypt is one of the largest Arab economies, with GDP of about $2.39 trillion on a purchasing power parity basis in 2025.{{country_overview.economy:5}} Consumer price inflation was 14.1 percent in 2025 after 28.3 percent in 2024.{{country_overview.economy:4}} The total fertility rate fell to 2.41 in 2024, and only about 43 percent of people live in urban areas.{{country_overview.demographics:9}}{{country_overview.demographics:11}} Deputy Health Minister Amr Kandil said in September 2025 that noncommunicable diseases account for about 80 percent of deaths.{{country_overview.disease_prevalence:1}} The key risk is inflation: the IMF expects it to rise to about 16.7 percent in the second half of 2026, delaying its return to the central bank's target range by about a year.{{country_overview.economy:1}}{{country_overview.economy:2}}"
+}

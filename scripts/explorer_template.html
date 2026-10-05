@@ -397,6 +397,7 @@ function render(name) {
     h += `<section><h3>Foreign health-system partnerships</h3>
       <div class="bar">${["Active", "Unclear", "Ended"].map(s => `<i style="width:${counts[s] / total * 100}%;background:${colors[s]}"></i>`).join("")}</div>
       <div class="barkey">${["Active", "Unclear", "Ended"].map(s => `<span><i style="background:${colors[s]}"></i>${counts[s]} ${s.toLowerCase()}</span>`).join("")}<span>${total} total</span></div>
+      <p class="hint" style="margin:4px 0 6px">Confirmed active, by institution and nature of the work:</p>
       <div id="plist"></div></section>`;
   }
   if (p.opportunities) h += `<section><h3>Opportunities</h3>${list(p.opportunities)}</section>`;
@@ -406,7 +407,7 @@ function render(name) {
   else h += `<p class="note">Preview of the brief. Every figure is cited in the full profile and its sources document, both downloadable above. The CSI assessment section is filled in by hand in the full profile.</p></div>`;
   panel.innerHTML = h;
   panel.scrollTop = 0;
-  if (total) partnerList(p.partners, 6);
+  if (total) partnerList(activeByInstitution(p.partners), 6);
   panel.querySelectorAll("a.file").forEach(a => a.onclick = e => saveFile(e, p.downloads[+a.dataset.i]));
 }
 
@@ -439,10 +440,21 @@ async function saveFile(e, d) {
   }
 }
 
+// Confirmed active partnerships, one row per foreign institution, by nature of the work (not the partner hospital).
+function activeByInstitution(rows) {
+  const by = new Map();
+  rows.filter(r => r.status === "Active").forEach(r => {
+    const e = by.get(r.who) || { who: r.who, status: "Active", natures: [] };
+    if (!e.natures.includes(r.type)) e.natures.push(r.type);
+    by.set(r.who, e);
+  });
+  return [...by.values()];
+}
+
 function partnerList(rows, n) {
   const el = document.getElementById("plist");
   el.innerHTML = rows.slice(0, n).map(r => `<div class="partner"><span class="who">${esc(r.who)}</span><span class="st ${esc(r.status)}">${esc(r.status)}</span>
-    <span class="sub">${esc(r.partner)} · ${esc(r.type)}</span></div>`).join("")
+    <span class="sub">${esc(r.natures.join(", "))}</span></div>`).join("")
     + (rows.length > n ? `<button class="more" type="button">Show all ${rows.length}</button>` : "");
   const b = el.querySelector(".more");
   if (b) b.onclick = () => partnerList(rows, rows.length);
