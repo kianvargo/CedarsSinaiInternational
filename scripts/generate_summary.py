@@ -175,6 +175,8 @@ def draw_line(spec, path):
         if len(s_["points"]) < MIN_LINE_POINTS:
             raise SystemExit(f"Chart '{spec['id']}': series '{s_['name']}' has {len(s_['points'])} points; "
                              f"a line chart needs at least {MIN_LINE_POINTS}")
+    if spec.get("split") and len(series) > 1:
+        return draw_split(spec, path)
     fig, ax = plt.subplots(figsize=(6.4, 2.9), dpi=220)
     colors = [INDIA_RED, COMPARE_BLUE]
     labels = [p_[0] for p_ in series[0]["points"]]
@@ -205,6 +207,39 @@ def draw_line(spec, path):
     if len(series) > 1:
         ax.legend(frameon=False, fontsize=8.5, loc="upper center", ncol=len(series), labelcolor=INK,
                   bbox_to_anchor=(0.5, 1.12))
+    fig.tight_layout()
+    fig.savefig(path, facecolor="white")
+    plt.close(fig)
+
+
+def draw_split(spec, path):
+    """Series with different units: one small panel each, sharing the year axis."""
+    series = spec["series"]
+    labels = [p_[0] for p_ in series[0]["points"]]
+    fig, axes = plt.subplots(len(series), 1, figsize=(6.4, 1.75 * len(series) + 0.3), dpi=220, sharex=True)
+    for i, (ax, s_) in enumerate(zip(axes, series)):
+        xs = [labels.index(p_[0]) for p_ in s_["points"]]
+        ys = [p_[1] for p_ in s_["points"]]
+        c = INDIA_RED if i == 0 else COMPARE_BLUE
+        ax.plot(xs, ys, color=c, linewidth=2, marker="o", markersize=3.5)
+        ax.annotate(fmt(ys[0]), (xs[0], ys[0]), textcoords="offset points", xytext=(-6, 0), ha="right",
+                    va="center", fontsize=8.5, color=INK)
+        ax.annotate(fmt(ys[-1]), (xs[-1], ys[-1]), textcoords="offset points", xytext=(6, 0), ha="left",
+                    va="center", fontsize=8.5, color=INK, fontweight="bold")
+        lo, hi = min(ys), max(ys)
+        pad = (hi - lo) * 0.25 or 1
+        ax.set_ylim(max(0, lo - pad), hi + pad)
+        ax.set_title(s_["name"], fontsize=9, color=INK, loc="left", pad=3)
+        for side in ("top", "right"):
+            ax.spines[side].set_visible(False)
+        ax.spines["left"].set_color(AXIS)
+        ax.spines["bottom"].set_color(AXIS)
+        ax.tick_params(colors=INK_2, labelsize=8.5, length=0)
+        ax.yaxis.grid(True, color=GRID, linewidth=0.6)
+        ax.set_axisbelow(True)
+        ax.set_xlim(-0.8, len(labels) - 0.2)
+    step = max(1, len(labels) // 7)
+    axes[-1].set_xticks(range(0, len(labels), step), labels[::step], fontsize=9, color=INK)
     fig.tight_layout()
     fig.savefig(path, facecolor="white")
     plt.close(fig)
