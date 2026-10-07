@@ -1,0 +1,81 @@
+{
+ "country": "Indonesia",
+ "at_a_glance": [
+  {
+   "value": "285.7 m",
+   "label": "Population, 2025 estimate",
+   "cite": "{{country_overview.demographics:1}}"
+  },
+  {
+   "value": "17,660",
+   "label": "GDP per capita, PPP (international dollars), about, 2025",
+   "cite": "{{country_overview.demographics:12}}"
+  },
+  {
+   "value": "2.70%",
+   "label": "Current health expenditure, share of GDP, 2023",
+   "cite": "{{health_system.financing:2}}"
+  },
+  {
+   "value": "31.1%",
+   "label": "Out-of-pocket share of current health expenditure, 2023",
+   "cite": "{{health_system.financing:5}}"
+  },
+  {
+   "value": "0.52",
+   "label": "Physicians per 1,000 people, 2023",
+   "cite": "{{health_system.workforce:1}}"
+  },
+  {
+   "value": "1.37",
+   "label": "Hospital beds per 1,000 people, 2023",
+   "cite": "{{health_system.workforce:3}}"
+  },
+  {
+   "value": "382",
+   "label": "Tuberculosis incidence per 100,000 people, 2024",
+   "cite": "{{country_overview.disease_prevalence:7}}"
+  },
+  {
+   "value": "282.7 m",
+   "label": "People covered by national health insurance (JKN), end of 2025",
+   "cite": "{{health_system.public_system:1}}"
+  }
+ ],
+ "key_takeaways": [
+  "National health insurance covered 282.7 million people, more than 98 percent of the population, at the end of 2025.{{health_system.public_system:1}}",
+  "Current health spending was 2.70 percent of GDP in 2023, below Malaysia, Thailand, Vietnam and the Philippines.{{health_system.financing:1}}{{health_system.financing:2}}",
+  "Only 27 to 30 of 92 medical faculties could produce specialists, a Health Ministry spokesperson said in August 2024.{{health_system.workforce:7}}",
+  "Private operators ran 1,576 of 2,710 general hospitals, or 58 percent, in 2024.{{health_system.private_system:1}}"
+ ],
+ "health_system": [
+  "Free health checks began on 10 February 2025 at about 10,200 puskesmas.{{health_system.public_system:6}}",
+  "The government plans to renovate 8,001 puskesmas, build 1,988 new ones and upgrade 441 regional hospitals from 2027 to 2029.{{health_system.public_system:8}}",
+  "The World Bank reports that out-of-pocket spending fell from 45 to 31 percent of total health spending.{{health_system.public_system:3}}"
+ ],
+ "market": [
+  "Siloam reported 2025 revenue of Rp 12.84 trillion and net profit of Rp 1.11 trillion.{{health_system.private_system:2}}",
+  "Mayapada Group has committed Rp 6.91 trillion through 2032 to a Batam project with India's Apollo Hospitals.{{health_system.private_system:4}}{{health_system.private_system:5}}",
+  "At Bali International Hospital, Australia's Icon Group runs the cancer center and SingHealth is the academic partner.{{health_system.competitive_landscape:3}}{{health_system.competitive_landscape:4}}"
+ ],
+ "risks": [
+  "The JKN fund recorded a deficit of Rp 17.13 trillion in 2025, against Rp 7.66 trillion in 2024.{{health_system.financing:9}}",
+  "Physicians numbered 0.52 per 1,000 people in 2023, and the minister cited a 29,000 specialist shortage.{{health_system.workforce:1}}{{health_system.workforce:4}}",
+  "The 2023 Health Law eliminated the mandatory health spending minimum.{{health_system.financing:8}}"
+ ],
+ "recent": [
+  {
+   "date": "2026-06-09",
+   "text": "BPJS Kesehatan said monthly deficits are about Rp 2 trillion and it expects a Rp 20 trillion government injection.{{recent_developments.3:1}}"
+  },
+  {
+   "date": "2026-08-04",
+   "text": "Free health checks reached 73.8 million people in 2026 up to 31 July, against a target of 130 million.{{recent_developments.0:1}}"
+  },
+  {
+   "date": "2026-08-14",
+   "text": "The 2027 draft health budget is up 1.7 percent on the 2026 outlook of Rp 240.8 trillion.{{recent_developments.4:1}}"
+  }
+ ],
+ "country_background": "Indonesia, with about 285.7 million people in 2025, is a republic led by a directly elected president, and its capital is Jakarta.{{country_overview.demographics:1}}{{country_overview.demographics:8}}{{country_overview.demographics:9}} President Prabowo Subianto was sworn in on 20 October 2024 with Vice President Gibran Rakabuming Raka, and Budi Gunadi Sadikin still led the Health Ministry in August 2026.{{country_overview.government:2}}{{country_overview.government:5}} The economy grew 5.11 percent in 2025, and GDP was about 5.05 trillion international dollars at purchasing power parity.{{country_overview.economy:1}}{{country_overview.economy:6}} The World Bank projects growth of 5.0 percent in 2026.{{country_overview.economy:4}} Life expectancy at birth was 71.3 years in 2024, 59.4 percent of people lived in urban areas in 2025, and people aged 65 and over made up 7.5 percent.{{country_overview.demographics:5}}{{country_overview.demographics:2}}{{country_overview.demographics:7}} Noncommunicable diseases cause about two-thirds of deaths.{{country_overview.disease_prevalence:1}} The key risk is JKN finances: the fund's deficit was Rp 17.13 trillion in 2025, and BPJS Kesehatan said it could begin missing claim payments by July 2027 without government intervention.{{health_system.financing:9}}{{health_system.financing:10}}"
+}
