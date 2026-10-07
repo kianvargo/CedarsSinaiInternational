@@ -270,6 +270,14 @@ verified profile JSON only. It adds no new facts, so it needs no web research.
   text width and the table of contents; content starts on page 2; footer
   reads "Cedars-Sinai International" and the page number.
 
+## Pagination (analyst feedback, Oct 2026)
+
+Handled by `tidy_flow()` in `generate_profile.py`, which both generators call before saving:
+headings, bold labels, chart titles and pictures stay with what follows; table rows never
+split; tables up to 15 rows move to the next page whole, and longer ones repeat their header
+row; the only forced page break is after the cover page (the CSI Assessment and summary
+sections flow on), so pages fill rather than leave white space.
+
 ## Writing style
 
 - Avoid em/en dashes; write in full sentences with normal punctuation

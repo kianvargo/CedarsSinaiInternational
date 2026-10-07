@@ -630,6 +630,43 @@ def build_toc(placeholder, headings):
 
 # ---------------------------------------------------------------- build
 
+KEEP_TABLE_ROWS = 15  # tables up to this many rows move to the next page whole instead of splitting
+
+
+def tidy_flow(doc):
+    """Pagination rules (analyst feedback, Oct 2026): no heading, label or chart title stranded at the
+    bottom of a page, no table row split across pages, short tables kept whole, and no forced breaks
+    beyond the cover page, so pages fill instead of leaving white space."""
+    body = doc.element.body
+    for p in doc.paragraphs:
+        text = p.text.strip()
+        nxt = p._p.getnext()
+        if nxt is None or nxt.tag == qn("w:sectPr"):
+            continue
+        runs = [r for r in p.runs if r.text.strip()]
+        is_heading = p.style.name.startswith("Heading")
+        is_label = text and len(text) < 120 and runs and all(r.bold for r in runs)
+        has_picture = bool(p._p.xpath(".//w:drawing"))
+        is_rule = bool(p._p.xpath("./w:pPr/w:pBdr"))
+        if is_heading or is_label or has_picture or is_rule:
+            p.paragraph_format.keep_with_next = True
+        p.paragraph_format.widow_control = True
+    for table in doc.tables:
+        rows = table.rows
+        header = rows and "D91F2C" in rows[0]._tr.xml
+        for i, row in enumerate(rows):
+            tr_pr = row._tr.get_or_add_trPr()
+            if tr_pr.find(qn("w:cantSplit")) is None:
+                tr_pr.append(OxmlElement("w:cantSplit"))
+            if i == 0 and header and tr_pr.find(qn("w:tblHeader")) is None:
+                tr_pr.append(OxmlElement("w:tblHeader"))  # repeat the header row if a long table breaks
+            if len(rows) <= KEEP_TABLE_ROWS and i < len(rows) - 1:
+                for cell in row.cells:
+                    for cp in cell.paragraphs:
+                        cp.paragraph_format.keep_with_next = True
+    return body
+
+
 def build_profile(data, out_path, registry):
     doc = Document()
     style_document(doc)
@@ -686,7 +723,6 @@ def build_profile(data, out_path, registry):
         for src in chart.get("sources", []):
             registry.number(src)
 
-    doc.add_page_break()
     headings.add(doc, "CSI Assessment", 1)
     add_rule(doc)
     note = doc.add_paragraph()
@@ -712,6 +748,7 @@ def build_profile(data, out_path, registry):
 
     build_toc(toc_placeholder, headings)
     toc_placeholder._p.getparent().remove(toc_placeholder._p)
+    tidy_flow(doc)
     doc.save(out_path)
 
 

@@ -333,7 +333,7 @@ def cited_paragraph(doc, text, profile, registry, style=None, size=10.5, color=N
 
 def heading(doc, text):
     h = doc.add_heading(text, level=1)
-    h.paragraph_format.space_before = Pt(0)
+    h.paragraph_format.space_before = Pt(14)
     h.paragraph_format.space_after = Pt(4)
     gp.add_rule(doc)
     return h
@@ -514,7 +514,6 @@ def build(profile_path, summary_path, out_path):
         cited_paragraph(doc, summary["country_background"], profile, registry, size=10.5)
     subhead(doc, "Key takeaways for CSI")
     bullets(doc, summary["key_takeaways"], profile, registry)
-    doc.add_page_break()
 
     if profile.get("charts"):
         specs = {}
@@ -535,7 +534,6 @@ def build(profile_path, summary_path, out_path):
     bullets(doc, summary["health_system"], profile, registry)
     for name in pages["health"]:
         add_chart(doc, specs[name], pngs[name], profile, registry, Cm(15.5))
-    doc.add_page_break()
 
     # Page 3: market and competition
     heading(doc, "Market and Competition")
@@ -567,7 +565,6 @@ def build(profile_path, summary_path, out_path):
         cr.font.color.rgb = gp.GRAY
     if insts:
         nature_table(doc, insts)
-    doc.add_page_break()
 
     # Page 4: CSI's own position (manual), risks, recent
     heading(doc, "CSI Position, Risks and Recent News")
@@ -585,6 +582,7 @@ def build(profile_path, summary_path, out_path):
         dr.font.color.rgb = gp.DARK_RED
         write_cited(p, item["text"], profile, registry, size=10)
 
+    gp.tidy_flow(doc)
     doc.save(out_path)
     print(f"Wrote {out_path} (charts in {chart_dir})")
 
