@@ -1870,6 +1870,1199 @@
       "country": "India",
       "last_checked": "2026-09-30",
       "id": "india--md-anderson-cancer-center--tata-memorial-hospital-mumbai-project-echo-palliative-care-africa-ii"
+    },
+    {
+      "foreign_institution": "Cedars-Sinai",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Eka Hospital Group",
+      "partner_city": "Jakarta",
+      "type": "Training and education",
+      "description": "Cedars-Sinai and Eka Hospital Group signed a three-year memorandum of understanding in August 2022, starting with advisory services in emergency medicine and trauma care. Under the agreement, two Cedars-Sinai emergency nurses led a two-week teaching mission for nurses from Eka's seven hospitals in Jakarta.",
+      "status": "Active",
+      "start": "2022-08",
+      "end": "",
+      "last_evidence": "2024-12",
+      "evidence": "Cedars-Sinai's story dated 20 December 2024 (date in the page's own data) reports the two nurses had recently returned from the teaching mission at Eka under the 2022 agreement. The three-year term nominally ran to about August 2025 and no renewal was found.",
+      "sources": [
+        {
+          "author": "Cedars-Sinai",
+          "title": "Cedars-Sinai International Launches Presence in Indonesia",
+          "publisher": "Cedars-Sinai",
+          "date": "2022-08-24",
+          "url": "https://www.cedars-sinai.org/blog/cedars-sinai-launches-collaboration-in-indonesia.html"
+        },
+        {
+          "author": "Kompas",
+          "title": "Eka Hospital Group Jalin Kerja Sama dengan Cedars-Sinai Hospital",
+          "publisher": "Kompas",
+          "date": "2022-08-25",
+          "url": "https://biz.kompas.com/read/2022/08/25/121418528/eka-hospital-group-jalin-kerja-sama-dengan-cedars-sinai-hospital"
+        },
+        {
+          "author": "Cedars-Sinai Staff",
+          "title": "Nurses Share Expertise with International EKA Hospital Group",
+          "publisher": "Cedars-Sinai",
+          "date": "2024-12-20",
+          "url": "https://www.cedars-sinai.org/international-stories/nurses-share-expertise-with-international-eka-hospital-group.html"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--cedars-sinai--eka-hospital-group"
+    },
+    {
+      "foreign_institution": "Harvard Medical School",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Universitas Harkat Negeri and CISDI (Primary Healthcare Impact Lab)",
+      "partner_city": "Tegal",
+      "type": "Research collaboration",
+      "description": "Harvard Medical School co-founded the Primary Healthcare Impact Lab with CISDI, Universitas Harkat Negeri and PT Tamaris Hidro, launched in Jakarta on 7 May 2026. The lab works on primary care service delivery, research and leadership education in Kota Tegal, Kabupaten Tegal and Brebes, and Harvard Medical School supports the university's medical curriculum.",
+      "status": "Active",
+      "start": "2026-05",
+      "end": "",
+      "last_evidence": "2026-05",
+      "evidence": "Suara.com reports the launch at BRIN in Jakarta on 7 May 2026, and CISDI's own page names Harvard Medical School as a founding partner working in Tegal and Brebes. Neither source names Brigham and Women's Hospital.",
+      "sources": [
+        {
+          "author": "Bangun Santoso, Suara.com",
+          "title": "UHN dan CISDI Gandeng Harvard Medical School, Bangun Pusat Riset Kesehatan Primer di RI",
+          "publisher": "Suara.com",
+          "date": "2026-05-07",
+          "url": "https://www.suara.com/news/2026/05/07/202619/uhn-dan-cisdi-gandeng-harvard-medical-school-bangun-pusat-riset-kesehatan-primer-di-ri"
+        },
+        {
+          "author": "CISDI",
+          "title": "Primary Healthcare IMPACT Lab",
+          "publisher": "CISDI",
+          "date": "",
+          "url": "https://cisdi.org/en/our-works/phcimpactlab"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--harvard-medical-school--universitas-harkat-negeri-and-cisdi-primary-healthcare-impact-lab"
+    },
+    {
+      "foreign_institution": "MD Anderson Cancer Center",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Indonesian Ministry of Health and RS Kanker Dharmais",
+      "partner_city": "Jakarta",
+      "type": "Government agreement",
+      "description": "MD Anderson signed a memorandum of understanding with the Ministry of Health in February 2023 covering service comparison, training, research support and cancer data management, with Dharmais as implementing hospital. It runs Project NOTRE, a breast cancer ECHO telementoring program with Dharmais.",
+      "status": "Active",
+      "start": "2023-02",
+      "end": "",
+      "last_evidence": "2025-06",
+      "evidence": "MD Anderson's ECHO program listing for Project NOTRE with Dharmais is dated 20 June 2025 for a session on 14 June 2025.",
+      "sources": [
+        {
+          "author": "MD Anderson Cancer Center",
+          "title": "Project NOTRE (Indonesia Breast Cancer ECHO)",
+          "publisher": "WHO Global Breast Cancer Initiative Community",
+          "date": "2025-06-20",
+          "url": "https://knowledge-action-portal.com/en/content/project-notre-indonesia-breast-cancer-echo-jun-14-2025-0300-pm-eest"
+        },
+        {
+          "author": "MD Anderson Cancer Center",
+          "title": "MD Anderson announces new collaboration in Indonesia to reduce global cancer burden",
+          "publisher": "MD Anderson Cancer Center",
+          "date": "2023-02-03",
+          "url": "https://www.mdanderson.org/newsroom/md-anderson-announces-new-collaboration-in-indonesia.h00-159616278.html"
+        },
+        {
+          "author": "Kementerian Kesehatan RI",
+          "title": "Kemenkes dan MD Anderson Cancer Center Jalin Kerja Sama Atasi Kanker",
+          "publisher": "Kemenkes",
+          "date": "2023-02-03",
+          "url": "https://www.kemkes.go.id/eng/kemenkes-dan-md-anderson-cancer-center-jalin-kerja-sama-atasi-kanker"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--md-anderson-cancer-center--indonesian-ministry-of-health-and-rs-kanker-dharmais"
+    },
+    {
+      "foreign_institution": "MD Anderson Cancer Center",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "MRCCC Siloam Semanggi (Siloam Hospitals)",
+      "partner_city": "Jakarta",
+      "type": "Advisory and consulting",
+      "description": "MD Anderson provides strategic and clinical advisory support to MRCCC Siloam Semanggi from January 2026 to January 2027. It covers multidisciplinary care, patient navigation, quality assurance and breast and lung cancer programs.",
+      "status": "Active",
+      "start": "2026-01",
+      "end": "",
+      "last_evidence": "2026-03",
+      "evidence": "Kontan, 31 March 2026, reports the advisory collaboration running January 2026 to January 2027, based on an MRCCC release.",
+      "sources": [
+        {
+          "author": "Kontan",
+          "title": "Kesenjangan Layanan Kanker di Indonesia, MRCCC Siloam Menggandeng MD Anderson",
+          "publisher": "Kontan",
+          "date": "2026-03-31",
+          "url": "https://industri.kontan.co.id/news/kesenjangan-layanan-kanker-di-indonesia-mrccc-siloam-menggandeng-md-anderson"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--md-anderson-cancer-center--mrccc-siloam-semanggi-siloam-hospitals"
+    },
+    {
+      "foreign_institution": "Mayo Clinic",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "IHC Rumah Sakit Pusat Pertamina (RSPP)",
+      "partner_city": "Jakarta",
+      "type": "Clinical affiliation",
+      "description": "RSPP is the first Indonesian member of the Mayo Clinic Care Network, with access to eConsults, eTumor boards and Mayo health care consulting projects. RSPP physicians also visit Mayo Clinic campuses for knowledge exchange.",
+      "status": "Active",
+      "start": "2023-01",
+      "end": "",
+      "last_evidence": "2024-12",
+      "evidence": "RSPP's own newsroom on 4 December 2024 describes an RSPP endocrinologist visiting Mayo Clinic Florida through the Care Network membership. Mayo announced the membership on 26 January 2023.",
+      "sources": [
+        {
+          "author": "RS Pusat Pertamina",
+          "title": "Learning from the Best: IHC RSPP Endocrinologist Gains Insights into Innovative Medical Practices firsthand at Mayo Clinic's campus in Jacksonville, Florida",
+          "publisher": "RS Pusat Pertamina",
+          "date": "2024-12-04",
+          "url": "https://rspp.co.id/artikel-detail-597-Learning-from-the-Best-IHC-RSPP-Endocrinologist-Gains-Insights-into-Innovative-Medical-Practices-firsthand-at-Mayo-Clinic’s-campus-in-Jacksonville,-Florida-.html"
+        },
+        {
+          "author": "Mayo Clinic News Network",
+          "title": "IHC Rumah Sakit Pusat Pertamina in Indonesia joins Mayo Clinic Care Network",
+          "publisher": "Mayo Clinic",
+          "date": "2023-01-26",
+          "url": "https://newsnetwork.mayoclinic.org/discussion/ihc-rumah-sakit-pusat-pertamina-in-indonesia-joins-mayo-clinic-care-network"
+        },
+        {
+          "author": "RS Pusat Pertamina",
+          "title": "RSPP Gains Insight from Mayo Clinic for Outpatient Chemotherapy Unit",
+          "publisher": "RS Pusat Pertamina",
+          "date": "2023-08-14",
+          "url": "https://rspp.co.id/artikel-detail-210-Rumah-Sakit-Pusat-Pertamina-(RSPP)-Gains-Insight-from-Mayo-Clinic-for-Outpatient-Chemotherapy-Unit-.html"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--mayo-clinic--ihc-rumah-sakit-pusat-pertamina-rspp"
+    },
+    {
+      "foreign_institution": "St. Jude Children's Research Hospital",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "RSUPN Dr. Cipto Mangunkusumo (RSCM) and Indonesian Ministry of Health",
+      "partner_city": "Jakarta",
+      "type": "Training and education",
+      "description": "St. Jude Global has worked with Indonesia's pediatric oncology community for over 15 years and supports the Ministry of Health in drafting a national pediatric cancer control plan. Its Asia Pacific team visited RSCM in April 2026 to review services and exchange knowledge.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-04",
+      "evidence": "The Ministry of Health hospital directorate reported on 8 April 2026 a St. Jude Global Asia Pacific visit to RSCM on 7 April 2026 to strengthen childhood cancer collaboration.",
+      "sources": [
+        {
+          "author": "Kementerian Kesehatan RI (Ditjen Kesehatan Lanjutan)",
+          "title": "RSUPN Dr Cipto Mangunkusumo Mendapat Kunjungan dari St Jude Global Asia Pacific Regional Untuk Perkuat Kolaborasi Kanker Anak",
+          "publisher": "Kemenkes",
+          "date": "2026-04-08",
+          "url": "https://keslan.kemkes.go.id/view_foto/554"
+        },
+        {
+          "author": "St. Jude Children's Research Hospital",
+          "title": "St. Jude Global and Indonesian stakeholders unite for first-ever national childhood cancer policy planning",
+          "publisher": "St. Jude",
+          "date": "2024",
+          "url": "https://stjude.org/research/progress/2024/st-jude-global-and-indonesian-stakeholders-unite-for-first-ever-national-childhood-cancer-policy-planning.html"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--st-jude-children-s-research-hospital--rsupn-dr-cipto-mangunkusumo-rscm-and-indonesian-ministry-of-health"
+    },
+    {
+      "foreign_institution": "Apollo Hospitals",
+      "foreign_country": "India",
+      "group": "Other foreign health systems",
+      "indian_partner": "Mayapada Healthcare Group (Mayapada Hospital)",
+      "partner_city": "Jakarta",
+      "type": "Clinical affiliation",
+      "description": "Apollo and Mayapada signed an MoU in New Delhi in January 2025 covering medical education, case proctorship, nurse and doctor training in India, and technology for the planned Mayapada Apollo Batam International Hospital. Two further MoUs in January 2026 added AI based preventive health and emergency nursing training.",
+      "status": "Active",
+      "start": "2023",
+      "end": "",
+      "last_evidence": "2026-01",
+      "evidence": "Detik (20 January 2026) and JawaPos report the Apollo leadership visit to Batam and Jakarta on 7 to 9 January 2026 and two new MoUs signed on 8 January 2026 at Mayapada Hospital Jakarta Selatan.",
+      "sources": [
+        {
+          "author": "JawaPos",
+          "title": "Perkuat kolaborasi lintas negara, Mayapada Healthcare yakin bisa kurangi orang berobat ke luar negeri",
+          "publisher": "JawaPos",
+          "date": "2026-01-23",
+          "url": "https://www.jawapos.com/kesehatan/2601230030/perkuat-kolaborasi-lintas-negara-mayapada-healthcare-yakin-bisa-kurangi-orang-berobat-ke-luar-negeri"
+        },
+        {
+          "author": "Detik Health",
+          "title": "Kolaborasi Klinis Mayapada Healthcare & Apollo Hospitals India Kian Matang",
+          "publisher": "Detik",
+          "date": "2026-01-20",
+          "url": "https://health.detik.com/berita-detikhealth/d-8316666/kolaborasi-klinis-mayapada-healthcare-apollo-hospitals-india-kian-matang"
+        },
+        {
+          "author": "Investortrust",
+          "title": "Mayapada Healthcare Partners with India's Apollo Hospitals to Curb Medical Tourism",
+          "publisher": "Investortrust",
+          "date": "2025-01-29",
+          "url": "https://investortrust.id/business/54719/mayapada-healthcare-partners-with-indias-apollo-hospitals-to-curb-medical-tourism"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--apollo-hospitals--mayapada-healthcare-group-mayapada-hospital"
+    },
+    {
+      "foreign_institution": "Asia OneHealthcare (A1Health, formerly Columbia Asia Healthcare)",
+      "foreign_country": "Malaysia",
+      "group": "Other foreign health systems",
+      "indian_partner": "RS Premier Jatinegara, Bintaro and Surabaya and Columbia Asia hospitals",
+      "partner_city": "Jakarta",
+      "type": "Ownership or management",
+      "description": "Malaysia based hospital group A1Health owns and operates nine hospitals in Indonesia, including in Jakarta, Surabaya, Banten, Medan and Semarang. They include the three RS Premier hospitals it gained by buying Ramsay Sime Darby Health Care, which closed in 2024.",
+      "status": "Active",
+      "start": "2024",
+      "end": "",
+      "last_evidence": "2026-02",
+      "evidence": "The Edge Malaysia (2 February 2026) reports A1Health has nine hospitals in Indonesia; The Edge (6 September 2024) reports the rename and the completed acquisition of Ramsay Sime Darby Health Care.",
+      "sources": [
+        {
+          "author": "The Edge Malaysia Weekly",
+          "title": "Bankers court A1Health for possible IPO",
+          "publisher": "The Edge Malaysia",
+          "date": "2026-02-02",
+          "url": "https://theedgemalaysia.com/node/791491"
+        },
+        {
+          "author": "The Edge Malaysia",
+          "title": "Columbia Asia Healthcare renamed Asia OneHealthcare (A1Health) after consolidating assets in Malaysia, Indonesia and Vietnam",
+          "publisher": "The Edge Malaysia",
+          "date": "2024-09-06",
+          "url": "https://theedgemalaysia.com/node/725855"
+        },
+        {
+          "author": "Vina Elvira, Kontan",
+          "title": "Rumah Sakit Internasional Columbia Asia Resmi Akuisisi RS Medika BSD",
+          "publisher": "Kontan",
+          "date": "2023-09-19",
+          "url": "https://industri.kontan.co.id/news/rumah-sakit-internasional-columbia-asia-resmi-akuisisi-rs-medika-bsd"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--asia-onehealthcare-a1health-formerly-columbia-asia-healthcare--rs-premier-jatinegara-bintaro-and-surabaya-and-columbia-asia-hospitals"
+    },
+    {
+      "foreign_institution": "Chung Shan Medical University (Taiwan)",
+      "foreign_country": "Taiwan",
+      "group": "Other foreign health systems",
+      "indian_partner": "Universitas Indonesia",
+      "partner_city": "Jakarta",
+      "type": "Training and education",
+      "description": "CSMU and Universitas Indonesia signed an MoU in August 2025 on faculty and student exchange, joint curriculum, research and clinical training, building on dental medicine exchanges with UI's Faculty of Dentistry since 2017.",
+      "status": "Active",
+      "start": "2025-08",
+      "end": "",
+      "last_evidence": "2025-08",
+      "evidence": "CSMU's press page dated 8 August 2025 reports the MoU signed by both presidents.",
+      "sources": [
+        {
+          "author": "CSMU",
+          "title": "Chung Shan Medical University Signs MOU with Universitas Indonesia to Advance Comprehensive Collaboration",
+          "publisher": "Chung Shan Medical University",
+          "date": "2025-08-08",
+          "url": "https://pr.csmu.edu.tw/p/16-1024-71677.php?Lang=zh-tw"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--chung-shan-medical-university-taiwan--universitas-indonesia"
+    },
+    {
+      "foreign_institution": "Hong Kong Asia Medical Group (HKAMG)",
+      "foreign_country": "Hong Kong, China",
+      "group": "Other foreign health systems",
+      "indian_partner": "Bali International Hospital (PT Pertamedika Bali Hospital, IHC)",
+      "partner_city": "Denpasar (Sanur)",
+      "type": "Clinical affiliation",
+      "description": "HKAMG, a private cardiovascular hospital group whose flagship is Wuhan Asia Heart Hospital, provides cardiology and clinical expertise to Bali International Hospital. Its specialists took part in the hospital's first TAVI procedures in March 2026, which HKAMG funded.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-03",
+      "evidence": "ANTARA (9 March 2026) reports that the first TAVI procedures at Bali International Hospital on 7 March 2026 were supported by HKAMG, quoting HKAMG's CEO; BIH named HKAMG a partner on 25 April 2025.",
+      "sources": [
+        {
+          "author": "Ni Putu Putri Muliantari, ANTARA",
+          "title": "Akhirnya ada prosedur TAVI di KEK Sanur untuk tangani kasus jantung",
+          "publisher": "ANTARA",
+          "date": "2026-03-09",
+          "url": "https://bali.antaranews.com/berita/400683/akhirnya-ada-prosedur-tavi-di-kek-sanur-untuk-tangani-kasus-jantung"
+        },
+        {
+          "author": "Bali International Hospital (press release)",
+          "title": "Bali International Hospital Hosts Meet & Greet with Global Medical Partners",
+          "publisher": "Bali.com",
+          "date": "2025-04-25",
+          "url": "https://bali.com/news/press-releases/bali-international-hospital-hosts-meet-greet-with-global-medical-partners"
+        },
+        {
+          "author": "International Finance Corporation",
+          "title": "Asia Heart project (Hong Kong Asia Medical Holding and Wuhan Asia Heart Hospital)",
+          "publisher": "IFC Project Information Portal",
+          "date": "",
+          "url": "https://disclosures.ifc.org/project-detail/SII/33623/asia-heart-project"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--hong-kong-asia-medical-group-hkamg--bali-international-hospital-pt-pertamedika-bali-hospital-ihc"
+    },
+    {
+      "foreign_institution": "Icon Group (Icon Cancer Centre)",
+      "foreign_country": "Australia",
+      "group": "Other foreign health systems",
+      "indian_partner": "Bali International Hospital (PT Pertamina Bina Medika IHC)",
+      "partner_city": "Denpasar (Sanur)",
+      "type": "Ownership or management",
+      "description": "Icon Cancer Centre operates the radiation oncology and cancer service inside Bali International Hospital in the Sanur special economic zone, with its own international doctors, the first allowed to practice in Indonesia. It treated its first patient on 7 May 2025.",
+      "status": "Active",
+      "start": "2025-03",
+      "end": "",
+      "last_evidence": "2026-03",
+      "evidence": "Icon Group's release of 26 March 2026 reports the launch of the first stereotactic radiotherapy service and the first brachytherapy treatment at Icon Cancer Centre, Bali International Hospital.",
+      "sources": [
+        {
+          "author": "Icon Writers",
+          "title": "Icon Cancer Centre at Bali International Hospital marks regional first with advanced radiotherapy cancer treatments",
+          "publisher": "Icon Group",
+          "date": "2026-03-26",
+          "url": "https://icongroup.global/?p=18098"
+        },
+        {
+          "author": "Icon Writers",
+          "title": "Icon Cancer Centre Bali treats first patient",
+          "publisher": "Icon Group",
+          "date": "2025-05-07",
+          "url": "https://icongroup.global/en/news/2025-05-07/icon-cancer-centre-bali-treats-first-patient/"
+        },
+        {
+          "author": "Icon Group",
+          "title": "Icon Group, Bali International Hospital partnership to deliver exceptional cancer care",
+          "publisher": "Icon Group",
+          "date": "2025-03-04",
+          "url": "https://icongroup.global/en/news/2025-03-04/icon-group-and-bali-international-hospital/"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--icon-group-icon-cancer-centre--bali-international-hospital-pt-pertamina-bina-medika-ihc"
+    },
+    {
+      "foreign_institution": "International University of Health and Welfare (IUHW)",
+      "foreign_country": "Japan",
+      "group": "Other foreign health systems",
+      "indian_partner": "Ministry of Health (Kemenkes)",
+      "partner_city": "Jakarta",
+      "type": "Training and education",
+      "description": "The Ministry of Health and IUHW signed an MoU in April 2026 on postgraduate clinical training and specialist development, academic exchange and technical help from Japanese experts.",
+      "status": "Active",
+      "start": "2026-04",
+      "end": "",
+      "last_evidence": "2026-04",
+      "evidence": "The Ministry of Health reports the MoU signed on 13 April 2026 by its Secretary General, Kunta Wibawa Dasa Nugraha, and IUHW President Yasuhiro Suzuki, witnessed by the health minister.",
+      "sources": [
+        {
+          "author": "Ministry of Health of Indonesia",
+          "title": "Kemenkes dan IUHW Jepang Kerja Sama Perkuat Pendidikan Dokter Spesialis",
+          "publisher": "Kementerian Kesehatan RI",
+          "date": "2026-04-13",
+          "url": "https://kemkes.go.id/id/kemenkes-dan-iuhw-jepang-kerja-sama-perkuat-pendidikan-dokter-spesialis"
+        },
+        {
+          "author": "RRI",
+          "title": "Indonesia and Japan Expand Cooperation in Specialist Medical Education",
+          "publisher": "RRI",
+          "date": "2026-04-13",
+          "url": "https://rri.co.id/en/education/2332993/indonesia-and-japan-expand-cooperation-in-specialist-medical-education"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--international-university-of-health-and-welfare-iuhw--ministry-of-health-kemenkes"
+    },
+    {
+      "foreign_institution": "Monash Health",
+      "foreign_country": "Australia",
+      "group": "Other foreign health systems",
+      "indian_partner": "RS Otak Dr. Drs. M. Hatta Bukittinggi (RSOMH, Ministry of Health brain hospital)",
+      "partner_city": "Bukittinggi",
+      "type": "Training and education",
+      "description": "Monash Health and the national brain hospital in Bukittinggi signed an MoU in November 2024 and hold knowledge sharing sessions and clinical case reviews on multidisciplinary stroke rehabilitation. In September 2026 they discussed a wider joint program.",
+      "status": "Active",
+      "start": "2024-11",
+      "end": "",
+      "last_evidence": "2026-09",
+      "evidence": "The Health Ministry's hospital directorate reports a 22 July 2026 stroke rehabilitation session under the November 2024 MoU, and meetings on 24 and 28 September 2026.",
+      "sources": [
+        {
+          "author": "Humas RSOMH Bukittinggi",
+          "title": "RSOMH Bukittinggi dan Monash Health Perkuat Kolaborasi Pengembangan Rehabilitasi Stroke",
+          "publisher": "Ditjen Kesehatan Lanjutan, Kemenkes",
+          "date": "2026-07-25",
+          "url": "https://keslan.kemkes.go.id/read/4058/rsomh-bukittinggi-dan-monash-health-perkuat-kolaborasi-pengembangan-rehabilitasi-stroke"
+        },
+        {
+          "author": "Humas RSOMH Bukittinggi",
+          "title": "RSOMH Bukittinggi Dukung Rencana Program Kerja Sama Bersama Monash Health",
+          "publisher": "Ditjen Kesehatan Lanjutan, Kemenkes",
+          "date": "2026-09-29",
+          "url": "https://keslan.kemkes.go.id/read/4358/rsomh-bukittinggi-dukung-rencana-program-kerja-sama-bersama-monash-health"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--monash-health--rs-otak-dr-drs-m-hatta-bukittinggi-rsomh-ministry-of-health-brain-hospital"
+    },
+    {
+      "foreign_institution": "National Center for Global Health and Medicine (NCGM) and Kobe University",
+      "foreign_country": "Japan",
+      "group": "Other foreign health systems",
+      "indian_partner": "Universitas Airlangga (Institute of Tropical Disease and RS Universitas Airlangga)",
+      "partner_city": "Surabaya",
+      "type": "Research collaboration",
+      "description": "Japanese institutions work with Universitas Airlangga on infectious disease research through the J-GRID program, running since 2007 and renewed in 2015. A delegation visit to Unair Hospital in February 2025 explored widening it.",
+      "status": "Active",
+      "start": "2007",
+      "end": "",
+      "last_evidence": "2025-02",
+      "evidence": "Unair News (20 February 2025) reports the 19 February 2025 visit of NCGM and Kobe University staff and the hospital director describing continued J-GRID research collaboration.",
+      "sources": [
+        {
+          "author": "UNAIR News",
+          "title": "Japanese delegation visits UNAIR Hospital to strengthen research and innovation collaboration",
+          "publisher": "Universitas Airlangga",
+          "date": "2025-02-20",
+          "url": "https://unair.ac.id/en/japanese-delegation-visits-unair-hospital-to-strengthen-research-and-innovation-collaboration/"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--national-center-for-global-health-and-medicine-ncgm-and-kobe-university--universitas-airlangga-institute-of-tropical-disease-and-rs-universitas-airlangga"
+    },
+    {
+      "foreign_institution": "Ramathibodi Hospital, Mahidol University",
+      "foreign_country": "Thailand",
+      "group": "Other foreign health systems",
+      "indian_partner": "Faculty of Medicine Universitas Indonesia and RSCM",
+      "partner_city": "Jakarta",
+      "type": "Training and education",
+      "description": "Ramathibodi and FMUI-RSCM signed an MoU in May 2025 for clinical training and academic cooperation, with an initial focus on urology and endoscopic surgical education.",
+      "status": "Active",
+      "start": "2025-05",
+      "end": "",
+      "last_evidence": "2025-05",
+      "evidence": "Ramathibodi's international office reports the MoU signing on 21 May 2025 at the Faculty of Medicine Ramathibodi Hospital.",
+      "sources": [
+        {
+          "author": "Ramathibodi International Office",
+          "title": "Ramathibodi Hospital and Universitas Indonesia Strengthen Medical Ties with MOU Signing",
+          "publisher": "Ramathibodi Hospital, Mahidol University",
+          "date": "2025-05-21",
+          "url": "https://www.rama.mahidol.ac.th/international/news/event/22052025-1111"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--ramathibodi-hospital-mahidol-university--faculty-of-medicine-universitas-indonesia-and-rscm"
+    },
+    {
+      "foreign_institution": "Sapporo Cardio Vascular Clinic",
+      "foreign_country": "Japan",
+      "group": "Other foreign health systems",
+      "indian_partner": "Bali International Hospital (PT Pertamedika Bali Hospital, IHC)",
+      "partner_city": "Denpasar (Sanur)",
+      "type": "Clinical affiliation",
+      "description": "Sapporo Cardio Vascular Clinic provides cardiology expertise to Bali International Hospital and introduced itself in Indonesia with the hospital's first TAVI procedures in March 2026. A Sapporo cardiovascular center also hosts Indonesian cardiologists on Ministry of Health fellowships.",
+      "status": "Active",
+      "start": "2025",
+      "end": "",
+      "last_evidence": "2026-03",
+      "evidence": "Investor Daily (17 March 2026) reports two TAVI procedures on 7 March 2026 at Bali International Hospital, performed by an SCVC interventional cardiologist with HKAMG specialists, introducing SCVC's presence in Indonesia through its collaboration with the hospital. BIH named the clinic a cardiology partner on 25 April 2025.",
+      "sources": [
+        {
+          "author": "Mardiana Makmun, Investor Daily",
+          "title": "Teknologi TAVI Tangani Penyakit Katup Jantung",
+          "publisher": "investor.id",
+          "date": "2026-03-17",
+          "url": "https://investor.id/lifestyle/432385/teknologi-tavi-tangani-penyakit-katup-jantung"
+        },
+        {
+          "author": "Bali International Hospital (press release)",
+          "title": "Bali International Hospital Hosts Meet & Greet with Global Medical Partners",
+          "publisher": "Bali.com",
+          "date": "2025-04-25",
+          "url": "https://bali.com/news/press-releases/bali-international-hospital-hosts-meet-greet-with-global-medical-partners"
+        },
+        {
+          "author": "Ministry of Health of Indonesia",
+          "title": "Atasi Kekurangan Dokter Spesialis, Kemenkes Berangkatkan 27 Dokter Belajar ke RRT dan Jepang",
+          "publisher": "Kementerian Kesehatan RI",
+          "date": "2025-01-06",
+          "url": "https://kemkes.go.id/eng/atasi-kekurangan-dokter-spesialis-kemenkes-berangkatkan-27-dokter-belajar-ke-rrt-dan-jepang"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--sapporo-cardio-vascular-clinic--bali-international-hospital-pt-pertamedika-bali-hospital-ihc"
+    },
+    {
+      "foreign_institution": "Seoul National University Hospital (SNUH)",
+      "foreign_country": "South Korea",
+      "group": "Other foreign health systems",
+      "indian_partner": "Faculty of Medicine Universitas Indonesia and RSUPN Dr. Cipto Mangunkusumo (RSCM)",
+      "partner_city": "Jakarta",
+      "type": "Training and education",
+      "description": "SNUH, Universitas Indonesia and RSCM signed an MoU in July 2024 covering joint research, academic exchange, online education and staff and student exchange. SNUH's urology department signed a five-year implementation agreement with FMUI and RSCM on 13 January 2025.",
+      "status": "Active",
+      "start": "2024-07",
+      "end": "",
+      "last_evidence": "2025-01",
+      "evidence": "Medipharm Health (4 February 2025) reports the implementation agreement signed on 13 January 2025 as a follow-up to the July 2024 MoU.",
+      "sources": [
+        {
+          "author": "Noh Jae-young, Medipharm Health",
+          "title": "서울대병원-인도네시아 의대-RSCM 병원 간 AOI 체결",
+          "publisher": "Medipharm Health News",
+          "date": "2025-02-04",
+          "url": "https://medipharmhealth.co.kr/news/article.html?no=105006"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--seoul-national-university-hospital-snuh--faculty-of-medicine-universitas-indonesia-and-rsupn-dr-cipto-mangunkusumo-rscm"
+    },
+    {
+      "foreign_institution": "Seoul National University Hospital (SNUH)",
+      "foreign_country": "South Korea",
+      "group": "Other foreign health systems",
+      "indian_partner": "RSUP Fatmawati (Ministry of Health hospital)",
+      "partner_city": "Jakarta",
+      "type": "Clinical affiliation",
+      "description": "Fatmawati and SNUH signed an MoU in March 2023, witnessed by the health minister, to build liver, kidney and orthopedic transplant capacity. Fatmawati's living donor liver transplant program is being developed with SNUH to build the skills of its medical staff.",
+      "status": "Active",
+      "start": "2023-03",
+      "end": "",
+      "last_evidence": "2026-04",
+      "evidence": "The Health Ministry's release of 10 April 2026 on Fatmawati's third liver transplant (9 April 2026) says the program is developed through cooperation with SNUH.",
+      "sources": [
+        {
+          "author": "Ministry of Health of Indonesia",
+          "title": "Lakukan Transplantasi Hati Ketiga RSUP Fatmawati Perkuat Kemandirian Layanan Dalam Negeri",
+          "publisher": "Kementerian Kesehatan RI",
+          "date": "2026-04-10",
+          "url": "https://www.kemkes.go.id/eng/lakukan-transplantasi-hati-ketiga-rsup-fatmawati-perkuat-kemandirian-layanan-dalam-negeri"
+        },
+        {
+          "author": "Ministry of Health of Indonesia",
+          "title": "Kerja Sama Indonesia-Korea Dukung Implementasi Transformasi Kesehatan",
+          "publisher": "Kementerian Kesehatan RI",
+          "date": "2023-03-27",
+          "url": "https://www.kemkes.go.id/eng/kerja-sama-indonesia-korea-dukung-implementasi-transformasi-kesehatan"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--seoul-national-university-hospital-snuh--rsup-fatmawati-ministry-of-health-hospital"
+    },
+    {
+      "foreign_institution": "SingHealth",
+      "foreign_country": "Singapore",
+      "group": "Other foreign health systems",
+      "indian_partner": "Indonesia Healthcare Corporation (PT Pertamina Bina Medika) and Bali International Hospital",
+      "partner_city": "Denpasar (Sanur)",
+      "type": "Training and education",
+      "description": "SingHealth and IHC signed an MoU in April 2024 on sharing clinical practice, hospital management, staff training and nursing transformation, aimed at supporting Bali International Hospital, where SingHealth is the academic partner for continuing medical education.",
+      "status": "Active",
+      "start": "2024-04",
+      "end": "",
+      "last_evidence": "2025-04",
+      "evidence": "Bali International Hospital's press release of 25 April 2025 names SingHealth as its academic partner for continuing medical education and clinical advancement.",
+      "sources": [
+        {
+          "author": "Bali International Hospital (press release)",
+          "title": "Bali International Hospital Hosts Meet & Greet with Global Medical Partners",
+          "publisher": "Bali.com",
+          "date": "2025-04-25",
+          "url": "https://bali.com/news/press-releases/bali-international-hospital-hosts-meet-greet-with-global-medical-partners"
+        },
+        {
+          "author": "Indonesia Business Post",
+          "title": "IHC, Singhealth seals deal collaboration to improve patient care",
+          "publisher": "Indonesia Business Post",
+          "date": "2024-05-02",
+          "url": "https://indonesiabusinesspost.com/1823/Politics/ihc-singhealth-seals-deal-collaboration-to-improve-patient-care"
+        },
+        {
+          "author": "Pertamina",
+          "title": "Pertamina Bina Medika IHC and SingHealth collaborate to enhance healthcare services",
+          "publisher": "Pertamina",
+          "date": "2024-05-02",
+          "url": "https://pertamina.com/en/news-room/news-release/pertamina-bina-medika-ihc-and-singhealth-collaborate-to-enhance-healthcare-services"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--singhealth--indonesia-healthcare-corporation-pt-pertamina-bina-medika-and-bali-international-hospital"
+    },
+    {
+      "foreign_institution": "SingHealth Duke-NUS Global Health Institute (SingHealth and Duke-NUS Medical School)",
+      "foreign_country": "Singapore",
+      "group": "Other foreign health systems",
+      "indian_partner": "Universitas Sumatera Utara (Faculty of Medicine)",
+      "partner_city": "Medan",
+      "type": "Training and education",
+      "description": "SingHealth and the National University of Singapore (Duke-NUS) signed a partnership with USU in July 2023 on global health research, education and capacity building. The institute and USU's medical faculty ran a joint international summer course in July 2025.",
+      "status": "Active",
+      "start": "2023-07",
+      "end": "",
+      "last_evidence": "2025-07",
+      "evidence": "USU reports the summer course with the SingHealth Duke-NUS Global Health Institute opened on 21 July 2025; USU's 8 August 2023 news item reports the partnership.",
+      "sources": [
+        {
+          "author": "Universitas Sumatera Utara",
+          "title": "Collaboration between the Faculty of Medicine, Universitas Sumatera Utara (USU) and SingHealth Duke-NUS Global Health Institute on the 2025 Summer Course",
+          "publisher": "Universitas Sumatera Utara",
+          "date": "2025-08-01",
+          "url": "https://www.usu.ac.id/en/news/collaboration-between-the-faculty-of-medicine-universitas-sumatera-utara-usu-and-singhealth-duke-nus-global-health-institute-on-the-2025-summer-course"
+        },
+        {
+          "author": "Universitas Sumatera Utara",
+          "title": "USU-Duke NUS Global Health Strengthen Partnerships",
+          "publisher": "Universitas Sumatera Utara",
+          "date": "2023-08-08",
+          "url": "https://www.usu.ac.id/en/news/usu-duke-nus-global-health-strengthen-partnerships"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--singhealth-duke-nus-global-health-institute-singhealth-and-duke-nus-medical-school--universitas-sumatera-utara-faculty-of-medicine"
+    },
+    {
+      "foreign_institution": "Sun Medical Center (Sun Healthcare International)",
+      "foreign_country": "South Korea",
+      "group": "Other foreign health systems",
+      "indian_partner": "RSUP Prof. Dr. I.G.N.G. Ngoerah",
+      "partner_city": "Denpasar",
+      "type": "Clinical affiliation",
+      "description": "Ngoerah hospital and Korea's Sun Medical Hospital signed an MoU in March 2023, witnessed by the health minister, to support health tourism in Bali. The health minister opened the Ngoerah Sun Wellness and Aesthetic Center, run in collaboration with Sun Healthcare International, on 3 October 2024.",
+      "status": "Active",
+      "start": "2023-03",
+      "end": "",
+      "last_evidence": "2024-10",
+      "evidence": "Liputan6 (5 October 2024) reports the opening of the Ngoerah Sun Wellness and Aesthetic Center on 3 October 2024 in collaboration with Sun Healthcare International of South Korea.",
+      "sources": [
+        {
+          "author": "Benedikta Desideria, Liputan6",
+          "title": "Dorong Wisata Medis Bali, Menkes Budi: Jangan Pilih yang Kuratif tapi Wellness",
+          "publisher": "Liputan6",
+          "date": "2024-10-05",
+          "url": "https://www.liputan6.com/health/read/5731675/dorong-wisata-medis-bali-menkes-budi-jangan-pilih-yang-kuratif-tapi-wellness"
+        },
+        {
+          "author": "Ministry of Health of Indonesia",
+          "title": "Kerja Sama Indonesia-Korea Dukung Implementasi Transformasi Kesehatan",
+          "publisher": "Kementerian Kesehatan RI",
+          "date": "2023-03-27",
+          "url": "https://www.kemkes.go.id/eng/kerja-sama-indonesia-korea-dukung-implementasi-transformasi-kesehatan"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--sun-medical-center-sun-healthcare-international--rsup-prof-dr-i-g-n-g-ngoerah"
+    },
+    {
+      "foreign_institution": "Taipei Veterans General Hospital",
+      "foreign_country": "Taiwan",
+      "group": "Other foreign health systems",
+      "indian_partner": "DKH Hospitals Group",
+      "partner_city": "Jakarta",
+      "type": "Clinical affiliation",
+      "description": "TVGH and DKH Hospitals Group signed a two year MoU in May 2025 covering exchange of medical staff, research and clinical trials, telehealth, training and international patient referrals.",
+      "status": "Active",
+      "start": "2025-05",
+      "end": "",
+      "last_evidence": "2025-05",
+      "evidence": "Antara, 23 May 2025, reports the MoU signed in Bogor on 23 May 2025, running two years with an option to extend.",
+      "sources": [
+        {
+          "author": "Antara",
+          "title": "DKH Hospitals dan TVGH teken MoU tingkatkan layanan kesehatan di RI",
+          "publisher": "Antara",
+          "date": "2025-05-23",
+          "url": "https://www.antaranews.com/berita/4853713/dkh-hospitals-dan-tvgh-teken-mou-tingkatkan-layanan-kesehatan-di-ri"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--taipei-veterans-general-hospital--dkh-hospitals-group"
+    },
+    {
+      "foreign_institution": "Tokushukai Medical Group",
+      "foreign_country": "Japan",
+      "group": "Other foreign health systems",
+      "indian_partner": "RSJPD Harapan Kita (National Heart Center) and Ministry of Health",
+      "partner_city": "Jakarta",
+      "type": "Clinical affiliation",
+      "description": "Tokushukai has worked with Harapan Kita since 2004, exchanging doctors and knowledge, and signed a December 2023 agreement for a new cardiac building that the Health Ministry describes as a grant of about Rp 1 trillion. The building is planned as a center for cardiovascular education and international collaboration.",
+      "status": "Active",
+      "start": "2004",
+      "end": "",
+      "last_evidence": "2026-04",
+      "evidence": "The Health Ministry reports the topping off ceremony for the Harapan Kita-Tokushukai Building on 15 April 2026, attended by the health minister, with a Da Vinci surgical robot due in November 2026.",
+      "sources": [
+        {
+          "author": "Ministry of Health of Indonesia",
+          "title": "Perkuat Layanan Jantung Berkelas Dunia di Indonesia, Gedung Baru RS Harkit Resmi Topping Off",
+          "publisher": "Kementerian Kesehatan RI",
+          "date": "2026-04-15",
+          "url": "https://www.kemkes.go.id/eng/perkuat-layanan-jantung-berkelas-dunia-di-indonesia-gedung-baru-rs-harkit-resmi-topping-off"
+        },
+        {
+          "author": "Antara",
+          "title": "Indonesia, Japan back Harapan Kita as Asia's biggest cardiac hub",
+          "publisher": "Antara News",
+          "date": "2026-04-15",
+          "url": "https://en.antaranews.com/news/412388/indonesia-japan-back-harapan-kita-as-asias-biggest-cardiac-hub"
+        },
+        {
+          "author": "SSEK",
+          "title": "SSEK Acts for Tokushukai Medical Corporation Group in Major Cooperation Project in Indonesian Health Sector",
+          "publisher": "SSEK Law Firm",
+          "date": "2023-12-11",
+          "url": "https://ssek.com/blog/ssek-acts-for-tokushukai-medical-corporation-group-in-major-cooperation-project-in-indonesian-health-sector/?lang=id"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--tokushukai-medical-group--rsjpd-harapan-kita-national-heart-center-and-ministry-of-health"
+    },
+    {
+      "foreign_institution": "Wuhan Asia Heart Hospital",
+      "foreign_country": "China",
+      "group": "Other foreign health systems",
+      "indian_partner": "Ministry of Health (Kemenkes)",
+      "partner_city": "Jakarta",
+      "type": "Training and education",
+      "description": "Under a Ministry of Health fellowship program funded by LPDP, Indonesian cardiologists train in cardiac intervention for 12 months at Wuhan Asia Heart Hospital, the flagship of Hong Kong Asia Medical Group.",
+      "status": "Active",
+      "start": "2024-11",
+      "end": "",
+      "last_evidence": "2024-11",
+      "evidence": "The Health Ministry's release of 12 November 2024 reports six of 13 cardiology fellows placed at Wuhan Asia Heart Hospital for 12 months.",
+      "sources": [
+        {
+          "author": "Ministry of Health of Indonesia",
+          "title": "Perkuat Layanan Jantung Nasional: 13 Dokter Spesialis Jantung Indonesia Berguru ke Tiongkok",
+          "publisher": "Kementerian Kesehatan RI",
+          "date": "2024-11-12",
+          "url": "https://kemkes.go.id/id/perkuat-layanan-jantung-nasional-13-dokter-spesialis-jantung-indonesia-berguru-ke-tiongkok"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--wuhan-asia-heart-hospital--ministry-of-health-kemenkes"
+    },
+    {
+      "foreign_institution": "Zhongda Hospital (Southeast University)",
+      "foreign_country": "China",
+      "group": "Other foreign health systems",
+      "indian_partner": "Ministry of Health (Kemenkes)",
+      "partner_city": "Jakarta",
+      "type": "Training and education",
+      "description": "Zhongda Hospital is one of the named host hospitals for the Ministry of Health's one-year interventional cardiology and neurology fellowships.",
+      "status": "Active",
+      "start": "2025-01",
+      "end": "",
+      "last_evidence": "2025-01",
+      "evidence": "The Health Ministry's release of 6 January 2025 names Zhongda Hospital among the hosts for 27 fellows.",
+      "sources": [
+        {
+          "author": "Ministry of Health of Indonesia",
+          "title": "Atasi Kekurangan Dokter Spesialis, Kemenkes Berangkatkan 27 Dokter Belajar ke RRT dan Jepang",
+          "publisher": "Kementerian Kesehatan RI",
+          "date": "2025-01-06",
+          "url": "https://kemkes.go.id/eng/atasi-kekurangan-dokter-spesialis-kemenkes-berangkatkan-27-dokter-belajar-ke-rrt-dan-jepang"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--zhongda-hospital-southeast-university--ministry-of-health-kemenkes"
+    },
+    {
+      "foreign_institution": "Zhongshan Hospital (Fudan University)",
+      "foreign_country": "China",
+      "group": "Other foreign health systems",
+      "indian_partner": "Ministry of Health (Kemenkes)",
+      "partner_city": "Jakarta",
+      "type": "Training and education",
+      "description": "Under a Ministry of Health cardiology fellowship program funded by LPDP, Indonesian cardiologists train in cardiac intervention for 12 months at Fudan University Zhongshan Hospital. The ministry signed a cooperation agreement with the hospital in June 2024.",
+      "status": "Active",
+      "start": "2023-11",
+      "end": "",
+      "last_evidence": "2025-01",
+      "evidence": "The Health Ministry reports seven of 13 cardiology fellows placed at Zhongshan Hospital in November 2024, and names the hospital among hosts for a further 27 fellows sent on 6 January 2025.",
+      "sources": [
+        {
+          "author": "Ministry of Health of Indonesia",
+          "title": "Atasi Kekurangan Dokter Spesialis, Kemenkes Berangkatkan 27 Dokter Belajar ke RRT dan Jepang",
+          "publisher": "Kementerian Kesehatan RI",
+          "date": "2025-01-06",
+          "url": "https://kemkes.go.id/eng/atasi-kekurangan-dokter-spesialis-kemenkes-berangkatkan-27-dokter-belajar-ke-rrt-dan-jepang"
+        },
+        {
+          "author": "Ministry of Health of Indonesia",
+          "title": "Perkuat Layanan Jantung Nasional: 13 Dokter Spesialis Jantung Indonesia Berguru ke Tiongkok",
+          "publisher": "Kementerian Kesehatan RI",
+          "date": "2024-11-12",
+          "url": "https://kemkes.go.id/id/perkuat-layanan-jantung-nasional-13-dokter-spesialis-jantung-indonesia-berguru-ke-tiongkok"
+        },
+        {
+          "author": "Kemenkes",
+          "title": "Kemenkes RI dan RS Rizhao Xinyi Kerja Sama Pelatihan Dokter Kardiovaskular",
+          "publisher": "Ministry of Health",
+          "date": "2024-06-11",
+          "url": "https://www.kemkes.go.id/eng/kemenkes-ri-dan-rs-rizhao-xinyi-kerja-sama-pelatihan-dokter-kardiovaskular"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--zhongshan-hospital-fudan-university--ministry-of-health-kemenkes"
+    },
+    {
+      "foreign_institution": "Mayo Clinic",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Bali International Hospital (Indonesia Healthcare Corporation)",
+      "partner_city": "Sanur, Bali",
+      "type": "Advisory and consulting",
+      "description": "Mayo Clinic Global Consulting advised on the planning and design of Bali International Hospital in the Sanur special economic zone. Mayo has said it acts only as a consultant and clinical knowledge partner and does not run the hospital.",
+      "status": "Unclear",
+      "start": "2021-12",
+      "end": "",
+      "last_evidence": "2023-03",
+      "evidence": "The latest dated source found is the Jakarta Post of 17 March 2023, quoting a Mayo executive that Mayo is only a consultant. Bali International Hospital did not list Mayo among its international partners in its 25 April 2025 partner announcement, and no 2024 to 2026 evidence of continued advisory work was found.",
+      "sources": [
+        {
+          "author": "The Jakarta Post",
+          "title": "Mayo Clinic only acting as consultant for Bali International Hospital, executive says",
+          "publisher": "The Jakarta Post",
+          "date": "2023-03-17",
+          "url": "https://www.thejakartapost.com/business/2023/03/17/mayo-clinic-only-acting-as-consultant-for-bali-international-hospital-executive-says"
+        },
+        {
+          "author": "Becker's Hospital Review",
+          "title": "Mayo Clinic to advise on building, operating hospital in Indonesia",
+          "publisher": "Becker's Hospital Review",
+          "date": "2021-12",
+          "url": "https://www.beckershospitalreview.com/capital/mayo-clinic-to-help-build-operate-hospital-in-indonesia/"
+        },
+        {
+          "author": "Bali International Hospital (press release)",
+          "title": "Bali International Hospital Hosts Meet & Greet with Global Medical Partners",
+          "publisher": "Bali.com",
+          "date": "2025-04-25",
+          "url": "https://bali.com/news/press-releases/bali-international-hospital-hosts-meet-greet-with-global-medical-partners"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--mayo-clinic--bali-international-hospital-indonesia-healthcare-corporation"
+    },
+    {
+      "foreign_institution": "UCLA Health",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "RS Jantung dan Pembuluh Darah Harapan Kita",
+      "partner_city": "Jakarta",
+      "type": "Advisory and consulting",
+      "description": "UCLA Health worked with Harapan Kita on developing Indonesia's first heart transplant program, as the Ministry of Health reported when the hospital's new building opened in November 2022.",
+      "status": "Unclear",
+      "start": "",
+      "end": "",
+      "last_evidence": "2022-11",
+      "evidence": "The Ministry of Health release of the new Harapan Kita building launch in November 2022 names UCLA Health as a partner for heart transplant services. No newer dated evidence was found.",
+      "sources": [
+        {
+          "author": "Kementerian Kesehatan RI",
+          "title": "Wujudkan Transformasi Layanan Rujukan, RS Jantung Harapan Kita jadi RS Pertama Transplantasi Jantung di Indonesia",
+          "publisher": "Kemenkes",
+          "date": "2022-11-09",
+          "url": "https://kemkes.go.id/eng/wujudkan-transformasi-layanan-rujukan-rs-jantung-harapan-kita-jadi-rs-pertama-transplantasi-jantung-di-indonesia"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--ucla-health--rs-jantung-dan-pembuluh-darah-harapan-kita"
+    },
+    {
+      "foreign_institution": "Asan Medical Center",
+      "foreign_country": "South Korea",
+      "group": "Other foreign health systems",
+      "indian_partner": "Siloam Hospitals Group",
+      "partner_city": "Jakarta",
+      "type": "Clinical affiliation",
+      "description": "Siloam and Asan Medical Center signed an MoU in November 2023 to develop clinical capability, with joint patient care, referrals and exchange of medical staff and researchers.",
+      "status": "Unclear",
+      "start": "2023-11",
+      "end": "",
+      "last_evidence": "2023-11",
+      "evidence": "Kompas TV reports the MoU press conference held on 2 November 2023, attended by Ministry of Health officials. No newer dated evidence was found.",
+      "sources": [
+        {
+          "author": "Adv Team",
+          "title": "Grup RS Siloam Jalin Kerja Sama dengan Asan Medical Center Korea Selatan",
+          "publisher": "Kompas TV",
+          "date": "2023-11-03",
+          "url": "https://www.kompas.tv/advertorial/457691/grup-rs-siloam-jalin-kerja-sama-dengan-asan-medical-center-korea-selatan"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--asan-medical-center--siloam-hospitals-group"
+    },
+    {
+      "foreign_institution": "Icon Group (Icon Cancer Centre, Singapore)",
+      "foreign_country": "Australia",
+      "group": "Other foreign health systems",
+      "indian_partner": "RS Universitas Airlangga (RSUA)",
+      "partner_city": "Surabaya",
+      "type": "Clinical affiliation",
+      "description": "Airlangga University Hospital and Icon Cancer Centre signed an agreement for medical exchange in cancer service, education and research in April 2023.",
+      "status": "Unclear",
+      "start": "2023-04",
+      "end": "",
+      "last_evidence": "2023-04",
+      "evidence": "BioSpectrum Asia reports the signing on 10 April 2023; no newer dated activity was found.",
+      "sources": [
+        {
+          "author": "BioSpectrum Asia",
+          "title": "Airlangga University Hospital signs MoU with Singapore's Icon Cancer Center",
+          "publisher": "BioSpectrum Asia",
+          "date": "2023-04-10",
+          "url": "https://www.biospectrumasia.com/news/54/22260/airlangga-university-hospital-signs-mou-with-singapores-icon-cancer-center.html"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--icon-group-icon-cancer-centre-singapore--rs-universitas-airlangga-rsua"
+    },
+    {
+      "foreign_institution": "National Center for Global Health and Medicine (NCGM)",
+      "foreign_country": "Japan",
+      "group": "Other foreign health systems",
+      "indian_partner": "Siloam Hospitals Group",
+      "partner_city": "Jakarta",
+      "type": "Research collaboration",
+      "description": "NCGM and Siloam signed an MoU on clinical research cooperation in August 2022 and held a joint seminar to launch Siloam's new Clinical Research Department.",
+      "status": "Unclear",
+      "start": "2022-08",
+      "end": "",
+      "last_evidence": "2022-10",
+      "evidence": "NCGM's news release of 7 October 2022 reports the MoU concluded on 13 August 2022; nothing newer was found.",
+      "sources": [
+        {
+          "author": "National Center for Global Health and Medicine",
+          "title": "The National Center for Global Health and Medicine and the Siloam Hospitals Group have signed a Memorandum of Understanding (MoU) for clinical research cooperation",
+          "publisher": "NCGM",
+          "date": "2022-10-07",
+          "url": "https://www.ncgm.go.jp/en/news/FY2022/20221007.html"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--national-center-for-global-health-and-medicine-ncgm--siloam-hospitals-group"
+    },
+    {
+      "foreign_institution": "Peking Union Medical College Hospital",
+      "foreign_country": "China",
+      "group": "Other foreign health systems",
+      "indian_partner": "Ministry of Health (Kemenkes)",
+      "partner_city": "Jakarta",
+      "type": "Training and education",
+      "description": "The Ministry of Health signed a cooperation agreement with PUMCH during its June 2024 China visit, alongside other Chinese hospitals.",
+      "status": "Unclear",
+      "start": "2024-06",
+      "end": "",
+      "last_evidence": "2024-06",
+      "evidence": "Ministry of Health release dated 11 June 2024 names PUMCH among agreements signed. Content of the agreement is not detailed and nothing newer was found.",
+      "sources": [
+        {
+          "author": "Kemenkes",
+          "title": "Kemenkes RI dan RS Rizhao Xinyi Kerja Sama Pelatihan Dokter Kardiovaskular",
+          "publisher": "Ministry of Health",
+          "date": "2024-06-11",
+          "url": "https://www.kemkes.go.id/eng/kemenkes-ri-dan-rs-rizhao-xinyi-kerja-sama-pelatihan-dokter-kardiovaskular"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--peking-union-medical-college-hospital--ministry-of-health-kemenkes"
+    },
+    {
+      "foreign_institution": "Rizhao Xinyi Hospital (Rizhao Heart Hospital)",
+      "foreign_country": "China",
+      "group": "Other foreign health systems",
+      "indian_partner": "Ministry of Health (Kemenkes)",
+      "partner_city": "Jakarta",
+      "type": "Training and education",
+      "description": "A June 2024 letter of intent provides for sending Indonesian cardiovascular doctors, nurses and technicians to Rizhao for training over five years.",
+      "status": "Unclear",
+      "start": "2024-06",
+      "end": "",
+      "last_evidence": "2024-06",
+      "evidence": "Ministry of Health release dated 11 June 2024. No newer dated evidence found.",
+      "sources": [
+        {
+          "author": "Kemenkes",
+          "title": "Kemenkes RI dan RS Rizhao Xinyi Kerja Sama Pelatihan Dokter Kardiovaskular",
+          "publisher": "Ministry of Health",
+          "date": "2024-06-11",
+          "url": "https://www.kemkes.go.id/eng/kemenkes-ri-dan-rs-rizhao-xinyi-kerja-sama-pelatihan-dokter-kardiovaskular"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--rizhao-xinyi-hospital-rizhao-heart-hospital--ministry-of-health-kemenkes"
+    },
+    {
+      "foreign_institution": "Royal Brompton and Harefield Hospitals (Guy's and St Thomas' NHS Foundation Trust)",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "Mandaya Royal Hospital Puri",
+      "partner_city": "Jakarta",
+      "type": "Telehealth and second opinion",
+      "description": "A November 2020 MoU gave Mandaya patients second opinions and teleconsultations with Royal Brompton clinicians, plus remote training and joint cardiorespiratory service development. A pediatric cardiac centre was launched with the partner in May 2023.",
+      "status": "Unclear",
+      "start": "2020-11",
+      "end": "",
+      "last_evidence": "2023-05",
+      "evidence": "Mandaya's May 2023 inauguration of a pediatric cardiac centre with Royal Brompton and Harefield is the latest dated evidence found; nothing from October 2024 onward.",
+      "sources": [
+        {
+          "author": "Mandaya Hospital Group",
+          "title": "Mandaya Royal Hospital Puri and London's Royal Brompton & Harefield Hospitals Announce Strategic Partnership",
+          "publisher": "Mandaya Hospital Group",
+          "date": "2020-12-19",
+          "url": "https://mandayahospitalgroup.com/?p=11304"
+        },
+        {
+          "author": "RM.id",
+          "title": "Gandeng Royal Brompton, Mandaya Hospital resmikan pusat jantung anak",
+          "publisher": "RM.id",
+          "date": "2023-05-22",
+          "url": "https://rm.id/baca-berita/life-style/172779/gandeng-royal-brompton-mandaya-hospital-resmikan-pusat-jantung-anak"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--royal-brompton-and-harefield-hospitals-guy-s-and-st-thomas-nhs-foundation-trust--mandaya-royal-hospital-puri"
+    },
+    {
+      "foreign_institution": "UMC Utrecht",
+      "foreign_country": "Netherlands",
+      "group": "Other foreign health systems",
+      "indian_partner": "RS Jantung dan Pembuluh Darah Harapan Kita",
+      "partner_city": "Jakarta",
+      "type": "Clinical affiliation",
+      "description": "The Health Ministry reported that Harapan Kita works with UMC Utrecht to develop heart failure services, alongside UCLA Health for heart transplantation.",
+      "status": "Unclear",
+      "start": "2022-11",
+      "end": "",
+      "last_evidence": "2022-11",
+      "evidence": "The Health Ministry's release of 9 November 2022 on the new Harapan Kita building names UMC Utrecht; no newer dated evidence was found.",
+      "sources": [
+        {
+          "author": "Ministry of Health of Indonesia",
+          "title": "Wujudkan Transformasi Layanan Rujukan, RS Jantung Harapan Kita jadi RS Pertama Transplantasi Jantung di Indonesia",
+          "publisher": "Kementerian Kesehatan RI",
+          "date": "2022-11-09",
+          "url": "https://kemkes.go.id/eng/wujudkan-transformasi-layanan-rujukan-rs-jantung-harapan-kita-jadi-rs-pertama-transplantasi-jantung-di-indonesia"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--umc-utrecht--rs-jantung-dan-pembuluh-darah-harapan-kita"
+    },
+    {
+      "foreign_institution": "KPJ Healthcare",
+      "foreign_country": "Malaysia",
+      "group": "Other foreign health systems",
+      "indian_partner": "RS Medika BSD",
+      "partner_city": "Tangerang",
+      "type": "Ownership or management",
+      "description": "KPJ Healthcare managed RS Medika BSD until Columbia Asia acquired the hospital in September 2023 and renamed it RS Columbia Asia BSD.",
+      "status": "Ended",
+      "start": "",
+      "end": "2023",
+      "last_evidence": "2023-10",
+      "evidence": "Warta Ekonomi (2 October 2023) reports that RS Columbia Asia BSD resulted from the acquisition of RS Medika BSD, previously managed by KPJ Healthcare Group Malaysia; Kontan reports the acquisition on 19 September 2023.",
+      "sources": [
+        {
+          "author": "Warta Ekonomi",
+          "title": "Ekspansi Besar-besaran, RS Columbia Asia Buka Dua Rumah Sakit dalam Seminggu",
+          "publisher": "Warta Ekonomi",
+          "date": "2023-10-02",
+          "url": "https://wartaekonomi.co.id/read515939/ekspansi-besar-besaran-rs-columbia-asia-buka-dua-rumah-sakit-dalam-seminggu"
+        },
+        {
+          "author": "Vina Elvira, Kontan",
+          "title": "Rumah Sakit Internasional Columbia Asia Resmi Akuisisi RS Medika BSD",
+          "publisher": "Kontan",
+          "date": "2023-09-19",
+          "url": "https://industri.kontan.co.id/news/rumah-sakit-internasional-columbia-asia-resmi-akuisisi-rs-medika-bsd"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--kpj-healthcare--rs-medika-bsd"
+    },
+    {
+      "foreign_institution": "Ramsay Health Care",
+      "foreign_country": "Australia",
+      "group": "Other foreign health systems",
+      "indian_partner": "RS Premier Jatinegara, Bintaro and Surabaya",
+      "partner_city": "Jakarta",
+      "type": "Ownership or management",
+      "description": "Ramsay Health Care co-owned the three RS Premier hospitals through Ramsay Sime Darby Health Care, its 50:50 joint venture with Sime Darby, until the venture was sold to Columbia Asia (now A1Health).",
+      "status": "Ended",
+      "start": "",
+      "end": "2024",
+      "last_evidence": "2024-09",
+      "evidence": "The Edge (6 September 2024) reports that Columbia Asia had recently completed the purchase of Ramsay Sime Darby Health Care, which operated three hospitals in Indonesia, from Sime Darby and its Australian partner.",
+      "sources": [
+        {
+          "author": "The Edge Malaysia",
+          "title": "Columbia Asia Healthcare renamed Asia OneHealthcare (A1Health) after consolidating assets in Malaysia, Indonesia and Vietnam",
+          "publisher": "The Edge Malaysia",
+          "date": "2024-09-06",
+          "url": "https://theedgemalaysia.com/node/725855"
+        }
+      ],
+      "country": "Indonesia",
+      "last_checked": "2026-10-07",
+      "id": "indonesia--ramsay-health-care--rs-premier-jatinegara-bintaro-and-surabaya"
     }
   ]
 }

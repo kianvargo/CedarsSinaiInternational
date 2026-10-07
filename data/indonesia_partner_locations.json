@@ -1,0 +1,275 @@
+{
+ "note": "Sanur and Denpasar (Bali) shown as one point; Tangerang is in Greater Jakarta.",
+ "bounds": [
+  94.5,
+  141.5,
+  -14.5,
+  7.0
+ ],
+ "metros": [
+  "Jakarta",
+  "Surabaya",
+  "Medan",
+  "Makassar",
+  "Denpasar (Bali)"
+ ],
+ "cities": {
+  "Jakarta": [
+   [
+    106.85,
+    -6.21
+   ],
+   [
+    -16,
+    8
+   ]
+  ],
+  "Surabaya": [
+   [
+    112.75,
+    -7.25
+   ],
+   [
+    8,
+    22
+   ]
+  ],
+  "Medan": [
+   [
+    98.67,
+    3.59
+   ],
+   [
+    12,
+    4
+   ]
+  ],
+  "Makassar": [
+   [
+    119.43,
+    -5.15
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Denpasar (Bali)": [
+   [
+    115.22,
+    -8.65
+   ],
+   [
+    12,
+    -8
+   ]
+  ],
+  "Tegal": [
+   [
+    109.14,
+    -6.87
+   ],
+   [
+    0,
+    20
+   ]
+  ],
+  "Bukittinggi": [
+   [
+    100.37,
+    -0.31
+   ],
+   [
+    12,
+    0
+   ]
+  ]
+ },
+ "locations": {
+  "indonesia--cedars-sinai--eka-hospital-group": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--harvard-medical-school--universitas-harkat-negeri-and-cisdi-primary-healthcare-impact-lab": {
+   "cities": [
+    "Tegal"
+   ]
+  },
+  "indonesia--md-anderson-cancer-center--indonesian-ministry-of-health-and-rs-kanker-dharmais": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--md-anderson-cancer-center--mrccc-siloam-semanggi-siloam-hospitals": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--mayo-clinic--ihc-rumah-sakit-pusat-pertamina-rspp": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--st-jude-children-s-research-hospital--rsupn-dr-cipto-mangunkusumo-rscm-and-indonesian-ministry-of-health": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--apollo-hospitals--mayapada-healthcare-group-mayapada-hospital": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--asia-onehealthcare-a1health-formerly-columbia-asia-healthcare--rs-premier-jatinegara-bintaro-and-surabaya-and-columbia-asia-hospitals": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--chung-shan-medical-university-taiwan--universitas-indonesia": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--hong-kong-asia-medical-group-hkamg--bali-international-hospital-pt-pertamedika-bali-hospital-ihc": {
+   "cities": [
+    "Denpasar (Bali)"
+   ]
+  },
+  "indonesia--icon-group-icon-cancer-centre--bali-international-hospital-pt-pertamina-bina-medika-ihc": {
+   "cities": [
+    "Denpasar (Bali)"
+   ]
+  },
+  "indonesia--international-university-of-health-and-welfare-iuhw--ministry-of-health-kemenkes": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--monash-health--rs-otak-dr-drs-m-hatta-bukittinggi-rsomh-ministry-of-health-brain-hospital": {
+   "cities": [
+    "Bukittinggi"
+   ]
+  },
+  "indonesia--national-center-for-global-health-and-medicine-ncgm-and-kobe-university--universitas-airlangga-institute-of-tropical-disease-and-rs-universitas-airlangga": {
+   "cities": [
+    "Surabaya"
+   ]
+  },
+  "indonesia--ramathibodi-hospital-mahidol-university--faculty-of-medicine-universitas-indonesia-and-rscm": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--sapporo-cardio-vascular-clinic--bali-international-hospital-pt-pertamedika-bali-hospital-ihc": {
+   "cities": [
+    "Denpasar (Bali)"
+   ]
+  },
+  "indonesia--seoul-national-university-hospital-snuh--faculty-of-medicine-universitas-indonesia-and-rsupn-dr-cipto-mangunkusumo-rscm": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--seoul-national-university-hospital-snuh--rsup-fatmawati-ministry-of-health-hospital": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--singhealth--indonesia-healthcare-corporation-pt-pertamina-bina-medika-and-bali-international-hospital": {
+   "cities": [
+    "Denpasar (Bali)"
+   ]
+  },
+  "indonesia--singhealth-duke-nus-global-health-institute-singhealth-and-duke-nus-medical-school--universitas-sumatera-utara-faculty-of-medicine": {
+   "cities": [
+    "Medan"
+   ]
+  },
+  "indonesia--sun-medical-center-sun-healthcare-international--rsup-prof-dr-i-g-n-g-ngoerah": {
+   "cities": [
+    "Denpasar (Bali)"
+   ]
+  },
+  "indonesia--taipei-veterans-general-hospital--dkh-hospitals-group": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--tokushukai-medical-group--rsjpd-harapan-kita-national-heart-center-and-ministry-of-health": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--wuhan-asia-heart-hospital--ministry-of-health-kemenkes": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--zhongda-hospital-southeast-university--ministry-of-health-kemenkes": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--zhongshan-hospital-fudan-university--ministry-of-health-kemenkes": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--mayo-clinic--bali-international-hospital-indonesia-healthcare-corporation": {
+   "cities": [
+    "Denpasar (Bali)"
+   ]
+  },
+  "indonesia--ucla-health--rs-jantung-dan-pembuluh-darah-harapan-kita": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--asan-medical-center--siloam-hospitals-group": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--icon-group-icon-cancer-centre-singapore--rs-universitas-airlangga-rsua": {
+   "cities": [
+    "Surabaya"
+   ]
+  },
+  "indonesia--national-center-for-global-health-and-medicine-ncgm--siloam-hospitals-group": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--peking-union-medical-college-hospital--ministry-of-health-kemenkes": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--rizhao-xinyi-hospital-rizhao-heart-hospital--ministry-of-health-kemenkes": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--royal-brompton-and-harefield-hospitals-guy-s-and-st-thomas-nhs-foundation-trust--mandaya-royal-hospital-puri": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--umc-utrecht--rs-jantung-dan-pembuluh-darah-harapan-kita": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--kpj-healthcare--rs-medika-bsd": {
+   "cities": [
+    "Jakarta"
+   ]
+  },
+  "indonesia--ramsay-health-care--rs-premier-jatinegara-bintaro-and-surabaya": {
+   "cities": [
+    "Jakarta"
+   ]
+  }
+ }
+}

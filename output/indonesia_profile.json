@@ -1,0 +1,1252 @@
+{
+ "country": "Indonesia",
+ "generated_date": "2026-10-07",
+ "research": {
+  "country_overview": {
+   "demographics": {
+    "facts": [
+     {
+      "label": "Capital",
+      "value": "Jakarta{{8}}"
+     },
+     {
+      "label": "Official language",
+      "value": "Indonesian{{8}}"
+     },
+     {
+      "label": "Population",
+      "value": "About 285.7 million (2025 estimate){{1}}"
+     },
+     {
+      "label": "Area",
+      "value": "1,904,569 sq km{{8}}"
+     },
+     {
+      "label": "GDP (PPP), total",
+      "value": "About 5.05 trillion international dollars (2025){{11}}"
+     },
+     {
+      "label": "GDP (PPP), per capita",
+      "value": "About 17,660 international dollars (2025){{12}}"
+     },
+     {
+      "label": "Government type",
+      "value": "Republic with a directly elected president{{8}}{{9}}"
+     },
+     {
+      "label": "Head of state and government",
+      "value": "President Prabowo Subianto (sworn in on 20 October 2024){{8}}{{9}}"
+     },
+     {
+      "label": "Vice president",
+      "value": "Gibran Rakabuming Raka (sworn in on 20 October 2024){{9}}"
+     },
+     {
+      "label": "Currency",
+      "value": "Rupiah (IDR){{10}}"
+     },
+     {
+      "label": "Urban population",
+      "value": "59.4% of total (2025){{2}}"
+     },
+     {
+      "label": "Total fertility rate",
+      "value": "2.12 births per woman (2024){{4}}"
+     },
+     {
+      "label": "Population aged 65 and over",
+      "value": "7.5% (2025){{7}}"
+     },
+     {
+      "label": "Life expectancy at birth",
+      "value": "71.3 years (2024){{5}}"
+     }
+    ],
+    "narrative": "Indonesia had about 285.7 million people in 2025, spread across more than 6,000 inhabited islands, and 59.4 percent of them lived in urban areas.{{1}}{{2}}{{3}} The total fertility rate was 2.12 births per woman in 2024, and life expectancy at birth was 71.3 years.{{4}}{{5}} Children aged 0 to 14 made up 24.2 percent of the population in 2025, while people aged 65 and over made up 7.5 percent, up from 5.9 percent in 2010.{{6}}{{7}}\n\nThe age profile is therefore still young but aging steadily. That points to growing demand for cardiovascular, cancer and stroke care over the next decade, alongside continuing maternal, child and infectious disease needs. For a foreign academic medical center, the large urban centers are the most natural starting points for high-acuity collaboration, while remote and island regions are more likely to suit training and capacity-building work.",
+    "sources": [
+     {
+      "author": "World Bank",
+      "title": "Population, total, Indonesia (SP.POP.TOTL)",
+      "publisher": "World Bank Indicators API",
+      "date": "13 July 2026",
+      "url": "https://api.worldbank.org/v2/country/IDN/indicator/SP.POP.TOTL?format=json"
+     },
+     {
+      "author": "World Bank",
+      "title": "Urban population (% of total population), Indonesia (SP.URB.TOTL.IN.ZS)",
+      "publisher": "World Bank Indicators API",
+      "date": "13 July 2026",
+      "url": "https://api.worldbank.org/v2/country/IDN/indicator/SP.URB.TOTL.IN.ZS?format=json"
+     },
+     {
+      "author": "World Bank",
+      "title": "Expanding Health Service Coverage, Quality, and Equity at Scale in Indonesia",
+      "publisher": "World Bank",
+      "date": "17 June 2026",
+      "url": "https://www.worldbank.org/en/results/2026/06/17/expanding-health-service-coverage-quality-and-equity-at-scale-in-indonesia"
+     },
+     {
+      "author": "World Bank",
+      "title": "Fertility rate, total (births per woman), Indonesia (SP.DYN.TFRT.IN)",
+      "publisher": "World Bank Indicators API",
+      "date": "13 July 2026",
+      "url": "https://api.worldbank.org/v2/country/IDN/indicator/SP.DYN.TFRT.IN?format=json"
+     },
+     {
+      "author": "World Bank",
+      "title": "Life expectancy at birth, total (years), Indonesia (SP.DYN.LE00.IN)",
+      "publisher": "World Bank Indicators API",
+      "date": "13 July 2026",
+      "url": "https://api.worldbank.org/v2/country/IDN/indicator/SP.DYN.LE00.IN?format=json"
+     },
+     {
+      "author": "World Bank",
+      "title": "Population ages 0-14 (% of total population), Indonesia (SP.POP.0014.TO.ZS)",
+      "publisher": "World Bank Indicators API",
+      "date": "13 July 2026",
+      "url": "https://api.worldbank.org/v2/country/IDN/indicator/SP.POP.0014.TO.ZS?format=json"
+     },
+     {
+      "author": "World Bank",
+      "title": "Population ages 65 and above (% of total population), Indonesia (SP.POP.65UP.TO.ZS)",
+      "publisher": "World Bank Indicators API",
+      "date": "13 July 2026",
+      "url": "https://api.worldbank.org/v2/country/IDN/indicator/SP.POP.65UP.TO.ZS?format=json"
+     },
+     {
+      "author": "BBC News",
+      "title": "Indonesia country profile",
+      "publisher": "",
+      "date": "25 October 2024",
+      "url": "https://www.bbc.com/news/world-asia-pacific-14921238"
+     },
+     {
+      "author": "Indonesia Business Post",
+      "title": "Prabowo-Gibran sworn in, promises a fair and just leadership",
+      "publisher": "",
+      "date": "October 2024",
+      "url": "https://indonesiabusinesspost.com/2964/Politics/cyber-and-espionage"
+     },
+     {
+      "author": "Bank Indonesia",
+      "title": "Rupiah",
+      "publisher": "",
+      "date": "",
+      "url": "https://www.bi.go.id/en/rupiah/default.aspx"
+     },
+     {
+      "author": "World Bank",
+      "title": "GDP, PPP (current international $), Indonesia (NY.GDP.MKTP.PP.CD)",
+      "publisher": "World Bank Indicators API",
+      "date": "13 July 2026",
+      "url": "https://api.worldbank.org/v2/country/IDN/indicator/NY.GDP.MKTP.PP.CD?format=json"
+     },
+     {
+      "author": "World Bank",
+      "title": "GDP per capita, PPP (current international $), Indonesia (NY.GDP.PCAP.PP.CD)",
+      "publisher": "World Bank Indicators API",
+      "date": "13 July 2026",
+      "url": "https://api.worldbank.org/v2/country/IDN/indicator/NY.GDP.PCAP.PP.CD?format=json"
+     }
+    ]
+   },
+   "government": {
+    "narrative": "Indonesia is a republic led by a directly elected president. Prabowo Subianto, a former military general, won more than 58 percent of the vote in the February 2024 election{{1}} and was sworn in on 20 October 2024, together with Vice President Gibran Rakabuming Raka, for the 2024 to 2029 term.{{2}} Gibran is the eldest son of the previous president, Joko Widodo.{{3}} In his inauguration speech, Prabowo vowed to eradicate corruption and poverty and affirmed Indonesia's policy of non-alignment.{{1}}\n\nHealth Minister Budi Gunadi Sadikin represented the government when parliament passed the omnibus Health Law in July 2023 and still led the ministry in August 2026.{{4}}{{5}} Danantara, a state-owned strategic entity, now leads operations of the Sanur health special economic zone, so counterparts for large hospital projects sit in the Health Ministry, state enterprises and Danantara as well as in private business groups.{{6}}",
+    "sources": [
+     {
+      "author": "BBC News",
+      "title": "Indonesia country profile",
+      "publisher": "",
+      "date": "25 October 2024",
+      "url": "https://www.bbc.com/news/world-asia-pacific-14921238"
+     },
+     {
+      "author": "Indonesia Business Post",
+      "title": "Prabowo-Gibran sworn in, promises a fair and just leadership",
+      "publisher": "",
+      "date": "October 2024",
+      "url": "https://indonesiabusinesspost.com/2964/Politics/cyber-and-espionage"
+     },
+     {
+      "author": "Niniek Karmini, Associated Press",
+      "title": "Indonesia swears in ex-general Prabowo Subianto as president",
+      "publisher": "News4JAX",
+      "date": "20 October 2024",
+      "url": "https://www.news4jax.com/news/world/2024/10/20/indonesia-swears-in-prabowo-subianto-as-the-countrys-eighth-president/"
+     },
+     {
+      "author": "The Jakarta Post",
+      "title": "Indonesian lawmakers pass omnibus health bill despite protests",
+      "publisher": "Asia News Network",
+      "date": "12 July 2023",
+      "url": "https://asianews.network/indonesian-lawmakers-pass-omnibus-health-bill-despite-protests/"
+     },
+     {
+      "author": "Ministry of Health of Indonesia",
+      "title": "Kemenkes Perkuat Tindak Lanjut Cek Kesehatan Gratis Usai Tembus 73,8 Juta Peserta",
+      "publisher": "Kementerian Kesehatan RI",
+      "date": "4 August 2026",
+      "url": "https://www.kemkes.go.id/id/kemenkes-perkuat-tindak-lanjut-cek-kesehatan-gratis-usai-tembus-73,8-juta-peserta"
+     },
+     {
+      "author": "Gusty Da Costa, Indonesia Business Post",
+      "title": "President inaugurates Sanur SEZ, a major leap in healthcare transformation",
+      "publisher": "",
+      "date": "26 June 2025",
+      "url": "https://indonesiabusinesspost.com/4611/environment/president-inaugurates-sanur-sez-a-major-leap-in-healthcare-transformation"
+     }
+    ]
+   },
+   "economy": {
+    "narrative": "Indonesia's economy grew 5.11 percent in 2025, after 5.03 percent in 2024, and its GDP was about 5.05 trillion international dollars at purchasing power parity.{{1}}{{6}} The IMF's 2025 Article IV consultation, concluded by its Executive Board on 14 January 2026, described the economy as resilient, expected growth of 5.1 percent in 2026, and reported unemployment of 4.9 percent in 2025 and a poverty rate of 9.0 percent in 2024. It listed base metals, coal and palm oil among the main exports in 2024.{{2}}{{3}} The World Bank is slightly more cautious: its June 2026 Indonesia Economic Prospects projects growth of 5.0 percent in 2026, as external pressures weigh on investment and exports, recovering to 5.2 percent in 2027 and 2028.{{4}}\n\nThe government aims to grow at eight percent a year by 2029 and to reach high-income status by 2045, under a 20-year plan for 2025 to 2045 delivered through five-year plans. The current plan focuses on human capital, digitalization and global competitiveness.{{5}} The gap between the eight percent goal and forecasts near five percent is wide.",
+    "sources": [
+     {
+      "author": "World Bank",
+      "title": "GDP growth (annual %), Indonesia (NY.GDP.MKTP.KD.ZG)",
+      "publisher": "World Bank Indicators API",
+      "date": "13 July 2026",
+      "url": "https://api.worldbank.org/v2/country/IDN/indicator/NY.GDP.MKTP.KD.ZG?format=json"
+     },
+     {
+      "author": "International Monetary Fund",
+      "title": "Indonesia: IMF Executive Board Concludes 2025 Article IV Consultation (Press Release No. 26/010)",
+      "publisher": "International Monetary Fund",
+      "date": "21 January 2026",
+      "url": "https://www.imf.org/en/news/articles/2026/01/21/pr-26010-indnonesia-imf-executive-board-concludes-2025-article-iv-consultation"
+     },
+     {
+      "author": "International Monetary Fund",
+      "title": "IMF Wraps 2025 Article IV Talks With Indonesia (full text of IMF Press Release No. 26/010)",
+      "publisher": "Mirage News",
+      "date": "22 January 2026",
+      "url": "https://www.miragenews.com/imf-wraps-2025-article-iv-talks-with-indonesia-1605758/"
+     },
+     {
+      "author": "World Bank",
+      "title": "Indonesia's Growth Remains Resilient, but Productivity Reforms Are Key to Creating Jobs and Sustaining Momentum (press release on Indonesia Economic Prospects, June 2026)",
+      "publisher": "World Bank",
+      "date": "13 June 2026",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/13/indonesia-s-growth-remains-resilient-but-productivity-reforms-are-key-to-creating"
+     },
+     {
+      "author": "World Bank",
+      "title": "Indonesia Overview",
+      "publisher": "World Bank",
+      "date": "",
+      "url": "https://www.worldbank.org/en/country/indonesia/overview"
+     },
+     {
+      "author": "World Bank",
+      "title": "GDP, PPP (current international $), Indonesia (NY.GDP.MKTP.PP.CD)",
+      "publisher": "World Bank Indicators API",
+      "date": "13 July 2026",
+      "url": "https://api.worldbank.org/v2/country/IDN/indicator/NY.GDP.MKTP.PP.CD?format=json"
+     }
+    ]
+   },
+   "disease_prevalence": {
+    "facts": [
+     {
+      "label": "Share of deaths from noncommunicable diseases",
+      "value": "About two-thirds{{1}}"
+     },
+     {
+      "label": "Probability of dying aged 30 to 70 from cardiovascular disease, cancer, diabetes or chronic respiratory disease",
+      "value": "21.9% (2021){{2}}"
+     },
+     {
+      "label": "Stroke, share of deaths",
+      "value": "19.42% (Ministry of Health){{3}}"
+     },
+     {
+      "label": "Ischemic heart disease, share of deaths",
+      "value": "14.38% (Ministry of Health){{3}}"
+     },
+     {
+      "label": "Hypertension, adults aged 18 and over (measured)",
+      "value": "30.8% (Indonesian Health Survey 2023); 34.1% in 2018{{5}}"
+     },
+     {
+      "label": "Diabetes, people aged 15 and over (blood glucose measured)",
+      "value": "11.7% (Indonesian Health Survey 2023); 10.9% in 2018{{5}}"
+     },
+     {
+      "label": "Tuberculosis incidence",
+      "value": "382 per 100,000 people (2024); 388 in 2023{{7}}"
+     },
+     {
+      "label": "Stunting, children under five",
+      "value": "19.8% (2024 national nutrition survey); 21.5% in 2023{{8}}"
+     },
+     {
+      "label": "Under-five mortality",
+      "value": "17.7 per 1,000 live births (2024){{9}}"
+     }
+    ],
+    "narrative": "Noncommunicable diseases such as diabetes, heart disease and cancer cause about two-thirds of deaths in Indonesia.{{1}} The Health Ministry has reported that stroke accounts for 19.42 percent of deaths and ischemic heart disease for 14.38 percent.{{3}} In May 2025 the health minister named stroke, heart disease, cancer and kidney disease as the four biggest killers, with about 300,000 stroke deaths a year.{{4}} The 2023 Indonesian Health Survey measured hypertension in 30.8 percent of adults aged 18 and over, down from 34.1 percent in 2018, and diabetes in 11.7 percent of people aged 15 and over, up from 10.9 percent.{{5}}\n\nInfectious disease remains a second burden. Indonesia has the second-largest number of tuberculosis cases in the world, about 10 percent of the global total, and its incidence was 382 per 100,000 people in 2024.{{6}}{{7}} Stunting affected 19.8 percent of children under five in 2024, down from 21.5 percent in 2023, according to the national nutrition survey,{{8}} and under-five mortality was 17.7 per 1,000 live births in 2024.{{9}} The mix of high chronic disease prevalence and unfinished infectious disease and nutrition work shapes demand for both advanced and basic services.",
+    "sources": [
+     {
+      "author": "World Bank",
+      "title": "Expanding Health Service Coverage, Quality, and Equity at Scale in Indonesia",
+      "publisher": "World Bank",
+      "date": "17 June 2026",
+      "url": "https://www.worldbank.org/en/results/2026/06/17/expanding-health-service-coverage-quality-and-equity-at-scale-in-indonesia"
+     },
+     {
+      "author": "World Bank",
+      "title": "Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%), Indonesia (SH.DYN.NCOM.ZS)",
+      "publisher": "World Bank Indicators API",
+      "date": "13 July 2026",
+      "url": "https://api.worldbank.org/v2/country/IDN/indicator/SH.DYN.NCOM.ZS?format=json"
+     },
+     {
+      "author": "ANTARA",
+      "title": "Kemenkes: penyakit kardiovaskular sebabkan kematian terbanyak di Indonesia",
+      "publisher": "",
+      "date": "25 September 2023",
+      "url": "https://sumut.antaranews.com/berita/547587/kemenkes-penyakit-kardiovaskular-sebabkan-kematian-terbanyak-di-di-indonesia"
+     },
+     {
+      "author": "Tempo",
+      "title": "Major Causes of Death: 4 Deadly Diseases in Indonesia",
+      "publisher": "Tempo English",
+      "date": "17 May 2025",
+      "url": "https://en.tempo.co/read/2008639/major-causes-of-death-4-deadly-diseases-in-indonesia"
+     },
+     {
+      "author": "Ministry of Health of Indonesia (Badan Kebijakan Pembangunan Kesehatan)",
+      "title": "Prevalensi, Dampak, serta Upaya Pengendalian Hipertensi dan Diabetes di Indonesia (Survei Kesehatan Indonesia 2023 factsheet)",
+      "publisher": "",
+      "date": "2023",
+      "url": "https://repository.badankebijakan.kemkes.go.id/5536/1/07%20factsheet%20PTM_bahasa.pdf"
+     },
+     {
+      "author": "Katadata Insight Center (databoks)",
+      "title": "Indonesia Ranks Second Globally for TB Cases in 2024",
+      "publisher": "databoks",
+      "date": "2025",
+      "url": "https://databoks.katadata.co.id/en/consumer-services/statistics/69d4a8e56ad4f/indonesia-ranks-second-globally-for-tb-cases-in-2024"
+     },
+     {
+      "author": "World Bank",
+      "title": "Incidence of tuberculosis (per 100,000 people), Indonesia (SH.TBS.INCD)",
+      "publisher": "World Bank Indicators API",
+      "date": "13 July 2026",
+      "url": "https://api.worldbank.org/v2/country/IDN/indicator/SH.TBS.INCD?format=json"
+     },
+     {
+      "author": "Ministry of Health of Indonesia",
+      "title": "SSGI 2024: Prevalensi Stunting Nasional Turun Menjadi 19,8%",
+      "publisher": "Kementerian Kesehatan RI",
+      "date": "26 May 2025",
+      "url": "https://www.kemkes.go.id/id/ssgi-2024-prevalensi-stunting-nasional-turun-menjadi-198"
+     },
+     {
+      "author": "World Bank",
+      "title": "Mortality rate, under-5 (per 1,000 live births), Indonesia (SH.DYN.MORT)",
+      "publisher": "World Bank Indicators API",
+      "date": "13 July 2026",
+      "url": "https://api.worldbank.org/v2/country/IDN/indicator/SH.DYN.MORT?format=json"
+     }
+    ]
+   }
+  },
+  "health_system": {
+   "public_system": {
+    "narrative": "Indonesia's public system rests on national health insurance (JKN), run by the state-owned insurer BPJS Kesehatan, which covered 282.7 million people, more than 98 percent of the population, at the end of 2025, although only 81.45 percent of members were active.{{1}}{{2}} The World Bank reports that health service visits under the scheme grew from 378 million in 2020 to 686 million in 2024, and that out-of-pocket spending fell from 45 to 31 percent of total health spending.{{3}}\n\nCare is delivered through more than 10,000 community health centers (puskesmas){{7}} and through hospitals run by the central government, local governments and private operators.{{4}} The Health Ministry has activated 300,000 community health posts (posyandu) and in 2023 began building vertical hospitals for cancer, heart, stroke and kidney care in Surabaya, Makassar, the new national capital in East Kalimantan and Jayapura.{{5}}\n\nThe free health check program began on 10 February 2025 at about 10,200 puskesmas.{{6}} It screened 70 million people in 2025 and another 73.8 million in 2026 up to 31 July, against a 2026 target of 130 million.{{7}} From 2027 to 2029 the government plans to renovate 8,001 puskesmas, build 1,988 new ones and upgrade 441 regional hospitals.{{8}}",
+    "sources": [
+     {
+      "author": "Warta Ekonomi",
+      "title": "Cakupan JKN Tembus 98% Penduduk Indonesia, BPJS Catat Peserta Capai 282,7 Juta Jiwa",
+      "publisher": "",
+      "date": "2026",
+      "url": "https://wartaekonomi.co.id/read598290/cakupan-jkn-tembus-98-penduduk-indonesia-bpjs-catat-peserta-capai-2827-juta-jiwa"
+     },
+     {
+      "author": "The Jakarta Post",
+      "title": "BPJS Kesehatan warns it may fail to pay claims next year as deficits persist",
+      "publisher": "",
+      "date": "11 June 2026",
+      "url": "https://thejakartapost.com/indonesia/2026/06/11/bpjs-kesehatan-warns-it-may-fail-to-pay-claims-next-year-as-deficits-persist"
+     },
+     {
+      "author": "World Bank",
+      "title": "Expanding Health Service Coverage, Quality, and Equity at Scale in Indonesia",
+      "publisher": "World Bank",
+      "date": "17 June 2026",
+      "url": "https://www.worldbank.org/en/results/2026/06/17/expanding-health-service-coverage-quality-and-equity-at-scale-in-indonesia"
+     },
+     {
+      "author": "Katadata Insight Center (databoks)",
+      "title": "Most General Hospitals in Indonesia are Privately Owned 2020-2024",
+      "publisher": "databoks",
+      "date": "",
+      "url": "https://databoks.katadata.co.id/en/consumer-services/statistics/69265660c28ff/most-general-hospitals-in-indonesia-are-privately-owned-2020-2024"
+     },
+     {
+      "author": "Ministry of Health of Indonesia",
+      "title": "Kemenkes Bangun RS untuk Pemerataan Akses Kesehatan di Daerah",
+      "publisher": "",
+      "date": "30 January 2024",
+      "url": "https://www.kemkes.go.id/eng/kemenkes-bangun-rs-untuk-pemerataan-akses-kesehatan-di-daerah"
+     },
+     {
+      "author": "Muhammad Syafaruddin, Suara Surabaya",
+      "title": "Cek Kesehatan Gratis Mulai 10 Februari, Kemenkes Siapkan 10.200 Puskesmas di Seluruh Indonesia",
+      "publisher": "",
+      "date": "9 February 2025",
+      "url": "https://www.suarasurabaya.net/kelanakota/2025/cek-kesehatan-gratis-mulai-10-februari-kemenkes-siapkan-10-200-puskesmas-di-seluruh-indonesia/"
+     },
+     {
+      "author": "Ministry of Health of Indonesia",
+      "title": "Kemenkes Perkuat Tindak Lanjut Cek Kesehatan Gratis Usai Tembus 73,8 Juta Peserta",
+      "publisher": "Kementerian Kesehatan RI",
+      "date": "4 August 2026",
+      "url": "https://www.kemkes.go.id/id/kemenkes-perkuat-tindak-lanjut-cek-kesehatan-gratis-usai-tembus-73,8-juta-peserta"
+     },
+     {
+      "author": "Ministry of Health of Indonesia",
+      "title": "Mulai 2027, Pemerintah Siap Renovasi dan Bangun Ribuan Puskesmas",
+      "publisher": "Kementerian Kesehatan RI",
+      "date": "6 October 2026",
+      "url": "https://www.kemkes.go.id/id/mulai-2027-pemerintah-siap-renovasi-dan-bangun-ribuan--puskesmas"
+     }
+    ]
+   },
+   "private_system": {
+    "narrative": "Private hospitals are the majority: private operators ran 1,576 of Indonesia's 2,710 general hospitals, or 58 percent, in 2024.{{1}} The listed chains are growing. In 2025 Siloam reported revenue of Rp 12.84 trillion and net profit of Rp 1.11 trillion, Mitra Keluarga Rp 5.36 trillion and Rp 1.36 trillion, and Hermina Rp 7.13 trillion with net profit down 19.85 percent to Rp 429.55 billion.{{2}} Hermina plans three new hospitals in 2026 and more than 65 by 2030, and Mitra Keluarga plans two in Greater Jakarta and East Java.{{2}} By September 2025 the Astra group held 7.23 percent of Hermina and the Djarum group 3.6 percent.{{3}}\n\nThe premium segment is being targeted separately. Hermina's PIK 2 hospital focuses on non-JKN patients with premium facilities.{{2}} Mayapada Group, which Nikkei Asia describes as running one of Indonesia's largest private hospital chains, has committed Rp 6.91 trillion through 2032 to a Batam project with India's Apollo Hospitals.{{4}}{{5}} State-owned Pertamedika IHC is the parent company of Bali International Hospital.{{4}} The World Bank Group's IFC also invests in private healthcare companies.{{6}}",
+    "sources": [
+     {
+      "author": "Katadata Insight Center (databoks)",
+      "title": "Most General Hospitals in Indonesia are Privately Owned 2020-2024",
+      "publisher": "databoks",
+      "date": "",
+      "url": "https://databoks.katadata.co.id/en/consumer-services/statistics/69265660c28ff/most-general-hospitals-in-indonesia-are-privately-owned-2020-2024"
+     },
+     {
+      "author": "Vatrischa Putri Nur, Kontan",
+      "title": "Intip Rekomendasi Saham dan Prospek Emiten Rumah Sakit di 2026",
+      "publisher": "",
+      "date": "6 April 2026",
+      "url": "https://investasi.kontan.co.id/news/intip-rekomendasi-saham-dan-prospek-emiten-rumah-sakit-di-2026"
+     },
+     {
+      "author": "Warta Ekonomi",
+      "title": "Ekspansi Agresif Setelah Astra Masuk, Hermina Rencanakan 3 RS Baru Tahun Ini",
+      "publisher": "",
+      "date": "10 September 2025",
+      "url": "https://wartaekonomi.co.id/read582148/ekspansi-agresif-setelah-astra-masuk-hermina-rencanakan-3-rs-baru-tahun-ini"
+     },
+     {
+      "author": "Nikkei Asia",
+      "title": "Indonesia makes billion-dollar health care bet to keep rich patients at home",
+      "publisher": "KrASIA (republished from Nikkei Asia)",
+      "date": "8 March 2025",
+      "url": "https://kr-asia.com/indonesia-makes-billion-dollar-health-care-bet-to-keep-rich-patients-at-home"
+     },
+     {
+      "author": "Parluhutan Situmorang, Investortrust",
+      "title": "Mayapada Healthcare Invests Rp 1 Trillion to Build International Hospital in Batam",
+      "publisher": "Investortrust.id",
+      "date": "28 August 2025",
+      "url": "https://investortrust.id/market/77152/mayapada-healthcare-invests-rp-1-trillion-to-build-international-hospital-in-batam"
+     },
+     {
+      "author": "World Bank",
+      "title": "Expanding Health Service Coverage, Quality, and Equity at Scale in Indonesia",
+      "publisher": "World Bank",
+      "date": "17 June 2026",
+      "url": "https://www.worldbank.org/en/results/2026/06/17/expanding-health-service-coverage-quality-and-equity-at-scale-in-indonesia"
+     }
+    ]
+   },
+   "financing": {
+    "facts": [
+     {
+      "label": "Current health expenditure, share of GDP",
+      "value": "2.70% (2023); 3.71% in 2021 during the pandemic{{2}}"
+     },
+     {
+      "label": "Current health expenditure per capita",
+      "value": "US$131.78 (2023, current US$){{3}}"
+     },
+     {
+      "label": "Government share of current health expenditure",
+      "value": "53.6% (2023){{4}}"
+     },
+     {
+      "label": "Out-of-pocket share of current health expenditure",
+      "value": "31.1% (2023); 50.9% in 2013{{5}}"
+     },
+     {
+      "label": "Regional comparison, health expenditure share of GDP (2023)",
+      "value": "Malaysia 3.96%, Thailand 4.54%, Vietnam 4.56%, Philippines 5.10%{{1}}"
+     },
+     {
+      "label": "Health budget, 2026 draft state budget",
+      "value": "Rp 244 trillion, 6.4% of state spending, up 15.8% on the 2025 outlook{{6}}"
+     },
+     {
+      "label": "Health budget, 2027 draft state budget",
+      "value": "Rp 244.9 trillion, up 1.7% on the 2026 outlook of Rp 240.8 trillion{{7}}"
+     },
+     {
+      "label": "JKN fund deficit",
+      "value": "Rp 17.13 trillion (2025); Rp 7.66 trillion in 2024{{9}}"
+     }
+    ],
+    "narrative": "Indonesia spends little on health relative to its neighbors. Current health expenditure was 2.70 percent of GDP in 2023, against 3.96 percent in Malaysia, 4.54 percent in Thailand, 4.56 percent in Vietnam and 5.10 percent in the Philippines.{{1}} The government financed 53.6 percent of spending in 2023, and households paid 31.1 percent out of pocket.{{4}}{{5}} The 2026 draft state budget proposed Rp 244 trillion for health, 6.4 percent of state spending and 15.8 percent above the 2025 outlook, and the 2023 Health Law eliminated the mandatory health spending minimum.{{6}}{{8}}\n\nJKN's finances are the main strain. The JKN fund recorded a deficit of Rp 17.13 trillion in 2025, against Rp 7.66 trillion in 2024.{{9}} In June 2026 BPJS Kesehatan said monthly claims of Rp 16 to 16.5 trillion exceed premium income of about Rp 14 trillion, and that it could begin missing claim payments by July 2027 without government intervention.{{10}}",
+    "sources": [
+     {
+      "author": "World Bank",
+      "title": "Current health expenditure (% of GDP): Indonesia, Malaysia, Thailand, Vietnam, Philippines, Singapore, OECD members, World",
+      "publisher": "World Bank Indicators API",
+      "date": "13 July 2026",
+      "url": "https://api.worldbank.org/v2/country/IDN;MYS;THA;VNM;PHL;SGP;OED;WLD/indicator/SH.XPD.CHEX.GD.ZS?format=json&per_page=100&date=2021:2023"
+     },
+     {
+      "author": "World Bank",
+      "title": "Current health expenditure (% of GDP), Indonesia (SH.XPD.CHEX.GD.ZS)",
+      "publisher": "World Bank Indicators API",
+      "date": "13 July 2026",
+      "url": "https://api.worldbank.org/v2/country/IDN/indicator/SH.XPD.CHEX.GD.ZS?format=json"
+     },
+     {
+      "author": "World Bank",
+      "title": "Current health expenditure per capita (current US$), Indonesia (SH.XPD.CHEX.PC.CD)",
+      "publisher": "World Bank Indicators API",
+      "date": "13 July 2026",
+      "url": "https://api.worldbank.org/v2/country/IDN/indicator/SH.XPD.CHEX.PC.CD?format=json"
+     },
+     {
+      "author": "World Bank",
+      "title": "Domestic general government health expenditure (% of current health expenditure), Indonesia (SH.XPD.GHED.CH.ZS)",
+      "publisher": "World Bank Indicators API",
+      "date": "13 July 2026",
+      "url": "https://api.worldbank.org/v2/country/IDN/indicator/SH.XPD.GHED.CH.ZS?format=json"
+     },
+     {
+      "author": "World Bank",
+      "title": "Out-of-pocket expenditure (% of current health expenditure), Indonesia (SH.XPD.OOPC.CH.ZS)",
+      "publisher": "World Bank Indicators API",
+      "date": "13 July 2026",
+      "url": "https://api.worldbank.org/v2/country/IDN/indicator/SH.XPD.OOPC.CH.ZS?format=json"
+     },
+     {
+      "author": "Katadata Insight Center (databoks)",
+      "title": "Indonesia's 2026 State Budget Allocates Rp244 Trillion for Healthcare, a 15% Increase",
+      "publisher": "databoks",
+      "date": "August 2025",
+      "url": "https://databoks.katadata.co.id/en/economics-macro/statistics/689f16744d838/indonesias-2026-state-budget-allocates-rp244-trillion-for-healthcare-a-15-increase"
+     },
+     {
+      "author": "Katadata Insight Center (databoks)",
+      "title": "Health Budget Rises to IDR 244.9 Trillion in 2027 Draft State Budget",
+      "publisher": "databoks",
+      "date": "August 2026",
+      "url": "https://databoks.katadata.co.id/en/economics-macro/statistics/6a7f005c873f5/health-budget-rises-to-idr-2449-trillion-in-2027-draft-state-budget"
+     },
+     {
+      "author": "The Jakarta Post",
+      "title": "Indonesian lawmakers pass omnibus health bill despite protests",
+      "publisher": "Asia News Network",
+      "date": "12 July 2023",
+      "url": "https://asianews.network/indonesian-lawmakers-pass-omnibus-health-bill-despite-protests/"
+     },
+     {
+      "author": "Nur Hana Putri Nabila, Katadata",
+      "title": "Defisit BPJS Kesehatan Bengkak 124% di 2025 Tembus Rp 17,1 Triliun, Ada Apa?",
+      "publisher": "Katadata",
+      "date": "2026",
+      "url": "https://katadata.co.id/finansial/keuangan/6a462f6ee51e3/defisit-bpjs-kesehatan-bengkak-124-di-2025-tembus-rp-17-1-triliun-ada-apa"
+     },
+     {
+      "author": "The Jakarta Post",
+      "title": "BPJS Kesehatan warns it may fail to pay claims next year as deficits persist",
+      "publisher": "",
+      "date": "11 June 2026",
+      "url": "https://thejakartapost.com/indonesia/2026/06/11/bpjs-kesehatan-warns-it-may-fail-to-pay-claims-next-year-as-deficits-persist"
+     }
+    ]
+   },
+   "workforce": {
+    "facts": [
+     {
+      "label": "Physicians per 1,000 people",
+      "value": "0.52 (2023); 0.69 in 2021{{1}}"
+     },
+     {
+      "label": "Nurses and midwives per 1,000 people",
+      "value": "3.24 (2023){{2}}"
+     },
+     {
+      "label": "Hospital beds per 1,000 people",
+      "value": "1.37 (2023){{3}}"
+     },
+     {
+      "label": "General practitioners",
+      "value": "About 160,000, with about 120,000 more needed for the WHO ratio of 1 per 1,000 (early 2025){{4}}"
+     },
+     {
+      "label": "Specialist shortage",
+      "value": "About 29,000 (Health Minister, early 2025); about 70,000 projected through 2032{{4}}{{6}}"
+     },
+     {
+      "label": "Specialists produced per year",
+      "value": "About 2,700, against about 32,000 needed (Health Ministry, February 2026){{5}}"
+     },
+     {
+      "label": "Medical faculties",
+      "value": "92, of which 27 to 30 can produce specialists (Health Ministry, August 2024){{7}}"
+     }
+    ],
+    "narrative": "Indonesia has few doctors for its size. In 2021 it had 0.69 physicians per 1,000 people, against 2.27 in Malaysia, 1.11 in Vietnam, 0.79 in the Philippines and 2.78 in Singapore, and the 2023 figure was 0.52.{{1}} Nikkei Asia reported in early 2025 that the country had about 160,000 general practitioners for 280 million people, and the health ministry says 120,000 more are needed to meet the WHO recommendation of one doctor per 1,000 residents.{{4}} Nurses and midwives numbered 3.24 per 1,000 people and hospital beds 1.37 per 1,000 in 2023.{{2}}{{3}}\n\nThe gap is sharpest among specialists. The minister cited a shortage of about 29,000 specialists, and the ministry says the country produces about 2,700 a year against an ideal requirement of 32,000.{{4}}{{5}} It projects a shortage of around 70,000 specialists through 2032.{{6}} A Health Ministry spokesperson said in August 2024 that only 27 to 30 of the country's 92 medical faculties could produce specialists.{{7}}",
+    "sources": [
+     {
+      "author": "World Bank",
+      "title": "Physicians (per 1,000 people): Indonesia, Malaysia, Thailand, Vietnam, Philippines, Singapore, OECD members, World",
+      "publisher": "World Bank Indicators API",
+      "date": "13 July 2026",
+      "url": "https://api.worldbank.org/v2/country/IDN;MYS;THA;VNM;PHL;SGP;OED;WLD/indicator/SH.MED.PHYS.ZS?format=json&per_page=100&date=2021:2023"
+     },
+     {
+      "author": "World Bank",
+      "title": "Nurses and midwives (per 1,000 people), Indonesia (SH.MED.NUMW.P3)",
+      "publisher": "World Bank Indicators API",
+      "date": "13 July 2026",
+      "url": "https://api.worldbank.org/v2/country/IDN/indicator/SH.MED.NUMW.P3?format=json"
+     },
+     {
+      "author": "World Bank",
+      "title": "Hospital beds (per 1,000 people), Indonesia (SH.MED.BEDS.ZS)",
+      "publisher": "World Bank Indicators API",
+      "date": "13 July 2026",
+      "url": "https://api.worldbank.org/v2/country/IDN/indicator/SH.MED.BEDS.ZS?format=json"
+     },
+     {
+      "author": "Nikkei Asia",
+      "title": "Indonesia makes billion-dollar health care bet to keep rich patients at home",
+      "publisher": "KrASIA (republished from Nikkei Asia)",
+      "date": "8 March 2025",
+      "url": "https://kr-asia.com/indonesia-makes-billion-dollar-health-care-bet-to-keep-rich-patients-at-home"
+     },
+     {
+      "author": "ANTARA",
+      "title": "Indonesia develops hospital-based training to fix specialist shortage",
+      "publisher": "",
+      "date": "4 February 2026",
+      "url": "https://en.antaranews.com/news/402982/indonesia-develops-hospital-based-training-to-fix-specialist-shortage"
+     },
+     {
+      "author": "ANTARA",
+      "title": "Indonesia to fast-track 70 thousand specialist doctors' target",
+      "publisher": "",
+      "date": "11 August 2025",
+      "url": "https://jatim.antaranews.com/amp/berita/958945/indonesia-to-fast-track-70-thousand-specialist-doctors-target"
+     },
+     {
+      "author": "Kontan",
+      "title": "Dari 92 Fakultas Kesehatan, Hanya 30 Fakultas Kesehatan Cetak Dokter Spesialis",
+      "publisher": "Kontan",
+      "date": "6 August 2024",
+      "url": "https://nasional.kontan.co.id/news/dari-92-fakultas-kesehatan-hanya-30-fakultas-kesehatan-cetak-dokter-spesialis"
+     }
+    ]
+   },
+   "education": {
+    "narrative": "Indonesia has 92 medical faculties, but a Health Ministry spokesperson said in August 2024 that only 27 to 30 of them could produce specialists.{{1}} Output is the constraint: about 2,700 specialists graduate a year against about 32,000 needed.{{2}} President Prabowo has set a target of 70,000 more specialists, which the health and higher education ministers estimate would take 10 to 15 years, although the president wants it faster.{{3}} The main response is hospital-based specialist training, launched in May 2024 with 420 teaching hospitals working alongside the universities.{{6}} It prioritizes general practitioners from regions without specialists, and the health minister says it will not charge local trainees.{{2}}\n\nThe 2023 Health Law also changed licensing. It moved the authority to issue medical competency certificates from medical associations to the government and allows foreign doctors to practice in the country.{{4}} In practice, the minister told Nikkei Asia that granting foreign doctors a license remained difficult, partly because the Indonesian Medical Association wants foreign recruits to speak Indonesian and recruitment to follow a clear mapping of needs. The government has also offered more scholarships for medical students.{{5}}",
+    "sources": [
+     {
+      "author": "Kontan",
+      "title": "Dari 92 Fakultas Kesehatan, Hanya 30 Fakultas Kesehatan Cetak Dokter Spesialis",
+      "publisher": "Kontan",
+      "date": "6 August 2024",
+      "url": "https://nasional.kontan.co.id/news/dari-92-fakultas-kesehatan-hanya-30-fakultas-kesehatan-cetak-dokter-spesialis"
+     },
+     {
+      "author": "ANTARA",
+      "title": "Indonesia develops hospital-based training to fix specialist shortage",
+      "publisher": "",
+      "date": "4 February 2026",
+      "url": "https://en.antaranews.com/news/402982/indonesia-develops-hospital-based-training-to-fix-specialist-shortage"
+     },
+     {
+      "author": "ANTARA",
+      "title": "Indonesia to fast-track 70 thousand specialist doctors' target",
+      "publisher": "",
+      "date": "11 August 2025",
+      "url": "https://jatim.antaranews.com/amp/berita/958945/indonesia-to-fast-track-70-thousand-specialist-doctors-target"
+     },
+     {
+      "author": "The Jakarta Post",
+      "title": "Indonesian lawmakers pass omnibus health bill despite protests",
+      "publisher": "Asia News Network",
+      "date": "12 July 2023",
+      "url": "https://asianews.network/indonesian-lawmakers-pass-omnibus-health-bill-despite-protests/"
+     },
+     {
+      "author": "Nikkei Asia",
+      "title": "Indonesia makes billion-dollar health care bet to keep rich patients at home",
+      "publisher": "KrASIA (republished from Nikkei Asia)",
+      "date": "8 March 2025",
+      "url": "https://kr-asia.com/indonesia-makes-billion-dollar-health-care-bet-to-keep-rich-patients-at-home"
+     },
+     {
+      "author": "Kontan",
+      "title": "Menkes Ungkap Indonesia Kekurangan 29.000 Dokter Spesialis",
+      "publisher": "Kontan",
+      "date": "6 May 2024",
+      "url": "https://nasional.kontan.co.id/news/menkes-ungkap-indonesia-kekurangan-29000-dokter-spesialis"
+     }
+    ]
+   },
+   "outlook": {
+    "narrative": "Policy direction is clear: prevention, more specialists, and stronger primary and referral care. The 2026 draft budget priorities include free health checks, faster tuberculosis control, more and better primary care facilities, revitalized regional hospitals, scholarships for medical education and stunting reduction.{{1}} World Bank financing is deploying 419 catheterization laboratories and is expected to upgrade 560 hospitals by 2029, and the Bank aims to raise Indonesia's universal health coverage service coverage index from 55 in 2025 to 62 by 2030.{{2}} The 2027 draft health budget is nearly flat at Rp 244.9 trillion, up 1.7 percent, and the president plans 514 public health laboratories by 2030,{{3}} while the ministry plans to renovate 8,001 puskesmas and build 1,988 new ones from 2027 to 2029.{{7}}\n\nTwo constraints stand out. JKN is running deficits that BPJS Kesehatan says could lead to missed claim payments from July 2027 without government action,{{4}}{{5}} and the specialist shortage will take years to close.{{6}} Demand for advanced services will therefore be shaped by what the insurer can pay, by how quickly specialists are trained, and by how fast foreign doctors can be licensed.",
+    "sources": [
+     {
+      "author": "Katadata Insight Center (databoks)",
+      "title": "Indonesia's 2026 State Budget Allocates Rp244 Trillion for Healthcare, a 15% Increase",
+      "publisher": "databoks",
+      "date": "August 2025",
+      "url": "https://databoks.katadata.co.id/en/economics-macro/statistics/689f16744d838/indonesias-2026-state-budget-allocates-rp244-trillion-for-healthcare-a-15-increase"
+     },
+     {
+      "author": "World Bank",
+      "title": "Expanding Health Service Coverage, Quality, and Equity at Scale in Indonesia",
+      "publisher": "World Bank",
+      "date": "17 June 2026",
+      "url": "https://www.worldbank.org/en/results/2026/06/17/expanding-health-service-coverage-quality-and-equity-at-scale-in-indonesia"
+     },
+     {
+      "author": "Katadata Insight Center (databoks)",
+      "title": "Health Budget Rises to IDR 244.9 Trillion in 2027 Draft State Budget",
+      "publisher": "databoks",
+      "date": "August 2026",
+      "url": "https://databoks.katadata.co.id/en/economics-macro/statistics/6a7f005c873f5/health-budget-rises-to-idr-2449-trillion-in-2027-draft-state-budget"
+     },
+     {
+      "author": "Nur Hana Putri Nabila, Katadata",
+      "title": "Defisit BPJS Kesehatan Bengkak 124% di 2025 Tembus Rp 17,1 Triliun, Ada Apa?",
+      "publisher": "Katadata",
+      "date": "2026",
+      "url": "https://katadata.co.id/finansial/keuangan/6a462f6ee51e3/defisit-bpjs-kesehatan-bengkak-124-di-2025-tembus-rp-17-1-triliun-ada-apa"
+     },
+     {
+      "author": "The Jakarta Post",
+      "title": "BPJS Kesehatan warns it may fail to pay claims next year as deficits persist",
+      "publisher": "",
+      "date": "11 June 2026",
+      "url": "https://thejakartapost.com/indonesia/2026/06/11/bpjs-kesehatan-warns-it-may-fail-to-pay-claims-next-year-as-deficits-persist"
+     },
+     {
+      "author": "ANTARA",
+      "title": "Indonesia to fast-track 70 thousand specialist doctors' target",
+      "publisher": "",
+      "date": "11 August 2025",
+      "url": "https://jatim.antaranews.com/amp/berita/958945/indonesia-to-fast-track-70-thousand-specialist-doctors-target"
+     },
+     {
+      "author": "Ministry of Health of Indonesia",
+      "title": "Mulai 2027, Pemerintah Siap Renovasi dan Bangun Ribuan Puskesmas",
+      "publisher": "Kementerian Kesehatan RI",
+      "date": "6 October 2026",
+      "url": "https://www.kemkes.go.id/id/mulai-2027-pemerintah-siap-renovasi-dan-bangun-ribuan--puskesmas"
+     }
+    ]
+   },
+   "competitive_landscape": {
+    "narrative": "Most foreign health systems in Indonesia work through local partners, but Malaysia's Asia OneHealthcare owns nine hospitals there, including the three RS Premier hospitals.{{1}}{{2}} At Bali International Hospital, Australia's Icon Group runs the cancer center and SingHealth is the academic partner, while Mayo Clinic only consulted on its planning.{{3}}{{4}} Mayo Clinic, MD Anderson and Cedars-Sinai work with Jakarta hospitals,{{5}}{{6}}{{7}} and Japanese, Korean and Chinese hospitals train Indonesian cardiac and transplant teams.{{8}}{{9}}{{10}}",
+    "closing": "Indonesia loses many patients to its neighbors. Former President Joko Widodo said more than 1 million citizens seek treatment abroad each year at a cost of US$11.5 billion, and a 2023 health ministry survey ranked Malaysia, Singapore, Saudi Arabia, the United Arab Emirates and South Korea as the top destinations.{{4}} The government's answer is the Sanur special economic zone, inaugurated on 25 June 2025, where officials put the outflow at about 2 million patients a year,{{11}} and a Batam zone where a 250-bed Mayapada and Apollo hospital is due by the end of 2027.{{12}}",
+    "sources": [
+     {
+      "author": "The Edge Malaysia Weekly",
+      "title": "Bankers court A1Health for possible IPO",
+      "publisher": "The Edge Malaysia",
+      "date": "2 February 2026",
+      "url": "https://theedgemalaysia.com/node/791491"
+     },
+     {
+      "author": "The Edge Malaysia",
+      "title": "Columbia Asia Healthcare renamed Asia OneHealthcare (A1Health) after consolidating assets in Malaysia, Indonesia and Vietnam",
+      "publisher": "The Edge Malaysia",
+      "date": "6 September 2024",
+      "url": "https://theedgemalaysia.com/node/725855"
+     },
+     {
+      "author": "Bali International Hospital (press release)",
+      "title": "Bali International Hospital Hosts Meet & Greet with Global Medical Partners",
+      "publisher": "Bali.com",
+      "date": "25 April 2025",
+      "url": "https://bali.com/news/press-releases/bali-international-hospital-hosts-meet-greet-with-global-medical-partners"
+     },
+     {
+      "author": "Nikkei Asia",
+      "title": "Indonesia makes billion-dollar health care bet to keep rich patients at home",
+      "publisher": "KrASIA (republished from Nikkei Asia)",
+      "date": "8 March 2025",
+      "url": "https://kr-asia.com/indonesia-makes-billion-dollar-health-care-bet-to-keep-rich-patients-at-home"
+     },
+     {
+      "author": "RS Pusat Pertamina",
+      "title": "Learning from the Best: IHC RSPP Endocrinologist Gains Insights into Innovative Medical Practices firsthand at Mayo Clinic's campus in Jacksonville, Florida",
+      "publisher": "RS Pusat Pertamina",
+      "date": "4 December 2024",
+      "url": "https://rspp.co.id/artikel-detail-597-Learning-from-the-Best-IHC-RSPP-Endocrinologist-Gains-Insights-into-Innovative-Medical-Practices-firsthand-at-Mayo-Clinic’s-campus-in-Jacksonville,-Florida-.html"
+     },
+     {
+      "author": "Kontan",
+      "title": "Kesenjangan Layanan Kanker di Indonesia, MRCCC Siloam Menggandeng MD Anderson",
+      "publisher": "Kontan",
+      "date": "31 March 2026",
+      "url": "https://industri.kontan.co.id/news/kesenjangan-layanan-kanker-di-indonesia-mrccc-siloam-menggandeng-md-anderson"
+     },
+     {
+      "author": "Cedars-Sinai Staff",
+      "title": "Nurses Share Expertise with International EKA Hospital Group",
+      "publisher": "Cedars-Sinai",
+      "date": "20 December 2024",
+      "url": "https://www.cedars-sinai.org/international-stories/nurses-share-expertise-with-international-eka-hospital-group.html"
+     },
+     {
+      "author": "Ministry of Health of Indonesia",
+      "title": "Perkuat Layanan Jantung Berkelas Dunia di Indonesia, Gedung Baru RS Harkit Resmi Topping Off",
+      "publisher": "Kementerian Kesehatan RI",
+      "date": "15 April 2026",
+      "url": "https://www.kemkes.go.id/eng/perkuat-layanan-jantung-berkelas-dunia-di-indonesia-gedung-baru-rs-harkit-resmi-topping-off"
+     },
+     {
+      "author": "Ministry of Health of Indonesia",
+      "title": "Lakukan Transplantasi Hati Ketiga RSUP Fatmawati Perkuat Kemandirian Layanan Dalam Negeri",
+      "publisher": "Kementerian Kesehatan RI",
+      "date": "10 April 2026",
+      "url": "https://www.kemkes.go.id/eng/lakukan-transplantasi-hati-ketiga-rsup-fatmawati-perkuat-kemandirian-layanan-dalam-negeri"
+     },
+     {
+      "author": "Ministry of Health of Indonesia",
+      "title": "Atasi Kekurangan Dokter Spesialis, Kemenkes Berangkatkan 27 Dokter Belajar ke RRT dan Jepang",
+      "publisher": "Kementerian Kesehatan RI",
+      "date": "6 January 2025",
+      "url": "https://kemkes.go.id/eng/atasi-kekurangan-dokter-spesialis-kemenkes-berangkatkan-27-dokter-belajar-ke-rrt-dan-jepang"
+     },
+     {
+      "author": "Gusty Da Costa, Indonesia Business Post",
+      "title": "President inaugurates Sanur SEZ, a major leap in healthcare transformation",
+      "publisher": "",
+      "date": "26 June 2025",
+      "url": "https://indonesiabusinesspost.com/4611/environment/president-inaugurates-sanur-sez-a-major-leap-in-healthcare-transformation"
+     },
+     {
+      "author": "Parluhutan Situmorang, Investortrust",
+      "title": "Mayapada Healthcare Invests Rp 1 Trillion to Build International Hospital in Batam",
+      "publisher": "Investortrust.id",
+      "date": "28 August 2025",
+      "url": "https://investortrust.id/market/77152/mayapada-healthcare-invests-rp-1-trillion-to-build-international-hospital-in-batam"
+     }
+    ],
+    "tracker_country": "Indonesia"
+   }
+  },
+  "recent_developments": [
+   {
+    "date": "2026-08-04",
+    "headline": "Free health checks reach 73.8 million people in 2026",
+    "summary": "The Cek Kesehatan Gratis program, launched on 10 February 2025, screened 70 million people in 2025 and 73.8 million in 2026 up to 31 July, against a 2026 target of 130 million.{{1}}{{2}} The ministry is shifting from screening to treating high blood pressure, high blood sugar and high cholesterol.{{1}}",
+    "sources": [
+     {
+      "author": "Ministry of Health of Indonesia",
+      "title": "Kemenkes Perkuat Tindak Lanjut Cek Kesehatan Gratis Usai Tembus 73,8 Juta Peserta",
+      "publisher": "Kementerian Kesehatan RI",
+      "date": "4 August 2026",
+      "url": "https://www.kemkes.go.id/id/kemenkes-perkuat-tindak-lanjut-cek-kesehatan-gratis-usai-tembus-73,8-juta-peserta"
+     },
+     {
+      "author": "Muhammad Syafaruddin, Suara Surabaya",
+      "title": "Cek Kesehatan Gratis Mulai 10 Februari, Kemenkes Siapkan 10.200 Puskesmas di Seluruh Indonesia",
+      "publisher": "",
+      "date": "9 February 2025",
+      "url": "https://www.suarasurabaya.net/kelanakota/2025/cek-kesehatan-gratis-mulai-10-februari-kemenkes-siapkan-10-200-puskesmas-di-seluruh-indonesia/"
+     }
+    ]
+   },
+   {
+    "date": "2025-06-25",
+    "headline": "President Prabowo inaugurates Sanur health special economic zone in Bali",
+    "summary": "The Sanur zone, the country's first health-focused special economic zone, centers on Bali International Hospital and is operated under Danantara.{{1}} Mayo Clinic consulted on the hospital's planning but said in 2023 it would not run it;{{2}} its partners now include Australia's Icon Group, which runs the cancer center, and SingHealth.{{3}}",
+    "sources": [
+     {
+      "author": "Gusty Da Costa, Indonesia Business Post",
+      "title": "President inaugurates Sanur SEZ, a major leap in healthcare transformation",
+      "publisher": "",
+      "date": "26 June 2025",
+      "url": "https://indonesiabusinesspost.com/4611/environment/president-inaugurates-sanur-sez-a-major-leap-in-healthcare-transformation"
+     },
+     {
+      "author": "Nikkei Asia",
+      "title": "Indonesia makes billion-dollar health care bet to keep rich patients at home",
+      "publisher": "KrASIA (republished from Nikkei Asia)",
+      "date": "8 March 2025",
+      "url": "https://kr-asia.com/indonesia-makes-billion-dollar-health-care-bet-to-keep-rich-patients-at-home"
+     },
+     {
+      "author": "Bali International Hospital (press release)",
+      "title": "Bali International Hospital Hosts Meet & Greet with Global Medical Partners",
+      "publisher": "Bali.com",
+      "date": "25 April 2025",
+      "url": "https://bali.com/news/press-releases/bali-international-hospital-hosts-meet-greet-with-global-medical-partners"
+     }
+    ]
+   },
+   {
+    "date": "2025-08-27",
+    "headline": "Mayapada and Apollo break ground on 250-bed international hospital in Batam",
+    "summary": "Mayapada Healthcare began building a Rp 1 trillion, 250-bed hospital in Batam's health special economic zone in partnership with Apollo Hospitals India, with full operations targeted for the end of 2027.{{1}}",
+    "sources": [
+     {
+      "author": "Parluhutan Situmorang, Investortrust",
+      "title": "Mayapada Healthcare Invests Rp 1 Trillion to Build International Hospital in Batam",
+      "publisher": "Investortrust.id",
+      "date": "28 August 2025",
+      "url": "https://investortrust.id/market/77152/mayapada-healthcare-invests-rp-1-trillion-to-build-international-hospital-in-batam"
+     }
+    ]
+   },
+   {
+    "date": "2026-06-09",
+    "headline": "BPJS Kesehatan warns it could miss claim payments from July 2027",
+    "summary": "The insurer said it is running monthly deficits of about Rp 2 trillion and expects a Rp 20 trillion government capital injection.{{1}} The JKN fund's 2025 deficit was Rp 17.13 trillion, up 123.8 percent from 2024.{{2}}",
+    "sources": [
+     {
+      "author": "The Jakarta Post",
+      "title": "BPJS Kesehatan warns it may fail to pay claims next year as deficits persist",
+      "publisher": "",
+      "date": "11 June 2026",
+      "url": "https://thejakartapost.com/indonesia/2026/06/11/bpjs-kesehatan-warns-it-may-fail-to-pay-claims-next-year-as-deficits-persist"
+     },
+     {
+      "author": "Nur Hana Putri Nabila, Katadata",
+      "title": "Defisit BPJS Kesehatan Bengkak 124% di 2025 Tembus Rp 17,1 Triliun, Ada Apa?",
+      "publisher": "Katadata",
+      "date": "2026",
+      "url": "https://katadata.co.id/finansial/keuangan/6a462f6ee51e3/defisit-bpjs-kesehatan-bengkak-124-di-2025-tembus-rp-17-1-triliun-ada-apa"
+     }
+    ]
+   },
+   {
+    "date": "2026-08-14",
+    "headline": "2027 draft budget holds health at Rp 244.9 trillion and funds puskesmas renovation",
+    "summary": "The draft health budget is up 1.7 percent on the 2026 outlook of Rp 240.8 trillion.{{1}} President Prabowo said 10,000 puskesmas in 7,285 sub-districts would be renovated from 2027 and 514 public health laboratories built by 2030.{{1}}",
+    "sources": [
+     {
+      "author": "Katadata Insight Center (databoks)",
+      "title": "Health Budget Rises to IDR 244.9 Trillion in 2027 Draft State Budget",
+      "publisher": "databoks",
+      "date": "August 2026",
+      "url": "https://databoks.katadata.co.id/en/economics-macro/statistics/6a7f005c873f5/health-budget-rises-to-idr-2449-trillion-in-2027-draft-state-budget"
+     }
+    ]
+   }
+  ]
+ },
+ "resolution_log": [
+  "Demographics: corrected the share of children aged 0 to 14 in 2025 from 24.3 to 24.2 percent, matching the World Bank value of 24.247 (two verifiers).",
+  "Demographics and economy: GDP at purchasing power parity is now given in international dollars (about 5.05 trillion total and 17,660 per capita in 2025) rather than US dollars (one verifier; decided rule).",
+  "Demographics: removed the KrASIA/Nikkei article as a second citation for the currency, which it does not need; sources renumbered.",
+  "Government: the 58 percent vote share now cites the BBC only, because the Indonesia Business Post article does not give it (one verifier; checked).",
+  "Government: Budi Gunadi Sadikin is now shown leading the Health Ministry in August 2026, citing the ministry's 4 August 2026 release, which replaces the February 2026 ANTARA citation (two verifiers).",
+  "Economy: replaced the April 2026 World Bank forecast of 4.7 percent with the Bank's latest, the June 2026 Indonesia Economic Prospects (5.0 percent in 2026, 5.2 percent in 2027 and 2028), read on the World Bank's own press release; dropped the Tempo citation and the stray Danantara sentence (one verifier; confirmed, no October 2026 update found).",
+  "Economy: the IMF consultation is now described as the 2025 Article IV concluded on 14 January 2026 and cites IMF Press Release 26/010; imf.org refused automated access (HTTP 403), so the figures were checked on Mirage News's verbatim reproduction, which stays as a second source (two verifiers).",
+  "Disease prevalence: under-five mortality changed from 21 per 1,000 (2023, from a World Bank results story) to 17.7 per 1,000 live births in 2024 from the World Bank indicator SH.DYN.MORT, consistent with the profile's other indicators (all three verifiers).",
+  "Disease prevalence: stunting now uses the Health Ministry's SSGI 2024 release (19.8 percent in 2024, down from 21.5 percent in 2023) instead of the World Bank series value of 22 percent for 2023 (two verifiers suggested the newer figure; checked on the ministry release).",
+  "Disease prevalence: dated the ANTARA source on stroke and heart disease deaths to 25 September 2023 (one verifier; checked).",
+  "Public system and news item: the free health check figure was a 2026 count, not a cumulative total; now reads 70 million screened in 2025 and 73.8 million in 2026 up to 31 July against a 2026 target of 130 million, citing the Health Ministry's 4 August 2026 release instead of the unreadable Medcom page (one verifier on the framing, one on the source; confirmed on the ministry release).",
+  "Public system: replaced the 2021 puskesmas count (10,292, databoks) with 'more than 10,000' from the 2026 ministry release, and replaced the August 2026 plan to renovate 10,000 puskesmas with the ministry's 6 October 2026 plan (renovate 8,001, build 1,988, upgrade 441 regional hospitals in 2027 to 2029); the outlook paragraph was updated the same way (one verifier flagged staleness; newer primary source found).",
+  "Public system: kept the 30 January 2024 date on the ministry's vertical hospitals release, which is the release date printed on the page; the 1 February date one verifier proposed is the date of a quote inside it.",
+  "Private system: replaced the 2018 hospital ownership figure (63 percent of 2,813) with the 2024 Health Ministry series: private operators ran 1,576 of 2,710 general hospitals, or 58 percent (two verifiers).",
+  "Workforce: the 160,000 general practitioners figure is now attributed to Nikkei Asia's reporting and the 120,000 shortfall to the health ministry, as the article does, rather than quoted from the minister (all three verifiers).",
+  "Workforce and education: replaced the Vertex Ventures blog (92 faculties, 24 awarding specialist degrees) with Kontan's 6 August 2024 report quoting a Health Ministry spokesperson that only 27 to 30 of 92 faculties can produce specialists; the Business Times original could not be found (all three verifiers flagged the source).",
+  "Education: the hospital-based specialist route is now dated to its May 2024 launch with 420 teaching hospitals (Kontan, 6 May 2024), replacing the blog's 'historically only through universities' framing.",
+  "Competitive landscape narrative: rewrote to match the final tracker; it now names Asia OneHealthcare's ownership of nine hospitals including the RS Premier hospitals, Icon's operation of the cancer center and SingHealth's academic role at Bali International Hospital, Mayo Clinic's planning role in the past tense, and active US, Japanese, Korean and Chinese ties (all three verifiers on Mayo; one on foreign ownership; decided rule).",
+  "Competitive landscape closing: removed the vague sentence on varying estimates and replaced it with the state enterprises minister's figure of about 2 million patients a year from the Sanur launch report; trimmed to about 90 words.",
+  "Recent developments (Sanur): replaced 'Mayo Clinic advises... as a consultant' with Mayo's past consulting role and the hospital's current partners, Icon and SingHealth, citing BIH's 25 April 2025 release (all three verifiers).",
+  "Workforce chart: note now says Indonesia's 2023 value was 0.52, so the chart's 2021 cross-section of 0.69 does not appear to contradict the narrative; values, kind and split unchanged (two verifiers).",
+  "Not changed: KrASIA's licensed republication of the Nikkei Asia article stays because the Nikkei original could not be found or opened; the News4JAX copy of the AP report and the Asia News Network copy of the Jakarta Post were not flagged and stay.",
+  "Partnerships tracker: Cedars-Sinai with Eka moved from Unclear to Active; the nurse teaching story is dated 20 December 2024 in the page's own model.json data (two verifiers; confirmed).",
+  "Partnerships tracker: SingHealth at Bali International Hospital moved to Active (April 2025) and Zhongshan Hospital to Active (fellows placed November 2024 and January 2025, per Health Ministry releases); Harvard record corrected to Harvard Medical School and the Primary Healthcare Impact Lab, May 2026, Tegal and Brebes, with no Brigham attribution.",
+  "Partnerships tracker: dropped CRUK Scotland Institute (a research institute, not a hospital, health system or university) and Monash Health's ARSADA MoU (evidenced only by a personal LinkedIn profile); added 15 confirmed records, including A1Health (ownership), Ramsay Health Care and KPJ (ended), SNUH (two), Sapporo Cardio Vascular Clinic, HKAMG, SingHealth Duke-NUS with USU, Icon with RS Unair, UMC Utrecht, Wuhan Asia Heart Hospital, Zhongda Hospital, Monash Health with RSOMH, NCGM with Siloam and Sun Medical Center with Ngoerah."
+ ],
+ "csi_manual": {
+  "patient_volume_and_revenue": "",
+  "referral_sources": "",
+  "relationship_history": "",
+  "complications": "",
+  "key_contacts": "",
+  "opportunities": "",
+  "csi_recommendation": ""
+ },
+ "charts": [
+  {
+   "id": "spending",
+   "page": "health",
+   "kind": "line",
+   "title": "Indonesia: health spending and out-of-pocket share, 2012 to 2023",
+   "unit": "%",
+   "note": "Current health expenditure is shown as a share of GDP; out-of-pocket spending is shown as a share of current health expenditure.",
+   "highlight": "Indonesia",
+   "series": [
+    {
+     "name": "Current health expenditure (% of GDP)",
+     "points": [
+      [
+       "2012",
+       2.91
+      ],
+      [
+       "2013",
+       2.87
+      ],
+      [
+       "2014",
+       2.96
+      ],
+      [
+       "2015",
+       2.92
+      ],
+      [
+       "2016",
+       3.02
+      ],
+      [
+       "2017",
+       2.9
+      ],
+      [
+       "2018",
+       2.87
+      ],
+      [
+       "2019",
+       2.88
+      ],
+      [
+       "2020",
+       3.42
+      ],
+      [
+       "2021",
+       3.71
+      ],
+      [
+       "2022",
+       2.69
+      ],
+      [
+       "2023",
+       2.7
+      ]
+     ]
+    },
+    {
+     "name": "Out-of-pocket (% of current health expenditure)",
+     "points": [
+      [
+       "2012",
+       53.6
+      ],
+      [
+       "2013",
+       50.9
+      ],
+      [
+       "2014",
+       45.2
+      ],
+      [
+       "2015",
+       42.7
+      ],
+      [
+       "2016",
+       38.1
+      ],
+      [
+       "2017",
+       36.2
+      ],
+      [
+       "2018",
+       35.2
+      ],
+      [
+       "2019",
+       34.6
+      ],
+      [
+       "2020",
+       31.2
+      ],
+      [
+       "2021",
+       27.2
+      ],
+      [
+       "2022",
+       33.0
+      ],
+      [
+       "2023",
+       31.1
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Bank",
+     "title": "Current health expenditure (% of GDP), Indonesia (SH.XPD.CHEX.GD.ZS)",
+     "publisher": "World Bank Indicators API",
+     "date": "13 July 2026",
+     "url": "https://api.worldbank.org/v2/country/IDN/indicator/SH.XPD.CHEX.GD.ZS?format=json"
+    },
+    {
+     "author": "World Bank",
+     "title": "Out-of-pocket expenditure (% of current health expenditure), Indonesia (SH.XPD.OOPC.CH.ZS)",
+     "publisher": "World Bank Indicators API",
+     "date": "13 July 2026",
+     "url": "https://api.worldbank.org/v2/country/IDN/indicator/SH.XPD.OOPC.CH.ZS?format=json"
+    }
+   ],
+   "split": true
+  },
+  {
+   "id": "workforce",
+   "page": "health",
+   "kind": "bar",
+   "title": "Physicians per 1,000 people, Indonesia and comparators",
+   "unit": "per 1,000 people",
+   "note": "Latest comparable World Bank values: 2021 for countries and 2022 for the OECD members and world aggregates. Indonesia's 2023 value was 0.52.",
+   "highlight": "Indonesia",
+   "series": [
+    {
+     "name": "Physicians per 1,000 people",
+     "points": [
+      [
+       "OECD members (2022)",
+       3.43
+      ],
+      [
+       "Singapore",
+       2.78
+      ],
+      [
+       "Malaysia",
+       2.27
+      ],
+      [
+       "World (2022)",
+       1.86
+      ],
+      [
+       "Vietnam",
+       1.11
+      ],
+      [
+       "Philippines",
+       0.79
+      ],
+      [
+       "Indonesia",
+       0.69
+      ],
+      [
+       "Thailand",
+       0.54
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Bank",
+     "title": "Physicians (per 1,000 people): Indonesia, Malaysia, Thailand, Vietnam, Philippines, Singapore, OECD members, World",
+     "publisher": "World Bank Indicators API",
+     "date": "13 July 2026",
+     "url": "https://api.worldbank.org/v2/country/IDN;MYS;THA;VNM;PHL;SGP;OED;WLD/indicator/SH.MED.PHYS.ZS?format=json&per_page=100&date=2021:2023"
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "page": "market",
+   "kind": "line",
+   "title": "Indonesia: hospital beds per 1,000 people, 2012 to 2023",
+   "unit": "beds per 1,000 people",
+   "note": "Hospital beds per 1,000 people as published in the World Bank indicator SH.MED.BEDS.ZS.",
+   "highlight": "2023",
+   "series": [
+    {
+     "name": "Hospital beds per 1,000 people",
+     "points": [
+      [
+       "2012",
+       0.81
+      ],
+      [
+       "2013",
+       0.96
+      ],
+      [
+       "2014",
+       0.91
+      ],
+      [
+       "2015",
+       0.95
+      ],
+      [
+       "2016",
+       0.97
+      ],
+      [
+       "2017",
+       1.02
+      ],
+      [
+       "2018",
+       1.15
+      ],
+      [
+       "2019",
+       1.16
+      ],
+      [
+       "2020",
+       1.38
+      ],
+      [
+       "2021",
+       1.34
+      ],
+      [
+       "2022",
+       1.4
+      ],
+      [
+       "2023",
+       1.37
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Bank",
+     "title": "Hospital beds (per 1,000 people), Indonesia (SH.MED.BEDS.ZS)",
+     "publisher": "World Bank Indicators API",
+     "date": "13 July 2026",
+     "url": "https://api.worldbank.org/v2/country/IDN/indicator/SH.MED.BEDS.ZS?format=json"
+    }
+   ]
+  }
+ ]
+}
