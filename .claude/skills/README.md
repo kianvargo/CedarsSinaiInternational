@@ -19,6 +19,18 @@ opens a session on this repository.
    choose **Create a new branch and start a pull request** and merge it.
 3. Start a new Claude Code session. The skill is picked up automatically.
 
+## Skills the country-profile workflow expects
+
+| Skill | Where it runs | Status |
+|---|---|---|
+| `country-profile` | The whole process | Installed |
+| AI-signal cleanup skill (removes stray characters and machine-generated fragments) | Polish pass, step 4b of `country-profile/SKILL.md`, **first** | Not yet uploaded |
+| Humanizer skill (smooths wording) | Polish pass, step 4b, **second** | Not yet uploaded |
+
+Both polish skills run only after the facts have been verified and finalized.
+`scripts/check_polish.py` then confirms that no number, citation or source changed. If they are not
+installed, the workflow skips the polish pass and says so.
+
 ## Check before adding
 
 - **Read the skill's `SKILL.md` first.** Skills are instructions that Claude follows, and some include
