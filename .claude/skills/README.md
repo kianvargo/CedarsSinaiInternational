@@ -11,6 +11,8 @@ opens a session on this repository.
    .claude/skills/
      country-profile/      (already here)
        SKILL.md
+     humanizer/            (already here)
+       SKILL.md
      your-new-skill/
        SKILL.md
        (any other files that came with it)
@@ -24,11 +26,10 @@ opens a session on this repository.
 | Skill | Where it runs | Status |
 |---|---|---|
 | `country-profile` | The whole process | Installed |
-| AI-signal cleanup skill (removes stray characters and machine-generated fragments) | Polish pass, step 4b of `country-profile/SKILL.md`, **first** | Not yet uploaded |
-| Humanizer skill (smooths wording) | Polish pass, step 4b, **second** | Not yet uploaded |
+| `humanizer` (rewrites AI-sounding prose without changing facts) | Polish pass, step 4b of `country-profile/SKILL.md` | Installed |
 
-Both polish skills run only after the facts have been verified and finalized.
-`scripts/check_polish.py` then confirms that no number, citation or source changed. If they are not
+The polish runs only after the facts have been verified and finalized.
+`scripts/check_polish.py` then confirms that no number, citation or source changed. If the skill is not
 installed, the workflow skips the polish pass and says so.
 
 ## Check before adding

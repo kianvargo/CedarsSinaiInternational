@@ -147,24 +147,26 @@ elsewhere. These are leads to re-confirm, never facts to copy.
    as a single confident, coherent draft.
 
 4b. **Polish pass (wording only).** Runs only after resolution, once the facts
-   are final, and never during research or verification. It uses the two text
-   skills installed in `.claude/skills/` (see the README there); if either is
-   missing, skip it and say so in the hand-off.
+   are final, and never during research or verification. It uses the
+   `humanizer` skill in `.claude/skills/humanizer/`; if it is missing, skip
+   this step and say so in the hand-off.
    1. Copy the resolved JSON: `cp output/<country>_profile.json <work>/<country>_profile.prepolish.json`.
-   2. **AI-signal cleanup skill first:** strip stray characters, leftover
-      fragments and machine-generated artifacts from narrative, closing,
-      fact values and recent-development summaries.
-   3. **Humanizer skill second:** smooth the wording so it reads like an
-      analyst wrote it, within the house style below (no dashes, American
-      spelling, section word caps).
-   4. Neither skill may change a number, a year, a name, a qualifier
-      ("about", "planned", "reported"), a citation marker or its position,
-      a source object, the charts, or the CSI fields. Only the prose changes.
-   5. **Gate:** `python3 scripts/check_polish.py <work>/<country>_profile.prepolish.json output/<country>_profile.json`.
+   2. Apply the humanizer in **embedded mode** to narrative, closing and
+      recent-development summaries, using the "reference/factual" voice
+      (neutral and plain) and the house style below: no dashes, American
+      spelling, section word caps. Leave fact values, labels, sources,
+      charts and CSI fields untouched.
+   3. It may not change a number, a year, a name, a qualifier ("about",
+      "planned", "reported"), a citation marker or its position. Only the
+      prose changes.
+   4. **Gate:** `python3 scripts/check_polish.py <work>/<country>_profile.prepolish.json output/<country>_profile.json`.
       Any problem means the polish altered content: fix those sentences back
       to the pre-polish facts, or restore the pre-polish file, and rerun until
       it reports 0 problems. Then reread a few changed paragraphs against
       their sources to confirm the meaning is unchanged.
+   Do not use tools that strip AI provenance or Content Credentials, or that
+   aim to defeat AI detection; the polish is for readability, not for hiding
+   how the draft was made.
 
 5. **Assemble.** Merge the corrected research JSON with an empty
    `csi_manual` block (see schema) and run:
@@ -253,8 +255,8 @@ verified profile JSON only. It adds no new facts, so it needs no web research.
 2. **Verify and tighten:** a separate agent (session model) checks every line against the
    profile (numbers, qualifiers, years, statuses, markers) and cuts it to 380
    to 450 visible words, bullets at most 20 words.
-2b. **Polish and check:** run the same polish pass as step 4b on the summary
-   JSON (cleanup skill, then humanizer), gate it with
+2b. **Polish and check:** run the same humanizer polish as step 4b on the
+   summary JSON, gate it with
    `python3 scripts/check_polish.py <pre-polish summary> <polished summary>`,
    then confirm every summary number still traces to the profile.
 3. **Build:** `python3 scripts/generate_summary.py output/<country>_profile.json
