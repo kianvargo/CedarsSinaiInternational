@@ -169,7 +169,7 @@
     ]
    },
    "government": {
-    "narrative": "Australia is a constitutional monarchy in which the King is head of state and is represented by Governor-General Sam Mostyn.{{1}} Ministers answer to the Australian Parliament, which sits in Canberra.{{1}}{{2}} Labor won 94 seats in the House of Representatives at the 2025 federal election, against 43 for the Liberal/National Coalition and 10 for independents, and Anthony Albanese continues as Prime Minister.{{3}}{{4}} Mark Butler is the Minister for Health and Ageing, and Jim Chalmers is Treasurer.{{5}}{{6}}\n\nHealth responsibilities are split. The Commonwealth funds Medicare and the Pharmaceutical Benefits Scheme, while the states own and manage the public hospitals.{{7}} The two levels settle hospital funding through National Cabinet, which on 30 January 2026 reached a funding agreement that includes a new National Health Reform Agreement addendum.{{4}}",
+    "narrative": "Australia is a constitutional monarchy in which the King is head of state and is represented by Governor-General Sam Mostyn.{{1}} Ministers answer to the Australian Parliament, which sits in Canberra.{{1}}{{2}} Labor won 94 seats in the House of Representatives at the 2025 federal election, against 43 for the Liberal/National Coalition and 10 for independents, and Anthony Albanese continues as Prime Minister.{{3}}{{4}} Mark Butler is the Minister for Health and Ageing, and Jim Chalmers is Treasurer.{{5}}{{6}}\n\nHealth responsibilities are split. The Commonwealth funds Medicare and the Pharmaceutical Benefits Scheme, while the states manage the public hospitals.{{7}} The two levels settle hospital funding through National Cabinet, which on 30 January 2026 reached a funding agreement that includes a new National Health Reform Agreement addendum.{{4}}",
     "sources": [
      {
       "author": "Parliamentary Education Office",
@@ -214,11 +214,11 @@
       "url": "https://budget.gov.au/content/bp1/download/bp1_2026-27.pdf"
      },
      {
-      "author": "Lucinda Glover, London School of Economics",
-      "title": "The Australian Health Care System, in International Profiles of Health Care Systems, 2020",
+      "author": "The Commonwealth Fund",
+      "title": "International Health Care System Profiles: Australia",
       "publisher": "The Commonwealth Fund",
-      "date": "December 2020",
-      "url": "https://CommonwealthFund.org/sites/default/files/2020-12/International_Profiles_of_Health_Care_Systems_Dec2020.pdf"
+      "date": "May 2026",
+      "url": "https://www.commonwealthfund.org/sites/default/files/2026-05/2026_Country-Profiles_Australia.pdf"
      }
     ]
    },
@@ -330,7 +330,7 @@
   },
   "health_system": {
    "public_system": {
-    "narrative": "Australia's public system rests on Medicare, a universal insurance program financed from general tax revenue and a levy, which covers the full cost of public hospital services for citizens, permanent residents and visitors from reciprocal-agreement countries and gives substantial coverage for physician services and pharmaceuticals.{{1}} The Commonwealth funds care through the Medicare Benefits Schedule and the Pharmaceutical Benefits Scheme, and the states own and manage the public hospitals.{{1}}\n\nIn 2023-24 there were 704 public hospitals with 67,280 available beds, or 2.5 per 1,000 people, and total recurrent spending of A$103.1 billion, 94 percent of it funded by governments.{{2}} Public hospitals recorded about 7.5 million separations that year and 9,094,312 emergency department presentations in 2024-25.{{2}}\n\nOn 30 January 2026 National Cabinet reached an agreement under which the Commonwealth will provide A$25 billion in additional public hospital funding.{{3}} The 2026-27 Budget provides A$220.3 billion over five years to the states and territories for public hospital services and the 2026-2031 addendum.{{4}} In primary care, bulk billing incentives were extended to all Australians from 1 November 2025, and the government projects that 9 in 10 GP visits will be bulk billed by 2030.{{5}}{{6}}",
+    "narrative": "Australia's public system rests on Medicare, a universal insurance program financed from general tax revenue and a levy, which covers citizens, permanent residents and people from reciprocal-agreement countries, pays the full cost of public hospital services and part of the cost of other services, and subsidizes most medicines through the Pharmaceutical Benefits Scheme.{{1}} The Commonwealth funds care through the Medicare Benefits Schedule and the Pharmaceutical Benefits Scheme, and the states own and manage the public hospitals.{{1}}\n\nIn 2023-24 there were 704 public hospitals with 67,280 available beds, or 2.5 per 1,000 people, and total recurrent spending of A$103.1 billion, 94 percent of it funded by governments.{{2}} Public hospitals recorded about 7.5 million separations that year and 9,094,312 emergency department presentations in 2024-25.{{2}}\n\nOn 30 January 2026 National Cabinet reached an agreement under which the Commonwealth will provide A$25 billion in additional public hospital funding.{{3}} The 2026-27 Budget provides A$220.3 billion over five years to the states and territories for public hospital services and the 2026-2031 addendum.{{4}} In primary care, bulk billing incentives were extended to all Australians from 1 November 2025, and the government projects that 9 in 10 GP visits will be bulk billed by 2030.{{5}}{{6}}",
     "sources": [
      {
       "author": "The Commonwealth Fund",
@@ -387,11 +387,11 @@
       "url": "https://www.apra.gov.au/node/62468"
      },
      {
-      "author": "Lucinda Glover, London School of Economics",
-      "title": "The Australian Health Care System, in International Profiles of Health Care Systems, 2020",
+      "author": "The Commonwealth Fund",
+      "title": "International Health Care System Profiles: Australia",
       "publisher": "The Commonwealth Fund",
-      "date": "December 2020",
-      "url": "https://CommonwealthFund.org/sites/default/files/2020-12/International_Profiles_of_Health_Care_Systems_Dec2020.pdf"
+      "date": "May 2026",
+      "url": "https://www.commonwealthfund.org/sites/default/files/2026-05/2026_Country-Profiles_Australia.pdf"
      },
      {
       "author": "Sarah Gerathy",
@@ -455,7 +455,7 @@
       "value": "A$37.5 billion{{6}}"
      }
     ],
-    "narrative": "Total health spending reached A$290.7 billion in 2024-25, or A$10,614 per person, and governments funded 70 percent of it.{{7}} Hospitals took A$123.4 billion, about 42 percent of the total, and primary health care A$93.0 billion, about 32 percent.{{7}} Spending in 2023-24 had been A$270.5 billion.{{1}} World Bank data put current health expenditure at 10.4 percent of GDP in 2023, up from 8.7 percent in 2012, while out-of-pocket spending fell from 19.9 percent to 15.8 percent of the total over the same period.{{2}}{{4}} Among comparators, the share of GDP in 2023 was higher in Canada, the United Kingdom, the United States and the OECD average, and lower in New Zealand and Singapore.{{5}} Households still paid A$44 billion out of pocket in 2023-24, the largest non-government contribution.{{1}}\n\nThe Commonwealth budgets A$136.9 billion for health in 2026-27, which includes A$37.5 billion of assistance to the states for public hospitals.{{6}}",
+    "narrative": "Total health spending reached A$290.7 billion in 2024-25, or A$10,614 per person, and governments funded 70 percent of it.{{7}} Hospitals took A$123.4 billion, about 42 percent of the total, and primary health care A$93.0 billion, about 32 percent.{{7}} Spending rose by A$9.6 billion, or 3.4 percent, in real terms from 2023-24.{{7}} World Bank data put current health expenditure at 10.4 percent of GDP in 2023, up from 8.7 percent in 2012, while out-of-pocket spending fell from 19.9 percent to 15.8 percent of the total over the same period.{{2}}{{4}} Among comparators, the share of GDP in 2023 was higher in Canada, the United Kingdom, the United States and the OECD average, and lower in New Zealand and Singapore.{{5}} Households still paid A$44 billion out of pocket in 2023-24, the largest non-government contribution.{{1}}\n\nThe Commonwealth budgets A$136.9 billion for health in 2026-27, which includes A$37.5 billion of assistance to the states for public hospitals.{{6}}",
     "sources": [
      {
       "author": "AAP",
@@ -539,7 +539,7 @@
       "value": "178 registered by the end of June 2025, including 171 GPs{{5}}"
      }
     ],
-    "narrative": "Physician density rose from 3.29 per 1,000 people in 2012 to 4.09 in 2022, and nurses and midwives numbered 13.45 per 1,000 in 2022.{{1}}{{2}} The medical register held 148,185 practitioners in 2024-25, and 4,947 of the 9,072 first-time registrants were internationally qualified.{{5}} An expedited pathway for specialists from the United Kingdom, New Zealand and Ireland opened in October 2024, and 178 applicants had been registered by the end of June 2025, 171 of them GPs.{{5}} In the first six months, to April 2025, 86 percent of applications came from the United Kingdom.{{6}} Distribution is uneven: four in five of the specialists registered in the first six months of the pathway work in major cities, according to Medical Republic.{{6}}",
+    "narrative": "Physician density rose from 3.29 per 1,000 people in 2012 to 4.09 in 2022, and nurses and midwives numbered 13.45 per 1,000 in 2022.{{1}}{{2}} The medical register held 148,185 practitioners in 2024-25, and 4,947 of the 9,072 first-time registrants were internationally qualified.{{5}} An expedited pathway for specialists from the United Kingdom, New Zealand and Ireland opened in October 2024, and 178 applicants had been registered by the end of June 2025, 171 of them GPs.{{5}}{{6}} In the first six months, to April 2025, 86 percent of applications came from the United Kingdom.{{6}} Distribution is uneven: four in five of the specialists registered in the first six months of the pathway work in major cities, according to Medical Republic.{{6}}",
     "sources": [
      {
       "author": "World Bank",
@@ -586,7 +586,7 @@
     ]
    },
    "education": {
-    "narrative": "Medical education runs through public and private universities, followed by an accredited internship and residency.{{1}} The government is adding Commonwealth supported medical places: universities can apply for an additional 100 places from 2026, rising to 150 a year from 2028, with a focus on training more GPs, and the government said it would introduce demand driven places for First Nations medical students from 2026.{{2}}\n\nAfter graduation, doctors train through the specialist colleges. The Commonwealth-funded Australian General Practice Training Program, for example, offers 3 to 4 years of full-time training.{{3}} The 2024 Medical Training Survey had 24,812 respondents, more than half of doctors in training, and 62 percent of trainees said the financial cost of their college training program had led to stress.{{7}}\n\nDoctors who trained overseas generally follow a standard pathway: they pass the Australian Medical Council examinations to earn the AMC certificate, then hold provisional registration while completing approved supervised practice before general registration.{{5}} The Medical Board advises that Australian graduates have priority for accredited internship positions.{{5}} Specialists with approved qualifications from the United Kingdom, New Zealand and Ireland can instead register through an expedited pathway without college assessment, after six months of supervised practice.{{4}}{{6}}",
+    "narrative": "Medical education runs through public and private universities: students complete an Australian Medical Council-accredited degree, followed by an internship and residency.{{1}} The government is adding Commonwealth supported medical places: universities can apply for an additional 100 places from 2026, rising to 150 a year from 2028, with a focus on training more GPs, and the government said it would introduce demand driven places for First Nations medical students from 2026.{{2}}\n\nAfter graduation, doctors train through the specialist colleges. The Commonwealth-funded Australian General Practice Training Program, for example, offers 3 to 4 years of full-time training.{{3}} The 2024 Medical Training Survey had 24,812 respondents, more than half of doctors in training, and 62 percent of trainees said the financial cost of their college training program had led to stress.{{7}}\n\nDoctors who trained overseas generally follow a standard pathway: they pass the Australian Medical Council examinations to earn the AMC certificate, then hold provisional registration while completing approved supervised practice before general registration.{{5}} The Medical Board advises that Australian graduates have priority for accredited internship positions.{{5}} Specialists with approved qualifications from the United Kingdom, New Zealand and Ireland can instead gain specialist registration through an expedited pathway without college assessment, and must then complete six months of supervised practice.{{4}}{{6}}",
     "sources": [
      {
       "author": "The Commonwealth Fund",
@@ -708,8 +708,8 @@
     ]
    },
    "competitive_landscape": {
-    "narrative": "The visible foreign links to Australian health care are mostly research and training ties. Peter MacCallum Cancer Centre signed a second memorandum with Boston's Dana-Farber Cancer Institute in November 2022 and a partnership agreement with Britain's The Christie in April 2024.{{1}}{{2}} Victoria announced Melbourne and Boston hospital partnerships in 2016.{{3}} The partnerships tracker lists 18 active ties, including Ochsner Health and Emory University with the University of Queensland, Memorial Sloan Kettering with Northern Sydney Local Health District, Weill Cornell Medicine with Monash University and Cleveland Clinic with Epworth HealthCare. Among owners, Healthscope was owned by North American private equity firm Brookfield until its 2025 receivership.{{4}}",
-    "closing": "A 2014 trade report said Australia has a smaller inbound than outbound medical tourism industry.{{9}} A 2017 review described a few wealthy Asia-Pacific patients, Epworth HealthCare reported 600 international patients a year from 31 countries, and some Sydney hospitals hold contracts with Pacific islands.{{5}} Icon Cancer Centre says international patients need a visa and a referral to be treated in Australia, and it directs Asia-Pacific patients to its concierge service in Singapore, Indonesia and Malaysia.{{6}} A 2011 article described residents of Papua New Guinea treaty villages crossing into the Torres Strait to use Queensland Health clinics, and a 2022 study says Queensland Health still triages Papua New Guinea nationals who present there.{{7}}{{10}} Outbound, plastic surgeons said in January 2024 that cosmetic tourism had surged in recent years, with online offers to destinations such as Turkey, Thailand and Brazil.{{8}}",
+    "narrative": "The visible foreign links to Australian health care are mostly research and training ties. Peter MacCallum Cancer Centre signed a second memorandum with Boston's Dana-Farber Cancer Institute in November 2022 and a partnership agreement with Britain's The Christie in April 2024.{{1}}{{2}} Victoria announced Melbourne and Boston hospital partnerships in 2016.{{3}} The partnerships tracker lists 18 active records, three of them members of a single children's genomics consortium with Murdoch Children's Research Institute and The Royal Children's Hospital. They include Ochsner Health and Emory University with the University of Queensland, Memorial Sloan Kettering with Northern Sydney Local Health District, Weill Cornell Medicine with Monash University and Cleveland Clinic with Epworth HealthCare. Among owners, Healthscope's North American private equity owner, Brookfield, withdrew support before its May 2025 receivership, and the receivers have since agreed to split its hospitals among four Australian operators.{{4}}",
+    "closing": "A 2014 trade-press article, citing Tourism Research Australia data, said Australia may have a smaller inbound than outbound medical tourism industry.{{9}} A 2017 review described a few wealthy Asia-Pacific patients, Epworth HealthCare reported 600 international patients a year from 31 countries, and some Sydney hospitals hold contracts with Pacific islands.{{5}} Icon Cancer Centre says international patients need a visa and a referral to be treated in Australia, and it directs Asia-Pacific patients to its concierge service in Singapore, Indonesia and Malaysia.{{6}} A 2011 article described residents of Papua New Guinea treaty villages crossing into the Torres Strait to use Queensland Health clinics, and a 2022 study says Queensland Health still triages Papua New Guinea nationals who present there.{{7}}{{10}} Outbound, plastic surgeons said in January 2024 that cosmetic tourism had surged in recent years, with online offers to destinations such as Turkey, Thailand and Brazil.{{8}}",
     "sources": [
      {
       "author": "Dana-Farber Cancer Institute",
@@ -775,9 +775,9 @@
       "url": "https://www.laingbuissonnews.com/imtj/news-imtj/inbound-and-outbound-australian-medical-tourism-growing/"
      },
      {
-      "author": "Australian Institute of Tropical Health and Medicine and coauthors",
-      "title": "Critical consideration of tuberculosis management of Papua New Guinea nationals and cross-border health issues in the remote Torres Strait Islands, Australia",
-      "publisher": "PubMed Central",
+      "author": "Foster J, Mendez D, Marais BJ, Denholm JT, Peniyamina D, McBryde ES, Adegnika AA",
+      "title": "Critical Consideration of Tuberculosis Management of Papua New Guinea Nationals and Cross-Border Health Issues in the Remote Torres Strait Islands, Australia",
+      "publisher": "Tropical Medicine and Infectious Disease 7(9):251",
       "date": "2022",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9506391/"
      }
@@ -882,10 +882,11 @@
   "Inbound and outbound medical travel sources are dated (IMTJ 2014 and 2017, MJA 2011); no current official count of international patients was found. Wording is attributed and dated accordingly.",
   "Verification: two independent verifiers (a third was stopped to save usage); flags from either were re-checked in resolution.",
   "Financing now leads with AIHW Health expenditure Australia 2024-25 (released October 2026; figures confirmed from the AIHW release); 2023-24 kept as the labeled prior year via SBS.",
-  "Commonwealth Fund 2020 profile replaced by the May 2026 edition for the Medicare and education description; the 'no cap on physicians' clause and the 2016-17 private hospital count were removed as stale.",
   "Medical Training Survey figures re-cited to the 2024 national report; expedited-pathway figures split by period; CDC sentence updated to its January 2026 start; Torres Strait, Icon and cosmetic tourism sentences reworded to match their sources.",
   "World Bank hospital bed series still ends in 2016 and is labeled so; no readable newer series.",
-  "Tracker: ARSADA/Monash Health removed (LinkedIn-only source, association not a hospital); RSPON/Monash University Indonesia removed (offshore campus in Indonesia, not an Australian institution); added Cleveland Clinic/Epworth (Active), SickKids and Great Ormond Street via IPCHiP with MCRI/RCH (Active), Mayo Clinic Laboratories/SydPath (Unclear); dead URLs replaced; Dana-Farber and Princess Margaret kept Unclear (newer evidence only in unreadable search summaries)."
+  "Tracker: ARSADA/Monash Health removed (LinkedIn-only source, association not a hospital); RSPON/Monash University Indonesia removed (offshore campus in Indonesia, not an Australian institution); added Cleveland Clinic/Epworth (Active), SickKids and Great Ormond Street via IPCHiP with MCRI/RCH (Active), Mayo Clinic Laboratories/SydPath (Unclear); dead URLs replaced; Dana-Farber and Princess Margaret kept Unclear (newer evidence only in unreadable search summaries).",
+  "Commonwealth Fund 2020 profile replaced by the May 2026 edition in every section; the 'no cap on physicians' clause and the 2016-17 private hospital count were removed as stale.",
+  "Final audit (third verifier, strongest model, on the resolved files): no high-severity flags; applied wording fixes on spending growth (real terms), Medicare coverage, the expedited pathway order, Healthscope ownership, the 2014 medical tourism source and tracker evidence dates. Medical Training Survey kept at its labeled 2024 figures."
  ],
  "csi_manual": {
   "patient_volume_and_revenue": "",

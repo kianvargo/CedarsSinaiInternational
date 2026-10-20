@@ -53,21 +53,21 @@
       "status": "Active",
       "start": "",
       "end": "",
-      "last_evidence": "2026-02",
+      "last_evidence": "2025-11",
       "evidence": "Epworth SmartRecruiters postings (undated) for a fellowship commencing February 2025 and a second for February 2026, both naming the Cleveland Clinic second year. Epworth's affiliations page (403, via search summary) lists Cleveland Clinic. No press release found. Start of the affiliation is unknown.",
       "sources": [
         {
           "author": "Epworth HealthCare",
           "title": "2026 Epworth Richmond & Cleveland Clinic USA Colorectal Fellowship",
           "publisher": "Epworth HealthCare (SmartRecruiters)",
-          "date": "undated; fellowship commences February 2026",
+          "date": "2025-11-05",
           "url": "https://jobs.smartrecruiters.com/Epworth/744000091926518-2026-epworth-richmond-cleveland-clinic-usa-colorectal-fellowship"
         },
         {
           "author": "Epworth HealthCare",
           "title": "2025 Epworth/Cleveland Colorectal Fellowship",
           "publisher": "Epworth HealthCare (SmartRecruiters)",
-          "date": "undated; fellowship commences February 2025",
+          "date": "2024-07-24",
           "url": "https://jobs.smartrecruiters.com/Epworth/744000002458805-2025-epworth-cleveland-colorectal-fellowship"
         }
       ],
@@ -341,7 +341,7 @@
       "indian_partner": "University of Melbourne (Faculty of Medicine, Dentistry and Health Sciences)",
       "partner_city": "Melbourne",
       "type": "Training and education",
-      "description": "A faculty level memorandum of understanding signed in September 2023 on academic exchange sits under a wider university partnership, with a student placement agreement and a joint community placement in Hokkaido in July 2025.",
+      "description": "A faculty level memorandum of understanding signed in September 2023 on academic exchange sits under a wider university partnership, with a student placement agreement and a joint community placement in Hokkaido in July 2025. Borderline: a university partnership with no hospital party.",
       "status": "Active",
       "start": "2023-09",
       "end": "",
@@ -381,7 +381,7 @@
       "indian_partner": "University of Sydney",
       "partner_city": "Sydney",
       "type": "Research collaboration",
-      "description": "A new memorandum of understanding signed on 2 September 2026 renews a longstanding partnership, with five priority areas including flagship research, joint doctoral education and staff and student mobility, with medicine named as a focus.",
+      "description": "A new memorandum of understanding signed in Mumbai on 2 September 2026 renews a longstanding university partnership across five priority areas, including flagship research, joint doctoral education and staff and student mobility; MAHE cites its teaching hospitals and clinical networks as part of the collaboration. Borderline: a university-to-university agreement.",
       "status": "Active",
       "start": "",
       "end": "",
@@ -452,7 +452,7 @@
       "start": "2025-04",
       "end": "",
       "last_evidence": "2025-04",
-      "evidence": "St Vincent's Hospital Melbourne newsroom reports the signing during a visit by Sichuan delegates (page undated in fetch); BioMelbourne Network dated the report 10 April 2025.",
+      "evidence": "St Vincent's Hospital Melbourne newsroom reports the signing during a visit by Sichuan delegates (page undated in fetch); Hospital Management reported the signing on 7 April 2025.",
       "sources": [
         {
           "author": "St Vincent's Hospital Melbourne",
@@ -462,10 +462,10 @@
           "url": "https://www.svhm.org.au/newsroom/news/new-mou-strengthens-research-collaboration-with-china"
         },
         {
-          "author": "BioMelbourne Network",
-          "title": "MoU signed between St Vincent's Hospital Melbourne and Sichuan Provincial People's Hospital enhances research collaboration with China",
+          "author": "Hospital Management",
+          "title": "St Vincent's Melbourne and Sichuan Provincial People's Hospital sign MoU",
           "publisher": "Hospital Management",
-          "date": "7 April 2025",
+          "date": "2025-04-07",
           "url": "https://www.hospitalmanagement.net/news/st-vincents-melbourne-sichuan-hospital-mou/"
         }
       ],
@@ -558,7 +558,7 @@
       "start": "2021-02",
       "end": "",
       "last_evidence": "2025-02",
-      "evidence": "SickKids announced IPCHiP on 25 February 2021 naming 'the Murdoch Children's Research Institute with The Royal Children's Hospital (Melbourne)' as a member (read). The University of Toronto McLaughlin Centre release of 27 February 2025 (read) reports the partnership's progress. Already used as evidence for the Boston Children's record; SickKids is a co-equal foreign member and was left out.",
+      "evidence": "SickKids announced IPCHiP on 25 February 2021, naming the Murdoch Children's Research Institute with The Royal Children's Hospital as a founding member. A University of Toronto McLaughlin Centre release of 27 February 2025 reports the partnership's progress in npj Genomic Medicine.",
       "sources": [
         {
           "author": "SickKids",
@@ -586,7 +586,7 @@
       "indian_partner": "University of Western Australia (Perth Biodesign)",
       "partner_city": "Perth",
       "type": "Research collaboration",
-      "description": "A July 2026 memorandum of understanding sets a framework for research, education and innovation between the two health innovation programmes, building on the Biodesign link.",
+      "description": "A July 2026 memorandum of understanding sets a framework for research, education and innovation between the two health innovation programmes, building on the Biodesign link. Borderline: a university partnership with no hospital party.",
       "status": "Active",
       "start": "2026-07",
       "end": "",
@@ -617,13 +617,13 @@
       "start": "2025-04",
       "end": "",
       "last_evidence": "2025-04",
-      "evidence": "West China Hospital news post (fetched) reports the signing on 9 April during a visit by UQ's Deputy Vice-Chancellor. The post carries no year; it cites UQ's 2025 QS, ARWU and THE rankings, which places it in April 2025 (the 2025 THE ranking was published October 2024), so the year is inferred.",
+      "evidence": "West China Hospital news post published 18 April 2025 reports the signing on 9 April 2025 and the unveiling of a sister laboratory with UQ's Institute for Molecular Bioscience.",
       "sources": [
         {
           "author": "West China Hospital, Sichuan University",
           "title": "WCH signs MOU with University of Queensland, establishes sister lab partnership",
           "publisher": "West China Hospital",
-          "date": "2025-04",
+          "date": "2025-04-18",
           "url": "https://www.wchscu.cn/details/85743.html"
         }
       ],
@@ -683,7 +683,7 @@
       "start": "2023-12",
       "end": "",
       "last_evidence": "2023-12",
-      "evidence": "St Vincent's Hospital Sydney newsroom item dated 13 December 2023 (read) announces the selection. No Mayo-side release, terms or later dated activity was found. Borderline because it is a reference-laboratory service arrangement, but it is a named institutional arrangement announced by the Australian hospital; the draft excluded it as a commercial lab contract.",
+      "evidence": "St Vincent's Hospital Sydney newsroom item dated 13 December 2023 announces that SydPath selected Mayo Clinic Laboratories as its reference laboratory. No Mayo-side release, terms or later dated activity was found.",
       "sources": [
         {
           "author": "St Vincent's Hospital Sydney",
@@ -767,8 +767,8 @@
       "status": "Unclear",
       "start": "2023-03",
       "end": "",
-      "last_evidence": "2023-07",
-      "evidence": "Monash and Victorian Government releases of March 2023 report the signing, with $200,000 from Victoria for cardiovascular work. Monash Health newsroom item of 5 July 2023 reports the ARC Innovation Centre partnership. No dated activity found after July 2023.",
+      "last_evidence": "2023-06",
+      "evidence": "Monash and Victorian Government releases of March 2023 report the signing, with $200,000 from Victoria for cardiovascular work. Peter Mac reported the partnership's ARC innovation program in June 2023; no dated activity was found after that.",
       "sources": [
         {
           "author": "Monash University",
@@ -783,6 +783,13 @@
           "publisher": "Victorian Government",
           "date": "2023-03",
           "url": "https://www.premier.vic.gov.au/partnership-boost-medtech-innovation-and-healthcare"
+        },
+        {
+          "author": "Peter MacCallum Cancer Centre",
+          "title": "Partnership to put innovation on an upward ARC",
+          "publisher": "Peter MacCallum Cancer Centre",
+          "date": "June 2023",
+          "url": "https://petermac.org/about-us/news-and-events/news/details/partnership-to-put-innovation-on-an-upward-arc"
         }
       ],
       "country": "Australia",
