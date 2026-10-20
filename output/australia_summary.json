@@ -1,0 +1,81 @@
+{
+ "country": "Australia",
+ "at_a_glance": [
+  {
+   "value": "27.9 m",
+   "label": "Population, 31 March 2026",
+   "cite": "{{country_overview.demographics:1}}"
+  },
+  {
+   "value": "71,930",
+   "label": "GDP per capita, PPP (international dollars), about, 2025",
+   "cite": "{{country_overview.demographics:9}}"
+  },
+  {
+   "value": "10.40%",
+   "label": "Current health expenditure, share of GDP, 2023",
+   "cite": "{{health_system.financing:2}}"
+  },
+  {
+   "value": "15.8%",
+   "label": "Out-of-pocket share of current health expenditure, 2023",
+   "cite": "{{health_system.financing:4}}"
+  },
+  {
+   "value": "4.09",
+   "label": "Physicians per 1,000 people, 2022",
+   "cite": "{{health_system.workforce:1}}"
+  },
+  {
+   "value": "2.5",
+   "label": "Public hospital beds per 1,000 people, 2023-24",
+   "cite": "{{health_system.workforce:4}}"
+  },
+  {
+   "value": "9.4%",
+   "label": "Deaths from dementia, the leading cause, 2024",
+   "cite": "{{country_overview.disease_prevalence:1}}"
+  },
+  {
+   "value": "45.8%",
+   "label": "Private hospital cover, share of population, 30 June 2026",
+   "cite": "{{health_system.private_system:1}}"
+  }
+ ],
+ "key_takeaways": [
+  "Medicare covers the full cost of public hospital services for citizens and permanent residents.{{health_system.public_system:1}}",
+  "Health spending was 10.40 percent of GDP in 2023, below Canada, the United Kingdom and the United States.{{health_system.financing:2}}{{health_system.financing:5}}",
+  "Dementia became the leading cause of death in 2024, at 9.4 percent of deaths, overtaking ischemic heart diseases.{{country_overview.disease_prevalence:1}}",
+  "Governments funded 70 percent of the A$290.7 billion in total health spending in 2024-25.{{health_system.financing:7}}"
+ ],
+ "health_system": [
+  "The 2026-27 Budget provides A$220.3 billion over five years for state public hospital services.{{health_system.public_system:4}}",
+  "Bulk billing incentives reached all Australians on 1 November 2025, with 9 in 10 GP visits projected by 2030.{{health_system.public_system:5}}{{health_system.public_system:6}}",
+  "Public hospitals had 67,280 beds in 2023-24, and governments funded 94 percent of their A$103.1 billion recurrent spending.{{health_system.public_system:2}}"
+ ],
+ "market": [
+  "Ramsay Health Care, listed on the Australian Securities Exchange since 1997, runs hospitals in Australia, Europe and the United Kingdom.{{health_system.private_system:4}}",
+  "Healthscope, the second-largest operator, entered receivership in May 2025 after Brookfield withdrew support.{{health_system.private_system:3}}",
+  "Peter MacCallum Cancer Centre signed with Dana-Farber in 2022 and The Christie in 2024.{{health_system.competitive_landscape:1}}{{health_system.competitive_landscape:2}} The tracker lists 18 active foreign ties."
+ ],
+ "risks": [
+  "The Budget forecasts growth slowing to 1.75 percent in 2026-27 because the Middle East conflict raised global oil prices.{{country_overview.economy:4}}",
+  "Four in five specialists registered in the pathway's first six months work in major cities, Medical Republic reported.{{health_system.workforce:6}}",
+  "Dementia deaths rose 39 percent over a decade, and 49.9 percent of people had a chronic condition in 2022.{{country_overview.disease_prevalence:1}}{{country_overview.disease_prevalence:3}}"
+ ],
+ "recent": [
+  {
+   "date": "2026-01-30",
+   "text": "National Cabinet agreed a new public hospital funding deal with A$25 billion in additional Commonwealth public hospital funding.{{recent_developments.2:1}}"
+  },
+  {
+   "date": "2026-05-12",
+   "text": "The Budget removes the age-based uplift of the private health insurance rebate from 1 April 2027.{{recent_developments.1:1}}"
+  },
+  {
+   "date": "2026-09-14",
+   "text": "Healthscope's 25 hospitals will be divided among four operators, with Calvary Health Care taking 14.{{recent_developments.0:1}}"
+  }
+ ],
+ "country_background": "Australia, with about 27.9 million people at 31 March 2026, is a constitutional monarchy whose capital is Canberra.{{country_overview.demographics:1}}{{country_overview.demographics:10}} Anthony Albanese continues as Prime Minister after Labor won 94 House seats in 2025, and Mark Butler is Minister for Health and Ageing.{{country_overview.government:3}}{{country_overview.government:4}}{{country_overview.government:5}} The Commonwealth funds Medicare while the states run public hospitals.{{country_overview.government:7}} Life expectancy at birth was 83.1 years in 2024, 87.7 percent of people lived in urban areas in 2025, and people aged 65 and over made up 18.1 percent.{{country_overview.demographics:6}}{{country_overview.demographics:3}}{{country_overview.demographics:4}} Dementia became the leading cause of death in 2024.{{country_overview.disease_prevalence:1}} The key risk is cost: health takes 16.4 percent of Commonwealth expenses in 2026-27, and the Budget forecasts slower growth.{{country_overview.economy:4}}"
+}
