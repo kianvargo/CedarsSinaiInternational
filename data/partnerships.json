@@ -3,6 +3,892 @@
   "scope": "Active, or ended or last active within the past five years",
   "relationships": [
     {
+      "foreign_institution": "Boston Children's Hospital",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Murdoch Children's Research Institute and The Royal Children's Hospital",
+      "partner_city": "Melbourne",
+      "type": "Research collaboration",
+      "description": "Boston Children's Hospital and The Royal Children's Hospital signed a partnership in 2016 for clinical exchange, fellowships and joint research. Since 2021 Boston Children's and Murdoch Children's Research Institute with the Royal Children's Hospital have worked together in the International Precision Child Health Partnership on genomics of rare pediatric disease.",
+      "status": "Active",
+      "start": "2016-06",
+      "end": "",
+      "last_evidence": "2025-02",
+      "evidence": "The Victorian Premier announced the hospital partnership on 2 June 2016. SickKids announced the International Precision Child Health Partnership on 25 February 2021. A University of Toronto McLaughlin Centre release of 27 February 2025 reports the partnership's progress in npj Genomic Medicine with Boston Children's and MCRI as members.",
+      "sources": [
+        {
+          "author": "Premier of Victoria",
+          "title": "Melbourne And Boston Strike New Health Agreements",
+          "publisher": "Victorian Government",
+          "date": "2016-06-02",
+          "url": "https://www.premier.vic.gov.au/melbourne-and-boston-strike-new-health-agreements"
+        },
+        {
+          "author": "The Hospital for Sick Children",
+          "title": "Four leading children's hospitals announce IPCHiP, a collaborative to develop new treatments for paediatric diseases",
+          "publisher": "SickKids",
+          "date": "2021-02-25",
+          "url": "https://wprod.sickkids.ca/en/news/archive/2021/four-leading-childrens-hospitals-announce-ipchip-a-collaborative-to-develop-new-treatments-for-paediatric-diseases"
+        },
+        {
+          "author": "University of Toronto McLaughlin Centre",
+          "title": "International collaboration drives progress for Precision Child Health",
+          "publisher": "University of Toronto McLaughlin Centre",
+          "date": "2025-02-27",
+          "url": "https://mclaughlin.utoronto.ca/news/international-collaboration-drives-progress-precision-child-health"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--boston-children-s-hospital--murdoch-children-s-research-institute-and-the-royal-children-s-hospital"
+    },
+    {
+      "foreign_institution": "Cleveland Clinic",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Epworth HealthCare (Epworth Richmond)",
+      "partner_city": "Melbourne",
+      "type": "Training and education",
+      "description": "Epworth and Cleveland Clinic run a two-year post-fellowship colorectal surgery program for Australian general surgeons, with the first year at Epworth Richmond and the second in the Department of Colon and Rectal Surgery at Cleveland Clinic in Ohio. Epworth describes it as running through its formal affiliation with Cleveland Clinic.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-02",
+      "evidence": "Epworth SmartRecruiters postings (undated) for a fellowship commencing February 2025 and a second for February 2026, both naming the Cleveland Clinic second year. Epworth's affiliations page (403, via search summary) lists Cleveland Clinic. No press release found. Start of the affiliation is unknown.",
+      "sources": [
+        {
+          "author": "Epworth HealthCare",
+          "title": "2026 Epworth Richmond & Cleveland Clinic USA Colorectal Fellowship",
+          "publisher": "Epworth HealthCare (SmartRecruiters)",
+          "date": "undated; fellowship commences February 2026",
+          "url": "https://jobs.smartrecruiters.com/Epworth/744000091926518-2026-epworth-richmond-cleveland-clinic-usa-colorectal-fellowship"
+        },
+        {
+          "author": "Epworth HealthCare",
+          "title": "2025 Epworth/Cleveland Colorectal Fellowship",
+          "publisher": "Epworth HealthCare (SmartRecruiters)",
+          "date": "undated; fellowship commences February 2025",
+          "url": "https://jobs.smartrecruiters.com/Epworth/744000002458805-2025-epworth-cleveland-colorectal-fellowship"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--cleveland-clinic--epworth-healthcare-epworth-richmond"
+    },
+    {
+      "foreign_institution": "Emory University",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "The University of Queensland (Queensland Emory Vaccine Centre)",
+      "partner_city": "Brisbane",
+      "type": "Research collaboration",
+      "description": "Emory University and the University of Queensland jointly established the Queensland Emory Vaccine Centre at UQ's St Lucia campus through a A$32 million partnership. It builds on a drug discovery collaboration begun in 2012 and a continuing Emory-UQ research grant scheme.",
+      "status": "Active",
+      "start": "2012",
+      "end": "",
+      "last_evidence": "2025-01",
+      "evidence": "Emory News, 7 June 2024, and UQ News, 31 May 2024, announced the centre. UQ News of 27 January 2025 describes it as a A$32 million partnership with Emory, and UQ's US partnerships page lists the 2024 Emory-UQ Collaborative Partnership Research Grant.",
+      "sources": [
+        {
+          "author": "Emory University",
+          "title": "Emory partners with University of Queensland to establish a cutting-edge vaccine center",
+          "publisher": "Emory News",
+          "date": "2024-06-07",
+          "url": "https://news.emory.edu/stories/2024/06/hs_queensland_announcement_07-06-24/story.html"
+        },
+        {
+          "author": "The University of Queensland",
+          "title": "UQ secures global partnership to create homegrown lifesaving vaccines",
+          "publisher": "UQ News",
+          "date": "2024-05-31",
+          "url": "https://news.uq.edu.au/2024-05-31-uq-secures-global-partnership-create-homegrown-lifesaving-vaccines"
+        },
+        {
+          "author": "The University of Queensland",
+          "title": "Vaccine centre aimed at accelerating global research efforts",
+          "publisher": "UQ News",
+          "date": "2025-01-27",
+          "url": "https://news.uq.edu.au/2025-01-27-vaccine-centre-aimed-accelerating-global-research-efforts"
+        },
+        {
+          "author": "The University of Queensland",
+          "title": "Collaborating to change the world (UQ and the United States)",
+          "publisher": "UQ Global Partnerships",
+          "date": "2025",
+          "url": "https://global-partnerships.uq.edu.au/north-america/usa"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--emory-university--the-university-of-queensland-queensland-emory-vaccine-centre"
+    },
+    {
+      "foreign_institution": "Memorial Sloan Kettering Cancer Center",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Northern Sydney Local Health District (Royal North Shore Hospital and North Shore Private Hospital)",
+      "partner_city": "Sydney",
+      "type": "Research collaboration",
+      "description": "Memorial Sloan Kettering and Northern Sydney Local Health District partner on international cancer clinical trials through the NORTH S.T.A.R VNP trials centre at Royal North Shore Hospital, funded by a A$20 million gift. MSK is also a member of the US-Australia Cancer Consortium.",
+      "status": "Active",
+      "start": "2024-08",
+      "end": "",
+      "last_evidence": "2026-07",
+      "evidence": "NSW Health announced the partnership on 17 August 2024. On 3 July 2026 NSW Health reported the early phase trials unit opened at Royal North Shore Hospital, with investigators from the hospital and MSK partnering on international trials.",
+      "sources": [
+        {
+          "author": "NSW Health",
+          "title": "$20 million to establish world-leading clinical trial centre for all NSW residents",
+          "publisher": "NSW Health",
+          "date": "2024-08-17",
+          "url": "https://www.health.nsw.gov.au/news/Pages/20240817_00.aspx"
+        },
+        {
+          "author": "NSW Health",
+          "title": "Innovative cancer clinical trials facility opens at Royal North Shore Hospital",
+          "publisher": "NSW Health",
+          "date": "2026-07-03",
+          "url": "https://www.health.nsw.gov.au/news/Pages/20260703_01.aspx"
+        },
+        {
+          "author": "Memorial Sloan Kettering Cancer Center",
+          "title": "An Extraordinary Gift Forges an International Partnership",
+          "publisher": "Memorial Sloan Kettering Cancer Center",
+          "date": "2024",
+          "url": "https://www.giving.mskcc.org/node/617"
+        },
+        {
+          "author": "Memorial Sloan Kettering Cancer Center",
+          "title": "MSK, a Member of U.S.-Australia Alliance in Cancer Research and Treatment",
+          "publisher": "Memorial Sloan Kettering Cancer Center",
+          "date": "2024",
+          "url": "https://www.mskcc.org/experience/become-patient/international-patients/international-collaborations/msk-member-of-usa-australia-cancer-consortium"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--memorial-sloan-kettering-cancer-center--northern-sydney-local-health-district-royal-north-shore-hospital-and-north-shore-private-hospital"
+    },
+    {
+      "foreign_institution": "Ochsner Health",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "The University of Queensland (UQ Medical School)",
+      "partner_city": "Brisbane",
+      "type": "Training and education",
+      "description": "Ochsner Health and the University of Queensland run a joint Doctor of Medicine program. Students spend two years in Brisbane and two years of clinical training at the UQ-Ochsner Clinical School at Ochsner Medical Center in New Orleans.",
+      "status": "Active",
+      "start": "2009",
+      "end": "",
+      "last_evidence": "2025-12",
+      "evidence": "UQ announced on 15 September 2023 that the partnership was extended until at least 2030 after a contract signing in New Orleans. Ochsner's release of 2 December 2025 reports the Class of 2025 culmination ceremony held on 22 November 2025, with 87 graduates and more than 1,100 alumni.",
+      "sources": [
+        {
+          "author": "The University of Queensland",
+          "title": "UQ extends partnership with Ochsner Health for joint Doctor of Medicine (MD) Program",
+          "publisher": "The University of Queensland",
+          "date": "2023-09-15",
+          "url": "https://global-partnerships.uq.edu.au/node/7432"
+        },
+        {
+          "author": "Ochsner Health",
+          "title": "UQ-Ochsner MD Program Celebrates 2025 Culmination",
+          "publisher": "Ochsner Health via Newswise",
+          "date": "2025-12-02",
+          "url": "https://www.newswise.com/articles/uq-ochsner-md-program-celebrates-2025-culmination"
+        },
+        {
+          "author": "Site Staff",
+          "title": "Ochsner Health and University of Queensland Program Honors Graduates",
+          "publisher": "Biz New Orleans",
+          "date": "2023-12-07",
+          "url": "https://bizneworleans.com/ochsner-health-and-university-of-queensland-program-honors-graduates/"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--ochsner-health--the-university-of-queensland-uq-medical-school"
+    },
+    {
+      "foreign_institution": "Weill Cornell Medicine",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Monash University",
+      "partner_city": "Melbourne",
+      "type": "Research collaboration",
+      "description": "Monash University and Weill Cornell Medicine announced a research collaboration on mental health, health economics, and trauma and burns care. It forms part of Monash's expansion of its research presence in the United States.",
+      "status": "Active",
+      "start": "2026-09",
+      "end": "",
+      "last_evidence": "2026-09",
+      "evidence": "Monash's announcement and BioSpectrum Asia coverage dated 18 September 2026 report the collaboration, following a meeting of Monash's Vice-Chancellor and Deputy Vice-Chancellor (Research and Enterprise) with Weill Cornell leaders in New York. Agreement terms were not published.",
+      "sources": [
+        {
+          "author": "Monash University",
+          "title": "Monash and Weill Cornell Medicine join forces to drive global health research innovation",
+          "publisher": "Monash University",
+          "date": "2026-09",
+          "url": "https://www.monash.edu/news/articles/monash-and-weill-cornell-medicine-join-forces-to-drive-global-health-research-innovation2"
+        },
+        {
+          "author": "BioSpectrum Asia",
+          "title": "Australia-US partnership to drive global health research innovation",
+          "publisher": "BioSpectrum Asia",
+          "date": "2026-09-18",
+          "url": "https://biospectrumasia.com/news/47/28393/australia-us-partnership-to-drive-global-health-research-innovation.html"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--weill-cornell-medicine--monash-university"
+    },
+    {
+      "foreign_institution": "Apollo Hospitals",
+      "foreign_country": "India",
+      "group": "Other foreign health systems",
+      "indian_partner": "Monash University (Faculty of Information Technology)",
+      "partner_city": "Melbourne",
+      "type": "Research collaboration",
+      "description": "A memorandum of understanding signed in 2024 covers sharing of data and technology for digital health and clinical AI research, education sessions for Apollo clinicians and student projects in Apollo hospitals.",
+      "status": "Active",
+      "start": "2024",
+      "end": "",
+      "last_evidence": "2024-11",
+      "evidence": "BioSpectrum Asia of 6 November 2024 and Monash Faculty of IT release (November 2024) report the memorandum, signed earlier in 2024 in India. This is the latest dated evidence; no activity after November 2024 found. The Monash release page could not be fetched.",
+      "sources": [
+        {
+          "author": "BioSpectrum Asia",
+          "title": "Monash and Apollo Hospitals join hands to progress digital health research",
+          "publisher": "BioSpectrum Asia",
+          "date": "2024-11-06",
+          "url": "https://www.biospectrumasia.com/news/46/25162/monash-and-apollo-hospitals-join-hands-to-progress-digital-health-research.html"
+        },
+        {
+          "author": "Monash University Faculty of IT",
+          "title": "Monash and Apollo Hospitals join hands to progress digital health research",
+          "publisher": "Monash University",
+          "date": "2024-11",
+          "url": "https://www.monash.edu/it/news/2024/monash-and-apollo-hospitals-join-hands-to-progress-digital-health-research"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--apollo-hospitals--monash-university-faculty-of-information-technology"
+    },
+    {
+      "foreign_institution": "Great Ormond Street Hospital and UCL Great Ormond Street Institute of Child Health",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "Murdoch Children's Research Institute and The Royal Children's Hospital",
+      "partner_city": "Melbourne",
+      "type": "Research collaboration",
+      "description": "Great Ormond Street Hospital and UCL GOS Institute of Child Health work with MCRI and The Royal Children's Hospital, SickKids and Boston Children's in the International Precision Child Health Partnership on genomics of paediatric disease.",
+      "status": "Active",
+      "start": "2021-02",
+      "end": "",
+      "last_evidence": "2025-02",
+      "evidence": "Same sources as the SickKids record: SickKids release of 25 February 2021 and University of Toronto McLaughlin Centre release of 27 February 2025 both list UCL GOS ICH and Great Ormond Street Hospital as IPCHiP members alongside MCRI.",
+      "sources": [
+        {
+          "author": "SickKids",
+          "title": "Four leading children's hospitals announce IPCHiP, a collaborative to develop new treatments for paediatric diseases",
+          "publisher": "SickKids",
+          "date": "2021-02-25",
+          "url": "https://wprod.sickkids.ca/en/news/archive/2021/four-leading-childrens-hospitals-announce-ipchip-a-collaborative-to-develop-new-treatments-for-paediatric-diseases"
+        },
+        {
+          "author": "University of Toronto McLaughlin Centre",
+          "title": "International collaboration drives progress for Precision Child Health",
+          "publisher": "University of Toronto McLaughlin Centre",
+          "date": "2025-02-27",
+          "url": "https://mclaughlin.utoronto.ca/news/international-collaboration-drives-progress-precision-child-health"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--great-ormond-street-hospital-and-ucl-great-ormond-street-institute-of-child-health--murdoch-children-s-research-institute-and-the-royal-children-s-hospital"
+    },
+    {
+      "foreign_institution": "Ho Chi Minh City Eye Hospital",
+      "foreign_country": "Vietnam",
+      "group": "Other foreign health systems",
+      "indian_partner": "University of Western Australia (Doctor of Optometry)",
+      "partner_city": "Perth",
+      "type": "Training and education",
+      "description": "An April 2026 memorandum of understanding expands clinical training placements for UWA optometry students, joint teaching, research and academic exchange.",
+      "status": "Active",
+      "start": "2026-04",
+      "end": "",
+      "last_evidence": "2026-04",
+      "evidence": "UWA news item of 29 April 2026 (fetched) reports the signing; more than 60 UWA students have done placements in Vietnam in three years and 20 more were due in 2026.",
+      "sources": [
+        {
+          "author": "University of Western Australia",
+          "title": "UWA deepens eye health partnership in Vietnam",
+          "publisher": "University of Western Australia",
+          "date": "2026-04-29",
+          "url": "https://www.uwa.edu.au/news/article/2026/april/uwa-deepens-eye-health-partnership-in-vietnam"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--ho-chi-minh-city-eye-hospital--university-of-western-australia-doctor-of-optometry"
+    },
+    {
+      "foreign_institution": "Hokkaido University (Faculty of Health Sciences)",
+      "foreign_country": "Japan",
+      "group": "Other foreign health systems",
+      "indian_partner": "University of Melbourne (Faculty of Medicine, Dentistry and Health Sciences)",
+      "partner_city": "Melbourne",
+      "type": "Training and education",
+      "description": "A faculty level memorandum of understanding signed in September 2023 on academic exchange sits under a wider university partnership, with a student placement agreement and a joint community placement in Hokkaido in July 2025.",
+      "status": "Active",
+      "start": "2023-09",
+      "end": "",
+      "last_evidence": "2025-07",
+      "evidence": "Hokkaido University news of 10 October 2023 (fetched) reports the MoU signed in Melbourne on 4 to 7 September 2023. Hokkaido University news of 19 August 2025 (fetched) reports the 14 to 18 July 2025 placement for twelve Melbourne and eight Hokkaido graduate students under the student placement agreement. Faculty level rather than whole of university, so borderline.",
+      "sources": [
+        {
+          "author": "Hokkaido University",
+          "title": "Delegates of Health Sciences Visited Melbourne to Promote Inter-Faculty Collaborations",
+          "publisher": "Hokkaido University",
+          "date": "2023-10-10",
+          "url": "https://www.global.hokudai.ac.jp/news/9105/"
+        },
+        {
+          "author": "Hokkaido University",
+          "title": "HU-UoM Health Sci Students Collaborated with Shiraoi Town, Hokkaido",
+          "publisher": "Hokkaido University",
+          "date": "2025-08-19",
+          "url": "https://www.global.hokudai.ac.jp/news/23250"
+        },
+        {
+          "author": "Hokkaido University Faculty of Health Sciences",
+          "title": "HU-UoM Health Sci Students Collaborated with Shiraoi Town, Hokkaido",
+          "publisher": "Hokkaido University",
+          "date": "2025-08-20",
+          "url": "https://www.hs.hokudai.ac.jp/e/archives/36536"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--hokkaido-university-faculty-of-health-sciences--university-of-melbourne-faculty-of-medicine-dentistry-and-health-sciences"
+    },
+    {
+      "foreign_institution": "Manipal Academy of Higher Education (MAHE)",
+      "foreign_country": "India",
+      "group": "Other foreign health systems",
+      "indian_partner": "University of Sydney",
+      "partner_city": "Sydney",
+      "type": "Research collaboration",
+      "description": "A new memorandum of understanding signed on 2 September 2026 renews a longstanding partnership, with five priority areas including flagship research, joint doctoral education and staff and student mobility, with medicine named as a focus.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-09",
+      "evidence": "University of Sydney news item of 10 September 2026 (fetched) and Careers360 of 11 September 2026 report the signing in Mumbai during the NSW Premier's India mission. Start of the original partnership not dated in sources. MAHE is a health sciences focused university.",
+      "sources": [
+        {
+          "author": "University of Sydney",
+          "title": "University of Sydney and Manipal Academy of Higher Education sign strategic MoU",
+          "publisher": "University of Sydney",
+          "date": "2026-09-10",
+          "url": "https://www.sydney.edu.au/news-opinion/news/2026/09/10/university-of-sydney-mahe-sign-mou.html"
+        },
+        {
+          "author": "Careers360",
+          "title": "MAHE, University of Sydney sign pact to strengthen research, education collaboration",
+          "publisher": "Careers360",
+          "date": "2026-09-11",
+          "url": "https://news.careers360.com/mahe-university-of-sydney-sign-pact-strengthen-research-education-collaboration-nsw-india-mission-2026-india-australia"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--manipal-academy-of-higher-education-mahe--university-of-sydney"
+    },
+    {
+      "foreign_institution": "Max Healthcare",
+      "foreign_country": "India",
+      "group": "Other foreign health systems",
+      "indian_partner": "Monash University (Biomedicine Discovery Institute)",
+      "partner_city": "Melbourne",
+      "type": "Research collaboration",
+      "description": "A December 2025 memorandum of understanding sets up joint research, staff and student exchange and training, starting with a project on triple negative breast cancer.",
+      "status": "Active",
+      "start": "2025-12",
+      "end": "",
+      "last_evidence": "2025-12",
+      "evidence": "BioSpectrum Asia of 2 December 2025 and Digital Health News (both fetched) report the signing with Max's group medical director and Monash's Professor Roger Daly.",
+      "sources": [
+        {
+          "author": "BioSpectrum Asia",
+          "title": "Max Healthcare and Monash University announce research and academic collaboration",
+          "publisher": "BioSpectrum Asia",
+          "date": "2025-12-02",
+          "url": "https://www.biospectrumasia.com/news/49/26954/max-healthcare-and-monash-university-announce-research-and-academic-collaboration.html"
+        },
+        {
+          "author": "Digital Health News",
+          "title": "Max Healthcare, Monash University Sign MoU to Launch Joint Medical Research, TNBC Program",
+          "publisher": "Digital Health News",
+          "date": "2025-12",
+          "url": "https://www.digitalhealthnews.com/max-healthcare-monash-university-sign-mou-to-launch-joint-medical-research-tnbc-program"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--max-healthcare--monash-university-biomedicine-discovery-institute"
+    },
+    {
+      "foreign_institution": "Sichuan Provincial People's Hospital",
+      "foreign_country": "China",
+      "group": "Other foreign health systems",
+      "indian_partner": "St Vincent's Hospital Melbourne (St Vincent's Health Australia)",
+      "partner_city": "Melbourne",
+      "type": "Research collaboration",
+      "description": "A memorandum of understanding signed in April 2025 sets up a strategic alliance in clinical research, including an exchange programme to train research nurses and clinical trial principal investigators.",
+      "status": "Active",
+      "start": "2025-04",
+      "end": "",
+      "last_evidence": "2025-04",
+      "evidence": "St Vincent's Hospital Melbourne newsroom reports the signing during a visit by Sichuan delegates (page undated in fetch); BioMelbourne Network dated the report 10 April 2025.",
+      "sources": [
+        {
+          "author": "St Vincent's Hospital Melbourne",
+          "title": "New MoU strengthens research collaboration with China",
+          "publisher": "St Vincent's Hospital Melbourne",
+          "date": "2025-04",
+          "url": "https://www.svhm.org.au/newsroom/news/new-mou-strengthens-research-collaboration-with-china"
+        },
+        {
+          "author": "BioMelbourne Network",
+          "title": "MoU signed between St Vincent's Hospital Melbourne and Sichuan Provincial People's Hospital enhances research collaboration with China",
+          "publisher": "Hospital Management",
+          "date": "7 April 2025",
+          "url": "https://www.hospitalmanagement.net/news/st-vincents-melbourne-sichuan-hospital-mou/"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--sichuan-provincial-people-s-hospital--st-vincent-s-hospital-melbourne-st-vincent-s-health-australia"
+    },
+    {
+      "foreign_institution": "The Chinese Medicine Hospital of Hong Kong",
+      "foreign_country": "China (Hong Kong)",
+      "group": "Other foreign health systems",
+      "indian_partner": "Western Sydney University (NICM Health Research Institute)",
+      "partner_city": "Sydney",
+      "type": "Research collaboration",
+      "description": "A June 2025 strategic memorandum of understanding covers clinical research, clinical guidelines, herb and drug interaction research and training in Chinese medicine.",
+      "status": "Active",
+      "start": "2025-06",
+      "end": "",
+      "last_evidence": "2025-06",
+      "evidence": "Hospital press release (2025) and Western Sydney University NICM news page report the signing on 10 June 2025 at the university. The hospital page was fetched but did not return matching text; the date comes from the search summary of those pages.",
+      "sources": [
+        {
+          "author": "Chinese Medicine Hospital of Hong Kong",
+          "title": "The Chinese Medicine Hospital of Hong Kong partners with Western Sydney University to strengthen international collaboration in Chinese medicine",
+          "publisher": "Chinese Medicine Hospital of Hong Kong",
+          "date": "2025-06",
+          "url": "https://cmh.hkbu.edu.hk/press-releases/2025/the-chinese-medicine-hospital-of-hong-kong-partners-with-western-sydney-university-to-strengthen-international-collaboration-in-chinese-medicine.html"
+        },
+        {
+          "author": "Western Sydney University NICM",
+          "title": "NICM partners with Hong Kong's first public hospital dedicated to traditional Chinese medicine",
+          "publisher": "Western Sydney University",
+          "date": "2025-06",
+          "url": "https://www.westernsydney.edu.au/nicmhri/news/nicm-partners-with-cmhhk"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--the-chinese-medicine-hospital-of-hong-kong--western-sydney-university-nicm-health-research-institute"
+    },
+    {
+      "foreign_institution": "The Christie NHS Foundation Trust",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "Peter MacCallum Cancer Centre",
+      "partner_city": "Melbourne",
+      "type": "Training and education",
+      "description": "The two cancer centres signed a joint partnership agreement in April 2024 covering education and training, research and clinical service programmes. It has produced a joint radiation oncology fellowship across Manchester and Melbourne and an allied health exchange fellowship.",
+      "status": "Active",
+      "start": "2024-04",
+      "end": "",
+      "last_evidence": "2025-11",
+      "evidence": "Christie press release of 18 April 2024 (fetched) reports the signing by both chief executives. The Christie's partnership page (surfaced in search, last updated March 2026, URL now returns 404) reports 2025 joint receptions at ESTRO and ESMO, an Allied Health Professionals Exchange Fellowship launched in 2025, and reciprocal visits in October and November 2025. A March 2026 Peter Mac careers posting describes the inaugural joint Peter Mac and Christie radiation oncology fellowship (not fetched).",
+      "sources": [
+        {
+          "author": "The Christie NHS Foundation Trust (International Education team)",
+          "title": "The Christie International Education Newsletter, issue 2025",
+          "publisher": "The Christie NHS Foundation Trust / Manchester Cancer Research Centre",
+          "date": "November 2025",
+          "url": "https://www.mcrc.manchester.ac.uk/wp-content/uploads/2025/11/International-Team-Newsletter-Nov-2025_v3_Spreads.pdf"
+        },
+        {
+          "author": "The Christie NHS Foundation Trust",
+          "title": "Partnership agreement celebrates collaboration between leading Australian and UK Cancer Centres",
+          "publisher": "The Christie NHS Foundation Trust",
+          "date": "2024-04-18",
+          "url": "https://www.christie.nhs.uk/about-us/news-at-the-christie/latest-news-stories/partnership-agreement-celebrates-collaboration-between-leading-australian-and-uk-cancer-centres"
+        },
+        {
+          "author": "Peter MacCallum Cancer Centre",
+          "title": "Partnership agreement celebrates collaboration between leading Australian and UK Cancer Centres",
+          "publisher": "Peter MacCallum Cancer Centre",
+          "date": "2024-04",
+          "url": "https://petermac.org/about-us/news-and-events/news/details/partnership-agreement-celebrates-collaboration-between-leading-australian-and-uk-cancer-centres"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--the-christie-nhs-foundation-trust--peter-maccallum-cancer-centre"
+    },
+    {
+      "foreign_institution": "The Hospital for Sick Children (SickKids)",
+      "foreign_country": "Canada",
+      "group": "Other foreign health systems",
+      "indian_partner": "Murdoch Children's Research Institute and The Royal Children's Hospital",
+      "partner_city": "Melbourne",
+      "type": "Research collaboration",
+      "description": "SickKids, Boston Children's Hospital, Great Ormond Street Hospital and the Murdoch Children's Research Institute with The Royal Children's Hospital pool expertise and data in the International Precision Child Health Partnership on genomics of paediatric disease.",
+      "status": "Active",
+      "start": "2021-02",
+      "end": "",
+      "last_evidence": "2025-02",
+      "evidence": "SickKids announced IPCHiP on 25 February 2021 naming 'the Murdoch Children's Research Institute with The Royal Children's Hospital (Melbourne)' as a member (read). The University of Toronto McLaughlin Centre release of 27 February 2025 (read) reports the partnership's progress. Already used as evidence for the Boston Children's record; SickKids is a co-equal foreign member and was left out.",
+      "sources": [
+        {
+          "author": "SickKids",
+          "title": "Four leading children's hospitals announce IPCHiP, a collaborative to develop new treatments for paediatric diseases",
+          "publisher": "SickKids",
+          "date": "2021-02-25",
+          "url": "https://wprod.sickkids.ca/en/news/archive/2021/four-leading-childrens-hospitals-announce-ipchip-a-collaborative-to-develop-new-treatments-for-paediatric-diseases"
+        },
+        {
+          "author": "University of Toronto McLaughlin Centre",
+          "title": "International collaboration drives progress for Precision Child Health",
+          "publisher": "University of Toronto McLaughlin Centre",
+          "date": "2025-02-27",
+          "url": "https://mclaughlin.utoronto.ca/news/international-collaboration-drives-progress-precision-child-health"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--the-hospital-for-sick-children-sickkids--murdoch-children-s-research-institute-and-the-royal-children-s-hospital"
+    },
+    {
+      "foreign_institution": "University of Galway (BioInnovate Ireland)",
+      "foreign_country": "Ireland",
+      "group": "Other foreign health systems",
+      "indian_partner": "University of Western Australia (Perth Biodesign)",
+      "partner_city": "Perth",
+      "type": "Research collaboration",
+      "description": "A July 2026 memorandum of understanding sets a framework for research, education and innovation between the two health innovation programmes, building on the Biodesign link.",
+      "status": "Active",
+      "start": "2026-07",
+      "end": "",
+      "last_evidence": "2026-07",
+      "evidence": "UWA news item of 6 July 2026 (fetched) reports the signing, announced at the opening of Perth Biodesign's Innovation Summit. Medtech and health innovation focus; university partner rather than hospital, so borderline.",
+      "sources": [
+        {
+          "author": "University of Western Australia",
+          "title": "Partnership strengthens health research, education and innovation",
+          "publisher": "University of Western Australia",
+          "date": "2026-07-06",
+          "url": "https://www.uwa.edu.au/news/article/2026/july/partnership-strengthens-health-research-education-and-innovation"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--university-of-galway-bioinnovate-ireland--university-of-western-australia-perth-biodesign"
+    },
+    {
+      "foreign_institution": "West China Hospital, Sichuan University",
+      "foreign_country": "China",
+      "group": "Other foreign health systems",
+      "indian_partner": "University of Queensland (Institute for Molecular Bioscience)",
+      "partner_city": "Brisbane",
+      "type": "Research collaboration",
+      "description": "A memorandum of understanding sets up sister departments and laboratories, joint research and teaching, faculty and student exchange and internships. A sister laboratory links the hospital's critical care AI laboratory with UQ's Institute for Molecular Bioscience.",
+      "status": "Active",
+      "start": "2025-04",
+      "end": "",
+      "last_evidence": "2025-04",
+      "evidence": "West China Hospital news post (fetched) reports the signing on 9 April during a visit by UQ's Deputy Vice-Chancellor. The post carries no year; it cites UQ's 2025 QS, ARWU and THE rankings, which places it in April 2025 (the 2025 THE ranking was published October 2024), so the year is inferred.",
+      "sources": [
+        {
+          "author": "West China Hospital, Sichuan University",
+          "title": "WCH signs MOU with University of Queensland, establishes sister lab partnership",
+          "publisher": "West China Hospital",
+          "date": "2025-04",
+          "url": "https://www.wchscu.cn/details/85743.html"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--west-china-hospital-sichuan-university--university-of-queensland-institute-for-molecular-bioscience"
+    },
+    {
+      "foreign_institution": "Dana-Farber Cancer Institute",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Peter MacCallum Cancer Centre",
+      "partner_city": "Melbourne",
+      "type": "Research collaboration",
+      "description": "Dana-Farber and Peter Mac signed a three-year memorandum of understanding in November 2022, their second after a first agreement in 2016. It covers reciprocal staff visits, immune-based cancer therapy research, clinical use of genomics and digital health.",
+      "status": "Unclear",
+      "start": "2016-06",
+      "end": "",
+      "last_evidence": "2022-11",
+      "evidence": "The Dana-Farber release of 17 November 2022 (Peter Mac release dated 15 November 2022) announces the three-year MOU. No renewal, extension or later dated activity was found, so the status after the term ending about late 2025 is unconfirmed.",
+      "sources": [
+        {
+          "author": "Dana-Farber Cancer Institute",
+          "title": "New International Partnership to Accelerate Search for Cancer Cures",
+          "publisher": "Dana-Farber Cancer Institute",
+          "date": "2022-11-17",
+          "url": "https://physicianresources.dana-farber.org/news/new-international-partnership-to-accelerate-search-for-cancer-cures"
+        },
+        {
+          "author": "Peter MacCallum Cancer Centre",
+          "title": "New international partnership to accelerate search for cancer cures",
+          "publisher": "Peter MacCallum Cancer Centre",
+          "date": "2022-11-15",
+          "url": "https://petermac.org/about-us/news-and-events/news/details/new-international-partnership-to-accelerate-search-for-cancer-cures"
+        },
+        {
+          "author": "Premier of Victoria",
+          "title": "Melbourne And Boston Strike New Health Agreements",
+          "publisher": "Victorian Government",
+          "date": "2016-06-02",
+          "url": "https://www.premier.vic.gov.au/melbourne-and-boston-strike-new-health-agreements"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--dana-farber-cancer-institute--peter-maccallum-cancer-centre"
+    },
+    {
+      "foreign_institution": "Mayo Clinic Laboratories (Mayo Clinic)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "SydPath, St Vincent's Hospital Sydney (St Vincent's Health Australia)",
+      "partner_city": "Sydney",
+      "type": "Clinical affiliation",
+      "description": "SydPath at St Vincent's Hospital Sydney selected Mayo Clinic Laboratories as its reference laboratory for specialised neurology and haematology testing across Australia, including access to Mayo's neuroimmunology expertise.",
+      "status": "Unclear",
+      "start": "2023-12",
+      "end": "",
+      "last_evidence": "2023-12",
+      "evidence": "St Vincent's Hospital Sydney newsroom item dated 13 December 2023 (read) announces the selection. No Mayo-side release, terms or later dated activity was found. Borderline because it is a reference-laboratory service arrangement, but it is a named institutional arrangement announced by the Australian hospital; the draft excluded it as a commercial lab contract.",
+      "sources": [
+        {
+          "author": "St Vincent's Hospital Sydney",
+          "title": "SydPath teams up with Mayo Clinic to expand services",
+          "publisher": "St Vincent's Hospital Sydney",
+          "date": "2023-12-13",
+          "url": "https://www.svhs.org.au/newsroom/news/sydpath-mayo-clinic"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--mayo-clinic-laboratories-mayo-clinic--sydpath-st-vincent-s-hospital-sydney-st-vincent-s-health-australia"
+    },
+    {
+      "foreign_institution": "National University of Singapore, Saw Swee Hock School of Public Health",
+      "foreign_country": "Singapore",
+      "group": "Other foreign health systems",
+      "indian_partner": "Australian National University (College of Health and Medicine)",
+      "partner_city": "Canberra",
+      "type": "Training and education",
+      "description": "A programme of cooperation agreement signed in June 2022 provides a framework for teaching and research exchange, joint executive training and engagement on regional health security.",
+      "status": "Unclear",
+      "start": "2022-06",
+      "end": "",
+      "last_evidence": "2022-06",
+      "evidence": "NUS school news item reports the signing on 30 June 2022 by both deans. No later dated activity found (search summary only; page not fetched).",
+      "sources": [
+        {
+          "author": "NUS Saw Swee Hock School of Public Health",
+          "title": "NUS Saw Swee Hock School of Public Health and ANU College of Health and Medicine Sign MoU",
+          "publisher": "NUS Saw Swee Hock School of Public Health",
+          "date": "2022-06-30",
+          "url": "https://sph.nus.edu.sg/news/nus-saw-swee-hock-school-of-public-health-and-anu-college-of-health-and-medicine-sign-mou"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--national-university-of-singapore-saw-swee-hock-school-of-public-health--australian-national-university-college-of-health-and-medicine"
+    },
+    {
+      "foreign_institution": "Princess Margaret Cancer Centre (University Health Network)",
+      "foreign_country": "Canada",
+      "group": "Other foreign health systems",
+      "indian_partner": "Peter MacCallum Cancer Centre",
+      "partner_city": "Melbourne",
+      "type": "Training and education",
+      "description": "The two cancer centres formed an alliance partnership in December 2022 to benchmark research, nursing and allied health practice and to train the cancer workforce together.",
+      "status": "Unclear",
+      "start": "2022-12",
+      "end": "",
+      "last_evidence": "2022-12",
+      "evidence": "Peter Mac news item of 14 December 2022 announced the alliance and cited a visit by Princess Margaret's supportive care lead. A March 2026 Manchester agenda lists a Peter Mac visit that included Princess Margaret staff, but it is a joint visit with The Christie and was not confirmed as bilateral activity. No dated bilateral activity found after December 2022.",
+      "sources": [
+        {
+          "author": "Peter MacCallum Cancer Centre",
+          "title": "Collaboration with leading Canadian cancer centre commences with lecture from supportive and palliative care expert",
+          "publisher": "Peter MacCallum Cancer Centre",
+          "date": "2022-12-14",
+          "url": "https://petermac.org/about-us/news-and-events/news/details/collaboration-with-leading-canadian-cancer-centre-commences-with-lecture-from-supportive-and-palliative-care-expert"
+        },
+        {
+          "author": "Peter MacCallum Cancer Centre",
+          "title": "Peter MacCallum Cancer Institute Annual Report 2022-23",
+          "publisher": "Peter MacCallum Cancer Centre",
+          "date": "2023",
+          "url": "https://www.parliament.vic.gov.au/4a25f1/globalassets/tabled-paper-documents/tabled-paper-7735/peter-maccallum-cancer-institute-annual-report-2022-23.pdf"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--princess-margaret-cancer-centre-university-health-network--peter-maccallum-cancer-centre"
+    },
+    {
+      "foreign_institution": "Sheba Medical Center",
+      "foreign_country": "Israel",
+      "group": "Other foreign health systems",
+      "indian_partner": "Monash University (with Monash Health and the Victorian Government)",
+      "partner_city": "Melbourne",
+      "type": "Research collaboration",
+      "description": "Monash and Sheba signed a memorandum of understanding in Tel Aviv in March 2023 on digital health, cardiovascular research, precision medicine and healthy ageing. Monash Health later joined a Victorian partnership with Sheba to explore an ARC Innovation Centre.",
+      "status": "Unclear",
+      "start": "2023-03",
+      "end": "",
+      "last_evidence": "2023-07",
+      "evidence": "Monash and Victorian Government releases of March 2023 report the signing, with $200,000 from Victoria for cardiovascular work. Monash Health newsroom item of 5 July 2023 reports the ARC Innovation Centre partnership. No dated activity found after July 2023.",
+      "sources": [
+        {
+          "author": "Monash University",
+          "title": "Monash partners with Israel's world-leading Sheba Medical Centre to accelerate medical innovation and health service transformation",
+          "publisher": "Monash University",
+          "date": "2023-03",
+          "url": "https://www.monash.edu/news/articles/monash-partners-with-israels-world-leading-sheba-medical-centre-to-accelerate-medical-innovation-and-health-service-transformation"
+        },
+        {
+          "author": "Premier of Victoria",
+          "title": "Partnership To Boost Medtech Innovation And Healthcare",
+          "publisher": "Victorian Government",
+          "date": "2023-03",
+          "url": "https://www.premier.vic.gov.au/partnership-boost-medtech-innovation-and-healthcare"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--sheba-medical-center--monash-university-with-monash-health-and-the-victorian-government"
+    },
+    {
+      "foreign_institution": "Sheba Medical Center",
+      "foreign_country": "Israel",
+      "group": "Other foreign health systems",
+      "indian_partner": "NSW Health (New South Wales Government)",
+      "partner_city": "Sydney",
+      "type": "Government agreement",
+      "description": "A February 2023 memorandum of understanding between Sheba and the NSW Government covers health and medical research, commercialisation training and links to Sheba's ARC innovation model.",
+      "status": "Unclear",
+      "start": "2023-02",
+      "end": "",
+      "last_evidence": "2023-02",
+      "evidence": "NSW Health media release of 17 February 2023 (fetched) announces the memorandum. No later dated activity found.",
+      "sources": [
+        {
+          "author": "NSW Health",
+          "title": "Win for health and medical research in NSW with international partnership",
+          "publisher": "NSW Health",
+          "date": "2023-02-17",
+          "url": "https://www.health.nsw.gov.au/news/Pages/20230217_01.aspx"
+        },
+        {
+          "author": "Sheba Medical Center",
+          "title": "Memorandum of Understanding with New South Wales Government will bring innovative healthcare to Australia",
+          "publisher": "Sheba Global",
+          "date": "2023-02",
+          "url": "https://sheba-global.com/memorandum-of-understanding-with-new-south-wales-government-will-bring-innovative-healthcare-to-australia/"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--sheba-medical-center--nsw-health-new-south-wales-government"
+    },
+    {
+      "foreign_institution": "Sheba Medical Center",
+      "foreign_country": "Israel",
+      "group": "Other foreign health systems",
+      "indian_partner": "Peter MacCallum Cancer Centre (with Australian Friends of Sheba)",
+      "partner_city": "Melbourne",
+      "type": "Research collaboration",
+      "description": "A May 2022 memorandum of understanding set a framework for joint research, a clinical fellowship programme, faculty exchange and an innovation hub in Melbourne. A Sheba surgeon took up a two year melanoma and sarcoma fellowship at Peter Mac.",
+      "status": "Unclear",
+      "start": "2022-05",
+      "end": "",
+      "last_evidence": "2023-06",
+      "evidence": "Peter Mac news item of 20 May 2022 and Israel Trade Australia report the signing. Peter Mac joined the June 2023 Victorian Government partnership with Sheba to explore an ARC Innovation Centre. No dated activity found after June 2023; a March 2025 ARC Asia-Pacific Summit in Melbourne was only advertised in a teaser post and is a one-off event.",
+      "sources": [
+        {
+          "author": "Peter MacCallum Cancer Centre",
+          "title": "MOU spurs collaboration between leading Australian and Israeli cancer centres",
+          "publisher": "Peter MacCallum Cancer Centre",
+          "date": "2022-05-20",
+          "url": "https://petermac.org/about-us/news-and-events/news/details/mou-spurs-collaboration-between-leading-australian-israeli-cancer-centres"
+        },
+        {
+          "author": "Israel Trade and Economic Office Australia",
+          "title": "Sheba Medical Center signs agreement with Australian cancer center",
+          "publisher": "Israel Trade and Economic Office",
+          "date": "2022-05-25",
+          "url": "https://israeltrade.org.au/2022/05/25/sheba-medical-center-signs-agreement-with-australian-cancer-center/"
+        },
+        {
+          "author": "Peter MacCallum Cancer Centre",
+          "title": "Partnership to put innovation on an upward ARC",
+          "publisher": "Peter MacCallum Cancer Centre",
+          "date": "2023-06",
+          "url": "https://petermac.org/about-us/news-and-events/news/details/partnership-to-put-innovation-on-an-upward-arc"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--sheba-medical-center--peter-maccallum-cancer-centre-with-australian-friends-of-sheba"
+    },
+    {
+      "foreign_institution": "Siriraj Hospital, Faculty of Medicine, Mahidol University",
+      "foreign_country": "Thailand",
+      "group": "Other foreign health systems",
+      "indian_partner": "University of Sydney (Faculty of Medicine and Health)",
+      "partner_city": "Sydney",
+      "type": "Research collaboration",
+      "description": "A faculty level memorandum of understanding signed in October 2023 covers academic and research collaboration and knowledge exchange, centred on neuromuscular disease work.",
+      "status": "Unclear",
+      "start": "2023-10",
+      "end": "",
+      "last_evidence": "2023-10",
+      "evidence": "Siriraj news item (fetched) reports the signing on 19 October 2023 by the dean. No later dated activity found. Faculty level and linked to one research centre, so borderline.",
+      "sources": [
+        {
+          "author": "Siriraj Hospital, Mahidol University",
+          "title": "MOU Signing Ceremony Between Siriraj and University of Sydney",
+          "publisher": "Siriraj Hospital",
+          "date": "2023-10-19",
+          "url": "https://www2.si.mahidol.ac.th/en/news-events/mou-signing-ceremony-between-siriraj-and-university-of-sydney/"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-10-20",
+      "id": "australia--siriraj-hospital-faculty-of-medicine-mahidol-university--university-of-sydney-faculty-of-medicine-and-health"
+    },
+    {
       "foreign_institution": "Mayo Clinic",
       "foreign_country": "United States",
       "group": "US academic medical centers",

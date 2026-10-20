@@ -1,0 +1,1153 @@
+{
+ "country": "Australia",
+ "generated_date": "2026-10-20",
+ "research": {
+  "country_overview": {
+   "demographics": {
+    "facts": [
+     {
+      "label": "Capital",
+      "value": "Canberra{{10}}"
+     },
+     {
+      "label": "Main language",
+      "value": "English (the only language used at home by 72.0% of people, 2021 Census){{11}}"
+     },
+     {
+      "label": "Population",
+      "value": "About 27.9 million (31 March 2026){{1}}"
+     },
+     {
+      "label": "Area",
+      "value": "7,741,220 sq km{{7}}"
+     },
+     {
+      "label": "GDP (PPP), total",
+      "value": "About 1.99 trillion international dollars (2025){{8}}"
+     },
+     {
+      "label": "GDP (PPP), per capita",
+      "value": "About 71,930 international dollars (2025){{9}}"
+     },
+     {
+      "label": "Government type",
+      "value": "Constitutional monarchy with ministers responsible to Parliament{{12}}"
+     },
+     {
+      "label": "Head of state",
+      "value": "The King, represented by Governor-General Sam Mostyn{{12}}"
+     },
+     {
+      "label": "Head of government",
+      "value": "Prime Minister Anthony Albanese{{13}}"
+     },
+     {
+      "label": "Currency",
+      "value": "Australian dollar{{14}}"
+     },
+     {
+      "label": "Urban population",
+      "value": "87.7% (2025){{3}}"
+     },
+     {
+      "label": "Total fertility rate",
+      "value": "1.48 births per woman (2024){{5}}"
+     },
+     {
+      "label": "Population aged 65 and over",
+      "value": "18.1% (2025){{4}}"
+     },
+     {
+      "label": "Life expectancy at birth",
+      "value": "83.1 years (2024){{6}}"
+     },
+     {
+      "label": "Born overseas",
+      "value": "27.6% (2021 Census){{2}}"
+     }
+    ],
+    "narrative": "Australia's population was 27.9 million at 31 March 2026, up 392,700 on a year earlier, a growth rate of 1.4 percent.{{1}} Net overseas migration added 292,100 people over the year and natural increase added 100,600.{{1}} Western Australia grew fastest at 2.1 percent and Tasmania slowest at 0.6 percent.{{1}} In the 2021 Census, 27.6 percent of residents were born overseas, and the most common languages used at home other than English were Mandarin, Arabic, Vietnamese, Cantonese and Punjabi.{{2}} About 88 percent of people live in urban areas.{{3}}\n\nThe population is aging. People aged 65 and over made up 18.1 percent of residents in 2025, the fertility rate was 1.48 births per woman in 2024, and life expectancy at birth was 83.1 years.{{4}}{{5}}{{6}} For a foreign academic medical center, this points to steady demand for care of chronic and age-related conditions in a high-income, mostly insured population served largely by the domestic system.",
+    "sources": [
+     {
+      "author": "Australian Bureau of Statistics",
+      "title": "Australia's population grows 1.4% in March 2026",
+      "publisher": "Australian Bureau of Statistics",
+      "date": "17 September 2026",
+      "url": "https://www.abs.gov.au/media-centre/media-releases/australias-population-grows-14-march-2026"
+     },
+     {
+      "author": "Australian Bureau of Statistics",
+      "title": "Cultural diversity: Census, 2021",
+      "publisher": "Australian Bureau of Statistics",
+      "date": "",
+      "url": "https://www.abs.gov.au/statistics/people/people-and-communities/cultural-diversity-census/latest-release"
+     },
+     {
+      "author": "World Bank",
+      "title": "Urban population (% of total population) (SP.URB.TOTL.IN.ZS), Australia",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/AUS/indicator/SP.URB.TOTL.IN.ZS?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Population ages 65 and above (% of total population) (SP.POP.65UP.TO.ZS), Australia",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/AUS/indicator/SP.POP.65UP.TO.ZS?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Fertility rate, total (births per woman) (SP.DYN.TFRT.IN), Australia",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/AUS/indicator/SP.DYN.TFRT.IN?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Life expectancy at birth, total (years) (SP.DYN.LE00.IN), Australia",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/AUS/indicator/SP.DYN.LE00.IN?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Surface area (sq. km) (AG.SRF.TOTL.K2), Australia",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/AUS/indicator/AG.SRF.TOTL.K2?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "GDP, PPP (current international $) (NY.GDP.MKTP.PP.CD), Australia",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/AUS/indicator/NY.GDP.MKTP.PP.CD?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "GDP per capita, PPP (current international $) (NY.GDP.PCAP.PP.CD), Australia",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/AUS/indicator/NY.GDP.PCAP.PP.CD?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "Parliamentary Education Office",
+      "title": "Australia's Parliament House",
+      "publisher": "Parliamentary Education Office",
+      "date": "",
+      "url": "https://peo.gov.au/understand-our-parliament/parliament-house/australias-parliament-house"
+     },
+     {
+      "author": "Australian Bureau of Statistics",
+      "title": "2021 Australia, Census All persons QuickStats",
+      "publisher": "Australian Bureau of Statistics",
+      "date": "",
+      "url": "https://www.abs.gov.au/census/find-census-data/quickstats/2021/AUS"
+     },
+     {
+      "author": "Parliamentary Education Office",
+      "title": "Governor-General",
+      "publisher": "Parliamentary Education Office",
+      "date": "",
+      "url": "https://peo.gov.au/understand-our-parliament/parliament-and-its-people/people-in-parliament/governor-general"
+     },
+     {
+      "author": "Anthony Albanese, Prime Minister",
+      "title": "Record funding for public hospitals and disability reform",
+      "publisher": "Prime Minister of Australia",
+      "date": "30 January 2026",
+      "url": "https://www.pm.gov.au/media/record-funding-public-hospitals-and-disability-reform"
+     },
+     {
+      "author": "Reserve Bank of Australia",
+      "title": "Exchange Rates",
+      "publisher": "Reserve Bank of Australia",
+      "date": "",
+      "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html"
+     }
+    ]
+   },
+   "government": {
+    "narrative": "Australia is a constitutional monarchy in which the King is head of state and is represented by Governor-General Sam Mostyn.{{1}} Ministers answer to the Australian Parliament, which sits in Canberra.{{1}}{{2}} Labor won 94 seats in the House of Representatives at the 2025 federal election, against 43 for the Liberal/National Coalition and 10 for independents, and Anthony Albanese continues as Prime Minister.{{3}}{{4}} Mark Butler is the Minister for Health and Ageing, and Jim Chalmers is Treasurer.{{5}}{{6}}\n\nHealth responsibilities are split. The Commonwealth funds Medicare and the Pharmaceutical Benefits Scheme, while the states own and manage the public hospitals.{{7}} The two levels settle hospital funding through National Cabinet, which on 30 January 2026 reached a funding agreement that includes a new National Health Reform Agreement addendum.{{4}} Health policy and funding therefore move through both federal and state cabinets.",
+    "sources": [
+     {
+      "author": "Parliamentary Education Office",
+      "title": "Governor-General",
+      "publisher": "Parliamentary Education Office",
+      "date": "",
+      "url": "https://peo.gov.au/understand-our-parliament/parliament-and-its-people/people-in-parliament/governor-general"
+     },
+     {
+      "author": "Parliamentary Education Office",
+      "title": "Australia's Parliament House",
+      "publisher": "Parliamentary Education Office",
+      "date": "",
+      "url": "https://peo.gov.au/understand-our-parliament/parliament-house/australias-parliament-house"
+     },
+     {
+      "author": "Australian Electoral Commission",
+      "title": "2025 Federal Election: House of Representatives, final results",
+      "publisher": "AEC Tally Room",
+      "date": "10 June 2025",
+      "url": "https://results.aec.gov.au/31496/Website/HouseDefault-31496.htm"
+     },
+     {
+      "author": "Anthony Albanese, Prime Minister",
+      "title": "Record funding for public hospitals and disability reform",
+      "publisher": "Prime Minister of Australia",
+      "date": "30 January 2026",
+      "url": "https://www.pm.gov.au/media/record-funding-public-hospitals-and-disability-reform"
+     },
+     {
+      "author": "Mark Butler and Jason Clare",
+      "title": "More university places for future Australian doctors",
+      "publisher": "Mark Butler MP (ministerial media release)",
+      "date": "27 August 2025",
+      "url": "https://www.markbutler.net.au/news/media-releases/more-university-places-for-future-australian-doctors"
+     },
+     {
+      "author": "Jim Chalmers, Treasurer, and Katy Gallagher, Minister for Finance",
+      "title": "Budget Strategy and Outlook 2026-27 (Budget Paper No. 1)",
+      "publisher": "Commonwealth of Australia",
+      "date": "12 May 2026",
+      "url": "https://budget.gov.au/content/bp1/download/bp1_2026-27.pdf"
+     },
+     {
+      "author": "Lucinda Glover, London School of Economics",
+      "title": "The Australian Health Care System, in International Profiles of Health Care Systems, 2020",
+      "publisher": "The Commonwealth Fund",
+      "date": "December 2020",
+      "url": "https://CommonwealthFund.org/sites/default/files/2020-12/International_Profiles_of_Health_Care_Systems_Dec2020.pdf"
+     }
+    ]
+   },
+   "economy": {
+    "narrative": "Australia is a high-income economy, with GDP of about 1.99 trillion international dollars at purchasing power parity in 2025, or about 71,930 per person.{{1}}{{2}} Real GDP rose 0.4 percent in the June quarter of 2026 and 2.1 percent on a year earlier, and grew 2.4 percent over the 2025-26 financial year.{{3}} Service industries account for over 70 percent of economic activity.{{3}}\n\nThe 2026-27 Budget, delivered on 12 May 2026, expects growth to slow from 2.25 percent in 2025-26 to 1.75 percent in 2026-27 because the conflict in the Middle East has raised global oil prices.{{4}} It forecasts headline inflation of 5 percent through the year to the June quarter of 2026, easing to 2.5 percent a year later, with unemployment at 4.25 percent in the June quarter of 2026.{{4}} The underlying cash deficit is forecast at A$31.5 billion, or 1.0 percent of GDP, in 2026-27, and health accounts for 16.4 percent of Commonwealth expenses.{{4}} The government's Future Made in Australia agenda aims to secure and scale domestic industrial capability.{{4}}",
+    "sources": [
+     {
+      "author": "World Bank",
+      "title": "GDP, PPP (current international $) (NY.GDP.MKTP.PP.CD), Australia",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/AUS/indicator/NY.GDP.MKTP.PP.CD?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "GDP per capita, PPP (current international $) (NY.GDP.PCAP.PP.CD), Australia",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/AUS/indicator/NY.GDP.PCAP.PP.CD?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "Australian Bureau of Statistics",
+      "title": "Australian economy grew 0.4% in the June quarter",
+      "publisher": "Australian Bureau of Statistics",
+      "date": "2 September 2026",
+      "url": "https://www.abs.gov.au/media-centre/media-releases/australian-economy-grew-04-june-quarter"
+     },
+     {
+      "author": "Jim Chalmers, Treasurer, and Katy Gallagher, Minister for Finance",
+      "title": "Budget Strategy and Outlook 2026-27 (Budget Paper No. 1)",
+      "publisher": "Commonwealth of Australia",
+      "date": "12 May 2026",
+      "url": "https://budget.gov.au/content/bp1/download/bp1_2026-27.pdf"
+     }
+    ]
+   },
+   "disease_prevalence": {
+    "facts": [
+     {
+      "label": "Leading cause of death",
+      "value": "Dementia, including Alzheimer's disease: 9.4% of deaths (2024){{1}}"
+     },
+     {
+      "label": "Second leading cause of death",
+      "value": "Ischemic heart diseases: 8.7% of deaths (2024); coronary heart disease is the leading cause for men{{1}}"
+     },
+     {
+      "label": "Third leading cause of death",
+      "value": "Chronic lower respiratory diseases, just over 9,000 deaths (2024){{1}}"
+     },
+     {
+      "label": "Registered deaths",
+      "value": "187,268 (2024){{2}}"
+     },
+     {
+      "label": "People with at least one chronic condition",
+      "value": "49.9% (2022){{3}}"
+     },
+     {
+      "label": "Mental and behavioral conditions",
+      "value": "26.1% of people (2022){{3}}"
+     },
+     {
+      "label": "Adults overweight or obese",
+      "value": "65.8% (2022){{3}}"
+     },
+     {
+      "label": "Adults who are current daily smokers",
+      "value": "10.6% (2022); 22.4% in 2001{{3}}"
+     },
+     {
+      "label": "Adults exceeding the alcohol guideline",
+      "value": "26.8% (2022){{3}}"
+     },
+     {
+      "label": "Diabetes",
+      "value": "5.3% of people, about 1.3 million (2022){{3}}"
+     },
+     {
+      "label": "Heart, stroke and vascular disease",
+      "value": "5.2% of people, about 1.3 million (2022){{3}}"
+     }
+    ],
+    "narrative": "Dementia, including Alzheimer's disease, became Australia's leading cause of death in 2024, at 9.4 percent of deaths, overtaking ischemic heart diseases at 8.7 percent.{{1}} Deaths from dementia have risen 39 percent over a decade, and 62.4 percent of the people who died from it were women.{{1}} Over two-thirds (68.2 percent) of deaths are among people aged over 75.{{1}} Coronary heart disease remains the leading cause of death for men, with 10,153 deaths in 2024, even though its mortality rate has fallen by nearly 90 percent since the 1968 peak, and it is the second leading cause of premature death after suicide.{{1}}\n\nRisk factors are common. In 2022, 65.8 percent of adults were overweight or obese, 10.6 percent smoked daily (down from 22.4 percent in 2001), and 26.8 percent exceeded the alcohol guideline.{{3}} Half of the population had at least one chronic condition, and 23.9 percent of people aged 15 and over met the physical activity guidelines.{{3}} The burden points to sustained demand in cardiovascular care, neurology, diabetes care and aged care.",
+    "sources": [
+     {
+      "author": "Australian Bureau of Statistics",
+      "title": "Dementia is Australia's leading cause of death",
+      "publisher": "Australian Bureau of Statistics",
+      "date": "14 November 2025",
+      "url": "https://www.abs.gov.au/media-centre/media-releases/dementia-australias-leading-cause-death"
+     },
+     {
+      "author": "Australian Bureau of Statistics",
+      "title": "Causes of Death, Australia, 2024",
+      "publisher": "Australian Bureau of Statistics",
+      "date": "",
+      "url": "https://www.abs.gov.au/statistics/health/causes-death/causes-death-australia/latest-release"
+     },
+     {
+      "author": "Australian Bureau of Statistics",
+      "title": "National Health Survey, 2022",
+      "publisher": "Australian Bureau of Statistics",
+      "date": "",
+      "url": "https://www.abs.gov.au/statistics/health/health-conditions-and-risks/national-health-survey/latest-release"
+     }
+    ]
+   }
+  },
+  "health_system": {
+   "public_system": {
+    "narrative": "Australia's public system rests on Medicare, a universal insurance program financed from general tax revenue and a levy, which covers the full cost of public hospital services for citizens, permanent residents and visitors from reciprocal-agreement countries and gives substantial coverage for physician services and pharmaceuticals.{{1}} The Commonwealth funds care through the Medicare Benefits Schedule and the Pharmaceutical Benefits Scheme, and the states own and manage the public hospitals.{{1}}\n\nIn 2023-24 there were 704 public hospitals with 67,280 available beds, or 2.5 per 1,000 people, and total recurrent spending of A$103.1 billion, 94 percent of it funded by governments.{{2}} Public hospitals recorded about 7.5 million separations that year and 9,094,312 emergency department presentations in 2024-25.{{2}}\n\nOn 30 January 2026 National Cabinet reached an agreement under which the Commonwealth will provide A$25 billion in additional public hospital funding.{{3}} The 2026-27 Budget provides A$220.3 billion over five years to the states and territories for public hospital services and the 2026-2031 addendum.{{4}} In primary care, bulk billing incentives were extended to all Australians from 1 November 2025, and the government projects that 9 in 10 GP visits will be bulk billed by 2030.{{5}}{{6}}",
+    "sources": [
+     {
+      "author": "The Commonwealth Fund",
+      "title": "International Health Care System Profiles: Australia",
+      "publisher": "The Commonwealth Fund",
+      "date": "May 2026",
+      "url": "https://www.commonwealthfund.org/sites/default/files/2026-05/2026_Country-Profiles_Australia.pdf"
+     },
+     {
+      "author": "Productivity Commission",
+      "title": "Report on Government Services 2026, Part E, Section 12: Public hospitals",
+      "publisher": "Productivity Commission",
+      "date": "5 February 2026",
+      "url": "https://www.pc.gov.au/ongoing/report-on-government-services/health/public-hospitals"
+     },
+     {
+      "author": "Anthony Albanese, Prime Minister",
+      "title": "Record funding for public hospitals and disability reform",
+      "publisher": "Prime Minister of Australia",
+      "date": "30 January 2026",
+      "url": "https://www.pm.gov.au/media/record-funding-public-hospitals-and-disability-reform"
+     },
+     {
+      "author": "Jim Chalmers, Treasurer, and Katy Gallagher, Minister for Finance",
+      "title": "Budget Measures 2026-27 (Budget Paper No. 2)",
+      "publisher": "Commonwealth of Australia",
+      "date": "12 May 2026",
+      "url": "https://budget.gov.au/content/bp2/download/bp2_2026-27.pdf"
+     },
+     {
+      "author": "Mark Butler",
+      "title": "Delivering the Bulk Billing Incentive Program",
+      "publisher": "Mark Butler MP (ministerial media release)",
+      "date": "15 August 2025",
+      "url": "https://www.markbutler.net.au/news/media-releases/delivering-the-bulk-billing-incentive-program"
+     },
+     {
+      "author": "North Western Melbourne Primary Health Network",
+      "title": "Bulk Billing Incentives and the Bulk Billing Practice Incentive Program",
+      "publisher": "North Western Melbourne PHN",
+      "date": "",
+      "url": "https://nwmphn.org.au/for-primary-care/primary-care-reform/bulk-billing-practice-incentive-program/"
+     }
+    ]
+   },
+   "private_system": {
+    "narrative": "About 12.8 million people, or 45.8 percent of the population, held private hospital cover at 30 June 2026, and 55.5 percent had general treatment cover.{{1}} Insurers paid A$5.3 billion in hospital benefits in the June 2026 quarter.{{1}} Government policy encourages cover through a premium rebate and an income-based penalty, the Medicare Levy surcharge.{{2}} Private hospitals are a mix of for-profit and nonprofit operators.{{2}}\n\nThe sector's second-largest operator went into receivership in 2025. Healthscope entered receivership in May 2025 after its North American private equity owner, Brookfield, withdrew support, and on 14 September 2026 the receivers announced that 25 hospitals would be divided among Calvary Health Care (14 hospitals), Healthe Care, ACURIO Health and KnG Group.{{3}} Ramsay Health Care, listed on the Australian Securities Exchange since 1997, runs hospitals, clinics and services in Australia, Europe and the United Kingdom.{{4}} The 2026-27 Budget removes the age-based uplift of the private health insurance rebate from 1 April 2027, saving A$3.0 billion over four years.{{5}}",
+    "sources": [
+     {
+      "author": "Australian Prudential Regulation Authority",
+      "title": "Quarterly private health insurance membership and benefits summary - June 2026",
+      "publisher": "APRA",
+      "date": "2026",
+      "url": "https://www.apra.gov.au/node/62468"
+     },
+     {
+      "author": "Lucinda Glover, London School of Economics",
+      "title": "The Australian Health Care System, in International Profiles of Health Care Systems, 2020",
+      "publisher": "The Commonwealth Fund",
+      "date": "December 2020",
+      "url": "https://CommonwealthFund.org/sites/default/files/2020-12/International_Profiles_of_Health_Care_Systems_Dec2020.pdf"
+     },
+     {
+      "author": "Sarah Gerathy",
+      "title": "Healthscope to be split up following financial collapse, receivers announce",
+      "publisher": "ABC News",
+      "date": "14 September 2026",
+      "url": "https://www.abc.net.au/news/2026-09-14/healthscope-split-receivers-calvary-healthe-consortium/107151964"
+     },
+     {
+      "author": "Ramsay Health Care",
+      "title": "Ramsay Health Care | People Caring for People",
+      "publisher": "Ramsay Health Care",
+      "date": "",
+      "url": "https://www.ramsayhealth.com"
+     },
+     {
+      "author": "Jim Chalmers, Treasurer, and Katy Gallagher, Minister for Finance",
+      "title": "Budget Measures 2026-27 (Budget Paper No. 2)",
+      "publisher": "Commonwealth of Australia",
+      "date": "12 May 2026",
+      "url": "https://budget.gov.au/content/bp2/download/bp2_2026-27.pdf"
+     }
+    ]
+   },
+   "financing": {
+    "facts": [
+     {
+      "label": "Total health spending, 2024-25",
+      "value": "A$290.7 billion, or A$10,614 per person{{7}}"
+     },
+     {
+      "label": "Current health expenditure, share of GDP",
+      "value": "10.40% (2023); 8.67% in 2012{{2}}"
+     },
+     {
+      "label": "Current health expenditure per capita",
+      "value": "US$6,980 (2023, current US$){{3}}"
+     },
+     {
+      "label": "Out-of-pocket share of current health expenditure",
+      "value": "15.8% (2023); 19.9% in 2012{{4}}"
+     },
+     {
+      "label": "Out-of-pocket spending, 2023-24",
+      "value": "A$44 billion, or A$1,634 per person{{1}}"
+     },
+     {
+      "label": "Share of health spending by type, 2024-25",
+      "value": "Hospital care 42% (A$123.4 billion); primary health care 32% (A$93.0 billion){{7}}"
+     },
+     {
+      "label": "Comparison, current health expenditure share of GDP (2023)",
+      "value": "New Zealand 10.13%, United Kingdom 10.99%, Canada 11.19%, OECD members 12.75%, United States 16.69%, Singapore 4.49%{{5}}"
+     },
+     {
+      "label": "Commonwealth health expenses, 2026-27",
+      "value": "A$136.9 billion, 16.4% of Commonwealth expenses{{6}}"
+     },
+     {
+      "label": "Commonwealth assistance to states for public hospitals, 2026-27",
+      "value": "A$37.5 billion{{6}}"
+     }
+    ],
+    "narrative": "Total health spending reached A$290.7 billion in 2024-25, or A$10,614 per person, and governments funded 70 percent of it.{{7}} Hospitals took A$123.4 billion, about 42 percent of the total, and primary health care A$93.0 billion, about 32 percent.{{7}} Spending in 2023-24 had been A$270.5 billion.{{1}} World Bank data put current health expenditure at 10.4 percent of GDP in 2023, up from 8.7 percent in 2012, while out-of-pocket spending fell from 19.9 percent to 15.8 percent of the total over the same period.{{2}}{{4}} Among comparators, the share of GDP in 2023 was higher in Canada, the United Kingdom, the United States and the OECD average, and lower in New Zealand and Singapore.{{5}} Households still paid A$44 billion out of pocket in 2023-24, the largest non-government contribution.{{1}}\n\nThe Commonwealth budgets A$136.9 billion for health in 2026-27, which includes A$37.5 billion of assistance to the states for public hospitals.{{6}}",
+    "sources": [
+     {
+      "author": "AAP",
+      "title": "'Can't treat our way out': Why Australia's $271 billion health spend could miss the mark",
+      "publisher": "SBS News",
+      "date": "9 July 2026",
+      "url": "https://www.sbs.com.au/news/article/australia-2026-health-snapshot-aihw-life-expectancy/f569sl36n"
+     },
+     {
+      "author": "World Bank",
+      "title": "Current health expenditure (% of GDP) (SH.XPD.CHEX.GD.ZS), Australia",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/AUS/indicator/SH.XPD.CHEX.GD.ZS?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Current health expenditure per capita (current US$) (SH.XPD.CHEX.PC.CD), Australia",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/AUS/indicator/SH.XPD.CHEX.PC.CD?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Out-of-pocket expenditure (% of current health expenditure) (SH.XPD.OOPC.CH.ZS), Australia",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/AUS/indicator/SH.XPD.OOPC.CH.ZS?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Current health expenditure (% of GDP) (SH.XPD.CHEX.GD.ZS), Australia and comparators, 2023",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/AUS;NZL;CAN;GBR;USA;SGP;OED/indicator/SH.XPD.CHEX.GD.ZS?format=json&per_page=500&date=2023:2023"
+     },
+     {
+      "author": "Jim Chalmers, Treasurer, and Katy Gallagher, Minister for Finance",
+      "title": "Budget Strategy and Outlook 2026-27 (Budget Paper No. 1)",
+      "publisher": "Commonwealth of Australia",
+      "date": "12 May 2026",
+      "url": "https://budget.gov.au/content/bp1/download/bp1_2026-27.pdf"
+     },
+     {
+      "author": "Australian Institute of Health and Welfare",
+      "title": "Hospital spending tops $123 billion as growth outpaces spending on primary health care and prevention",
+      "publisher": "AIHW",
+      "date": "October 2026",
+      "url": "https://www.aihw.gov.au/news-media/media-releases/2026/2026-october/hospital-spending-tops-123b-as-growth-outpaces-spending-on-primary-health-care-and-prevention"
+     }
+    ]
+   },
+   "workforce": {
+    "facts": [
+     {
+      "label": "Physicians per 1,000 people",
+      "value": "4.09 (2022); 3.29 in 2012{{1}}"
+     },
+     {
+      "label": "Nurses and midwives per 1,000 people",
+      "value": "13.45 (2022){{2}}"
+     },
+     {
+      "label": "Hospital beds per 1,000 people",
+      "value": "3.82 (2016, latest World Bank year){{3}}"
+     },
+     {
+      "label": "Public hospital beds per 1,000 people",
+      "value": "2.5 (2023-24){{4}}"
+     },
+     {
+      "label": "Registered medical practitioners",
+      "value": "148,185 (2024-25), up 3.9% on 2023-24{{5}}"
+     },
+     {
+      "label": "First-time medical registrants",
+      "value": "9,072 (2024-25), of whom 4,947 international{{5}}"
+     },
+     {
+      "label": "Expedited specialist pathway",
+      "value": "178 registered by the end of June 2025, including 171 GPs{{5}}"
+     }
+    ],
+    "narrative": "Physician density rose from 3.29 per 1,000 people in 2012 to 4.09 in 2022, and nurses and midwives numbered 13.45 per 1,000 in 2022.{{1}}{{2}} The medical register held 148,185 practitioners in 2024-25, and 4,947 of the 9,072 first-time registrants were internationally qualified.{{5}} An expedited pathway for specialists from the United Kingdom, New Zealand and Ireland opened in October 2024, and 178 applicants had been registered by the end of June 2025, 171 of them GPs.{{5}} In the first six months, to April 2025, 86 percent of applications came from the United Kingdom.{{6}} Distribution is the weak point: four in five of the specialists registered in the first six months of the pathway work in major cities, according to Medical Republic.{{6}}",
+    "sources": [
+     {
+      "author": "World Bank",
+      "title": "Physicians (per 1,000 people) (SH.MED.PHYS.ZS), Australia",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/AUS/indicator/SH.MED.PHYS.ZS?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Nurses and midwives (per 1,000 people) (SH.MED.NUMW.P3), Australia",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/AUS/indicator/SH.MED.NUMW.P3?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Hospital beds (per 1,000 people) (SH.MED.BEDS.ZS), Australia",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/AUS/indicator/SH.MED.BEDS.ZS?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "Productivity Commission",
+      "title": "Report on Government Services 2026, Part E, Section 12: Public hospitals",
+      "publisher": "Productivity Commission",
+      "date": "5 February 2026",
+      "url": "https://www.pc.gov.au/ongoing/report-on-government-services/health/public-hospitals"
+     },
+     {
+      "author": "Medical Board of Australia",
+      "title": "Medical practice in 2024/25 (annual summary)",
+      "publisher": "Medical Board of Australia",
+      "date": "2025",
+      "url": "https://medicalboard.gov.au/news/annual-report.aspx"
+     },
+     {
+      "author": "Medical Republic",
+      "title": "80% of AHPRA's fast-track doctors working in cities",
+      "publisher": "Medical Republic",
+      "date": "21 August 2025",
+      "url": "https://www.medicalrepublic.com.au/80-of-ahpras-fast-track-doctors-working-in-cities/119365"
+     }
+    ]
+   },
+   "education": {
+    "narrative": "Medical education runs through public and private universities, followed by an accredited internship and residency.{{1}} The government is adding Commonwealth supported medical places: universities can apply for an additional 100 places from 2026, rising to 150 a year from 2028, with a focus on training more GPs, and the government said it would introduce demand driven places for First Nations medical students from 2026.{{2}}\n\nAfter graduation, doctors train through the specialist colleges. The Commonwealth-funded Australian General Practice Training Program, for example, offers 3 to 4 years of full-time training.{{3}} The 2024 Medical Training Survey had 24,812 respondents, more than half of doctors in training, and 62 percent of trainees said the financial cost of their college training program had led to stress.{{7}}\n\nDoctors who trained overseas generally follow a standard pathway: they pass the Australian Medical Council examinations to earn the AMC certificate, then hold provisional registration while completing approved supervised practice before general registration.{{5}} The Medical Board advises that Australian graduates have priority for accredited internship positions.{{5}} Specialists with approved qualifications from the United Kingdom, New Zealand and Ireland can instead register through an expedited pathway without college assessment, after six months of supervised practice.{{4}}{{6}}",
+    "sources": [
+     {
+      "author": "The Commonwealth Fund",
+      "title": "International Health Care System Profiles: Australia",
+      "publisher": "The Commonwealth Fund",
+      "date": "May 2026",
+      "url": "https://www.commonwealthfund.org/sites/default/files/2026-05/2026_Country-Profiles_Australia.pdf"
+     },
+     {
+      "author": "Mark Butler and Jason Clare",
+      "title": "More university places for future Australian doctors",
+      "publisher": "Mark Butler MP (ministerial media release)",
+      "date": "27 August 2025",
+      "url": "https://www.markbutler.net.au/news/media-releases/more-university-places-for-future-australian-doctors"
+     },
+     {
+      "author": "Royal Australian College of General Practitioners",
+      "title": "Australian General Practice Training (AGPT) Program",
+      "publisher": "RACGP",
+      "date": "",
+      "url": "https://www.racgp.org.au/education/registrars/fellowship-pathways/australian-general-practice-training-program"
+     },
+     {
+      "author": "Medical Board of Australia",
+      "title": "Medical practice in 2024/25 (annual summary)",
+      "publisher": "Medical Board of Australia",
+      "date": "2025",
+      "url": "https://medicalboard.gov.au/news/annual-report.aspx"
+     },
+     {
+      "author": "Medical Board of Australia",
+      "title": "Medical Council Certificate (standard pathway for international medical graduates)",
+      "publisher": "Medical Board of Australia",
+      "date": "",
+      "url": "https://www.medicalboard.gov.au/Registration/Types/Provisional-Registration/Medical-Council-Certificate.aspx"
+     },
+     {
+      "author": "Medical Republic",
+      "title": "80% of AHPRA's fast-track doctors working in cities",
+      "publisher": "Medical Republic",
+      "date": "21 August 2025",
+      "url": "https://www.medicalrepublic.com.au/80-of-ahpras-fast-track-doctors-working-in-cities/119365"
+     },
+     {
+      "author": "Medical Board of Australia and Ahpra",
+      "title": "Medical Training Survey 2024 Report (National Report)",
+      "publisher": "Medical Training Survey",
+      "date": "December 2024",
+      "url": "https://medicaltrainingsurvey.gov.au/Download/2024/2024%20Medical%20Training%20Survey%20-%20National%20Report.pdf"
+     }
+    ]
+   },
+   "outlook": {
+    "narrative": "Demand will keep rising as the population ages. People aged 65 and over were 18.1 percent of residents in 2025, and dementia is now the leading cause of death.{{1}}{{2}} Policy is aimed at hospital capacity and access. The January 2026 agreement commits about A$25 billion in additional Commonwealth public hospital funding, and the Commonwealth says it will continue to deliver 137 Medicare Urgent Care Clinics.{{3}} The 2026-27 Budget funds those clinics on an ongoing basis, at A$1.8 billion over five years, and redirects savings from the private health insurance rebate to aged care.{{4}} The government projects that 9 in 10 GP visits will be bulk billed by 2030.{{5}} The Australian Centre for Disease Control, backed by A$251 million, became a statutory agency on 1 January 2026, with Professor Zoe Wainer as its first Director-General from March 2026.{{6}}{{9}}{{7}}\n\nCost and capacity remain the main constraints. Health is 16.4 percent of Commonwealth expenses in 2026-27, and the budget papers forecast slower growth and higher inflation tied to oil prices.{{8}} Workforce supply and the pace of hospital reform will shape how much room there is for international partners.",
+    "sources": [
+     {
+      "author": "World Bank",
+      "title": "Population ages 65 and above (% of total population) (SP.POP.65UP.TO.ZS), Australia",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/AUS/indicator/SP.POP.65UP.TO.ZS?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "Australian Bureau of Statistics",
+      "title": "Dementia is Australia's leading cause of death",
+      "publisher": "Australian Bureau of Statistics",
+      "date": "14 November 2025",
+      "url": "https://www.abs.gov.au/media-centre/media-releases/dementia-australias-leading-cause-death"
+     },
+     {
+      "author": "Anthony Albanese, Prime Minister",
+      "title": "Record funding for public hospitals and disability reform",
+      "publisher": "Prime Minister of Australia",
+      "date": "30 January 2026",
+      "url": "https://www.pm.gov.au/media/record-funding-public-hospitals-and-disability-reform"
+     },
+     {
+      "author": "Jim Chalmers, Treasurer, and Katy Gallagher, Minister for Finance",
+      "title": "Budget Measures 2026-27 (Budget Paper No. 2)",
+      "publisher": "Commonwealth of Australia",
+      "date": "12 May 2026",
+      "url": "https://budget.gov.au/content/bp2/download/bp2_2026-27.pdf"
+     },
+     {
+      "author": "Mark Butler",
+      "title": "Delivering the Bulk Billing Incentive Program",
+      "publisher": "Mark Butler MP (ministerial media release)",
+      "date": "15 August 2025",
+      "url": "https://www.markbutler.net.au/news/media-releases/delivering-the-bulk-billing-incentive-program"
+     },
+     {
+      "author": "SBS News",
+      "title": "'In a precarious situation': Why experts say Australia needed a centre for disease control",
+      "publisher": "SBS News",
+      "date": "5 November 2025",
+      "url": "https://www.sbs.com.au/news/article/australian-cdc-passes-senate/iewdbc758"
+     },
+     {
+      "author": "AAP",
+      "title": "Australia to open permanent centre for disease control, health minister says",
+      "publisher": "SBS News",
+      "date": "29 October 2024",
+      "url": "https://www.sbs.com.au/news/article/australia-to-open-permanent-centre-for-disease-control-health-minister-says/znupilr9o"
+     },
+     {
+      "author": "Jim Chalmers, Treasurer, and Katy Gallagher, Minister for Finance",
+      "title": "Budget Strategy and Outlook 2026-27 (Budget Paper No. 1)",
+      "publisher": "Commonwealth of Australia",
+      "date": "12 May 2026",
+      "url": "https://budget.gov.au/content/bp1/download/bp1_2026-27.pdf"
+     },
+     {
+      "author": "Department of Health, Disability and Ageing",
+      "title": "Appointment of inaugural Director-General of the Australian Centre for Disease Control",
+      "publisher": "Australian Government",
+      "date": "23 December 2025",
+      "url": "https://www.health.gov.au/news/appointment-of-inaugural-director-general-of-the-australian-centre-for-disease-control"
+     }
+    ]
+   },
+   "competitive_landscape": {
+    "narrative": "The visible foreign links to Australian health care are mostly research and training ties. Peter MacCallum Cancer Centre signed a second memorandum with Boston's Dana-Farber Cancer Institute in November 2022 and a partnership agreement with Britain's The Christie in April 2024.{{1}}{{2}} Victoria announced Melbourne and Boston hospital partnerships in 2016.{{3}} The partnerships tracker lists 18 active ties, including Ochsner Health and Emory University with the University of Queensland, Memorial Sloan Kettering with Northern Sydney Local Health District, Weill Cornell Medicine with Monash University and Cleveland Clinic with Epworth HealthCare. Among owners, Healthscope was owned by North American private equity firm Brookfield until its 2025 receivership.{{4}}",
+    "closing": "A 2014 trade report said Australia has a smaller inbound than outbound medical tourism industry.{{9}} A 2017 review described a few wealthy Asia-Pacific patients, Epworth HealthCare reported 600 international patients a year from 31 countries, and some Sydney hospitals hold contracts with Pacific islands.{{5}} Icon Cancer Centre says international patients need a visa and a referral to be treated in Australia, and it directs Asia-Pacific patients to its concierge service in Singapore, Indonesia and Malaysia.{{6}} A 2011 article described residents of Papua New Guinea treaty villages crossing into the Torres Strait to use Queensland Health clinics, and a 2022 study says Queensland Health still triages Papua New Guinea nationals who present there.{{7}}{{10}} Outbound, plastic surgeons said in January 2024 that cosmetic tourism had surged in recent years, with online offers to destinations such as Turkey, Thailand and Brazil.{{8}}",
+    "sources": [
+     {
+      "author": "Dana-Farber Cancer Institute",
+      "title": "New international partnership to accelerate search for cancer cures",
+      "publisher": "Dana-Farber Cancer Institute",
+      "date": "17 November 2022",
+      "url": "https://physicianresources.dana-farber.org/news/new-international-partnership-to-accelerate-search-for-cancer-cures"
+     },
+     {
+      "author": "The Christie NHS Foundation Trust",
+      "title": "Partnership agreement celebrates collaboration between leading Australian and UK Cancer Centres",
+      "publisher": "The Christie NHS Foundation Trust",
+      "date": "18 April 2024",
+      "url": "https://www.christie.nhs.uk/about-us/news-at-the-christie/latest-news-stories/partnership-agreement-celebrates-collaboration-between-leading-australian-and-uk-cancer-centres"
+     },
+     {
+      "author": "Premier of Victoria",
+      "title": "Melbourne And Boston Strike New Health Agreements",
+      "publisher": "Premier of Victoria",
+      "date": "2 June 2016",
+      "url": "https://www.premier.vic.gov.au/melbourne-and-boston-strike-new-health-agreements"
+     },
+     {
+      "author": "Sarah Gerathy",
+      "title": "Healthscope to be split up following financial collapse, receivers announce",
+      "publisher": "ABC News",
+      "date": "14 September 2026",
+      "url": "https://www.abc.net.au/news/2026-09-14/healthscope-split-receivers-calvary-healthe-consortium/107151964"
+     },
+     {
+      "author": "IMTJ Team",
+      "title": "Could international patient numbers to Australia grow?",
+      "publisher": "International Medical Travel Journal (LaingBuisson)",
+      "date": "17 May 2017",
+      "url": "https://www.laingbuissonnews.com/imtj/news-imtj/could-international-patient-numbers-to-australia-grow/"
+     },
+     {
+      "author": "Icon Cancer Centre",
+      "title": "Become a patient",
+      "publisher": "Icon Cancer Centre Australia",
+      "date": "",
+      "url": "https://iconcancercentre.com.au/become-a-patient/"
+     },
+     {
+      "author": "Medical Journal of Australia",
+      "title": "Borderline health: complexities of the Torres Strait treaty",
+      "publisher": "The Medical Journal of Australia",
+      "date": "7 November 2011",
+      "url": "https://www.mja.com.au/journal/2011/195/9/borderline-health-complexities-torres-strait-treaty"
+     },
+     {
+      "author": "Australian Society of Plastic Surgeons",
+      "title": "ASPS statement re Cosmetic Tourism",
+      "publisher": "Australian Society of Plastic Surgeons",
+      "date": "January 2024",
+      "url": "https://plasticsurgery.org.au/wp-content/uploads/2024/01/FINAL-ASPS-cosmetic-tourism-statement-for-Sunrise-Jan-2024.pdf"
+     },
+     {
+      "author": "IMTJ Team",
+      "title": "Inbound and outbound Australian medical tourism growing",
+      "publisher": "International Medical Travel Journal (LaingBuisson)",
+      "date": "21 February 2014",
+      "url": "https://www.laingbuissonnews.com/imtj/news-imtj/inbound-and-outbound-australian-medical-tourism-growing/"
+     },
+     {
+      "author": "Australian Institute of Tropical Health and Medicine and coauthors",
+      "title": "Critical consideration of tuberculosis management of Papua New Guinea nationals and cross-border health issues in the remote Torres Strait Islands, Australia",
+      "publisher": "PubMed Central",
+      "date": "2022",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9506391/"
+     }
+    ],
+    "tracker_country": "Australia"
+   }
+  },
+  "recent_developments": [
+   {
+    "date": "2026-09-14",
+    "headline": "Healthscope's 25 remaining hospitals to be divided among four operators",
+    "summary": "Receivers announced that 25 Healthscope hospitals and its central services platform will be divided among four operators: Calvary Health Care takes 14, and Healthe Care, ACURIO Health and KnG Group take the rest.{{1}} Healthscope entered receivership in May 2025 after its North American private equity owner, Brookfield, withdrew support.{{1}}",
+    "sources": [
+     {
+      "author": "Sarah Gerathy",
+      "title": "Healthscope to be split up following financial collapse, receivers announce",
+      "publisher": "ABC News",
+      "date": "14 September 2026",
+      "url": "https://www.abc.net.au/news/2026-09-14/healthscope-split-receivers-calvary-healthe-consortium/107151964"
+     }
+    ]
+   },
+   {
+    "date": "2026-05-12",
+    "headline": "2026-27 Budget funds hospitals, urgent care and a private insurance rebate change",
+    "summary": "The Budget provides A$220.3 billion over five years to the states for public hospital services and the new funding addendum, and A$1.8 billion over five years for Medicare Urgent Care Clinics on an ongoing basis.{{1}} It removes the age-based uplift of the private health insurance rebate from 1 April 2027.{{1}}",
+    "sources": [
+     {
+      "author": "Jim Chalmers, Treasurer, and Katy Gallagher, Minister for Finance",
+      "title": "Budget Measures 2026-27 (Budget Paper No. 2)",
+      "publisher": "Commonwealth of Australia",
+      "date": "12 May 2026",
+      "url": "https://budget.gov.au/content/bp2/download/bp2_2026-27.pdf"
+     }
+    ]
+   },
+   {
+    "date": "2026-01-30",
+    "headline": "National Cabinet agrees new public hospital funding deal",
+    "summary": "National Cabinet agreed record funding for state and territory hospitals, including A$25 billion in additional Commonwealth funding for public hospitals, which the Prime Minister said is three times the increase under the last five-year agreement.{{1}} Commonwealth funding for state-run public hospitals is to reach a record A$219.6 billion from 2026-27 to 2030-31.{{1}}",
+    "sources": [
+     {
+      "author": "Anthony Albanese, Prime Minister",
+      "title": "Record funding for public hospitals and disability reform",
+      "publisher": "Prime Minister of Australia",
+      "date": "30 January 2026",
+      "url": "https://www.pm.gov.au/media/record-funding-public-hospitals-and-disability-reform"
+     }
+    ]
+   },
+   {
+    "date": "2025-11-05",
+    "headline": "Legislation for a permanent Australian Centre for Disease Control passes the Senate",
+    "summary": "Legislation setting out the functions and independence of the Australian Centre for Disease Control passed the Senate, with a director-general appointed by the health minister and operations due to start on 1 January 2026.{{1}} An interim centre had operated inside the health department since January 2024, and the government committed A$251 million over four years.{{1}}{{2}}",
+    "sources": [
+     {
+      "author": "SBS News",
+      "title": "'In a precarious situation': Why experts say Australia needed a centre for disease control",
+      "publisher": "SBS News",
+      "date": "5 November 2025",
+      "url": "https://www.sbs.com.au/news/article/australian-cdc-passes-senate/iewdbc758"
+     },
+     {
+      "author": "AAP",
+      "title": "Australia to open permanent centre for disease control, health minister says",
+      "publisher": "SBS News",
+      "date": "29 October 2024",
+      "url": "https://www.sbs.com.au/news/article/australia-to-open-permanent-centre-for-disease-control-health-minister-says/znupilr9o"
+     }
+    ]
+   },
+   {
+    "date": "2025-11-01",
+    "headline": "Bulk billing incentives extended to all Australians",
+    "summary": "From 1 November 2025, Medicare bulk billing incentives were extended beyond children under 16 and concession card holders to all Australians, and practices that bulk bill every eligible patient can share an extra 12.5 percent incentive payment with their GPs.{{1}}{{2}} The government projects that 9 in 10 GP visits will be bulk billed by 2030.{{1}}",
+    "sources": [
+     {
+      "author": "Mark Butler",
+      "title": "Delivering the Bulk Billing Incentive Program",
+      "publisher": "Mark Butler MP (ministerial media release)",
+      "date": "15 August 2025",
+      "url": "https://www.markbutler.net.au/news/media-releases/delivering-the-bulk-billing-incentive-program"
+     },
+     {
+      "author": "North Western Melbourne Primary Health Network",
+      "title": "Bulk Billing Incentives and the Bulk Billing Practice Incentive Program",
+      "publisher": "North Western Melbourne PHN",
+      "date": "",
+      "url": "https://nwmphn.org.au/for-primary-care/primary-care-reform/bulk-billing-practice-incentive-program/"
+     }
+    ]
+   }
+  ]
+ },
+ "resolution_log": [
+  "Research brief followed with sources opened via scripts/fetch_text.py, direct curl, or the World Bank Indicators API; every cited page was opened and read.",
+  "Not readable from this environment (blocked, 403, or JavaScript-only), so not cited: AIHW (aihw.gov.au, all pages), Department of Health, Disability and Ageing (health.gov.au), OECD (oecd.org), IMF (imf.org), Parliament of Australia (aph.gov.au), Commonwealth Fund Australia page, data.worldbank.org (502), Medical Deans Australia and New Zealand, Wesley Hospital, Peter MacCallum Cancer Centre site, Department of Foreign Affairs and Trade.",
+  "AIHW health expenditure figures (A$270.5 billion in 2023-24, A$10,037 per person) are cited to SBS News reporting of the AIHW report because the AIHW pages could not be opened.",
+  "World Bank figures are cited to the Indicators API pages that were read (WHO GHED based series), because data.worldbank.org pages were unavailable. Health expenditure share of GDP in the World Bank series (10.40% for 2023) differs from the AIHW national accounts basis (10.1% for 2023-24) and is labeled by year and series.",
+  "Structural description of Medicare and the public/private split relies on the 2020 Commonwealth Fund profile (data 2015 to 2017); current figures come from APRA (June 2026), Productivity Commission (RoGS 2026) and Budget Papers 2026-27. COAG in that profile has since been replaced by National Cabinet (PM statement, 30 January 2026).",
+  "Hospital beds per 1,000 in the World Bank series ends in 2016; the market chart is therefore a 2008 to 2016 line, and the 2023-24 public hospital bed figure (2.5 per 1,000) comes from RoGS 2026.",
+  "Inbound and outbound medical travel sources are dated (IMTJ 2014 and 2017, MJA 2011); no current official count of international patients was found. Wording is attributed and dated accordingly.",
+  "Verification: two independent verifiers (a third was stopped to save usage); flags from either were re-checked in resolution.",
+  "Financing now leads with AIHW Health expenditure Australia 2024-25 (released October 2026; figures confirmed from the AIHW release); 2023-24 kept as the labeled prior year via SBS.",
+  "Commonwealth Fund 2020 profile replaced by the May 2026 edition for the Medicare and education description; the 'no cap on physicians' clause and the 2016-17 private hospital count were removed as stale.",
+  "Medical Training Survey figures re-cited to the 2024 national report; expedited-pathway figures split by period; CDC sentence updated to its January 2026 start; Torres Strait, Icon and cosmetic tourism sentences reworded to match their sources.",
+  "World Bank hospital bed series still ends in 2016 and is labeled so; no readable newer series.",
+  "Tracker: ARSADA/Monash Health removed (LinkedIn-only source, association not a hospital); RSPON/Monash University Indonesia removed (offshore campus in Indonesia, not an Australian institution); added Cleveland Clinic/Epworth (Active), SickKids and Great Ormond Street via IPCHiP with MCRI/RCH (Active), Mayo Clinic Laboratories/SydPath (Unclear); dead URLs replaced; Dana-Farber and Princess Margaret kept Unclear (newer evidence only in unreadable search summaries)."
+ ],
+ "csi_manual": {
+  "patient_volume_and_revenue": "",
+  "referral_sources": "",
+  "relationship_history": "",
+  "complications": "",
+  "key_contacts": "",
+  "opportunities": "",
+  "csi_recommendation": ""
+ },
+ "charts": [
+  {
+   "id": "spending",
+   "page": "health",
+   "kind": "line",
+   "title": "Australia: health spending and out-of-pocket share, 2012 to 2023",
+   "unit": "%",
+   "note": "Current health expenditure as a share of GDP, and out-of-pocket spending as a share of current health expenditure.",
+   "highlight": "Australia",
+   "series": [
+    {
+     "name": "Current health expenditure (% of GDP)",
+     "points": [
+      [
+       "2012",
+       8.67
+      ],
+      [
+       "2013",
+       8.75
+      ],
+      [
+       "2014",
+       9.83
+      ],
+      [
+       "2015",
+       10.14
+      ],
+      [
+       "2016",
+       10.09
+      ],
+      [
+       "2017",
+       10.11
+      ],
+      [
+       "2018",
+       10.09
+      ],
+      [
+       "2019",
+       10.25
+      ],
+      [
+       "2020",
+       10.7
+      ],
+      [
+       "2021",
+       10.52
+      ],
+      [
+       "2022",
+       9.89
+      ],
+      [
+       "2023",
+       10.4
+      ]
+     ]
+    },
+    {
+     "name": "Out-of-pocket (% of current health expenditure)",
+     "points": [
+      [
+       "2012",
+       19.9
+      ],
+      [
+       "2013",
+       19.5
+      ],
+      [
+       "2014",
+       17.8
+      ],
+      [
+       "2015",
+       16.9
+      ],
+      [
+       "2016",
+       16.6
+      ],
+      [
+       "2017",
+       16.3
+      ],
+      [
+       "2018",
+       16.5
+      ],
+      [
+       "2019",
+       15.0
+      ],
+      [
+       "2020",
+       15.2
+      ],
+      [
+       "2021",
+       14.5
+      ],
+      [
+       "2022",
+       15.1
+      ],
+      [
+       "2023",
+       15.8
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Bank",
+     "title": "Current health expenditure (% of GDP) (SH.XPD.CHEX.GD.ZS), Australia",
+     "publisher": "World Bank Indicators API (World Development Indicators)",
+     "date": "2026-10-08",
+     "url": "https://api.worldbank.org/v2/country/AUS/indicator/SH.XPD.CHEX.GD.ZS?format=json&per_page=80&date=2008:2025"
+    },
+    {
+     "author": "World Bank",
+     "title": "Out-of-pocket expenditure (% of current health expenditure) (SH.XPD.OOPC.CH.ZS), Australia",
+     "publisher": "World Bank Indicators API (World Development Indicators)",
+     "date": "2026-10-08",
+     "url": "https://api.worldbank.org/v2/country/AUS/indicator/SH.XPD.OOPC.CH.ZS?format=json&per_page=80&date=2008:2025"
+    }
+   ],
+   "split": true
+  },
+  {
+   "id": "workforce",
+   "page": "health",
+   "kind": "bar",
+   "title": "Physicians per 1,000 people, Australia and comparators (latest year available)",
+   "unit": "per 1,000",
+   "note": "Latest year available for each country in the World Bank series, shown in brackets; comparison years differ (2022 and 2023).",
+   "highlight": "Australia (2022)",
+   "series": [
+    {
+     "name": "Physicians per 1,000",
+     "points": [
+      [
+       "World (2022)",
+       1.86
+      ],
+      [
+       "Canada (2023)",
+       2.82
+      ],
+      [
+       "Singapore (2022)",
+       2.83
+      ],
+      [
+       "United Kingdom (2023)",
+       3.3
+      ],
+      [
+       "OECD (2022)",
+       3.43
+      ],
+      [
+       "New Zealand (2022)",
+       3.61
+      ],
+      [
+       "United States (2022)",
+       3.68
+      ],
+      [
+       "Australia (2022)",
+       4.09
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Bank",
+     "title": "Physicians (per 1,000 people) (SH.MED.PHYS.ZS), Australia and comparators",
+     "publisher": "World Bank Indicators API (World Development Indicators)",
+     "date": "2026-10-08",
+     "url": "https://api.worldbank.org/v2/country/AUS;NZL;CAN;GBR;USA;SGP;OED;WLD/indicator/SH.MED.PHYS.ZS?format=json&per_page=500&date=2019:2025"
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "page": "market",
+   "kind": "line",
+   "title": "Australia: hospital beds per 1,000 people, 2008 to 2016",
+   "unit": "per 1,000",
+   "note": "Hospital beds as reported to the World Bank; 2016 is the latest year in the series.",
+   "highlight": "2016",
+   "series": [
+    {
+     "name": "Hospital beds per 1,000",
+     "points": [
+      [
+       "2008",
+       3.8
+      ],
+      [
+       "2009",
+       3.76
+      ],
+      [
+       "2010",
+       3.76
+      ],
+      [
+       "2011",
+       3.76
+      ],
+      [
+       "2012",
+       3.73
+      ],
+      [
+       "2013",
+       3.72
+      ],
+      [
+       "2014",
+       3.77
+      ],
+      [
+       "2015",
+       3.79
+      ],
+      [
+       "2016",
+       3.82
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Bank",
+     "title": "Hospital beds (per 1,000 people) (SH.MED.BEDS.ZS), Australia",
+     "publisher": "World Bank Indicators API (World Development Indicators)",
+     "date": "2026-10-08",
+     "url": "https://api.worldbank.org/v2/country/AUS/indicator/SH.MED.BEDS.ZS?format=json&per_page=80&date=2008:2025"
+    }
+   ]
+  }
+ ]
+}

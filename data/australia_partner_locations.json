@@ -1,0 +1,210 @@
+{
+ "note": "Each partnership is placed in the Australian partner's home city.",
+ "bounds": [
+  112.0,
+  155.0,
+  -44.5,
+  -9.5
+ ],
+ "metros": [
+  "Sydney",
+  "Melbourne",
+  "Brisbane",
+  "Perth",
+  "Adelaide"
+ ],
+ "cities": {
+  "Sydney": [
+   [
+    151.21,
+    -33.87
+   ],
+   [
+    -12,
+    0
+   ]
+  ],
+  "Melbourne": [
+   [
+    144.96,
+    -37.81
+   ],
+   [
+    -12,
+    0
+   ]
+  ],
+  "Brisbane": [
+   [
+    153.03,
+    -27.47
+   ],
+   [
+    -12,
+    0
+   ]
+  ],
+  "Perth": [
+   [
+    115.86,
+    -31.95
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Adelaide": [
+   [
+    138.6,
+    -34.93
+   ],
+   [
+    -12,
+    0
+   ]
+  ],
+  "Canberra": [
+   [
+    149.13,
+    -35.28
+   ],
+   [
+    -12,
+    0
+   ]
+  ]
+ },
+ "locations": {
+  "australia--boston-children-s-hospital--murdoch-children-s-research-institute-and-the-royal-children-s-hospital": {
+   "cities": [
+    "Melbourne"
+   ]
+  },
+  "australia--cleveland-clinic--epworth-healthcare-epworth-richmond": {
+   "cities": [
+    "Melbourne"
+   ]
+  },
+  "australia--emory-university--the-university-of-queensland-queensland-emory-vaccine-centre": {
+   "cities": [
+    "Brisbane"
+   ]
+  },
+  "australia--memorial-sloan-kettering-cancer-center--northern-sydney-local-health-district-royal-north-shore-hospital-and-north-shore-private-hospital": {
+   "cities": [
+    "Sydney"
+   ]
+  },
+  "australia--ochsner-health--the-university-of-queensland-uq-medical-school": {
+   "cities": [
+    "Brisbane"
+   ]
+  },
+  "australia--weill-cornell-medicine--monash-university": {
+   "cities": [
+    "Melbourne"
+   ]
+  },
+  "australia--apollo-hospitals--monash-university-faculty-of-information-technology": {
+   "cities": [
+    "Melbourne"
+   ]
+  },
+  "australia--great-ormond-street-hospital-and-ucl-great-ormond-street-institute-of-child-health--murdoch-children-s-research-institute-and-the-royal-children-s-hospital": {
+   "cities": [
+    "Melbourne"
+   ]
+  },
+  "australia--ho-chi-minh-city-eye-hospital--university-of-western-australia-doctor-of-optometry": {
+   "cities": [
+    "Perth"
+   ]
+  },
+  "australia--hokkaido-university-faculty-of-health-sciences--university-of-melbourne-faculty-of-medicine-dentistry-and-health-sciences": {
+   "cities": [
+    "Melbourne"
+   ]
+  },
+  "australia--manipal-academy-of-higher-education-mahe--university-of-sydney": {
+   "cities": [
+    "Sydney"
+   ]
+  },
+  "australia--max-healthcare--monash-university-biomedicine-discovery-institute": {
+   "cities": [
+    "Melbourne"
+   ]
+  },
+  "australia--sichuan-provincial-people-s-hospital--st-vincent-s-hospital-melbourne-st-vincent-s-health-australia": {
+   "cities": [
+    "Melbourne"
+   ]
+  },
+  "australia--the-chinese-medicine-hospital-of-hong-kong--western-sydney-university-nicm-health-research-institute": {
+   "cities": [
+    "Sydney"
+   ]
+  },
+  "australia--the-christie-nhs-foundation-trust--peter-maccallum-cancer-centre": {
+   "cities": [
+    "Melbourne"
+   ]
+  },
+  "australia--the-hospital-for-sick-children-sickkids--murdoch-children-s-research-institute-and-the-royal-children-s-hospital": {
+   "cities": [
+    "Melbourne"
+   ]
+  },
+  "australia--university-of-galway-bioinnovate-ireland--university-of-western-australia-perth-biodesign": {
+   "cities": [
+    "Perth"
+   ]
+  },
+  "australia--west-china-hospital-sichuan-university--university-of-queensland-institute-for-molecular-bioscience": {
+   "cities": [
+    "Brisbane"
+   ]
+  },
+  "australia--dana-farber-cancer-institute--peter-maccallum-cancer-centre": {
+   "cities": [
+    "Melbourne"
+   ]
+  },
+  "australia--mayo-clinic-laboratories-mayo-clinic--sydpath-st-vincent-s-hospital-sydney-st-vincent-s-health-australia": {
+   "cities": [
+    "Sydney"
+   ]
+  },
+  "australia--national-university-of-singapore-saw-swee-hock-school-of-public-health--australian-national-university-college-of-health-and-medicine": {
+   "cities": [
+    "Canberra"
+   ]
+  },
+  "australia--princess-margaret-cancer-centre-university-health-network--peter-maccallum-cancer-centre": {
+   "cities": [
+    "Melbourne"
+   ]
+  },
+  "australia--sheba-medical-center--monash-university-with-monash-health-and-the-victorian-government": {
+   "cities": [
+    "Melbourne"
+   ]
+  },
+  "australia--sheba-medical-center--nsw-health-new-south-wales-government": {
+   "cities": [
+    "Sydney"
+   ]
+  },
+  "australia--sheba-medical-center--peter-maccallum-cancer-centre-with-australian-friends-of-sheba": {
+   "cities": [
+    "Melbourne"
+   ]
+  },
+  "australia--siriraj-hospital-faculty-of-medicine-mahidol-university--university-of-sydney-faculty-of-medicine-and-health": {
+   "cities": [
+    "Sydney"
+   ]
+  }
+ }
+}
