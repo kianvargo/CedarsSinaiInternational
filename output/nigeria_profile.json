@@ -1,0 +1,1301 @@
+{
+ "country": "Nigeria",
+ "generated_date": "2026-10-21",
+ "research": {
+  "country_overview": {
+   "demographics": {
+    "facts": [
+     {
+      "label": "Capital",
+      "value": "Abuja{{5}}"
+     },
+     {
+      "label": "Official language",
+      "value": "English{{5}}"
+     },
+     {
+      "label": "Population",
+      "value": "About 237.5 million (2025 estimate){{1}}"
+     },
+     {
+      "label": "Area",
+      "value": "923,768 sq km{{2}}"
+     },
+     {
+      "label": "GDP (PPP), total",
+      "value": "About 2.26 trillion international dollars (2025){{3}}"
+     },
+     {
+      "label": "GDP (PPP), per capita",
+      "value": "About 9,530 international dollars (2025){{4}}"
+     },
+     {
+      "label": "Government type",
+      "value": "Federal presidential republic{{5}}{{6}}"
+     },
+     {
+      "label": "Head of state and government",
+      "value": "President Bola Ahmed Tinubu (in office since 29 May 2023){{6}}"
+     },
+     {
+      "label": "Currency",
+      "value": "Naira (₦){{7}}"
+     },
+     {
+      "label": "Urban population",
+      "value": "63.8% of total (2025){{8}}"
+     },
+     {
+      "label": "Total fertility rate",
+      "value": "4.38 births per woman (2024){{9}}"
+     },
+     {
+      "label": "Life expectancy at birth",
+      "value": "54.6 years (2024){{10}}"
+     },
+     {
+      "label": "Infant mortality rate",
+      "value": "69.8 per 1,000 live births (2024){{11}}"
+     }
+    ],
+    "narrative": "Nigeria had about 237.5 million people in 2025, according to the World Bank, with annual growth of 2.1 percent.{{1}}{{14}} The population is very young: 40.5 percent are under 15 and only 3.1 percent are 65 or older.{{12}}{{13}} Fertility is falling but remains high at 4.38 births per woman in 2024, and life expectancy at birth was 54.6 years.{{9}}{{10}} About 64 percent of Nigerians live in urban areas.{{8}} Infant mortality was 69.8 per 1,000 live births in 2024.{{11}} The World Bank also notes that 3.5 million people enter the labor force each year, which puts pressure on jobs.{{6}}\n\nFor an international academic medical center, the picture is a very large and growing population with limited public capacity, concentrated in cities where private and insured demand for specialty care is most likely to emerge. The older population is small today, but the absolute numbers of adults with chronic disease will rise quickly with population growth.",
+    "sources": [
+     {
+      "author": "World Bank",
+      "title": "Population, total (SP.POP.TOTL): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SP.POP.TOTL?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Surface area (sq. km) (AG.SRF.TOTL.K2): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/AG.SRF.TOTL.K2?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "GDP, PPP (current international $) (NY.GDP.MKTP.PP.CD): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/NY.GDP.MKTP.PP.CD?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "GDP per capita, PPP (current international $) (NY.GDP.PCAP.PP.CD): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/NY.GDP.PCAP.PP.CD?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "Federal Republic of Nigeria",
+      "title": "Nigeria's Constitution of 1999 with Amendments through 2011",
+      "publisher": "Constitute Project",
+      "date": "2011",
+      "url": "https://www.constituteproject.org/constitution/Nigeria_2011"
+     },
+     {
+      "author": "World Bank",
+      "title": "The World Bank in Nigeria: Overview",
+      "publisher": "World Bank",
+      "date": "October 2026",
+      "url": "https://www.worldbank.org/en/country/nigeria/overview"
+     },
+     {
+      "author": "Central Bank of Nigeria",
+      "title": "Exchange Rates: Nigerian Foreign Exchange Market (NFEM) rates (₦/US$)",
+      "publisher": "Central Bank of Nigeria",
+      "date": "",
+      "url": "https://www.cbn.gov.ng/rates/ExchRateByCurrency.html"
+     },
+     {
+      "author": "World Bank",
+      "title": "Urban population (% of total population) (SP.URB.TOTL.IN.ZS): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SP.URB.TOTL.IN.ZS?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Fertility rate, total (births per woman) (SP.DYN.TFRT.IN): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SP.DYN.TFRT.IN?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Life expectancy at birth, total (years) (SP.DYN.LE00.IN): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SP.DYN.LE00.IN?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Mortality rate, infant (per 1,000 live births) (SP.DYN.IMRT.IN): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SP.DYN.IMRT.IN?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Population ages 0-14 (% of total population) (SP.POP.0014.TO.ZS): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SP.POP.0014.TO.ZS?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Population ages 65 and above (% of total population) (SP.POP.65UP.TO.ZS): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SP.POP.65UP.TO.ZS?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Population growth (annual %) (SP.POP.GROW): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SP.POP.GROW?format=json&per_page=1000&date=2010:2025"
+     }
+    ]
+   },
+   "government": {
+    "narrative": "Nigeria is a federation of 36 states and the Federal Capital Territory, Abuja.{{1}}{{2}} Bola Tinubu has been president since 29 May 2023, the fifth president since the return of democracy in 1999.{{2}}{{3}} The ruling All Progressives Congress controls the executive and holds majorities in the National Assembly and in most states.{{2}} The Senate has three senators from each state and one from the capital territory, and the constitution sets the legislature's term at four years.{{1}} The Independent National Electoral Commission rescheduled the next presidential and National Assembly elections to 16 January 2027, with governorship and state assembly elections on 6 February 2027.{{4}} Health policy is led by Professor Muhammad Ali Pate, the Coordinating Minister of Health and Social Welfare.{{5}}{{7}} A key federal role is the regulatory framework, while the 36 states and their local governments manage general hospitals and primary health care centers.{{6}} Federal reforms therefore depend on state cooperation, and a change in political priorities after the 2027 elections is a point to watch for any long-term partner.",
+    "sources": [
+     {
+      "author": "Federal Republic of Nigeria",
+      "title": "Nigeria's Constitution of 1999 with Amendments through 2011",
+      "publisher": "Constitute Project",
+      "date": "2011",
+      "url": "https://www.constituteproject.org/constitution/Nigeria_2011"
+     },
+     {
+      "author": "World Bank",
+      "title": "The World Bank in Nigeria: Overview",
+      "publisher": "World Bank",
+      "date": "October 2026",
+      "url": "https://www.worldbank.org/en/country/nigeria/overview"
+     },
+     {
+      "author": "Al Jazeera",
+      "title": "Bola Tinubu sworn in as Nigeria's president, succeeds Buhari",
+      "publisher": "Al Jazeera",
+      "date": "29 May 2023",
+      "url": "https://www.aljazeera.com/news/2023/5/29/tinubu-sworn-in-as-nigerias-president-succeeds-buhari"
+     },
+     {
+      "author": "Channels Television",
+      "title": "INEC Releases Revised 2027 Elections Timetable, Presidential Poll To Hold Jan 16",
+      "publisher": "Channels Television",
+      "date": "26 February 2026",
+      "url": "https://www.channelstv.com/2026/02/26/inec-releases-revised-election-timetable-presidential-poll-to-hold-jan-16/"
+     },
+     {
+      "author": "Samuel Anyanwu",
+      "title": "2025 NHSW-JAR: Tinubu's Health Renewal Compact Record 84% Implementation – Pate Reports Progress",
+      "publisher": "Federal Ministry of Information and National Orientation",
+      "date": "13 November 2025",
+      "url": "https://fmino.gov.ng/?p=43744"
+     },
+     {
+      "author": "Oxford Business Group",
+      "title": "Nigeria health care overview",
+      "publisher": "Oxford Business Group",
+      "date": "",
+      "url": "https://oxfordbusinessgroup.com/report-article/nigeria-health-care-overview/"
+     },
+     {
+      "author": "ThisDay",
+      "title": "Tinubu Eulogises Health Minister Ali Pate at 58",
+      "publisher": "ThisDay",
+      "date": "6 September 2026",
+      "url": "https://www.thisdaylive.com/2026/09/06/tinubu-eulogises-health-minister-ali-pate-at-58/"
+     }
+    ]
+   },
+   "economy": {
+    "narrative": "Nigeria's economy has been reshaped by reforms begun in 2023, which the World Bank lists as subsidy removal, exchange rate unification and tighter monetary policy.{{1}} Real GDP grew 4.2 percent in the first half of 2026, up from 3.9 percent a year earlier, led by services and stronger agriculture, and the Bank projects average growth of 4.4 percent a year from 2026 to 2028.{{1}} Headline inflation fell from 27.4 percent in March 2025 to 15.1 percent in February 2026, and gross reserves reached $51.9 billion at the end of July 2026 on higher oil exports and portfolio inflows, though the Bank warns that reliance on short-term portfolio flows is a vulnerability.{{1}} Inflation was 14.63 percent in September 2026,{{6}} and the central bank, which had held its policy rate at 26.5 percent, cut it to 23 percent on 22 September 2026.{{1}}{{5}} Poverty is the main drag: an estimated 69.6 percent of Nigerians lived below $4.20 a day in 2025.{{1}} The National Bureau of Statistics reported growth of 3.89 percent year on year in the first quarter of 2026 and 4.43 percent in the second.{{4}}{{7}} The Renewed Hope National Development Plan 2026 to 2030 prioritizes economic diversification, human capital and private sector-led growth,{{2}} and the administration has tied it to a goal of a $1 trillion economy by 2030.{{3}} A steadier naira and lower inflation may help private hospitals plan and import equipment, but household incomes remain thin.",
+    "sources": [
+     {
+      "author": "World Bank",
+      "title": "The World Bank in Nigeria: Overview",
+      "publisher": "World Bank",
+      "date": "October 2026",
+      "url": "https://www.worldbank.org/en/country/nigeria/overview"
+     },
+     {
+      "author": "Bola Ahmed Tinubu",
+      "title": "Address by President Bola Ahmed Tinubu at the Second Edition of the National Economic Council (NEC) Conference, State House, Abuja, 9 February 2026",
+      "publisher": "Nigeria State House",
+      "date": "9 February 2026",
+      "url": "https://statehouse.gov.ng/?p=62157"
+     },
+     {
+      "author": "Samuel Anyanwu",
+      "title": "To Fast-track 1 Trillion-Dollar Economy, NEC Endorses Renewed Hope Economic Plan",
+      "publisher": "Federal Ministry of Information and National Orientation",
+      "date": "August 2025",
+      "url": "https://fmino.gov.ng/to-fast-track-1-trillion-dollar-economy-nec-endorses-renewed-hope-economic-plan/"
+     },
+     {
+      "author": "News Agency of Nigeria",
+      "title": "Nigeria's GDP grew by 3.89% in Q1 2026- NBS",
+      "publisher": "News Agency of Nigeria",
+      "date": "25 May 2026",
+      "url": "https://nannews.ng/nigerias-gdp-grew-by-3-89-in-q1-2026-nbs/"
+     },
+     {
+      "author": "Central Bank of Nigeria",
+      "title": "Key Decisions of the Central Bank of Nigeria Monetary Policy Committee, September 21-22, 2026 (307th meeting)",
+      "publisher": "Central Bank of Nigeria",
+      "date": "22 September 2026",
+      "url": "https://www.cbn.gov.ng/MonetaryPolicy/Decisions.html"
+     },
+     {
+      "author": "Olalekan Adigun",
+      "title": "Nigeria's inflation slows to 14.63% in September, fourth straight monthly decline in 2026",
+      "publisher": "Nairametrics (reporting NBS CPI)",
+      "date": "15 October 2026",
+      "url": "https://nairametrics.com/2026/10/15/nigerias-inflation-drops-to-14-63-in-september-2026-nbs/"
+     },
+     {
+      "author": "Premium Times",
+      "title": "Nigeria's economy grows 4.43% in Q2 2026 - NBS",
+      "publisher": "Premium Times (reporting NBS)",
+      "date": "August 2026",
+      "url": "https://www.premiumtimesng.com/business/business-news/906587-nigerias-economy-grows-4-43-in-q2-2026-nbs.html"
+     }
+    ]
+   },
+   "disease_prevalence": {
+    "facts": [
+     {
+      "label": "Deaths from communicable, maternal, prenatal and nutritional conditions",
+      "value": "63.7% of deaths (2021){{1}}"
+     },
+     {
+      "label": "Deaths from noncommunicable diseases",
+      "value": "27.7% of deaths (2021), up from 21.5% in 2010{{2}}"
+     },
+     {
+      "label": "Probability of dying aged 30 to 70 from cardiovascular disease, cancer, diabetes or chronic respiratory disease",
+      "value": "17.7% (2021){{3}}"
+     },
+     {
+      "label": "Malaria incidence",
+      "value": "294 per 1,000 people at risk (2024){{6}}"
+     },
+     {
+      "label": "Share of malaria deaths in the WHO African Region",
+      "value": "31.9% (2024){{12}}{{4}}"
+     },
+     {
+      "label": "Maternal mortality ratio",
+      "value": "993 per 100,000 live births (2023, modeled){{7}}"
+     },
+     {
+      "label": "Under-five mortality",
+      "value": "115.6 per 1,000 live births (2024){{10}}"
+     },
+     {
+      "label": "Stunting, children under five",
+      "value": "33.8% (2021){{8}}"
+     },
+     {
+      "label": "HIV prevalence, ages 15 to 49",
+      "value": "1.2% (2024){{9}}"
+     },
+     {
+      "label": "Cancer burden (Health Minister)",
+      "value": "About 127,000 cases and 80,000 deaths a year{{11}}"
+     }
+    ],
+    "narrative": "Nigeria carries a double burden of disease. Communicable, maternal, prenatal and nutritional conditions caused 63.7 percent of deaths in 2021, while noncommunicable diseases caused 27.7 percent, up from 21.5 percent in 2010.{{1}}{{2}} Malaria remains the largest single threat. The World Health Organization estimated 282 million cases and 610,000 deaths worldwide in 2024, and Nigeria accounted for 31.9 percent of malaria deaths in the WHO African Region.{{5}}{{12}} Maternal and child outcomes are poor: the modeled maternal mortality ratio was 993 per 100,000 live births in 2023, under-five mortality was 115.6 per 1,000 live births in 2024, and 33.8 percent of children under five were stunted in 2021.{{7}}{{10}}{{8}} The probability of dying between ages 30 and 70 from cardiovascular disease, cancer, diabetes or chronic respiratory disease was 17.7 percent in 2021.{{3}} Health Minister Pate has said Nigeria records about 127,000 cancer cases and 80,000 cancer deaths a year.{{11}} The rise in chronic disease alongside an unfinished infectious disease agenda means demand is growing for cancer, cardiovascular and maternal care, the areas that depend most on specialist capacity.",
+    "sources": [
+     {
+      "author": "World Bank",
+      "title": "Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions (% of total) (SH.DTH.COMM.ZS): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SH.DTH.COMM.ZS?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Cause of death, by non-communicable diseases (% of total) (SH.DTH.NCOM.ZS): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SH.DTH.NCOM.ZS?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%) (SH.DYN.NCOM.ZS): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SH.DYN.NCOM.ZS?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "Mustapha Usman",
+      "title": "Nigeria leads as global malaria deaths rise to 610,000",
+      "publisher": "International Centre for Investigative Reporting",
+      "date": "25 April 2026",
+      "url": "https://www.icirnigeria.org/?p=275865"
+     },
+     {
+      "author": "World Health Organization",
+      "title": "World malaria report 2025",
+      "publisher": "World Health Organization",
+      "date": "2025",
+      "url": "https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Incidence of malaria (per 1,000 population at risk) (SH.MLR.INCD.P3): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SH.MLR.INCD.P3?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Maternal mortality ratio (modeled estimate, per 100,000 live births) (SH.STA.MMRT): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SH.STA.MMRT?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Prevalence of stunting, height for age (% of children under 5) (SH.STA.STNT.ZS): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SH.STA.STNT.ZS?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Prevalence of HIV, total (% of population ages 15-49) (SH.DYN.AIDS.ZS): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SH.DYN.AIDS.ZS?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Mortality rate, under-5 (per 1,000 live births) (SH.DYN.MORT): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SH.DYN.MORT?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "Olawale Ajimotokan, Francis Sardauna, Adibe Emenyonu and Gideon Arinze",
+      "title": "To Boost Cancer Care, FG Inaugurates Oncology Centres in Katsina, Enugu, Edo",
+      "publisher": "ThisDay",
+      "date": "25 July 2025",
+      "url": "https://www.thisdaylive.com/2025/07/25/to-boost-cancer-care-fg-inaugurates-oncology-centres-in-katsina-enugu-edo/"
+     },
+     {
+      "author": "World Health Organization",
+      "title": "Malaria fact sheet",
+      "publisher": "World Health Organization",
+      "date": "2025",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/malaria"
+     }
+    ]
+   }
+  },
+  "health_system": {
+   "public_system": {
+    "narrative": "Nigeria's public system runs on three levels of government. The federal government plays a key regulatory role, and the 36 states and their local governments manage general hospitals and primary health care centers.{{1}} As of mid-2021 the Federal Ministry of Health counted 40,368 hospitals and clinics, of which 85.2 percent were primary, 14.4 percent secondary and 0.4 percent tertiary.{{1}} Since 2023 the Presidential Health Sector Renewal Investment Compact has tried to align federal, state and donor spending behind one plan, and the ministry reported that 84 percent of its key performance indicators had been met by the third quarter of 2025, a self-reported figure.{{2}} Visits to facilities funded by the Basic Health Care Provision Fund rose from 10 million in early 2024 to 45 million by mid-2025, and more than 20,000 frontline health workers were recruited into federal tertiary hospitals.{{2}} Insurance is growing from a small base. The National Health Insurance Authority said in July 2026 that enrollment had reached 22.03 million, up 35 percent in a year as mandatory provisions are phased in,{{3}} and in September 2026 that it had passed 23 million.{{7}} By our calculation that is roughly 10 percent of the World Bank's 2025 population estimate of 237.5 million.{{4}} At the top of the system, the government is equipping federal teaching hospitals with cancer centers, including the first three inaugurated in July 2025.{{6}} Tertiary capacity is still scarce: tertiary facilities made up only 0.25 percent of the facility register in one peer-reviewed analysis.{{5}}",
+    "sources": [
+     {
+      "author": "Oxford Business Group",
+      "title": "Nigeria health care overview",
+      "publisher": "Oxford Business Group",
+      "date": "",
+      "url": "https://oxfordbusinessgroup.com/report-article/nigeria-health-care-overview/"
+     },
+     {
+      "author": "Samuel Anyanwu",
+      "title": "2025 NHSW-JAR: Tinubu's Health Renewal Compact Record 84% Implementation – Pate Reports Progress",
+      "publisher": "Federal Ministry of Information and National Orientation",
+      "date": "13 November 2025",
+      "url": "https://fmino.gov.ng/?p=43744"
+     },
+     {
+      "author": "Magdalene Ukuedojor",
+      "title": "Nigerians on health insurance hit 22m: NHIA",
+      "publisher": "News Agency of Nigeria",
+      "date": "9 July 2026",
+      "url": "https://nannews.ng/nigerians-on-health-insurance-hit-22m-nhia/"
+     },
+     {
+      "author": "World Bank",
+      "title": "Population, total (SP.POP.TOTL): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SP.POP.TOTL?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "Makinde OA, Sule A, Ayankogbe O, Boone D",
+      "title": "Distribution of health facilities in Nigeria: Implications and options for Universal Health Coverage",
+      "publisher": "International Journal of Health Planning and Management 33(4):e1179-e1192",
+      "date": "October 2018",
+      "url": "https://ideas.repec.org/a/bla/ijhplm/v33y2018i4pe1179-e1192.html"
+     },
+     {
+      "author": "Arise News",
+      "title": "Nigeria Inaugurates World-Class Oncology Centres in Katsina, Edo, Enugu to Boost Cancer Care",
+      "publisher": "Arise News",
+      "date": "25 July 2025",
+      "url": "https://www.arise.tv/nigeria-inaugurates-world-class-oncology-centres-in-katsina-edo-enugu-to-boost-cancer-care"
+     },
+     {
+      "author": "James Emejo",
+      "title": "NHIA Enrolment Hits 23m, Expands Disease Cover",
+      "publisher": "ThisDay",
+      "date": "21 September 2026",
+      "url": "https://www.thisdaylive.com/2026/09/21/nhia-enrolment-hits-23m-expands-disease-cover/"
+     }
+    ]
+   },
+   "private_system": {
+    "narrative": "Private providers are a large part of the system. Federal Ministry of Health data for mid-2021 counted 10,900 private facilities, 27 percent of the total,{{1}} and a peer-reviewed analysis of the ministry's facility register found 33 percent private, with secondary facilities mostly privately owned.{{2}} Reports on the December 2025 U.S. health memorandum say Christian faith-based clinics are about 10 percent of providers but serve more than 30 percent of Nigerians.{{4}} Most care is paid for by households, with out-of-pocket payments at 71.9 percent of current health spending in 2023,{{3}} so private demand depends on ability to pay. Foreign capital is entering at the high end. Evercare Group, which at its 2021 launch was owned by a $1 billion fund managed by TPG Growth, built the 165-bed Evercare Hospital Lekki in Lagos,{{5}} and India's Padiyath Healthcare has announced $100 million of investment, starting with a 300-bed hospital in Abuja.{{6}} In February 2026 the IFC and the Nigeria Sovereign Investment Authority's MedServe arranged naira financing for more than a dozen diagnostic and cancer centers in a $154.1 million project.{{7}}",
+    "sources": [
+     {
+      "author": "Oxford Business Group",
+      "title": "Nigeria health care overview",
+      "publisher": "Oxford Business Group",
+      "date": "",
+      "url": "https://oxfordbusinessgroup.com/report-article/nigeria-health-care-overview/"
+     },
+     {
+      "author": "Makinde OA, Sule A, Ayankogbe O, Boone D",
+      "title": "Distribution of health facilities in Nigeria: Implications and options for Universal Health Coverage",
+      "publisher": "International Journal of Health Planning and Management 33(4):e1179-e1192",
+      "date": "October 2018",
+      "url": "https://ideas.repec.org/a/bla/ijhplm/v33y2018i4pe1179-e1192.html"
+     },
+     {
+      "author": "World Bank",
+      "title": "Out-of-pocket expenditure (% of current health expenditure) (SH.XPD.OOPC.CH.ZS): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SH.XPD.OOPC.CH.ZS?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "Destiny Eseaga",
+      "title": "Key Highlights of U.S. - Nigeria $5.1B Health Deal",
+      "publisher": "TechEconomy",
+      "date": "21 December 2025",
+      "url": "https://www.techeconomy.ng/u-s-nigeria-sign-5-1b-health-dealkey-highlights"
+     },
+     {
+      "author": "Investment Monitor",
+      "title": "Can FDI fix Nigeria's broken healthcare infrastructure?",
+      "publisher": "Investment Monitor",
+      "date": "24 March 2021",
+      "url": "https://www.investmentmonitor.ai/real-estate/can-fdi-fix-nigerias-broken-healthcare-infrastructure"
+     },
+     {
+      "author": "Michael Olugbode",
+      "title": "India Firm to Boost Nigeria's Healthcare with $100m Investment",
+      "publisher": "ThisDay",
+      "date": "25 November 2024",
+      "url": "https://www.thisdaylive.com/2024/11/25/india-firm-to-boost-nigerias-healthcare-with-100m-investment/"
+     },
+     {
+      "author": "IFC",
+      "title": "IFC and NSIA to Scale Oncology and Diagnostic Services for Underserved Communities in Nigeria",
+      "publisher": "International Finance Corporation",
+      "date": "3 February 2026",
+      "url": "https://www.ifc.org/en/pressroom/2026/ifc-and-nsia-to-scale-oncology-and-diagnostic-services-for-underserved-communities"
+     }
+    ]
+   },
+   "financing": {
+    "facts": [
+     {
+      "label": "Current health expenditure, share of GDP",
+      "value": "4.19% (2023){{1}}"
+     },
+     {
+      "label": "Current health expenditure per capita",
+      "value": "US$66.82 (2023, current US$); US$89.63 in 2022{{2}}"
+     },
+     {
+      "label": "Out-of-pocket share of current health expenditure",
+      "value": "71.9% (2023){{3}}"
+     },
+     {
+      "label": "Government share of current health expenditure",
+      "value": "14.3% (2023), or 0.60% of GDP{{4}}{{5}}"
+     },
+     {
+      "label": "External share of current health expenditure",
+      "value": "11.3% (2023){{6}}"
+     },
+     {
+      "label": "Regional comparison, health expenditure share of GDP (2023)",
+      "value": "Ethiopia 2.80%, Ghana 2.95%, Kenya 4.35%, Egypt 4.88%, South Africa 8.91%{{7}}"
+     },
+     {
+      "label": "Federal health budget, 2026",
+      "value": "Proposal: N2.48 trillion, about 4.2% of the proposed N58.47 trillion budget; the enacted N68.32 trillion budget added N482.76 billion for health{{8}}{{10}}{{13}}"
+     }
+    ],
+    "narrative": "Nigeria spends modestly on health and households carry most of the cost. Current health expenditure was 4.19 percent of GDP in 2023, or US$66.82 per person, compared with 4.35 percent in Kenya, 4.88 percent in Egypt and 8.91 percent in South Africa.{{1}}{{2}}{{7}} Out-of-pocket payments were 71.9 percent of that spending, government financed 14.3 percent, and external sources supplied 11.3 percent.{{3}}{{4}}{{6}} The 2026 federal proposal gave health N2.48 trillion, about 4.2 percent of the budget, well below the 15 percent target of the 2001 Abuja Declaration, although nine states proposed 15 percent or more of their 2026 budgets for health.{{8}}{{10}}{{9}} The Appropriation Act signed in April 2026 raised total spending to N68.32 trillion and added N482.76 billion for priority health interventions; the final health share has not been published in the sources reviewed.{{13}}{{14}} The finance minister said in November 2025 that health's share of the 2025 federal budget had risen to 5.2 percent from just over 3 percent.{{12}} Under the December 2025 memorandum with the United States, Washington intends to provide $2.1 billion over five years and Nigeria to add $3.0 billion in new domestic health spending.{{11}} Delivery of that domestic commitment will be a test.",
+    "sources": [
+     {
+      "author": "World Bank",
+      "title": "Current health expenditure (% of GDP) (SH.XPD.CHEX.GD.ZS): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SH.XPD.CHEX.GD.ZS?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Current health expenditure per capita (current US$) (SH.XPD.CHEX.PC.CD): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SH.XPD.CHEX.PC.CD?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Out-of-pocket expenditure (% of current health expenditure) (SH.XPD.OOPC.CH.ZS): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SH.XPD.OOPC.CH.ZS?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Domestic general government health expenditure (% of current health expenditure) (SH.XPD.GHED.CH.ZS): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SH.XPD.GHED.CH.ZS?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Domestic general government health expenditure (% of GDP) (SH.XPD.GHED.GD.ZS): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SH.XPD.GHED.GD.ZS?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "External health expenditure (% of current health expenditure) (SH.XPD.EHEX.CH.ZS): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SH.XPD.EHEX.CH.ZS?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Current health expenditure (% of GDP) (SH.XPD.CHEX.GD.ZS): Egypt, Ethiopia, Ghana, Kenya, South Africa",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/GHA;KEN;EGY;ETH;ZAF/indicator/SH.XPD.CHEX.GD.ZS?format=json&per_page=1000&date=2023:2023"
+     },
+     {
+      "author": "Godsgift Onyedinefu",
+      "title": "FG proposes N42bn to provide healthcare for 10 million vulnerable Nigerians in 2026",
+      "publisher": "BusinessDay",
+      "date": "10 January 2026",
+      "url": "https://businessday.ng/?p=1070527"
+     },
+     {
+      "author": "ThisDay",
+      "title": "2026 Appropriation Bill: Nine States Meet 15% Health Budget Mark",
+      "publisher": "ThisDay",
+      "date": "6 February 2026",
+      "url": "https://www.thisdaylive.com/2026/02/06/2026-appropriation-bill-nine-states-meet-15-health-budget-mark/"
+     },
+     {
+      "author": "Nigerian Institute of Social and Economic Research",
+      "title": "NISER Policy Brief: Strengthening Human Capital Financing for Productivity and Inclusive Growth: Policy Implications of Nigeria's 2026 Federal Budget",
+      "publisher": "NISER",
+      "date": "2026",
+      "url": "https://niser.gov.ng/v2/strengthening-human-capital-financing-for-productivity-and-inclusive-growth-policy-implications-of-nigerias-2026-federal-budget/"
+     },
+     {
+      "author": "Mark Longyen",
+      "title": "U.S. signs $5.1bn bilateral healthcare cooperation with Nigeria",
+      "publisher": "News Agency of Nigeria",
+      "date": "22 December 2025",
+      "url": "https://nannews.ng/u-s-signs-5-1bn-bilateral-healthcare-cooperation-with-nigeria/"
+     },
+     {
+      "author": "Samuel Anyanwu",
+      "title": "2025 NHSW-JAR: Tinubu's Health Renewal Compact Record 84% Implementation – Pate Reports Progress",
+      "publisher": "Federal Ministry of Information and National Orientation",
+      "date": "13 November 2025",
+      "url": "https://fmino.gov.ng/?p=43744"
+     },
+     {
+      "author": "Henry Umoru and Gift Chapi-Odekina",
+      "title": "NASS passes N68trn 2026 budget, boosts RMAFC allocation",
+      "publisher": "Vanguard",
+      "date": "1 April 2026",
+      "url": "https://www.vanguardngr.com/2026/04/nass-passes-n68trn-2026-budget-boosts-rmafc-allocation/"
+     },
+     {
+      "author": "Jonathan Nda-Isaiah",
+      "title": "JUST IN: Tinubu Signs N68.32trn 2026 Budget, Extends 2025 Projects",
+      "publisher": "Leadership",
+      "date": "17 April 2026",
+      "url": "https://leadership.ng/just-in-tinubu-signs-n68-32trn-2026-budget-extends-2025-projects/"
+     }
+    ]
+   },
+   "workforce": {
+    "facts": [
+     {
+      "label": "Physicians per 1,000 people",
+      "value": "0.38 (2023); 0.36 in 2018{{1}}"
+     },
+     {
+      "label": "Practicing doctors (Federal Ministry of Health)",
+      "value": "About 55,000 in 2025, down from 66,241 in 2024 (ministry figures as reported by BusinessDay){{3}}"
+     },
+     {
+      "label": "Doctors and dentists who emigrated in 2024",
+      "value": "4,193, about 66% of them to the United Kingdom{{3}}"
+     },
+     {
+      "label": "Medical schools",
+      "value": "45 fully accredited and 20 partially accredited, with capacity for about 7,600 doctors a year{{4}}"
+     },
+     {
+      "label": "Resident doctors (NARD)",
+      "value": "About 8,000, down from about 15,000 over the past 10 years{{4}}"
+     },
+     {
+      "label": "Medical and dental consultants (November 2024)",
+      "value": "About 6,137{{4}}"
+     }
+    ],
+    "narrative": "Nigeria has 0.38 physicians per 1,000 people, against a world figure of 1.86 in 2022 and just above Ghana at 0.27 and Kenya at 0.29.{{1}}{{2}} According to Federal Ministry of Health figures reported by BusinessDay, about 55,000 doctors were practicing in 2025, down 16.9 percent from 66,241 in 2024, and the 2025 Joint Annual Review attributed the fall largely to emigration.{{3}} External migration of health workers rose 200 percent between 2023 and 2024, and 4,193 doctors and dentists left in 2024, about two thirds of them for the United Kingdom.{{3}} The training pipeline is also thinning at the specialist level: the resident doctors' association says its membership fell from about 15,000 to about 8,000 over a decade, and the country has about 6,137 consultants.{{4}} The ministry says it recruited more than 20,000 frontline health workers into federal tertiary hospitals.{{5}} A 15-year cohort study cited in a 2025 review found that 48.9 percent of graduates of one major Nigerian medical school had emigrated within 15 years of qualifying.{{6}} For a foreign partner, training and retention programs are likely to be more useful than staffing support.",
+    "sources": [
+     {
+      "author": "World Bank",
+      "title": "Physicians (per 1,000 people) (SH.MED.PHYS.ZS): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SH.MED.PHYS.ZS?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Physicians (per 1,000 people) (SH.MED.PHYS.ZS): Nigeria, Ghana, Kenya, South Africa, Egypt, Ethiopia, Sub-Saharan Africa, World, United Kingdom",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA;GHA;KEN;ZAF;EGY;ETH;SSF;WLD;GBR/indicator/SH.MED.PHYS.ZS?format=json&per_page=1000&date=2015:2026"
+     },
+     {
+      "author": "Godsgift Onyedinefu",
+      "title": "Doctors practising in Nigeria fall by nearly 17% in one year",
+      "publisher": "BusinessDay",
+      "date": "27 January 2026",
+      "url": "https://businessday.ng/?p=1077860"
+     },
+     {
+      "author": "Dataphyte",
+      "title": "From training tables to departure gates: the data behind Nigeria's doctor shortage",
+      "publisher": "Dataphyte",
+      "date": "October 2025",
+      "url": "https://dataphyte.com/policy_point/health/2025/10/from-training-tables-to-departure-gates-the-data-behind-nigerias-doctor-shortage"
+     },
+     {
+      "author": "Samuel Anyanwu",
+      "title": "2025 NHSW-JAR: Tinubu's Health Renewal Compact Record 84% Implementation – Pate Reports Progress",
+      "publisher": "Federal Ministry of Information and National Orientation",
+      "date": "13 November 2025",
+      "url": "https://fmino.gov.ng/?p=43744"
+     },
+     {
+      "author": "Badir Zakir",
+      "title": "Nigeria's Medical Exodus: Urgent Reforms to Retain Doctors",
+      "publisher": "Cureus",
+      "date": "9 November 2025",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12596899/"
+     }
+    ]
+   },
+   "education": {
+    "narrative": "Medicine and Surgery is a six-year program in Nigeria, with a preliminary science year, two preclinical years and three clinical years.{{1}} The country has 45 fully accredited and 20 partially accredited medical schools, with capacity to produce about 7,600 doctors a year, so undergraduate output is not the main bottleneck.{{2}} Postgraduate training runs through the National Postgraduate Medical College of Nigeria and the West African Colleges of Physicians and Surgeons, whose examinations set residency standards.{{2}}{{3}} Many doctors emigrate shortly after graduating or in the first years of residency.{{2}} In August 2025, 927 Nigerian candidates sat the West African College of Surgeons primary examination, and 678 of them, or 73.1 percent, passed.{{2}} Trainees report weak supervision, limited mentorship and uneven institutional support in residency programs.{{3}} A 2025 survey of 2,152 medical and nursing students at six universities found that 72.9 percent intended to practice abroad, mostly to train, with the United States, the United Kingdom and Canada as the top destinations.{{1}} Programs that offer specialist training inside Nigeria, with external faculty and shared curricula, address the reason students most often give for leaving.",
+    "sources": [
+     {
+      "author": "Abigail Olawumi Oyedokun et al.",
+      "title": "Exploring the emigration intentions of Nigerian medical and nursing students: factors driving migration and implications for Nigeria's healthcare system",
+      "publisher": "BMC Medical Education",
+      "date": "12 May 2025",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12070749/"
+     },
+     {
+      "author": "Dataphyte",
+      "title": "From training tables to departure gates: the data behind Nigeria's doctor shortage",
+      "publisher": "Dataphyte",
+      "date": "October 2025",
+      "url": "https://dataphyte.com/policy_point/health/2025/10/from-training-tables-to-departure-gates-the-data-behind-nigerias-doctor-shortage"
+     },
+     {
+      "author": "Badir Zakir",
+      "title": "Nigeria's Medical Exodus: Urgent Reforms to Retain Doctors",
+      "publisher": "Cureus",
+      "date": "9 November 2025",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12596899/"
+     }
+    ]
+   },
+   "outlook": {
+    "narrative": "The direction of policy is favorable and the financing is improving, but delivery is uneven. The ministry reports 84 percent of its renewal compact indicators met by the third quarter of 2025, health insurance enrollment passed 23 million in September 2026, and the United States and Nigeria signed a five-year, $5.1 billion health cooperation memorandum in December 2025.{{1}}{{9}}{{3}} The World Bank projects growth averaging 4.4 percent a year from 2026 to 2028 and inflation falling toward 12 percent by 2028, which should ease pressure on household budgets.{{4}} The risks are substantial. The 2026 budget proposal gave health about 4.2 percent of spending, and the final share of the larger enacted budget has not been published,{{5}}{{10}} out-of-pocket payments are still 71.9 percent of health spending,{{7}} the number of practicing doctors fell about 17 percent in a year,{{6}} and national elections are set for January 2027.{{8}} The likely openings for an international academic medical center are specialty training, cancer and cardiac programs at federal teaching hospitals, and quality systems for the growing private sector. Demand will come from insured and private patients first, and from public programs more slowly.",
+    "sources": [
+     {
+      "author": "Samuel Anyanwu",
+      "title": "2025 NHSW-JAR: Tinubu's Health Renewal Compact Record 84% Implementation – Pate Reports Progress",
+      "publisher": "Federal Ministry of Information and National Orientation",
+      "date": "13 November 2025",
+      "url": "https://fmino.gov.ng/?p=43744"
+     },
+     {
+      "author": "Magdalene Ukuedojor",
+      "title": "Nigerians on health insurance hit 22m: NHIA",
+      "publisher": "News Agency of Nigeria",
+      "date": "9 July 2026",
+      "url": "https://nannews.ng/nigerians-on-health-insurance-hit-22m-nhia/"
+     },
+     {
+      "author": "Mark Longyen",
+      "title": "U.S. signs $5.1bn bilateral healthcare cooperation with Nigeria",
+      "publisher": "News Agency of Nigeria",
+      "date": "22 December 2025",
+      "url": "https://nannews.ng/u-s-signs-5-1bn-bilateral-healthcare-cooperation-with-nigeria/"
+     },
+     {
+      "author": "World Bank",
+      "title": "The World Bank in Nigeria: Overview",
+      "publisher": "World Bank",
+      "date": "October 2026",
+      "url": "https://www.worldbank.org/en/country/nigeria/overview"
+     },
+     {
+      "author": "Nigerian Institute of Social and Economic Research",
+      "title": "NISER Policy Brief: Strengthening Human Capital Financing for Productivity and Inclusive Growth: Policy Implications of Nigeria's 2026 Federal Budget",
+      "publisher": "NISER",
+      "date": "2026",
+      "url": "https://niser.gov.ng/v2/strengthening-human-capital-financing-for-productivity-and-inclusive-growth-policy-implications-of-nigerias-2026-federal-budget/"
+     },
+     {
+      "author": "Godsgift Onyedinefu",
+      "title": "Doctors practising in Nigeria fall by nearly 17% in one year",
+      "publisher": "BusinessDay",
+      "date": "27 January 2026",
+      "url": "https://businessday.ng/?p=1077860"
+     },
+     {
+      "author": "World Bank",
+      "title": "Out-of-pocket expenditure (% of current health expenditure) (SH.XPD.OOPC.CH.ZS): Nigeria",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "8 October 2026",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SH.XPD.OOPC.CH.ZS?format=json&per_page=1000&date=2010:2025"
+     },
+     {
+      "author": "Channels Television",
+      "title": "INEC Releases Revised 2027 Elections Timetable, Presidential Poll To Hold Jan 16",
+      "publisher": "Channels Television",
+      "date": "26 February 2026",
+      "url": "https://www.channelstv.com/2026/02/26/inec-releases-revised-election-timetable-presidential-poll-to-hold-jan-16/"
+     },
+     {
+      "author": "James Emejo",
+      "title": "NHIA Enrolment Hits 23m, Expands Disease Cover",
+      "publisher": "ThisDay",
+      "date": "21 September 2026",
+      "url": "https://www.thisdaylive.com/2026/09/21/nhia-enrolment-hits-23m-expands-disease-cover/"
+     },
+     {
+      "author": "Henry Umoru and Gift Chapi-Odekina",
+      "title": "NASS passes N68trn 2026 budget, boosts RMAFC allocation",
+      "publisher": "Vanguard",
+      "date": "1 April 2026",
+      "url": "https://www.vanguardngr.com/2026/04/nass-passes-n68trn-2026-budget-boosts-rmafc-allocation/"
+     }
+    ]
+   },
+   "competitive_landscape": {
+    "narrative": "Foreign health systems mostly work through private operators and academic partnerships. Evercare Group, which at the hospital's 2021 opening was owned by a $1 billion fund managed by TPG Growth, built the 165-bed Evercare Hospital Lekki in Lagos,{{1}} and Turkish investors opened Nizamiye Hospital in Abuja in 2014.{{2}} India's Padiyath Healthcare announced $100 million of investment in November 2024, starting with a 300-bed hospital under construction in Abuja.{{3}} The University of Maryland School of Medicine and Lagos University Teaching Hospital announced a chronic disease collaboration in August 2024, initially for four to five years with a stated ten-year ambition,{{4}}{{10}} and UVA Health supports the kidney transplant program at the Federal Medical Centre Umuahia.{{5}}",
+    "closing": "Estimates of medical tourism spending vary widely. Central Bank of Nigeria data show $549 million spent on health-related travel in the first nine months of 2025, up 18 percent on 2024, though officials and industry put the true total higher because many payments bypass official channels.{{11}} India has long been the main destination; in 2013, 47 percent of Nigerians visiting India went for medical care.{{6}} American Hospital Dubai says it opened three patient offices in Nigeria in 2024.{{7}} Citing cancer care as the main reason patients leave, the government opened oncology centers in Katsina, Enugu and Benin City in July 2025.{{8}} Officials say the renewal plan could keep 850 billion naira lost to medical tourism at home.{{9}}",
+    "sources": [
+     {
+      "author": "Investment Monitor",
+      "title": "Can FDI fix Nigeria's broken healthcare infrastructure?",
+      "publisher": "Investment Monitor",
+      "date": "24 March 2021",
+      "url": "https://www.investmentmonitor.ai/real-estate/can-fdi-fix-nigerias-broken-healthcare-infrastructure"
+     },
+     {
+      "author": "Martins Ifijeh",
+      "title": "Expanding the Frontiers of Healthcare",
+      "publisher": "ThisDay",
+      "date": "17 June 2016",
+      "url": "https://www.thisdaylive.com/2016/06/17/expanding-the-frontiers-of-healthcare/"
+     },
+     {
+      "author": "Michael Olugbode",
+      "title": "India Firm to Boost Nigeria's Healthcare with $100m Investment",
+      "publisher": "ThisDay",
+      "date": "25 November 2024",
+      "url": "https://www.thisdaylive.com/2024/11/25/india-firm-to-boost-nigerias-healthcare-with-100m-investment/"
+     },
+     {
+      "author": "Hospital Management",
+      "title": "LUTH and UMSOM collaborate to boost chronic disease treatment in Nigeria",
+      "publisher": "Hospital Management (GlobalData)",
+      "date": "20 August 2024",
+      "url": "https://www.hospitalmanagement.net/news/luth-umsom-chronic-disease-nigeria/"
+     },
+     {
+      "author": "UVA School of Medicine",
+      "title": "UVA Partners With Federal Medical Center in Nigeria to Elevate Global Kidney Care",
+      "publisher": "UVA Medicine in Motion",
+      "date": "13 May 2026",
+      "url": "https://news.med.virginia.edu/community/uva-nigeria-elevating-global-kidney-care/"
+     },
+     {
+      "author": "BusinessDay",
+      "title": "Why India dominates Nigeria's medical tourism destination for decades",
+      "publisher": "BusinessDay",
+      "date": "24 March 2026",
+      "url": "https://businessday.ng/?p=1105888"
+     },
+     {
+      "author": "Khaleej Times",
+      "title": "American Hospital Dubai opens three medical tourism offices in Nigeria endorsed by DHA",
+      "publisher": "Khaleej Times",
+      "date": "1 February 2024",
+      "url": "https://www.khaleejtimes.com/lifestyle/health/american-hospital-dubai-opens-three-medical-tourism-offices-in-nigeria-endorsed-by-dha"
+     },
+     {
+      "author": "Arise News",
+      "title": "Nigeria Inaugurates World-Class Oncology Centres in Katsina, Edo, Enugu to Boost Cancer Care",
+      "publisher": "Arise News",
+      "date": "25 July 2025",
+      "url": "https://www.arise.tv/nigeria-inaugurates-world-class-oncology-centres-in-katsina-edo-enugu-to-boost-cancer-care"
+     },
+     {
+      "author": "Samuel Anyanwu",
+      "title": "2025 NHSW-JAR: Tinubu's Health Renewal Compact Record 84% Implementation – Pate Reports Progress",
+      "publisher": "Federal Ministry of Information and National Orientation",
+      "date": "13 November 2025",
+      "url": "https://fmino.gov.ng/?p=43744"
+     },
+     {
+      "author": "Lagos University Teaching Hospital",
+      "title": "University of Maryland School of Medicine Collaborates with Lagos University Teaching Hospital on Non-Communicable Diseases",
+      "publisher": "Lagos University Teaching Hospital",
+      "date": "August 2024",
+      "url": "https://luth.gov.ng/news/maryland-luth"
+     },
+     {
+      "author": "The Sun editorial board",
+      "title": "Checking rising medical tourism",
+      "publisher": "The Sun Nigeria (citing CBN quarterly statistical bulletin Q3 2025)",
+      "date": "2026",
+      "url": "https://thesun.ng/checking-rising-medical-tourism/"
+     }
+    ],
+    "tracker_country": "Nigeria"
+   }
+  },
+  "recent_developments": [
+   {
+    "date": "2026-10-20",
+    "headline": "Nigeria confirms imported Ebola case in Abuja",
+    "summary": "The Federal Ministry of Health and Social Welfare confirmed one imported case of Ebola Bundibugyo virus disease in a woman who had recently traveled from Uganda. She sought care at a private facility in Abuja on 11 October, was confirmed on 20 October and is in isolation, and 44 contacts are being monitored.{{1}}{{2}} Nigeria is the fifth country to detect the virus since the outbreak was declared in the Democratic Republic of the Congo in May 2026.{{1}}",
+    "sources": [
+     {
+      "author": "WHO Regional Office for Africa",
+      "title": "Nigeria confirms imported case of Ebola Bundibugyo virus disease",
+      "publisher": "World Health Organization",
+      "date": "20 October 2026",
+      "url": "https://afro.who.int/countries/nigeria/news/nigeria-confirms-imported-case-ebola-bundibugyo-virus-disease"
+     },
+     {
+      "author": "Mariam Ileyemi",
+      "title": "Ebola: 44 identified contacts to stay isolated for three weeks – Minister",
+      "publisher": "Premium Times",
+      "date": "20 October 2026",
+      "url": "https://www.premiumtimesng.com/health/health-news/918701-ebola-44-identified-contacts-to-stay-isolated-for-three-weeks-minister.html"
+     }
+    ]
+   },
+   {
+    "date": "2026-07-09",
+    "headline": "Health insurance enrollment passes 22 million",
+    "summary": "The National Health Insurance Authority said in July 2026 that enrollment had reached 22.03 million, up 35 percent from a year earlier, as the mandatory provisions of the NHIA Act are phased in.{{1}} The director general also cited support for more than 48,500 pregnant women and sanctions on non-compliant facilities.{{1}}",
+    "sources": [
+     {
+      "author": "Magdalene Ukuedojor",
+      "title": "Nigerians on health insurance hit 22m: NHIA",
+      "publisher": "News Agency of Nigeria",
+      "date": "9 July 2026",
+      "url": "https://nannews.ng/nigerians-on-health-insurance-hit-22m-nhia/"
+     }
+    ]
+   },
+   {
+    "date": "2026-02-03",
+    "headline": "IFC and NSIA finance cancer and diagnostic centers",
+    "summary": "The IFC and the Nigeria Sovereign Investment Authority arranged naira financing for MedServe, which will build over a dozen diagnostic, radiotherapy and cardiac catheterization centers. The project is worth $154.1 million, including about 14.2 billion naira from the IFC.{{1}}",
+    "sources": [
+     {
+      "author": "IFC",
+      "title": "IFC and NSIA to Scale Oncology and Diagnostic Services for Underserved Communities in Nigeria",
+      "publisher": "International Finance Corporation",
+      "date": "3 February 2026",
+      "url": "https://www.ifc.org/en/pressroom/2026/ifc-and-nsia-to-scale-oncology-and-diagnostic-services-for-underserved-communities"
+     }
+    ]
+   },
+   {
+    "date": "2026-01-27",
+    "headline": "Practicing doctors fall by nearly 17 percent",
+    "summary": "Federal Ministry of Health figures reported by BusinessDay put practicing doctors at about 55,000 in 2025, down from 66,241 in 2024. The 2025 Joint Annual Review cited emigration, and 4,193 doctors and dentists left in 2024, about 66 percent of them for the United Kingdom.{{1}}",
+    "sources": [
+     {
+      "author": "Godsgift Onyedinefu",
+      "title": "Doctors practising in Nigeria fall by nearly 17% in one year",
+      "publisher": "BusinessDay",
+      "date": "27 January 2026",
+      "url": "https://businessday.ng/?p=1077860"
+     }
+    ]
+   },
+   {
+    "date": "2025-12-21",
+    "headline": "United States and Nigeria announce $5.1 billion health memorandum",
+    "summary": "The U.S. Mission announced a five-year health cooperation memorandum in which the United States intends to provide $2.1 billion and Nigeria to invest $3.0 billion in new domestic health spending. It includes about $200 million for more than 900 Christian faith-based facilities.{{1}}{{2}}",
+    "sources": [
+     {
+      "author": "Mark Longyen",
+      "title": "U.S. signs $5.1bn bilateral healthcare cooperation with Nigeria",
+      "publisher": "News Agency of Nigeria",
+      "date": "22 December 2025",
+      "url": "https://nannews.ng/u-s-signs-5-1bn-bilateral-healthcare-cooperation-with-nigeria/"
+     },
+     {
+      "author": "Destiny Eseaga",
+      "title": "Key Highlights of U.S. - Nigeria $5.1B Health Deal",
+      "publisher": "TechEconomy",
+      "date": "21 December 2025",
+      "url": "https://www.techeconomy.ng/u-s-nigeria-sign-5-1b-health-dealkey-highlights"
+     }
+    ]
+   },
+   {
+    "date": "2025-07-24",
+    "headline": "Three federal oncology centers inaugurated",
+    "summary": "The federal government inaugurated oncology centers at teaching hospitals in Katsina, Enugu and Benin City, with three more planned for Zaria, Jos and Maiduguri.{{1}} Minister Pate said the centers respond to about 127,000 cancer cases and 80,000 deaths a year and are meant to reduce medical tourism.{{1}}{{2}}",
+    "sources": [
+     {
+      "author": "Olawale Ajimotokan, Francis Sardauna, Adibe Emenyonu and Gideon Arinze",
+      "title": "To Boost Cancer Care, FG Inaugurates Oncology Centres in Katsina, Enugu, Edo",
+      "publisher": "ThisDay",
+      "date": "25 July 2025",
+      "url": "https://www.thisdaylive.com/2025/07/25/to-boost-cancer-care-fg-inaugurates-oncology-centres-in-katsina-enugu-edo/"
+     },
+     {
+      "author": "Arise News",
+      "title": "Nigeria Inaugurates World-Class Oncology Centres in Katsina, Edo, Enugu to Boost Cancer Care",
+      "publisher": "Arise News",
+      "date": "25 July 2025",
+      "url": "https://www.arise.tv/nigeria-inaugurates-world-class-oncology-centres-in-katsina-edo-enugu-to-boost-cancer-care"
+     }
+    ]
+   }
+  ]
+ },
+ "resolution_log": [
+  "Research pass 16 October 2026; World Bank indicator values read from the Indicators API (last updated 8 October 2026).",
+  "Verification: three independent verifiers (one on 16 October, two on the strongest model on 21 October); flags raised by only one verifier were re-checked in resolution.",
+  "Added the 20 October 2026 imported Ebola case (confirmed on the WHO Regional Office for Africa page during resolution).",
+  "Updated to newer official figures released before the draft date: CBN policy rate cut to 23 percent (22 September 2026), September 2026 inflation 14.63 percent, Q2 2026 GDP growth 4.43 percent, NHIA enrollment above 23 million (September 2026).",
+  "2026 federal budget: proposal figures kept and labeled; enacted N68.32 trillion Appropriation Act added. The final health share is not published in the sources reviewed (one civic estimate of 5.2 percent was not corroborated, so it is not used).",
+  "Medical tourism: the unsourced $1 billion and 5,000-a-month figures replaced with Central Bank of Nigeria data reported by The Sun. Padiyath corrected to one planned Abuja hospital; UVA example moved from FMC Owo (2023) to FMC Umuahia (2026).",
+  "Wording fixes: Evercare ownership dated to 2021; Maryland-LUTH term; cohort study limited to one medical school; doctor numbers attributed to BusinessDay's report of ministry data; World Bank reserves caveat; facility-study citation corrected.",
+  "Tracker: Montefiore-Niger State moved to excluded (statement of intent, state government party); added Apollo Hospitals-Duchess International Hospital (Unclear) and University of Birmingham-University of Lagos/LUTH (Active, re-checked on Vanguard); Johns Hopkins-ABUAD to Active (ABUAD February 2025 release, re-checked); IHVN to Active on the FY2026 NIH award with an NGO caveat; Vanderbilt, VCU, Christie and Evercare dates and sources corrected. University of Toronto-Niger State scholarship deal not added (government party, no health institution)."
+ ],
+ "csi_manual": {
+  "patient_volume_and_revenue": "",
+  "referral_sources": "",
+  "relationship_history": "",
+  "complications": "",
+  "key_contacts": "",
+  "opportunities": "",
+  "csi_recommendation": ""
+ },
+ "charts": [
+  {
+   "id": "spending",
+   "page": "health",
+   "kind": "line",
+   "title": "Nigeria: health spending and out-of-pocket share, 2012 to 2023",
+   "unit": "%",
+   "note": "Current health expenditure as a share of GDP, and out-of-pocket spending as a share of current health expenditure.",
+   "highlight": "Nigeria",
+   "series": [
+    {
+     "name": "Current health expenditure (% of GDP)",
+     "points": [
+      [
+       "2012",
+       3.36
+      ],
+      [
+       "2013",
+       3.42
+      ],
+      [
+       "2014",
+       3.35
+      ],
+      [
+       "2015",
+       3.58
+      ],
+      [
+       "2016",
+       3.65
+      ],
+      [
+       "2017",
+       3.75
+      ],
+      [
+       "2018",
+       3.09
+      ],
+      [
+       "2019",
+       2.99
+      ],
+      [
+       "2020",
+       3.38
+      ],
+      [
+       "2021",
+       4.08
+      ],
+      [
+       "2022",
+       4.21
+      ],
+      [
+       "2023",
+       4.19
+      ]
+     ]
+    },
+    {
+     "name": "Out-of-pocket (% of current health expenditure)",
+     "points": [
+      [
+       "2012",
+       72.8
+      ],
+      [
+       "2013",
+       70.9
+      ],
+      [
+       "2014",
+       71.9
+      ],
+      [
+       "2015",
+       71.9
+      ],
+      [
+       "2016",
+       75.2
+      ],
+      [
+       "2017",
+       77.4
+      ],
+      [
+       "2018",
+       75.9
+      ],
+      [
+       "2019",
+       71.5
+      ],
+      [
+       "2020",
+       74.7
+      ],
+      [
+       "2021",
+       76.2
+      ],
+      [
+       "2022",
+       75.7
+      ],
+      [
+       "2023",
+       71.9
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Bank",
+     "title": "Current health expenditure (% of GDP) (SH.XPD.CHEX.GD.ZS): Nigeria",
+     "publisher": "World Bank Indicators API (World Development Indicators)",
+     "date": "8 October 2026",
+     "url": "https://api.worldbank.org/v2/country/NGA/indicator/SH.XPD.CHEX.GD.ZS?format=json&per_page=1000&date=2012:2023"
+    },
+    {
+     "author": "World Bank",
+     "title": "Out-of-pocket expenditure (% of current health expenditure) (SH.XPD.OOPC.CH.ZS): Nigeria",
+     "publisher": "World Bank Indicators API (World Development Indicators)",
+     "date": "8 October 2026",
+     "url": "https://api.worldbank.org/v2/country/NGA/indicator/SH.XPD.OOPC.CH.ZS?format=json&per_page=1000&date=2012:2023"
+    }
+   ],
+   "split": true
+  },
+  {
+   "id": "workforce",
+   "page": "health",
+   "kind": "bar",
+   "title": "Physicians per 1,000 people, Nigeria and comparators (latest year available)",
+   "unit": "per 1,000",
+   "note": "Latest year available for each country or group in the World Bank series, shown in brackets; comparison years differ (2020 to 2023).",
+   "highlight": "Nigeria (2023)",
+   "series": [
+    {
+     "name": "Physicians per 1,000",
+     "points": [
+      [
+       "Ethiopia (2023)",
+       0.14
+      ],
+      [
+       "Sub-Saharan Africa (2022)",
+       0.25
+      ],
+      [
+       "Ghana (2023)",
+       0.27
+      ],
+      [
+       "Kenya (2023)",
+       0.29
+      ],
+      [
+       "Nigeria (2023)",
+       0.38
+      ],
+      [
+       "Egypt (2020)",
+       0.67
+      ],
+      [
+       "South Africa (2022)",
+       0.79
+      ],
+      [
+       "World (2022)",
+       1.86
+      ],
+      [
+       "United Kingdom (2023)",
+       3.3
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Bank",
+     "title": "Physicians (per 1,000 people) (SH.MED.PHYS.ZS): Nigeria, Ghana, Kenya, South Africa, Egypt, Ethiopia, Sub-Saharan Africa, World, United Kingdom",
+     "publisher": "World Bank Indicators API (World Development Indicators)",
+     "date": "8 October 2026",
+     "url": "https://api.worldbank.org/v2/country/NGA;GHA;KEN;ZAF;EGY;ETH;SSF;WLD;GBR/indicator/SH.MED.PHYS.ZS?format=json&per_page=1000&date=2015:2026"
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "page": "market",
+   "kind": "line",
+   "title": "Nigeria: private health spending per person, 2012 to 2023",
+   "unit": "US$",
+   "note": "Domestic private health expenditure per capita in current US dollars (mostly household out-of-pocket payments); values move with the naira exchange rate.",
+   "highlight": "2023",
+   "series": [
+    {
+     "name": "Domestic private health expenditure per capita (current US$)",
+     "points": [
+      [
+       "2012",
+       66.25
+      ],
+      [
+       "2013",
+       71.27
+      ],
+      [
+       "2014",
+       76.19
+      ],
+      [
+       "2015",
+       68.42
+      ],
+      [
+       "2016",
+       57.9
+      ],
+      [
+       "2017",
+       54.98
+      ],
+      [
+       "2018",
+       48.8
+      ],
+      [
+       "2019",
+       49.04
+      ],
+      [
+       "2020",
+       51.24
+      ],
+      [
+       "2021",
+       64.57
+      ],
+      [
+       "2022",
+       70.21
+      ],
+      [
+       "2023",
+       49.7
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Bank",
+     "title": "Domestic private health expenditure per capita (current US$) (SH.XPD.PVTD.PC.CD): Nigeria",
+     "publisher": "World Bank Indicators API (World Development Indicators)",
+     "date": "8 October 2026",
+     "url": "https://api.worldbank.org/v2/country/NGA/indicator/SH.XPD.PVTD.PC.CD?format=json&per_page=1000&date=2012:2023"
+    }
+   ]
+  }
+ ]
+}

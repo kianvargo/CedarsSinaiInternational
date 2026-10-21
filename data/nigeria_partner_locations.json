@@ -1,0 +1,291 @@
+{
+ "note": "Each partnership is placed in the Nigerian partner's home city; Gwagwalada is shown as Abuja, and a Lagos and Abuja partnership is counted in both.",
+ "bounds": [
+  2.1,
+  14.8,
+  3.2,
+  14.0
+ ],
+ "metros": [
+  "Lagos",
+  "Kano",
+  "Ibadan",
+  "Abuja",
+  "Port Harcourt"
+ ],
+ "cities": {
+  "Lagos": [
+   [
+    3.38,
+    6.52
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Abuja": [
+   [
+    7.49,
+    9.06
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Kano": [
+   [
+    8.52,
+    12.0
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Ibadan": [
+   [
+    3.9,
+    7.38
+   ],
+   [
+    -12,
+    0
+   ]
+  ],
+  "Port Harcourt": [
+   [
+    7.01,
+    4.82
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Zaria": [
+   [
+    7.71,
+    11.09
+   ],
+   [
+    -12,
+    0
+   ]
+  ],
+  "Ile-Ife": [
+   [
+    4.56,
+    7.47
+   ],
+   [
+    0,
+    24
+   ]
+  ],
+  "Umuahia": [
+   [
+    7.49,
+    5.53
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Owo": [
+   [
+    5.59,
+    7.2
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Bauchi": [
+   [
+    9.84,
+    10.31
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Ado-Ekiti": [
+   [
+    5.22,
+    7.62
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Minna": [
+   [
+    6.55,
+    9.61
+   ],
+   [
+    -12,
+    0
+   ]
+  ],
+  "Orlu": [
+   [
+    7.03,
+    5.79
+   ],
+   [
+    -12,
+    0
+   ]
+  ]
+ },
+ "locations": {
+  "nigeria--johns-hopkins-university-johns-hopkins-hospital--afe-babalola-university-abuad": {
+   "cities": [
+    "Ado-Ekiti"
+   ]
+  },
+  "nigeria--mayo-clinic-mayo-clinic-global-consulting--iwosan-investments-limited-iwosan-lagoon-hospitals-and-lagos-medipark-hospital": {
+   "cities": [
+    "Lagos"
+   ]
+  },
+  "nigeria--memorial-sloan-kettering-cancer-center--lagos-university-teaching-hospital-luth-and-college-of-medicine-university-of-lagos": {
+   "cities": [
+    "Lagos"
+   ]
+  },
+  "nigeria--memorial-sloan-kettering-cancer-center--obafemi-awolowo-university-teaching-hospitals-complex-oauthc": {
+   "cities": [
+    "Ile-Ife"
+   ]
+  },
+  "nigeria--st-jude-children-s-research-hospital--abubakar-tafawa-balewa-university-teaching-hospital-atbuth": {
+   "cities": [
+    "Bauchi"
+   ]
+  },
+  "nigeria--st-jude-children-s-research-hospital--the-dorcas-cancer-foundation-tdcf": {
+   "cities": [
+    "Lagos"
+   ]
+  },
+  "nigeria--university-of-illinois-chicago-uic-school-of-public-health--lagos-state-university-lasu": {
+   "cities": [
+    "Lagos"
+   ]
+  },
+  "nigeria--university-of-maryland-school-of-medicine-institute-of-human-virology--institute-of-human-virology-nigeria-ihvn": {
+   "cities": [
+    "Abuja"
+   ]
+  },
+  "nigeria--university-of-miami-sylvester-comprehensive-cancer-center--ahmadu-bello-university-teaching-hospital-abuth": {
+   "cities": [
+    "Zaria"
+   ]
+  },
+  "nigeria--university-of-virginia-health-system--federal-medical-centre-umuahia": {
+   "cities": [
+    "Umuahia"
+   ]
+  },
+  "nigeria--vanderbilt-university-medical-center-vanderbilt-institute-for-global-health--aminu-kano-teaching-hospital-and-bayero-university-kano": {
+   "cities": [
+    "Kano"
+   ]
+  },
+  "nigeria--virginia-commonwealth-university-vcu-massey-comprehensive-cancer-center--national-hospital-abuja": {
+   "cities": [
+    "Abuja"
+   ]
+  },
+  "nigeria--evercare-group-owned-at-its-2021-launch-by-the-tpg-managed-evercare-health-fund--evercare-hospital-lekki": {
+   "cities": [
+    "Lagos"
+   ]
+  },
+  "nigeria--king-s-college-hospital-nhs-foundation-trust--african-medical-centre-of-excellence-amce-developed-by-afreximbank": {
+   "cities": [
+    "Abuja"
+   ]
+  },
+  "nigeria--king-s-college-london--african-medical-centre-of-excellence-amce-developed-by-afreximbank": {
+   "cities": [
+    "Abuja"
+   ]
+  },
+  "nigeria--liverpool-school-of-tropical-medicine--national-postgraduate-medical-college-of-nigeria-with-wellbeing-foundation-africa": {
+   "cities": [
+    "Lagos",
+    "Abuja"
+   ]
+  },
+  "nigeria--manipal-hospitals--afe-babalola-university-multi-system-hospital": {
+   "cities": [
+    "Ado-Ekiti"
+   ]
+  },
+  "nigeria--the-christie-nhs-foundation-trust--african-medical-centre-of-excellence-amce-developed-by-afreximbank": {
+   "cities": [
+    "Abuja"
+   ]
+  },
+  "nigeria--the-royal-marsden-nhs-foundation-trust--marcelle-ruth-cancer-centre-specialist-hospital": {
+   "cities": [
+    "Lagos"
+   ]
+  },
+  "nigeria--university-of-birmingham--university-of-lagos-with-lagos-university-teaching-hospital": {
+   "cities": [
+    "Lagos"
+   ]
+  },
+  "nigeria--university-of-glasgow--ahmadu-bello-university": {
+   "cities": [
+    "Zaria"
+   ]
+  },
+  "nigeria--university-of-maryland-school-of-medicine--lagos-university-teaching-hospital-luth": {
+   "cities": [
+    "Lagos"
+   ]
+  },
+  "nigeria--university-of-virginia-health-system--federal-medical-centre-owo": {
+   "cities": [
+    "Owo"
+   ]
+  },
+  "nigeria--yale-school-of-medicine-department-of-psychiatry--imo-state-university-teaching-hospital": {
+   "cities": [
+    "Orlu"
+   ]
+  },
+  "nigeria--apollo-hospitals--duchess-international-hospital-reddington-hospital-group": {
+   "cities": [
+    "Lagos"
+   ]
+  },
+  "nigeria--apollo-hospitals--state-house-clinic": {
+   "cities": [
+    "Abuja"
+   ]
+  },
+  "nigeria--memorial-hospitals-group--kasi-healthcare": {
+   "cities": [
+    "Lagos"
+   ]
+  },
+  "nigeria--peking-university-people-s-hospital-named-variously-in-press-as-people-s-university-hospital-beijing--university-of-abuja-teaching-hospital": {
+   "cities": [
+    "Abuja"
+   ]
+  }
+ }
+}

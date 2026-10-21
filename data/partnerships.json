@@ -3956,6 +3956,909 @@
       "country": "Indonesia",
       "last_checked": "2026-10-07",
       "id": "indonesia--ramsay-health-care--rs-premier-jatinegara-bintaro-and-surabaya"
+    },
+    {
+      "foreign_institution": "Johns Hopkins University (Johns Hopkins Hospital)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Afe Babalola University (ABUAD)",
+      "partner_city": "Ado-Ekiti",
+      "type": "Training and education",
+      "description": "Tripartite agreement with the Little by Little Foundation letting high performing ABUAD medical students do part of their fifth year clinical electives at Johns Hopkins Hospital.",
+      "status": "Active",
+      "start": "2023-01",
+      "end": "",
+      "last_evidence": "2025-02",
+      "evidence": "ABUAD notice dated 17 January 2023 reports the signing on 10 January 2023. No later evidence of placements found in 2024 to 2026 searches. ABUAD's 5 February 2025 release on its seventh induction ceremony describes the six-week Johns Hopkins Hospital electives as ongoing.",
+      "sources": [
+        {
+          "author": "Afe Babalola University",
+          "title": "ABUAD Tripartite agreement with John Hopkins University USA and Little by Little Foundation",
+          "publisher": "Afe Babalola University",
+          "date": "2023-01-17",
+          "url": "https://www.abuad.edu.ng/abuad-tripartite-agreement-with-john-hopkins-university-usa-and-little-by-little-foundation/"
+        },
+        {
+          "author": "ThisDay",
+          "title": "ABUAD, John Hopkins Partner to Boost Medical Training",
+          "publisher": "ThisDay",
+          "date": "2023-01-18",
+          "url": "https://www.thisdaylive.com/2023/01/18/abuad-john-hopkins-partner-to-boost-medical-training/"
+        },
+        {
+          "author": "Afe Babalola University",
+          "title": "ABUAD Holds Seventh Induction Ceremony for Fresh Doctors",
+          "publisher": "Afe Babalola University (Office of the Vice-Chancellor)",
+          "date": "5 February 2025",
+          "url": "https://vc.abuad.edu.ng/abuad-holds-seventh-induction-ceremony-for-fresh-doctors/"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--johns-hopkins-university-johns-hopkins-hospital--afe-babalola-university-abuad"
+    },
+    {
+      "foreign_institution": "Mayo Clinic (Mayo Clinic Global Consulting)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Iwosan Investments Limited (Iwosan Lagoon Hospitals and Lagos Medipark Hospital)",
+      "partner_city": "Lagos",
+      "type": "Advisory and consulting",
+      "description": "Iwosan Investments, owner of the Iwosan Lagoon Hospitals group, engaged Mayo Clinic Global Consulting for strategic advice on organisation and clinical practice. The work starts with Iwosan Lagoon Hospitals and the planned Lagos Medipark Hospital.",
+      "status": "Active",
+      "start": "2025-04",
+      "end": "",
+      "last_evidence": "2025-04",
+      "evidence": "Iwosan's announcement was syndicated on 17 April 2025 (The Sun) and carried by BusinessDay and BrandIconImage. No page on Mayo's own newsroom was found, so confirmation rests on the Nigerian company's release. No end date or contract term is stated.",
+      "sources": [
+        {
+          "author": "The Sun",
+          "title": "Iwosan engages Mayo Clinic to advance high-quality patient-centered healthcare",
+          "publisher": "The Sun Nigeria",
+          "date": "2025-04-17",
+          "url": "https://thesun.ng/iwosan-engages-mayo-clinic-to-advance-high-quality-patient-centered-healthcare/"
+        },
+        {
+          "author": "BrandIconImage",
+          "title": "Iwosan Investments Limited Engages Mayo Clinic Global Consulting to Advance High-Quality Patient-Centered Healthcare in Nigeria",
+          "publisher": "BrandIconImage",
+          "date": "2025-04",
+          "url": "https://www.brandiconimage.com/2025/04/iwosan-investments-limited-engages-mayo.html"
+        },
+        {
+          "author": "BusinessDay",
+          "title": "Iwosan engages Mayo Clinic to advance high quality patient centered healthcare in Nigeria",
+          "publisher": "BusinessDay",
+          "date": "8 April 2025",
+          "url": "https://businessday.ng/health/article/iwosan-engages-mayo-clinic-to-advance-high-quality-patient-centered-healthcare-in-nigeria/"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--mayo-clinic-mayo-clinic-global-consulting--iwosan-investments-limited-iwosan-lagoon-hospitals-and-lagos-medipark-hospital"
+    },
+    {
+      "foreign_institution": "Memorial Sloan Kettering Cancer Center",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Lagos University Teaching Hospital (LUTH) and College of Medicine, University of Lagos",
+      "partner_city": "Lagos",
+      "type": "Research collaboration",
+      "description": "LUTH and the University of Lagos College of Medicine serve as research and training hubs of the MSK founded ARGO consortium. They take part in joint cancer studies, including a colorectal cancer immunotherapy trial.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2025-09",
+      "evidence": "MSK's 2025 GCRT Update names OAUTHC and the College of Medicine, University of Lagos/LUTH as ARGO's research and training hubs. MSK's press page describes the colorectal immunotherapy trial with OAUTHC, LUTH and Medserve. Start year not stated on a dated page.",
+      "sources": [
+        {
+          "author": "Memorial Sloan Kettering Cancer Center",
+          "title": "Global Cancer Research and Training Program 2025 Update",
+          "publisher": "Memorial Sloan Kettering Cancer Center",
+          "date": "2026",
+          "url": "https://www.mskcc.org/sites/default/files/node/118066/documents/gcrt_report_2026_6_01-29-98-44.pdf"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--memorial-sloan-kettering-cancer-center--lagos-university-teaching-hospital-luth-and-college-of-medicine-university-of-lagos"
+    },
+    {
+      "foreign_institution": "Memorial Sloan Kettering Cancer Center",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Obafemi Awolowo University Teaching Hospitals Complex (OAUTHC)",
+      "partner_city": "Ile-Ife",
+      "type": "Research collaboration",
+      "description": "MSK's Global Cancer Research and Training program partners with OAUTHC, home of the African Research Group for Oncology (ARGO), an NCI recognised consortium founded in 2013. The work covers cancer research, trials and training for Nigerian clinicians.",
+      "status": "Active",
+      "start": "2009",
+      "end": "",
+      "last_evidence": "2025-09",
+      "evidence": "MSK's 2025 GCRT Update reports the annual ARGO symposium held at Ile-Ife in September 2025 and a colorectal immunotherapy trial run with OAUTHC. MSK's program page dates the partnership to the 2009 training of OAUTHC surgeon Isaac Alatise; start year is that visit, ARGO itself dates to 2013.",
+      "sources": [
+        {
+          "author": "Memorial Sloan Kettering Cancer Center",
+          "title": "Global Cancer Research and Training Program 2025 Update",
+          "publisher": "Memorial Sloan Kettering Cancer Center",
+          "date": "2026",
+          "url": "https://www.mskcc.org/sites/default/files/node/118066/documents/gcrt_report_2026_6_01-29-98-44.pdf"
+        },
+        {
+          "author": "Memorial Sloan Kettering Cancer Center",
+          "title": "MSK's Global Cancer Research and Training (GCRT) Program",
+          "publisher": "Memorial Sloan Kettering Cancer Center",
+          "date": "",
+          "url": "https://www.mskcc.org/hcp-education-training/international/global-cancer-disparities-initiatives"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--memorial-sloan-kettering-cancer-center--obafemi-awolowo-university-teaching-hospitals-complex-oauthc"
+    },
+    {
+      "foreign_institution": "St. Jude Children's Research Hospital",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Abubakar Tafawa Balewa University Teaching Hospital (ATBUTH)",
+      "partner_city": "Bauchi",
+      "type": "Clinical affiliation",
+      "description": "ATBUTH signed a Medical Institution Membership Agreement and joined the St. Jude Global Alliance, a care and training network for childhood cancer. Membership gives access to mentorship, shared treatment protocols and training.",
+      "status": "Active",
+      "start": "2025-10",
+      "end": "",
+      "last_evidence": "2025-10",
+      "evidence": "Leadership newspaper published the hospital's statement on 26 October 2025 (signing described as the day before). Not confirmed on St. Jude's own site.",
+      "sources": [
+        {
+          "author": "Leadership",
+          "title": "Bauchi Teaching Hospital Seeks Alliance To Strengthen Cancer Care",
+          "publisher": "Leadership Newspapers",
+          "date": "2025-10-26",
+          "url": "https://leadership.ng/bauchi-teaching-hospital-seeks-alliance-to-strengthen-cancer-care/"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--st-jude-children-s-research-hospital--abubakar-tafawa-balewa-university-teaching-hospital-atbuth"
+    },
+    {
+      "foreign_institution": "St. Jude Children's Research Hospital",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "The Dorcas Cancer Foundation (TDCF)",
+      "partner_city": "Lagos",
+      "type": "Clinical affiliation",
+      "description": "TDCF joined the St. Jude Global Alliance as the first Nigerian non profit member, to improve paediatric cancer outcomes in Nigeria and sub Saharan Africa. TDCF runs a paediatric radiation oncology training course.",
+      "status": "Active",
+      "start": "2024-12",
+      "end": "",
+      "last_evidence": "2024-12",
+      "evidence": "ThisDay and BusinessDay reported the admission on 17 December 2024. The Nigerian party is a non profit, not a hospital, and the tie is an alliance membership; flag for the verifier. Not confirmed on St. Jude's site. Caveat: the Nigerian party is a cancer foundation working with pediatric oncology units, not a hospital.",
+      "sources": [
+        {
+          "author": "Sunday Ehigiator",
+          "title": "TDCF, St. Jude Global Alliance, Partner on Improving Pediatric Cancer Outcomes in Nigeria, Others",
+          "publisher": "ThisDay",
+          "date": "2024-12-17",
+          "url": "https://www.thisdaylive.com/2024/12/17/tdcf-st-jude-global-alliance-partner-on-improving-pediatric-cancer-outcomes-in-nigeria-others/"
+        },
+        {
+          "author": "BusinessDay",
+          "title": "TDCF admitted into St Jude Global Alliance to improve pediatric cancer outcomes in Nigeria",
+          "publisher": "BusinessDay",
+          "date": "2024-12",
+          "url": "https://businessday.ng/life/article/tdcf-admitted-into-st-jude-global-alliance-to-improve-pediatric-cancer-outcomes-in-nigeria/"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--st-jude-children-s-research-hospital--the-dorcas-cancer-foundation-tdcf"
+    },
+    {
+      "foreign_institution": "University of Illinois Chicago (UIC School of Public Health)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Lagos State University (LASU)",
+      "partner_city": "Lagos",
+      "type": "Training and education",
+      "description": "Framework agreement signed 28 July 2026 for academic collaboration, joint research and student and faculty exchange, focused on urban health, emergency preparedness and AI-enabled public health tools.",
+      "status": "Active",
+      "start": "2026-07",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "UIC School of Public Health news, 4 August 2026, reports the memorandum signed on 28 July 2026 in Chicago by LASU's Vice Chancellor and UIC representatives. A university to university agreement with no hospital named.",
+      "sources": [
+        {
+          "author": "UIC School of Public Health",
+          "title": "UIC and Lagos State University Sign Memorandum of Agreement",
+          "publisher": "UIC School of Public Health",
+          "date": "2026-08-04",
+          "url": "https://publichealth.uic.edu/news-stories/uic-and-lagos-state-university-sign-memorandum-of-agreement/"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--university-of-illinois-chicago-uic-school-of-public-health--lagos-state-university-lasu"
+    },
+    {
+      "foreign_institution": "University of Maryland School of Medicine (Institute of Human Virology)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Institute of Human Virology Nigeria (IHVN)",
+      "partner_city": "Abuja",
+      "type": "Research collaboration",
+      "description": "IHVN is the Nigerian affiliate of the Maryland Institute of Human Virology, delivering HIV, TB and cancer care, training and research. It opened a multi campus site in Abuja in 2023.",
+      "status": "Active",
+      "start": "2004",
+      "end": "",
+      "last_evidence": "2026-02",
+      "evidence": "University of Maryland news from June 2023 reports the Abuja campus launch with UMB leadership present. No dated evidence from October 2024 onward found. IHVN is an NGO affiliate, not a hospital; flag for the verifier. NIH RePORTER shows Fogarty training grant D43TW012280 awarded to IHVN for FY2026 (budget start 1 February 2026), co-led with the UMSOM Institute of Human Virology. Caveat: IHVN is the Institute's Nigerian NGO affiliate, not a hospital.",
+      "sources": [
+        {
+          "author": "University of Maryland School of Medicine",
+          "title": "University of Maryland Baltimore leadership helps IHV Nigeria launch campus in Abuja",
+          "publisher": "University of Maryland School of Medicine",
+          "date": "2023-06",
+          "url": "https://ihv.umaryland.edu/news/2023/university-of-maryland-baltimore-leadership-helps-ihv-nigeria-launch-state-of-the-art-campus-in-public-healthcare-treatment-training-and-research-in-nigeria.html"
+        },
+        {
+          "author": "US National Institutes of Health",
+          "title": "RePORTER: 5D43TW012280-05, Expanding the pool of Independent Investigators in Implementation Science (Institute of Human Virology Nigeria)",
+          "publisher": "NIH RePORTER",
+          "date": "FY2026 (budget start 1 February 2026)",
+          "url": "https://reporter.nih.gov/project-details/11251575"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--university-of-maryland-school-of-medicine-institute-of-human-virology--institute-of-human-virology-nigeria-ihvn"
+    },
+    {
+      "foreign_institution": "University of Miami (Sylvester Comprehensive Cancer Center)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Ahmadu Bello University Teaching Hospital (ABUTH)",
+      "partner_city": "Zaria",
+      "type": "Research collaboration",
+      "description": "ABUTH is a recruiting site in a University of Miami led trial of niraparib maintenance therapy for ovarian cancer in women of African ancestry. The tie began with a Miami delegation visit to ABUTH in 2023.",
+      "status": "Active",
+      "start": "2023-08",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "ClinicalTrials.gov NCT06412120 lists ABUTH Zaria as recruiting, study start 28 July 2026, record updated 5 August 2026, Miami investigators Schlumbrecht and George. ABUTH's August 2023 news item reports the planning visit (page not retrievable; seen in search results only).",
+      "sources": [
+        {
+          "author": "ClinicalTrials.gov",
+          "title": "Study Evaluating Safety, Tolerability, and Metabolism of Niraparib (NCT06412120)",
+          "publisher": "US National Library of Medicine",
+          "date": "2026-08-05",
+          "url": "https://clinicaltrials.gov/study/NCT06412120"
+        },
+        {
+          "author": "Ahmadu Bello University",
+          "title": "ABUTH to begin clinical trials on ovarian cancer next year",
+          "publisher": "Ahmadu Bello University",
+          "date": "2023-08",
+          "url": "https://abu.edu.ng/abuth-to-begin-clinical-trials-on-ovarian-cancer-next-year/"
+        },
+        {
+          "author": "US National Library of Medicine",
+          "title": "NCT06412120: Niraparib as Maintenance Following Front-Line Treatment for Ovarian Cancer in Women of African Ancestry",
+          "publisher": "ClinicalTrials.gov",
+          "date": "5 August 2026",
+          "url": "https://clinicaltrials.gov/study/NCT06412120"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--university-of-miami-sylvester-comprehensive-cancer-center--ahmadu-bello-university-teaching-hospital-abuth"
+    },
+    {
+      "foreign_institution": "University of Virginia Health System",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Federal Medical Centre Umuahia",
+      "partner_city": "Umuahia",
+      "type": "Training and education",
+      "description": "UVA nephrology supports the kidney transplant programme at FMC Umuahia through mentorship, coordinator training and joint research under the ISN and TTS Sister Transplant Centers Program. The pair reached Level B in 2026.",
+      "status": "Active",
+      "start": "2024",
+      "end": "",
+      "last_evidence": "2026-05",
+      "evidence": "UVA Medicine in Motion news, 13 May 2026, reports the move from Level C to Level B, shorter post transplant stays (14 to 8 days), four trained coordinators and eight joint publications in the first two years, which puts the start near 2024.",
+      "sources": [
+        {
+          "author": "UVA School of Medicine",
+          "title": "UVA Partners With Federal Medical Center in Nigeria to Elevate Global Kidney Care",
+          "publisher": "UVA Medicine in Motion",
+          "date": "2026-05-13",
+          "url": "https://news.med.virginia.edu/community/uva-nigeria-elevating-global-kidney-care/"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--university-of-virginia-health-system--federal-medical-centre-umuahia"
+    },
+    {
+      "foreign_institution": "Vanderbilt University Medical Center (Vanderbilt Institute for Global Health)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Aminu Kano Teaching Hospital and Bayero University Kano",
+      "partner_city": "Kano",
+      "type": "Research collaboration",
+      "description": "Long running research and training partnership, now in its second Fogarty funded phase (V-BRCH 2), building Nigerian capacity for clinical research on HIV and related chronic diseases. Related programmes cover child neurology and research administration.",
+      "status": "Active",
+      "start": "2020",
+      "end": "",
+      "last_evidence": "2025-12",
+      "evidence": "Fogarty grant D43TW011544 lists Aminu Kano Teaching Hospital as principal institution with award years 2020 to 2029, and Vanderbilt's V-BRCH page describes V-BRCH 2 as a continuation. Both pages are undated, so last evidence reflects page content as read on 16 October 2026; flag for the verifier. Start year is the 2020 award; the AKTH tie is older. Fogarty grant D43TW011544 was renewed in 2025 with Aminu Kano Teaching Hospital as grantee; the FY2026 award notice is dated 18 December 2025 (NIH RePORTER).",
+      "sources": [
+        {
+          "author": "Fogarty International Center",
+          "title": "Vanderbilt-Nigeria Building Research Capacity in HIV and NCDs (V-BRCH)",
+          "publisher": "US National Institutes of Health",
+          "date": "",
+          "url": "https://fic.nih.gov/Grants/Search/Pages/hiv-research-training-d43tw011544.aspx"
+        },
+        {
+          "author": "Vanderbilt Institute for Global Health",
+          "title": "V-BRCH",
+          "publisher": "Vanderbilt University Medical Center",
+          "date": "",
+          "url": "https://www.vumc.org/global-health/v-brch"
+        },
+        {
+          "author": "US National Institutes of Health",
+          "title": "RePORTER: 5D43TW011544-07, Vanderbilt-Nigeria Building Research Capacity in HIV and Non-communicable Diseases (V-BRCH)",
+          "publisher": "NIH RePORTER",
+          "date": "FY2026 (budget start 1 January 2026)",
+          "url": "https://reporter.nih.gov/project-details/11378551"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--vanderbilt-university-medical-center-vanderbilt-institute-for-global-health--aminu-kano-teaching-hospital-and-bayero-university-kano"
+    },
+    {
+      "foreign_institution": "Virginia Commonwealth University (VCU Massey Comprehensive Cancer Center)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "National Hospital Abuja",
+      "partner_city": "Abuja",
+      "type": "Research collaboration",
+      "description": "Two year memorandum of understanding between the National Hospital and VCU Massey Comprehensive Cancer Center to build cancer research capacity. Focus areas are clinical trials, training of new scientists and moving research into patient care.",
+      "status": "Active",
+      "start": "2025-07",
+      "end": "",
+      "last_evidence": "2025-07",
+      "evidence": "News Agency of Nigeria and Nairametrics reported the signing on 1 July 2025 by Prof Muhammad Mahmud and Dr Robert Winn, saying it was signed on a Tuesday (24 June or 1 July 2025). Term is two years, so it runs to mid 2027.",
+      "sources": [
+        {
+          "author": "Anthonia Obokoh",
+          "title": "National Hospital signs MoU with U.S. cancer center to boost research, clinical trials in Nigeria",
+          "publisher": "Nairametrics",
+          "date": "2025-07-01",
+          "url": "https://nairametrics.com/2025/07/01/national-hospital-signs-mou-with-u-s-cancer-center-to-boost-research-clinical-trials-in-nigeria/"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--virginia-commonwealth-university-vcu-massey-comprehensive-cancer-center--national-hospital-abuja"
+    },
+    {
+      "foreign_institution": "Evercare Group (owned at its 2021 launch by the TPG-managed Evercare Health Fund)",
+      "foreign_country": "United Arab Emirates",
+      "group": "Other foreign health systems",
+      "indian_partner": "Evercare Hospital Lekki",
+      "partner_city": "Lagos",
+      "type": "Ownership or management",
+      "description": "Evercare Group owns and operates Evercare Hospital Lekki, a 165-bed tertiary hospital in Lagos that opened in February 2021, as part of its network of hospitals in Africa and South Asia.",
+      "status": "Active",
+      "start": "2021-03",
+      "end": "",
+      "last_evidence": "2024-10",
+      "evidence": "ThisDay, 10 October 2024, describes Evercare Hospital Lekki as part of the Evercare Group, which operates in Kenya and Pakistan as well as Nigeria, announcing new cochlear implant surgery. TPG's release and a 2021 report document the group's ownership and the February 2021 opening. A 2026 LinkedIn post suggests continued operation but was not verified. Ownership is as of the 2021 launch; no later ownership confirmation was found.",
+      "sources": [
+        {
+          "author": "Esther Oluku",
+          "title": "Evercare, MedEI, Commence Advanced Cochlear Implant Surgery in Nigeria",
+          "publisher": "ThisDay",
+          "date": "2024-10-10",
+          "url": "https://www.thisdaylive.com/2024/10/10/evercare-medei-commence-advanced-cochlear-implant-surgery-in-nigeria/"
+        },
+        {
+          "author": "TPG",
+          "title": "Evercare Group set to deliver accessible, quality healthcare in Nigeria",
+          "publisher": "TPG",
+          "date": "2021",
+          "url": "https://www.tpg.com/news-and-insights/evercare-group-set-deliver-accessible-quality-healthcare-nigeria"
+        },
+        {
+          "author": "TPG",
+          "title": "Evercare Group set to deliver accessible, quality healthcare in Nigeria through a new world-class multispecialty hospital",
+          "publisher": "TPG",
+          "date": "26 February 2021",
+          "url": "https://www.tpg.com/news-and-insights/evercare-group-set-deliver-accessible-quality-healthcare-nigeria"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--evercare-group-owned-at-its-2021-launch-by-the-tpg-managed-evercare-health-fund--evercare-hospital-lekki"
+    },
+    {
+      "foreign_institution": "King's College Hospital NHS Foundation Trust",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "African Medical Centre of Excellence (AMCE), developed by Afreximbank",
+      "partner_city": "Abuja",
+      "type": "Advisory and consulting",
+      "description": "King's is the appointed Clinical Partner of the AMCE, supporting clinical protocols, governance, service set-up, recruitment and training for the 170-bed specialist hospital in Abuja. Clinical services were commissioned in June 2025.",
+      "status": "Active",
+      "start": "2021-06",
+      "end": "",
+      "last_evidence": "2026-09",
+      "evidence": "Afreximbank announced on 3 June 2021 that it had signed an agreement appointing King's College Hospital as Clinical Partner. Nairametrics reports the AMCE was commissioned on 5 June 2025 with Vice President Shettima praising the AMCE and King's partnership. Brand Spur (19 September 2026) describes the centre as developed with King's College Hospital and now commissioned.",
+      "sources": [
+        {
+          "author": "Afreximbank",
+          "title": "King's College Hospital, London (KCH) affirmed as Clinical Partner",
+          "publisher": "African Medical Centre of Excellence (amce.net)",
+          "date": "2021-06-03",
+          "url": "https://www.amce.net/?p=10738"
+        },
+        {
+          "author": "Nnaemeka Onyekachi",
+          "title": "Afreximbank, BOI sign $75 million financing support for local manufacturers in Nigerian healthcare sector (reports AMCE commissioning)",
+          "publisher": "Nairametrics",
+          "date": "2025-06-05",
+          "url": "https://nairametrics.com/2025/06/05/afreximbank-boi-sign-75-million-financing-support-for-local-manufacturers-in-nigerian-healthcare-sector/"
+        },
+        {
+          "author": "Brand Spur",
+          "title": "African Medical Centre Of Excellence Opens In Abuja As Nigeria Targets $2.2bn Health Sector Overhaul",
+          "publisher": "Brand Spur Nigeria",
+          "date": "2026-09-19",
+          "url": "https://brandspurng.com/2026/09/19/african-medical-centre-of-excellence-opens-in-abuja-as-nigeria-targets-2-2bn-health-sector-overhaul/"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--king-s-college-hospital-nhs-foundation-trust--african-medical-centre-of-excellence-amce-developed-by-afreximbank"
+    },
+    {
+      "foreign_institution": "King's College London",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "African Medical Centre of Excellence (AMCE), developed by Afreximbank",
+      "partner_city": "Abuja",
+      "type": "Training and education",
+      "description": "King's College London and Afreximbank agreed to plan a medical and nursing school at the AMCE in Abuja, drawing on King's healthcare education expertise. A further terms of agreement was signed in June 2025.",
+      "status": "Active",
+      "start": "2023-11",
+      "end": "",
+      "last_evidence": "2025-06",
+      "evidence": "King's news release of 28 November 2023 reports the memorandum of agreement signed on 24 November 2023 for a scoping study of the school. Nairametrics reports a terms of agreement between Afreximbank and King's College London on the school was signed at the AMCE commissioning on 5 June 2025.",
+      "sources": [
+        {
+          "author": "King's College London",
+          "title": "New partnership to deliver medical excellence in Nigeria",
+          "publisher": "King's College London",
+          "date": "2023-11-28",
+          "url": "https://www.kcl.ac.uk/news/new-partnership-to-deliver-medical-excellence-in-nigeria"
+        },
+        {
+          "author": "Nnaemeka Onyekachi",
+          "title": "Afreximbank, BOI sign $75 million financing support for local manufacturers in Nigerian healthcare sector (reports KCL terms of agreement)",
+          "publisher": "Nairametrics",
+          "date": "2025-06-05",
+          "url": "https://nairametrics.com/2025/06/05/afreximbank-boi-sign-75-million-financing-support-for-local-manufacturers-in-nigerian-healthcare-sector/"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--king-s-college-london--african-medical-centre-of-excellence-amce-developed-by-afreximbank"
+    },
+    {
+      "foreign_institution": "Liverpool School of Tropical Medicine",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Postgraduate Medical College of Nigeria (with Wellbeing Foundation Africa)",
+      "partner_city": "Lagos and Abuja",
+      "type": "Training and education",
+      "description": "LSTM leads Advanced Obstetrics and Surgical Skills training for obstetrics and gynaecology examiners and residents of the National Postgraduate Medical College, with centres of excellence in Lagos and Abuja and later sites in Port Harcourt and Gombe. It is funded by the UK Global Health Workforce Programme.",
+      "status": "Active",
+      "start": "2024-02",
+      "end": "",
+      "last_evidence": "2025-05",
+      "evidence": "LSTM reports the course began on 6 May 2024 at the college's centre of excellence at LUTH. The Wellbeing Foundation Africa reported on 12 February 2025 that 225 doctors had been trained, and on 22 May 2025 that training had expanded to the University of Port Harcourt Teaching Hospital. LSTM's May 2024 release names the site as 'Lagos State University Teaching Hospital (LUTH)', which is ambiguous; WBFA reported 225 examiners and 120 residents trained by May 2025.",
+      "sources": [
+        {
+          "author": "Liverpool School of Tropical Medicine",
+          "title": "LSTM and Wellbeing Foundation Africa launch Advanced Training for Resident Doctors in Nigeria",
+          "publisher": "Liverpool School of Tropical Medicine",
+          "date": "2024-05",
+          "url": "https://lstmed.ac.uk/news/liverpool-school-of-tropical-medicine-and-wellbeing-foundation-africa-launch-advanced-training-for-resident-doctors-in-nigeria/"
+        },
+        {
+          "author": "Wellbeing Foundation Africa",
+          "title": "AOSS Training Expands to Port Harcourt and Gombe",
+          "publisher": "Wellbeing Foundation Africa",
+          "date": "2025-05-22",
+          "url": "https://wbfafrica.org/aoss-training-expands-to-port-harcourt-and-gombe-ghwp/"
+        },
+        {
+          "author": "Wellbeing Foundation Africa",
+          "title": "Liverpool School of Tropical Medicine, Wellbeing Foundation Africa, and Global Health Workforce Partnership",
+          "publisher": "Wellbeing Foundation Africa",
+          "date": "2025-02-12",
+          "url": "https://wbfafrica.org/liverpool-school-of-tropical-medicine-wellbeing-foundation-africa-and-global-health-workforce-partnership/"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--liverpool-school-of-tropical-medicine--national-postgraduate-medical-college-of-nigeria-with-wellbeing-foundation-africa"
+    },
+    {
+      "foreign_institution": "Manipal Hospitals",
+      "foreign_country": "India",
+      "group": "Other foreign health systems",
+      "indian_partner": "Afe Babalola University Multi-System Hospital",
+      "partner_city": "Ado-Ekiti",
+      "type": "Training and education",
+      "description": "Afe Babalola University Multi-System Hospital and Manipal Hospitals signed an MoU to expand capacity, deepen specialist training, improve clinical exchange and support advanced surgical care.",
+      "status": "Active",
+      "start": "2026-06",
+      "end": "",
+      "last_evidence": "2026-06",
+      "evidence": "News Agency of Nigeria, 26 June 2026, reports the MoU announced at a press briefing by the hospital's chief medical director, with Dr Rajit Sood speaking for Manipal and the university's Vice-Chancellor present.",
+      "sources": [
+        {
+          "author": "Folasade Akpan",
+          "title": "ABUAD multi-system hospital records 50 successful kidney transplants",
+          "publisher": "News Agency of Nigeria",
+          "date": "2026-06-26",
+          "url": "https://nannews.ng/abuad-multi-system-hospital-records-50-successful-kidney-transplants/"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--manipal-hospitals--afe-babalola-university-multi-system-hospital"
+    },
+    {
+      "foreign_institution": "The Christie NHS Foundation Trust",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "African Medical Centre of Excellence (AMCE), developed by Afreximbank",
+      "partner_city": "Abuja",
+      "type": "Advisory and consulting",
+      "description": "The Christie, through Christie International, is the oncology partner to King's College Hospital in advising the AMCE, supporting oncology staff recruitment, education and quality assurance. It continues to support the oncology service after opening.",
+      "status": "Active",
+      "start": "2021",
+      "end": "",
+      "last_evidence": "2024-10",
+      "evidence": "The Christie's news story of 25 October 2024 reports an AMCE delegation visit to Manchester and says its advice, which began in 2021, would continue into operations. The Christie's project page, as indexed in search, states that clinical services were commissioned on 5 June 2025 with Christie International's head attending.",
+      "sources": [
+        {
+          "author": "The Christie NHS Foundation Trust",
+          "title": "The Christie International hosts African Medical Centre of Excellence visit",
+          "publisher": "The Christie NHS Foundation Trust",
+          "date": "2024-10-25",
+          "url": "https://christie.nhs.uk/about-us/news-at-the-christie/latest-news-stories/the-christie-international-hosts-african-medical-centre-of-excellence-visit"
+        },
+        {
+          "author": "The Christie NHS Foundation Trust",
+          "title": "The Christie supporting a new African Medical Centre of Excellence project",
+          "publisher": "The Christie NHS Foundation Trust",
+          "date": "",
+          "url": "https://christie.nhs.uk/about-us/about-the-christie/the-christie-international/partnerships-experience/the-christie-supporting-a-new-african-medical-centre-of-excellence-project"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--the-christie-nhs-foundation-trust--african-medical-centre-of-excellence-amce-developed-by-afreximbank"
+    },
+    {
+      "foreign_institution": "The Royal Marsden NHS Foundation Trust",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "Marcelle Ruth Cancer Centre & Specialist Hospital",
+      "partner_city": "Lagos",
+      "type": "Clinical affiliation",
+      "description": "The two cancer centres signed a strategic partnership covering clinical expertise, research, professional development and training, aimed at keeping cancer care in Nigeria and West Africa.",
+      "status": "Active",
+      "start": "2026-09",
+      "end": "",
+      "last_evidence": "2026-09",
+      "evidence": "BusinessDay reported on 24 September 2026 that Marcelle Ruth had entered a strategic partnership with The Royal Marsden. Search results also show the agreement described as an MoU on a Royal Marsden Private Care LinkedIn post; no Royal Marsden press release was found.",
+      "sources": [
+        {
+          "author": "BusinessDay",
+          "title": "Marcelle Ruth Cancer Centre partners UK's Royal Marsden to improve healthcare delivery in West Africa",
+          "publisher": "BusinessDay",
+          "date": "2026-09-24",
+          "url": "https://businessday.ng/news/article/marcelle-ruth-cancer-centre-royal-marsden-partner-to-elevate-west-africas-oncology-care/"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--the-royal-marsden-nhs-foundation-trust--marcelle-ruth-cancer-centre-specialist-hospital"
+    },
+    {
+      "foreign_institution": "University of Birmingham",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "University of Lagos (with Lagos University Teaching Hospital)",
+      "partner_city": "Lagos",
+      "type": "Training and education",
+      "description": "The University of Lagos and the University of Birmingham signed a memorandum on transnational education covering student and staff exchange and curriculum development. It builds on more than a decade of global surgery collaboration that introduced a master's programme in surgery at LUTH.",
+      "status": "Active",
+      "start": "2026-01",
+      "end": "",
+      "last_evidence": "2026-01",
+      "evidence": "Vanguard, 29 January 2026, reports the MoU signed at UNILAG's Senate Chamber, witnessed by the Minister of Education; UNILAG's Vice Chancellor cites the Birmingham global surgery work and the LUTH master's in surgery. Birmingham described the MoU as a statement of intent. Not yet confirmed on Birmingham's newsroom.",
+      "sources": [
+        {
+          "author": "Adesina Wahab",
+          "title": "UNILAG, University of Birmingham sign MoU on Transnational Education Engagement",
+          "publisher": "Vanguard",
+          "date": "29 January 2026",
+          "url": "https://www.vanguardngr.com/2026/01/unilag-university-of-birmingham-sign-mou-on-transnational-education-engagement/"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--university-of-birmingham--university-of-lagos-with-lagos-university-teaching-hospital"
+    },
+    {
+      "foreign_institution": "University of Glasgow",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "Ahmadu Bello University",
+      "partner_city": "Zaria",
+      "type": "Research collaboration",
+      "description": "A university-level MoU provides a framework for joint research programmes, postgraduate co-supervision and academic exchange on global health challenges, coordinated by the School of Infection and Immunity. A university-wide MoU; no teaching-hospital or clinical component is named.",
+      "status": "Active",
+      "start": "2026-04",
+      "end": "",
+      "last_evidence": "2026-04",
+      "evidence": "The University of Glasgow news item of 12 May 2026 reports the MoU signed during a visit on 28 and 29 April 2026, following an exploratory visit in December 2025. The MoU is university-wide and not limited to the teaching hospital.",
+      "sources": [
+        {
+          "author": "University of Glasgow",
+          "title": "School of Infection & Immunity's Professor Harry de-Koning helps facilitate UofG-ABU MoU",
+          "publisher": "University of Glasgow",
+          "date": "2026-05-12",
+          "url": "https://www.gla.ac.uk/schools/infectionimmunity/newsevents/headline_1265451_en.html"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--university-of-glasgow--ahmadu-bello-university"
+    },
+    {
+      "foreign_institution": "University of Maryland School of Medicine",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Lagos University Teaching Hospital (LUTH)",
+      "partner_city": "Lagos",
+      "type": "Research collaboration",
+      "description": "The University of Maryland School of Medicine and LUTH announced a chronic disease collaboration in August 2024, initially for four to five years with a stated ten-year ambition.",
+      "status": "Unclear",
+      "start": "2024-08",
+      "end": "",
+      "last_evidence": "2024-08",
+      "evidence": "Nairametrics (19 August 2024) and LUTH report a partnership planned over ten years, following a visit by Dean Mark Gladwin. No signed text or later 2024 to 2026 update found, so it falls just before the Active cutoff.",
+      "sources": [
+        {
+          "author": "Lagos University Teaching Hospital",
+          "title": "Maryland LUTH",
+          "publisher": "Lagos University Teaching Hospital",
+          "date": "2024-08",
+          "url": "https://luth.gov.ng/news/maryland-luth"
+        },
+        {
+          "author": "Lagos University Teaching Hospital",
+          "title": "University of Maryland School of Medicine Collaborates with Lagos University Teaching Hospital on Non-Communicable Diseases",
+          "publisher": "Lagos University Teaching Hospital",
+          "date": "August 2024",
+          "url": "https://luth.gov.ng/news/maryland-luth"
+        },
+        {
+          "author": "IHV Nigeria",
+          "title": "University of Maryland Dean of Medicine Visits LUTH",
+          "publisher": "Institute of Human Virology Nigeria",
+          "date": "August 2024",
+          "url": "https://www.ihvnigeria.org/university-of-maryland-dean-of-medicine-visits-luth/"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--university-of-maryland-school-of-medicine--lagos-university-teaching-hospital-luth"
+    },
+    {
+      "foreign_institution": "University of Virginia Health System",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Federal Medical Centre Owo",
+      "partner_city": "Owo",
+      "type": "Training and education",
+      "description": "UVA's nephrology division built a partnership with FMC Owo covering research and career development programmes, with the International Society of Nephrology, and donated textbooks.",
+      "status": "Unclear",
+      "start": "",
+      "end": "",
+      "last_evidence": "2023-01",
+      "evidence": "UVA news item describes a textbook donation on 6 January 2023. No later dated evidence found, and the work may now sit inside the FMC Umuahia programme.",
+      "sources": [
+        {
+          "author": "UVA School of Medicine",
+          "title": "UVA Department of Nephrology Partners With Nigerian Federal Medical Center",
+          "publisher": "UVA Medicine in Motion",
+          "date": "2023-01",
+          "url": "https://news.med.virginia.edu/community/uva-department-of-nephrology-partners-with-nigerian-federal-medical-center/"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--university-of-virginia-health-system--federal-medical-centre-owo"
+    },
+    {
+      "foreign_institution": "Yale School of Medicine (Department of Psychiatry)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Imo State University Teaching Hospital",
+      "partner_city": "Orlu",
+      "type": "Training and education",
+      "description": "Yale's HAPPINESS Project, run with the Imo State teaching hospital, trains primary care workers to treat mental, neurological and substance use disorders, with telemedicine specialist support. It has begun integrating mental health into HIV clinics.",
+      "status": "Unclear",
+      "start": "2018",
+      "end": "",
+      "last_evidence": "2023-09",
+      "evidence": "Nigeria Health Watch, 6 September 2023, reports over 100 workers trained; Yale's programme page is undated. No dated evidence from October 2024 onward found. The teaching hospital is in Orlu, Imo State.",
+      "sources": [
+        {
+          "author": "Nigeria Health Watch",
+          "title": "Making Happiness Local: How a Project is Improving Access to Mental Healthcare in Imo State",
+          "publisher": "Nigeria Health Watch",
+          "date": "2023-09-06",
+          "url": "https://nigeriahealthwatch.com/articles/torchlight/making-happiness-local-how-a-project-is-improving-access-to-mental-healthcare-in-imo-state/"
+        },
+        {
+          "author": "Yale School of Medicine",
+          "title": "The HAPPINESS Project",
+          "publisher": "Yale School of Medicine",
+          "date": "",
+          "url": "https://medicine.yale.edu/psychiatry/education/programs-and-initiatives/happiness"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--yale-school-of-medicine-department-of-psychiatry--imo-state-university-teaching-hospital"
+    },
+    {
+      "foreign_institution": "Apollo Hospitals",
+      "foreign_country": "India",
+      "group": "Other foreign health systems",
+      "indian_partner": "Duchess International Hospital (Reddington Hospital Group)",
+      "partner_city": "Lagos",
+      "type": "Ownership or management",
+      "description": "Apollo Hospitals supports the operation and management of the 100-bed Duchess International Hospital in Ikeja, Lagos, to strengthen efficiency and clinical quality. The arrangement was announced when the hospital launched in October 2021.",
+      "status": "Unclear",
+      "start": "2021-10",
+      "end": "",
+      "last_evidence": "2021-11",
+      "evidence": "ThisDay (11 November 2021) and New Telegraph report that operation and management of the Duchess are supported by Apollo Hospitals, India. No dated confirmation from October 2024 onward was found; the hospital's 2024 and 2025 award releases do not mention Apollo.",
+      "sources": [
+        {
+          "author": "ThisDay",
+          "title": "Duchess International Hospital Has Put Lagos on World Healthcare Map, Says US Consul General",
+          "publisher": "ThisDay",
+          "date": "11 November 2021",
+          "url": "https://www.thisdaylive.com/index.php/2021/11/11/duchess-international-hospital-has-put-lagos-on-world-healthcare-map-says-us-consul-general/"
+        },
+        {
+          "author": "Appolonia Adeyemi",
+          "title": "Duchess International Hospital debuts in Lagos, builds capacity",
+          "publisher": "New Telegraph",
+          "date": "2021",
+          "url": "https://newtelegraphng.com/?p=192437"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--apollo-hospitals--duchess-international-hospital-reddington-hospital-group"
+    },
+    {
+      "foreign_institution": "Apollo Hospitals",
+      "foreign_country": "India",
+      "group": "Other foreign health systems",
+      "indian_partner": "State House Clinic",
+      "partner_city": "Abuja",
+      "type": "Training and education",
+      "description": "Apollo doctors visit the State House Clinic to give free consultations and lectures, and clinic staff have been sent to Apollo in India for up to six weeks of training at no charge.",
+      "status": "Unclear",
+      "start": "2015",
+      "end": "",
+      "last_evidence": "2022-07",
+      "evidence": "Blueprint, 29 July 2022, quotes the clinic's medical director describing a collaboration of almost six to seven years and a visiting Apollo team in Abuja. Start year is approximate, back-calculated from that quote. No later dated activity was found; a March 2024 ThisDay report records only Apollo's stated intent to partner with Nigerian hospitals.",
+      "sources": [
+        {
+          "author": "Blueprint",
+          "title": "State House Clinic, Indian hospital collaborate to assist heart, kidney, cancer patients",
+          "publisher": "Blueprint",
+          "date": "2022-07-29",
+          "url": "https://blueprint.ng/state-house-clinic-indian-hospital-collaborate-to-assist-heart-kidney-cancer-patients/"
+        },
+        {
+          "author": "ThisDay",
+          "title": "Medical Tourism: Indian Hospital to Train Nigerian Doctors on Cancer Treatment",
+          "publisher": "ThisDay",
+          "date": "2024-03-05",
+          "url": "https://www.thisdaylive.com/2024/03/05/medical-tourism-indian-hospital-to-train-nigerian-doctors-on-cancer-treatment/"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--apollo-hospitals--state-house-clinic"
+    },
+    {
+      "foreign_institution": "Memorial Hospitals Group",
+      "foreign_country": "Turkey",
+      "group": "Other foreign health systems",
+      "indian_partner": "Kasi Healthcare",
+      "partner_city": "Lagos",
+      "type": "Telehealth and second opinion",
+      "description": "Memorial specialists provide second opinions and specialist screenings, with monthly visiting specialists and training courses for Nigerian providers at Kasi's Lagos airport clinic, linked to referral of patients to Turkey. Close to a patient-referral arrangement.",
+      "status": "Unclear",
+      "start": "2024-09",
+      "end": "",
+      "last_evidence": "2024-09",
+      "evidence": "BusinessDay, 27 September 2024, reports the partnership announced with Memorial's country executive. No later dated activity was found.",
+      "sources": [
+        {
+          "author": "Temitayo Ayetoto-Oladehinde",
+          "title": "Nigeria partners Turkey to tap $8.5trn healthcare market",
+          "publisher": "BusinessDay",
+          "date": "2024-09-27",
+          "url": "https://businessday.ng/news/article/nigeria-partners-turkey-to-tap-8-5trn-healthcare-market/"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--memorial-hospitals-group--kasi-healthcare"
+    },
+    {
+      "foreign_institution": "Peking University People's Hospital (named variously in press as People's University Hospital, Beijing)",
+      "foreign_country": "China",
+      "group": "Other foreign health systems",
+      "indian_partner": "University of Abuja Teaching Hospital",
+      "partner_city": "Gwagwalada, Abuja",
+      "type": "Government agreement",
+      "description": "A China-Nigeria government letter of intent names these two hospitals as the pioneer project for hospital cooperation under the 2021 FOCAC health programmes, covering knowledge sharing and research.",
+      "status": "Unclear",
+      "start": "2022-08",
+      "end": "",
+      "last_evidence": "2022-08",
+      "evidence": "Within Nigeria and the University of Abuja Teaching Hospital website report the letter of intent signed in Abuja by the Chinese Ambassador and Nigeria's Health Minister in August 2022. No follow-up activity was found. The Chinese hospital's name varies between sources and is inferred.",
+      "sources": [
+        {
+          "author": "Within Nigeria",
+          "title": "Nigeria signs letter of intent with China to improve health sector",
+          "publisher": "Within Nigeria",
+          "date": "2022-08-20",
+          "url": "https://www.withinnigeria.com/broadnews/2022/08/20/nigeria-signs-letter-of-intent-with-china-to-improve-health-sector/"
+        },
+        {
+          "author": "University of Abuja Teaching Hospital",
+          "title": "Nigeria, China signs letter of intent to improve health sector",
+          "publisher": "University of Abuja Teaching Hospital",
+          "date": "2022-08",
+          "url": "https://uathospital.ng/nigeria-china-signs-letter-of-intent-to-improve-health-sector/"
+        }
+      ],
+      "country": "Nigeria",
+      "last_checked": "2026-10-21",
+      "id": "nigeria--peking-university-people-s-hospital-named-variously-in-press-as-people-s-university-hospital-beijing--university-of-abuja-teaching-hospital"
     }
   ]
 }
