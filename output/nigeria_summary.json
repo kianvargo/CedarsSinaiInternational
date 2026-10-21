@@ -1,0 +1,81 @@
+{
+ "country": "Nigeria",
+ "at_a_glance": [
+  {
+   "value": "237.5 m",
+   "label": "Population, 2025 estimate",
+   "cite": "{{country_overview.demographics:1}}"
+  },
+  {
+   "value": "9,530",
+   "label": "GDP per capita, PPP (international dollars), about, 2025",
+   "cite": "{{country_overview.demographics:4}}"
+  },
+  {
+   "value": "4.19%",
+   "label": "Current health expenditure, share of GDP, 2023",
+   "cite": "{{health_system.financing:1}}"
+  },
+  {
+   "value": "71.9%",
+   "label": "Out-of-pocket share of current health expenditure, 2023",
+   "cite": "{{health_system.financing:3}}"
+  },
+  {
+   "value": "0.38",
+   "label": "Physicians per 1,000 people, 2023",
+   "cite": "{{health_system.workforce:1}}"
+  },
+  {
+   "value": "54.6",
+   "label": "Life expectancy at birth, years, 2024",
+   "cite": "{{country_overview.demographics:10}}"
+  },
+  {
+   "value": "115.6",
+   "label": "Under-five deaths per 1,000 live births, 2024",
+   "cite": "{{country_overview.disease_prevalence:10}}"
+  },
+  {
+   "value": "23 m+",
+   "label": "Health insurance enrollment, September 2026",
+   "cite": "{{health_system.public_system:7}}"
+  }
+ ],
+ "key_takeaways": [
+  "Out-of-pocket payments made up 71.9 percent of current health spending in 2023.{{health_system.financing:3}}",
+  "Practicing doctors fell 16.9 percent to about 55,000 in 2025, largely because of emigration.{{health_system.workforce:3}}",
+  "Communicable, maternal, prenatal and nutritional conditions caused 63.7 percent of deaths in 2021, and noncommunicable diseases 27.7 percent.{{country_overview.disease_prevalence:1}}{{country_overview.disease_prevalence:2}}",
+  "Health insurance enrollment passed 23 million in September 2026, roughly 10 percent of the 2025 population.{{health_system.public_system:7}}{{health_system.public_system:4}}"
+ ],
+ "health_system": [
+  "Health spending was 4.19 percent of GDP in 2023, below Kenya, Egypt and South Africa.{{health_system.financing:1}}{{health_system.financing:7}}",
+  "Of 40,368 hospitals and clinics counted in mid-2021, 85.2 percent were primary and only 0.4 percent tertiary.{{health_system.public_system:1}}",
+  "The United States intends to provide $2.1 billion over five years under a December 2025 health memorandum.{{health_system.financing:11}}"
+ ],
+ "market": [
+  "Evercare built the 165-bed Evercare Hospital Lekki in Lagos, and Padiyath Healthcare is building a 300-bed hospital in Abuja.{{health_system.competitive_landscape:1}}{{health_system.competitive_landscape:3}}",
+  "UVA Health supports the kidney transplant program at Federal Medical Centre Umuahia, one of several active U.S. academic ties.{{health_system.competitive_landscape:5}}",
+  "Central Bank data show $549 million of health travel spending in the first nine months of 2025, up 18 percent.{{health_system.competitive_landscape:11}}"
+ ],
+ "risks": [
+  "Presidential and National Assembly elections on 16 January 2027 could change federal priorities.{{country_overview.government:4}}",
+  "In 2024, 4,193 doctors and dentists emigrated, and 72.9 percent of surveyed medical and nursing students intended to practice abroad.{{health_system.workforce:3}}{{health_system.education:1}}",
+  "The 2026 budget proposal gave health N2.48 trillion, about 4.2 percent, below the Abuja Declaration's 15 percent target.{{health_system.financing:8}}{{health_system.financing:10}}"
+ ],
+ "recent": [
+  {
+   "date": "2026-02-03",
+   "text": "The IFC and NSIA financed MedServe's $154.1 million project for diagnostic, radiotherapy and cardiac catheterization centers.{{recent_developments.2:1}}"
+  },
+  {
+   "date": "2026-07-09",
+   "text": "Health insurance enrollment reached 22.03 million, up 35 percent in a year, as mandatory provisions are phased in.{{recent_developments.1:1}}"
+  },
+  {
+   "date": "2026-10-20",
+   "text": "Nigeria confirmed an imported Ebola Bundibugyo case in Abuja, and 44 contacts are being monitored.{{recent_developments.0:1}}{{recent_developments.0:2}}"
+  }
+ ],
+ "country_background": "Nigeria, a federal presidential republic of 36 states and the Federal Capital Territory, Abuja, had about 237.5 million people in 2025.{{country_overview.demographics:5}}{{country_overview.demographics:6}}{{country_overview.government:1}}{{country_overview.government:2}}{{country_overview.demographics:1}} Bola Tinubu has been president since 29 May 2023, and Muhammad Ali Pate is Coordinating Minister of Health and Social Welfare.{{country_overview.government:2}}{{country_overview.government:3}}{{country_overview.government:5}}{{country_overview.government:7}} The federal government sets regulation, while states and local governments run general hospitals and primary health care centers.{{country_overview.government:6}} Real GDP grew 4.2 percent in the first half of 2026, and inflation eased to 14.63 percent in September 2026.{{country_overview.economy:1}}{{country_overview.economy:6}} The population is young, with 40.5 percent under 15, and life expectancy at birth was 54.6 years in 2024.{{country_overview.demographics:12}}{{country_overview.demographics:10}} The key risk is affordability: an estimated 69.6 percent of Nigerians lived below $4.20 a day in 2025, and households paid most health costs.{{country_overview.economy:1}}{{health_system.financing:3}}"
+}
