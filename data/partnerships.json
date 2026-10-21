@@ -3958,6 +3958,508 @@
       "id": "indonesia--ramsay-health-care--rs-premier-jatinegara-bintaro-and-surabaya"
     },
     {
+      "foreign_institution": "Johns Hopkins University (Bloomberg School of Public Health, Center for Indigenous Health)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "University of Otago, Te Rōpū Rangahau Hauora a Eru Pōmare (Eru Pōmare Māori Health Research Centre)",
+      "partner_city": "Wellington",
+      "type": "Research collaboration",
+      "description": "The Johns Hopkins Center for Indigenous Health runs the SPIRIT collective, a five year program funded by the LEGO Foundation that adapts its Family Spirit home visiting model and builds Indigenous playspaces. Its lead partner in New Zealand is the Eru Pōmare Māori Health Research Centre at the University of Otago, working with three Māori community sites.",
+      "status": "Active",
+      "start": "2023-01",
+      "end": "",
+      "last_evidence": "2026-01",
+      "evidence": "JHCIH won the LEGO Foundation Build a World of Play Challenge in December 2022 and funding began in 2023. A JHCIH Q&A published 21 January 2026 says the program is past its halfway point and names the University of Otago's Eru Pōmare centre as lead partner in Aotearoa, with partners meeting in Alice Springs in August 2024. The program page lists its status as Active.",
+      "sources": [
+        {
+          "author": "Johns Hopkins Center for Indigenous Health",
+          "title": "SPIRIT Program Q&A: A Global Collaboration Rooted In Indigenous Play",
+          "publisher": "Johns Hopkins Center for Indigenous Health",
+          "date": "2026-01-21",
+          "url": "https://cih.jhu.edu/spirit-program-qa"
+        },
+        {
+          "author": "Johns Hopkins Center for Indigenous Health",
+          "title": "SPIRIT",
+          "publisher": "Johns Hopkins Center for Indigenous Health",
+          "date": "",
+          "url": "https://cih.jhu.edu/programs/spirit/"
+        },
+        {
+          "author": "Johns Hopkins University",
+          "title": "Bloomberg School announces expanded Center for Indigenous Health",
+          "publisher": "Hub, Johns Hopkins University",
+          "date": "2022-09-15",
+          "url": "https://hub.jhu.edu/2022/09/15/center-for-indigenous-health-johns-hopkins/"
+        }
+      ],
+      "country": "New Zealand",
+      "last_checked": "2026-10-21",
+      "id": "new-zealand--johns-hopkins-university-bloomberg-school-of-public-health-center-for-indigenous-health--university-of-otago-te-r-p-rangahau-hauora-a-eru-p-mare-eru-p-mare-m-ori-health-research-centre"
+    },
+    {
+      "foreign_institution": "Icon Oncology Group (Icon Group)",
+      "foreign_country": "Australia",
+      "indian_partner": "Bowen Icon Cancer Centre (joint venture with Evolution Healthcare, Bowen Hospital)",
+      "partner_city": "Wellington",
+      "type": "Ownership or management",
+      "description": "Icon, Australia's largest dedicated cancer care provider, co-owns and runs the Bowen Icon Cancer Centre in Wellington as a joint venture with Evolution Healthcare. The centre offers private chemotherapy, haematology and, since 2019, radiation therapy.",
+      "status": "Active",
+      "start": "2017-07",
+      "end": "",
+      "last_evidence": "2025-02",
+      "evidence": "Newshub reported the Prime Minister opening the centre in July 2017. Icon's current group pages (copyright 2026, and mentioning its 2024 Pharmaxo acquisition) still describe Bowen Icon Cancer Centre as a joint venture with Evolution Healthcare, and the centre's own site is live under Icon branding. None of these pages carries a dated news item on the joint venture after 2017, so Active rests on current corporate pages rather than a dated release. Icon's 4 February 2025 news item says it introduced clinical trials at Bowen Icon Cancer Centre.",
+      "sources": [
+        {
+          "author": "Icon Oncology Group",
+          "title": "About us",
+          "publisher": "Icon Oncology Group",
+          "date": "2026",
+          "url": "https://icongroup.global/about-us/"
+        },
+        {
+          "author": "Icon Oncology Group",
+          "title": "Cancer Services – New Zealand",
+          "publisher": "Icon Oncology Group",
+          "date": "2026",
+          "url": "https://icongroup.global/our-services/cancer-services-new-zealand/"
+        },
+        {
+          "author": "Newshub",
+          "title": "PM opens Wellington's first private cancer care facility",
+          "publisher": "Newshub",
+          "date": "2017-07",
+          "url": "https://www.newshub.co.nz/home/health/2017/07/pm-opens-wellington-s-first-private-cancer-care-facility.html"
+        },
+        {
+          "author": "Icon Writers",
+          "title": "United by Unique this World Cancer Day",
+          "publisher": "Icon Group",
+          "date": "2025-02-04",
+          "url": "https://icongroup.global/en/news/2025-02-04/world-cancer-day/"
+        }
+      ],
+      "group": "Other foreign health systems",
+      "country": "New Zealand",
+      "last_checked": "2026-10-21",
+      "id": "new-zealand--icon-oncology-group-icon-group--bowen-icon-cancer-centre-joint-venture-with-evolution-healthcare-bowen-hospital"
+    },
+    {
+      "foreign_institution": "National University of Singapore and National University Health System",
+      "foreign_country": "Singapore",
+      "indian_partner": "Liggins Institute, University of Auckland",
+      "partner_city": "Auckland",
+      "type": "Research collaboration",
+      "description": "The Liggins Institute has formal agreements with the National University of Singapore and works with NUS and National University Hospital in the EpiGen consortium. Their joint NiPPeR trial and child follow-up study enrolled families in Auckland, Singapore and Southampton.",
+      "status": "Active",
+      "start": "2006",
+      "end": "",
+      "last_evidence": "2025-08",
+      "evidence": "The Liggins Institute's partnerships page cites formal agreements with NUS and the Singapore Institute for Clinical Sciences. The NiPPeR Child study (NCT05934422) names NUS, NUHS and National University Hospital as collaborators and Shiao-Yng Chan of NUS as a principal investigator alongside Auckland. It completed in August 2025, and the record was updated in November 2025. The NiPPeR Child follow-up ran from June 2023 to its completion on 14 August 2025.",
+      "sources": [
+        {
+          "author": "Liggins Institute",
+          "title": "Research partnerships",
+          "publisher": "University of Auckland",
+          "date": "",
+          "url": "https://www.auckland.ac.nz/en/liggins/in-the-community/scientists-researchers/research-partnerships.html"
+        },
+        {
+          "author": "University of Southampton",
+          "title": "NiPPeR Randomised Trial - Child Follow Up Study (NCT05934422)",
+          "publisher": "ClinicalTrials.gov",
+          "date": "2025-11-19",
+          "url": "https://clinicaltrials.gov/study/NCT05934422"
+        }
+      ],
+      "group": "Other foreign health systems",
+      "country": "New Zealand",
+      "last_checked": "2026-10-21",
+      "id": "new-zealand--national-university-of-singapore-and-national-university-health-system--liggins-institute-university-of-auckland"
+    },
+    {
+      "foreign_institution": "UCLPartners",
+      "foreign_country": "United Kingdom",
+      "indian_partner": "Health New Zealand Te Whatu Ora (HealthX programme)",
+      "partner_city": "Wellington",
+      "type": "Advisory and consulting",
+      "description": "Health New Zealand's HealthX programme signed an agreement with UCLPartners, the London academic health science partnership of NHS organisations and universities. UCLPartners advises on testing and scaling digital and AI tools such as emergency department AI scribes.",
+      "status": "Active",
+      "start": "2026-07",
+      "end": "",
+      "last_evidence": "2026-07",
+      "evidence": "A Health NZ sector update republished by HiNZ on 8 July 2026 announces the agreement, quotes Health NZ chief executive Dale Bramley and UCLPartners chief executive Chris Laing, and says UCLPartners horizon scanning already informed the AI scribe rollout.",
+      "sources": [
+        {
+          "author": "Health New Zealand Te Whatu Ora",
+          "title": "Health NZ international partnership strengthens approach to digital and AI innovation",
+          "publisher": "HiNZ (eHealthNews.nz)",
+          "date": "2026-07-08",
+          "url": "https://www.hinz.org.nz/news/730824/Health-NZ-international-partnership-strengthens-digital-innovation.htm"
+        }
+      ],
+      "group": "Other foreign health systems",
+      "country": "New Zealand",
+      "last_checked": "2026-10-21",
+      "id": "new-zealand--uclpartners--health-new-zealand-te-whatu-ora-healthx-programme"
+    },
+    {
+      "foreign_institution": "Universitas Indonesia (Faculty of Public Health)",
+      "foreign_country": "Indonesia",
+      "indian_partner": "University of Otago (Faculty of Medicine)",
+      "partner_city": "Dunedin",
+      "type": "Training and education",
+      "description": "Universitas Indonesia's Faculty of Public Health and Otago's Faculty of Medicine signed an implementation agreement for a joint Master of Public Health, with study split between Jakarta and Otago. It builds on a 2024 university MoU.",
+      "status": "Active",
+      "start": "2024",
+      "end": "",
+      "last_evidence": "2025-10",
+      "evidence": "An FPH UI release dated 31 October 2025 reports that Otago's Associate Dean of International Health Sciences signed the Agreement of Implementation on a 23 to 24 October 2025 visit, extending MoU No. 56/MOU/R/UI/2024.",
+      "sources": [
+        {
+          "author": "Faculty of Public Health, Universitas Indonesia",
+          "title": "FPH UI and the University of Otago, New Zealand: joint Master of Public Health agreement",
+          "publisher": "Universitas Indonesia",
+          "date": "2025-11-04",
+          "url": "https://fkm.ui.ac.id/?p=44053"
+        }
+      ],
+      "group": "Other foreign health systems",
+      "country": "New Zealand",
+      "last_checked": "2026-10-21",
+      "id": "new-zealand--universitas-indonesia-faculty-of-public-health--university-of-otago-faculty-of-medicine"
+    },
+    {
+      "foreign_institution": "University of Southampton (MRC Lifecourse Epidemiology Centre, EpiGen Global Research Consortium)",
+      "foreign_country": "United Kingdom",
+      "indian_partner": "Liggins Institute, University of Auckland",
+      "partner_city": "Auckland",
+      "type": "Research collaboration",
+      "description": "Southampton and the University of Auckland's Liggins Institute are founding partners of the EpiGen Global Research Consortium, with Singapore partners. Together they run the NiPPeR preconception nutrition trial and its child follow-up study.",
+      "status": "Active",
+      "start": "2006",
+      "end": "",
+      "last_evidence": "2025-08",
+      "evidence": "The Liggins Institute lists itself as a foundation partner of EpiGen, established 2006, with two Southampton units. The NiPPeR Child follow-up study (NCT05934422), sponsored by Southampton with Auckland as a site and Wayne Cutfield as a principal investigator, ran from June 2023 to August 2025, and its registry record was updated in November 2025. The NiPPeR Child follow-up ran from June 2023 to its completion on 14 August 2025.",
+      "sources": [
+        {
+          "author": "Liggins Institute",
+          "title": "EpiGen Global Research Consortium",
+          "publisher": "University of Auckland",
+          "date": "",
+          "url": "https://auckland.ac.nz/en/liggins/in-the-community/scientists-researchers/research-partnerships/epigen.html"
+        },
+        {
+          "author": "University of Southampton",
+          "title": "NiPPeR Randomised Trial - Child Follow Up Study (NCT05934422)",
+          "publisher": "ClinicalTrials.gov",
+          "date": "2025-11-19",
+          "url": "https://clinicaltrials.gov/study/NCT05934422"
+        }
+      ],
+      "group": "Other foreign health systems",
+      "country": "New Zealand",
+      "last_checked": "2026-10-21",
+      "id": "new-zealand--university-of-southampton-mrc-lifecourse-epidemiology-centre-epigen-global-research-consortium--liggins-institute-university-of-auckland"
+    },
+    {
+      "foreign_institution": "University of Wollongong (Graduate School of Medicine)",
+      "foreign_country": "Australia",
+      "indian_partner": "University of Waikato (New Zealand Graduate School of Medicine)",
+      "partner_city": "Hamilton",
+      "type": "Training and education",
+      "description": "Wollongong and Waikato signed a memorandum of understanding under which Wollongong's rural medical education staff help design the curriculum of Waikato's new graduate entry medical school. The school focuses on primary care, rural health and equity.",
+      "status": "Active",
+      "start": "2025-10",
+      "end": "",
+      "last_evidence": "2025-10",
+      "evidence": "A University of Wollongong release dated 17 October 2025 announces the MoU signing by Vice-Chancellors Max Lu and Neil Quigley, with quotes from Waikato's Pro Vice-Chancellor Health.",
+      "sources": [
+        {
+          "author": "University of Wollongong",
+          "title": "Wollongong and Waikato partner to shape future of rural health in New Zealand",
+          "publisher": "University of Wollongong",
+          "date": "2025-10-20",
+          "url": "https://www.uow.edu.au/media/2025/wollongong-and-waikato-partner-to-shape-future-of-rural-health-in-new-zealand.php"
+        },
+        {
+          "author": "University of Waikato",
+          "title": "Waikato to work with regional health education experts to shape med school curriculum",
+          "publisher": "University of Waikato",
+          "date": "2025-10-20",
+          "url": "https://www.waikato.ac.nz/news-events/news/waikato-wollongong-mou/"
+        }
+      ],
+      "group": "Other foreign health systems",
+      "country": "New Zealand",
+      "last_checked": "2026-10-21",
+      "id": "new-zealand--university-of-wollongong-graduate-school-of-medicine--university-of-waikato-new-zealand-graduate-school-of-medicine"
+    },
+    {
+      "foreign_institution": "West Visayas State University",
+      "foreign_country": "Philippines",
+      "indian_partner": "University of Otago",
+      "partner_city": "Dunedin",
+      "type": "Research collaboration",
+      "description": "West Visayas State University and Otago signed a memorandum of understanding covering joint research in digital health and medicine, faculty and student exchange, and co-development of digital health tools.",
+      "status": "Active",
+      "start": "2025-06",
+      "end": "",
+      "last_evidence": "2025-06",
+      "evidence": "A WVSU release reports the MoU was signed on 27 June 2025 in Dunedin by WVSU President Joselito Villaruz and Otago Vice-Chancellor Grant Robertson during a CHED higher education mission. No Otago-side release was found.",
+      "sources": [
+        {
+          "author": "West Visayas State University",
+          "title": "WVSU forges digital health alliance with New Zealand's University of Otago",
+          "publisher": "West Visayas State University",
+          "date": "2025-06",
+          "url": "https://wvsu.edu.ph/wvsu-forges-digital-health-alliance-with-new-zealands-university-of-otago/"
+        }
+      ],
+      "group": "Other foreign health systems",
+      "country": "New Zealand",
+      "last_checked": "2026-10-21",
+      "id": "new-zealand--west-visayas-state-university--university-of-otago"
+    },
+    {
+      "foreign_institution": "Sanford Health (Sanford World Clinic)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Omni Health (OmniHealth) primary care network",
+      "partner_city": "Auckland",
+      "type": "Ownership or management",
+      "description": "Sanford World Clinic and Omni Health opened a general practice clinic in central Auckland in early 2018 and Sanford has since invested in and helped run Omni Health's national primary care network. The network now has about 22 medical centres in 21 towns, and Sanford recruits doctors for it.",
+      "status": "Unclear",
+      "start": "2018-01",
+      "end": "",
+      "last_evidence": "2021-05",
+      "evidence": "A May 2021 SiouxFalls.Business report says Sanford helped build a $30 million network of clinics with Omni Health through multiple investments, with a Sanford executive acting as its COO from Sioux Falls. Sanford's current World Clinic page says it has collaborated with Omni Health since 2018. Sanford World Clinic's recruiting page on PracticeMatch lists Omni Health physician openings posted 6 October 2025. The October 2025 recruitment listing could not be re-verified; Sanford's current page says in the present tense that it has collaborated with Omni Health since 2018 but carries no date.",
+      "sources": [
+        {
+          "author": "Sanford Health",
+          "title": "Sanford World Clinic New Zealand",
+          "publisher": "Sanford Health",
+          "date": "",
+          "url": "https://www.sanfordhealth.org/initiatives/world-clinic/new-zealand"
+        },
+        {
+          "author": "Jodi Schwan",
+          "title": "Sanford World Clinic finds broader global reach despite pandemic",
+          "publisher": "SiouxFalls.Business",
+          "date": "2021-05-17",
+          "url": "https://siouxfalls.business/?p=89679"
+        },
+        {
+          "author": "Sanford World Clinic",
+          "title": "Sanford World Clinic Partnering with Omni Health",
+          "publisher": "PracticeMatch",
+          "date": "2025-10-06",
+          "url": "https://employer.practicematch.com/employer/sanford-world-clinic/968142"
+        },
+        {
+          "author": "New Zealand Doctor",
+          "title": "Big US health player buddies up with local network in new Auckland clinic",
+          "publisher": "New Zealand Doctor",
+          "date": "",
+          "url": "https://nzdoctor.co.nz/node/2668"
+        }
+      ],
+      "country": "New Zealand",
+      "last_checked": "2026-10-21",
+      "id": "new-zealand--sanford-health-sanford-world-clinic--omni-health-omnihealth-primary-care-network"
+    },
+    {
+      "foreign_institution": "Children's Cancer Institute and Sydney Children's Hospital, Randwick (Zero Childhood Cancer Program)",
+      "foreign_country": "Australia",
+      "indian_partner": "Starship Children's Hospital and Christchurch Hospital (Health New Zealand)",
+      "partner_city": "Auckland and Christchurch",
+      "type": "Research collaboration",
+      "description": "The ZERO precision medicine program, led by Children's Cancer Institute and Sydney Children's Hospital Randwick, opened to New Zealand children in 2024. Starship's tumours are sent for genomic analysis that guides treatment, and Christchurch was listed as a second site.",
+      "status": "Unclear",
+      "start": "2024-07",
+      "end": "",
+      "last_evidence": "2024-08",
+      "evidence": "ANZCHOG, the study sponsor, announced on 19 August 2024 that ZERO2 opened at Starship on 17 July 2024. The ZERO2 registry record (NCT05504772, last updated July 2024) lists Starship as recruiting and Christchurch as not yet recruiting. Children's Cancer Institute's undated program page says both New Zealand sites opened in 2024. No dated evidence from October 2024 or later was found.",
+      "sources": [
+        {
+          "author": "ANZCHOG",
+          "title": "ZERO2 opens in NZ",
+          "publisher": "Australian and New Zealand Children's Haematology/Oncology Group",
+          "date": "2024-08-19",
+          "url": "https://anzchog.org/zero2-opens-in-nz/"
+        },
+        {
+          "author": "Children's Cancer Institute",
+          "title": "Zero Childhood Cancer",
+          "publisher": "Children's Cancer Institute",
+          "date": "",
+          "url": "https://www.ccia.org.au/personalised-medicine/zero-childhood-cancer"
+        },
+        {
+          "author": "ANZCHOG",
+          "title": "Precision Medicine for Every Child With Cancer (NCT05504772)",
+          "publisher": "ClinicalTrials.gov",
+          "date": "2024-07-17",
+          "url": "https://clinicaltrials.gov/study/NCT05504772"
+        }
+      ],
+      "group": "Other foreign health systems",
+      "country": "New Zealand",
+      "last_checked": "2026-10-21",
+      "id": "new-zealand--children-s-cancer-institute-and-sydney-children-s-hospital-randwick-zero-childhood-cancer-program--starship-children-s-hospital-and-christchurch-hospital-health-new-zealand"
+    },
+    {
+      "foreign_institution": "Children's Hospital of Zhejiang University School of Medicine",
+      "foreign_country": "China",
+      "indian_partner": "NZ-China Non-Communicable Diseases Research Collaboration Centre (University of Otago)",
+      "partner_city": "Dunedin",
+      "type": "Research collaboration",
+      "description": "The Children's Hospital of Zhejiang University signed a 2017 memorandum of understanding with the Otago-hosted NZ-China NCD Research Collaboration Centre on childhood obesity and diabetes research. Its vice president presented at the centre's 2022 forum.",
+      "status": "Unclear",
+      "start": "2017-10",
+      "end": "",
+      "last_evidence": "2022-07",
+      "evidence": "The centre reported the October 2017 MoU signing. Its report on the 5 to 6 July 2022 forum cites a presentation by the hospital's vice president Jun-Fen Fu on obesity and diabetes in children. Nothing later was found. Later evidence is forum participation only (a virtual 2022 forum); the MoU dates from 2017.",
+      "sources": [
+        {
+          "author": "NZ-China NCD Research Collaboration Centre",
+          "title": "NZ-China non-communicable disease research strengthened",
+          "publisher": "NZ-China NCD CRCC",
+          "date": "2017-11-02",
+          "url": "https://crcc.nz/crcc/?p=374"
+        },
+        {
+          "author": "NZ-China NCD Research Collaboration Centre",
+          "title": "The 3rd NZ-China Non-Communicable Diseases Research Cooperation Forum deemed major success",
+          "publisher": "NZ-China NCD CRCC",
+          "date": "2022-07",
+          "url": "https://crcc.nz/crcc/?p=80"
+        }
+      ],
+      "group": "Other foreign health systems",
+      "country": "New Zealand",
+      "last_checked": "2026-10-21",
+      "id": "new-zealand--children-s-hospital-of-zhejiang-university-school-of-medicine--nz-china-non-communicable-diseases-research-collaboration-centre-university-of-otago"
+    },
+    {
+      "foreign_institution": "Fiji National University (College of Medicine, Nursing and Health Sciences)",
+      "foreign_country": "Fiji",
+      "indian_partner": "University of Auckland",
+      "partner_city": "Auckland",
+      "type": "Training and education",
+      "description": "Fiji National University and the University of Auckland signed a memorandum of understanding, driven by FNU's medical college and Auckland's paediatrics department, covering staff capacity building, exchanges and joint research.",
+      "status": "Unclear",
+      "start": "2022-05",
+      "end": "",
+      "last_evidence": "2022-05",
+      "evidence": "An FNU press release dated 9 May 2022 reports the MoU signing, attended by Auckland paediatrics Associate Professor Stephen Howie. No later activity was found.",
+      "sources": [
+        {
+          "author": "Fiji National University",
+          "title": "FNU formalises collaboration with the University of Auckland",
+          "publisher": "Fiji National University",
+          "date": "2022-05-09",
+          "url": "https://www.fnu.ac.fj/?p=17198"
+        }
+      ],
+      "group": "Other foreign health systems",
+      "country": "New Zealand",
+      "last_checked": "2026-10-21",
+      "id": "new-zealand--fiji-national-university-college-of-medicine-nursing-and-health-sciences--university-of-auckland"
+    },
+    {
+      "foreign_institution": "Huashan Hospital (Fudan University)",
+      "foreign_country": "China",
+      "indian_partner": "NZ-China Non-Communicable Diseases Research Collaboration Centre (University of Otago)",
+      "partner_city": "Dunedin",
+      "type": "Research collaboration",
+      "description": "Huashan Hospital signed a 2017 memorandum of understanding with the Otago-hosted NZ-China NCD Research Collaboration Centre for joint research on brain and other non-communicable diseases. Its researchers took part in the centre's 2022 forum.",
+      "status": "Unclear",
+      "start": "2017-10",
+      "end": "",
+      "last_evidence": "2022-07",
+      "evidence": "The centre reported the October 2017 signing of four MoUs including Huashan. Its report on the 3rd NZ-China NCD forum, held 5 to 6 July 2022, cites a Huashan Hospital presentation on AI digital monitoring. Nothing later was found. Later evidence is forum participation only (a virtual 2022 forum); the MoU dates from 2017.",
+      "sources": [
+        {
+          "author": "NZ-China NCD Research Collaboration Centre",
+          "title": "NZ-China non-communicable disease research strengthened",
+          "publisher": "NZ-China NCD CRCC",
+          "date": "2017-11-02",
+          "url": "https://crcc.nz/crcc/?p=374"
+        },
+        {
+          "author": "NZ-China NCD Research Collaboration Centre",
+          "title": "The 3rd NZ-China Non-Communicable Diseases Research Cooperation Forum deemed major success",
+          "publisher": "NZ-China NCD CRCC",
+          "date": "2022-07",
+          "url": "https://crcc.nz/crcc/?p=80"
+        }
+      ],
+      "group": "Other foreign health systems",
+      "country": "New Zealand",
+      "last_checked": "2026-10-21",
+      "id": "new-zealand--huashan-hospital-fudan-university--nz-china-non-communicable-diseases-research-collaboration-centre-university-of-otago"
+    },
+    {
+      "foreign_institution": "Shanghai Ninth People's Hospital (Shanghai Jiao Tong University School of Medicine)",
+      "foreign_country": "China",
+      "indian_partner": "University of Otago Faculty of Dentistry",
+      "partner_city": "Dunedin",
+      "type": "Research collaboration",
+      "description": "Shanghai Ninth People's Hospital and Otago's Faculty of Dentistry signed a memorandum of understanding and opened the Shanghai-New Zealand Joint Laboratory of Dentistry for craniofacial research.",
+      "status": "Unclear",
+      "start": "2023-11",
+      "end": "",
+      "last_evidence": "2023-11",
+      "evidence": "A Shanghai Jiao Tong University School of Medicine release dated 28 November 2023 reports the signing on 27 November 2023 by hospital president Wu Hao and Otago dental dean Paul Cooper. No later activity was found.",
+      "sources": [
+        {
+          "author": "Shanghai Jiao Tong University School of Medicine",
+          "title": "Shanghai Ninth People's Hospital and University of Otago Faculty of Dentistry in New Zealand Signed Memorandum of Understanding and Launched Joint Laboratory",
+          "publisher": "Shanghai Jiao Tong University School of Medicine",
+          "date": "2023-11-28",
+          "url": "https://www.shsmu.edu.cn/english/info/1021/4710.htm"
+        }
+      ],
+      "group": "Other foreign health systems",
+      "country": "New Zealand",
+      "last_checked": "2026-10-21",
+      "id": "new-zealand--shanghai-ninth-people-s-hospital-shanghai-jiao-tong-university-school-of-medicine--university-of-otago-faculty-of-dentistry"
+    },
+    {
+      "foreign_institution": "Healthe Care Australia (then a subsidiary of Luye Medical Group)",
+      "foreign_country": "Australia",
+      "indian_partner": "Boulcott Hospital (Pulse Health NZ)",
+      "partner_city": "Lower Hutt (Wellington)",
+      "type": "Ownership or management",
+      "description": "Healthe Care, an Australian private hospital operator, owned Pulse Health NZ and through it ran Boulcott Hospital in Lower Hutt. It sold Pulse Health NZ to a Pacific Equity Partners vehicle in late 2021, and Boulcott's operations passed to Rangatira Investments in March 2022.",
+      "status": "Ended",
+      "start": "2017-05",
+      "end": "2021-11",
+      "last_evidence": "2022-03",
+      "evidence": "Healthe Care acquired ASX-listed Pulse Health, Boulcott's operator, in May 2017. The Commerce Commission on 17 November 2021 cleared Pacific 2021 Bidco to buy 100% of Pulse Health NZ from Healthe Care, on condition that Boulcott be sold. NBR reported on 2 March 2022 that Rangatira Investments had bought Boulcott's operations. The end month is the clearance date; completion fell between November 2021 and March 2022.",
+      "sources": [
+        {
+          "author": "Commerce Commission",
+          "title": "Commission clears private hospitals merger subject to divestment",
+          "publisher": "Commerce Commission New Zealand",
+          "date": "2021-11-17",
+          "url": "https://comcom.govt.nz/news-and-media/media-releases/2021/commission-clears-private-hospitals-merger-subject-to-divestment"
+        },
+        {
+          "author": "Andrew Bevin",
+          "title": "Rangatira buys Boulcott Hospital operations for undisclosed sum",
+          "publisher": "NBR",
+          "date": "2022-03-02",
+          "url": "https://nbr.co.nz/story/rangatira-buys-boulcott-hospital-operations"
+        }
+      ],
+      "group": "Other foreign health systems",
+      "country": "New Zealand",
+      "last_checked": "2026-10-21",
+      "id": "new-zealand--healthe-care-australia-then-a-subsidiary-of-luye-medical-group--boulcott-hospital-pulse-health-nz"
+    },
+    {
       "foreign_institution": "Johns Hopkins University (Johns Hopkins Hospital)",
       "foreign_country": "United States",
       "group": "US academic medical centers",

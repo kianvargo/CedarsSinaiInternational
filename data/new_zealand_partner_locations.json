@@ -1,0 +1,156 @@
+{
+ "note": "Each partnership is placed in the New Zealand partner's home city; Lower Hutt is shown as Wellington, and an Auckland and Christchurch partnership is counted in both.",
+ "bounds": [
+  165.8,
+  179.2,
+  -47.6,
+  -34.0
+ ],
+ "metros": [
+  "Auckland",
+  "Wellington",
+  "Christchurch",
+  "Hamilton",
+  "Tauranga"
+ ],
+ "cities": {
+  "Auckland": [
+   [
+    174.76,
+    -36.85
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Wellington": [
+   [
+    174.78,
+    -41.29
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Christchurch": [
+   [
+    172.64,
+    -43.53
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Hamilton": [
+   [
+    175.28,
+    -37.79
+   ],
+   [
+    -12,
+    0
+   ]
+  ],
+  "Tauranga": [
+   [
+    176.17,
+    -37.69
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Dunedin": [
+   [
+    170.5,
+    -45.87
+   ],
+   [
+    12,
+    0
+   ]
+  ]
+ },
+ "locations": {
+  "new-zealand--johns-hopkins-university-bloomberg-school-of-public-health-center-for-indigenous-health--university-of-otago-te-r-p-rangahau-hauora-a-eru-p-mare-eru-p-mare-m-ori-health-research-centre": {
+   "cities": [
+    "Wellington"
+   ]
+  },
+  "new-zealand--icon-oncology-group-icon-group--bowen-icon-cancer-centre-joint-venture-with-evolution-healthcare-bowen-hospital": {
+   "cities": [
+    "Wellington"
+   ]
+  },
+  "new-zealand--national-university-of-singapore-and-national-university-health-system--liggins-institute-university-of-auckland": {
+   "cities": [
+    "Auckland"
+   ]
+  },
+  "new-zealand--uclpartners--health-new-zealand-te-whatu-ora-healthx-programme": {
+   "cities": [
+    "Wellington"
+   ]
+  },
+  "new-zealand--universitas-indonesia-faculty-of-public-health--university-of-otago-faculty-of-medicine": {
+   "cities": [
+    "Dunedin"
+   ]
+  },
+  "new-zealand--university-of-southampton-mrc-lifecourse-epidemiology-centre-epigen-global-research-consortium--liggins-institute-university-of-auckland": {
+   "cities": [
+    "Auckland"
+   ]
+  },
+  "new-zealand--university-of-wollongong-graduate-school-of-medicine--university-of-waikato-new-zealand-graduate-school-of-medicine": {
+   "cities": [
+    "Hamilton"
+   ]
+  },
+  "new-zealand--west-visayas-state-university--university-of-otago": {
+   "cities": [
+    "Dunedin"
+   ]
+  },
+  "new-zealand--sanford-health-sanford-world-clinic--omni-health-omnihealth-primary-care-network": {
+   "cities": [
+    "Auckland"
+   ]
+  },
+  "new-zealand--children-s-cancer-institute-and-sydney-children-s-hospital-randwick-zero-childhood-cancer-program--starship-children-s-hospital-and-christchurch-hospital-health-new-zealand": {
+   "cities": [
+    "Auckland",
+    "Christchurch"
+   ]
+  },
+  "new-zealand--children-s-hospital-of-zhejiang-university-school-of-medicine--nz-china-non-communicable-diseases-research-collaboration-centre-university-of-otago": {
+   "cities": [
+    "Dunedin"
+   ]
+  },
+  "new-zealand--fiji-national-university-college-of-medicine-nursing-and-health-sciences--university-of-auckland": {
+   "cities": [
+    "Auckland"
+   ]
+  },
+  "new-zealand--huashan-hospital-fudan-university--nz-china-non-communicable-diseases-research-collaboration-centre-university-of-otago": {
+   "cities": [
+    "Dunedin"
+   ]
+  },
+  "new-zealand--shanghai-ninth-people-s-hospital-shanghai-jiao-tong-university-school-of-medicine--university-of-otago-faculty-of-dentistry": {
+   "cities": [
+    "Dunedin"
+   ]
+  },
+  "new-zealand--healthe-care-australia-then-a-subsidiary-of-luye-medical-group--boulcott-hospital-pulse-health-nz": {
+   "cities": [
+    "Wellington"
+   ]
+  }
+ }
+}

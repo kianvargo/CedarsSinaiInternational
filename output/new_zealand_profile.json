@@ -1,0 +1,1164 @@
+{
+ "country": "New Zealand",
+ "generated_date": "2026-10-21",
+ "research": {
+  "country_overview": {
+   "demographics": {
+    "facts": [
+     {
+      "label": "Capital",
+      "value": "Wellington{{8}}"
+     },
+     {
+      "label": "Official languages",
+      "value": "English, te reo Māori and New Zealand Sign Language{{9}}"
+     },
+     {
+      "label": "Population",
+      "value": "About 5.36 million (30 June 2026, provisional){{1}}"
+     },
+     {
+      "label": "Area",
+      "value": "267,710 sq km{{10}}"
+     },
+     {
+      "label": "GDP (PPP), total",
+      "value": "About 305 billion international dollars (2025){{11}}"
+     },
+     {
+      "label": "GDP (PPP), per capita",
+      "value": "About 57,350 international dollars (2025){{12}}"
+     },
+     {
+      "label": "Government type",
+      "value": "Constitutional monarchy{{16}}"
+     },
+     {
+      "label": "Head of state",
+      "value": "The King, represented by Governor-General Dame Cindy Kiro{{13}}"
+     },
+     {
+      "label": "Head of government",
+      "value": "Prime Minister Christopher Luxon{{14}}"
+     },
+     {
+      "label": "Currency",
+      "value": "New Zealand dollar{{15}}"
+     },
+     {
+      "label": "Urban population",
+      "value": "84.0% (2025){{3}}"
+     },
+     {
+      "label": "Population aged 65 and over",
+      "value": "17.6% (2025){{4}}"
+     },
+     {
+      "label": "Total fertility rate",
+      "value": "1.57 births per woman (2024){{5}}"
+     },
+     {
+      "label": "Life expectancy at birth",
+      "value": "82.0 years (2024){{6}}"
+     },
+     {
+      "label": "Ethnic groups (2023 Census)",
+      "value": "European 67.8%, Māori 17.8%, Asian 17.3%, Pacific peoples 8.9% (multiple responses allowed){{2}}"
+     }
+    ],
+    "narrative": "New Zealand's estimated resident population was 5,357,300 at 30 June 2026, according to provisional figures, after growth of 36,400 people (0.7 percent) over the year.{{1}} Natural increase of 18,700 was the lowest since the early 1940s, and net migration added 17,600.{{1}} The median age was 39.3 years for females and 37.8 years for males.{{1}} At the 2023 Census, 67.8 percent of people identified as European, 17.8 percent as Māori, 17.3 percent as Asian and 8.9 percent as Pacific peoples, with some people identifying with more than one ethnicity.{{2}} About 84 percent of people live in urban areas.{{3}}\n\nThe population is aging. People aged 65 and over made up 17.6 percent of residents in 2025, the fertility rate was 1.57 births per woman in 2024, and life expectancy at birth was 82.0 years.{{4}}{{5}}{{6}} Māori and Pacific peoples have shorter life expectancy than New Zealanders of European ethnicity.{{7}} For a foreign academic medical center, this points to rising demand for chronic and age-related care in a small, high-income market served mainly by a tax-funded public system.",
+    "sources": [
+     {
+      "author": "Stats NZ",
+      "title": "National population estimates: At 30 June 2026",
+      "publisher": "Stats NZ Tatauranga Aotearoa",
+      "date": "18 August 2026",
+      "url": "https://www.stats.govt.nz/information-releases/national-population-estimates-at-30-june-2026/"
+     },
+     {
+      "author": "Stats NZ",
+      "title": "First results from the 2023 Census: older, more diverse population, and an extra 300,000 people between censuses",
+      "publisher": "Stats NZ Tatauranga Aotearoa",
+      "date": "29 May 2024",
+      "url": "https://www.stats.govt.nz/news/first-results-from-the-2023-census-older-more-diverse-population-and-an-extra-300000-people-between-censuses/"
+     },
+     {
+      "author": "World Bank",
+      "title": "Urban population (% of total population) (SP.URB.TOTL.IN.ZS), New Zealand",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/NZL/indicator/SP.URB.TOTL.IN.ZS?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Population ages 65 and above (% of total population) (SP.POP.65UP.TO.ZS), New Zealand",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/NZL/indicator/SP.POP.65UP.TO.ZS?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Fertility rate, total (births per woman) (SP.DYN.TFRT.IN), New Zealand",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/NZL/indicator/SP.DYN.TFRT.IN?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Life expectancy at birth, total (years) (SP.DYN.LE00.IN), New Zealand",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/NZL/indicator/SP.DYN.LE00.IN?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "The Commonwealth Fund",
+      "title": "International Health Care System Profiles: New Zealand",
+      "publisher": "The Commonwealth Fund",
+      "date": "May 2026",
+      "url": "https://www.commonwealthfund.org/sites/default/files/2026-05/2026_Country-Profiles_NewZealand.pdf"
+     },
+     {
+      "author": "Wellington City Council",
+      "title": "Profile of Wellington",
+      "publisher": "Wellington City Council",
+      "date": "",
+      "url": "https://wellington.govt.nz/about-wellington/profile-of-wellington"
+     },
+     {
+      "author": "New Zealand Parliament",
+      "title": "English Language Bill (bill page, Royal assent recorded)",
+      "publisher": "New Zealand Parliament Pāremata Aotearoa",
+      "date": "5 August 2026",
+      "url": "https://bills.parliament.nz/v/6/498f22bc-1555-48b8-f468-08de6d0eb023"
+     },
+     {
+      "author": "World Bank",
+      "title": "Surface area (sq. km) (AG.SRF.TOTL.K2), New Zealand",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/NZL/indicator/AG.SRF.TOTL.K2?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "GDP, PPP (current international $) (NY.GDP.MKTP.PP.CD), New Zealand",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/NZL/indicator/NY.GDP.MKTP.PP.CD?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "GDP per capita, PPP (current international $) (NY.GDP.PCAP.PP.CD), New Zealand",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/NZL/indicator/NY.GDP.PCAP.PP.CD?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "New Zealand Government",
+      "title": "Governor-General (Te Kāwana Tianara o Aotearoa)",
+      "publisher": "govt.nz",
+      "date": "",
+      "url": "https://www.govt.nz/organisations/governor-general/"
+     },
+     {
+      "author": "Mandy Te",
+      "title": "Prime Minister Christopher Luxon announces New Zealand's 2026 general election will be held on November 7",
+      "publisher": "interest.co.nz",
+      "date": "21 January 2026",
+      "url": "https://www.interest.co.nz/public-policy/136867/prime-minister-christopher-luxon-announces-new-zealand%E2%80%99s-2026-general-election"
+     },
+     {
+      "author": "XE",
+      "title": "NZD - New Zealand Dollar",
+      "publisher": "XE.com",
+      "date": "",
+      "url": "https://www.xe.com/currency/nzd-new-zealand-dollar/"
+     },
+     {
+      "author": "Government House",
+      "title": "New Zealand's Governor-General (role booklet)",
+      "publisher": "The Governor-General of New Zealand",
+      "date": "2019",
+      "url": "https://gg.govt.nz/sites/default/files/2019-09/Dame%20Patsy%20Role%20Booklet.pdf"
+     }
+    ]
+   },
+   "government": {
+    "narrative": "New Zealand is a constitutional monarchy.{{7}} The Governor-General, Dame Cindy Kiro, represents the King, dissolves Parliament before a general election, appoints the government after it and signs legislation on the King's behalf.{{1}} Her term was due to end on 21 October 2026 but has been extended to 31 March 2027, so that appointing a successor does not clash with the election.{{2}} At the 2023 election National won 48 seats and ACT 11, so a National-led government needed New Zealand First's eight seats to secure a majority.{{3}} Prime Minister Christopher Luxon, whose National Party governs with ACT and New Zealand First, has set the next general election for Saturday, 7 November 2026.{{4}}\n\nHealth is run centrally. Simeon Brown is Minister of Health.{{5}} The Ministry of Health (Manatū Hauora) oversees the system and administers Vote Health, while Health New Zealand (Te Whatu Ora) has planned and delivered public services nationally since 2022.{{6}}",
+    "sources": [
+     {
+      "author": "New Zealand Government",
+      "title": "Governor-General (Te Kāwana Tianara o Aotearoa)",
+      "publisher": "govt.nz",
+      "date": "",
+      "url": "https://www.govt.nz/organisations/governor-general/"
+     },
+     {
+      "author": "Giles Dexter, RNZ",
+      "title": "Governor-General Dame Cindy Kiro's term extended due to potential election clash",
+      "publisher": "Te Ao Māori News",
+      "date": "13 September 2025",
+      "url": "https://www.teaonews.co.nz/2025/09/14/governor-general-dame-cindy-kiros-term-extended-due-to-potential-election-clash/"
+     },
+     {
+      "author": "Russell McVeagh",
+      "title": "Watching Brief: Final election results, New Zealand First holds balance of power",
+      "publisher": "Russell McVeagh",
+      "date": "3 November 2023",
+      "url": "https://www.russellmcveagh.com/insights-news/watching-brief-final-election-results-new-zealand-first-holds-balance-of-power/"
+     },
+     {
+      "author": "Mandy Te",
+      "title": "Prime Minister Christopher Luxon announces New Zealand's 2026 general election will be held on November 7",
+      "publisher": "interest.co.nz",
+      "date": "21 January 2026",
+      "url": "https://www.interest.co.nz/public-policy/136867/prime-minister-christopher-luxon-announces-new-zealand%E2%80%99s-2026-general-election"
+     },
+     {
+      "author": "Hon Simeon Brown, Minister of Health",
+      "title": "Record health funding with patients at the centre",
+      "publisher": "New Zealand Government (Budget 2026)",
+      "date": "28 May 2026",
+      "url": "https://www.budget.govt.nz/budget/pdfs/releases/l14-brown-record-health-funding-with-patients-at-the-centre.pdf"
+     },
+     {
+      "author": "The Commonwealth Fund",
+      "title": "International Health Care System Profiles: New Zealand",
+      "publisher": "The Commonwealth Fund",
+      "date": "May 2026",
+      "url": "https://www.commonwealthfund.org/sites/default/files/2026-05/2026_Country-Profiles_NewZealand.pdf"
+     },
+     {
+      "author": "Government House",
+      "title": "New Zealand's Governor-General (role booklet)",
+      "publisher": "The Governor-General of New Zealand",
+      "date": "2019",
+      "url": "https://gg.govt.nz/sites/default/files/2019-09/Dame%20Patsy%20Role%20Booklet.pdf"
+     }
+    ]
+   },
+   "economy": {
+    "narrative": "New Zealand is a high-income economy, with GDP of about 305 billion international dollars at purchasing power parity in 2025, or about 57,350 per person.{{1}}{{2}} Services made up 74.4 percent of the economy in the year ended March 2024, goods-producing industries 20.4 percent and primary industries 5.2 percent.{{3}} GDP rose 0.2 percent in the June 2026 quarter, after a 0.9 percent rise in the March quarter, and grew 1.7 percent over the year ended June 2026.{{3}}\n\nThe Treasury's Pre-election Economic and Fiscal Update, presented on 29 September 2026, describes an economic recovery that has been delayed rather than derailed, first by the hit to confidence from United States tariffs in 2025 and then by the conflict in the Middle East.{{4}} Stronger tax revenue in 2025/26 left the deficit, measured as OBEGALx, $3.3 billion smaller than projected in Budget 2026, and the Treasury expects both OBEGALx and OBEGAL to reach surplus in 2028/29.{{4}} It warns that by 2030/31 New Zealand Superannuation and finance costs will take about 28 percent of the tax take, and that over the long term, unless checked, demographics will make the fiscal position unsustainable.{{4}} Projected financial improvements at Health New Zealand also help the fiscal outlook.{{4}}",
+    "sources": [
+     {
+      "author": "World Bank",
+      "title": "GDP, PPP (current international $) (NY.GDP.MKTP.PP.CD), New Zealand",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/NZL/indicator/NY.GDP.MKTP.PP.CD?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "GDP per capita, PPP (current international $) (NY.GDP.PCAP.PP.CD), New Zealand",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/NZL/indicator/NY.GDP.PCAP.PP.CD?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "Stats NZ",
+      "title": "Gross domestic product: June 2026 quarter",
+      "publisher": "Stats NZ Tatauranga Aotearoa",
+      "date": "17 September 2026",
+      "url": "https://www.stats.govt.nz/information-releases/gross-domestic-product-june-2026-quarter/"
+     },
+     {
+      "author": "Iain Rennie, Secretary to the Treasury",
+      "title": "Pre-election Economic and Fiscal Update 2026 (presentation)",
+      "publisher": "The Treasury Te Tai Ōhanga",
+      "date": "29 September 2026",
+      "url": "https://www.treasury.govt.nz/sites/default/files/2026-10/sp-pre-election-economic-and-fiscal-update-2026.pdf"
+     }
+    ]
+   },
+   "disease_prevalence": {
+    "facts": [
+     {
+      "label": "Deaths, all causes",
+      "value": "38,737 (2022, preliminary){{1}}"
+     },
+     {
+      "label": "Deaths from cancers",
+      "value": "10,538 (2022, preliminary){{2}}"
+     },
+     {
+      "label": "Deaths from ischemic heart diseases",
+      "value": "4,607 (2022, preliminary){{3}}"
+     },
+     {
+      "label": "Deaths from cerebrovascular diseases",
+      "value": "2,275 (2022, preliminary){{4}}"
+     },
+     {
+      "label": "Leading single causes by death rate (2021)",
+      "value": "Ischemic heart disease, Alzheimer's disease and other dementias, stroke{{5}}"
+     },
+     {
+      "label": "Adults with obesity",
+      "value": "34.2% (2024/25){{6}}"
+     },
+     {
+      "label": "Adults who smoke daily",
+      "value": "6.8% (2024/25); 11.9% in 2019/20{{6}}"
+     },
+     {
+      "label": "Adults who vape daily",
+      "value": "11.7% (2024/25){{6}}"
+     },
+     {
+      "label": "Adults drinking hazardously",
+      "value": "16.6% (2024/25){{6}}"
+     },
+     {
+      "label": "Adults with high or very high psychological distress",
+      "value": "14.3% (2024/25){{6}}"
+     }
+    ],
+    "narrative": "The Ministry of Health's mortality collection records 38,737 deaths in 2022, a preliminary figure.{{1}} Cancers caused 10,538 of them, ischemic heart diseases 4,607 and cerebrovascular diseases 2,275.{{2}}{{3}}{{4}} Measured by death rate, the leading causes in 2021 were ischemic heart disease (100 deaths per 100,000 people), Alzheimer's disease and other dementias (67) and stroke (46).{{5}}\n\nRisk factors are widespread. In the 2024/25 New Zealand Health Survey, 34.2 percent of adults were obese, up from 31.3 percent in 2019/20, and 46.2 percent met physical activity guidelines.{{6}} Daily smoking fell to 6.8 percent of adults from 11.9 percent in 2019/20, though it remains 15.0 percent among Māori, and 11.7 percent of adults vaped daily.{{6}} One in six adults (16.6 percent) drank hazardously, and 14.3 percent reported high or very high psychological distress, up from 7.4 percent in 2019/20.{{6}} The burden points to sustained demand in cardiology, oncology, neurology and metabolic care.",
+    "sources": [
+     {
+      "author": "Ministry of Health",
+      "title": "Number of deaths in New Zealand, all causes, 1950-2022 (Mortality Collection: Historical mortality 2022)",
+      "publisher": "Figure.NZ",
+      "date": "31 July 2025",
+      "url": "https://figure.nz/chart/4jOAO9HhMdnh0kRA-rDTe2HEAP4aB6CIl"
+     },
+     {
+      "author": "Ministry of Health",
+      "title": "Deaths caused by all cancers in New Zealand, 1950-2022 (Mortality Collection: Historical mortality 2022)",
+      "publisher": "Figure.NZ",
+      "date": "31 July 2025",
+      "url": "https://figure.nz/chart/i01a0sx5LV45oZuV-kZCEILMvMJp92SLw"
+     },
+     {
+      "author": "Ministry of Health",
+      "title": "Deaths caused by ischaemic heart diseases in New Zealand, 1950-2022 (Mortality Collection: Historical mortality 2022)",
+      "publisher": "Figure.NZ",
+      "date": "31 July 2025",
+      "url": "https://figure.nz/chart/i01a0sx5LV45oZuV-iy3ImHB8PSWOZqTh"
+     },
+     {
+      "author": "Ministry of Health",
+      "title": "Deaths caused by cerebrovascular diseases in New Zealand, 1950-2022 (Mortality Collection: Historical mortality 2022)",
+      "publisher": "Figure.NZ",
+      "date": "31 July 2025",
+      "url": "https://figure.nz/chart/i01a0sx5LV45oZuV-pRIX6xqCrIaYksPJ"
+     },
+     {
+      "author": "The Commonwealth Fund",
+      "title": "International Health Care System Profiles: New Zealand",
+      "publisher": "The Commonwealth Fund",
+      "date": "May 2026",
+      "url": "https://www.commonwealthfund.org/sites/default/files/2026-05/2026_Country-Profiles_NewZealand.pdf"
+     },
+     {
+      "author": "Ministry of Health Manatū Hauora",
+      "title": "Aide-Mémoire: Publication of results from the 2024/25 New Zealand Health Survey (H2025074911, proactively released)",
+      "publisher": "Ministry of Health Manatū Hauora",
+      "date": "18 November 2025",
+      "url": "https://www.health.govt.nz/system/files/2026-06/H2025074911-Aide-Memoire-Publication-of-results-from-the-2024-25-New-Zealand-Health-Survey.pdf"
+     }
+    ]
+   }
+  },
+  "health_system": {
+   "public_system": {
+    "narrative": "New Zealand gives permanent residents universal coverage through a system funded from general taxation and overseen by the Ministry of Health.{{1}} Eligible residents are covered automatically, hospital care is available at little or no cost at the point of use, and the Accident Compensation Corporation funds injury-related care.{{1}} The Pae Ora (Healthy Futures) Act 2022 replaced the district health boards with a single national entity, Health New Zealand (Te Whatu Ora), and created a parallel Māori Health Authority (Te Aka Whai Ora), which was disestablished in 2024 with its functions moved to Health New Zealand and the Ministry.{{1}} Most GPs work in self-owned clinics linked to primary health organizations; primary care is funded by capitation and hospitals through a diagnosis-related group model.{{1}}\n\nGovernance has been unsettled. A Commissioner, Professor Lester Levy, and deputy commissioners were appointed in 2024 to stabilize Health New Zealand, and in July 2025 the government re-established a board, with Levy as chair for 12 months.{{2}} Mark Darrow replaced him as chair for a three-year term from 1 May 2026.{{5}} In March 2025 Health Minister Simeon Brown said an independent Deloitte review showed the 2022 reforms were \"rushed and poorly implemented,\" and he directed a shift to local decision making.{{3}} Access remains strained: in the 2024/25 Health Survey, 25.5 percent of adults cited the time taken to get a GP appointment as a barrier, and 14.9 percent did not visit a GP because of cost.{{4}} Hospital waits are improving against the government's health targets: in 2025/26, 72.6 percent of people received elective treatment within four months, up from 63.9 percent the year before, and 76.3 percent of emergency department patients were admitted, discharged or transferred within six hours.{{6}}",
+    "sources": [
+     {
+      "author": "The Commonwealth Fund",
+      "title": "International Health Care System Profiles: New Zealand",
+      "publisher": "The Commonwealth Fund",
+      "date": "May 2026",
+      "url": "https://www.commonwealthfund.org/sites/default/files/2026-05/2026_Country-Profiles_NewZealand.pdf"
+     },
+     {
+      "author": "Hon Simeon Brown, Minister of Health",
+      "title": "New governance for Health New Zealand",
+      "publisher": "Health Informatics New Zealand (HiNZ) eHealthNews",
+      "date": "7 July 2025",
+      "url": "https://www.hinz.org.nz/news/705338/New-governance-for-Health-New-Zealand.htm"
+     },
+     {
+      "author": "Ruth Hill, RNZ",
+      "title": "Simeon Brown announces major health shake-up",
+      "publisher": "Otago Daily Times",
+      "date": "7 March 2025",
+      "url": "https://www.odt.co.nz/news/national/simeon-brown-announces-major-health-shake"
+     },
+     {
+      "author": "Ministry of Health Manatū Hauora",
+      "title": "Aide-Mémoire: Publication of results from the 2024/25 New Zealand Health Survey (H2025074911, proactively released)",
+      "publisher": "Ministry of Health Manatū Hauora",
+      "date": "18 November 2025",
+      "url": "https://www.health.govt.nz/system/files/2026-06/H2025074911-Aide-Memoire-Publication-of-results-from-the-2024-25-New-Zealand-Health-Survey.pdf"
+     },
+     {
+      "author": "1News Reporters",
+      "title": "New Health NZ chair, board members announced",
+      "publisher": "1News",
+      "date": "16 April 2026",
+      "url": "https://www.1news.co.nz/2026/04/16/new-health-nz-chair-board-members-announced/"
+     },
+     {
+      "author": "Health New Zealand Te Whatu Ora (Dr Dale Bramley, Chief Executive)",
+      "title": "Health NZ Highlights October 2026",
+      "publisher": "Health New Zealand Te Whatu Ora",
+      "date": "October 2026",
+      "url": "https://www.healthnz.govt.nz/news-and-updates/health-nz-highlights-october-2026"
+     }
+    ]
+   },
+   "private_system": {
+    "narrative": "Private care supplements the public system. About 37 percent of people hold private insurance, which is commonly used for faster access to elective surgery, specialist consultations and diagnostics.{{1}} Private hospitals focus on elective and nonemergency care and are paid through out-of-pocket fees, insurance and Accident Compensation Corporation reimbursements, and nearly all aged residential care is delivered by the private sector.{{1}}\n\nSouthern Cross is the largest name in the market. Southern Cross Medical Care Society holds about 60 percent of the health insurance market by customer numbers, and in the year to 30 June 2026 it paid a record $1.8 billion in claims and returned to a $146.9 million surplus after two years of deficits.{{2}} Southern Cross Healthcare describes itself as New Zealand's largest independent healthcare network, with wholly owned and joint venture hospitals; its hospitals and endoscopy clinics cared for more than 118,000 patients in the year to June 2025.{{3}} Evolution Healthcare runs six private hospitals, including Bowen and Wakefield in Wellington, Royston in Hastings, Grace in Tauranga and Anglesea in Hamilton, along with day surgery centers and the Birthcare maternity hospital in Auckland.{{4}} Australian investor QIC agreed to buy it from Pacific Equity Partners in December 2021.{{6}}\n\nGovernment policy is drawing the sector in. In March 2025 the Health Minister directed Health New Zealand to offer private providers contracts of up to 10 years for elective surgery, and in July 2025 he announced an additional 21,000 elective procedures over the following year through an \"Elective Boost\" program.{{5}} In 2026 Health New Zealand signed its first long-term contracts with private hospitals, worth about $300 million over six years, with Southern Cross Healthcare, The Ascot Hospital and Clinic (Allevia) and Mercy Hospital Dunedin, to treat orthopaedic backlogs.{{7}}",
+    "sources": [
+     {
+      "author": "The Commonwealth Fund",
+      "title": "International Health Care System Profiles: New Zealand",
+      "publisher": "The Commonwealth Fund",
+      "date": "May 2026",
+      "url": "https://www.commonwealthfund.org/sites/default/files/2026-05/2026_Country-Profiles_NewZealand.pdf"
+     },
+     {
+      "author": "Roxanne Libatique",
+      "title": "Southern Cross posts surplus as claims cost growth retreats",
+      "publisher": "Insurance Business New Zealand",
+      "date": "1 October 2026",
+      "url": "https://www.insurancebusinessmag.com/nz/news/life-insurance/southern-cross-posts-surplus-as-claims-cost-growth-retreats-591757.aspx"
+     },
+     {
+      "author": "Southern Cross Healthcare",
+      "title": "About us",
+      "publisher": "Southern Cross Healthcare",
+      "date": "",
+      "url": "https://healthcare.southerncross.co.nz/about-us"
+     },
+     {
+      "author": "Evolution Healthcare",
+      "title": "Welcome to Evolution Healthcare (group overview)",
+      "publisher": "Evolution Healthcare",
+      "date": "2026 (live October 2026)",
+      "url": "https://evolutionhealthcare.com.au/"
+     },
+     {
+      "author": "Justin Hu",
+      "title": "Doctors warn private health moves risk a US-style system",
+      "publisher": "1News",
+      "date": "13 July 2025",
+      "url": "https://www.1news.co.nz/2025/07/13/doctors-warn-private-health-moves-risk-a-us-style-system"
+     },
+     {
+      "author": "Bridget Carter",
+      "title": "QIC buys Evolution Healthcare for between $700m and $800m",
+      "publisher": "The Australian (via Pacific Equity Partners)",
+      "date": "10 December 2021",
+      "url": "https://www.pep.com.au/wp-content/uploads/2021/12/2021-12-01-QIC-buys-Evolution-Healthcare-for-between-700m-and-800m.pdf"
+     },
+     {
+      "author": "Kate MacNamara",
+      "title": "Health NZ signs $300m six-year private hospital contracts to treat orthopaedic backlog",
+      "publisher": "NZ Herald",
+      "date": "2026",
+      "url": "https://www.nzherald.co.nz/business/companies/healthcare/health-nz-signs-300m-six-year-private-hospital-contracts-to-treat-orthopaedic-backlog/premium/QN5MGDSDIBDSHORWAVARGRFQ5U/"
+     }
+    ]
+   },
+   "financing": {
+    "facts": [
+     {
+      "label": "Current health expenditure, share of GDP",
+      "value": "10.06% (2024); 9.20% in 2012{{1}}"
+     },
+     {
+      "label": "Current health expenditure per capita",
+      "value": "US$5,022 (2024, current US$){{2}}"
+     },
+     {
+      "label": "Out-of-pocket share of current health expenditure",
+      "value": "12.7% (2024); 11.8% in 2012{{3}}"
+     },
+     {
+      "label": "Government share of current health expenditure",
+      "value": "77.7% (2023){{4}}"
+     },
+     {
+      "label": "Comparison, current health expenditure share of GDP (2023)",
+      "value": "New Zealand 10.13%, Australia 10.40%, United Kingdom 10.99%, Canada 11.19%, OECD members 12.75%, United States 16.69%, Singapore 4.49%{{5}}"
+     },
+     {
+      "label": "Total health spending, 2026/27 (government figure)",
+      "value": "NZ$34.2 billion{{7}}"
+     },
+     {
+      "label": "New Vote Health operating funding, Budget 2026",
+      "value": "More than NZ$5.8 billion over the forecast period{{7}}"
+     }
+    ],
+    "narrative": "Current health expenditure was 10.1 percent of GDP in 2024, up from 9.2 percent in 2012, and about US$5,022 per person, according to World Bank data.{{1}}{{2}} Out-of-pocket spending was 12.7 percent of current health expenditure in 2024, and general government spending covered 77.7 percent in 2023.{{3}}{{4}} In 2023 New Zealand's share of GDP was slightly below Australia's and below Canada, the United Kingdom, the United States and the OECD average.{{5}} Pharmac buys medicines within a fixed budget, and prescription copayments are capped at NZ$5 per item.{{6}}\n\nBudget 2026, released on 28 May 2026, provides more than $5.8 billion in new Vote Health operating funding over the forecast period, including a $1.37 billion annual uplift for cost pressures and demand, and the government says total health spending will reach $34.2 billion in 2026/27.{{7}} It funds 24,000 additional planned care treatments and 24,000 additional cancer treatments in 2026/27, among other services.{{7}}",
+    "sources": [
+     {
+      "author": "World Bank",
+      "title": "Current health expenditure (% of GDP) (SH.XPD.CHEX.GD.ZS), New Zealand",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/NZL/indicator/SH.XPD.CHEX.GD.ZS?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Current health expenditure per capita (current US$) (SH.XPD.CHEX.PC.CD), New Zealand",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/NZL/indicator/SH.XPD.CHEX.PC.CD?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Out-of-pocket expenditure (% of current health expenditure) (SH.XPD.OOPC.CH.ZS), New Zealand",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/NZL/indicator/SH.XPD.OOPC.CH.ZS?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Domestic general government health expenditure (% of current health expenditure) (SH.XPD.GHED.CH.ZS), New Zealand",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/NZL/indicator/SH.XPD.GHED.CH.ZS?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Current health expenditure (% of GDP) (SH.XPD.CHEX.GD.ZS), New Zealand and comparators, 2023 and 2024",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/NZL;AUS;CAN;GBR;USA;SGP;OED/indicator/SH.XPD.CHEX.GD.ZS?format=json&per_page=500&date=2023:2024"
+     },
+     {
+      "author": "The Commonwealth Fund",
+      "title": "International Health Care System Profiles: New Zealand",
+      "publisher": "The Commonwealth Fund",
+      "date": "May 2026",
+      "url": "https://www.commonwealthfund.org/sites/default/files/2026-05/2026_Country-Profiles_NewZealand.pdf"
+     },
+     {
+      "author": "Hon Simeon Brown, Minister of Health",
+      "title": "Record health funding with patients at the centre",
+      "publisher": "New Zealand Government (Budget 2026)",
+      "date": "28 May 2026",
+      "url": "https://www.budget.govt.nz/budget/pdfs/releases/l14-brown-record-health-funding-with-patients-at-the-centre.pdf"
+     }
+    ]
+   },
+   "workforce": {
+    "facts": [
+     {
+      "label": "Practising doctors",
+      "value": "20,530 (30 June 2025), up 2.6% on 2024{{1}}"
+     },
+     {
+      "label": "Doctors per 100,000 people",
+      "value": "388.3 (2025){{1}}"
+     },
+     {
+      "label": "International medical graduates",
+      "value": "42.1% of surveyed doctors; 43.5% of the register (2025){{1}}"
+     },
+     {
+      "label": "Physicians per 1,000 people",
+      "value": "3.61 (2022); 2.71 in 2012{{2}}"
+     },
+     {
+      "label": "Nurses and midwives per 1,000 people",
+      "value": "12.3 (2023){{4}}"
+     },
+     {
+      "label": "Nurses with practising certificates",
+      "value": "80,960 (30 June 2026), 43.5% internationally qualified{{6}}"
+     },
+     {
+      "label": "Hospital beds per 1,000 people",
+      "value": "2.51 (2023){{5}}"
+     }
+    ],
+    "narrative": "New Zealand had 20,530 practising doctors at 30 June 2025, up 2.6 percent on 2024, or 388.3 per 100,000 people.{{1}} International medical graduates made up 42.1 percent of doctors responding to the Medical Council's survey and 43.5 percent of those on the register, rising above 60 percent in Whanganui and South Canterbury.{{1}} Retention is the weak point: 99 percent of New Zealand graduates are retained after one year, against 40 percent of international graduates after two years.{{1}} Māori doctors make up 5.5 percent of the workforce and Pacific doctors 2.7 percent.{{1}}\n\nWorld Bank data put physician density at 3.61 per 1,000 people in 2022, up from 2.71 in 2012 and above the OECD average of 3.43.{{2}}{{3}} Nurses and midwives numbered 12.3 per 1,000 people in 2023, and there were 2.51 hospital beds per 1,000 people that year.{{4}}{{5}} At 30 June 2026, 80,960 nurses held annual practising certificates, 4 percent fewer than a year earlier, and 43.5 percent of them qualified overseas.{{6}}",
+    "sources": [
+     {
+      "author": "Medical Council of New Zealand",
+      "title": "The New Zealand Medical Workforce in 2025 (Workforce Survey Report 2025)",
+      "publisher": "Te Kaunihera Rata o Aotearoa Medical Council of New Zealand",
+      "date": "November 2025",
+      "url": "https://www.mcnz.org.nz/assets/Publications/Workforce-Survey/Workforce-Survey-Report-2025.pdf?vid=19"
+     },
+     {
+      "author": "World Bank",
+      "title": "Physicians (per 1,000 people) (SH.MED.PHYS.ZS), New Zealand",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/NZL/indicator/SH.MED.PHYS.ZS?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Physicians (per 1,000 people) (SH.MED.PHYS.ZS), New Zealand and comparators",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/NZL;AUS;CAN;GBR;USA;SGP;OED;WLD/indicator/SH.MED.PHYS.ZS?format=json&per_page=500&date=2019:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Nurses and midwives (per 1,000 people) (SH.MED.NUMW.P3), New Zealand",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/NZL/indicator/SH.MED.NUMW.P3?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Hospital beds (per 1,000 people) (SH.MED.BEDS.ZS), New Zealand",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/NZL/indicator/SH.MED.BEDS.ZS?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "Nursing Council of New Zealand",
+      "title": "Quarterly Data Report: June 2026",
+      "publisher": "Te Kaunihera Tapuhi o Aotearoa Nursing Council of New Zealand",
+      "date": "2026",
+      "url": "https://nursingcouncil.org.nz/common/Uploaded%20files/Public/Publications/Workforce%20Statistics/Quarterly%20Data%20Reports/ncnz-quarterly-report-june-2026.pdf"
+     }
+    ]
+   },
+   "education": {
+    "narrative": "Medical education is concentrated at the University of Otago and the University of Auckland, and annual tuition ranges from NZ$20,000 to NZ$40,000.{{1}} Auckland's Bachelor of Medicine and Bachelor of Surgery takes six years of full-time study.{{2}} Graduates then complete two years of prevocational training as interns (postgraduate years 1 and 2), with four accredited clinical attachments in each year; doctors who pass the NZREX Clinical examination follow the same training.{{3}}\n\nA third medical school is under construction. In July 2025 the government agreed to establish a medical school at the University of Waikato focused on primary care and rural and provincial practice, committing $82.85 million alongside a $151.86 million contribution from the university.{{4}} It will train 120 additional doctors a year, lifting total medical school places from 639 a year in 2026 to 759 from 2028.{{4}} Construction of its Hamilton building is scheduled for completion in December 2027, ahead of the first cohort in 2028.{{5}}\n\nOverseas-trained doctors have faster routes in. In July 2025 the Medical Council introduced fast-track registration for GPs trained in the United States, Canada and Singapore, processed within two months, and added Chile, Luxembourg and Croatia to its comparable health system pathway, bringing the list to 29 countries.{{6}}",
+    "sources": [
+     {
+      "author": "The Commonwealth Fund",
+      "title": "International Health Care System Profiles: New Zealand",
+      "publisher": "The Commonwealth Fund",
+      "date": "May 2026",
+      "url": "https://www.commonwealthfund.org/sites/default/files/2026-05/2026_Country-Profiles_NewZealand.pdf"
+     },
+     {
+      "author": "Waipapa Taumata Rau University of Auckland",
+      "title": "Bachelor of Medicine and Bachelor of Surgery (MBChB)",
+      "publisher": "University of Auckland",
+      "date": "",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-medicine-and-bachelor-of-surgery-mbchb.html"
+     },
+     {
+      "author": "Medical Council of New Zealand",
+      "title": "Policy on prevocational medical training",
+      "publisher": "Te Kaunihera Rata o Aotearoa Medical Council of New Zealand",
+      "date": "",
+      "url": "https://www.mcnz.org.nz/assets/Policies/Policy-on-prevocational-medical-training.pdf"
+     },
+     {
+      "author": "Ministry of Health Manatū Hauora",
+      "title": "Factsheet: New medical school",
+      "publisher": "Ministry of Health Manatū Hauora",
+      "date": "July 2025",
+      "url": "https://www.health.govt.nz/system/files/2025-07/factsheet-new-medical-school.docx"
+     },
+     {
+      "author": "University of Waikato",
+      "title": "Foundation laid as Waikato medical school reaches major construction milestone",
+      "publisher": "University of Waikato",
+      "date": "7 July 2026",
+      "url": "https://www.waikato.ac.nz/news-events/news/foundation-laid-as-waikato-medical-school-reaches-major-construction-milestone/"
+     },
+     {
+      "author": "Medical Council of New Zealand",
+      "title": "Faster, easier registration for overseas-trained doctors",
+      "publisher": "Te Kaunihera Rata o Aotearoa Medical Council of New Zealand",
+      "date": "15 July 2025",
+      "url": "https://www.mcnz.org.nz/about-us/news-and-updates/faster-easier-registration-for-overseas-trained-doctors/"
+     }
+    ]
+   },
+   "outlook": {
+    "narrative": "Demand will keep rising as the population ages: people aged 65 and over were 17.6 percent of residents in 2025, up from 13.7 percent in 2012.{{1}} Policy is aimed at access and throughput. Budget 2026 adds a $1.37 billion annual uplift, funds more planned care, cancer treatment, emergency department events and general practice enrolments, and lowers the eligibility age for bowel screening to 56.{{2}} On supply, the Waikato medical school will add 120 places a year from 2028, and the Medical Council has shortened registration routes for overseas doctors.{{3}}{{4}}\n\nThe constraints are fiscal and structural. The Treasury projects the government's expense-to-GDP ratio falling below 30 percent by 2030/31 under tight future budget allowances, and it counts on financial improvements at Health New Zealand.{{5}} The public system runs on more than 4,000 fragmented information technology systems, and in 2024, 73 percent of New Zealanders said waits for doctors' appointments were too long.{{6}} The general election is on 7 November 2026.{{7}} Its result will shape how far elective surgery continues to be outsourced to private providers, which matters for any foreign partner weighing clinical or advisory work.",
+    "sources": [
+     {
+      "author": "World Bank",
+      "title": "Population ages 65 and above (% of total population) (SP.POP.65UP.TO.ZS), New Zealand",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/NZL/indicator/SP.POP.65UP.TO.ZS?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "Hon Simeon Brown, Minister of Health",
+      "title": "Record health funding with patients at the centre",
+      "publisher": "New Zealand Government (Budget 2026)",
+      "date": "28 May 2026",
+      "url": "https://www.budget.govt.nz/budget/pdfs/releases/l14-brown-record-health-funding-with-patients-at-the-centre.pdf"
+     },
+     {
+      "author": "Ministry of Health Manatū Hauora",
+      "title": "Factsheet: New medical school",
+      "publisher": "Ministry of Health Manatū Hauora",
+      "date": "July 2025",
+      "url": "https://www.health.govt.nz/system/files/2025-07/factsheet-new-medical-school.docx"
+     },
+     {
+      "author": "Medical Council of New Zealand",
+      "title": "Faster, easier registration for overseas-trained doctors",
+      "publisher": "Te Kaunihera Rata o Aotearoa Medical Council of New Zealand",
+      "date": "15 July 2025",
+      "url": "https://www.mcnz.org.nz/about-us/news-and-updates/faster-easier-registration-for-overseas-trained-doctors/"
+     },
+     {
+      "author": "Iain Rennie, Secretary to the Treasury",
+      "title": "Pre-election Economic and Fiscal Update 2026 (presentation)",
+      "publisher": "The Treasury Te Tai Ōhanga",
+      "date": "29 September 2026",
+      "url": "https://www.treasury.govt.nz/sites/default/files/2026-10/sp-pre-election-economic-and-fiscal-update-2026.pdf"
+     },
+     {
+      "author": "The Commonwealth Fund",
+      "title": "International Health Care System Profiles: New Zealand",
+      "publisher": "The Commonwealth Fund",
+      "date": "May 2026",
+      "url": "https://www.commonwealthfund.org/sites/default/files/2026-05/2026_Country-Profiles_NewZealand.pdf"
+     },
+     {
+      "author": "Mandy Te",
+      "title": "Prime Minister Christopher Luxon announces New Zealand's 2026 general election will be held on November 7",
+      "publisher": "interest.co.nz",
+      "date": "21 January 2026",
+      "url": "https://www.interest.co.nz/public-policy/136867/prime-minister-christopher-luxon-announces-new-zealand%E2%80%99s-2026-general-election"
+     }
+    ]
+   },
+   "competitive_landscape": {
+    "narrative": "Foreign health systems have a small, mainly commercial presence in New Zealand. Icon Oncology Group delivers cancer care through Bowen Icon Cancer Centre in Wellington, a joint venture with Evolution Healthcare, and in early 2019 Bowen became the first Icon facility outside Australia to offer radiation therapy; Icon said in February 2025 that it had introduced clinical trials there.{{1}}{{7}} Evolution itself has been controlled by Australian investors since QIC agreed to buy it in December 2021.{{2}} US-based Sanford Health says it has collaborated with the Omni Health primary care network since 2018, and in July 2026 Health New Zealand signed an agreement with UCLPartners in London on digital and AI innovation.{{8}}{{9}}",
+    "closing": "New Zealand is also a regional referral destination. The Ministry of Foreign Affairs and Trade funds the New Zealand Medical Treatment Scheme, which refers patients from Fiji, Kiribati, Samoa, Tonga, Tuvalu and Vanuatu for treatment in New Zealand, Australia and Fiji.{{3}} In 2024, 53 people were treated overseas under its referral component.{{4}} Outbound, an industry publication reported in 2022 that it was common for New Zealanders to go to Australia for some treatment, and to Asia for dentistry, joint replacement and cosmetic surgery.{{5}} There is no official count of New Zealanders treated abroad, though agencies report rising demand, including for Türkiye.{{6}}",
+    "sources": [
+     {
+      "author": "Icon Group",
+      "title": "Cancer Services: New Zealand",
+      "publisher": "Icon Group",
+      "date": "",
+      "url": "https://icongroup.global/our-services/cancer-services-new-zealand/"
+     },
+     {
+      "author": "Bridget Carter",
+      "title": "QIC buys Evolution Healthcare for between $700m and $800m",
+      "publisher": "The Australian (via Pacific Equity Partners)",
+      "date": "10 December 2021",
+      "url": "https://www.pep.com.au/wp-content/uploads/2021/12/2021-12-01-QIC-buys-Evolution-Healthcare-for-between-700m-and-800m.pdf"
+     },
+     {
+      "author": "Pasifika Medical Association Group",
+      "title": "NZ Medical Treatment Scheme",
+      "publisher": "PMA Group",
+      "date": "",
+      "url": "https://pmagroup.org.nz/medical-treatment-scheme"
+     },
+     {
+      "author": "Pasifika Medical Association Group",
+      "title": "PMA reflects on two years of delivering life-changing care through NZMTS",
+      "publisher": "PMA Group",
+      "date": "6 March 2025",
+      "url": "https://pmagroup.org.nz/updates/pma-reflects-on-two-years-of-delivering-life-changing-care-through-nzmts"
+     },
+     {
+      "author": "IMTJ Team",
+      "title": "Where do Kiwis go for treatment?",
+      "publisher": "International Medical Travel Journal (LaingBuisson)",
+      "date": "8 June 2022",
+      "url": "https://www.laingbuissonnews.com/imtj/news-imtj/where-do-kiwis-go-for-treatment/"
+     },
+     {
+      "author": "Whatitiri Te Wake",
+      "title": "Teeth, titi and tummy tucks: why so many Māori are flocking to Türkiye",
+      "publisher": "Te Ao Māori News",
+      "date": "7 July 2025",
+      "url": "https://www.teaonews.co.nz/2025/07/07/teeth-titi-and-tummy-tucks-why-so-many-maori-are-flocking-to-turkiye/"
+     },
+     {
+      "author": "Icon Writers",
+      "title": "United by Unique this World Cancer Day",
+      "publisher": "Icon Group",
+      "date": "2025-02-04",
+      "url": "https://icongroup.global/en/news/2025-02-04/world-cancer-day/"
+     },
+     {
+      "author": "Sanford Health",
+      "title": "Sanford World Clinic New Zealand",
+      "publisher": "Sanford Health",
+      "date": "",
+      "url": "https://www.sanfordhealth.org/initiatives/world-clinic/new-zealand"
+     },
+     {
+      "author": "Health New Zealand Te Whatu Ora",
+      "title": "Health NZ international partnership strengthens approach to digital and AI innovation",
+      "publisher": "HiNZ (eHealthNews.nz)",
+      "date": "8 July 2026",
+      "url": "https://www.hinz.org.nz/news/730824/Health-NZ-international-partnership-strengthens-digital-innovation.htm"
+     }
+    ],
+    "tracker_country": "New Zealand"
+   }
+  },
+  "recent_developments": [
+   {
+    "date": "2026-10",
+    "headline": "Health New Zealand reports gains on its health targets",
+    "summary": "Health New Zealand reported that in 2025/26, 72.6 percent of people received elective treatment within four months, up from 63.9 percent, and 66.1 percent received a first specialist assessment within four months.{{1}} It said 87.0 percent of cancer patients were treated within 31 days of the decision to treat and 76.3 percent of emergency department patients left within six hours.{{1}}",
+    "sources": [
+     {
+      "author": "Health New Zealand Te Whatu Ora (Dr Dale Bramley, Chief Executive)",
+      "title": "Health NZ Highlights October 2026",
+      "publisher": "Health New Zealand Te Whatu Ora",
+      "date": "October 2026",
+      "url": "https://www.healthnz.govt.nz/news-and-updates/health-nz-highlights-october-2026"
+     }
+    ]
+   },
+   {
+    "date": "2026-05-28",
+    "headline": "Budget 2026 adds more than $5.8 billion in new health operating funding",
+    "summary": "Budget 2026 provides more than $5.8 billion in new Vote Health operating funding over the forecast period, including a $1.37 billion annual uplift, and the government says total health spending will reach $34.2 billion in 2026/27.{{1}} It also lowers the bowel screening eligibility age to 56.{{1}}",
+    "sources": [
+     {
+      "author": "Hon Simeon Brown, Minister of Health",
+      "title": "Record health funding with patients at the centre",
+      "publisher": "New Zealand Government (Budget 2026)",
+      "date": "28 May 2026",
+      "url": "https://www.budget.govt.nz/budget/pdfs/releases/l14-brown-record-health-funding-with-patients-at-the-centre.pdf"
+     }
+    ]
+   },
+   {
+    "date": "2026-04-16",
+    "headline": "New Health New Zealand board chair appointed",
+    "summary": "The Health Minister appointed Mark Darrow as chair of the Health New Zealand board for a three-year term from 1 May 2026, replacing Lester Levy.{{1}}",
+    "sources": [
+     {
+      "author": "1News Reporters",
+      "title": "New Health NZ chair, board members announced",
+      "publisher": "1News",
+      "date": "16 April 2026",
+      "url": "https://www.1news.co.nz/2026/04/16/new-health-nz-chair-board-members-announced/"
+     }
+    ]
+   },
+   {
+    "date": "2025-07-15",
+    "headline": "Medical Council fast-tracks registration for US, Canadian and Singaporean GPs",
+    "summary": "The Medical Council introduced fast-track registration for GPs trained in the United States, Canada and Singapore, processed within two months, and added Chile, Luxembourg and Croatia to its comparable health system pathway, which now covers 29 countries.{{1}}",
+    "sources": [
+     {
+      "author": "Medical Council of New Zealand",
+      "title": "Faster, easier registration for overseas-trained doctors",
+      "publisher": "Te Kaunihera Rata o Aotearoa Medical Council of New Zealand",
+      "date": "15 July 2025",
+      "url": "https://www.mcnz.org.nz/about-us/news-and-updates/faster-easier-registration-for-overseas-trained-doctors/"
+     }
+    ]
+   },
+   {
+    "date": "2025-07",
+    "headline": "Third medical school approved at the University of Waikato",
+    "summary": "The government agreed to establish a medical school at the University of Waikato focused on primary care and rural practice, committing $82.85 million.{{1}} It will train 120 additional doctors a year, with the first students expected in 2028.{{1}}",
+    "sources": [
+     {
+      "author": "Ministry of Health Manatū Hauora",
+      "title": "Factsheet: New medical school",
+      "publisher": "Ministry of Health Manatū Hauora",
+      "date": "July 2025",
+      "url": "https://www.health.govt.nz/system/files/2025-07/factsheet-new-medical-school.docx"
+     }
+    ]
+   }
+  ]
+ },
+ "resolution_log": [
+  "Not readable from this environment, so not cited: health.govt.nz HTML pages (403; its /system/files PDFs and DOCX were readable), rbnz.govt.nz, elections.nz and electionresults.govt.nz, dpmc.govt.nz, gg.govt.nz, teara.govt.nz, britannica.com, parliament.nz (JavaScript only), legislation.govt.nz (JavaScript only).",
+  "Health NZ private-sector outsourcing aide-memoire (tewhatuora.govt.nz) could not be opened, so outsourcing shares were not used; private hospital counts by group could not be reliably sourced, so the market chart uses World Bank hospital beds per 1,000.",
+  "Mortality: latest Ministry of Health cause-of-death counts readable were 2022 (preliminary) via Figure.NZ; 2021 death-rate ranking from the Commonwealth Fund profile. Percent shares were not derived.",
+  "Research pass 21 October 2026; three independent verifiers on the strongest model; points raised by only one verifier were re-checked on the source page in resolution.",
+  "Added: Health NZ board chair change (May 2026), 2025/26 health target results (Health NZ, October 2026), nurse workforce at 30 June 2026 (Nursing Council), first long-term private hospital contracts (NZ Herald, 2026).",
+  "Evolution Healthcare: the 2018 ownership article replaced; QIC agreed to buy it from PEP in December 2021, and it now lists six hospitals. Election sentence no longer cites a source for analysis. IMTJ outbound-travel item dated 2022.",
+  "English Language Act 2026 royal assent (5 August 2026) confirmed on Parliament's bill page.",
+  "Mortality kept at 2022 preliminary counts: Health NZ has published preliminary 2023 data, but only in a workbook that could not be read here. Fertility kept at the World Bank 2024 value (two newer Stats NZ figures were reported for different periods and not confirmed on a readable page).",
+  "Tracker: Penn State-Auckland excluded (general university partnership); Fiji National University-Otago/Mercy excluded (New Zealand institutions supporting a centre in Fiji); Sanford-Omni Health set to Unclear (the 2025 job posting could not be re-verified); Icon last evidence February 2025; NiPPeR follow-up records dated to the August 2025 completion; ZERO trial typed as research collaboration."
+ ],
+ "csi_manual": {
+  "patient_volume_and_revenue": "",
+  "referral_sources": "",
+  "relationship_history": "",
+  "complications": "",
+  "key_contacts": "",
+  "opportunities": "",
+  "csi_recommendation": ""
+ },
+ "charts": [
+  {
+   "id": "spending",
+   "page": "health",
+   "kind": "line",
+   "title": "New Zealand: health spending and out-of-pocket share, 2012 to 2024",
+   "unit": "%",
+   "note": "Current health expenditure as a share of GDP, and out-of-pocket spending as a share of current health expenditure.",
+   "highlight": "New Zealand",
+   "series": [
+    {
+     "name": "Current health expenditure (% of GDP)",
+     "points": [
+      [
+       "2012",
+       9.2
+      ],
+      [
+       "2013",
+       8.94
+      ],
+      [
+       "2014",
+       8.97
+      ],
+      [
+       "2015",
+       8.89
+      ],
+      [
+       "2016",
+       8.77
+      ],
+      [
+       "2017",
+       8.62
+      ],
+      [
+       "2018",
+       8.57
+      ],
+      [
+       "2019",
+       8.62
+      ],
+      [
+       "2020",
+       9.25
+      ],
+      [
+       "2021",
+       9.55
+      ],
+      [
+       "2022",
+       10.57
+      ],
+      [
+       "2023",
+       10.13
+      ],
+      [
+       "2024",
+       10.06
+      ]
+     ]
+    },
+    {
+     "name": "Out-of-pocket (% of current health expenditure)",
+     "points": [
+      [
+       "2012",
+       11.8
+      ],
+      [
+       "2013",
+       11.9
+      ],
+      [
+       "2014",
+       12.8
+      ],
+      [
+       "2015",
+       13.8
+      ],
+      [
+       "2016",
+       14.6
+      ],
+      [
+       "2017",
+       14.5
+      ],
+      [
+       "2018",
+       14.6
+      ],
+      [
+       "2019",
+       14.4
+      ],
+      [
+       "2020",
+       14.2
+      ],
+      [
+       "2021",
+       13.6
+      ],
+      [
+       "2022",
+       11.9
+      ],
+      [
+       "2023",
+       12.6
+      ],
+      [
+       "2024",
+       12.7
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Bank",
+     "title": "Current health expenditure (% of GDP) (SH.XPD.CHEX.GD.ZS), New Zealand",
+     "publisher": "World Bank Indicators API (World Development Indicators)",
+     "date": "2026-10-08",
+     "url": "https://api.worldbank.org/v2/country/NZL/indicator/SH.XPD.CHEX.GD.ZS?format=json&per_page=80&date=2008:2025"
+    },
+    {
+     "author": "World Bank",
+     "title": "Out-of-pocket expenditure (% of current health expenditure) (SH.XPD.OOPC.CH.ZS), New Zealand",
+     "publisher": "World Bank Indicators API (World Development Indicators)",
+     "date": "2026-10-08",
+     "url": "https://api.worldbank.org/v2/country/NZL/indicator/SH.XPD.OOPC.CH.ZS?format=json&per_page=80&date=2008:2025"
+    }
+   ],
+   "split": true
+  },
+  {
+   "id": "workforce",
+   "page": "health",
+   "kind": "bar",
+   "title": "Physicians per 1,000 people, New Zealand and comparators (latest year available)",
+   "unit": "per 1,000",
+   "note": "Latest year available for each country in the World Bank series, shown in brackets; comparison years differ (2022 and 2023).",
+   "highlight": "New Zealand (2022)",
+   "series": [
+    {
+     "name": "Physicians per 1,000",
+     "points": [
+      [
+       "World (2022)",
+       1.86
+      ],
+      [
+       "Canada (2023)",
+       2.82
+      ],
+      [
+       "Singapore (2022)",
+       2.83
+      ],
+      [
+       "United Kingdom (2023)",
+       3.3
+      ],
+      [
+       "OECD (2022)",
+       3.43
+      ],
+      [
+       "New Zealand (2022)",
+       3.61
+      ],
+      [
+       "United States (2022)",
+       3.68
+      ],
+      [
+       "Australia (2022)",
+       4.09
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Bank",
+     "title": "Physicians (per 1,000 people) (SH.MED.PHYS.ZS), New Zealand and comparators",
+     "publisher": "World Bank Indicators API (World Development Indicators)",
+     "date": "2026-10-08",
+     "url": "https://api.worldbank.org/v2/country/NZL;AUS;CAN;GBR;USA;SGP;OED;WLD/indicator/SH.MED.PHYS.ZS?format=json&per_page=500&date=2019:2025"
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "page": "market",
+   "kind": "line",
+   "title": "New Zealand: hospital beds per 1,000 people, 2012 to 2023",
+   "unit": "per 1,000",
+   "note": "Hospital beds as reported to the World Bank; 2023 is the latest year in the series.",
+   "highlight": "2023",
+   "series": [
+    {
+     "name": "Hospital beds per 1,000",
+     "points": [
+      [
+       "2012",
+       2.83
+      ],
+      [
+       "2013",
+       2.78
+      ],
+      [
+       "2014",
+       2.74
+      ],
+      [
+       "2015",
+       2.7
+      ],
+      [
+       "2016",
+       2.72
+      ],
+      [
+       "2017",
+       2.7
+      ],
+      [
+       "2018",
+       2.59
+      ],
+      [
+       "2019",
+       2.54
+      ],
+      [
+       "2020",
+       2.5
+      ],
+      [
+       "2021",
+       2.67
+      ],
+      [
+       "2022",
+       2.57
+      ],
+      [
+       "2023",
+       2.51
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Bank",
+     "title": "Hospital beds (per 1,000 people) (SH.MED.BEDS.ZS), New Zealand",
+     "publisher": "World Bank Indicators API (World Development Indicators)",
+     "date": "2026-10-08",
+     "url": "https://api.worldbank.org/v2/country/NZL/indicator/SH.MED.BEDS.ZS?format=json&per_page=80&date=2008:2025"
+    }
+   ]
+  }
+ ]
+}
