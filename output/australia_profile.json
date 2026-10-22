@@ -223,7 +223,7 @@
     ]
    },
    "economy": {
-    "narrative": "Australia is a high-income economy, with GDP of about 1.99 trillion international dollars at purchasing power parity in 2025, or about 71,930 per person.{{1}}{{2}} Real GDP rose 0.4 percent in the June quarter of 2026 and 2.1 percent on a year earlier, and grew 2.4 percent over the 2025-26 financial year.{{3}} Service industries account for over 70 percent of economic activity.{{3}}\n\nThe 2026-27 Budget, delivered on 12 May 2026, expects growth to slow from 2.25 percent in 2025-26 to 1.75 percent in 2026-27 because the conflict in the Middle East has raised global oil prices.{{4}} It forecasts headline inflation of 5 percent through the year to the June quarter of 2026, easing to 2.5 percent a year later, with unemployment at 4.25 percent in the June quarter of 2026.{{4}} The underlying cash deficit is forecast at A$31.5 billion, or 1.0 percent of GDP, in 2026-27, and health accounts for 16.4 percent of Commonwealth expenses.{{4}} The government's Future Made in Australia agenda aims to secure and scale domestic industrial capability.{{4}}",
+    "narrative": "Australia is a high-income economy, with GDP of about 1.99 trillion international dollars at purchasing power parity in 2025, or about 71,930 per person.{{1}}{{2}} Real GDP rose 0.4 percent in the June quarter of 2026 and 2.1 percent on a year earlier, and grew 2.4 percent over the 2025-26 financial year.{{3}} Service industries account for over 70 percent of economic activity.{{3}}\n\nThe 2026-27 Budget, delivered on 12 May 2026, expects growth to slow from 2.25 percent in 2025-26 to 1.75 percent in 2026-27 because the conflict in the Middle East has raised global oil prices.{{4}} It forecasts headline inflation of 5 percent through the year to the June quarter of 2026, easing to 2.5 percent a year later, with unemployment at 4.25 percent in the June quarter of 2026.{{4}} The underlying cash deficit is forecast at A$31.5 billion (US$22.1 billion), or 1.0 percent of GDP, in 2026-27, and health accounts for 16.4 percent of Commonwealth expenses.{{4}} The government's Future Made in Australia agenda aims to secure and scale domestic industrial capability.{{4}}",
     "sources": [
      {
       "author": "World Bank",
@@ -330,7 +330,7 @@
   },
   "health_system": {
    "public_system": {
-    "narrative": "Australia's public system rests on Medicare, a universal insurance program financed from general tax revenue and a levy, which covers citizens, permanent residents and people from reciprocal-agreement countries, pays the full cost of public hospital services and part of the cost of other services, and subsidizes most medicines through the Pharmaceutical Benefits Scheme.{{1}} The Commonwealth funds care through the Medicare Benefits Schedule and the Pharmaceutical Benefits Scheme, and the states own and manage the public hospitals.{{1}}\n\nIn 2023-24 there were 704 public hospitals with 67,280 available beds, or 2.5 per 1,000 people, and total recurrent spending of A$103.1 billion, 94 percent of it funded by governments.{{2}} Public hospitals recorded about 7.5 million separations that year and 9,094,312 emergency department presentations in 2024-25.{{2}}\n\nOn 30 January 2026 National Cabinet reached an agreement under which the Commonwealth will provide A$25 billion in additional public hospital funding.{{3}} The 2026-27 Budget provides A$220.3 billion over five years to the states and territories for public hospital services and the 2026-2031 addendum.{{4}} In primary care, bulk billing incentives were extended to all Australians from 1 November 2025, and the government projects that 9 in 10 GP visits will be bulk billed by 2030.{{5}}{{6}}",
+    "narrative": "Australia's public system rests on Medicare, a universal insurance program financed from general tax revenue and a levy, which covers citizens, permanent residents and people from reciprocal-agreement countries, pays the full cost of public hospital services and part of the cost of other services, and subsidizes most medicines through the Pharmaceutical Benefits Scheme.{{1}} The Commonwealth funds care through the Medicare Benefits Schedule and the Pharmaceutical Benefits Scheme, and the states own and manage the public hospitals.{{1}}\n\nIn 2023-24 there were 704 public hospitals with 67,280 available beds, or 2.5 per 1,000 people, and total recurrent spending of A$103.1 billion (US$72.3 billion), 94 percent of it funded by governments.{{2}} Public hospitals recorded about 7.5 million separations that year and 9,094,312 emergency department presentations in 2024-25.{{2}}\n\nOn 30 January 2026 National Cabinet reached an agreement under which the Commonwealth will provide A$25 billion (US$17.5 billion) in additional public hospital funding.{{3}} The 2026-27 Budget provides A$220.3 billion (US$154 billion) over five years to the states and territories for public hospital services and the 2026-2031 addendum.{{4}} In primary care, bulk billing incentives were extended to all Australians from 1 November 2025, and the government projects that 9 in 10 GP visits will be bulk billed by 2030.{{5}}{{6}}",
     "sources": [
      {
       "author": "The Commonwealth Fund",
@@ -377,7 +377,7 @@
     ]
    },
    "private_system": {
-    "narrative": "About 12.8 million people, or 45.8 percent of the population, held private hospital cover at 30 June 2026, and 55.5 percent had general treatment cover.{{1}} Insurers paid A$5.3 billion in hospital benefits in the June 2026 quarter.{{1}} Government policy encourages cover through a premium rebate and an income-based penalty, the Medicare Levy surcharge.{{2}} Private hospitals are a mix of for-profit and nonprofit operators.{{2}}\n\nThe sector's second-largest operator went into receivership in 2025. Healthscope entered receivership in May 2025 after its North American private equity owner, Brookfield, withdrew support, and on 14 September 2026 the receivers announced that 25 hospitals would be divided among Calvary Health Care (14 hospitals), Healthe Care, ACURIO Health and KnG Group.{{3}} Ramsay Health Care, listed on the Australian Securities Exchange since 1997, runs hospitals, clinics and services in Australia, Europe and the United Kingdom.{{4}} The 2026-27 Budget removes the age-based uplift of the private health insurance rebate from 1 April 2027, saving A$3.0 billion over four years.{{5}}",
+    "narrative": "About 12.8 million people, or 45.8 percent of the population, held private hospital cover at 30 June 2026, and 55.5 percent had general treatment cover.{{1}} Insurers paid A$5.3 billion (US$3.72 billion) in hospital benefits in the June 2026 quarter.{{1}} Government policy encourages cover through a premium rebate and an income-based penalty, the Medicare Levy surcharge.{{2}} Private hospitals are a mix of for-profit and nonprofit operators.{{2}}\n\nThe sector's second-largest operator went into receivership in 2025. Healthscope entered receivership in May 2025 after its North American private equity owner, Brookfield, withdrew support, and on 14 September 2026 the receivers announced that 25 hospitals would be divided among Calvary Health Care (14 hospitals), Healthe Care, ACURIO Health and KnG Group.{{3}} Ramsay Health Care, listed on the Australian Securities Exchange since 1997, runs hospitals, clinics and services in Australia, Europe and the United Kingdom.{{4}} The 2026-27 Budget removes the age-based uplift of the private health insurance rebate from 1 April 2027, saving A$3.0 billion (US$2.1 billion) over four years.{{5}}",
     "sources": [
      {
       "author": "Australian Prudential Regulation Authority",
@@ -420,7 +420,7 @@
     "facts": [
      {
       "label": "Total health spending, 2024-25",
-      "value": "A$290.7 billion, or A$10,614 per person{{7}}"
+      "value": "A$290.7 billion (US$204 billion), or A$10,614 (US$7,440) per person{{7}}"
      },
      {
       "label": "Current health expenditure, share of GDP",
@@ -436,11 +436,11 @@
      },
      {
       "label": "Out-of-pocket spending, 2023-24",
-      "value": "A$44 billion, or A$1,634 per person{{1}}"
+      "value": "A$44 billion (US$30.9 billion), or A$1,634 (US$1,150) per person{{1}}"
      },
      {
       "label": "Share of health spending by type, 2024-25",
-      "value": "Hospital care 42% (A$123.4 billion); primary health care 32% (A$93.0 billion){{7}}"
+      "value": "Hospital care 42% (A$123.4 billion (US$86.5 billion)); primary health care 32% (A$93.0 billion (US$65.2 billion)){{7}}"
      },
      {
       "label": "Comparison, current health expenditure share of GDP (2023)",
@@ -448,14 +448,14 @@
      },
      {
       "label": "Commonwealth health expenses, 2026-27",
-      "value": "A$136.9 billion, 16.4% of Commonwealth expenses{{6}}"
+      "value": "A$136.9 billion (US$96 billion), 16.4% of Commonwealth expenses{{6}}"
      },
      {
       "label": "Commonwealth assistance to states for public hospitals, 2026-27",
-      "value": "A$37.5 billion{{6}}"
+      "value": "A$37.5 billion (US$26.3 billion){{6}}"
      }
     ],
-    "narrative": "Total health spending reached A$290.7 billion in 2024-25, or A$10,614 per person, and governments funded 70 percent of it.{{7}} Hospitals took A$123.4 billion, about 42 percent of the total, and primary health care A$93.0 billion, about 32 percent.{{7}} Spending rose by A$9.6 billion, or 3.4 percent, in real terms from 2023-24.{{7}} World Bank data put current health expenditure at 10.4 percent of GDP in 2023, up from 8.7 percent in 2012, while out-of-pocket spending fell from 19.9 percent to 15.8 percent of the total over the same period.{{2}}{{4}} Among comparators, the share of GDP in 2023 was higher in Canada, the United Kingdom, the United States and the OECD average, and lower in New Zealand and Singapore.{{5}} Households still paid A$44 billion out of pocket in 2023-24, the largest non-government contribution.{{1}}\n\nThe Commonwealth budgets A$136.9 billion for health in 2026-27, which includes A$37.5 billion of assistance to the states for public hospitals.{{6}}",
+    "narrative": "Total health spending reached A$290.7 billion (US$204 billion) in 2024-25, or A$10,614 (US$7,440) per person, and governments funded 70 percent of it.{{7}} Hospitals took A$123.4 billion (US$86.5 billion), about 42 percent of the total, and primary health care A$93.0 billion (US$65.2 billion), about 32 percent.{{7}} Spending rose by A$9.6 billion (US$6.73 billion), or 3.4 percent, in real terms from 2023-24.{{7}} World Bank data put current health expenditure at 10.4 percent of GDP in 2023, up from 8.7 percent in 2012, while out-of-pocket spending fell from 19.9 percent to 15.8 percent of the total over the same period.{{2}}{{4}} Among comparators, the share of GDP in 2023 was higher in Canada, the United Kingdom, the United States and the OECD average, and lower in New Zealand and Singapore.{{5}} Households still paid A$44 billion (US$30.9 billion) out of pocket in 2023-24, the largest non-government contribution.{{1}}\n\nThe Commonwealth budgets A$136.9 billion (US$96 billion) for health in 2026-27, which includes A$37.5 billion (US$26.3 billion) of assistance to the states for public hospitals.{{6}}",
     "sources": [
      {
       "author": "AAP",
@@ -640,7 +640,7 @@
     ]
    },
    "outlook": {
-    "narrative": "Demand will keep rising as the population ages. People aged 65 and over were 18.1 percent of residents in 2025, and dementia is now the leading cause of death.{{1}}{{2}} Policy is aimed at hospital capacity and access. The January 2026 agreement commits about A$25 billion in additional Commonwealth public hospital funding, and the Commonwealth says it will continue to deliver 137 Medicare Urgent Care Clinics.{{3}} The 2026-27 Budget funds those clinics on an ongoing basis, at A$1.8 billion over five years, and redirects savings from the private health insurance rebate to aged care.{{4}} The government projects that 9 in 10 GP visits will be bulk billed by 2030.{{5}} The Australian Centre for Disease Control, backed by A$251 million, became a statutory agency on 1 January 2026, with Professor Zoe Wainer as its first Director-General from March 2026.{{6}}{{9}}{{7}}\n\nCost and capacity remain the main constraints. Health is 16.4 percent of Commonwealth expenses in 2026-27, and the budget papers forecast slower growth and higher inflation tied to oil prices.{{8}} Workforce supply and the pace of hospital reform will shape how much room there is for international partners.",
+    "narrative": "Demand will keep rising as the population ages. People aged 65 and over were 18.1 percent of residents in 2025, and dementia is now the leading cause of death.{{1}}{{2}} Policy is aimed at hospital capacity and access. The January 2026 agreement commits about A$25 billion (US$17.5 billion) in additional Commonwealth public hospital funding, and the Commonwealth says it will continue to deliver 137 Medicare Urgent Care Clinics.{{3}} The 2026-27 Budget funds those clinics on an ongoing basis, at A$1.8 billion (US$1.26 billion) over five years, and redirects savings from the private health insurance rebate to aged care.{{4}} The government projects that 9 in 10 GP visits will be bulk billed by 2030.{{5}} The Australian Centre for Disease Control, backed by A$251 million (US$176 million), became a statutory agency on 1 January 2026, with Professor Zoe Wainer as its first Director-General from March 2026.{{6}}{{9}}{{7}}\n\nCost and capacity remain the main constraints. Health is 16.4 percent of Commonwealth expenses in 2026-27, and the budget papers forecast slower growth and higher inflation tied to oil prices.{{8}} Workforce supply and the pace of hospital reform will shape how much room there is for international partners.",
     "sources": [
      {
       "author": "World Bank",
@@ -803,7 +803,7 @@
    {
     "date": "2026-05-12",
     "headline": "2026-27 Budget funds hospitals, urgent care and a private insurance rebate change",
-    "summary": "The Budget provides A$220.3 billion over five years to the states for public hospital services and the new funding addendum, and A$1.8 billion over five years for Medicare Urgent Care Clinics on an ongoing basis.{{1}} It removes the age-based uplift of the private health insurance rebate from 1 April 2027.{{1}}",
+    "summary": "The Budget provides A$220.3 billion (US$154 billion) over five years to the states for public hospital services and the new funding addendum, and A$1.8 billion (US$1.26 billion) over five years for Medicare Urgent Care Clinics on an ongoing basis.{{1}} It removes the age-based uplift of the private health insurance rebate from 1 April 2027.{{1}}",
     "sources": [
      {
       "author": "Jim Chalmers, Treasurer, and Katy Gallagher, Minister for Finance",
@@ -817,7 +817,7 @@
    {
     "date": "2026-01-30",
     "headline": "National Cabinet agrees new public hospital funding deal",
-    "summary": "National Cabinet agreed record funding for state and territory hospitals, including A$25 billion in additional Commonwealth funding for public hospitals, which the Prime Minister said is three times the increase under the last five-year agreement.{{1}} Commonwealth funding for state-run public hospitals is to reach a record A$219.6 billion from 2026-27 to 2030-31.{{1}}",
+    "summary": "National Cabinet agreed record funding for state and territory hospitals, including A$25 billion (US$17.5 billion) in additional Commonwealth funding for public hospitals, which the Prime Minister said is three times the increase under the last five-year agreement.{{1}} Commonwealth funding for state-run public hospitals is to reach a record A$219.6 billion (US$154 billion) from 2026-27 to 2030-31.{{1}}",
     "sources": [
      {
       "author": "Anthony Albanese, Prime Minister",
@@ -831,7 +831,7 @@
    {
     "date": "2025-11-05",
     "headline": "Legislation for a permanent Australian Centre for Disease Control passes the Senate",
-    "summary": "Legislation setting out the functions and independence of the Australian Centre for Disease Control passed the Senate, with a director-general appointed by the health minister and operations due to start on 1 January 2026.{{1}} An interim centre had operated inside the health department since January 2024, and the government committed A$251 million over four years.{{1}}{{2}}",
+    "summary": "Legislation setting out the functions and independence of the Australian Centre for Disease Control passed the Senate, with a director-general appointed by the health minister and operations due to start on 1 January 2026.{{1}} An interim centre had operated inside the health department since January 2024, and the government committed A$251 million (US$176 million) over four years.{{1}}{{2}}",
     "sources": [
      {
       "author": "SBS News",
@@ -886,7 +886,8 @@
   "World Bank hospital bed series still ends in 2016 and is labeled so; no readable newer series.",
   "Tracker: ARSADA/Monash Health removed (LinkedIn-only source, association not a hospital); RSPON/Monash University Indonesia removed (offshore campus in Indonesia, not an Australian institution); added Cleveland Clinic/Epworth (Active), SickKids and Great Ormond Street via IPCHiP with MCRI/RCH (Active), Mayo Clinic Laboratories/SydPath (Unclear); dead URLs replaced; Dana-Farber and Princess Margaret kept Unclear (newer evidence only in unreadable search summaries).",
   "Commonwealth Fund 2020 profile replaced by the May 2026 edition in every section; the 'no cap on physicians' clause and the 2016-17 private hospital count were removed as stale.",
-  "Final audit (third verifier, strongest model, on the resolved files): no high-severity flags; applied wording fixes on spending growth (real terms), Medicare coverage, the expedited pathway order, Healthscope ownership, the 2014 medical tourism source and tracker evidence dates. Medical Training Survey kept at its labeled 2024 figures."
+  "Final audit (third verifier, strongest model, on the resolved files): no high-severity flags; applied wording fixes on spending growth (real terms), Medicare coverage, the expedited pathway order, Healthscope ownership, the 2014 medical tourism source and tracker evidence dates. Medical Training Survey kept at its labeled 2024 figures.",
+  "US dollar equivalents added in parentheses after local-currency amounts (22 October 2026), using one reference rate per currency from data/fx_rates.json (ECB reference rates; central banks of Egypt and Vietnam; Nigeria's official market). They are indicative, including for historical figures."
  ],
  "csi_manual": {
   "patient_volume_and_revenue": "",

@@ -37,7 +37,7 @@
    "cite": "{{country_overview.demographics:4}}"
   },
   {
-   "value": "NZ$34.2 bn",
+   "value": "NZ$34.2 bn (US$19.4 bn)",
    "label": "Total health spending, 2026/27, government figure",
    "cite": "{{health_system.financing:7}}"
   }
@@ -46,7 +46,7 @@
   "Health spending reached 10.1 percent of GDP in 2024, from 9.2 percent in 2012.{{health_system.financing:1}}",
   "International graduates were 43.5 percent of registered doctors in 2025, but only 40 percent stay two years.{{health_system.workforce:1}}",
   "In 2024/25, 34.2 percent of adults were obese and 14.3 percent reported high or very high psychological distress.{{country_overview.disease_prevalence:6}}",
-  "In 2026 Health New Zealand signed its first long-term private hospital contracts, worth about $300 million.{{health_system.private_system:7}}"
+  "In 2026 Health New Zealand signed its first long-term private hospital contracts, worth about $300 million (US$170 million).{{health_system.private_system:7}}"
  ],
  "health_system": [
   "Health New Zealand replaced the district health boards in 2022 and delivers tax-funded universal care nationally.{{health_system.public_system:1}}",
@@ -70,7 +70,7 @@
   },
   {
    "date": "2026-05-28",
-   "text": "Budget 2026 added more than $5.8 billion in new health operating funding, including a $1.37 billion annual uplift.{{recent_developments.1:1}}"
+   "text": "Budget 2026 added more than $5.8 billion (US$3.29 billion) in new health operating funding, including a $1.37 billion (US$778 million) annual uplift.{{recent_developments.1:1}}"
   },
   {
    "date": "2026-10",

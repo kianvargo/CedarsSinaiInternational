@@ -46,12 +46,12 @@
   "Medicare covers the full cost of public hospital services for citizens and permanent residents.{{health_system.public_system:1}}",
   "Health spending was 10.40 percent of GDP in 2023, below Canada, the United Kingdom and the United States.{{health_system.financing:2}}{{health_system.financing:5}}",
   "Dementia became the leading cause of death in 2024, at 9.4 percent of deaths, overtaking ischemic heart diseases.{{country_overview.disease_prevalence:1}}",
-  "Governments funded 70 percent of the A$290.7 billion in total health spending in 2024-25.{{health_system.financing:7}}"
+  "Governments funded 70 percent of the A$290.7 billion (US$204 billion) in total health spending in 2024-25.{{health_system.financing:7}}"
  ],
  "health_system": [
-  "The 2026-27 Budget provides A$220.3 billion over five years for state public hospital services.{{health_system.public_system:4}}",
+  "The 2026-27 Budget provides A$220.3 billion (US$154 billion) over five years for state public hospital services.{{health_system.public_system:4}}",
   "Bulk billing incentives reached all Australians on 1 November 2025, with 9 in 10 GP visits projected by 2030.{{health_system.public_system:5}}{{health_system.public_system:6}}",
-  "Public hospitals had 67,280 beds in 2023-24, and governments funded 94 percent of their A$103.1 billion recurrent spending.{{health_system.public_system:2}}"
+  "Public hospitals had 67,280 beds in 2023-24, and governments funded 94 percent of their A$103.1 billion (US$72.3 billion) recurrent spending.{{health_system.public_system:2}}"
  ],
  "market": [
   "Ramsay Health Care, listed on the Australian Securities Exchange since 1997, runs hospitals in Australia, Europe and the United Kingdom.{{health_system.private_system:4}}",
@@ -66,7 +66,7 @@
  "recent": [
   {
    "date": "2026-01-30",
-   "text": "National Cabinet agreed a new public hospital funding deal with A$25 billion in additional Commonwealth public hospital funding.{{recent_developments.2:1}}"
+   "text": "National Cabinet agreed a new public hospital funding deal with A$25 billion (US$17.5 billion) in additional Commonwealth public hospital funding.{{recent_developments.2:1}}"
   },
   {
    "date": "2026-05-12",
