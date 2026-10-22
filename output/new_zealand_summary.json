@@ -1,0 +1,81 @@
+{
+ "country": "New Zealand",
+ "at_a_glance": [
+  {
+   "value": "5.36 m",
+   "label": "Population, 30 June 2026, provisional",
+   "cite": "{{country_overview.demographics:1}}"
+  },
+  {
+   "value": "57,350",
+   "label": "GDP per capita, PPP (international dollars), about, 2025",
+   "cite": "{{country_overview.demographics:12}}"
+  },
+  {
+   "value": "10.06%",
+   "label": "Current health expenditure, share of GDP, 2024",
+   "cite": "{{health_system.financing:1}}"
+  },
+  {
+   "value": "12.7%",
+   "label": "Out-of-pocket share of current health expenditure, 2024",
+   "cite": "{{health_system.financing:3}}"
+  },
+  {
+   "value": "3.61",
+   "label": "Physicians per 1,000 people, 2022",
+   "cite": "{{health_system.workforce:2}}"
+  },
+  {
+   "value": "82.0",
+   "label": "Life expectancy at birth, years, 2024",
+   "cite": "{{country_overview.demographics:6}}"
+  },
+  {
+   "value": "17.6%",
+   "label": "Population aged 65 and over, 2025",
+   "cite": "{{country_overview.demographics:4}}"
+  },
+  {
+   "value": "NZ$34.2 bn",
+   "label": "Total health spending, 2026/27, government figure",
+   "cite": "{{health_system.financing:7}}"
+  }
+ ],
+ "key_takeaways": [
+  "Health spending reached 10.1 percent of GDP in 2024, from 9.2 percent in 2012.{{health_system.financing:1}}",
+  "International graduates were 43.5 percent of registered doctors in 2025, but only 40 percent stay two years.{{health_system.workforce:1}}",
+  "In 2024/25, 34.2 percent of adults were obese and 14.3 percent reported high or very high psychological distress.{{country_overview.disease_prevalence:6}}",
+  "In 2026 Health New Zealand signed its first long-term private hospital contracts, worth about $300 million.{{health_system.private_system:7}}"
+ ],
+ "health_system": [
+  "Health New Zealand replaced the district health boards in 2022 and delivers tax-funded universal care nationally.{{health_system.public_system:1}}",
+  "Elective treatment within four months reached 72.6 percent in 2025/26, up from 63.9 percent.{{health_system.public_system:6}}",
+  "In 2024/25, cost stopped 14.9 percent of adults visiting a GP, and 25.5 percent cited appointment waits.{{health_system.public_system:4}}"
+ ],
+ "market": [
+  "About 37 percent of people hold private insurance, and Southern Cross has about 60 percent of the market.{{health_system.private_system:1}}{{health_system.private_system:2}}",
+  "Icon Oncology Group runs Wellington's Bowen Icon Cancer Centre with Australian-owned Evolution Healthcare.{{health_system.competitive_landscape:1}}{{health_system.competitive_landscape:2}}",
+  "Health New Zealand signed a digital and AI innovation agreement with London's UCLPartners in July 2026.{{health_system.competitive_landscape:9}}"
+ ],
+ "risks": [
+  "A general election is due on 7 November 2026.{{health_system.outlook:7}} Its result will shape private outsourcing of elective surgery.",
+  "The Treasury expects superannuation and finance costs to take about 28 percent of tax revenue by 2030/31.{{country_overview.economy:4}}",
+  "Practicing nurses fell 4 percent to 80,960 at 30 June 2026, and 43.5 percent qualified overseas.{{health_system.workforce:6}}"
+ ],
+ "recent": [
+  {
+   "date": "2026-04-16",
+   "text": "Mark Darrow became Health New Zealand board chair on 1 May 2026 for three years, replacing Lester Levy.{{recent_developments.2:1}}"
+  },
+  {
+   "date": "2026-05-28",
+   "text": "Budget 2026 added more than $5.8 billion in new health operating funding, including a $1.37 billion annual uplift.{{recent_developments.1:1}}"
+  },
+  {
+   "date": "2026-10",
+   "text": "Health New Zealand reported 87.0 percent of cancer patients treated within 31 days of the treatment decision in 2025/26.{{recent_developments.0:1}}"
+  }
+ ],
+ "country_background": "New Zealand, a constitutional monarchy with its capital in Wellington, had about 5.36 million people at 30 June 2026 (provisional).{{country_overview.demographics:16}}{{country_overview.demographics:8}}{{country_overview.demographics:1}} Governor-General Dame Cindy Kiro represents the King, and Prime Minister Christopher Luxon leads a National, ACT and New Zealand First government.{{country_overview.government:1}}{{country_overview.government:4}} Simeon Brown is Minister of Health, and Health New Zealand has delivered public services nationally since 2022.{{country_overview.government:5}}{{country_overview.government:6}} The high-income economy grew 1.7 percent in the year ended June 2026, and GDP per person was about 57,350 international dollars (PPP) in 2025.{{country_overview.economy:3}}{{country_overview.economy:2}} The population is aging: 17.6 percent were 65 or older in 2025, and life expectancy was 82.0 years in 2024.{{country_overview.demographics:4}}{{country_overview.demographics:6}} The key risk is fiscal, because the Treasury warns that demographic change, unless checked, will make the long-term fiscal position unsustainable.{{country_overview.economy:4}}"
+}
