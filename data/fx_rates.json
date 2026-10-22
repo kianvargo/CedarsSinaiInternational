@@ -1,0 +1,76 @@
+{
+ "note": "Units of local currency per US dollar, used to add US dollar equivalents in parentheses next to monetary values in the country drafts. One reference rate per currency is applied to every value, including historical figures, so equivalents are indicative.",
+ "as_of": "2026-10-22",
+ "rates": {
+  "AUD": {
+   "per_usd": 1.42615,
+   "date": "2026-10-22",
+   "source": "European Central Bank euro reference rates (AUD 1.5980, USD 1.1205 per EUR)"
+  },
+  "CNY": {
+   "per_usd": 6.67434,
+   "date": "2026-10-22",
+   "source": "European Central Bank euro reference rates (CNY 7.4786, USD 1.1205 per EUR)"
+  },
+  "IDR": {
+   "per_usd": 18075.75,
+   "date": "2026-10-22",
+   "source": "European Central Bank euro reference rates (IDR 20253.88, USD 1.1205 per EUR)"
+  },
+  "INR": {
+   "per_usd": 94.8228,
+   "date": "2026-10-22",
+   "source": "European Central Bank euro reference rates (INR 106.2490, USD 1.1205 per EUR)"
+  },
+  "NZD": {
+   "per_usd": 1.76028,
+   "date": "2026-10-22",
+   "source": "European Central Bank euro reference rates (NZD 1.9724, USD 1.1205 per EUR)"
+  },
+  "SGD": {
+   "per_usd": 1.27755,
+   "date": "2026-10-22",
+   "source": "European Central Bank euro reference rates (SGD 1.4315, USD 1.1205 per EUR)"
+  },
+  "EUR": {
+   "per_usd": 0.892459,
+   "date": "2026-10-22",
+   "source": "European Central Bank euro reference rates (USD 1.1205 per EUR)"
+  },
+  "EGP": {
+   "per_usd": 55.24,
+   "date": "2026-10-22",
+   "source": "Central Bank of Egypt official exchange rates, 22 October 2026"
+  },
+  "NGN": {
+   "per_usd": 1333.0,
+   "date": "2026-10-12",
+   "source": "Nigerian Foreign Exchange Market close of N1,332.99, reported by Nairametrics, 13 October 2026"
+  },
+  "VND": {
+   "per_usd": 25645.0,
+   "date": "2026-10-06",
+   "source": "State Bank of Vietnam central exchange rate, 6 October 2026"
+  },
+  "GBP": {
+   "per_usd": 0.747613,
+   "date": "2026-10-22",
+   "source": "European Central Bank euro reference rates (GBP 0.8377, USD 1.1205 per EUR)"
+  },
+  "JPY": {
+   "per_usd": 157.045962,
+   "date": "2026-10-22",
+   "source": "European Central Bank euro reference rates (JPY 175.97, USD 1.1205 per EUR)"
+  },
+  "MYR": {
+   "per_usd": 4.083534,
+   "date": "2026-10-22",
+   "source": "European Central Bank euro reference rates (MYR 4.5756, USD 1.1205 per EUR)"
+  },
+  "THB": {
+   "per_usd": 33.744757,
+   "date": "2026-10-22",
+   "source": "European Central Bank euro reference rates (THB 37.811, USD 1.1205 per EUR)"
+  }
+ }
+}
