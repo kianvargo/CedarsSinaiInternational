@@ -1,0 +1,15 @@
+{
+ "note": "Each partnership is placed in the Spanish partner's home city; Esplugues de Llobregat (Sant Joan de Déu) and Mataró are shown as Barcelona, and group-wide owners are placed at their headquarters city.",
+ "bounds": [-9.6, 4.5, 35.8, 44.0],
+ "metros": ["Madrid", "Barcelona", "Valencia", "Seville", "Bilbao"],
+ "cities": {
+  "Madrid": [[-3.70, 40.42], [12, 0]],
+  "Barcelona": [[2.17, 41.39], [-12, 0]],
+  "Valencia": [[-0.38, 39.47], [12, 0]],
+  "Seville": [[-5.98, 37.39], [12, 0]],
+  "Bilbao": [[-2.93, 43.26], [12, 0]],
+  "Pamplona": [[-1.64, 42.81], [12, 0]],
+  "Málaga": [[-4.42, 36.72], [12, 0]]
+ },
+ "locations": {}
+}
