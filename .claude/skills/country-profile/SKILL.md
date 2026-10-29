@@ -40,14 +40,33 @@ lines that match (cheap on tokens). Some hospital sites (Mayo Clinic, Johns
 Hopkins) refuse automated requests; use their press releases as republished
 on PR Newswire, Business Wire or EurekAlert instead.
 
-**Which model runs which step (cost).** Drafting is cheap to redo and gets
-checked; checking is where errors are caught. So:
-- Research pass and summary draft: pass `model: "sonnet"` on the Agent call
-  (about half the per-token price of the session's Opus model).
-- The three verifiers, the resolution pass, and the summary check: leave
-  `model` unset so they run on the session's strongest model.
-Expect roughly 20 to 30 percent lower cost per profile than running
-everything on Opus. Don't move verifiers to a cheaper model to save more.
+**Which model runs which step (cost, revised Oct 2026).** Drafting is cheap
+to redo and gets checked; resolution is where judgement matters. So:
+- Research pass, both partnership searches, the summary draft and the polish
+  pass: pass `model: "sonnet"` on the Agent call.
+- Verification: run **two** verifiers with `model: "sonnet"`. Run a third
+  verifier on the session's strongest model (leave `model` unset) only when
+  the two disagree on a medium or high flag, or either raises a high flag.
+- The resolution pass and the final summary check stay on the session's
+  strongest model; the session itself usually does these, re-checking any
+  point only one verifier raised on its source page.
+Roughly half the agent cost of running everything on the strongest model.
+
+**Keep token use down.**
+- Start a fresh session for each country: a long session re-reads its whole
+  history on every turn. Everything a new session needs is in this skill,
+  `templates/`, `scripts/` and the website repo's `tools/`.
+- Fill the briefs from `templates/` (profile_brief.md, tracker_brief.md,
+  verify_prompt.md) instead of writing them from scratch.
+- Before research, run `python3 scripts/worldbank.py <ISO3> <comparator ISO3s> --out <scratchpad>/<country>_wb.json`
+  and point the research agent at it for World Bank facts and chart series.
+- Check summaries with `python3 scripts/check_summary.py output/<country>_profile.json <summary.json>`.
+- PDFs: `scripts/docx_to_pdf.py` uses LibreOffice when `libreoffice-writer`
+  is installed (add `apt-get install -y libreoffice-writer` to the
+  environment's setup script); otherwise it falls back to a lower-fidelity
+  browser print.
+- Keep tool output short (grep, head, counts) and skip full-page screenshots
+  unless checking layout.
 
 **Start from the partnerships tracker.** Before research, run
 `python3 scripts/tracker.py brief <Country> <scratchpad>/<country>_tracker_brief.json`
@@ -281,6 +300,12 @@ verified profile JSON only. It adds no new facts, so it needs no web research.
    summary, profile, sources, tracker, map and a README in
    `deliverables/<Country>/` plus a zip. Then `python3 scripts/build_explorer.py`
    adds the country to the interactive explorer (see README).
+5. **Website (kianvargo/CSI_website):** on a new branch, run
+   `python3 tools/add_country.py "<Country>" <ISO2> "<Region>" "<image alt text>"` from that repo
+   (it copies the six documents and cover from this repo's `output/` and `assets/covers/`,
+   adds the DATA entry, and keeps file names web-safe), then `python3 tools/render_previews.py`.
+   Profile highlighting and counts update automatically. Open a pull request: Cloudflare posts
+   a preview link on it. Merge only when the user approves.
 
 ## House preferences (from the analyst's hand edits, Sep 2026)
 
