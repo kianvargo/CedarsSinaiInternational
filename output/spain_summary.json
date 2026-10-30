@@ -1,0 +1,81 @@
+{
+ "country": "Spain",
+ "at_a_glance": [
+  {
+   "value": "49.8 m",
+   "label": "Population, 1 July 2026, provisional",
+   "cite": "{{country_overview.demographics:3}}"
+  },
+  {
+   "value": "59,870",
+   "label": "GDP per capita, PPP (international dollars), about, 2025",
+   "cite": "{{country_overview.demographics:5}}"
+  },
+  {
+   "value": "9.22%",
+   "label": "Current health expenditure, share of GDP, 2023",
+   "cite": "{{health_system.financing:1}}"
+  },
+  {
+   "value": "20.9%",
+   "label": "Out-of-pocket share of current health expenditure, 2023",
+   "cite": "{{health_system.financing:3}}"
+  },
+  {
+   "value": "4.4",
+   "label": "Physicians per 1,000 people, 2023",
+   "cite": "{{health_system.workforce:1}}"
+  },
+  {
+   "value": "83.9",
+   "label": "Life expectancy at birth, years, 2024",
+   "cite": "{{country_overview.demographics:11}}"
+  },
+  {
+   "value": "21.6%",
+   "label": "Population aged 65 and over, 2025",
+   "cite": "{{country_overview.demographics:9}}"
+  },
+  {
+   "value": "US$3,107",
+   "label": "Current health expenditure per capita, 2023, current US$",
+   "cite": "{{health_system.financing:2}}"
+  }
+ ],
+ "key_takeaways": [
+  "Health spending was 9.22 percent of GDP in 2023, unchanged from 2012, and 20.9 percent was out of pocket.{{health_system.financing:1}}{{health_system.financing:3}}",
+  "At 31 December 2025, 853,740 patients were waiting for elective surgery, with an average wait of 122 days.{{health_system.public_system:2}}",
+  "Spain had 4.4 physicians per 1,000 people in 2023, but 43 percent were aged 55 and over in 2022.{{health_system.workforce:1}}",
+  "The share aged 65 and over is projected to rise from 20 percent in 2024 to 33 percent by 2050.{{health_system.outlook:1}}"
+ ],
+ "health_system": [
+  "The tax-funded National Health System covers all residents, and regions made up 93.6 percent of public health spending in 2024.{{health_system.public_system:1}}{{country_overview.government:8}}",
+  "Unmet needs for medical care were 2.6 percent in 2024, below the EU average of 3.6 percent.{{health_system.public_system:1}}",
+  "The average wait for a first hospital specialist consultation was 102 days at 31 December 2025.{{health_system.public_system:2}}"
+ ],
+ "market": [
+  "In 2025, 440 hospitals were private (57 percent of the total), and health insurers covered 12.8 million people.{{health_system.private_system:1}}",
+  "Foreign groups are well established: Fresenius owns Quirónsalud, Bupa owns Sanitas, and Hospiten runs MD Anderson Cancer Center Madrid.{{health_system.competitive_landscape:1}}{{health_system.competitive_landscape:2}}{{health_system.competitive_landscape:4}}",
+  "The tracker lists 20 active foreign partnerships in Spain, in Barcelona (ten), Madrid (nine) and Valencia (one)."
+ ],
+ "risks": [
+  "A snap general election is set for 29 November 2026, and policy is on hold until a new government forms.{{health_system.outlook:3}}{{country_overview.government:5}}",
+  "The 2023 state budget has been rolled over into 2026, a third year.{{country_overview.government:9}}",
+  "The end of NextGenerationEU funding could weigh on investment.{{country_overview.economy:5}}"
+ ],
+ "recent": [
+  {
+   "date": "2026-10-07",
+   "text": "Doctors' unions postponed the indefinite strike planned from 28 October, saying the Estatuto Marco bill lapses.{{recent_developments.0:1}}"
+  },
+  {
+   "date": "2026-07-21",
+   "text": "The government sent the Cortes a Medicines and Health Products bill and a tobacco bill.{{recent_developments.1:1}}"
+  },
+  {
+   "date": "2026-05-13",
+   "text": "The Ministry of Health reported public health spending of €101.7 billion (US$114 billion) in 2024, 6.4 percent of GDP.{{recent_developments.2:1}}"
+  }
+ ],
+ "country_background": "Spain, a parliamentary monarchy with its capital in Madrid, had about 49.8 million residents on 1 July 2026 (provisional).{{country_overview.demographics:3}}{{country_overview.government:1}} King Felipe VI is head of state, and Prime Minister Pedro Sánchez has led a minority government.{{country_overview.government:1}}{{country_overview.government:4}} Mónica García is Minister of Health.{{country_overview.government:6}} The economy grew 2.6 percent year on year in the second quarter of 2026, and GDP per person was about 59,870 international dollars (PPP) in 2025.{{country_overview.economy:4}}{{country_overview.economy:2}} The population is aging: 21.6 percent were 65 or older in 2025, and life expectancy was 83.9 years in 2024.{{country_overview.demographics:9}}{{country_overview.demographics:11}} The key risk is political: a snap general election is set for 29 November 2026, and policy is on hold until a new government forms.{{country_overview.government:5}}{{health_system.outlook:3}}"
+}
