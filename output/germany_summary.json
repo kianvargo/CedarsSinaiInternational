@@ -1,0 +1,81 @@
+{
+ "country": "Germany",
+ "at_a_glance": [
+  {
+   "value": "83.5 m",
+   "label": "Population, end of 2025, about",
+   "cite": "{{country_overview.demographics:3}}"
+  },
+  {
+   "value": "75,400",
+   "label": "GDP per capita, PPP (international dollars), about, 2025",
+   "cite": "{{country_overview.demographics:6}}"
+  },
+  {
+   "value": "12.27%",
+   "label": "Current health expenditure, share of GDP, 2024",
+   "cite": "{{health_system.financing:1}}"
+  },
+  {
+   "value": "10.7%",
+   "label": "Out-of-pocket share of current health expenditure, 2024",
+   "cite": "{{health_system.financing:3}}"
+  },
+  {
+   "value": "4.7",
+   "label": "Physicians per 1,000 people, OECD, 2023",
+   "cite": "{{health_system.workforce:3}}"
+  },
+  {
+   "value": "81.5",
+   "label": "Life expectancy at birth, years, 2024",
+   "cite": "{{country_overview.demographics:12}}"
+  },
+  {
+   "value": "23.7%",
+   "label": "Population aged 65 and over, 2025",
+   "cite": "{{country_overview.demographics:13}}"
+  },
+  {
+   "value": "US$6,849",
+   "label": "Current health expenditure per capita, 2024, current US$",
+   "cite": "{{health_system.financing:2}}"
+  }
+ ],
+ "key_takeaways": [
+  "Health spending reached 12.27 percent of GDP in 2024, up from 10.59 percent in 2012; only the US spends more.{{health_system.financing:1}}{{health_system.financing:6}}",
+  "Public sources paid 86 percent of health spending in 2023, against an EU average of 80 percent.{{health_system.financing:5}}",
+  "The 2026 stabilization law answers a saving need of almost €19 billion (US$21.3 billion) for 2027.{{health_system.outlook:2}}{{health_system.outlook:3}}",
+  "The 65 and over share is projected to reach 28 percent by 2050; 49 percent have multiple chronic conditions.{{health_system.outlook:1}}"
+ ],
+ "health_system": [
+  "Insurance is mandatory: an estimated 89.0 percent of residents had statutory cover in 2024, and 10.4 percent had private cover.{{health_system.public_system:1}}",
+  "Germany had the EU's highest rate of avoidable hospital admissions for chronic conditions in 2023, at 810 per 100,000 people.{{health_system.public_system:1}}",
+  "The 16 Länder plan hospitals, and reform adjustments delay full fixed capacity payments until 2030.{{country_overview.government:5}}{{health_system.outlook:5}}"
+ ],
+ "market": [
+  "In 2025 Germany had 1,807 hospitals: 729 private, 549 nonprofit and 529 public.{{health_system.private_system:1}}",
+  "Helios, Asklepios and Sana lead by beds; Swiss-based Ameos and Turkey's Medicana took over hospitals in 2026.{{health_system.competitive_landscape:1}}{{health_system.competitive_landscape:5}}{{health_system.competitive_landscape:6}}",
+  "About 182,200 patients from abroad were treated in 2022, three quarters from neighboring countries.{{health_system.competitive_landscape:4}}"
+ ],
+ "risks": [
+  "Statutory insurance finances remain tense, and structural problems must still be solved, the health minister said.{{health_system.outlook:4}}",
+  "Growth is weak: GDP grew 0.2 percent in 2025, and the Bundesbank projects 0.5 percent for 2026.{{country_overview.economy:3}}{{country_overview.economy:6}}",
+  "Almost a quarter (23.4 percent) of working doctors were 60 or older in 2025.{{health_system.workforce:1}}"
+ ],
+ "recent": [
+  {
+   "date": "2026-10-14",
+   "text": "Estimators expect the average additional contribution to stay at 2.9 percent in 2027, and Minister Linnemann called the situation tense.{{recent_developments.4:1}}"
+  },
+  {
+   "date": "2026-07-29",
+   "text": "Carsten Linnemann replaced Nina Warken as federal health minister, and Warken moved to head the Chancellery.{{recent_developments.3:4}}{{recent_developments.3:1}}"
+  },
+  {
+   "date": "2026-07-10",
+   "text": "Parliament passed the contribution stabilization law, in force from 30 July, tying spending growth to income growth.{{recent_developments.2:1}}{{recent_developments.2:2}}"
+  }
+ ],
+ "country_background": "Germany, a federal parliamentary republic of 16 Länder, has its capital in Berlin and had about 83.5 million residents at the end of 2025.{{country_overview.demographics:3}} Federal President Frank-Walter Steinmeier is head of state, and Chancellor Friedrich Merz leads a CDU/CSU and SPD coalition.{{country_overview.demographics:7}}{{country_overview.government:3}} Carsten Linnemann became federal health minister on 29 July 2026.{{country_overview.government:9}} GDP was about 6.30 trillion international dollars (PPP) in 2025, or about 75,400 per person, after 0.2 percent real growth.{{country_overview.economy:1}}{{country_overview.economy:2}}{{country_overview.economy:3}} The population is aging: 23.7 percent were 65 or older in 2025, and life expectancy was 81.5 years in 2024.{{country_overview.demographics:13}}{{country_overview.demographics:12}} The main risk is financial: the 2026 stabilization law answers a needed saving of almost €19 billion (US$21.3 billion) for 2027.{{health_system.outlook:2}}"
+}
