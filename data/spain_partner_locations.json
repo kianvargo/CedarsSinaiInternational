@@ -1,15 +1,205 @@
 {
  "note": "Each partnership is placed in the Spanish partner's home city; Esplugues de Llobregat (Sant Joan de Déu) and Mataró are shown as Barcelona, and group-wide owners are placed at their headquarters city.",
- "bounds": [-9.6, 4.5, 35.8, 44.0],
- "metros": ["Madrid", "Barcelona", "Valencia", "Seville", "Bilbao"],
+ "bounds": [
+  -9.6,
+  4.5,
+  35.8,
+  44.0
+ ],
+ "metros": [
+  "Madrid",
+  "Barcelona",
+  "Valencia",
+  "Seville",
+  "Bilbao"
+ ],
  "cities": {
-  "Madrid": [[-3.70, 40.42], [12, 0]],
-  "Barcelona": [[2.17, 41.39], [-12, 0]],
-  "Valencia": [[-0.38, 39.47], [12, 0]],
-  "Seville": [[-5.98, 37.39], [12, 0]],
-  "Bilbao": [[-2.93, 43.26], [12, 0]],
-  "Pamplona": [[-1.64, 42.81], [12, 0]],
-  "Málaga": [[-4.42, 36.72], [12, 0]]
+  "Madrid": [
+   [
+    -3.7,
+    40.42
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Barcelona": [
+   [
+    2.17,
+    41.39
+   ],
+   [
+    -12,
+    0
+   ]
+  ],
+  "Valencia": [
+   [
+    -0.38,
+    39.47
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Seville": [
+   [
+    -5.98,
+    37.39
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Bilbao": [
+   [
+    -2.93,
+    43.26
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Pamplona": [
+   [
+    -1.64,
+    42.81
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Málaga": [
+   [
+    -4.42,
+    36.72
+   ],
+   [
+    12,
+    0
+   ]
+  ]
  },
- "locations": {}
+ "locations": {
+  "spain--cleveland-clinic--vall-d-hebron-university-hospital-advanced-clinical-simulation-centre": {
+   "cities": [
+    "Barcelona"
+   ]
+  },
+  "spain--george-washington-university-school-of-medicine-and-health-sciences--universidad-autonoma-de-madrid-faculty-of-medicine": {
+   "cities": [
+    "Madrid"
+   ]
+  },
+  "spain--harvard-medical-school-harvard-university--universidad-complutense-de-madrid-faculty-of-medicine-hospital-clinico-san-carlos-hospital-12-de-octubre-hospital-gregorio-maranon": {
+   "cities": [
+    "Madrid"
+   ]
+  },
+  "spain--johns-hopkins-university-bloomberg-school-of-public-health--universitat-pompeu-fabra-jhu-upf-public-policy-center-with-the-agencia-de-salut-publica-de-barcelona": {
+   "cities": [
+    "Barcelona"
+   ]
+  },
+  "spain--md-anderson-cancer-center--md-anderson-cancer-center-madrid-operated-by-grupo-hospiten": {
+   "cities": [
+    "Madrid"
+   ]
+  },
+  "spain--mount-sinai-health-system-icahn-school-of-medicine-mount-sinai-fuster-heart-hospital--centro-nacional-de-investigaciones-cardiovasculares-carlos-iii-cnic": {
+   "cities": [
+    "Madrid"
+   ]
+  },
+  "spain--penn-state-college-of-medicine-and-penn-state-health-beat-childhood-cancer-research-consortium--hospital-sant-joan-de-d-u-barcelona-pediatric-cancer-center-barcelona": {
+   "cities": [
+    "Barcelona"
+   ]
+  },
+  "spain--university-of-illinois-chicago-college-of-applied-health-sciences--tecnocampus-school-of-health-sciences-universitat-pompeu-fabra": {
+   "cities": [
+    "Barcelona"
+   ]
+  },
+  "spain--university-of-kansas-medical-center--universitat-internacional-de-catalunya-uic-barcelona-faculty-of-medicine-and-health-sciences": {
+   "cities": [
+    "Barcelona"
+   ]
+  },
+  "spain--abc-medical-center-centro-m-dico-abc--hospital-sant-joan-de-d-u-barcelona-sjd-barcelona-children-s-hospital": {
+   "cities": [
+    "Barcelona"
+   ]
+  },
+  "spain--aier-eye-hospital-group--cl-nica-baviera": {
+   "cities": [
+    "Madrid"
+   ]
+  },
+  "spain--bupa--sanitas-sanitas-hospitals": {
+   "cities": [
+    "Madrid"
+   ]
+  },
+  "spain--burjeel-cancer-institute-burjeel-holdings--hospital-sant-joan-de-d-u-barcelona-sjd-barcelona-children-s-hospital": {
+   "cities": [
+    "Barcelona"
+   ]
+  },
+  "spain--cancer-core-europe-gustave-roussy-dkfz-and-nct-heidelberg-netherlands-cancer-institute-karolinska-institutet-cancer-research-uk-cambridge-centre-istituto-nazionale-dei-tumori-milan--vall-d-hebron-institute-of-oncology-vhio": {
+   "cities": [
+    "Barcelona"
+   ]
+  },
+  "spain--clariane-formerly-korian--clariane-espa-a-ita-salud-mental-grupo-5-iterias": {
+   "cities": [
+    "Barcelona"
+   ]
+  },
+  "spain--fresenius-helios-helios-health--quir-nsalud": {
+   "cities": [
+    "Madrid"
+   ]
+  },
+  "spain--genesiscare--genesiscare-espa-a-imoncology-and-oncosur-radiotherapy-centres": {
+   "cities": [
+    "Madrid"
+   ]
+  },
+  "spain--grupo-m-dico-joya-hospitales-joya--hm-hospitales": {
+   "cities": [
+    "Madrid"
+   ]
+  },
+  "spain--sun-yat-sen-university-cancer-center--hospital-sant-joan-de-d-u-barcelona-sjd-barcelona-children-s-hospital": {
+   "cities": [
+    "Barcelona"
+   ]
+  },
+  "spain--vivalto-sant--ribera-ribera-salud-group": {
+   "cities": [
+    "Valencia"
+   ]
+  },
+  "spain--johns-hopkins-proton-therapy-center-johns-hopkins-medicine--cl-nica-universidad-de-navarra-cancer-center-and-facultad-de-medicina-universidad-de-navarra": {
+   "cities": [
+    "Pamplona"
+   ]
+  },
+  "spain--hospital-de-amor-barretos-cancer-hospital--hospital-sant-joan-de-d-u-barcelona-sjd-barcelona-children-s-hospital": {
+   "cities": [
+    "Barcelona"
+   ]
+  },
+  "spain--fresenius-helios-helios-health--eugin-group-fertility-clinics": {
+   "cities": [
+    "Barcelona"
+   ]
+  }
+ }
 }

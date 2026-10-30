@@ -5361,6 +5361,821 @@
       "country": "Nigeria",
       "last_checked": "2026-10-21",
       "id": "nigeria--peking-university-people-s-hospital-named-variously-in-press-as-people-s-university-hospital-beijing--university-of-abuja-teaching-hospital"
+    },
+    {
+      "foreign_institution": "Cleveland Clinic",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Vall d'Hebron University Hospital (Advanced Clinical Simulation Centre)",
+      "partner_city": "Barcelona",
+      "type": "Training and education",
+      "description": "Vall d'Hebron and Cleveland Clinic signed an agreement in February 2025 for educator development and courses in clinical simulation, shared resources and joint research on health education. The collaboration was renewed in 2025 and Vall d'Hebron instructors teach Cleveland Clinic's SEVA ventilation course.",
+      "status": "Active",
+      "start": "2025-02",
+      "end": "",
+      "last_evidence": "2025-12",
+      "evidence": "Vall d'Hebron news item dated 07/02/2025 announces the agreement; Vall d'Hebron's 2025 report says the Advanced Clinical Simulation Centre signed 20 agreements in 2025, including the renewal of its collaboration with Cleveland Clinic.",
+      "sources": [
+        {
+          "author": "Vall d'Hebron",
+          "title": "Vall d'Hebron and Cleveland Clinic sign an agreement to strengthen educational collaboration in the field of simulation",
+          "publisher": "Vall d'Hebron",
+          "date": "2025-02-07",
+          "url": "https://www.vallhebron.com/en/news/news/vall-dhebron-and-cleveland-clinic-sign-agreement-strengthen-educational-collaboration-field-simulation"
+        },
+        {
+          "author": "Vall d'Hebron",
+          "title": "Report 2025",
+          "publisher": "Vall d'Hebron",
+          "date": "2026",
+          "url": "https://hospital.vallhebron.com/en/about-us/corporate-documentation/report-2025"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--cleveland-clinic--vall-d-hebron-university-hospital-advanced-clinical-simulation-centre"
+    },
+    {
+      "foreign_institution": "George Washington University (School of Medicine and Health Sciences)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Universidad Autonoma de Madrid (Faculty of Medicine)",
+      "partner_city": "Madrid",
+      "type": "Training and education",
+      "description": "George Washington University's medical school and the Universidad Autonoma de Madrid run a reciprocal clinical rotation program under a framework agreement. Each year the Madrid faculty funds three of its students to spend a month on clinical rotations at George Washington.",
+      "status": "Active",
+      "start": "2018-06",
+      "end": "",
+      "last_evidence": "2026-10",
+      "evidence": "UAM's Faculty of Medicine published its 2026-2027 call for three grants for one month clinical rotations at George Washington University in July or August 2027. Applications ran from 13 to 18 October 2026 and the provisional admitted list is out. The specific agreement for the International Clinical Rotation Program between GW's SMHS and UAM was approved by UAM's governing council on 15 June 2018.",
+      "sources": [
+        {
+          "author": "Universidad Autonoma de Madrid, Facultad de Medicina",
+          "title": "Convocatoria de ayudas 2026-2027 para practicas clinicas en George Washington University",
+          "publisher": "Universidad Autonoma de Madrid",
+          "date": "2026-10",
+          "url": "https://www.uam.es/medicina/estudios/practicas-externas/convocatoria-george-washington-university"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--george-washington-university-school-of-medicine-and-health-sciences--universidad-autonoma-de-madrid-faculty-of-medicine"
+    },
+    {
+      "foreign_institution": "Harvard Medical School (Harvard University)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Universidad Complutense de Madrid (Faculty of Medicine; Hospital Clinico San Carlos, Hospital 12 de Octubre, Hospital Gregorio Maranon)",
+      "partner_city": "Madrid",
+      "type": "Training and education",
+      "description": "Under the long standing agreement between Complutense University and Harvard, Harvard medical students take clinical electives at Complutense's teaching hospitals in Madrid. Complutense fifth year medical students spend a month in the Harvard Medical School Exchange Clerkship Program on scholarships from the Fundacion Fernandez-Cruz.",
+      "status": "Active",
+      "start": "1991",
+      "end": "",
+      "last_evidence": "2025-10",
+      "evidence": "Complutense's Faculty of Medicine posted an elective description for the 2025-26 HMS to Complutense clinical rotation, created 28 October 2025, covering Hospital Clinico San Carlos, Hospital 12 de Octubre and Gregorio Maranon. Complutense reported on 30 January 2020 that seven medical students would spend a month at Harvard Medical School under this agreement, which is nearly three decades old (so dating from about 1991; the start year is approximate). The Real Colegio Complutense at Harvard has been affiliated with Harvard since 1990. The 2022-23 scholarship call offered 7 to 9 places in the HMS Exchange Clerkship Program.",
+      "sources": [
+        {
+          "author": "Universidad Complutense de Madrid, Facultad de Medicina",
+          "title": "Clinical rotation at Complutense Medical School (CMS) 2025-26: elective description",
+          "publisher": "Universidad Complutense de Madrid",
+          "date": "2025-10-28",
+          "url": "https://medicina.ucm.es/file/elective-description-clinical-rotations-hms-cms-2025-2026-1"
+        },
+        {
+          "author": "Alberto Martin",
+          "title": "Siete estudiantes de Medicina realizaran una estancia de un mes en Harvard",
+          "publisher": "Tribuna Complutense",
+          "date": "2020-01-30",
+          "url": "https://www.ucm.es/tribunacomplutense/264/art3995.php"
+        },
+        {
+          "author": "Universidad Complutense de Madrid, Facultad de Medicina",
+          "title": "Convocatoria Becas Harvard Medical School 2022-2023",
+          "publisher": "Universidad Complutense de Madrid",
+          "date": "2022",
+          "url": "https://medicina.ucm.es/data/cont/media/www/805/Convocatoria%20Harvard%202022%20-%2023%20EV-1.pdf"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--harvard-medical-school-harvard-university--universidad-complutense-de-madrid-faculty-of-medicine-hospital-clinico-san-carlos-hospital-12-de-octubre-hospital-gregorio-maranon"
+    },
+    {
+      "foreign_institution": "Johns Hopkins University (Bloomberg School of Public Health)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Universitat Pompeu Fabra (JHU-UPF Public Policy Center), with the Agencia de Salut Publica de Barcelona",
+      "partner_city": "Barcelona",
+      "type": "Research collaboration",
+      "description": "Johns Hopkins and Universitat Pompeu Fabra have run a joint public policy centre in Barcelona since 2013, with a health and well-being research line. With the Barcelona Public Health Agency they have also run, since 2004, the yearly Hopkins Fall Institute in Health Policy and Management, which Bloomberg School faculty teach.",
+      "status": "Active",
+      "start": "2004",
+      "end": "",
+      "last_evidence": "2025-11",
+      "evidence": "UPF's repository holds the JHU-UPF Public Policy Center Annual Report 2024 to 2025, deposited in November 2025, which lists health and well-being among five research areas and mentions joint programs including the Fall Institute in Health Policy and Management. The Fall Institute began in 2004 (its 20th edition was in 2023), sponsored by the Barcelona Public Health Agency and the Bloomberg School in collaboration with UPF. A Bloomberg School page lists the November 2025 edition at UPF Barcelona School of Management. The Bloomberg School and UPF pages could not be fetched (HTTP 403), so the details come from search snippets.",
+      "sources": [
+        {
+          "author": "JHU-UPF Public Policy Center",
+          "title": "Annual report: academic year 2024-2025: critical knowledge for decision-making",
+          "publisher": "Universitat Pompeu Fabra repository",
+          "date": "2025-11",
+          "url": "https://repositori.upf.edu/items/3552909c-eb4b-47bd-91c3-47699ba09b59/full"
+        },
+        {
+          "author": "JHU-UPF Public Policy Center",
+          "title": "Hopkins Fall Institute",
+          "publisher": "Universitat Pompeu Fabra",
+          "date": "",
+          "url": "https://www.upf.edu/web/jhu-ppc/hopkins-fall-institute"
+        },
+        {
+          "author": "Johns Hopkins Bloomberg School of Public Health",
+          "title": "Fall Institute in Health Policy and Management",
+          "publisher": "Johns Hopkins Bloomberg School of Public Health",
+          "date": "",
+          "url": "https://publichealth.jhu.edu/academics/fall-institute-in-health-policy-and-management"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--johns-hopkins-university-bloomberg-school-of-public-health--universitat-pompeu-fabra-jhu-upf-public-policy-center-with-the-agencia-de-salut-publica-de-barcelona"
+    },
+    {
+      "foreign_institution": "MD Anderson Cancer Center",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "MD Anderson Cancer Center Madrid (operated by Grupo Hospiten)",
+      "partner_city": "Madrid",
+      "type": "Clinical affiliation",
+      "description": "MD Anderson Cancer Center Madrid opened in 2000 as the first international affiliate of MD Anderson in Houston and still carries its name. Grupo Hospiten owns and runs the hospital, and Hospiten says Houston's protocols and standards are applied to care in Madrid.",
+      "status": "Active",
+      "start": "2000",
+      "end": "",
+      "last_evidence": "2026-09",
+      "evidence": "A Hospiten page of 18 September 2026 on the Newsweek and Statista ranking says MD Anderson Cancer Center Madrid has the backing of MD Anderson Cancer Center in Houston and is its only affiliate outside the United States. Forbes Spain ranked it among the three best oncology hospitals in Spain in December 2025. Hospiten's release of 10 January 2013 reported buying a further 39.98 percent of the shares; Hospiten later reported holding 99.97 percent, with MD Anderson Houston keeping 0.03 percent. In an MD Anderson oral history, former president John Mendelsohn describes MD Anderson Espana in Madrid as one of the sister institutions he created. Madrid does not appear on recent MD Anderson Sister Institution Network lists, so the tie is a branded affiliation, not a GAP sister institution.",
+      "sources": [
+        {
+          "author": "Hospiten",
+          "title": "MD Anderson Cancer Center Madrid - Hospiten, recognised among the world's leading cancer hospitals by Newsweek and Statista",
+          "publisher": "Hospiten",
+          "date": "2026-09-18",
+          "url": "https://hospiten.com/en/news/md-anderson-cancer-center-madrid-hospiten-reconocido-los-mejores-hospitales-oncologicos"
+        },
+        {
+          "author": "Hospiten",
+          "title": "MD Anderson Cancer Center Madrid Hospiten, recognized by Forbes among the three best oncology hospitals in Spain",
+          "publisher": "Hospiten",
+          "date": "2025-12",
+          "url": "https://hospiten.com/en/news/md-anderson-cancer-center-madrid-hospiten-recognized-by-forbes"
+        },
+        {
+          "author": "Hospiten",
+          "title": "Grupo Hospiten adquiere el 39,98% de las acciones de MD Anderson Cancer Center Madrid",
+          "publisher": "Hospiten",
+          "date": "2013-01-10",
+          "url": "https://hospiten.com/noticias/grupo-hospiten-compra-a-cartera-industrial-rea-su-participacion-en-el-md-anderson-cancer-center-madrid-1"
+        },
+        {
+          "author": "MD Anderson Cancer Center",
+          "title": "Chapter 22: Sister Institutions (John Mendelsohn oral history)",
+          "publisher": "MD Anderson OpenWorks",
+          "date": "",
+          "url": "https://openworks.mdanderson.org/mchv_interviewchapters/1438/"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--md-anderson-cancer-center--md-anderson-cancer-center-madrid-operated-by-grupo-hospiten"
+    },
+    {
+      "foreign_institution": "Mount Sinai Health System (Icahn School of Medicine, Mount Sinai Fuster Heart Hospital)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Centro Nacional de Investigaciones Cardiovasculares Carlos III (CNIC)",
+      "partner_city": "Madrid",
+      "type": "Research collaboration",
+      "description": "Mount Sinai and Spain's national cardiovascular research centre CNIC have a long running research partnership with researcher exchanges, shared cardiac imaging work and jointly led clinical trials. Valentín Fuster is general director of CNIC and president of Mount Sinai Fuster Heart Hospital.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2025-08",
+      "evidence": "A Mount Sinai release of 30 August 2025 presents the REBOOT trial and quotes Fuster that it joins earlier landmark trials led by CNIC and Mount Sinai, SECURE and DapaTAVI. A Mount Sinai release of 30 September 2024 reports BioImage results from the Mount Sinai and CNIC collaboration. A 2015 CNIC article describes the partnership program set up when Fuster took charge of CNIC while leading Mount Sinai's heart institute, starting with shared MRI imaging. No signing date for the original agreement was found.",
+      "sources": [
+        {
+          "author": "Mount Sinai Health System",
+          "title": "Beta blockers, the standard treatment after a heart attack, may offer no benefit for heart attack patients and women can have worse outcomes",
+          "publisher": "EurekAlert",
+          "date": "2025-08-30",
+          "url": "https://www.eurekalert.org/news-releases/1096364"
+        },
+        {
+          "author": "Mount Sinai Health System",
+          "title": "Presence of subclinical atherosclerosis is marker of mortality and its progression increases risk of death",
+          "publisher": "EurekAlert",
+          "date": "2024-09-30",
+          "url": "https://www.eurekalert.org/news-releases/1059621"
+        },
+        {
+          "author": "CNIC",
+          "title": "Shared learning between two giants of cardiovascular research",
+          "publisher": "CNIC",
+          "date": "2015",
+          "url": "https://www.cnic.es/en/node/821"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--mount-sinai-health-system-icahn-school-of-medicine-mount-sinai-fuster-heart-hospital--centro-nacional-de-investigaciones-cardiovasculares-carlos-iii-cnic"
+    },
+    {
+      "foreign_institution": "Penn State College of Medicine and Penn State Health (Beat Childhood Cancer Research Consortium)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Hospital Sant Joan de Déu Barcelona (Pediatric Cancer Center Barcelona)",
+      "partner_city": "Barcelona",
+      "type": "Research collaboration",
+      "description": "SJD's Pediatric Cancer Center Barcelona joined the Beat Childhood Cancer Research Consortium, headquartered at Penn State College of Medicine, in November 2025, the first member outside North America. SJD acts as European sponsor for consortium trials, starting with BCC018 in high risk neuroblastoma.",
+      "status": "Active",
+      "start": "2025-11",
+      "end": "",
+      "last_evidence": "2025-11",
+      "evidence": "SJD announcement and Penn State Health News of November 2025 (consortium of more than 55 children's hospitals and research institutions; borderline as a consortium, like the Cancer Core Europe record). SJD news item dated 24 November 2025.",
+      "sources": [
+        {
+          "author": "SJD Barcelona Children's Hospital",
+          "title": "The SJD Barcelona Children's Hospital will be the first member of the Beat Childhood Cancer Consortium based outside of North America",
+          "publisher": "SJD Barcelona Children's Hospital",
+          "date": "2025-11",
+          "url": "https://www.sjdhospitalbarcelona.org/en/news/sjd-barcelona-childrens-hospital-will-be-first-member-beat-childhood-cancer-consortium-based-outside-north-america"
+        },
+        {
+          "author": "Penn State Health News",
+          "title": "Penn State's Beat Childhood Cancer Research Consortium welcomes SJD Pediatric Cancer Center Barcelona",
+          "publisher": "Penn State Health",
+          "date": "2025-11",
+          "url": "https://pennstatehealthnews.org/2025/11/penn-states-beat-childhood-cancer-research-consortium-welcomes-sjd-pediatric-cancer-center-barcelona/"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--penn-state-college-of-medicine-and-penn-state-health-beat-childhood-cancer-research-consortium--hospital-sant-joan-de-d-u-barcelona-pediatric-cancer-center-barcelona"
+    },
+    {
+      "foreign_institution": "University of Illinois Chicago (College of Applied Health Sciences)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "TecnoCampus School of Health Sciences (Universitat Pompeu Fabra)",
+      "partner_city": "Barcelona",
+      "type": "Training and education",
+      "description": "UIC's College of Applied Health Sciences and the TecnoCampus School of Health Sciences signed a letter of intent in October 2025 to set up an educational collaboration. It covers faculty and student exchanges, visiting professors and joint research in kinesiology, nutrition and rehabilitation sciences.",
+      "status": "Active",
+      "start": "2025-10",
+      "end": "",
+      "last_evidence": "2025-10",
+      "evidence": "A UIC College of Applied Health Sciences news story of 20 October 2025 reports that Dean Carlos Crespo and TecnoCampus general director Josep Lluis Checa signed the letter of intent on 6 October 2025 in Barcelona. UIC is the University of Illinois's academic health enterprise and includes a medical school, but this tie runs through the allied health college.",
+      "sources": [
+        {
+          "author": "Emily Parenti-Lopez",
+          "title": "AHS dean formalizes international collaboration between UIC and Spanish university",
+          "publisher": "University of Illinois Chicago, College of Applied Health Sciences",
+          "date": "2025-10-20",
+          "url": "https://ahs.uic.edu/news-stories/ahs-dean-formalizes-international-collaboration-between-uic-and-spanish-university"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--university-of-illinois-chicago-college-of-applied-health-sciences--tecnocampus-school-of-health-sciences-universitat-pompeu-fabra"
+    },
+    {
+      "foreign_institution": "University of Kansas Medical Center",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Universitat Internacional de Catalunya (UIC Barcelona) Faculty of Medicine and Health Sciences",
+      "partner_city": "Barcelona",
+      "type": "Training and education",
+      "description": "The University of Kansas Medical Center is one of UIC Barcelona's North American exchange partners for medicine. KUMC sends medical, nursing and health professions students to Barcelona for clinical rotations.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-02",
+      "evidence": "UIC Barcelona's medicine brochures in English and Spanish, created 16 February 2026, list the University of Kansas Medical Center among three North American exchange agreements. The January 2024 edition lists it as well. KUMC's Office of International Programs lists UIC Barcelona as a Spain rotation site for M1 and M4 medical students, nursing and health professions students, two students per cycle. The same page also lists M4 rotations at the University of Navarra in Pamplona and Madrid and a summer program at the Universidad de Santiago de Compostela.",
+      "sources": [
+        {
+          "author": "Universitat Internacional de Catalunya",
+          "title": "Medicine degree brochure (English)",
+          "publisher": "UIC Barcelona",
+          "date": "2026-02-16",
+          "url": "https://www.uic.es/sites/default/files/folleto-medicina-eng.pdf"
+        },
+        {
+          "author": "University of Kansas Medical Center, Office of International Programs",
+          "title": "International Educational Experiences: Spain",
+          "publisher": "University of Kansas Medical Center",
+          "date": "",
+          "url": "https://www.kumc.edu/academic-and-student-affairs/departments/office-of-international-programs/outbound-programs/international-educational-experiences/program-locations/spain.html"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--university-of-kansas-medical-center--universitat-internacional-de-catalunya-uic-barcelona-faculty-of-medicine-and-health-sciences"
+    },
+    {
+      "foreign_institution": "ABC Medical Center (Centro Médico ABC)",
+      "foreign_country": "Mexico",
+      "group": "Other foreign health systems",
+      "indian_partner": "Hospital Sant Joan de Déu Barcelona (SJD Barcelona Children's Hospital)",
+      "partner_city": "Barcelona",
+      "type": "Training and education",
+      "description": "SJD Barcelona Children's Hospital and ABC Medical Center in Mexico City signed a collaboration agreement in August 2025 for joint training of health professionals, pediatric oncology research and second opinions on highly complex pediatric cases.",
+      "status": "Active",
+      "start": "2025-08",
+      "end": "",
+      "last_evidence": "2025-08",
+      "evidence": "SJD announced the agreement on 29 August 2025.",
+      "sources": [
+        {
+          "author": "Hospital Sant Joan de Déu Barcelona",
+          "title": "The SJD Barcelona Children's Hospital and the ABC Medical Center in Mexico collaborate to advance pediatric oncology",
+          "publisher": "SJD Barcelona Children's Hospital",
+          "date": "2025-08-29",
+          "url": "https://www.sjdhospitalbarcelona.org/en/news/sjd-barcelona-childrens-hospital-abc-medical-center-mexico-collaborate-advance-pediatric-oncology"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--abc-medical-center-centro-m-dico-abc--hospital-sant-joan-de-d-u-barcelona-sjd-barcelona-children-s-hospital"
+    },
+    {
+      "foreign_institution": "Aier Eye Hospital Group",
+      "foreign_country": "China",
+      "group": "Other foreign health systems",
+      "indian_partner": "Clínica Baviera",
+      "partner_city": "Madrid",
+      "type": "Ownership or management",
+      "description": "Chinese eye hospital group Aier took control of Clínica Baviera, the Madrid listed ophthalmology clinic chain, through a 2017 takeover bid. Aier remains the majority shareholder with about 73 to 75 percent after selling part of its stake in April 2025 (reported figures vary).",
+      "status": "Active",
+      "start": "2017-08",
+      "end": "",
+      "last_evidence": "2026-07",
+      "evidence": "Alimarket reported in 2017 that Aier Eye Hospital took control of Clínica Baviera with 86.8% after its bid. Alantra reported in April 2025 that Aier, the majority shareholder, and the founders' vehicle placed 8% of the shares, leaving Aier with about 74.8%. Later reports through Clínica Baviera's first-half 2026 results of 29 July 2026 give Aier between 73 and 75 percent.",
+      "sources": [
+        {
+          "author": "Alimarket Sanidad",
+          "title": "La china Aier Eye Hospital toma el control de Clínica Baviera",
+          "publisher": "Alimarket",
+          "date": "2017",
+          "url": "https://www.alimarket.es/sanidad/noticia/239028/la-china-aier-eye-hospital-toma-el-control-de-clinica-baviera"
+        },
+        {
+          "author": "Alantra",
+          "title": "Alantra Acts as Global Coordinator in the c.EUR42.4mn Placement of Clinica Baviera's Shares",
+          "publisher": "Alantra",
+          "date": "2025-04",
+          "url": "https://www.alantra.com/ib-transaction/clinica-baviera-accelerated-bookbuilding/"
+        },
+        {
+          "author": "elEconomista",
+          "title": "Los dueños de Clínica Baviera venden un 8% de la compañía por 42,4 millones",
+          "publisher": "elEconomista",
+          "date": "2025-04",
+          "url": "https://www.eleconomista.es/salud-bienestar/noticias/13301420/04/25/los-duenos-de-clinica-baviera-venden-un-8-de-la-compania-por-424-millones.html"
+        },
+        {
+          "author": "Clínica Baviera",
+          "title": "Aier Eye Hospital (shareholder page)",
+          "publisher": "Grupo Baviera",
+          "date": "",
+          "url": "https://grupobaviera.es/accionistas-inversores/en/aier-eye-hospital/"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--aier-eye-hospital-group--cl-nica-baviera"
+    },
+    {
+      "foreign_institution": "Bupa",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "Sanitas (Sanitas hospitals)",
+      "partner_city": "Madrid",
+      "type": "Ownership or management",
+      "description": "British healthcare group Bupa owns Sanitas, which runs private hospitals in Spain including Hospital Universitario Sanitas La Moraleja, La Zarzuela, CIMA in Barcelona and the new Blua Sanitas Valdebebas, alongside its health insurance and aged care businesses. A public private partnership hospital contract held by Sanitas ended in 2024.",
+      "status": "Active",
+      "start": "1989",
+      "end": "",
+      "last_evidence": "2026-03",
+      "evidence": "Bupa's full year 2025 results of 5 March 2026 report strong customer growth in its Spanish hospitals business, the opening of Hospital Blua Sanitas Valdebebas, and the end in 2024 of a PPP contract in that business.",
+      "sources": [
+        {
+          "author": "Bupa",
+          "title": "Bupa Group full year financial results 2025",
+          "publisher": "Bupa",
+          "date": "2026-03-05",
+          "url": "https://www.bupa.com/news-and-press/press-releases/2026/bupa-group-full-year-financial-results-2025"
+        },
+        {
+          "author": "Bupa",
+          "title": "Results announcement and financial statement FY2025",
+          "publisher": "Bupa",
+          "date": "2026-03-05",
+          "url": "https://www.bupa.com/~/media/files/b/bupa-v5/documents/financials/results-centre/2025/bupa-group-results-and-financial-statement-fy2025.pdf"
+        },
+        {
+          "author": "Sanitas",
+          "title": "Sanitas 2026 executive summary",
+          "publisher": "Sanitas",
+          "date": "2026-07",
+          "url": "https://informeanual.sanitas.es/wp-content/uploads/2026/07/Sanitas_2026_resumen-ejecutivo_EN.pdf"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--bupa--sanitas-sanitas-hospitals"
+    },
+    {
+      "foreign_institution": "Burjeel Cancer Institute (Burjeel Holdings)",
+      "foreign_country": "United Arab Emirates",
+      "group": "Other foreign health systems",
+      "indian_partner": "Hospital Sant Joan de Déu Barcelona (SJD Barcelona Children's Hospital)",
+      "partner_city": "Barcelona",
+      "type": "Clinical affiliation",
+      "description": "SJD Barcelona Children's Hospital and the Burjeel Cancer Institute in Abu Dhabi signed a memorandum of understanding in June 2025 on pediatric oncology and rare diseases. It covers joint management of complex cases, remote appointments and second opinions with SJD specialists, and expert visits.",
+      "status": "Active",
+      "start": "2025-06",
+      "end": "",
+      "last_evidence": "2025-06",
+      "evidence": "SJD announced the memorandum on 9 June 2025.",
+      "sources": [
+        {
+          "author": "Hospital Sant Joan de Déu Barcelona",
+          "title": "New international partnership between the SJD Barcelona Children's Hospital and the Burjeel Cancer Institute",
+          "publisher": "SJD Barcelona Children's Hospital",
+          "date": "2025-06-09",
+          "url": "https://www.sjdhospitalbarcelona.org/en/news/new-international-partnership-between-sjd-barcelona-childrens-hospital-burjeel-cancer-institute"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--burjeel-cancer-institute-burjeel-holdings--hospital-sant-joan-de-d-u-barcelona-sjd-barcelona-children-s-hospital"
+    },
+    {
+      "foreign_institution": "Cancer Core Europe (Gustave Roussy, DKFZ and NCT Heidelberg, Netherlands Cancer Institute, Karolinska Institutet, Cancer Research UK Cambridge Centre, Istituto Nazionale dei Tumori Milan)",
+      "foreign_country": "Multiple (France, Germany, Netherlands, Sweden, United Kingdom, Italy)",
+      "group": "Other foreign health systems",
+      "indian_partner": "Vall d'Hebron Institute of Oncology (VHIO)",
+      "partner_city": "Barcelona",
+      "type": "Research collaboration",
+      "description": "VHIO is a founding member of Cancer Core Europe, a standing consortium of seven European comprehensive cancer centres that runs joint translational research, clinical trial and training programmes. VHIO director Josep Tabernero has chaired the consortium since 2023.",
+      "status": "Active",
+      "start": "2014",
+      "end": "",
+      "last_evidence": "2026-03",
+      "evidence": "VHIO announced on 18 October 2023 that Josep Tabernero took the chair of Cancer Core Europe. Karolinska Institutet's page for the consortium's 10th annual meeting in Stockholm on 23 and 24 March 2026 lists all seven members, including VHIO, and VHIO speakers.",
+      "sources": [
+        {
+          "author": "VHIO",
+          "title": "Dr. Josep Tabernero, director of VHIO, chairman of the European consortium Cancer Core Europe",
+          "publisher": "Vall d'Hebron Institute of Oncology",
+          "date": "2023-10-18",
+          "url": "https://vhio.net/2023/10/18/dr-josep-tabernero-director-of-vhio-assumes-the-presidency-of-the-european-project-cancer-core-europe"
+        },
+        {
+          "author": "Karolinska Institutet",
+          "title": "About Cancer Core Europe (CCE Annual Meeting and Karolinska CCC Days 2026)",
+          "publisher": "Karolinska Institutet",
+          "date": "2026-03",
+          "url": "https://ki.se/en/cancer-research-ki/collaborations/cce-annual-meeting-karolinska-ccc-days-2026/about-cancer-core-europe"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--cancer-core-europe-gustave-roussy-dkfz-and-nct-heidelberg-netherlands-cancer-institute-karolinska-institutet-cancer-research-uk-cambridge-centre-istituto-nazionale-dei-tumori-milan--vall-d-hebron-institute-of-oncology-vhio"
+    },
+    {
+      "foreign_institution": "Clariane (formerly Korian)",
+      "foreign_country": "France",
+      "group": "Other foreign health systems",
+      "indian_partner": "Clariane España (Ita Salud Mental, Grupo 5, Iterias)",
+      "partner_city": "Barcelona",
+      "type": "Ownership or management",
+      "description": "French care group Clariane owns Ita Salud Mental, bought in 2021, and Grupo 5, bought in 2023, giving it what Clariane calls the largest network of mental health facilities in the Iberian Peninsula with outpatient and inpatient psychiatric care, as well as the Seniors nursing homes. It opened the new Iterias psychotherapy brand in Barcelona in October 2025.",
+      "status": "Active",
+      "start": "2021",
+      "end": "",
+      "last_evidence": "2025-12",
+      "evidence": "Korian announced on 11 January 2023 that it had closed the Grupo 5 acquisition, adding to Ita Salud acquired in 2021. Clariane launched Iterias in Spain on 21 October 2025, and its Spain page reports EUR 267 million of Spanish revenue and 164 facilities as of 31 December 2025.",
+      "sources": [
+        {
+          "author": "Korian",
+          "title": "Korian Closes the Acquisition of Grupo 5 Reinforcing Korian Position in Mental Health in Spain",
+          "publisher": "Business Wire",
+          "date": "2023-01-11",
+          "url": "https://www.businesswire.com/news/home/20230111005688/en/Korian-Closes-the-Acquisition-of-Grupo-5-Reinforcing-Korian-Position-in-Mental-Health-in-Spain"
+        },
+        {
+          "author": "Clariane",
+          "title": "Clariane launches Iterias in Spain, a new brand dedicated to psychotherapy for all",
+          "publisher": "Clariane",
+          "date": "2025-10-21",
+          "url": "https://www.clariane.com/en/press-room/press-releases/clariane-launches-iterias-in-spain-a-new-brand-dedicated-to-psychotherapy"
+        },
+        {
+          "author": "Clariane",
+          "title": "Clariane in Spain",
+          "publisher": "Clariane",
+          "date": "2026",
+          "url": "https://clariane.com/en/our-locations/clariane-in-spain"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--clariane-formerly-korian--clariane-espa-a-ita-salud-mental-grupo-5-iterias"
+    },
+    {
+      "foreign_institution": "Fresenius Helios (Helios Health)",
+      "foreign_country": "Germany",
+      "group": "Other foreign health systems",
+      "indian_partner": "Quirónsalud",
+      "partner_city": "Madrid",
+      "type": "Ownership or management",
+      "description": "Fresenius Helios, the hospital arm of the German Fresenius group, has owned Quirónsalud, the largest private hospital group in Spain, since early 2017. Quirónsalud lists 57 hospitals in Spain on its website.",
+      "status": "Active",
+      "start": "2017-01",
+      "end": "",
+      "last_evidence": "2026-02",
+      "evidence": "Quirónsalud announced the integration with Helios on 5 September 2016. Fresenius reported on 25 February 2026 that Helios Spain grew revenue 7% to EUR 5,429 million in 2025 and had the strongest performance in the group.",
+      "sources": [
+        {
+          "author": "Quirónsalud",
+          "title": "Quirónsalud y Helios crean un grupo sanitario hispano-alemán, el mayor de Europa y uno de los mayores del mundo",
+          "publisher": "Quirónsalud",
+          "date": "2016-09-05",
+          "url": "https://www.quironsalud.com/en/communication/news/quironsalud-helios-crean-grupo-sanitario-hispano-alem-25d03"
+        },
+        {
+          "author": "Fresenius SE & Co. KGaA",
+          "title": "#FutureFresenius: REJUVENATE in action (Q4 and FY 2025 results)",
+          "publisher": "Fresenius",
+          "date": "2026-02-25",
+          "url": "https://www.fresenius.com/press-release-q4-2025"
+        },
+        {
+          "author": "Fresenius SE & Co. KGaA",
+          "title": "Fresenius Press Release Q4 and FY 2025",
+          "publisher": "Fresenius",
+          "date": "2026-02-25",
+          "url": "https://www.fresenius.com/sites/default/files/2026-02/20260225_fse_presserelease_q4_2025.pdf"
+        },
+        {
+          "author": "Quirónsalud",
+          "title": "Quirónsalud corporate site",
+          "publisher": "Quirónsalud",
+          "date": "2026",
+          "url": "https://www.quironsalud.com/en"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--fresenius-helios-helios-health--quir-nsalud"
+    },
+    {
+      "foreign_institution": "GenesisCare",
+      "foreign_country": "Australia",
+      "group": "Other foreign health systems",
+      "indian_partner": "GenesisCare España (IMOncology and Oncosur radiotherapy centres)",
+      "partner_city": "Madrid",
+      "type": "Ownership or management",
+      "description": "Australian cancer care provider GenesisCare entered Spain in 2016 by buying IMOncology and Oncosur and ran 18 oncology and radiotherapy centres and units, several inside Vithas and other private hospitals. In July 2026 it agreed to sell the Spanish business to Vithas; the sale awaits approval by the competition authority (CNMC), so the ownership tie continues.",
+      "status": "Active",
+      "start": "2016",
+      "end": "",
+      "last_evidence": "2026-07",
+      "evidence": "Alimarket reported on 22 July 2026 that Vithas closed the purchase of GenesisCare's Spanish business, with 18 centres and EUR 39.1 million revenue in 2025, subject to CNMC authorisation; no clearance was found by October 2026.",
+      "sources": [
+        {
+          "author": "Alimarket Sanidad",
+          "title": "El grupo australiano GenesisCare entra en España con la compra del 100% de IMOncology",
+          "publisher": "Alimarket",
+          "date": "2016",
+          "url": "https://www.alimarket.es/noticia/214426/el-grupo-australiano-genesiscare-entra-en-espana-con-la-compra-del-100--de--imoncology"
+        },
+        {
+          "author": "Eva de Frutos",
+          "title": "Vithas cierra la compra de GenesisCare España",
+          "publisher": "Alimarket",
+          "date": "2026-07-22",
+          "url": "https://www.alimarket.es/sanidad/noticia/429416/vithas-cierra-la-compra-de-genesiscare-espana"
+        },
+        {
+          "author": "El Español Invertia",
+          "title": "Vithas adquiere GenesisCare para reforzar su red asistencial oncológica",
+          "publisher": "El Español",
+          "date": "2026-07-21",
+          "url": "https://www.elespanol.com/invertia/observatorios/sanidad/20260721/vithas-adquiere-genesiscare-reforzar-red-asistencial-oncologica-nuevos-centros-hospitalarios/1003744328844_0.html"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--genesiscare--genesiscare-espa-a-imoncology-and-oncosur-radiotherapy-centres"
+    },
+    {
+      "foreign_institution": "Grupo Médico Joya (Hospitales Joya)",
+      "foreign_country": "Mexico",
+      "group": "Other foreign health systems",
+      "indian_partner": "HM Hospitales",
+      "partner_city": "Madrid",
+      "type": "Clinical affiliation",
+      "description": "HM Hospitales and Mexican private hospital group Hospitales Joya signed a strategic framework agreement in September 2026 to support continuity of care for patients moving between Spain and Mexico. It also covers reciprocal rotations, fellowships and staff exchanges, links with HM's CIOCC, CIEC and CINAC centres, and sharing of clinical and management practice.",
+      "status": "Active",
+      "start": "2026-09",
+      "end": "",
+      "last_evidence": "2026-09",
+      "evidence": "Alimarket reported on 11 September 2026 that the agreement was signed the previous Thursday at the Mexican Embassy in Spain by the chairs and chief executives of both groups.",
+      "sources": [
+        {
+          "author": "Alimarket Sanidad",
+          "title": "HM Hospitales y Grupo Médico Joya sellan una alianza estratégica para impulsar la continuidad asistencial entre España y México",
+          "publisher": "Alimarket",
+          "date": "2026-09-11",
+          "url": "https://www.alimarket.es/sanidad/noticia/430873/hm-hospitales-y-grupo-medico-joya-sellan-una-alianza-estrategica-para-impulsar-la-continuidad-asistencial-entre-espana-y-mexico"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--grupo-m-dico-joya-hospitales-joya--hm-hospitales"
+    },
+    {
+      "foreign_institution": "Sun Yat-sen University Cancer Center",
+      "foreign_country": "China",
+      "group": "Other foreign health systems",
+      "indian_partner": "Hospital Sant Joan de Déu Barcelona (SJD Barcelona Children's Hospital)",
+      "partner_city": "Barcelona",
+      "type": "Research collaboration",
+      "description": "SJD Barcelona Children's Hospital and Sun Yat-sen University Cancer Center in Guangzhou signed a strategic agreement in pediatric oncology in 2025, including a cross border virtual consultation system and joint work on cell immunotherapy and rare tumour guidelines. The two co-organised the China Pediatric Oncology Frontier Forum in November 2025.",
+      "status": "Active",
+      "start": "2025-06",
+      "end": "",
+      "last_evidence": "2025-12",
+      "evidence": "SJD announced the agreement on 2 June 2025 and reported on 12 December 2025 that it co-organised the 2025 China Pediatric Oncology Frontier Forum hosted by the cancer center in Guangzhou in late November 2025.",
+      "sources": [
+        {
+          "author": "Hospital Sant Joan de Déu Barcelona",
+          "title": "The SJD Barcelona Children's Hospital signs an agreement with the Sun Yat-sen University Cancer Center to help further research in pediatric oncology",
+          "publisher": "SJD Barcelona Children's Hospital",
+          "date": "2025-06-02",
+          "url": "https://www.sjdhospitalbarcelona.org/en/news/sjd-barcelona-childrens-hospital-signs-agreement-sun-yat-sen-university-cancer-center-help-further-research-pediatric-oncology"
+        },
+        {
+          "author": "Hospital Sant Joan de Déu Barcelona",
+          "title": "SJD Barcelona Children's Hospital experts were invited to the 2025 China Pediatric Oncology Frontier Forum",
+          "publisher": "SJD Barcelona Children's Hospital",
+          "date": "2025-12-12",
+          "url": "https://www.sjdhospitalbarcelona.org/en/news/sjd-barcelona-childrens-hospital-experts-were-invited-2025-china-pediatric-oncology-frontier-forum"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--sun-yat-sen-university-cancer-center--hospital-sant-joan-de-d-u-barcelona-sjd-barcelona-children-s-hospital"
+    },
+    {
+      "foreign_institution": "Vivalto Santé",
+      "foreign_country": "France",
+      "group": "Other foreign health systems",
+      "indian_partner": "Ribera (Ribera Salud group)",
+      "partner_city": "Valencia",
+      "type": "Ownership or management",
+      "description": "French private hospital group Vivalto Santé bought Ribera, which runs public concession and private hospitals in Spain, from Centene in November 2022 and is its main shareholder. Ribera signed to buy the HCB Hospitales group in Benidorm and Dénia in February 2026 and completed the purchase in October 2026, after the competition authority cleared it in September.",
+      "status": "Active",
+      "start": "2022-11",
+      "end": "",
+      "last_evidence": "2026-10",
+      "evidence": "Centene announced completion of the sale of Ribera Salud and its other Spanish and central European businesses to Vivalto Santé on 17 November 2022. Ribera's release of 18 February 2026 on the HCB acquisition names Vivalto Santé as its main shareholder; Alimarket reported on 1 October 2026 that the CNMC cleared the deal on 21 September 2026. economia3 reported on 6 October 2026 that Ribera had completed the acquisition.",
+      "sources": [
+        {
+          "author": "Becker's Payer Issues",
+          "title": "Centene completes sale of Spanish, central European businesses",
+          "publisher": "Becker's Healthcare",
+          "date": "2022-11-17",
+          "url": "https://www.beckerspayer.com/m-and-a/centene-completes-sale-of-spanish-central-european-businesses.html"
+        },
+        {
+          "author": "Vivalto Santé",
+          "title": "Vivalto Santé entame un fort développement en Europe",
+          "publisher": "Vivalto Santé",
+          "date": "2022-11-17",
+          "url": "https://www.vivalto-sante.com/wp-content/uploads/2022/11/2022-11-17-Vivalto-Sante-entame-un-fort-developpement-en-europe.pdf"
+        },
+        {
+          "author": "Ribera Health Group",
+          "title": "Ribera signs the acquisition of the HCB Hospitals group and reinforces its growth in the Valencian Community",
+          "publisher": "Ribera",
+          "date": "2026-02-18",
+          "url": "https://www.riberasalud.com/en/ribera-firma-la-adquisicion-del-grupo-hcb-hospitales-y-refuerza-su-crecimiento-en-la-comunidad-valenciana/"
+        },
+        {
+          "author": "Alimarket Sanidad",
+          "title": "La CNMC autoriza en primera fase y con compromisos la adquisición del Grupo HCB Hospitales por parte de Grupo Ribera",
+          "publisher": "Alimarket",
+          "date": "2026-10-01",
+          "url": "https://www.alimarket.es/sanidad/noticia/431931/la-cnmc-autoriza-en-primera-fase-y-con-compromisos-la-adquisicion-del-grupo-hcb-hospitales-por-parte-de-grupo-ribera"
+        },
+        {
+          "author": "economia3",
+          "title": "Ribera culmina la compra de HCB y refuerza su red sanitaria valenciana",
+          "publisher": "economia3",
+          "date": "6 October 2026",
+          "url": "https://economia3.com/2026/10/06/762373-ribera-culmina-la-compra-de-hcb-y-refuerza-su-red-sanitaria-valenciana/"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--vivalto-sant--ribera-ribera-salud-group"
+    },
+    {
+      "foreign_institution": "Johns Hopkins Proton Therapy Center (Johns Hopkins Medicine)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Clínica Universidad de Navarra (Cancer Center) and Facultad de Medicina, Universidad de Navarra",
+      "partner_city": "Pamplona",
+      "type": "Training and education",
+      "description": "The Clínica Universidad de Navarra signed a collaboration agreement with the Johns Hopkins Proton Therapy Center in Washington in October 2023 to promote training and research in proton therapy for professionals in Spain's national health system.",
+      "status": "Unclear",
+      "start": "2023-10",
+      "end": "",
+      "last_evidence": "2023-10",
+      "evidence": "CUN Cancer Center news item of 9 October 2023 announces the agreement; no later dated activity with Johns Hopkins found (CUN's 2025 and 2026 proton therapy courses do not name Johns Hopkins). Rule: latest evidence 2021 to September 2024 means Unclear.",
+      "sources": [
+        {
+          "author": "Clínica Universidad de Navarra",
+          "title": "La Clínica Universidad de Navarra y Johns Hopkins se alían para impulsar la formación en protonterapia en España",
+          "publisher": "Cancer Center Clínica Universidad de Navarra",
+          "date": "2023-10-09",
+          "url": "https://cancercenter.cun.es/noticias/clinica-universidad-navarra-johns-hopkins-alian-impulsar-formacion-protonterapia-espana"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--johns-hopkins-proton-therapy-center-johns-hopkins-medicine--cl-nica-universidad-de-navarra-cancer-center-and-facultad-de-medicina-universidad-de-navarra"
+    },
+    {
+      "foreign_institution": "Hospital de Amor (Barretos Cancer Hospital)",
+      "foreign_country": "Brazil",
+      "group": "Other foreign health systems",
+      "indian_partner": "Hospital Sant Joan de Déu Barcelona (SJD Barcelona Children's Hospital)",
+      "partner_city": "Barcelona",
+      "type": "Research collaboration",
+      "description": "SJD Barcelona Children's Hospital and Hospital de Amor in Barretos, Brazil, signed an agreement in 2021 to share knowledge in pediatric oncology protocols, training and research. No later activity was found.",
+      "status": "Unclear",
+      "start": "2021-07",
+      "end": "",
+      "last_evidence": "2021-07",
+      "evidence": "SJD announced the agreement on 13 July 2021; no later public evidence of activity was found.",
+      "sources": [
+        {
+          "author": "Hospital Sant Joan de Déu Barcelona",
+          "title": "SJD Barcelona Children's Hospital and the Brazilian cancer hospital in Barretos sign a collaboration agreement",
+          "publisher": "SJD Barcelona Children's Hospital",
+          "date": "2021-07-13",
+          "url": "https://www.sjdhospitalbarcelona.org/en/news/sjd-barcelona-childrens-hospital-brazilian-cancer-hospital-barretos-sign-collaboration-agreement"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--hospital-de-amor-barretos-cancer-hospital--hospital-sant-joan-de-d-u-barcelona-sjd-barcelona-children-s-hospital"
+    },
+    {
+      "foreign_institution": "Fresenius Helios (Helios Health)",
+      "foreign_country": "Germany",
+      "group": "Other foreign health systems",
+      "indian_partner": "Eugin Group (fertility clinics)",
+      "partner_city": "Barcelona",
+      "type": "Ownership or management",
+      "description": "Fresenius Helios bought the Barcelona based Eugin fertility clinic group from NMC Health's administrators in a deal signed in December 2020 and sold it to IVI RMA and GED Capital in January 2024. Helios kept the fertility units inside Quirónsalud hospitals.",
+      "status": "Ended",
+      "start": "2020-12",
+      "end": "2024-01",
+      "last_evidence": "2024-01",
+      "evidence": "Fresenius announced the Eugin acquisition on 21 December 2020 and announced completion of the divestment to IVI RMA and GED Capital on 31 January 2024.",
+      "sources": [
+        {
+          "author": "Fresenius SE & Co. KGaA",
+          "title": "Fresenius Helios acquires Eugin Group",
+          "publisher": "Fresenius",
+          "date": "2020-12-21",
+          "url": "https://www.fresenius.com/sites/default/files/2021-11/FSE_Helios_Acquisition_Eugin_e.pdf"
+        },
+        {
+          "author": "Fresenius SE & Co. KGaA",
+          "title": "Fresenius successfully completes divestment of fertility services group Eugin",
+          "publisher": "Fresenius",
+          "date": "2024-01-31",
+          "url": "https://www.fresenius.com/sites/default/files/2024-01/20240131_FSE_Press_Release_ClosingEugin.pdf"
+        }
+      ],
+      "country": "Spain",
+      "last_checked": "2026-10-30",
+      "id": "spain--fresenius-helios-helios-health--eugin-group-fertility-clinics"
     }
   ]
 }

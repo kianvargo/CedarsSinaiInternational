@@ -1,0 +1,1104 @@
+{
+ "country": "Spain",
+ "generated_date": "2026-10-30",
+ "research": {
+  "country_overview": {
+   "demographics": {
+    "facts": [
+     {
+      "label": "Capital",
+      "value": "Madrid{{1}}"
+     },
+     {
+      "label": "Official language",
+      "value": "Spanish (Castilian); other Spanish languages are co-official in their autonomous communities{{2}}"
+     },
+     {
+      "label": "Population",
+      "value": "About 49.8 million (1 July 2026, provisional){{3}}"
+     },
+     {
+      "label": "Area",
+      "value": "505,983 sq km{{1}}"
+     },
+     {
+      "label": "GDP (PPP), total",
+      "value": "About 2.95 trillion international dollars (2025){{4}}"
+     },
+     {
+      "label": "GDP (PPP), per capita",
+      "value": "About 59,870 international dollars (2025){{5}}"
+     },
+     {
+      "label": "Government type",
+      "value": "Parliamentary monarchy{{2}}"
+     },
+     {
+      "label": "Head of state",
+      "value": "King Felipe VI{{6}}"
+     },
+     {
+      "label": "Head of government",
+      "value": "Prime Minister Pedro Sánchez{{7}}"
+     },
+     {
+      "label": "Currency",
+      "value": "Euro{{1}}"
+     },
+     {
+      "label": "Urban population",
+      "value": "80.5% (2025){{8}}"
+     },
+     {
+      "label": "Population aged 65 and over",
+      "value": "21.6% (2025){{9}}"
+     },
+     {
+      "label": "Total fertility rate",
+      "value": "1.10 births per woman (2024){{10}}"
+     },
+     {
+      "label": "Life expectancy at birth",
+      "value": "83.9 years (2024){{11}}"
+     },
+     {
+      "label": "Residents born abroad",
+      "value": "10,291,807 (1 July 2026, provisional){{3}}"
+     }
+    ],
+    "narrative": "Spain had 49,801,559 residents on 1 July 2026, according to provisional figures from the Instituto Nacional de Estadística (INE), the highest number on record.{{3}} The population grew by 104,178 in the second quarter and by an estimated 444,205 over the year, and the growth came from people born abroad, while the number born in Spain fell.{{3}} Residents born abroad numbered 10,291,807 and foreign nationals 7,437,543.{{3}} About 80.5 percent of people live in urban areas.{{8}}\n\nThe population is old and getting older. People aged 65 and over made up 21.6 percent of residents in 2025, the fertility rate was 1.10 births per woman in 2024, and life expectancy at birth was 83.9 years.{{9}}{{10}}{{11}} The State of Health in the EU profile puts life expectancy at 84 years in 2024, the third highest in the EU, with women living 86.6 years and men 81.3, and projects the share aged 65 and over to rise from 20 percent in 2024 to 33 percent by 2050.{{12}} For a foreign academic medical center, this points to sustained demand for chronic, cancer and age-related care in a large, high-income market.",
+    "sources": [
+     {
+      "author": "European Union",
+      "title": "Spain: overview",
+      "publisher": "european-union.europa.eu",
+      "date": "",
+      "url": "https://european-union.europa.eu/principles-countries-history/eu-countries/spain_en"
+     },
+     {
+      "author": "Cortes Generales",
+      "title": "Constitución Española (texto consolidado)",
+      "publisher": "Boletín Oficial del Estado",
+      "date": "29 December 1978",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+     },
+     {
+      "author": "Instituto Nacional de Estadística (INE)",
+      "title": "Continuous Population Statistics (CPS), 1st July 2026. Provisional data",
+      "publisher": "INE",
+      "date": "6 August 2026",
+      "url": "https://www.ine.es/dyngs/Prensa/en/ECP2T26.htm"
+     },
+     {
+      "author": "World Bank",
+      "title": "GDP, PPP (current international $) (NY.GDP.MKTP.PP.CD), Spain",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/ESP/indicator/NY.GDP.MKTP.PP.CD?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "GDP per capita, PPP (current international $) (NY.GDP.PCAP.PP.CD), Spain",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/ESP/indicator/NY.GDP.PCAP.PP.CD?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "RTVC / EFE",
+      "title": "El BOE publica la disolución de las Cortes y la convocatoria de elecciones generales",
+      "publisher": "Radio Televisión Canaria",
+      "date": "6 October 2026",
+      "url": "https://rtvc.es/boe-publica-disolucion-cortes-y-convocatoria-elecciones-generales-6-octubre-2026/"
+     },
+     {
+      "author": "La Moncloa",
+      "title": "Composición del Gobierno",
+      "publisher": "Gobierno de España",
+      "date": "",
+      "url": "https://www.lamoncloa.gob.es/gobierno/composiciondelgobierno/Paginas/index.aspx"
+     },
+     {
+      "author": "World Bank",
+      "title": "Urban population (% of total population) (SP.URB.TOTL.IN.ZS), Spain",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/ESP/indicator/SP.URB.TOTL.IN.ZS?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Population ages 65 and above (% of total population) (SP.POP.65UP.TO.ZS), Spain",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/ESP/indicator/SP.POP.65UP.TO.ZS?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Fertility rate, total (births per woman) (SP.DYN.TFRT.IN), Spain",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/ESP/indicator/SP.DYN.TFRT.IN?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Life expectancy at birth, total (years) (SP.DYN.LE00.IN), Spain",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/ESP/indicator/SP.DYN.LE00.IN?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "OECD and European Observatory on Health Systems and Policies",
+      "title": "Spain: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD / European Observatory on Health Systems and Policies",
+      "date": "11 December 2025",
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-spain-final-web.pdf?sfvrsn=3a74e2a8_1&download=true"
+     }
+    ]
+   },
+   "government": {
+    "narrative": "Spain is a parliamentary monarchy with Madrid as its capital.{{1}} King Felipe VI is head of state, and the Cortes Generales (the Congress of Deputies and the Senate) hold legislative power.{{1}}{{2}} The country is organized into 17 autonomous communities and two autonomous cities.{{3}} Prime Minister Pedro Sánchez, a Socialist, has led a minority government.{{4}} On 5 October 2026 he announced an early general election, and a decree of the same day dissolved the chambers elected on 23 July 2023 and set the vote for 29 November 2026.{{4}}{{5}}{{2}} The 2023 state budget has been rolled over into 2026, a third year, under a Council of Ministers decision of 23 December 2025.{{9}}\n\nHealth is decentralized. Mónica García is Minister of Health.{{6}} The ministry coordinates strategic planning and national regulation, while the health authorities of the 17 autonomous communities run operational planning, purchasing and resource allocation, coordinated through the Interterritorial Council of the National Health System.{{7}} The regions accounted for 93.6 percent of public health spending in 2024.{{8}}",
+    "sources": [
+     {
+      "author": "Cortes Generales",
+      "title": "Constitución Española (texto consolidado)",
+      "publisher": "Boletín Oficial del Estado",
+      "date": "29 December 1978",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+     },
+     {
+      "author": "RTVC / EFE",
+      "title": "El BOE publica la disolución de las Cortes y la convocatoria de elecciones generales",
+      "publisher": "Radio Televisión Canaria",
+      "date": "6 October 2026",
+      "url": "https://rtvc.es/boe-publica-disolucion-cortes-y-convocatoria-elecciones-generales-6-octubre-2026/"
+     },
+     {
+      "author": "European Union",
+      "title": "Spain: overview",
+      "publisher": "european-union.europa.eu",
+      "date": "",
+      "url": "https://european-union.europa.eu/principles-countries-history/eu-countries/spain_en"
+     },
+     {
+      "author": "La Moncloa",
+      "title": "Pedro Sánchez anuncia la convocatoria de elecciones generales para el 29 de noviembre",
+      "publisher": "Gobierno de España",
+      "date": "5 October 2026",
+      "url": "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/2026/051026-sanchez-convocatoria-elecciones.aspx"
+     },
+     {
+      "author": "Jefatura del Estado",
+      "title": "Real Decreto 806/2026, de 5 de octubre, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones",
+      "publisher": "Boletín Oficial del Estado",
+      "date": "6 October 2026",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742"
+     },
+     {
+      "author": "La Moncloa",
+      "title": "Composición del Gobierno",
+      "publisher": "Gobierno de España",
+      "date": "",
+      "url": "https://www.lamoncloa.gob.es/gobierno/composiciondelgobierno/Paginas/index.aspx"
+     },
+     {
+      "author": "OECD and European Observatory on Health Systems and Policies",
+      "title": "Spain: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD / European Observatory on Health Systems and Policies",
+      "date": "11 December 2025",
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-spain-final-web.pdf?sfvrsn=3a74e2a8_1&download=true"
+     },
+     {
+      "author": "Ministerio de Sanidad",
+      "title": "El gasto sanitario público alcanzó los 101.739 millones de euros en 2024, un 6,4% del PIB",
+      "publisher": "La Moncloa (Gobierno de España)",
+      "date": "13 May 2026",
+      "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/sanidad14/paginas/2026/130526-gasto-sanitario-publico-2024.aspx"
+     },
+     {
+      "author": "La Moncloa",
+      "title": "Referencia del Consejo de Ministros, 23 de diciembre de 2025 (criterios de aplicación de la prórroga para 2026 de los Presupuestos Generales del Estado)",
+      "publisher": "Gobierno de España",
+      "date": "23 December 2025",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/2025/20251223-referencia-rueda-de-prensa-ministros.aspx"
+     }
+    ]
+   },
+   "economy": {
+    "narrative": "Spain's GDP was about 2.95 trillion international dollars at purchasing power parity in 2025, or about 59,870 per person.{{1}}{{2}} It accounted for 9.0 percent of EU GDP in 2025.{{3}} GDP rose 0.7 percent in the second quarter of 2026 and 2.6 percent year on year, driven by domestic demand.{{4}} In October 2026 the Banco de España raised its growth projections to 2.6 percent for 2026 and 2.2 percent for 2027, citing strong consumption and job creation.{{5}} Higher energy prices push its inflation forecasts to 3.9 percent in 2026 and 3.7 percent in 2027, and it expects unemployment to fall to 9.7 percent in 2027, a general government deficit of 2.6 percent of GDP in 2026 and public debt of 98.5 percent of GDP in 2026.{{5}}\n\nServices exports are a strength: in the second quarter of 2026 the tourism surplus reached 4.8 percent of GDP and the surplus on other services 2.6 percent.{{5}} The main development program of recent years has been the EU-funded Recovery and Resilience Plan, under which Spain allocated €2.4 billion (US$2.69 billion) to health, including high-tech equipment, prevention, training of health professionals and more rational use of medicines.{{6}} The deadline for meeting the plan's milestones passed on 31 August 2026, and the Banco de España warns that the end of NextGenerationEU funding and dearer business credit could weigh on investment.{{5}}",
+    "sources": [
+     {
+      "author": "World Bank",
+      "title": "GDP, PPP (current international $) (NY.GDP.MKTP.PP.CD), Spain",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/ESP/indicator/NY.GDP.MKTP.PP.CD?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "GDP per capita, PPP (current international $) (NY.GDP.PCAP.PP.CD), Spain",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/ESP/indicator/NY.GDP.PCAP.PP.CD?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "European Union",
+      "title": "Spain: overview",
+      "publisher": "european-union.europa.eu",
+      "date": "",
+      "url": "https://european-union.europa.eu/principles-countries-history/eu-countries/spain_en"
+     },
+     {
+      "author": "Instituto Nacional de Estadística (INE)",
+      "title": "Quarterly National Spanish Accounts, Second Quarter 2026",
+      "publisher": "INE",
+      "date": "25 September 2026",
+      "url": "https://www.ine.es/dyngs/Prensa/en/CNTR2T26.htm"
+     },
+     {
+      "author": "Banco de España",
+      "title": "Proyecciones macroeconómicas e informe trimestral de la economía española. Tercer trimestre 2026",
+      "publisher": "Banco de España",
+      "date": "9 October 2026",
+      "url": "https://www.bde.es/wbe/es/publicaciones/analisis-economico-investigacion/proyecciones-macro-informe-trimestral/proyecciones-e-informe-trimestral-de-la-economia-espanola-tercer-trimestre-2026.html"
+     },
+     {
+      "author": "OECD and European Observatory on Health Systems and Policies",
+      "title": "Spain: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD / European Observatory on Health Systems and Policies",
+      "date": "11 December 2025",
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-spain-final-web.pdf?sfvrsn=3a74e2a8_1&download=true"
+     }
+    ]
+   },
+   "disease_prevalence": {
+    "facts": [
+     {
+      "label": "Deaths, all causes",
+      "value": "441,270 (2025, provisional){{1}}"
+     },
+     {
+      "label": "Share of deaths from tumors",
+      "value": "26.3% (2025){{1}}"
+     },
+     {
+      "label": "Share of deaths from circulatory diseases",
+      "value": "25.7% (2025){{1}}"
+     },
+     {
+      "label": "Share of deaths from respiratory diseases",
+      "value": "12.4% (2025){{1}}"
+     },
+     {
+      "label": "Leading single cause of death",
+      "value": "Ischemic heart disease, 26,711 deaths (2025){{1}}"
+     },
+     {
+      "label": "Adults smoking daily",
+      "value": "20% (2020){{2}}"
+     },
+     {
+      "label": "Alcohol consumption",
+      "value": "11.1 liters per adult (2023){{2}}"
+     },
+     {
+      "label": "Adults with obesity",
+      "value": "15% (2022){{2}}"
+     },
+     {
+      "label": "Adults with insufficient physical activity",
+      "value": "62% (2022){{2}}"
+     }
+    ],
+    "narrative": "Spain recorded 441,270 deaths in 2025, according to provisional INE data.{{1}} Tumors caused 26.3 percent of them and diseases of the circulatory system 25.7 percent, followed by respiratory diseases at 12.4 percent, which rose 9.0 percent on 2024.{{1}} Ischemic heart disease was the most frequent single cause (26,711 deaths), followed by cerebrovascular disease (22,341); lung cancer (23,479) and colon cancer (10,610) led among tumors, and dementia was the leading cause of death among women (15,344).{{1}}\n\nBehavioral and environmental risks account for a quarter of deaths. About 96,000 deaths in 2021 were attributed to behavioral risks such as smoking, diet, alcohol and physical inactivity and another 13,000 to air pollution, together 25 percent of deaths against an EU average of 29 percent.{{2}} Daily smoking fell from 32 percent of adults in 2001 to 20 percent in 2020, alcohol consumption rose to 11.1 liters per adult in 2023, the fifth highest in the EU, 15 percent of adults were obese in 2022 and 62 percent were insufficiently active.{{2}} About 5.7 million people were living with cardiovascular disease in 2021, and an estimated 264,000 new cancer cases were expected in 2022.{{2}} The burden points to demand in oncology, cardiology and dementia care.",
+    "sources": [
+     {
+      "author": "Instituto Nacional de Estadística (INE)",
+      "title": "Death statistic according to cause of death, Year 2025. Provisional data",
+      "publisher": "INE",
+      "date": "30 June 2026",
+      "url": "https://www.ine.es/dyngs/Prensa/en/pEDCM2025.htm"
+     },
+     {
+      "author": "OECD and European Observatory on Health Systems and Policies",
+      "title": "Spain: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD / European Observatory on Health Systems and Policies",
+      "date": "11 December 2025",
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-spain-final-web.pdf?sfvrsn=3a74e2a8_1&download=true"
+     }
+    ]
+   }
+  },
+  "health_system": {
+   "public_system": {
+    "narrative": "Spain's National Health System (Sistema Nacional de Salud, SNS) provides universal coverage, is financed mainly through general taxation and covers all residents, including undocumented migrants.{{1}} Civil servants, the judiciary and the armed forces have their own mutual funds (MUFACE, MUGEJU and ISFAS).{{1}} Most primary care is delivered in public health centers, where family doctors act as gatekeepers to specialist and hospital care; private providers play a role mainly in outpatient specialist and hospital services.{{1}} Avoidable hospital admissions for congestive heart failure and diabetes are among the lowest in the EU, and in 2024 the Interterritorial Council approved the Primary and Community Care Action Plan 2025-27 to build capacity in primary care.{{1}}\n\nAccess is broad but slow. Unmet needs for medical care were 2.6 percent in 2024, below the EU average of 3.6 percent, but 9.3 percent for dental care.{{1}} Waiting lists are the main barrier. At 31 December 2025, according to figures the Ministry of Health revised on 24 September 2026, 853,740 patients were waiting for elective surgery, with an average wait of 122 days and 21.6 percent waiting more than six months, and the average wait for a first hospital specialist consultation was 102 days.{{2}} In the 2023 Health Barometer, 69.8 percent of respondents said it took more than 24 hours to get an appointment with a family doctor, with an average wait of nine days.{{1}}",
+    "sources": [
+     {
+      "author": "OECD and European Observatory on Health Systems and Policies",
+      "title": "Spain: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD / European Observatory on Health Systems and Policies",
+      "date": "11 December 2025",
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-spain-final-web.pdf?sfvrsn=3a74e2a8_1&download=true"
+     },
+     {
+      "author": "Ministerio de Sanidad",
+      "title": "Sistema de Información de Listas de Espera del SNS: situación a 31 de diciembre de 2025, indicadores resumen (versión rectificada)",
+      "publisher": "Ministerio de Sanidad",
+      "date": "24 September 2026",
+      "url": "https://www.sanidad.gob.es/estadEstudios/estadisticas/inforRecopilaciones/docs/LISTAS_PUBLICACION_Dic_2025_rectificado.pdf"
+     }
+    ]
+   },
+   "private_system": {
+    "narrative": "Private provision is large. In the 2025 National Hospital Catalogue, 440 hospitals were private (57 percent of the total) with 49,614 beds (31 percent), against 335 public hospitals with 110,065 beds.{{1}} Private health spending was €37.0 billion (US$41.5 billion) in 2023, or 2.5 percent of GDP and 26.8 percent of total health spending.{{1}} Voluntary health insurance paid for 6 percent of health spending, above the EU average of 4.5 percent, and is used both to shorten waits for specialist and hospital care and to cover services outside the SNS package, such as some dental care.{{2}}\n\nInsurance is growing quickly. Health insurers covered 12.8 million people in 2025, and premiums rose 11.5 percent to €13.3 billion (US$14.9 billion); SegurCaixa Adeslas, Sanitas and Asisa held 60 percent of the market.{{1}} About 71 percent of civil servants in the mutual funds chose private care in 2024.{{1}} Quirónsalud, owned by Germany's Fresenius through Helios, leads the private hospital market with about 13 percent of sales in a market worth about €22.5 billion (US$25.2 billion) in 2024; Helios Spain's revenue rose 7 percent to €5.43 billion (US$6.08 billion) in 2025, and Fresenius plans new hospitals and expansions during 2026.{{5}}{{3}} Fresenius describes the market as highly fragmented, with room for consolidation.{{3}} Sanitas, part of the Bupa group since 1989, has five owned hospitals and three under construction.{{4}}",
+    "sources": [
+     {
+      "author": "Fundación IDIS (prepared by PwC)",
+      "title": "Observatorio del sector sanitario privado 2026: Aportando valor. Análisis de situación",
+      "publisher": "Fundación IDIS",
+      "date": "May 2026",
+      "url": "https://www.fundacionidis.com/uploads/informes/Observatorio_S._S._privado_IDIS_2026_V20260518_sin_CCAA.pdf"
+     },
+     {
+      "author": "OECD and European Observatory on Health Systems and Policies",
+      "title": "Spain: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD / European Observatory on Health Systems and Policies",
+      "date": "11 December 2025",
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-spain-final-web.pdf?sfvrsn=3a74e2a8_1&download=true"
+     },
+     {
+      "author": "Eduardo Ortega Socorro",
+      "title": "La matriz de Quirón, Fresenius, planea abrir nuevos hospitales y ampliar sus centros en España durante 2026",
+      "publisher": "El Español (Invertia)",
+      "date": "8 April 2026",
+      "url": "https://www.elespanol.com/invertia/observatorios/sanidad/20260408/matriz-quiron-fresenius-planea-abrir-nuevos-hospitales-ampliar-centros-espana/1003744197967_0.html"
+     },
+     {
+      "author": "Sanitas",
+      "title": "Sanitas Annual Report 2025: 2025 milestones",
+      "publisher": "Sanitas",
+      "date": "2026",
+      "url": "https://informeanual.sanitas.es/en/"
+     },
+     {
+      "author": "Fresenius SE & Co. KGaA",
+      "title": "Annual Report 2025",
+      "publisher": "Fresenius",
+      "date": "March 2026",
+      "url": "https://www.fresenius.com/sites/default/files/2026-03/fresenius_annual_report_2025.pdf"
+     }
+    ]
+   },
+   "financing": {
+    "facts": [
+     {
+      "label": "Current health expenditure, share of GDP",
+      "value": "9.22% (2023); 9.22% in 2012{{1}}"
+     },
+     {
+      "label": "Current health expenditure per capita",
+      "value": "US$3,107 (2023, current US$){{2}}"
+     },
+     {
+      "label": "Out-of-pocket share of current health expenditure",
+      "value": "20.9% (2023); 23.2% in 2012{{3}}"
+     },
+     {
+      "label": "Government share of current health expenditure",
+      "value": "73.2% (2023){{4}}"
+     },
+     {
+      "label": "Comparison, current health expenditure share of GDP (2023)",
+      "value": "Spain 9.22%, Italy 8.41%, EU 10.00%, Portugal 10.03%, United Kingdom 10.99%, France 11.52%, Germany 11.74%, OECD members 12.75%, United States 16.69%{{5}}"
+     },
+     {
+      "label": "Public health spending (Ministry of Health)",
+      "value": "€101.7 billion (US$114 billion), 6.4% of GDP (2024){{6}}"
+     },
+     {
+      "label": "Private health spending",
+      "value": "€37.0 billion (US$41.5 billion), 2.5% of GDP (2023){{7}}"
+     }
+    ],
+    "narrative": "Current health expenditure was 9.2 percent of GDP in 2023, the same share as in 2012, and about US$3,107 per person, according to World Bank data.{{1}}{{2}} The State of Health in the EU profile puts per capita spending about one fifth below the EU average.{{8}} In 2023 Spain's share of GDP was above Italy's 8.4 percent but below the EU average, Portugal, the United Kingdom, France, Germany, the OECD average and the United States.{{5}} Out-of-pocket payments were 20.9 percent of current health expenditure in 2023, and general government spending covered 73.2 percent.{{3}}{{4}} Patients pay mainly for dental care, outpatient medicines and optical care, but exemptions keep catastrophic spending among the lowest in the EU.{{8}}\n\nThe Ministry of Health puts public health spending at €101.7 billion (US$114 billion) in 2024, 6.4 percent of GDP and €2,084 (US$2,340) per person; the total rose 4.2 percent on 2023.{{6}} Staff pay took 44.8 percent of it and hospital and specialist services 62.1 percent.{{6}}",
+    "sources": [
+     {
+      "author": "World Bank",
+      "title": "Current health expenditure (% of GDP) (SH.XPD.CHEX.GD.ZS), Spain",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/ESP/indicator/SH.XPD.CHEX.GD.ZS?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Current health expenditure per capita (current US$) (SH.XPD.CHEX.PC.CD), Spain",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/ESP/indicator/SH.XPD.CHEX.PC.CD?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Out-of-pocket expenditure (% of current health expenditure) (SH.XPD.OOPC.CH.ZS), Spain",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/ESP/indicator/SH.XPD.OOPC.CH.ZS?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Domestic general government health expenditure (% of current health expenditure) (SH.XPD.GHED.CH.ZS), Spain",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/ESP/indicator/SH.XPD.GHED.CH.ZS?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Current health expenditure (% of GDP) (SH.XPD.CHEX.GD.ZS), Spain and comparators, 2023",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/ESP;PRT;FRA;ITA;DEU;GBR;USA;OED;EUU/indicator/SH.XPD.CHEX.GD.ZS?format=json&per_page=400&date=2023:2023"
+     },
+     {
+      "author": "Ministerio de Sanidad",
+      "title": "El gasto sanitario público alcanzó los 101.739 millones de euros en 2024, un 6,4% del PIB",
+      "publisher": "La Moncloa (Gobierno de España)",
+      "date": "13 May 2026",
+      "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/sanidad14/paginas/2026/130526-gasto-sanitario-publico-2024.aspx"
+     },
+     {
+      "author": "Fundación IDIS (prepared by PwC)",
+      "title": "Observatorio del sector sanitario privado 2026: Aportando valor. Análisis de situación",
+      "publisher": "Fundación IDIS",
+      "date": "May 2026",
+      "url": "https://www.fundacionidis.com/uploads/informes/Observatorio_S._S._privado_IDIS_2026_V20260518_sin_CCAA.pdf"
+     },
+     {
+      "author": "OECD and European Observatory on Health Systems and Policies",
+      "title": "Spain: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD / European Observatory on Health Systems and Policies",
+      "date": "11 December 2025",
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-spain-final-web.pdf?sfvrsn=3a74e2a8_1&download=true"
+     }
+    ]
+   },
+   "workforce": {
+    "facts": [
+     {
+      "label": "Physicians per 1,000 people",
+      "value": "4.4 (2023); EU average 4.3{{1}}"
+     },
+     {
+      "label": "Doctors and nurses in the SNS",
+      "value": "212,201 doctors and 284,232 nurses (2024){{6}}"
+     },
+     {
+      "label": "Physicians per 1,000 people (World Bank)",
+      "value": "4.29 (2022); 3.80 in 2012{{2}}"
+     },
+     {
+      "label": "Nurses per 1,000 people",
+      "value": "5.9 (2023); EU average 8.5{{1}}"
+     },
+     {
+      "label": "Nurses and midwives per 1,000 people (World Bank)",
+      "value": "6.41 (2022){{3}}"
+     },
+     {
+      "label": "Family doctors, share of physicians",
+      "value": "22% (EU 19%){{1}}"
+     },
+     {
+      "label": "Doctors aged 55 and over",
+      "value": "43% (2022){{1}}"
+     },
+     {
+      "label": "Hospital beds per 1,000 people",
+      "value": "2.91 (2023){{4}}"
+     }
+    ],
+    "narrative": "Spain had 4.4 physicians per 1,000 people in 2023, slightly above the EU average of 4.3, and family doctors made up 22 percent of them against 19 percent in the EU.{{1}} The Ministry of Health counted 212,201 doctors and 284,232 nurses in the SNS in 2024, up 3.3 and 2.5 percent on a year earlier.{{6}} World Bank data put the density at 4.29 per 1,000 in 2022, above France (3.28), Italy (4.19), the United States (3.68) and the OECD average (3.43).{{5}} Nursing is thinner: 5.9 nurses per 1,000 people in 2023 against an EU average of 8.5, although Spain's figure leaves out nurse assistants.{{1}}\n\nDistribution and age are the main problems. In 2022 primary care physicians ranged from 0.6 to 1.1 per 1,000 people across regions, and 43 percent of doctors were aged 55 and over.{{1}} The profile cites forecast shortfalls of family doctors and of specialists in geriatrics, psychiatry and radiology.{{1}} A 2023 technical document lets primary care posts that meet at least five of 13 hard-to-fill criteria qualify for incentives such as bonuses and housing support.{{1}}",
+    "sources": [
+     {
+      "author": "OECD and European Observatory on Health Systems and Policies",
+      "title": "Spain: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD / European Observatory on Health Systems and Policies",
+      "date": "11 December 2025",
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-spain-final-web.pdf?sfvrsn=3a74e2a8_1&download=true"
+     },
+     {
+      "author": "World Bank",
+      "title": "Physicians (per 1,000 people) (SH.MED.PHYS.ZS), Spain",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/ESP/indicator/SH.MED.PHYS.ZS?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Nurses and midwives (per 1,000 people) (SH.MED.NUMW.P3), Spain",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/ESP/indicator/SH.MED.NUMW.P3?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Hospital beds (per 1,000 people) (SH.MED.BEDS.ZS), Spain",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/ESP/indicator/SH.MED.BEDS.ZS?format=json&per_page=80&date=2008:2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Physicians (per 1,000 people) (SH.MED.PHYS.ZS), Spain and comparators",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/ESP;PRT;FRA;ITA;DEU;GBR;USA;OED;EUU/indicator/SH.MED.PHYS.ZS?format=json&per_page=400&date=2018:2025"
+     },
+     {
+      "author": "Ministerio de Sanidad",
+      "title": "El número de profesionales de medicina sube un 3,3% y el de enfermería un 2,5%",
+      "publisher": "Ministerio de Sanidad",
+      "date": "18 December 2025",
+      "url": "https://www.sanidad.gob.es/eu/gabinete/notasPrensa.do?id=6820"
+     }
+    ]
+   },
+   "education": {
+    "narrative": "Medicine is a six-year university degree of 360 ECTS credits.{{4}}{{1}} Most graduates then specialize through the MIR (médico interno residente) residency system, which they enter through a national examination and which lasts four to five years depending on the specialty.{{1}} The call published on 10 August 2026 offers 9,676 places in medicine for residency starting in 2027, 9,377 of them in public centers and 300 in private ones, and up to 968 of those places may go to applicants without a Spanish residence permit; the examination is set for 23 January 2027.{{2}}\n\nGraduate numbers are low by EU standards. Spain produced 13.6 medical graduates per 100,000 people in 2023 against an EU average of 15.2, and 24.0 nursing graduates against 38.6, although the nursing figure leaves out nursing assistants.{{3}} To expand supply, public universities offered 677 new places for medical students across all years in 2023/24, raising first-year places to 722 (up 12 percent), supported by €52 million (US$58.3 million) from the government.{{3}} For a foreign academic partner, the push to train more doctors and specialists points to openings in training, fellowships and faculty exchange.",
+    "sources": [
+     {
+      "author": "Universidad Rey Juan Carlos",
+      "title": "Grado en Medicina",
+      "publisher": "Universidad Rey Juan Carlos",
+      "date": "",
+      "url": "https://www.urjc.es/i-d-i/596-medicina"
+     },
+     {
+      "author": "Ministerio de Sanidad",
+      "title": "Orden SND/854/2026, de 4 de agosto, por la que se aprueba la oferta de plazas y la convocatoria de pruebas selectivas 2026 para el acceso en el año 2027 a plazas de formación sanitaria especializada",
+      "publisher": "Boletín Oficial del Estado",
+      "date": "10 August 2026",
+      "url": "https://boe.es/boe/dias/2026/08/10/pdfs/BOE-A-2026-17429.pdf"
+     },
+     {
+      "author": "OECD and European Observatory on Health Systems and Policies",
+      "title": "Spain: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD / European Observatory on Health Systems and Policies",
+      "date": "11 December 2025",
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-spain-final-web.pdf?sfvrsn=3a74e2a8_1&download=true"
+     },
+     {
+      "author": "Ministerio de Educación y Ciencia",
+      "title": "Orden ECI/332/2008, de 13 de febrero, requisitos para la verificación de los títulos que habiliten para el ejercicio de la profesión de Médico",
+      "publisher": "Boletín Oficial del Estado",
+      "date": "15 February 2008",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-2666"
+     }
+    ]
+   },
+   "outlook": {
+    "narrative": "Demand will keep rising. The share of people aged 65 and over is projected to rise from 20 percent in 2024 to 33 percent by 2050, and 48 percent of women over 65 had multiple chronic conditions in 2022.{{1}} Hospital medicines are a fast-growing cost: inpatient pharmaceutical spending reached €9.6 billion (US$10.8 billion) in 2023, up 8 percent, partly because costly new medicines such as cancer therapies are given only in hospitals.{{1}} Fresenius expects the private hospital market to keep growing in 2026 as more people, especially higher earners and those seeking shorter waits, take out insurance.{{2}}\n\nPolicy is on hold until a new government forms. The dissolution of the Cortes halted bills in progress, and the doctors' unions postponed an indefinite strike over the Estatuto Marco, the framework law for health service staff, saying the bill had lapsed and a new government would have to restart it.{{3}} The government had also sent a medicines bill and an update of the tobacco law to the Cortes in July 2026.{{4}} EU recovery funding, which paid for health equipment and training, has passed its deadline for milestones.{{1}}{{5}} Whoever governs after 29 November will inherit long waiting lists, an aging medical workforce and fast-growing private insurance, which together shape the openings for foreign partners in specialist training, digital health and complex care.",
+    "sources": [
+     {
+      "author": "OECD and European Observatory on Health Systems and Policies",
+      "title": "Spain: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD / European Observatory on Health Systems and Policies",
+      "date": "11 December 2025",
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-spain-final-web.pdf?sfvrsn=3a74e2a8_1&download=true"
+     },
+     {
+      "author": "Eduardo Ortega Socorro",
+      "title": "La matriz de Quirón, Fresenius, planea abrir nuevos hospitales y ampliar sus centros en España durante 2026",
+      "publisher": "El Español (Invertia)",
+      "date": "8 April 2026",
+      "url": "https://www.elespanol.com/invertia/observatorios/sanidad/20260408/matriz-quiron-fresenius-planea-abrir-nuevos-hospitales-ampliar-centros-espana/1003744197967_0.html"
+     },
+     {
+      "author": "RTVC",
+      "title": "Los sindicatos médicos aplazan la huelga indefinida tras la convocatoria de elecciones",
+      "publisher": "Radio Televisión Canaria",
+      "date": "7 October 2026",
+      "url": "https://rtvc.es/los-medicos-aplazan-la-huelga-tras-la-convocatoria-de-elecciones-7-octubre-2026/"
+     },
+     {
+      "author": "La Moncloa",
+      "title": "El Gobierno actualiza la ley antitabaco y la regulación de los medicamentos y productos sanitarios (Consejo de Ministros, 21.7.2026)",
+      "publisher": "Gobierno de España",
+      "date": "21 July 2026",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/resumenes/paginas/2026/210726-rueda-prensa-ministros.aspx"
+     },
+     {
+      "author": "Banco de España",
+      "title": "Proyecciones macroeconómicas e informe trimestral de la economía española. Tercer trimestre 2026",
+      "publisher": "Banco de España",
+      "date": "9 October 2026",
+      "url": "https://www.bde.es/wbe/es/publicaciones/analisis-economico-investigacion/proyecciones-macro-informe-trimestral/proyecciones-e-informe-trimestral-de-la-economia-espanola-tercer-trimestre-2026.html"
+     }
+    ]
+   },
+   "competitive_landscape": {
+    "narrative": "Foreign groups are well established in private care. Germany's Fresenius owns market leader Quirónsalud through Helios;{{1}} Bupa has owned Sanitas, which has five hospitals, since 1989;{{2}} France's Vivalto-Santé is the reference shareholder of Ribera;{{3}} and Hospiten runs MD Anderson Cancer Center Madrid, which says it has the backing of the Houston center.{{4}} Vithas and HM Hospitales are other large groups.{{8}} In 2026 Ribera completed its purchase of HCB Hospitales, Vithas agreed to buy GenesisCare's Spanish oncology centers, pending competition approval, and HM Hospitales signed an alliance with Mexico's Grupo Médico Joya.{{9}}{{10}}{{11}}",
+    "closing": "Spain is a major destination for EU patients. Under the cross-border healthcare directive it treated 234,635 patients in 2021 to 2023 for care not needing prior authorization, more than any other reporting country.{{5}} In 2024 it received the largest reimbursements for unplanned care given to visitors from other European countries, €243 million (US$272 million).{{6}} No current official count of international patients was found. Outbound, Spain's system received only 22 requests to authorize planned care abroad in 2021 to 2023, while Catalan plastic surgeons estimate that hundreds a year arrive at emergency departments after cosmetic surgery in Turkey and Latin America.{{5}}{{7}}",
+    "sources": [
+     {
+      "author": "Eduardo Ortega Socorro",
+      "title": "La matriz de Quirón, Fresenius, planea abrir nuevos hospitales y ampliar sus centros en España durante 2026",
+      "publisher": "El Español (Invertia)",
+      "date": "8 April 2026",
+      "url": "https://www.elespanol.com/invertia/observatorios/sanidad/20260408/matriz-quiron-fresenius-planea-abrir-nuevos-hospitales-ampliar-centros-espana/1003744197967_0.html"
+     },
+     {
+      "author": "Sanitas",
+      "title": "Sanitas Annual Report 2025: 2025 milestones",
+      "publisher": "Sanitas",
+      "date": "2026",
+      "url": "https://informeanual.sanitas.es/en/"
+     },
+     {
+      "author": "Ribera",
+      "title": "Ribera fact sheet (ES v13)",
+      "publisher": "Ribera",
+      "date": "February 2026",
+      "url": "https://brandcenter.riberasalud.com/wp-content/uploads/2026/02/FactSheet_Ribera-ES_v13.pdf"
+     },
+     {
+      "author": "Hospiten",
+      "title": "MD Anderson Cancer Center Madrid – Hospiten, recognised among the world's leading cancer hospitals by Newsweek and Statista",
+      "publisher": "Hospiten",
+      "date": "18 September 2026",
+      "url": "https://hospiten.com/en/news/md-anderson-cancer-center-madrid-hospiten-reconocido-los-mejores-hospitales-oncologicos"
+     },
+     {
+      "author": "European Commission, Directorate-General for Health and Food Safety",
+      "title": "Trend Report Reference years 2021 – 2023: Member State data on cross-border patient healthcare following Directive 2011/24/EU",
+      "publisher": "European Commission",
+      "date": "22 September 2025",
+      "url": "https://health.ec.europa.eu/document/download/22520255-bb91-4896-8266-b150d749b900_en?filename=cbhc_2021-2023_trend-report_en.pdf"
+     },
+     {
+      "author": "Frederic De Wispelaere, Lynn De Smedt and Jozef Pacolet (HIVA-KU Leuven) for the European Commission, DG Employment, Social Affairs and Inclusion",
+      "title": "Cross-border healthcare in the EU under social security coordination: Reference year 2024",
+      "publisher": "Publications Office of the European Union",
+      "date": "October 2025",
+      "url": "https://cdn1.gopublic.dk/stps/Media/639105551396813347/cross-border-healthcare-in-the-eu-under-social-security-ehic-reference-year-2024.pdf"
+     },
+     {
+      "author": "Gemma Garrido Granger",
+      "title": "Cientos de urgencias al año por cirugías estéticas en el extranjero: \"Casi me matan\"",
+      "publisher": "Ara",
+      "date": "13 December 2025",
+      "url": "https://es.ara.cat/sociedad/salud/cientos-urgencias-ano-cirugias-esteticas-extranjero-matan_130_5591057.html"
+     },
+     {
+      "author": "Fresenius SE & Co. KGaA",
+      "title": "Annual Report 2025",
+      "publisher": "Fresenius",
+      "date": "March 2026",
+      "url": "https://www.fresenius.com/sites/default/files/2026-03/fresenius_annual_report_2025.pdf"
+     },
+     {
+      "author": "economia3",
+      "title": "Ribera culmina la compra de HCB y refuerza su red sanitaria valenciana",
+      "publisher": "economia3",
+      "date": "6 October 2026",
+      "url": "https://economia3.com/2026/10/06/762373-ribera-culmina-la-compra-de-hcb-y-refuerza-su-red-sanitaria-valenciana/"
+     },
+     {
+      "author": "Eva de Frutos",
+      "title": "Vithas cierra la compra de GenesisCare España",
+      "publisher": "Alimarket Sanidad",
+      "date": "22 July 2026",
+      "url": "https://www.alimarket.es/sanidad/noticia/429416/vithas-cierra-la-compra-de-genesiscare-espana"
+     },
+     {
+      "author": "Alimarket Sanidad",
+      "title": "HM Hospitales y Grupo Médico Joya sellan una alianza estratégica para impulsar la continuidad asistencial entre España y México",
+      "publisher": "Alimarket",
+      "date": "11 September 2026",
+      "url": "https://www.alimarket.es/sanidad/noticia/430873/hm-hospitales-y-grupo-medico-joya-sellan-una-alianza-estrategica-para-impulsar-la-continuidad-asistencial-entre-espana-y-mexico"
+     }
+    ],
+    "tracker_country": "Spain"
+   }
+  },
+  "recent_developments": [
+   {
+    "date": "2026-10-07",
+    "headline": "Doctors postpone indefinite strike as the election halts the Estatuto Marco",
+    "summary": "The doctors' unions CESM, SMA and SME postponed the indefinite strike planned from 28 October, saying the Ministry of Health's Estatuto Marco bill lapses with the dissolution of the Cortes.{{1}} The strike call stays in force, and the unions, who want a statute of their own for doctors, will press the next government.{{1}}{{2}}",
+    "sources": [
+     {
+      "author": "RTVC",
+      "title": "Los sindicatos médicos aplazan la huelga indefinida tras la convocatoria de elecciones",
+      "publisher": "Radio Televisión Canaria",
+      "date": "7 October 2026",
+      "url": "https://rtvc.es/los-medicos-aplazan-la-huelga-tras-la-convocatoria-de-elecciones-7-octubre-2026/"
+     },
+     {
+      "author": "RTVC / EFE",
+      "title": "Los sindicatos médicos convocan una huelga indefinida a partir del 28 de octubre",
+      "publisher": "Radio Televisión Canaria",
+      "date": "11 September 2026",
+      "url": "https://rtvc.es/los-sindicatos-medicos-convocan-una-huelga-indefinida-el-28-de-octubre-11-septiembre-2026/"
+     }
+    ]
+   },
+   {
+    "date": "2026-07-21",
+    "headline": "Government sends medicines and tobacco bills to the Cortes",
+    "summary": "The Council of Ministers sent the Cortes a Medicines and Health Products bill replacing the 2015 framework, with conditional early funding for innovative medicines decided in under 65 working days, more generics and biosimilars, and tools against shortages.{{1}} A tobacco bill extends smoke-free areas to bar and restaurant terraces and regulates vapes like cigarettes.{{1}}",
+    "sources": [
+     {
+      "author": "La Moncloa",
+      "title": "El Gobierno actualiza la ley antitabaco y la regulación de los medicamentos y productos sanitarios (Consejo de Ministros, 21.7.2026)",
+      "publisher": "Gobierno de España",
+      "date": "21 July 2026",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/resumenes/paginas/2026/210726-rueda-prensa-ministros.aspx"
+     }
+    ]
+   },
+   {
+    "date": "2026-05-13",
+    "headline": "Public health spending reached €101.7 billion (US$114 billion) in 2024",
+    "summary": "The Ministry of Health reported public health spending of €101.7 billion (US$114 billion) in 2024, 6.4 percent of GDP and 4.2 percent more than in 2023.{{1}} Regional governments accounted for 93.6 percent, and spending per person ranged from €1,658 (US$1,860) in Andalusia to €2,332 (US$2,610) in the Basque Country.{{1}}",
+    "sources": [
+     {
+      "author": "Ministerio de Sanidad",
+      "title": "El gasto sanitario público alcanzó los 101.739 millones de euros en 2024, un 6,4% del PIB",
+      "publisher": "La Moncloa (Gobierno de España)",
+      "date": "13 May 2026",
+      "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/sanidad14/paginas/2026/130526-gasto-sanitario-publico-2024.aspx"
+     }
+    ]
+   },
+   {
+    "date": "2025-07-29",
+    "headline": "Law creates a State Public Health Agency",
+    "summary": "Law 7/2025 of 28 July created the State Public Health Agency and amended the 2011 General Public Health Law.{{1}} The State of Health in the EU profile describes the agency as a central authority to improve Spain's ability to anticipate and manage public health challenges, after a national surveillance network was launched in June 2024.{{2}}",
+    "sources": [
+     {
+      "author": "Jefatura del Estado",
+      "title": "Ley 7/2025, de 28 de julio, por la que se crea la Agencia Estatal de Salud Pública y se modifica la Ley 33/2011, de 4 de octubre, General de Salud Pública",
+      "publisher": "Boletín Oficial del Estado",
+      "date": "29 July 2025",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-15652"
+     },
+     {
+      "author": "OECD and European Observatory on Health Systems and Policies",
+      "title": "Spain: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD / European Observatory on Health Systems and Policies",
+      "date": "11 December 2025",
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-spain-final-web.pdf?sfvrsn=3a74e2a8_1&download=true"
+     }
+    ]
+   },
+   {
+    "date": "2025-04-30",
+    "headline": "MUFACE signs a new private care contract for civil servants",
+    "summary": "MUFACE signed a 2025 to 2027 health care contract with Adeslas and Asisa covering 1,014,692 civil servants and dependents who chose private care.{{1}} Its €4.81 billion (US$5.39 billion) budget is €1.28 billion (US$1.43 billion) more than the previous contract, and the weighted average premium rises 41.2 percent over three years.{{1}}",
+    "sources": [
+     {
+      "author": "Ministerio para la Transformación Digital y de la Función Pública",
+      "title": "MUFACE signs with Adeslas and Asisa the concert that guarantees health care to one million mutualists",
+      "publisher": "Gobierno de España",
+      "date": "30 April 2025",
+      "url": "https://digital.gob.es/en/comunicacion/notas-prensa/secretaria-estado-funcion-publica/2025/04/2025-04-30-02"
+     }
+    ]
+   }
+  ]
+ },
+ "resolution_log": [
+  "Research pass 29 October 2026; two independent verification passes 30 October 2026, resolved by the lead editor with single-verifier points re-checked on the source page.",
+  "Corrected: waiting list figures to the rectified SISLE report of 24 September 2026 (853,740 patients, 122 days); 677 new medical places across all years raising first-year places to 722; debt ratio dated 2026; 71 percent mutual fund figure dated 2024; cross-border count limited to care not needing prior authorisation; HIVA-KU Leuven report dated October 2025.",
+  "Sources: Fresenius Annual Report 2025 added as primary source for the 13 percent share (of private hospital sales) and the other large groups; Primicias replaced by La Moncloa, and the housing-decree motive for the election, supported only by Primicias, removed; undated IMTJ medical tourism article removed; Orden ECI/332/2008 added for the degree rule.",
+  "Added: 2026 budget roll-over (Council of Ministers, 23 December 2025); 2024 SNS workforce counts (Ministry of Health); Vithas and HM Hospitales and the 2026 Ribera-HCB, Vithas-GenesisCare and HM-Joya deals.",
+  "Tracker: GenesisCare kept Active (sale to Vithas awaits CNMC approval); Cleveland Clinic/Vall d'Hebron, Beat Childhood Cancer Research Consortium/SJD and Johns Hopkins Proton Therapy Center/Clínica Universidad de Navarra (Unclear) added; dates, stakes and descriptions corrected for MD Anderson Madrid, Johns Hopkins, Harvard, Mount Sinai, Aier, Clariane, Vivalto and Fresenius Helios.",
+  "Leads without dated evidence, not recorded: Boston Children's Hospital and Children's Hospital of Philadelphia with SJD (undated alliances page); University of Navarra US rotation agreements.",
+  "Not readable from this environment, so not cited: oecd.org pages (403); the same Country Health Profile 2025 was read as the European Observatory PDF.",
+  "Physician density differs by source: 4.4 per 1,000 in 2023 (State of Health in the EU) and 4.29 in 2022 (World Bank); both are given with years.",
+  "US dollar equivalents use data/fx_rates.json (EUR 0.892459 per US$, ECB reference rate of 22 October 2026) via scripts/fx.py; indicative only, including for historical figures."
+ ],
+ "csi_manual": {
+  "patient_volume_and_revenue": "",
+  "referral_sources": "",
+  "relationship_history": "",
+  "complications": "",
+  "key_contacts": "",
+  "opportunities": "",
+  "csi_recommendation": ""
+ },
+ "charts": [
+  {
+   "id": "spending",
+   "page": "health",
+   "kind": "line",
+   "title": "Spain: health spending and out-of-pocket share, 2012 to 2023",
+   "unit": "%",
+   "note": "Current health expenditure as a share of GDP, and out-of-pocket spending as a share of current health expenditure; 2023 is the latest year in the series.",
+   "highlight": "Spain",
+   "series": [
+    {
+     "name": "Current health expenditure (% of GDP)",
+     "points": [
+      [
+       "2012",
+       9.22
+      ],
+      [
+       "2013",
+       9.14
+      ],
+      [
+       "2014",
+       9.15
+      ],
+      [
+       "2015",
+       9.18
+      ],
+      [
+       "2016",
+       8.88
+      ],
+      [
+       "2017",
+       9.02
+      ],
+      [
+       "2018",
+       9.07
+      ],
+      [
+       "2019",
+       9.22
+      ],
+      [
+       "2020",
+       10.79
+      ],
+      [
+       "2021",
+       10.34
+      ],
+      [
+       "2022",
+       9.68
+      ],
+      [
+       "2023",
+       9.22
+      ]
+     ]
+    },
+    {
+     "name": "Out-of-pocket (% of current health expenditure)",
+     "points": [
+      [
+       "2012",
+       23.17
+      ],
+      [
+       "2013",
+       24.24
+      ],
+      [
+       "2014",
+       24.65
+      ],
+      [
+       "2015",
+       23.87
+      ],
+      [
+       "2016",
+       21.96
+      ],
+      [
+       "2017",
+       24.09
+      ],
+      [
+       "2018",
+       24.15
+      ],
+      [
+       "2019",
+       23.85
+      ],
+      [
+       "2020",
+       21.66
+      ],
+      [
+       "2021",
+       21.3
+      ],
+      [
+       "2022",
+       21.03
+      ],
+      [
+       "2023",
+       20.86
+      ]
+     ]
+    }
+   ],
+   "split": true,
+   "sources": [
+    {
+     "author": "World Bank",
+     "title": "Current health expenditure (% of GDP) (SH.XPD.CHEX.GD.ZS), Spain",
+     "publisher": "World Bank Indicators API (World Development Indicators)",
+     "date": "2026-10-08",
+     "url": "https://api.worldbank.org/v2/country/ESP/indicator/SH.XPD.CHEX.GD.ZS?format=json&per_page=80&date=2008:2025"
+    },
+    {
+     "author": "World Bank",
+     "title": "Out-of-pocket expenditure (% of current health expenditure) (SH.XPD.OOPC.CH.ZS), Spain",
+     "publisher": "World Bank Indicators API (World Development Indicators)",
+     "date": "2026-10-08",
+     "url": "https://api.worldbank.org/v2/country/ESP/indicator/SH.XPD.OOPC.CH.ZS?format=json&per_page=80&date=2008:2025"
+    }
+   ]
+  },
+  {
+   "id": "workforce",
+   "page": "health",
+   "kind": "bar",
+   "title": "Physicians per 1,000 people, Spain and comparators (latest year available)",
+   "unit": "per 1,000",
+   "note": "Latest year available for each country in the World Bank series, shown in brackets; comparison years differ (2022 and 2023). Portugal's figure counts all doctors licensed to practise, which overstates practising doctors.",
+   "highlight": "Spain (2022)",
+   "series": [
+    {
+     "name": "Physicians per 1,000",
+     "points": [
+      [
+       "France (2022)",
+       3.28
+      ],
+      [
+       "United Kingdom (2023)",
+       3.3
+      ],
+      [
+       "OECD (2022)",
+       3.43
+      ],
+      [
+       "United States (2022)",
+       3.68
+      ],
+      [
+       "EU (2022)",
+       4.15
+      ],
+      [
+       "Italy (2022)",
+       4.19
+      ],
+      [
+       "Spain (2022)",
+       4.29
+      ],
+      [
+       "Germany (2022)",
+       4.53
+      ],
+      [
+       "Portugal (2022)",
+       5.85
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Bank",
+     "title": "Physicians (per 1,000 people) (SH.MED.PHYS.ZS), Spain and comparators",
+     "publisher": "World Bank Indicators API (World Development Indicators)",
+     "date": "2026-10-08",
+     "url": "https://api.worldbank.org/v2/country/ESP;PRT;FRA;ITA;DEU;GBR;USA;OED;EUU/indicator/SH.MED.PHYS.ZS?format=json&per_page=400&date=2018:2025"
+    },
+    {
+     "author": "OECD and European Observatory on Health Systems and Policies",
+     "title": "Spain: Country Health Profile 2025 (State of Health in the EU)",
+     "publisher": "OECD / European Observatory on Health Systems and Policies",
+     "date": "11 December 2025",
+     "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-spain-final-web.pdf?sfvrsn=3a74e2a8_1&download=true"
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "page": "market",
+   "kind": "line",
+   "title": "Spain: hospital beds per 1,000 people, 2012 to 2023",
+   "unit": "per 1,000",
+   "note": "Hospital beds as reported to the World Bank, public and private; 2023 is the latest year in the series.",
+   "highlight": "2023",
+   "series": [
+    {
+     "name": "Hospital beds per 1,000",
+     "points": [
+      [
+       "2012",
+       2.98
+      ],
+      [
+       "2013",
+       2.95
+      ],
+      [
+       "2014",
+       2.95
+      ],
+      [
+       "2015",
+       2.96
+      ],
+      [
+       "2016",
+       2.95
+      ],
+      [
+       "2017",
+       2.96
+      ],
+      [
+       "2018",
+       2.95
+      ],
+      [
+       "2019",
+       2.93
+      ],
+      [
+       "2020",
+       2.94
+      ],
+      [
+       "2021",
+       2.94
+      ],
+      [
+       "2022",
+       2.94
+      ],
+      [
+       "2023",
+       2.91
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Bank",
+     "title": "Hospital beds (per 1,000 people) (SH.MED.BEDS.ZS), Spain",
+     "publisher": "World Bank Indicators API (World Development Indicators)",
+     "date": "2026-10-08",
+     "url": "https://api.worldbank.org/v2/country/ESP/indicator/SH.MED.BEDS.ZS?format=json&per_page=80&date=2008:2025"
+    }
+   ]
+  }
+ ]
+}
