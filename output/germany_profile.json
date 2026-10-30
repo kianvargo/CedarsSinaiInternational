@@ -1,0 +1,1170 @@
+{
+ "country": "Germany",
+ "generated_date": "2026-10-30",
+ "research": {
+  "country_overview": {
+   "demographics": {
+    "facts": [
+     {
+      "label": "Capital",
+      "value": "Berlin{{1}}"
+     },
+     {
+      "label": "Official language",
+      "value": "German{{2}}"
+     },
+     {
+      "label": "Population",
+      "value": "About 83.5 million (end of 2025){{3}}"
+     },
+     {
+      "label": "Area",
+      "value": "357,683 sq km (2024){{4}}"
+     },
+     {
+      "label": "GDP (PPP), total",
+      "value": "About 6.30 trillion international dollars (2025){{5}}"
+     },
+     {
+      "label": "GDP (PPP), per capita",
+      "value": "About 75,400 international dollars (2025){{6}}"
+     },
+     {
+      "label": "Government type",
+      "value": "Federal parliamentary republic{{1}}"
+     },
+     {
+      "label": "Head of state",
+      "value": "Federal President Frank-Walter Steinmeier{{7}}"
+     },
+     {
+      "label": "Head of government",
+      "value": "Chancellor Friedrich Merz{{8}}"
+     },
+     {
+      "label": "Currency",
+      "value": "Euro{{9}}"
+     },
+     {
+      "label": "Urban population",
+      "value": "82.1% (2025){{10}}"
+     },
+     {
+      "label": "Population aged 65 and over",
+      "value": "23.7% (2025){{13}}"
+     },
+     {
+      "label": "Total fertility rate",
+      "value": "1.36 births per woman (2024){{11}}"
+     },
+     {
+      "label": "Life expectancy at birth",
+      "value": "81.5 years (2024){{12}}"
+     },
+     {
+      "label": "Foreign population",
+      "value": "12.4 million (end of 2025){{3}}"
+     }
+    ],
+    "narrative": "Germany had 83.5 million residents at the end of 2025, 110,000 fewer than a year earlier and the first decline since 2020.{{3}} Deaths exceeded births by 352,000, and net immigration of 235,000 did not close the gap.{{3}} The foreign population grew by 39,000 to 12.4 million.{{3}} About 82 percent of people live in urban areas, and the fertility rate was 1.36 births per woman in 2024.{{10}}{{11}}\n\nThe population is aging. People aged 60 and over made up 31 percent of residents at the end of 2025, and the 60 to 79 age group was the only one that grew.{{3}} Those aged 65 and over were 23.7 percent of the population.{{13}} Life expectancy at birth was 81.5 years in 2024, 0.2 years below the EU average, and almost half of people aged 65 and over lived with more than one chronic condition in 2022.{{12}} For a referral market this means steady demand for cardiovascular, cancer and long term care, from a high income population that is shrinking slowly.",
+    "sources": [
+     {
+      "author": "Federal Republic of Germany",
+      "title": "Basic Law for the Federal Republic of Germany (English translation)",
+      "publisher": "Federal Ministry of Justice, Gesetze im Internet",
+      "date": "2025",
+      "url": "https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.html"
+     },
+     {
+      "author": "Federal Ministry of Justice",
+      "title": "Verwaltungsverfahrensgesetz (VwVfG), § 23 Amtssprache",
+      "publisher": "Gesetze im Internet",
+      "date": "",
+      "url": "https://www.gesetze-im-internet.de/vwvfg/__23.html"
+     },
+     {
+      "author": "Statistisches Bundesamt (Destatis)",
+      "title": "Zum Jahresende 2025 lebten 83,5 Millionen Menschen in Deutschland, das waren 110 000 Personen weniger als ein Jahr zuvor (Pressemitteilung Nr. 203)",
+      "publisher": "Destatis",
+      "date": "16 June 2026",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/06/PD26_203_124.html"
+     },
+     {
+      "author": "Statistisches Bundesamt (Destatis)",
+      "title": "Bodenfläche nach Nutzungsarten und Bundesländern",
+      "publisher": "Destatis",
+      "date": "31 December 2024",
+      "url": "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Flaechennutzung/Tabellen/bodenflaeche-laender.html"
+     },
+     {
+      "author": "World Bank",
+      "title": "GDP, PPP (current international $) (NY.GDP.MKTP.PP.CD), Germany",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/NY.GDP.MKTP.PP.CD?format=json"
+     },
+     {
+      "author": "World Bank",
+      "title": "GDP per capita, PPP (current international $) (NY.GDP.PCAP.PP.CD), Germany",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/NY.GDP.PCAP.PP.CD?format=json"
+     },
+     {
+      "author": "Office of the Federal President",
+      "title": "Frank-Walter Steinmeier",
+      "publisher": "Bundespräsidialamt",
+      "date": "",
+      "url": "https://www.bundespraesident.de/EN/Home/home_node.html"
+     },
+     {
+      "author": "dpa",
+      "title": "Friedrich Merz is German Chancellor",
+      "publisher": "deutschland.de",
+      "date": "6 May 2025",
+      "url": "https://www.deutschland.de/en/news/friedrich-merz-federal-chancellor-of-germany"
+     },
+     {
+      "author": "European Commission",
+      "title": "Germany and the euro",
+      "publisher": "Directorate-General for Economic and Financial Affairs",
+      "date": "",
+      "url": "https://economy-finance.ec.europa.eu/euro/eu-countries-and-euro/germany-and-euro_en"
+     },
+     {
+      "author": "World Bank",
+      "title": "Urban population (% of total population) (SP.URB.TOTL.IN.ZS), Germany",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/SP.URB.TOTL.IN.ZS?format=json"
+     },
+     {
+      "author": "World Bank",
+      "title": "Fertility rate, total (births per woman) (SP.DYN.TFRT.IN), Germany",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/SP.DYN.TFRT.IN?format=json"
+     },
+     {
+      "author": "OECD and European Observatory on Health Systems and Policies",
+      "title": "Germany: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD / European Observatory on Health Systems and Policies",
+      "date": "2025",
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-germany-final-web.pdf"
+     },
+     {
+      "author": "World Bank",
+      "title": "Population ages 65 and above (% of total population) (SP.POP.65UP.TO.ZS), Germany",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/SP.POP.65UP.TO.ZS?format=json"
+     }
+    ]
+   },
+   "government": {
+    "narrative": "Germany is a democratic and social federal state made up of 16 Länder, with Berlin as its capital.{{1}} The Federal Convention elects the Federal President for a five year term, and the Bundestag elects the Federal Chancellor.{{1}} Frank-Walter Steinmeier is Federal President.{{2}} Friedrich Merz of the CDU was elected Chancellor on 6 May 2025 in a second ballot, and his coalition of the CDU/CSU and the SPD held 328 of the 630 Bundestag seats when he was elected.{{3}} The Bundesrat, which represents the Länder, takes part in federal legislation.{{4}}\n\nIn health policy the federal ministry sets the legal framework, the 16 Länder plan hospitals and run public health services, and the Federal Joint Committee, a self-governing body, issues detailed directives.{{5}} After Jens Spahn resigned as leader of the CDU/CSU parliamentary group in July 2026, Carsten Linnemann became federal health minister on 29 July 2026, and Nina Warken moved to head the Federal Chancellery.{{9}}{{6}}{{7}}",
+    "sources": [
+     {
+      "author": "Federal Republic of Germany",
+      "title": "Basic Law for the Federal Republic of Germany (English translation)",
+      "publisher": "Federal Ministry of Justice, Gesetze im Internet",
+      "date": "2025",
+      "url": "https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.html"
+     },
+     {
+      "author": "Office of the Federal President",
+      "title": "Frank-Walter Steinmeier",
+      "publisher": "Bundespräsidialamt",
+      "date": "",
+      "url": "https://www.bundespraesident.de/EN/Home/home_node.html"
+     },
+     {
+      "author": "dpa",
+      "title": "Friedrich Merz is German Chancellor",
+      "publisher": "deutschland.de",
+      "date": "6 May 2025",
+      "url": "https://www.deutschland.de/en/news/friedrich-merz-federal-chancellor-of-germany"
+     },
+     {
+      "author": "German Bundestag",
+      "title": "No lawmaking without Parliament",
+      "publisher": "Deutscher Bundestag",
+      "date": "",
+      "url": "https://www.bundestag.de/en/parliament/function/legislation"
+     },
+     {
+      "author": "OECD and European Observatory on Health Systems and Policies",
+      "title": "Germany: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD / European Observatory on Health Systems and Policies",
+      "date": "2025",
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-germany-final-web.pdf"
+     },
+     {
+      "author": "ZDF",
+      "title": "Warken wird Kanzleramtschefin, Linnemann Gesundheitsminister",
+      "publisher": "ZDFheute",
+      "date": "23 July 2026",
+      "url": "https://www.zdfheute.de/politik/nina-warken-kanzleramt-nachfolge-frei-spahn-100.html"
+     },
+     {
+      "author": "Deutsches Ärzteblatt",
+      "title": "Kabinettsumbildung: Warken geht ins Kanzleramt, Linnemann übernimmt Gesundheitsressort",
+      "publisher": "Deutsches Ärzteblatt",
+      "date": "23 July 2026",
+      "url": "https://www.aerzteblatt.de/news/kabinettsumbildung-warken-geht-ins-kanzleramt-linnemann-ubernimmt-gesundheitsressort-db8bf707-67f4-4c7e-8d68-73e919222c52"
+     },
+     {
+      "author": "Cornelia Dölger",
+      "title": "Linnemann verspricht stabile Beitragssätze",
+      "publisher": "Pharmazeutische Zeitung",
+      "date": "14 October 2026",
+      "url": "https://www.pharmazeutische-zeitung.de/linnemann-verspricht-stabile-beitragssaetze-171120/"
+     },
+     {
+      "author": "Bundesregierung",
+      "title": "Bundespräsident Steinmeier ernennt neue Ministerin und Minister",
+      "publisher": "Bundesregierung",
+      "date": "2026-07-29",
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/ernennung-neue-minister-2448632"
+     }
+    ]
+   },
+   "economy": {
+    "narrative": "Germany's GDP was about 6.30 trillion international dollars at purchasing power parity in 2025, or about 75,400 per person.{{1}}{{2}} Revised national accounts show real GDP falling 1.0 percent in 2023, stagnating in 2024 and growing 0.2 percent in 2025.{{3}} Destatis said the 2025 growth came mainly from higher household and government consumption, while exports fell again under higher US tariffs, a stronger euro and competition from China, and investment stayed weak.{{4}} Output rose 0.3 percent in the second quarter of 2026 from the previous quarter and 1.0 percent from a year earlier.{{7}}\n\nIn June 2026 the Bundesbank projected calendar-adjusted growth of 0.5 percent in 2026, 0.8 percent in 2027 and 1.4 percent in 2028, with HICP inflation of 2.9 percent in 2026 easing to 1.9 percent in 2028.{{6}} It attributed the slower recovery to an energy price shock from the war in the Middle East, said expansionary fiscal policy would support activity, and named demographic pressure on the supply of skilled workers as a drag on potential growth.{{6}}",
+    "sources": [
+     {
+      "author": "World Bank",
+      "title": "GDP, PPP (current international $) (NY.GDP.MKTP.PP.CD), Germany",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/NY.GDP.MKTP.PP.CD?format=json"
+     },
+     {
+      "author": "World Bank",
+      "title": "GDP per capita, PPP (current international $) (NY.GDP.PCAP.PP.CD), Germany",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/NY.GDP.PCAP.PP.CD?format=json"
+     },
+     {
+      "author": "Statistisches Bundesamt (Destatis)",
+      "title": "Sommerüberarbeitung 2026 der Volkswirtschaftlichen Gesamtrechnungen: Revisionen und Hintergründe",
+      "publisher": "Destatis",
+      "date": "2026",
+      "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Volkswirtschaftliche-Gesamtrechnungen-Inlandsprodukt/sommerueberarbeitung-2026.html"
+     },
+     {
+      "author": "Statistisches Bundesamt (Destatis)",
+      "title": "Bruttoinlandsprodukt im Jahr 2025 um 0,2 % gewachsen (Pressemitteilung Nr. 017)",
+      "publisher": "Destatis",
+      "date": "15 January 2026",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/01/PD26_017_811.html"
+     },
+     {
+      "author": "Statistisches Bundesamt (Destatis)",
+      "title": "Bruttoinlandsprodukt im 2. Quartal 2026 um 0,2 % höher als im Vorquartal (Pressemitteilung Nr. 269)",
+      "publisher": "Destatis",
+      "date": "30 July 2026",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_269_811.html"
+     },
+     {
+      "author": "Deutsche Bundesbank",
+      "title": "The Bundesbank's Forecast for Germany: Energy price shock slowing down economic recovery",
+      "publisher": "Deutsche Bundesbank",
+      "date": "12 June 2026",
+      "url": "https://www.bundesbank.de/en/press/press-releases/the-bundesbank-s-forecast-for-germany-energy-price-shock-slowing-down-economic-recovery-964668"
+     },
+     {
+      "author": "Statistisches Bundesamt (Destatis)",
+      "title": "Wirtschaftsleistung um 0,3 % höher als im Vorquartal (Ausführliche Ergebnisse zum 2. Quartal 2026, Pressemitteilung Nr. 303, korrigiert 30.09.2026)",
+      "publisher": "Destatis",
+      "date": "25 August 2026",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_303_811.html"
+     }
+    ]
+   },
+   "disease_prevalence": {
+    "facts": [
+     {
+      "label": "Deaths, all causes",
+      "value": "1,006,588 (2025){{1}}"
+     },
+     {
+      "label": "Deaths from diseases of the circulatory system",
+      "value": "334,065, or 33.2% of deaths (2025){{1}}"
+     },
+     {
+      "label": "Deaths from neoplasms (cancer)",
+      "value": "236,993, or 23.5% of deaths (2025){{1}}"
+     },
+     {
+      "label": "Deaths from respiratory diseases",
+      "value": "81,202, or 8.1% of deaths (2025){{1}}"
+     },
+     {
+      "label": "Leading cardiovascular causes of death",
+      "value": "Chronic ischemic heart disease 70,720; acute myocardial infarction 41,258; heart failure 37,633 (2025){{2}}"
+     },
+     {
+      "label": "Leading cancer causes of death",
+      "value": "Lung cancer 45,168; pancreatic cancer 19,608; breast cancer 18,774 (2025){{3}}"
+     },
+     {
+      "label": "Deaths attributed to behavioral risk factors",
+      "value": "About 259,000 (2021){{4}}"
+     },
+     {
+      "label": "Adults smoking daily",
+      "value": "15% (2021); 21% in 2013{{4}}"
+     },
+     {
+      "label": "Adults with obesity",
+      "value": "17% (2022); EU average 15%{{4}}"
+     },
+     {
+      "label": "Adults 65 and over with multiple chronic conditions",
+      "value": "49% (2022); EU average 44%{{4}}"
+     },
+     {
+      "label": "Suicides",
+      "value": "11,334 (2025), up 9.3% on 2024{{5}}"
+     }
+    ],
+    "narrative": "Germany recorded 1,006,588 deaths in 2025.{{1}} Diseases of the circulatory system caused 334,065 of them and neoplasms 236,993, followed by respiratory diseases at 81,202.{{1}} Chronic ischemic heart disease (70,720 deaths), acute myocardial infarction (41,258) and heart failure (37,633) led among cardiovascular causes, and lung cancer (45,168) led among cancers, ahead of pancreatic, breast and prostate cancer.{{2}}{{3}} IHME estimates cited by the OECD put new cardiovascular cases at about 1.2 million in 2021, with almost 13 million people living with the disease.{{4}}\n\nBehavioral and environmental risks account for many deaths. About 259,000 deaths in 2021 were attributed to behavioral risk factors and another 31,000 to air pollution, together 26 percent of all deaths.{{4}} Daily smoking among adults fell from 21 percent in 2013 to 15 percent in 2021, but adult obesity, at 17 percent in 2022, is above the EU average of 15 percent.{{4}} Suicides rose 9.3 percent to 11,334 in 2025.{{5}}",
+    "sources": [
+     {
+      "author": "Statistisches Bundesamt (Destatis)",
+      "title": "Number of deaths by chapters of the ICD-10 and by sex 2025",
+      "publisher": "Destatis",
+      "date": "9 October 2026",
+      "url": "https://www.destatis.de/EN/Themes/Society-Environment/Health/Causes-Death/Tables/number-of-death.html"
+     },
+     {
+      "author": "Statistisches Bundesamt (Destatis)",
+      "title": "Deaths caused by the 10 most frequent cardiovascular diseases 2025",
+      "publisher": "Destatis",
+      "date": "9 October 2026",
+      "url": "https://www.destatis.de/EN/Themes/Society-Environment/Health/Causes-Death/Tables/deaths-cardiovascular-disease-total.html"
+     },
+     {
+      "author": "Statistisches Bundesamt (Destatis)",
+      "title": "Deaths caused by the 10 most frequent types of cancer 2025",
+      "publisher": "Destatis",
+      "date": "9 October 2026",
+      "url": "https://www.destatis.de/EN/Themes/Society-Environment/Health/Causes-Death/Tables/deaths-cancer-total.html"
+     },
+     {
+      "author": "OECD and European Observatory on Health Systems and Policies",
+      "title": "Germany: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD / European Observatory on Health Systems and Policies",
+      "date": "2025",
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-germany-final-web.pdf"
+     },
+     {
+      "author": "Statistisches Bundesamt (Destatis)",
+      "title": "Causes of death: the number of deaths due to suicide increased in 2025",
+      "publisher": "Destatis",
+      "date": "9 October 2026",
+      "url": "https://www.destatis.de/EN/Themes/Society-Environment/Health/Causes-Death/_node.html"
+     }
+    ]
+   }
+  },
+  "health_system": {
+   "public_system": {
+    "narrative": "Health insurance is mandatory for all residents, either in statutory health insurance (SHI) or in substitutive private health insurance.{{1}} In 2024 an estimated 89.0 percent of the population was covered by SHI and 10.4 percent by private insurance, leaving about 0.1 percent uninsured.{{1}} Employees earning EUR 77,400 (US$86,700) a year or more in 2026, the self-employed and civil servants may choose private cover.{{4}} SHI is a multi-payer system financed by wage-related contributions shared between employees and employers, plus federal subsidies, and each fund also charges an additional contribution that averaged 2.9 percent in 2026.{{1}}{{2}} Outpatient care is usually delivered in physician-led practices, and hospitals provide inpatient care.{{1}}\n\nThe system is costly and strained. Germany reports the highest rates of avoidable hospital admissions in the EU for chronic conditions, with 810 admissions per 100,000 people in 2023, which the OECD links to the rigid split between outpatient and hospital care.{{1}} Then health minister Nina Warken launched a dialogue on a primary care system in January 2026, in which family doctors would be the first contact with exceptions for specialties such as gynecology, eye care and dentistry, and said she expected first effects in 2028.{{3}}",
+    "sources": [
+     {
+      "author": "OECD and European Observatory on Health Systems and Policies",
+      "title": "Germany: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD / European Observatory on Health Systems and Policies",
+      "date": "2025",
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-germany-final-web.pdf"
+     },
+     {
+      "author": "Verband der Ersatzkassen (vdek)",
+      "title": "GKV-Schätzerkreis prognostiziert Finanzentwicklung 2025 und 2026",
+      "publisher": "vdek",
+      "date": "15 October 2025",
+      "url": "https://www.vdek.com/presse/pressemitteilungen/2025/gkv-schaetzerkreis-prognose-2025-2026-zusatzbeitrag/_jcr_content/par/download/file.res/vdek_pm_20251015_GKV-Schaetzerkreis.pdf"
+     },
+     {
+      "author": "Kassenärztliche Bundesvereinigung (KBV)",
+      "title": "Warken bringt Primärversorgungssystem auf den Weg: Auftakt des Dialogprozesses",
+      "publisher": "KBV Praxisnachrichten",
+      "date": "29 January 2026",
+      "url": "https://www.kbv.de/praxis/tools-und-services/praxisnachrichten/2026/01-29/warken-bringt-primaerversorgungssystem-auf-den-weg-auftakt-des-dialogprozesses"
+     },
+     {
+      "author": "Techniker Krankenkasse",
+      "title": "Was ist die Jahresarbeitsentgeltgrenze und wie hoch ist sie?",
+      "publisher": "Techniker Krankenkasse",
+      "date": "7 April 2026",
+      "url": "https://www.tk.de/firmenkunden/versicherung/beitraege-faq-und-mehr/zahlen-und-grenzwerte/hoehe-der-jahresarbeitsentgeltgrenze-2033028"
+     }
+    ]
+   },
+   "private_system": {
+    "narrative": "Private operators run the most hospitals but the smallest ones. In 2025 Germany had 1,807 hospitals with 468,803 staffed beds.{{1}} Public hospitals numbered 529 and held 47.4 percent of beds, nonprofit hospitals 549 (31.6 percent) and private hospitals 729 (21.0 percent).{{1}} In a 2025 ranking by hospital beds, the largest operators are Helios, part of Fresenius, Asklepios, and Sana, which is owned by 24 private health insurers, with Ameos also among the larger groups.{{2}}\n\nPrivate payments make up a small share of spending. Out-of-pocket payments were 11 percent of health spending in 2023 and voluntary insurance 3 percent, bought mainly for private hospital rooms and better dental cover.{{3}} In outpatient care, 39 percent of doctors were employees of practices or medical care centers at the end of 2025, while the number of self-employed practice owners fell 1.3 percent in 2025 and 8 percent over five years.{{4}}",
+    "sources": [
+     {
+      "author": "Statistisches Bundesamt (Destatis)",
+      "title": "Zahl der Patientinnen und Patienten steigt im Vorjahresvergleich um 203 000 auf 17,7 Millionen (Pressemitteilung Nr. 376)",
+      "publisher": "Destatis",
+      "date": "28 October 2026",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_376_231.html"
+     },
+     {
+      "author": "PraktischArzt",
+      "title": "Größte Krankenhausträger in Deutschland 2025",
+      "publisher": "PraktischArzt",
+      "date": "2025",
+      "url": "https://www.praktischarzt.de/magazin/groesste-krankenhaustraeger-deutschland-2025/"
+     },
+     {
+      "author": "OECD and European Observatory on Health Systems and Policies",
+      "title": "Germany: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD / European Observatory on Health Systems and Policies",
+      "date": "2025",
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-germany-final-web.pdf"
+     },
+     {
+      "author": "Bundesärztekammer",
+      "title": "Ergebnisse der Ärztestatistik zum 31.12.2025",
+      "publisher": "Bundesärztekammer",
+      "date": "2026",
+      "url": "https://www.bundesaerztekammer.de/baek/ueber-uns/aerztestatistik/2025"
+     }
+    ]
+   },
+   "financing": {
+    "facts": [
+     {
+      "label": "Current health expenditure, share of GDP",
+      "value": "12.27% (2024); 10.59% in 2012{{1}}"
+     },
+     {
+      "label": "Current health expenditure per capita",
+      "value": "US$6,849 (2024, current US$){{2}}"
+     },
+     {
+      "label": "Out-of-pocket share of current health expenditure",
+      "value": "10.7% (2024); 13.5% in 2012{{3}}"
+     },
+     {
+      "label": "Domestic general government share of current health expenditure",
+      "value": "79.1% (2023){{4}}"
+     },
+     {
+      "label": "Public funding share of health spending",
+      "value": "86% (2023); EU average 80%{{5}}"
+     },
+     {
+      "label": "Comparison, current health expenditure share of GDP",
+      "value": "Germany 12.27% (2024), France 11.54% (2024), Canada 11.31% (2024), United Kingdom 11.13% (2024), Japan 10.74% (2023), Australia 10.40% (2023), Netherlands 10.01% (2024), Spain 9.22% (2023), Italy 8.44% (2024), United States 16.69% (2023){{1}}{{6}}"
+     }
+    ],
+    "narrative": "Current health expenditure was 12.3 percent of GDP in 2024, up from 10.6 percent in 2012, and about US$6,849 per person, according to World Bank data.{{1}}{{2}} The OECD profile calls per capita spending the highest in the EU, and public sources, including SHI contributions, substitutive private insurance and tax subsidies, paid 86 percent of health spending in 2023 against an EU average of 80 percent.{{5}} Out-of-pocket payments were 10.7 percent of current health expenditure in 2024, well below the EU average of 16 percent in 2023.{{3}}{{5}} Inpatient care took 27 percent of spending, outpatient care 25 percent and long term care 21 percent.{{5}} Among the comparators, only the United States spends a larger share of GDP.{{1}}{{6}}\n\nFinancing pressure is rising, and the health ministry put the savings needed for 2027 at almost €19 billion (US$21.3 billion), which the 2026 stabilization law addresses, and the federal government says it will provide up to €29 billion (US$32.5 billion) over ten years to support hospital reform.{{7}}{{8}}",
+    "sources": [
+     {
+      "author": "World Bank",
+      "title": "Current health expenditure (% of GDP) (SH.XPD.CHEX.GD.ZS), Germany",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/SH.XPD.CHEX.GD.ZS?format=json"
+     },
+     {
+      "author": "World Bank",
+      "title": "Current health expenditure per capita (current US$) (SH.XPD.CHEX.PC.CD), Germany",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/SH.XPD.CHEX.PC.CD?format=json"
+     },
+     {
+      "author": "World Bank",
+      "title": "Out-of-pocket expenditure (% of current health expenditure) (SH.XPD.OOPC.CH.ZS), Germany",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/SH.XPD.OOPC.CH.ZS?format=json"
+     },
+     {
+      "author": "World Bank",
+      "title": "Domestic general government health expenditure (% of current health expenditure) (SH.XPD.GHED.CH.ZS), Germany",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/SH.XPD.GHED.CH.ZS?format=json"
+     },
+     {
+      "author": "OECD and European Observatory on Health Systems and Policies",
+      "title": "Germany: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD / European Observatory on Health Systems and Policies",
+      "date": "2025",
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-germany-final-web.pdf"
+     },
+     {
+      "author": "World Bank",
+      "title": "Current health expenditure (% of GDP) (SH.XPD.CHEX.GD.ZS), comparator countries",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/FRA;GBR;ITA;ESP;USA;JPN;CAN;AUS;NLD/indicator/SH.XPD.CHEX.GD.ZS?format=json"
+     },
+     {
+      "author": "Federal Ministry of Health",
+      "title": "Bundestag beschließt GKV-Beitragssatzstabilisierungsgesetz",
+      "publisher": "Bundesministerium für Gesundheit",
+      "date": "10 July 2026",
+      "url": "https://www.bundesgesundheitsministerium.de/ministerium/meldungen/bundestag-beschliesst-gkv-beitragssatzstabilisierunggesetz-pm-10-07-2026"
+     },
+     {
+      "author": "Federal Ministry of Health",
+      "title": "Warken: Gemeinsam mit den Ländern verbessern wir die Krankenhausreform an entscheidenden Stellen (Rede im Bundesrat)",
+      "publisher": "Bundesministerium für Gesundheit",
+      "date": "27 March 2026",
+      "url": "https://www.bundesgesundheitsministerium.de/presse/reden/warken-khag-bundesrat-27-03-2026"
+     }
+    ]
+   },
+   "workforce": {
+    "facts": [
+     {
+      "label": "Practicing physicians",
+      "value": "446,120 (31 December 2025), up 2.0% on 2024{{1}}"
+     },
+     {
+      "label": "Physicians per 1,000 people (World Bank)",
+      "value": "4.53 (2022); 3.92 in 2012{{2}}"
+     },
+     {
+      "label": "Physicians per 1,000 people (OECD)",
+      "value": "4.7 (2023){{3}}"
+     },
+     {
+      "label": "Nurses per 1,000 people",
+      "value": "12.3 (2023); EU average 8.5{{3}}"
+     },
+     {
+      "label": "Nurses and midwives per 1,000 people (World Bank)",
+      "value": "12.25 (2022){{4}}"
+     },
+     {
+      "label": "General practitioners, share of physicians",
+      "value": "16% (2023); 20% across 24 EU countries{{3}}"
+     },
+     {
+      "label": "Working doctors aged 60 and over",
+      "value": "23.4% (2025){{1}}"
+     },
+     {
+      "label": "Working doctors without German citizenship",
+      "value": "71,480, or 16% (2025){{1}}"
+     },
+     {
+      "label": "Hospital beds per 1,000 people",
+      "value": "7.55 (2023); EU average 5.1{{3}}{{5}}"
+     },
+     {
+      "label": "Hospital staff",
+      "value": "221,800 doctors and 1,271,700 other staff (end of 2025){{6}}"
+     }
+    ],
+    "narrative": "Germany had 446,120 practicing physicians at the end of 2025, up 2.0 percent, and about 593,000 registered doctors including those not practicing.{{1}} World Bank data put density at 4.53 per 1,000 people in 2022, above France (3.28), the United States (3.68) and the OECD average (3.43), and the OECD reports 4.7 for 2023.{{2}}{{3}} Nurses are plentiful at 12.3 per 1,000 people against an EU average of 8.5, though hospitals and long term care facilities report shortages and the nurse to bed ratio is low.{{3}} General practitioners were 16 percent of physicians in 2023 against 20 percent across 24 EU countries, and since October 2025 GP services have been reimbursed in full without reductions.{{3}}\n\nAge and migration shape supply. Almost a quarter (23.4 percent) of working doctors are 60 or older, and 71,480 doctors, 16 percent of the total, lack German citizenship, most of them working in hospitals.{{1}} Hospitals employed 221,800 doctors and 1,271,700 other staff at the end of 2025.{{6}}",
+    "sources": [
+     {
+      "author": "Bundesärztekammer",
+      "title": "Ergebnisse der Ärztestatistik zum 31.12.2025",
+      "publisher": "Bundesärztekammer",
+      "date": "2026",
+      "url": "https://www.bundesaerztekammer.de/baek/ueber-uns/aerztestatistik/2025"
+     },
+     {
+      "author": "World Bank",
+      "title": "Physicians (per 1,000 people) (SH.MED.PHYS.ZS), Germany and comparators",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/OED;EUU;DEU;FRA;GBR;ITA;ESP;USA;JPN/indicator/SH.MED.PHYS.ZS?format=json&per_page=400&date=2018:2025"
+     },
+     {
+      "author": "OECD and European Observatory on Health Systems and Policies",
+      "title": "Germany: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD / European Observatory on Health Systems and Policies",
+      "date": "2025",
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-germany-final-web.pdf"
+     },
+     {
+      "author": "World Bank",
+      "title": "Nurses and midwives (per 1,000 people) (SH.MED.NUMW.P3), Germany",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/SH.MED.NUMW.P3?format=json"
+     },
+     {
+      "author": "World Bank",
+      "title": "Hospital beds (per 1,000 people) (SH.MED.BEDS.ZS), Germany",
+      "publisher": "World Bank Indicators API (World Development Indicators)",
+      "date": "2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/SH.MED.BEDS.ZS?format=json"
+     },
+     {
+      "author": "Statistisches Bundesamt (Destatis)",
+      "title": "Zahl der Patientinnen und Patienten steigt im Vorjahresvergleich um 203 000 auf 17,7 Millionen (Pressemitteilung Nr. 376)",
+      "publisher": "Destatis",
+      "date": "28 October 2026",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_376_231.html"
+     }
+    ]
+   },
+   "education": {
+    "narrative": "Medical education is a six year university degree under the Medical Licensing Regulations (ÄAppO), with two preclinical years, four clinical years that end in a 48 week practical year, a four month clerkship and a three part state examination; the standard period of study is six years and three months.{{1}} Places are allocated centrally through the Foundation for University Admission. About 20 percent are reserved in advance, for example for hardship cases and for students who commit to work where need is high, such as rural doctors, and of the remaining 80 percent, 30 percent go by school-leaving grades and 60 percent through university selection procedures.{{1}} The Federal Medical Association and the German Medical Assembly have long pressed for more study places.{{1}}\n\nAfter licensing, doctors complete structured specialty training at approved training sites under supervising physicians, ending in an examination and a specialist title; the prescribed times are minimums.{{2}} In 2025, 10,203 doctors with German citizenship and 5,448 with foreign citizenship registered with the state chambers for the first time.{{3}} The OECD counted close to 64,000 foreign trained doctors in 2023, about 12 percent of the medical workforce.{{4}} At the end of 2025 the Federal Medical Association counted 71,480 practicing doctors without German citizenship, or 16 percent.{{5}}",
+    "sources": [
+     {
+      "author": "Bundesärztekammer",
+      "title": "Allgemeine Informationen zum Medizinstudium",
+      "publisher": "Bundesärztekammer",
+      "date": "26 September 2022",
+      "url": "https://www.bundesaerztekammer.de/themen/aerzte/aus-fort-und-weiterbildung/aerztliche-ausbildung/allgemeines"
+     },
+     {
+      "author": "Bundesärztekammer",
+      "title": "Ärztliche Weiterbildung",
+      "publisher": "Bundesärztekammer",
+      "date": "",
+      "url": "https://www.bundesaerztekammer.de/themen/aerzte/aus-fort-und-weiterbildung/aerztliche-weiterbildung"
+     },
+     {
+      "author": "Bundesärztekammer",
+      "title": "Ergebnisse der Ärztestatistik zum 31.12.2025",
+      "publisher": "Bundesärztekammer",
+      "date": "2026",
+      "url": "https://www.bundesaerztekammer.de/baek/ueber-uns/aerztestatistik/2025"
+     },
+     {
+      "author": "OECD and European Observatory on Health Systems and Policies",
+      "title": "Germany: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD / European Observatory on Health Systems and Policies",
+      "date": "2025",
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-germany-final-web.pdf"
+     },
+     {
+      "author": "Bundesärztekammer",
+      "title": "Ergebnisse der Ärztestatistik zum 31.12.2025",
+      "publisher": "Bundesärztekammer",
+      "date": "2026",
+      "url": "https://www.bundesaerztekammer.de/baek/ueber-uns/aerztestatistik/2025"
+     }
+    ]
+   },
+   "outlook": {
+    "narrative": "Demand will keep rising as the population ages. Eurostat projections in the OECD profile put the share of people aged 65 and over at 28 percent by 2050, and 49 percent of those over 65 already lived with multiple chronic conditions in 2022.{{1}}\n\nMoney is the main constraint. The 2026 stabilization law, in force since 30 July 2026, limits spending growth across the health system, raises co-payments by 50 percent and answers a needed saving of almost €19 billion (US$21.3 billion) for 2027.{{2}}{{3}} The estimators' panel expects the average additional contribution to hold at 2.9 percent in 2027, but the health minister said the strain on insurers persists and structural problems must still be solved.{{4}}\n\nStructural reform continues. Adjustments to the hospital reform give the Länder more time and delay the full effect of fixed capacity payments until 2030.{{5}} A primary care system with first effects expected in 2028 is being drafted, and the electronic patient record, opened to all doctors nationwide in April 2025, is meant to connect care settings.{{6}}{{7}}",
+    "sources": [
+     {
+      "author": "OECD and European Observatory on Health Systems and Policies",
+      "title": "Germany: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD / European Observatory on Health Systems and Policies",
+      "date": "2025",
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-germany-final-web.pdf"
+     },
+     {
+      "author": "Federal Ministry of Health",
+      "title": "Bundestag beschließt GKV-Beitragssatzstabilisierungsgesetz",
+      "publisher": "Bundesministerium für Gesundheit",
+      "date": "10 July 2026",
+      "url": "https://www.bundesgesundheitsministerium.de/ministerium/meldungen/bundestag-beschliesst-gkv-beitragssatzstabilisierunggesetz-pm-10-07-2026"
+     },
+     {
+      "author": "Federal Ministry of Health",
+      "title": "Gesetz zur Stabilisierung der Beitragssätze in der gesetzlichen Krankenversicherung (GKV-Beitragssatzstabilisierungsgesetz)",
+      "publisher": "Bundesministerium für Gesundheit",
+      "date": "2026",
+      "url": "https://www.bundesgesundheitsministerium.de/service/gesetze-und-verordnungen/detail/gkv-beitragssatzstabilisierungsgesetz.html"
+     },
+     {
+      "author": "Cornelia Dölger",
+      "title": "Linnemann verspricht stabile Beitragssätze",
+      "publisher": "Pharmazeutische Zeitung",
+      "date": "14 October 2026",
+      "url": "https://www.pharmazeutische-zeitung.de/linnemann-verspricht-stabile-beitragssaetze-171120/"
+     },
+     {
+      "author": "Federal Ministry of Health",
+      "title": "Warken: Gemeinsam mit den Ländern verbessern wir die Krankenhausreform an entscheidenden Stellen (Rede im Bundesrat)",
+      "publisher": "Bundesministerium für Gesundheit",
+      "date": "27 March 2026",
+      "url": "https://www.bundesgesundheitsministerium.de/presse/reden/warken-khag-bundesrat-27-03-2026"
+     },
+     {
+      "author": "Kassenärztliche Bundesvereinigung (KBV)",
+      "title": "Warken bringt Primärversorgungssystem auf den Weg: Auftakt des Dialogprozesses",
+      "publisher": "KBV Praxisnachrichten",
+      "date": "29 January 2026",
+      "url": "https://www.kbv.de/praxis/tools-und-services/praxisnachrichten/2026/01-29/warken-bringt-primaerversorgungssystem-auf-den-weg-auftakt-des-dialogprozesses"
+     },
+     {
+      "author": "Deutsches Ärzteblatt",
+      "title": "Elektronische Patientenakte bundesweit gestartet",
+      "publisher": "Deutsches Ärzteblatt",
+      "date": "29 April 2025",
+      "url": "https://www.aerzteblatt.de/news/elektronische-patientenakte-bundesweit-gestartet"
+     }
+    ]
+   },
+   "competitive_landscape": {
+    "narrative": "Germany's largest hospital groups are domestic: Helios, part of Fresenius, leads a 2025 ranking by beds, followed by Asklepios and Sana, which private health insurers own.{{1}} Foreign operators include Swiss-headquartered Ameos, which took over Klinikum Friedrichshafen in August 2026, and Turkey's Medicana, which took over the Jüdisches Krankenhaus Berlin in 2026.{{5}}{{6}} In December 2025 Vanderbilt Health signed a memorandum of understanding with Charité on education, research and digital health.{{3}}",
+    "closing": "Germany is a destination for patients from abroad, mostly from its neighbors. A research group at Bonn-Rhein-Sieg University counted about 182,200 patients from abroad in 2022, up 17.5 percent on 2021, from 149 countries, with three quarters from neighboring countries and Poland first at 11,270 treatments.{{4}} It estimated revenue of €880 million (US$986 million).{{4}} Demand rose sharply from the United States, Canada, Ireland, Australia and Kuwait.{{4}} No current official count of international patients, or of Germans who travel abroad for care, was found.",
+    "tracker_country": "Germany",
+    "sources": [
+     {
+      "author": "PraktischArzt",
+      "title": "Größte Krankenhausträger in Deutschland 2025",
+      "publisher": "PraktischArzt",
+      "date": "2025",
+      "url": "https://www.praktischarzt.de/magazin/groesste-krankenhaustraeger-deutschland-2025/"
+     },
+     {
+      "author": "Bundeskartellamt",
+      "title": "Bundeskartellamt clears acquisition of Sana-Kliniken in the Ostholstein district by AMEOS",
+      "publisher": "Bundeskartellamt",
+      "date": "14 October 2021",
+      "url": "https://bundeskartellamt.de/SharedDocs/Meldung/EN/Pressemitteilungen/2021/14_10_2021_Ameos_Sana.html"
+     },
+     {
+      "author": "Jill Clendening",
+      "title": "Vanderbilt Health deepens collaboration with Charité–Universitätsmedizin Berlin through memorandum of understanding",
+      "publisher": "Vanderbilt University Medical Center News",
+      "date": "5 December 2025",
+      "url": "https://news.vumc.org/2025/12/05/vanderbilt-health-deepens-collaboration-with-charite-universitatsmedizin-berlin-through-memorandum-of-understanding/"
+     },
+     {
+      "author": "Deutsches Ärzteblatt",
+      "title": "Medizintourismus nach Deutschland stark gestiegen",
+      "publisher": "Deutsches Ärzteblatt",
+      "date": "13 May 2024",
+      "url": "https://www.aerzteblatt.de/news/medizintourismus-nach-deutschland-stark-gestiegen-dcaa4afc-9c6e-4452-86f2-8bd4708bff8b"
+     },
+     {
+      "author": "Verlag INDat",
+      "title": "AMEOS Gruppe übernimmt operativen Betrieb der Klinikum Friedrichshafen GmbH",
+      "publisher": "Verlag INDat",
+      "date": "August 2026",
+      "url": "https://www.der-indat.de/ameos-gruppe-uebernimmt-operativen-betrieb-der-klinikum-friedrichshafen-gmbh/"
+     },
+     {
+      "author": "Eva Rathgeber",
+      "title": "Medicana Health Group übernimmt Jüdisches Krankenhaus Berlin",
+      "publisher": "Unternehmeredition",
+      "date": "2 October 2026",
+      "url": "https://www.unternehmeredition.de/medicana-health-group-uebernimmt-juedisches-krankenhaus-berlin/"
+     }
+    ]
+   }
+  },
+  "recent_developments": [
+   {
+    "date": "2025-04-29",
+    "headline": "Electronic patient record opens to all doctors nationwide",
+    "summary": "All doctors could view and fill the electronic patient record of people with statutory insurance from 29 April 2025.{{1}} Use was to stay voluntary for doctors until 1 October 2025, with sanctions planned from 1 January 2026 for practices and 1 March 2026 for hospitals; about 5 percent of insured people had opted out.{{1}}",
+    "sources": [
+     {
+      "author": "Deutsches Ärzteblatt",
+      "title": "Elektronische Patientenakte bundesweit gestartet",
+      "publisher": "Deutsches Ärzteblatt",
+      "date": "29 April 2025",
+      "url": "https://www.aerzteblatt.de/news/elektronische-patientenakte-bundesweit-gestartet"
+     }
+    ]
+   },
+   {
+    "date": "2026-03-27",
+    "headline": "Bundesrat lets adjustments to the hospital reform pass",
+    "summary": "The Bundesrat let the hospital reform adjustment act pass, with longer transition periods and more exceptions to quality rules.{{1}} The health minister said the fixed capacity payment would be delayed a year and fully effective from 2030, and that the federal government would provide up to €29 billion (US$32.5 billion) over ten years.{{2}}",
+    "sources": [
+     {
+      "author": "beck-aktuell",
+      "title": "Krankenhausreform passiert Bundesrat",
+      "publisher": "beck-aktuell, Verlag C.H. Beck",
+      "date": "27 March 2026",
+      "url": "https://www.beck-aktuell.de/heute-im-recht/rechtspolitik-gesetzgebung/bundesrat-krankenhausreform-kritik-bundeslaender-2026-03-27"
+     },
+     {
+      "author": "Federal Ministry of Health",
+      "title": "Warken: Gemeinsam mit den Ländern verbessern wir die Krankenhausreform an entscheidenden Stellen (Rede im Bundesrat)",
+      "publisher": "Bundesministerium für Gesundheit",
+      "date": "27 March 2026",
+      "url": "https://www.bundesgesundheitsministerium.de/presse/reden/warken-khag-bundesrat-27-03-2026"
+     }
+    ]
+   },
+   {
+    "date": "2026-07-10",
+    "headline": "Parliament passes the statutory insurance contribution stabilization law",
+    "summary": "The Bundestag and Bundesrat passed the GKV contribution stabilization law on 10 July 2026, and it took effect on 30 July.{{1}}{{2}} It ties spending growth to income growth, raises co-payments by 50 percent and was needed to close a gap of almost €19 billion (US$21.3 billion) for 2027.{{1}}",
+    "sources": [
+     {
+      "author": "Federal Ministry of Health",
+      "title": "Bundestag beschließt GKV-Beitragssatzstabilisierungsgesetz",
+      "publisher": "Bundesministerium für Gesundheit",
+      "date": "10 July 2026",
+      "url": "https://www.bundesgesundheitsministerium.de/ministerium/meldungen/bundestag-beschliesst-gkv-beitragssatzstabilisierunggesetz-pm-10-07-2026"
+     },
+     {
+      "author": "Federal Ministry of Health",
+      "title": "Gesetz zur Stabilisierung der Beitragssätze in der gesetzlichen Krankenversicherung (GKV-Beitragssatzstabilisierungsgesetz)",
+      "publisher": "Bundesministerium für Gesundheit",
+      "date": "2026",
+      "url": "https://www.bundesgesundheitsministerium.de/service/gesetze-und-verordnungen/detail/gkv-beitragssatzstabilisierungsgesetz.html"
+     }
+    ]
+   },
+   {
+    "date": "2026-07-29",
+    "headline": "Carsten Linnemann becomes federal health minister",
+    "summary": "After Jens Spahn resigned as leader of the CDU/CSU parliamentary group, Chancellor Merz reshuffled the cabinet in July 2026.{{1}}{{2}} CDU general secretary Carsten Linnemann replaced Nina Warken as health minister on 29 July 2026, and Warken moved to head the Chancellery.{{4}}{{1}}",
+    "sources": [
+     {
+      "author": "ZDF",
+      "title": "Warken wird Kanzleramtschefin, Linnemann Gesundheitsminister",
+      "publisher": "ZDFheute",
+      "date": "23 July 2026",
+      "url": "https://www.zdfheute.de/politik/nina-warken-kanzleramt-nachfolge-frei-spahn-100.html"
+     },
+     {
+      "author": "Deutsches Ärzteblatt",
+      "title": "Kabinettsumbildung: Warken geht ins Kanzleramt, Linnemann übernimmt Gesundheitsressort",
+      "publisher": "Deutsches Ärzteblatt",
+      "date": "23 July 2026",
+      "url": "https://www.aerzteblatt.de/news/kabinettsumbildung-warken-geht-ins-kanzleramt-linnemann-ubernimmt-gesundheitsressort-db8bf707-67f4-4c7e-8d68-73e919222c52"
+     },
+     {
+      "author": "Cornelia Dölger",
+      "title": "Linnemann verspricht stabile Beitragssätze",
+      "publisher": "Pharmazeutische Zeitung",
+      "date": "14 October 2026",
+      "url": "https://www.pharmazeutische-zeitung.de/linnemann-verspricht-stabile-beitragssaetze-171120/"
+     },
+     {
+      "author": "Bundesregierung",
+      "title": "Bundespräsident Steinmeier ernennt neue Ministerin und Minister",
+      "publisher": "Bundesregierung",
+      "date": "2026-07-29",
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/ernennung-neue-minister-2448632"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-14",
+    "headline": "Estimators expect the average additional contribution to stay at 2.9 percent in 2027",
+    "summary": "The GKV estimators' panel calculated an unchanged average additional contribution rate of 2.9 percent for 2027, with insurer spending rising to €378.1 billion (US$424 billion).{{1}} Minister Linnemann credited the stabilization law, which relieves insurers by up to €15 billion (US$16.8 billion), and said the financial situation stays tense.{{1}}",
+    "sources": [
+     {
+      "author": "Cornelia Dölger",
+      "title": "Linnemann verspricht stabile Beitragssätze",
+      "publisher": "Pharmazeutische Zeitung",
+      "date": "14 October 2026",
+      "url": "https://www.pharmazeutische-zeitung.de/linnemann-verspricht-stabile-beitragssaetze-171120/"
+     }
+    ]
+   }
+  ]
+ },
+ "resolution_log": [
+  "Draft produced 30 October 2026 from World Bank series (germany_wb.json), Destatis, Bundesärztekammer, BMG, Bundesbank, the OECD and European Observatory Country Health Profile 2025 (read as PDF), and press sources. No verifier pass has been run yet.",
+  "Not readable from this environment: oecd.org country note (403), healthcarebusinessinternational.com (403), euronews (406), sheba-global.com (403), CIA World Factbook (script rendered). GDP (PPP) world rank was not stated by any opened source and is left out.",
+  "Points for verifiers: (1) EU profile gives 22% for the 65 and over share in 2024 (Eurostat) while the World Bank series gives 23.2% for 2024 and 23.7% for 2025; both are used in separate places and labeled. (2) The OECD profile gives physician density 4.7 (2023) and the World Bank 4.53 (2022); both appear with years. (3) Largest hospital group sizes come from a physician job portal ranking (PraktischArzt 2025); verify against Fresenius, Asklepios, Sana and Ameos reports. (4) Ameos sentence rests on the 2021 Bundeskartellamt release only; current ownership not confirmed. (5) Linnemann reshuffle date: ZDF and Ärzteblatt of 23 July 2026 report the plan, the Pharmazeutische Zeitung of 14 October 2026 names him minister; confirm formal appointment date. (6) Percent shares of deaths (33.2, 23.5, 8.1) were computed from Destatis counts. (7) International patient count is a university estimate (May 2024), not an official statistic.",
+  "Money converted with scripts/fx.py (data/fx_rates.json). The OECD figure of EUR 5,414 per capita is PPP adjusted, so it was not converted; World Bank US$6,849 is used instead.",
+  "Resolution 30 Oct 2026: Linnemann appointment dated 29 July 2026 (Bundesregierung); Q2 2026 GDP updated to the revised +0.3% and +1.0%; private-insurance threshold set to 2026 figure EUR 77,400; hospital group bed counts removed (job-portal ranking conflicted with company data); Ameos and Medicana added as foreign operators; Carlyle/ICG sentence dropped; foreign doctor count relabeled and BAEK 2025 figure added; ePA sanction dates reworded as planned; 65+ 22% Eurostat sentence dropped to avoid conflict with World Bank 23.7%; seats dated to May 2025 election."
+ ],
+ "csi_manual": {
+  "patient_volume_and_revenue": "",
+  "referral_sources": "",
+  "relationship_history": "",
+  "complications": "",
+  "key_contacts": "",
+  "opportunities": "",
+  "csi_recommendation": ""
+ },
+ "charts": [
+  {
+   "id": "spending",
+   "page": "health",
+   "kind": "line",
+   "title": "Germany: health spending and out-of-pocket share, 2012 to 2024",
+   "unit": "%",
+   "note": "Current health expenditure as a share of GDP, and out-of-pocket spending as a share of current health expenditure; 2024 is the latest year in the series.",
+   "highlight": "Germany",
+   "split": true,
+   "series": [
+    {
+     "name": "Current health expenditure (% of GDP)",
+     "points": [
+      [
+       "2012",
+       10.59
+      ],
+      [
+       "2013",
+       10.74
+      ],
+      [
+       "2014",
+       10.77
+      ],
+      [
+       "2015",
+       10.92
+      ],
+      [
+       "2016",
+       10.97
+      ],
+      [
+       "2017",
+       11.05
+      ],
+      [
+       "2018",
+       11.18
+      ],
+      [
+       "2019",
+       11.43
+      ],
+      [
+       "2020",
+       12.47
+      ],
+      [
+       "2021",
+       12.72
+      ],
+      [
+       "2022",
+       12.45
+      ],
+      [
+       "2023",
+       11.74
+      ],
+      [
+       "2024",
+       12.27
+      ]
+     ]
+    },
+    {
+     "name": "Out-of-pocket (% of current health expenditure)",
+     "points": [
+      [
+       "2012",
+       13.49
+      ],
+      [
+       "2013",
+       12.69
+      ],
+      [
+       "2014",
+       12.35
+      ],
+      [
+       "2015",
+       12.35
+      ],
+      [
+       "2016",
+       12.19
+      ],
+      [
+       "2017",
+       12.02
+      ],
+      [
+       "2018",
+       12.18
+      ],
+      [
+       "2019",
+       12.38
+      ],
+      [
+       "2020",
+       11.34
+      ],
+      [
+       "2021",
+       11.36
+      ],
+      [
+       "2022",
+       10.43
+      ],
+      [
+       "2023",
+       11.05
+      ],
+      [
+       "2024",
+       10.71
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Bank",
+     "title": "Current health expenditure (% of GDP) (SH.XPD.CHEX.GD.ZS), Germany",
+     "publisher": "World Bank Indicators API (World Development Indicators)",
+     "date": "2026-10-08",
+     "url": "https://api.worldbank.org/v2/country/DEU/indicator/SH.XPD.CHEX.GD.ZS?format=json"
+    },
+    {
+     "author": "World Bank",
+     "title": "Out-of-pocket expenditure (% of current health expenditure) (SH.XPD.OOPC.CH.ZS), Germany",
+     "publisher": "World Bank Indicators API (World Development Indicators)",
+     "date": "2026-10-08",
+     "url": "https://api.worldbank.org/v2/country/DEU/indicator/SH.XPD.OOPC.CH.ZS?format=json"
+    }
+   ]
+  },
+  {
+   "id": "workforce",
+   "page": "health",
+   "kind": "bar",
+   "title": "Physicians per 1,000 people, Germany and comparators (latest year available)",
+   "unit": "per 1,000",
+   "note": "Latest year available for each country in the World Bank series, shown in brackets; comparison years differ (2022 and 2023). OECD and EU are group averages from the same series.",
+   "highlight": "Germany (2022)",
+   "series": [
+    {
+     "name": "Physicians per 1,000",
+     "points": [
+      [
+       "Japan (2022)",
+       2.65
+      ],
+      [
+       "France (2022)",
+       3.28
+      ],
+      [
+       "United Kingdom (2023)",
+       3.3
+      ],
+      [
+       "OECD (2022)",
+       3.43
+      ],
+      [
+       "United States (2022)",
+       3.68
+      ],
+      [
+       "EU (2022)",
+       4.15
+      ],
+      [
+       "Italy (2022)",
+       4.19
+      ],
+      [
+       "Spain (2022)",
+       4.29
+      ],
+      [
+       "Germany (2022)",
+       4.53
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Bank",
+     "title": "Physicians (per 1,000 people) (SH.MED.PHYS.ZS), Germany and comparators",
+     "publisher": "World Bank Indicators API (World Development Indicators)",
+     "date": "2026-10-08",
+     "url": "https://api.worldbank.org/v2/country/OED;EUU;DEU;FRA;GBR;ITA;ESP;USA;JPN/indicator/SH.MED.PHYS.ZS?format=json&per_page=400&date=2018:2025"
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "page": "market",
+   "kind": "line",
+   "title": "Germany: hospital beds per 1,000 people, 2010 to 2023",
+   "unit": "per 1,000",
+   "note": "Hospital beds as reported to the World Bank, public and private; 2023 is the latest year in the series.",
+   "highlight": "2023",
+   "series": [
+    {
+     "name": "Hospital beds per 1,000",
+     "points": [
+      [
+       "2010",
+       8.34
+      ],
+      [
+       "2011",
+       8.32
+      ],
+      [
+       "2012",
+       8.29
+      ],
+      [
+       "2013",
+       8.24
+      ],
+      [
+       "2014",
+       8.19
+      ],
+      [
+       "2015",
+       8.09
+      ],
+      [
+       "2016",
+       8.02
+      ],
+      [
+       "2017",
+       7.96
+      ],
+      [
+       "2018",
+       7.94
+      ],
+      [
+       "2019",
+       7.87
+      ],
+      [
+       "2020",
+       7.77
+      ],
+      [
+       "2021",
+       7.71
+      ],
+      [
+       "2022",
+       7.64
+      ],
+      [
+       "2023",
+       7.55
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Bank",
+     "title": "Hospital beds (per 1,000 people) (SH.MED.BEDS.ZS), Germany",
+     "publisher": "World Bank Indicators API (World Development Indicators)",
+     "date": "2026-10-08",
+     "url": "https://api.worldbank.org/v2/country/DEU/indicator/SH.MED.BEDS.ZS?format=json"
+    }
+   ]
+  }
+ ]
+}

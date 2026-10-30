@@ -1,0 +1,202 @@
+{
+ "note": "Each partnership is placed in the German partner's home city; Potsdam is shown as Berlin, and AMEOS, which runs sites across Germany, is placed at Friedrichshafen, one of its newest sites.",
+ "bounds": [
+  5.3,
+  15.6,
+  47.0,
+  55.2
+ ],
+ "metros": [
+  "Berlin",
+  "Munich"
+ ],
+ "cities": {
+  "Berlin": [
+   [
+    13.4,
+    52.52
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Heidelberg": [
+   [
+    8.69,
+    49.4
+   ],
+   [
+    -12,
+    0
+   ]
+  ],
+  "Munich": [
+   [
+    11.58,
+    48.14
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Regensburg": [
+   [
+    12.1,
+    49.01
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Kiel": [
+   [
+    10.14,
+    54.32
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Münster": [
+   [
+    7.63,
+    51.96
+   ],
+   [
+    -12,
+    0
+   ]
+  ],
+  "Calbe": [
+   [
+    11.77,
+    51.9
+   ],
+   [
+    -12,
+    0
+   ]
+  ],
+  "Erlangen": [
+   [
+    11.01,
+    49.6
+   ],
+   [
+    -12,
+    0
+   ]
+  ],
+  "Friedrichshafen": [
+   [
+    9.48,
+    47.65
+   ],
+   [
+    -12,
+    0
+   ]
+  ]
+ },
+ "locations": {
+  "germany--duke-university-duke-global-health-and-school-of-medicine--technical-university-of-munich-tum": {
+   "cities": [
+    "Munich"
+   ]
+  },
+  "germany--harvard-university-including-harvard-medical-school--heidelberg-university-medical-faculty-and-university-hospital-researchers": {
+   "cities": [
+    "Heidelberg"
+   ]
+  },
+  "germany--mount-sinai-health-system-icahn-school-of-medicine-at-mount-sinai--hasso-plattner-institute-potsdam": {
+   "cities": [
+    "Berlin"
+   ]
+  },
+  "germany--northwestern-university-feinberg-school-of-medicine--helmholtz-munich": {
+   "cities": [
+    "Munich"
+   ]
+  },
+  "germany--university-of-california-san-francisco-quantitative-biosciences-institute--freie-universit-t-berlin": {
+   "cities": [
+    "Berlin"
+   ]
+  },
+  "germany--university-of-kansas-university-of-kansas-medical-center--university-of-regensburg-including-its-medical-faculty-and-university-hospital-research-ties": {
+   "cities": [
+    "Regensburg"
+   ]
+  },
+  "germany--vanderbilt-university-medical-center-vanderbilt-health--charit-universit-tsmedizin-berlin-with-berlin-institute-of-health-and-german-heart-center": {
+   "cities": [
+    "Berlin"
+   ]
+  },
+  "germany--ameos-gruppe--ameos-klinika-in-germany-multiple-sites-e-g-warendorf-friedrichshafen-haldensleben": {
+   "cities": [
+    "Friedrichshafen"
+   ]
+  },
+  "germany--institute-of-science-tokyo--kiel-university-faculty-of-medicine-with-uksh-kiel": {
+   "cities": [
+    "Kiel"
+   ]
+  },
+  "germany--karolinska-university-hospital-and-karolinska-institutet--charit-universit-tsmedizin-berlin": {
+   "cities": [
+    "Berlin"
+   ]
+  },
+  "germany--lithuanian-university-of-health-sciences-lsmu-kaunas--kiel-university-faculty-of-medicine-and-uksh": {
+   "cities": [
+    "Kiel"
+   ]
+  },
+  "germany--medicana-health-group--j-disches-krankenhaus-berlin": {
+   "cities": [
+    "Berlin"
+   ]
+  },
+  "germany--medicover--saale-krankenhaus-calbe-formerly-awo-krankenhaus-calbe": {
+   "cities": [
+    "Calbe"
+   ]
+  },
+  "germany--medisch-spectrum-twente-mst--university-hospital-m-nster-ukm-and-university-of-m-nster": {
+   "cities": [
+    "Münster"
+   ]
+  },
+  "germany--samsung-comprehensive-cancer-center-samsung-medical-center--charit-universit-tsmedizin-berlin-charit-comprehensive-cancer-center": {
+   "cities": [
+    "Berlin"
+   ]
+  },
+  "germany--sheba-medical-center--charit-universit-tsmedizin-berlin": {
+   "cities": [
+    "Berlin"
+   ]
+  },
+  "germany--tongji-hospital-huazhong-university-of-science-and-technology--heidelberg-university-hospital-center-for-rare-diseases": {
+   "cities": [
+    "Heidelberg"
+   ]
+  },
+  "germany--west-china-hospital-sichuan-university--friedrich-alexander-universit-t-erlangen-n-rnberg-fau": {
+   "cities": [
+    "Erlangen"
+   ]
+  },
+  "germany--zhejiang-cancer-hospital--charit-universit-tsmedizin-berlin-charit-comprehensive-cancer-center": {
+   "cities": [
+    "Berlin"
+   ]
+  }
+ }
+}

@@ -1339,6 +1339,892 @@
       "id": "egypt--university-of-hertfordshire--cleopatra-hospitals-group"
     },
     {
+      "foreign_institution": "Duke University (Duke Global Health and School of Medicine)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Technical University of Munich (TUM)",
+      "partner_city": "Munich",
+      "type": "Research collaboration",
+      "description": "Duke and TUM signed a memorandum of understanding at the end of April 2025 covering engineering, medicine, AI and global health, with joint research, faculty and student exchange and workshops. Duke joined the TUM Global Incentive Fund.",
+      "status": "Active",
+      "start": "2025-04",
+      "end": "",
+      "last_evidence": "2025-05",
+      "evidence": "Duke Global Affairs and TUM International both announced the signed memorandum in May 2025.",
+      "sources": [
+        {
+          "author": "Duke Global Affairs",
+          "title": "Duke and TUM Launch Strategic Partnership",
+          "publisher": "Duke University",
+          "date": "2025-05",
+          "url": "https://global.duke.edu/duke-tum-launch-strategic-partnership"
+        },
+        {
+          "author": "TUM International",
+          "title": "TUM and Duke University launch partnership in engineering and global health",
+          "publisher": "Technical University of Munich",
+          "date": "2025-05-05",
+          "url": "https://www.international.tum.de/en/global/news/article/tum-and-duke-university-launch-partnership-in-engineering-and-global-health"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--duke-university-duke-global-health-and-school-of-medicine--technical-university-of-munich-tum"
+    },
+    {
+      "foreign_institution": "Harvard University (including Harvard Medical School)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Heidelberg University (Medical Faculty and University Hospital researchers)",
+      "partner_city": "Heidelberg",
+      "type": "Research collaboration",
+      "description": "Heidelberg University and Harvard University signed a memorandum of understanding in August 2025 to turn long-standing contacts into a permanent partnership, backed by 10 million euros from Baden-Württemberg. The first 23 joint projects started in April 2026.",
+      "status": "Active",
+      "start": "2025-08",
+      "end": "",
+      "last_evidence": "2026-05",
+      "evidence": "Heidelberg press release 47/2026 of 28 May 2026 reports project funding started 1 April 2026 under the August 2025 memorandum. The memorandum was signed on 28 August 2025 between Harvard University and Heidelberg University as a whole; medicine is one of several fields.",
+      "sources": [
+        {
+          "author": "Heidelberg University",
+          "title": "Partnership Between Heidelberg and Harvard: Implementation of Initial Projects Begins",
+          "publisher": "Heidelberg University",
+          "date": "2026-05-28",
+          "url": "https://www.uni-heidelberg.de/en/newsroom/partnership-between-heidelberg-and-harvard-implementation-of-initial-projects-begins"
+        },
+        {
+          "author": "Heidelberg University",
+          "title": "Institutional Partnership: Heidelberg and Harvard Sign Memorandum of Understanding",
+          "publisher": "Heidelberg University",
+          "date": "2025-09-23",
+          "url": "https://www.uni-heidelberg.de/en/newsroom/institutional-partnership-heidelberg-and-harvard-sign-memorandum-of-understanding"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--harvard-university-including-harvard-medical-school--heidelberg-university-medical-faculty-and-university-hospital-researchers"
+    },
+    {
+      "foreign_institution": "Mount Sinai Health System (Icahn School of Medicine at Mount Sinai)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Hasso Plattner Institute, Potsdam",
+      "partner_city": "Potsdam",
+      "type": "Research collaboration",
+      "description": "Mount Sinai and the Hasso Plattner Institute run the Hasso Plattner Institute for Digital Health at Mount Sinai, set up in 2019 with a 15 million dollar gift. In 2026 they added a graduate student exchange program in AI and digital health.",
+      "status": "Active",
+      "start": "2019-03",
+      "end": "",
+      "last_evidence": "2026-10",
+      "evidence": "The institute was announced in March 2019. Pulse 2.0 reported on 2 October 2026 that Icahn School of Medicine and the Hasso Plattner Institute launched a graduate exchange program accepting applications from fall 2026.",
+      "sources": [
+        {
+          "author": "News-Medical",
+          "title": "New Hasso Plattner Institute for Digital Health launched at Mount Sinai",
+          "publisher": "News-Medical",
+          "date": "2019-03-29",
+          "url": "https://www.news-medical.net/news/20190329/New-Hasso-Plattner-Institute-for-Digital-Health-launched-at-Mount-Sinai.aspx"
+        },
+        {
+          "author": "Amit Chowdhry",
+          "title": "Mount Sinai And Hasso Plattner Institute Launch Graduate Exchange Program For Digital Health And AI",
+          "publisher": "Pulse 2.0",
+          "date": "2026-10-02",
+          "url": "https://pulse2.com/mount-sinai-and-hasso-plattner-institute-launch-graduate-exchange-program-for-digital-health-and-ai/amp/"
+        },
+        {
+          "author": "Mount Sinai",
+          "title": "Mount Sinai and Hasso Plattner Institute Launch International Graduate Student Exchange Program to Advance Digital Health and AI Innovation",
+          "publisher": "Mount Sinai Health System",
+          "date": "1 October 2026",
+          "url": "https://www.mountsinai.org/about/newsroom/2026/mount-sinai-and-hasso-plattner-institute-launch-international-graduate-student-exchange-program-to-advance-digital-health-and-ai-innovation"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--mount-sinai-health-system-icahn-school-of-medicine-at-mount-sinai--hasso-plattner-institute-potsdam"
+    },
+    {
+      "foreign_institution": "Northwestern University (Feinberg School of Medicine)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Helmholtz Munich",
+      "partner_city": "Munich",
+      "type": "Research collaboration",
+      "description": "Helmholtz Munich and Northwestern University Feinberg School of Medicine signed a memorandum of understanding in September 2024 to collaborate on machine learning in healthcare. The agreement supports joint research and scientific stays of early career researchers, with a first visit and a Bavarian-funded project already under way by June 2025.",
+      "status": "Active",
+      "start": "2024-09",
+      "end": "",
+      "last_evidence": "2025-06",
+      "evidence": "Helmholtz Munich news item of 17 June 2025 states the MoU was signed in September 2024, a first research visit followed, and a PhD student received BayIntAn funding for a project with a Northwestern lab.",
+      "sources": [
+        {
+          "author": "Mathieu Seyfrid",
+          "title": "Helmholtz Munich and Northwestern University Partner to Advance Machine Learning in Health",
+          "publisher": "Helmholtz Munich",
+          "date": "2025-06-17",
+          "url": "https://www.helmholtz-munich.de/en/aih/news-detailseite/helmholtz-munich-and-northwestern-university-partner-to-advance-machine-learning-in-health-1"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--northwestern-university-feinberg-school-of-medicine--helmholtz-munich"
+    },
+    {
+      "foreign_institution": "University of California San Francisco (Quantitative Biosciences Institute)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Freie Universität Berlin",
+      "partner_city": "Berlin",
+      "type": "Research collaboration",
+      "description": "UCSF's Quantitative Biosciences Institute and Freie Universität Berlin run joint symposia and a pilot research funding call in structural biology and neuropsychiatric disease. A UCSF scientist holds an Einstein Visiting Fellowship at the university.",
+      "status": "Active",
+      "start": "2023",
+      "end": "",
+      "last_evidence": "2026-10",
+      "evidence": "The QBI collaboration page lists the Einstein Visiting Fellowship (January 2025) and a third joint symposium in Berlin in September 2026.",
+      "sources": [
+        {
+          "author": "UCSF Quantitative Biosciences Institute",
+          "title": "Freie Universität Berlin collaboration",
+          "publisher": "UCSF QBI",
+          "date": "2026-10-01",
+          "url": "https://qbi.ucsf.edu/collaborations/freie-universitat-berlin"
+        },
+        {
+          "author": "Freie Universität Berlin",
+          "title": "Delegation visit on the UCSF collaboration",
+          "publisher": "Freie Universität Berlin",
+          "date": "2025-03-20",
+          "url": "https://www.fu-berlin.de/en/international/news-events/meldungen/2025-university-sanfrancisco/index.html"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--university-of-california-san-francisco-quantitative-biosciences-institute--freie-universit-t-berlin"
+    },
+    {
+      "foreign_institution": "University of Kansas (University of Kansas Medical Center)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "University of Regensburg (including its medical faculty and university hospital research ties)",
+      "partner_city": "Regensburg",
+      "type": "Research collaboration",
+      "description": "KU and the University of Regensburg signed an institution-wide strategic partnership on 4 November 2025 covering exchanges and joint research, with immunology and cancer research named through KU Medical Center. The German party is the university as a whole, which has a medical school and university hospital.",
+      "status": "Active",
+      "start": "2025-11",
+      "end": "",
+      "last_evidence": "2025-11",
+      "evidence": "KU press release of 5 Nov 2025 and University of Regensburg release of 10 Nov 2025 both date the signing to 4 November 2025. The agreement is university-level, so treat it as borderline like Harvard-Heidelberg.",
+      "sources": [
+        {
+          "author": "University of Kansas",
+          "title": "University of Kansas signs historic strategic partnership with University of Regensburg, marking KU's first comprehensive international alliance",
+          "publisher": "University of Kansas News",
+          "date": "2025-11-05",
+          "url": "https://news.ku.edu/news/article/university-of-kansas-signs-historic-strategic-partnership-with-university-of-regensburg-marking-kus-first-comprehensive-international-alliance"
+        },
+        {
+          "author": "Universität Regensburg",
+          "title": "Universität Regensburg schließt Strategische Partnerschaft mit der University of Kansas",
+          "publisher": "Universität Regensburg",
+          "date": "2025-11-10",
+          "url": "https://www.uni-regensburg.de/universitaet/aktuelles/nachrichten/nachricht/10-11-2025_universitaet-regensburg-schliesst-strategische-partnerschaft-mit-der-university-of-kansas"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--university-of-kansas-university-of-kansas-medical-center--university-of-regensburg-including-its-medical-faculty-and-university-hospital-research-ties"
+    },
+    {
+      "foreign_institution": "Vanderbilt University Medical Center (Vanderbilt Health)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Charité - Universitätsmedizin Berlin (with Berlin Institute of Health and German Heart Center)",
+      "partner_city": "Berlin",
+      "type": "Research collaboration",
+      "description": "Vanderbilt Health and Charité signed a memorandum of understanding to expand work in medical education, clinical research, digital health and translational science. It formalizes joint working groups and a student exchange agreement.",
+      "status": "Active",
+      "start": "2025-12",
+      "end": "",
+      "last_evidence": "2026-10",
+      "evidence": "VUMC announced the signed memorandum on 5 December 2025, and a VUMC article of 12 October 2026 reports a symposium and pilot research projects strengthening the Vanderbilt and Charité tie.",
+      "sources": [
+        {
+          "author": "Vanderbilt University Medical Center",
+          "title": "Vanderbilt Health deepens collaboration with Charité-Universitätsmedizin Berlin through memorandum of understanding",
+          "publisher": "VUMC Reporter",
+          "date": "2025-12-05",
+          "url": "https://news.vumc.org/2025/12/05/vanderbilt-health-deepens-collaboration-with-charite-universitatsmedizin-berlin-through-memorandum-of-understanding/"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--vanderbilt-university-medical-center-vanderbilt-health--charit-universit-tsmedizin-berlin-with-berlin-institute-of-health-and-german-heart-center"
+    },
+    {
+      "foreign_institution": "AMEOS Gruppe",
+      "foreign_country": "Switzerland",
+      "group": "Other foreign health systems",
+      "indian_partner": "AMEOS Klinika in Germany (multiple sites, e.g. Warendorf, Friedrichshafen, Haldensleben)",
+      "partner_city": "Multiple",
+      "type": "Ownership or management",
+      "description": "Zurich headquartered hospital operator AMEOS owns and runs a large number of hospitals and psychiatric and rehabilitation clinics in Germany, and has added sites through purchases such as Josephs-Hospital Warendorf and Klinikum Friedrichshafen. It also operates in Austria and Switzerland.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-10",
+      "evidence": "AMEOS took over operation of Klinikum Friedrichshafen GmbH on 1 August 2026 (AMEOS release); site news pages carry items to 9 October 2026. Start year of German operations not verified.",
+      "sources": [
+        {
+          "author": "AMEOS Gruppe",
+          "title": "AMEOS Klinikum Goslar: Aktuelles",
+          "publisher": "AMEOS Gruppe",
+          "date": "2026-10-09",
+          "url": "https://www.ameos.eu/klinikum-goslar/aktuelles/nachrichten/"
+        },
+        {
+          "author": "Forvis Mazars",
+          "title": "Forvis Mazars berät AMEOS Gruppe bei Erwerb des Josephs-Hospital Warendorf",
+          "publisher": "Forvis Mazars",
+          "date": "",
+          "url": "https://www.forvismazars.com/de/en/who-we-are/news/press-media/press/deal-announcements/forvis-mazars-beraet-ameos-gruppe"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--ameos-gruppe--ameos-klinika-in-germany-multiple-sites-e-g-warendorf-friedrichshafen-haldensleben"
+    },
+    {
+      "foreign_institution": "Institute of Science Tokyo",
+      "foreign_country": "Japan",
+      "group": "Other foreign health systems",
+      "indian_partner": "Kiel University Faculty of Medicine (with UKSH Kiel)",
+      "partner_city": "Kiel",
+      "type": "Training and education",
+      "description": "The medical faculties of Kiel University and Tokyo Medical and Dental University (now Institute of Science Tokyo) agreed a cooperation in 2023. On 10 October 2024 a Schleswig-Holstein delegation signed an exchange agreement in Tokyo under the Clinician Scientist Program.",
+      "status": "Active",
+      "start": "2023",
+      "end": "",
+      "last_evidence": "2024-10",
+      "evidence": "Science Tokyo news item of 24 October 2024 describes the 2023 faculty agreement and the signing of the exchange program agreement on 10 October 2024. UKSH is not named as signatory.",
+      "sources": [
+        {
+          "author": "Science Tokyo",
+          "title": "A delegation from the Schleswig-Holstein state government in northern Germany and Kiel University visits Science Tokyo",
+          "publisher": "Institute of Science Tokyo",
+          "date": "2024-10-24",
+          "url": "https://www.isct.ac.jp/en/news/t3xos3usmu5a/"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--institute-of-science-tokyo--kiel-university-faculty-of-medicine-with-uksh-kiel"
+    },
+    {
+      "foreign_institution": "Karolinska University Hospital and Karolinska Institutet",
+      "foreign_country": "Sweden",
+      "group": "Other foreign health systems",
+      "indian_partner": "Charité - Universitätsmedizin Berlin",
+      "partner_city": "Berlin",
+      "type": "Research collaboration",
+      "description": "The two Karolinska institutions signed a memorandum of understanding with Charité on 17 October 2023 at the World Health Summit to share knowledge, staff and students and to work on precision medicine and cell and gene therapy trials. Karolinska Institutet runs annual collaboration grants under the agreement.",
+      "status": "Active",
+      "start": "2023-10",
+      "end": "",
+      "last_evidence": "2025-11",
+      "evidence": "KI news item of 17 October 2023 (updated 10 September 2025) reports the signing. Charité news item of 7 November 2025 reports on the collaboration.",
+      "sources": [
+        {
+          "author": "Karolinska Institutet",
+          "title": "Karolinska Institutet ramps up cooperation with Charité",
+          "publisher": "Karolinska Institutet",
+          "date": "2023-10-17",
+          "url": "https://news.ki.se/karolinska-institutet-ramps-up-cooperation-with-charite"
+        },
+        {
+          "author": "Karolinska Institutet",
+          "title": "Collaboration in Germany",
+          "publisher": "Karolinska Institutet",
+          "date": "2025",
+          "url": "https://ki.se/en/collaboration/collaboration-in-germany"
+        },
+        {
+          "author": "Karolinska Universitetssjukhuset",
+          "title": "Karolinska Universitetssjukhuset och Karolinska Institutet stärker samarbetet med Charité",
+          "publisher": "Karolinska University Hospital",
+          "date": "2023-10",
+          "url": "https://www.karolinska.se/om-oss/centrala-nyheter/2023/10/karolinska-universitetssjukhuset-och-karolinska-institutet-starker-samarbetet-med-charite/"
+        },
+        {
+          "author": "Charité",
+          "title": "Shaping the Future of Medicine: Karolinska and Charité Deepen Their Collaboration",
+          "publisher": "Charité – Universitätsmedizin Berlin",
+          "date": "7 November 2025",
+          "url": "https://www.charite.de/en/international/themen_international/gemeinsam_die_medizin_der_zukunft_gestalten_karolinska_und_charite_setzen_neue_akzente_fuer_die_zusammenarbeit"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--karolinska-university-hospital-and-karolinska-institutet--charit-universit-tsmedizin-berlin"
+    },
+    {
+      "foreign_institution": "Lithuanian University of Health Sciences (LSMU), Kaunas",
+      "foreign_country": "Lithuania",
+      "group": "Other foreign health systems",
+      "indian_partner": "Kiel University Faculty of Medicine and UKSH",
+      "partner_city": "Kiel",
+      "type": "Research collaboration",
+      "description": "LSMU, the Kiel University Faculty of Medicine and UKSH signed a memorandum of understanding on 25 March 2026 to formalise a twenty year research partnership. A Kaunas-Kiel Microbiome and Precision Medicine Center is being set up at LSMU.",
+      "status": "Active",
+      "start": "2026-03",
+      "end": "",
+      "last_evidence": "2026-03",
+      "evidence": "Kiel precisionmedicine.de news item reports the signing on 25 March 2026 with UKSH CEO Jens Scholz present.",
+      "sources": [
+        {
+          "author": "Kiel University / precisionmedicine.de",
+          "title": "Connecting Horizons: Kiel and Lithuanian LSMU Kaunas seal their twenty-year research partnership",
+          "publisher": "precisionmedicine.de",
+          "date": "2026-03",
+          "url": "https://www.precisionmedicine.de/en/details/news/connecting-horizons-kiel-und-die-litauische-lsmu-kaunas-besiegeln-ihre-zwanzigjaehrige-forschungspartnerschaft"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--lithuanian-university-of-health-sciences-lsmu-kaunas--kiel-university-faculty-of-medicine-and-uksh"
+    },
+    {
+      "foreign_institution": "Medicana Health Group",
+      "foreign_country": "Turkey",
+      "group": "Other foreign health systems",
+      "indian_partner": "Jüdisches Krankenhaus Berlin",
+      "partner_city": "Berlin",
+      "type": "Ownership or management",
+      "description": "The Istanbul based hospital group Medicana took over the Jüdisches Krankenhaus Berlin (about 384 beds, 820 staff) out of insolvency; the purchase contract was signed on 9 July 2026 and the transaction completed on 1 October 2026. It is Medicana's first German hospital.",
+      "status": "Active",
+      "start": "2026-07",
+      "end": "",
+      "last_evidence": "2026-10",
+      "evidence": "Hospital press release of 9 July 2026 reported by Tagesspiegel; Unternehmeredition of 2 October 2026 states the contract was signed 9 July 2026 and the transaction closed on 1 October.",
+      "sources": [
+        {
+          "author": "Eva Rathgeber",
+          "title": "Medicana Health Group übernimmt Jüdisches Krankenhaus Berlin",
+          "publisher": "Unternehmeredition",
+          "date": "2026-10-02",
+          "url": "https://www.unternehmeredition.de/medicana-health-group-uebernimmt-juedisches-krankenhaus-berlin/"
+        },
+        {
+          "author": "Tagesspiegel",
+          "title": "Nach Insolvenzverfahren: Türkischer Konzern übernimmt Jüdisches Krankenhaus Berlin",
+          "publisher": "Tagesspiegel",
+          "date": "2026-07",
+          "url": "https://www.tagesspiegel.de/nach-insolvenzverfahren-turkischer-konzern-ubernimmt-judisches-krankenhaus-berlin-15824936.html"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--medicana-health-group--j-disches-krankenhaus-berlin"
+    },
+    {
+      "foreign_institution": "Medicover",
+      "foreign_country": "Sweden",
+      "group": "Other foreign health systems",
+      "indian_partner": "Saale-Krankenhaus Calbe (formerly AWO Krankenhaus Calbe)",
+      "partner_city": "Calbe (Saale)",
+      "type": "Ownership or management",
+      "description": "Swedish listed health provider Medicover bought the 108 bed AWO hospital in Calbe, Saxony-Anhalt, in 2021 and runs it as Saale-Krankenhaus Calbe. Its German business also includes laboratories, dental and outpatient centers.",
+      "status": "Active",
+      "start": "2021-07",
+      "end": "",
+      "last_evidence": "2025-12",
+      "evidence": "Taylor Wessing release of May 2021 on the purchase; Marketscreener dates closing to 25 July 2021. Medicover GmbH job postings for Calbe dated up to December 2025 name it as employer. Medicover is mainly a clinic and diagnostics group, hospital ownership in Germany is one site.",
+      "sources": [
+        {
+          "author": "Taylor Wessing",
+          "title": "Taylor Wessing berät Medicover beim Erwerb des AWO-Krankenhauses Calbe",
+          "publisher": "Taylor Wessing",
+          "date": "2021-05-07",
+          "url": "https://www.taylorwessing.com/de/insights-and-events/news/media-centre/press-releases/2021/05/taylor-wessing-beraet-medicover-beim-erwerb-des-awo-krankenhauses-calbe"
+        },
+        {
+          "author": "Marketscreener",
+          "title": "Medicover AB acquired AWO Gesundheitszentrum Calbe GmbH",
+          "publisher": "Marketscreener",
+          "date": "2021-07",
+          "url": "https://ca.marketscreener.com/quote/stock/MEDICOVER-AB-38988622/news/Medicover-AB-OM-MCOV-B-acquired-Awo-Gesundheitszentrum-Calbe-Gmbh-from-Arbeiterwohlfahrt-Oberhav-35987985/"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--medicover--saale-krankenhaus-calbe-formerly-awo-krankenhaus-calbe"
+    },
+    {
+      "foreign_institution": "Medisch Spectrum Twente (MST)",
+      "foreign_country": "Netherlands",
+      "group": "Other foreign health systems",
+      "indian_partner": "University Hospital Münster (UKM) and University of Münster",
+      "partner_city": "Münster",
+      "type": "Clinical affiliation",
+      "description": "UKM, Medisch Spectrum Twente and the universities of Münster and Twente signed a five year memorandum of understanding in July 2023 on cross-border care, digital health, telemedicine and staff training. MST is also a named partner in UKM's regional health and innovation network.",
+      "status": "Active",
+      "start": "2023-07",
+      "end": "",
+      "last_evidence": "2025-01",
+      "evidence": "Press release of 8 July 2023 on the MoU. The first meeting of the MoU steering committee took place on 13 January 2025 (UKM, Network 360 news page).",
+      "sources": [
+        {
+          "author": "EuropaWire",
+          "title": "University Hospitals Münster and Twente sign MoU for cross-border healthcare collaboration",
+          "publisher": "EuropaWire",
+          "date": "2023-07-08",
+          "url": "https://news.europawire.eu/university-hospitals-munster-and-twente-sign-mou-for-cross-border-healthcare-collaboration/eu-press-release/2023/07/08/10/32/16/118624"
+        },
+        {
+          "author": "University of Twente",
+          "title": "Safeguarding healthcare in the Euregio",
+          "publisher": "University of Twente",
+          "date": "2023-07",
+          "url": "https://www.utwente.nl/en/news/2023/7/1041506/safeguarding-healthcare-in-the-euregio"
+        },
+        {
+          "author": "Stadt Münster",
+          "title": "Verwaltungsvorstände aus Münster und Enschede tagen",
+          "publisher": "Stadt Münster",
+          "date": "2025-06",
+          "url": "https://www.stadt-muenster.de/aktuelles/newsdetail/verwaltungsvorstaende-aus-muenster-und-enschede-tagen"
+        },
+        {
+          "author": "UKM Münster",
+          "title": "360° health + innovation region: Memoranda of Understanding",
+          "publisher": "UKM Internationale Patienten",
+          "date": "2025",
+          "url": "https://internationalpatients.ukmuenster.de/360-health-innovation-region/memoranda-of-understanding?type=606"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--medisch-spectrum-twente-mst--university-hospital-m-nster-ukm-and-university-of-m-nster"
+    },
+    {
+      "foreign_institution": "Samsung Comprehensive Cancer Center (Samsung Medical Center)",
+      "foreign_country": "South Korea",
+      "group": "Other foreign health systems",
+      "indian_partner": "Charité - Universitätsmedizin Berlin (Charité Comprehensive Cancer Center)",
+      "partner_city": "Berlin",
+      "type": "Research collaboration",
+      "description": "Charité's cancer center and Samsung's cancer center in Seoul signed a memorandum of understanding in July 2023 covering joint research, staff exchange for training and digital tools such as patient-reported outcome measures. The centers have held joint seminars on patient-reported outcomes since January 2024.",
+      "status": "Active",
+      "start": "2023-07",
+      "end": "",
+      "last_evidence": "2026-03",
+      "evidence": "Charité press coverage of July 2023 reports the signing. A Korean report of 25 March 2026 says Samsung Seoul Hospital continues joint seminars with Charité. Joint seminars every other month from January 2024 were reported in Korean trade press (seen via search summary).",
+      "sources": [
+        {
+          "author": "Charité / HealthCapital Berlin-Brandenburg",
+          "title": "Comprehensive cancer medicine: Charité partners with oncology center in Seoul",
+          "publisher": "HealthCapital",
+          "date": "2023-07",
+          "url": "https://www.healthcapital.de/en/news/article/comprehensive-cancer-medicine-charite-partners-with-oncology-center-in-seoul"
+        },
+        {
+          "author": "News-Medical",
+          "title": "Charité and Samsung Comprehensive Cancer Center partner to advance cancer medicine",
+          "publisher": "News-Medical",
+          "date": "2023-07-31",
+          "url": "https://www.news-medical.net/news/20230731/Charite-and-Samsung-Comprehensive-Cancer-Center-partner-to-advance-cancer-medicine.aspx"
+        },
+        {
+          "author": "Asia Economy",
+          "title": "Samsung Seoul Hospital cancer center PRO agreement with EORTC",
+          "publisher": "Asiae",
+          "date": "2026-03-25",
+          "url": "https://www.asiae.co.kr/en/article/2026032508491256493"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--samsung-comprehensive-cancer-center-samsung-medical-center--charit-universit-tsmedizin-berlin-charit-comprehensive-cancer-center"
+    },
+    {
+      "foreign_institution": "Sheba Medical Center",
+      "foreign_country": "Israel",
+      "group": "Other foreign health systems",
+      "indian_partner": "Charité - Universitätsmedizin Berlin",
+      "partner_city": "Berlin",
+      "type": "Research collaboration",
+      "description": "Sheba and Charité signed a memorandum of understanding on scientific and academic cooperation, reported as concluded at the end of 2022, with joint research through Sheba's ARC innovation center. Sheba later reported a joint symposium in Berlin and seed funding for early career researchers.",
+      "status": "Active",
+      "start": "2022-11",
+      "end": "",
+      "last_evidence": "2025-03",
+      "evidence": "Charité news item of 24 March 2025 and the German-Israeli Foundation post of 20 July 2025 report a two-day scientific exchange symposium between Sheba and Charité in Berlin on 24 and 25 March 2025, with both institutions committing seed funds for early career researchers. The memorandum dates from late 2022. Sheba pages could not be fetched.",
+      "sources": [
+        {
+          "author": "Sheba Medical Center",
+          "title": "Sheba and Charité Sign MOU Focusing on Strategic Scientific and Academic Cooperation",
+          "publisher": "Sheba Global",
+          "date": "",
+          "url": "https://sheba-global.com/?p=103213"
+        },
+        {
+          "author": "GIHF",
+          "title": "Policy briefing: Kooperation Deutschland Israel Digital Health",
+          "publisher": "GIHF",
+          "date": "2024-09",
+          "url": "https://gihf-ai.eu/wp-content/uploads/2024/09/PolicyBriefing_Kooperation_D_ISR_DigitalHealth.pdf"
+        },
+        {
+          "author": "Charité",
+          "title": "Charité-Sheba-Symposium",
+          "publisher": "Charité - Universitätsmedizin Berlin",
+          "date": "24 March 2025",
+          "url": "https://www.charite.de/en/international/news/charite_sheba_symposium"
+        },
+        {
+          "author": "German-Israeli Foundation for Scientific Research and Development",
+          "title": "Advanced Diagnostics in Neuroscience, Cardiovascular Medicine, Oncology and Infectious Diseases: Scientific Exchange Symposium between Sheba Medical Center and Charité",
+          "publisher": "GIF",
+          "date": "24-25 March 2025",
+          "url": "https://www.gif.org.il/2025/07/20/advanced-diagnostics-in-neuroscience-cardiovascular-medicine-oncology-and-infectious-diseases-scientific-exchange-symposium-between-sheba-medical-center-and-charite-universitatsmedizin-berlin/"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--sheba-medical-center--charit-universit-tsmedizin-berlin"
+    },
+    {
+      "foreign_institution": "Tongji Hospital (Huazhong University of Science and Technology)",
+      "foreign_country": "China",
+      "group": "Other foreign health systems",
+      "indian_partner": "Heidelberg University Hospital (Center for Rare Diseases)",
+      "partner_city": "Heidelberg",
+      "type": "Research collaboration",
+      "description": "Tongji Hospital and Heidelberg's Center for Rare Diseases signed a memorandum of understanding in October 2024 to build the Tongji-Heidelberg Center for Rare Diseases for joint research, patient management and therapy. Heidelberg's children's hospital director became a consulting professor at Tongji in September 2025.",
+      "status": "Active",
+      "start": "2024-10",
+      "end": "",
+      "last_evidence": "2026-04",
+      "evidence": "Tongji news dated 16 October 2024 reports the signing. Later Tongji news items (September 2025, April 2026) describe the center and follow-up exchanges. Pages could not be fetched here; details from search summaries. A 2026 item describes the center as set up in 2025, so the exact start year is slightly inconsistent.",
+      "sources": [
+        {
+          "author": "Huazhong University of Science and Technology",
+          "title": "Tongji Hospital and Heidelberg Center for Rare Diseases sign MoU",
+          "publisher": "HUST English site",
+          "date": "2024-10-16",
+          "url": "https://english.hust.edu.cn/info/1102/3945.htm"
+        },
+        {
+          "author": "Huazhong University of Science and Technology",
+          "title": "Tongji leaders meet Heidelberg representatives",
+          "publisher": "HUST English site",
+          "date": "2026-04",
+          "url": "https://english.hust.edu.cn/info/1102/4336.htm"
+        },
+        {
+          "author": "Huazhong University of Science and Technology",
+          "title": "Heidelberg pediatrics director named consulting professor",
+          "publisher": "HUST English site",
+          "date": "2025-09",
+          "url": "https://english.hust.edu.cn/info/1102/4231.htm"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--tongji-hospital-huazhong-university-of-science-and-technology--heidelberg-university-hospital-center-for-rare-diseases"
+    },
+    {
+      "foreign_institution": "West China Hospital, Sichuan University",
+      "foreign_country": "China",
+      "group": "Other foreign health systems",
+      "indian_partner": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)",
+      "partner_city": "Erlangen",
+      "type": "Research collaboration",
+      "description": "FAU and West China Hospital signed a strategic partnership on 25 September 2025 at KI Park Berlin, turning years of project-based work in medical AI and imaging into a long-term alliance. A joint AI laboratory in Chengdu is being planned.",
+      "status": "Active",
+      "start": "2025-09",
+      "end": "",
+      "last_evidence": "2025-10",
+      "evidence": "FAU Pattern Recognition Lab news of 27 October 2025 reports the signing and a joint workshop. Led by one FAU lab, so scope may be narrower than the whole university.",
+      "sources": [
+        {
+          "author": "FAU Pattern Recognition Lab",
+          "title": "FAU and West China Hospital sign strategic partnership at KI Park Berlin",
+          "publisher": "FAU",
+          "date": "2025-10-27",
+          "url": "https://lme.tf.fau.de/?p=26706"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--west-china-hospital-sichuan-university--friedrich-alexander-universit-t-erlangen-n-rnberg-fau"
+    },
+    {
+      "foreign_institution": "Zhejiang Cancer Hospital",
+      "foreign_country": "China",
+      "group": "Other foreign health systems",
+      "indian_partner": "Charité - Universitätsmedizin Berlin (Charité Comprehensive Cancer Center)",
+      "partner_city": "Berlin",
+      "type": "Training and education",
+      "description": "Zhejiang Cancer Hospital and Charité's Comprehensive Cancer Center signed a strategic cooperation agreement in Berlin on 12 May 2025 for joint research, cross-border clinical training and technology transfer. The hospital says the relationship goes back about 23 years and has sent 16 staff to Germany for training.",
+      "status": "Active",
+      "start": "2025-05",
+      "end": "",
+      "last_evidence": "2026-04",
+      "evidence": "Zhejiang Cancer Hospital news posts report the May 2025 signing and an April 2026 release on a March 2026 Charité delegation visit led by Charité's president. Hospital website only; pages could not be fetched here (details from search summaries). No Charité release found.",
+      "sources": [
+        {
+          "author": "Zhejiang Cancer Hospital",
+          "title": "Strategic cooperation agreement signed with Charité CCCC",
+          "publisher": "Zhejiang Cancer Hospital",
+          "date": "2025-05",
+          "url": "https://www.zchospital.com/en/news/info/206124"
+        },
+        {
+          "author": "Zhejiang Cancer Hospital",
+          "title": "Charité delegation visit and renewal of cooperation",
+          "publisher": "Zhejiang Cancer Hospital",
+          "date": "2026-04-28",
+          "url": "https://www.zchospital.com/en/news/info/207895"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--zhejiang-cancer-hospital--charit-universit-tsmedizin-berlin-charit-comprehensive-cancer-center"
+    },
+    {
+      "foreign_institution": "SUNY Upstate Medical University",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "LMU Munich Faculty of Medicine and LMU Klinikum",
+      "partner_city": "Munich",
+      "type": "Training and education",
+      "description": "Upstate and the LMU medical faculty signed a memorandum in September 2021 for student exchange and research cooperation, initially running to 2026. Two Upstate students did a clinical elective at LMU Klinikum in February 2023.",
+      "status": "Unclear",
+      "start": "2021-09",
+      "end": "",
+      "last_evidence": "2023-03",
+      "evidence": "LMU Klinikum reported on 6 March 2023 that the cooperation had started with the first exchange. No renewal or newer activity was found and the initial term ends in 2026.",
+      "sources": [
+        {
+          "author": "LMU Klinikum",
+          "title": "Kooperation mit US-amerikanischer Medizinuniversität gestartet",
+          "publisher": "LMU Klinikum",
+          "date": "2023-03-06",
+          "url": "https://lmu-klinikum.de/aktuelles/newsmeldungen/kooperation-mit-us-amerikanischer-medizinuniversitat-gestartet/1162d59911be4706"
+        },
+        {
+          "author": "SUNY Upstate Medical University",
+          "title": "Upstate and LMU Munich sign memorandum of understanding",
+          "publisher": "Upstate Medical University",
+          "date": "2021-09-29",
+          "url": "https://www.upstate.edu/news/articles/2021/2021-09-29-umu.php"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--suny-upstate-medical-university--lmu-munich-faculty-of-medicine-and-lmu-klinikum"
+    },
+    {
+      "foreign_institution": "All India Institute of Medical Sciences (AIIMS) New Delhi",
+      "foreign_country": "India",
+      "group": "Other foreign health systems",
+      "indian_partner": "LMU Klinikum, Munich",
+      "partner_city": "Munich",
+      "type": "Research collaboration",
+      "description": "AIIMS New Delhi and LMU Klinikum signed a non-binding memorandum of understanding in September 2023 to explore joint research, faculty and student exchange and multi-centre trials. Specific projects need separate agreements.",
+      "status": "Unclear",
+      "start": "2023-09",
+      "end": "",
+      "last_evidence": "2023-09",
+      "evidence": "PTI report of 16 September 2023. No follow-on activity found in 2024 to 2026.",
+      "sources": [
+        {
+          "author": "PTI",
+          "title": "AIIMS Delhi, Munich-based university sign non-binding MoU for collaborative endeavours",
+          "publisher": "Deccan Herald",
+          "date": "2023-09-16",
+          "url": "https://www.deccanherald.com/india/delhi/aiims-delhi-munich-based-university-sign-non-binding-mou-for-collaborative-endeavours-2689130"
+        },
+        {
+          "author": "Medical Dialogues",
+          "title": "AIIMS Delhi inks pact with Germany's medical university to explore collaborations in medicine",
+          "publisher": "Medical Dialogues",
+          "date": "2023-09",
+          "url": "https://medicaldialogues.in/state-news/delhi/aiims-delhi-inks-pact-with-germanys-medical-university-to-explore-collaborations-in-medicine-117533"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--all-india-institute-of-medical-sciences-aiims-new-delhi--lmu-klinikum-munich"
+    },
+    {
+      "foreign_institution": "Clalit Health Services",
+      "foreign_country": "Israel",
+      "group": "Other foreign health systems",
+      "indian_partner": "Charité - Universitätsmedizin Berlin",
+      "partner_city": "Berlin",
+      "type": "Research collaboration",
+      "description": "Clalit and Charité began a strategic scientific partnership in June 2022 with joint research tandems in AI and health data, immunology, oncology and cardiology. A joint EU funded project (EXPLORE-NB) started and Stiftung Charité funded a visiting fellowship for Clalit's Ran Balicer.",
+      "status": "Unclear",
+      "start": "2022-06",
+      "end": "",
+      "last_evidence": "2024-07",
+      "evidence": "Charité release of 2 July 2024 is the latest dated primary evidence found. A Ynet report places an honorary professorship for Balicer at Charité in 2025 but without a date I could confirm, so status stays Unclear pending a dated source.",
+      "sources": [
+        {
+          "author": "Charité - Universitätsmedizin Berlin",
+          "title": "Charité intensifies cooperation with CLALIT Health Services",
+          "publisher": "EurekAlert / Charité",
+          "date": "2024-07-02",
+          "url": "https://www.eurekalert.org/news-releases/1050180"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--clalit-health-services--charit-universit-tsmedizin-berlin"
+    },
+    {
+      "foreign_institution": "Hamad Medical Corporation",
+      "foreign_country": "Qatar",
+      "group": "Other foreign health systems",
+      "indian_partner": "Heidelberg University Hospital",
+      "partner_city": "Heidelberg",
+      "type": "Research collaboration",
+      "description": "Hamad Medical Corporation and Heidelberg University Hospital signed a research and training agreement in January 2018 and a 2019 agreement to set up a National Center for Rare Disease in Qatar. They have held joint Doha-Heidelberg conferences, the fourth in 2023.",
+      "status": "Unclear",
+      "start": "2018-01",
+      "end": "",
+      "last_evidence": "2023-12",
+      "evidence": "Gulf Times of 9 February 2019 reports the rare disease center agreement. HMC's page for the 4th Doha-Heidelberg Rare Disease Conference (2023) calls it the result of continued collaboration. No 2024 to 2026 evidence found.",
+      "sources": [
+        {
+          "author": "Gulf Times",
+          "title": "Centre for rare disease to be established in Qatar",
+          "publisher": "Gulf Times",
+          "date": "2019-02-09",
+          "url": "https://www.gulf-times.com/story/621702/Centre-for-rare-disease-to-be-established-in-Qatar"
+        },
+        {
+          "author": "Hamad Medical Corporation",
+          "title": "4th Doha-Heidelberg Rare Disease Conference: About",
+          "publisher": "Hamad Medical Corporation",
+          "date": "2023",
+          "url": "https://hamad.qa/EN/All-Events/4DHRDC2023/About"
+        },
+        {
+          "author": "Marhaba Qatar",
+          "title": "HMC enhances research collaboration with Heidelberg University Hospital",
+          "publisher": "Marhaba",
+          "date": "2018-01",
+          "url": "https://marhaba.qa/hmc-enhances-research-collaboration-with-heidelberg-university-hospital/"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--hamad-medical-corporation--heidelberg-university-hospital"
+    },
+    {
+      "foreign_institution": "Hôpitaux universitaires de Strasbourg, Universitätsspital Basel and Universitäts-Kinderspital beider Basel",
+      "foreign_country": "France and Switzerland",
+      "group": "Other foreign health systems",
+      "indian_partner": "Universitätsklinikum Freiburg",
+      "partner_city": "Freiburg",
+      "type": "Clinical affiliation",
+      "description": "The university hospitals of Freiburg, Strasbourg and Basel and the Basel children's hospital signed a non-binding declaration of intent in August 2023 to deepen cross-border cooperation, including continuing medical education. They are also members of the Upper Rhine EUCC cancer center network.",
+      "status": "Unclear",
+      "start": "2023-08",
+      "end": "",
+      "last_evidence": "2023-10",
+      "evidence": "Joint press release of 24 August 2023 from Strasbourg hospitals and a Thieme trade journal item of October 2023. No later dated activity found.",
+      "sources": [
+        {
+          "author": "Hôpitaux universitaires de Strasbourg",
+          "title": "Communiqué de presse: déclaration d'intention Fribourg",
+          "publisher": "CHRU Strasbourg",
+          "date": "2023-08-24",
+          "url": "https://www.chru-strasbourg.fr/wp-content/uploads/2023/08/2023-08-24_pressemitteilung-communique-de-pressev2-fribourg-.pdf"
+        },
+        {
+          "author": "Klinik Management aktuell",
+          "title": "Universitätskliniken Freiburg, Straßburg und Basel wollen künftig stärker zusammenarbeiten",
+          "publisher": "Thieme",
+          "date": "2023-10",
+          "url": "https://www.thieme-connect.de/products/ejournals/pdf/10.1055/s-0043-1775899.pdf"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--h-pitaux-universitaires-de-strasbourg-universit-tsspital-basel-and-universit-ts-kinderspital-beider-basel--universit-tsklinikum-freiburg"
+    },
+    {
+      "foreign_institution": "Tel Aviv Sourasky Medical Center (Ichilov)",
+      "foreign_country": "Israel",
+      "group": "Other foreign health systems",
+      "indian_partner": "University Hospital Schleswig-Holstein (UKSH), Lübeck and Kiel",
+      "partner_city": "Lübeck",
+      "type": "Research collaboration",
+      "description": "UKSH CEO Jens Scholz and Ichilov's then head Ronni Gamzu signed a memorandum of understanding on close cooperation at UKSH Campus Lübeck at the end of July 2023. In July 2025 Ichilov also agreed a research exchange with German University Medicine and the Network of University Medicine, announced by Scholz among others.",
+      "status": "Unclear",
+      "start": "2023-07",
+      "end": "",
+      "last_evidence": "2023-07",
+      "evidence": "Ärzteblatt report on the July 2023 signing. The July 2025 release names the national university medicine bodies rather than UKSH as partner, so no UKSH specific activity after 2023 is confirmed.",
+      "sources": [
+        {
+          "author": "Deutsches Ärzteblatt",
+          "title": "Uniklinik Schleswig-Holstein vereinbart Kooperation mit Tel Aviv Medical Center",
+          "publisher": "Deutsches Ärzteblatt",
+          "date": "2023-08",
+          "url": "https://www.aerzteblatt.de/nachrichten/144908/Uniklinik-Schleswig-Holstein-vereinbart-Kooperation-mit-Tel-Aviv-Medical-Center"
+        },
+        {
+          "author": "Netzwerk Universitätsmedizin",
+          "title": "Joint press release: German university medicine and Tel Aviv Sourasky Medical Centre (Ichilov) initiate more intensive research exchange",
+          "publisher": "Netzwerk Universitätsmedizin",
+          "date": "2025-07-05",
+          "url": "https://www.netzwerk-universitaetsmedizin.de/en/media/news/detail/joint-press-release-german-university-medicine-and-tel-aviv-sourasky-medical-centre-ichilov-initiate-more-intensive-research-exchange"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--tel-aviv-sourasky-medical-center-ichilov--university-hospital-schleswig-holstein-uksh-l-beck-and-kiel"
+    },
+    {
+      "foreign_institution": "Xiyuan Hospital, China Academy of Chinese Medical Sciences",
+      "foreign_country": "China",
+      "group": "Other foreign health systems",
+      "indian_partner": "Charité - Universitätsmedizin Berlin and KEM Evang. Kliniken Essen-Mitte (with DCG-Health GmbH)",
+      "partner_city": "Berlin and Essen",
+      "type": "Research collaboration",
+      "description": "Xiyuan Hospital signed a memorandum of understanding on 15 March 2024 with DCG-Health, Charité and the KEM hospital in Essen to explore staff exchange, research and traditional Chinese medicine clinical care. The hospital's parent academy signed further memoranda with Charité and UKE in December 2025, which do not itself show hospital level activity.",
+      "status": "Unclear",
+      "start": "2024-03",
+      "end": "",
+      "last_evidence": "2024-03",
+      "evidence": "Xiyuan Hospital website post on the March 2024 signing (search summary; page not fetched). December 2025 agreements were signed by the academy, not the hospital.",
+      "sources": [
+        {
+          "author": "Xiyuan Hospital",
+          "title": "MoU signed with DCG-Health, Charité and KEM Essen",
+          "publisher": "Xiyuan Hospital",
+          "date": "2024-03-15",
+          "url": "https://xyhospital.com/Html/News/Articles/21029.html"
+        },
+        {
+          "author": "Distilinfo",
+          "title": "China and Germany strengthen healthcare cooperation together",
+          "publisher": "Distilinfo",
+          "date": "2026-02-23",
+          "url": "https://distilinfo.com/2026/02/23/china-and-germany-strengthen-healthcare-cooperation-together/"
+        }
+      ],
+      "country": "Germany",
+      "last_checked": "2026-10-30",
+      "id": "germany--xiyuan-hospital-china-academy-of-chinese-medical-sciences--charit-universit-tsmedizin-berlin-and-kem-evang-kliniken-essen-mitte-with-dcg-health-gmbh"
+    },
+    {
       "foreign_institution": "Children's Hospital of Philadelphia (CHOP)",
       "foreign_country": "United States",
       "group": "US academic medical centers",
