@@ -25,6 +25,13 @@ Specifics:
   first (or read it if it exists) and use it for World Bank facts and chart series instead of fetching them again.
 - Money: add the US dollar equivalent in parentheses right after each local-currency amount, using
   `python3 /home/user/CedarsSinaiInternational/scripts/fx.py {CURRENCY} <value>` (rates in data/fx_rates.json).
+- Freshness and labels (SKILL.md "Source tiers, freshness and labeling"): run
+  `python3 /home/user/CedarsSinaiInternational/scripts/freshness.py wb {SCRATCH}/{country}_wb.json --out {SCRATCH}/{country}_freshness.json`
+  and read the report. For every STALE metric search tier 1 (national statistics, health ministry) then
+  tier 2 (OECD for members, WHO GHO/GHED otherwise) before using the World Bank value. Every numeric
+  fact gets "basis" (what is measured, scope, definition), "tier" (1, 2 or 3) and, if the value is past
+  its age limit, "newer_checked" (which sources you searched). Keep values short; the basis is printed
+  under the label.
 - csi_manual: every field an empty string. recent_developments: 4 or 5 items from the last 2 years,
   each {"date","headline","summary","sources"}.
 - Only cite pages you actually opened and read; if blocked, find another reputable readable source. Every

@@ -59,7 +59,9 @@ Roughly half the agent cost of running everything on the strongest model.
 - Fill the briefs from `templates/` (profile_brief.md, tracker_brief.md,
   verify_prompt.md) instead of writing them from scratch.
 - Before research, run `python3 scripts/worldbank.py <ISO3> <comparator ISO3s> --out <scratchpad>/<country>_wb.json`
-  and point the research agent at it for World Bank facts and chart series.
+  and point the research agent at it for World Bank facts and chart series. Then run
+  `python3 scripts/freshness.py wb <scratchpad>/<country>_wb.json --out <scratchpad>/<country>_freshness.json`
+  and give that report to the research agent too (see "Source tiers, freshness and labeling").
 - Check summaries with `python3 scripts/check_summary.py output/<country>_profile.json <summary.json>`.
 - PDFs: `scripts/docx_to_pdf.py` uses LibreOffice when `libreoffice-writer`
   is installed (add `apt-get install -y libreoffice-writer` to the
@@ -187,7 +189,7 @@ elsewhere. These are leads to re-confirm, never facts to copy.
    aim to defeat AI detection; the polish is for readability, not for hiding
    how the draft was made.
 
-5. **Assemble.** Merge the corrected research JSON with an empty
+5. **Assemble.** Run the freshness gate above first. Merge the corrected research JSON with an empty
    `csi_manual` block (see schema) and run:
    ```
    python3 scripts/generate_profile.py <merged.json> output/<Country>_Profile_DRAFT.docx
@@ -232,6 +234,38 @@ elsewhere. These are leads to re-confirm, never facts to copy.
 6. **Hand off.** Tell the user which CSI fields still need manual input, and
    summarize (in chat, not in the document) what the resolution pass changed
    and why, so they can spot-check the calls that were made on their behalf.
+
+## Source tiers, freshness and labeling (Nov 2026)
+
+The World Bank is current for demographics and the economy but its health indicators lag their
+sources: workforce and beds were two to ten years old in every profile made before this rule.
+Keep the World Bank as the baseline and the source for cross-country charts (one source, same
+format for every country), and do not accept a stale health metric from it without looking upstream.
+
+Tiers, tried in order for health-system metrics (workforce, beds, hospitals, spending):
+1. **Tier 1:** national statistics office or health ministry.
+2. **Tier 2:** OECD Health Statistics for members; WHO Global Health Observatory and Global Health
+   Expenditure Database for others.
+3. **Tier 3:** World Bank (baseline for demographics and economy, fallback for health metrics).
+
+Age limits (years before the current year): workforce and beds 2, health spending 3, demographics
+and economy 2. National health accounts are published about two years late almost everywhere, so
+2023 spending is normally fine; 2022 physicians or 2016 beds are not.
+
+Every numeric fact in `facts` carries:
+- `"basis"`: what is measured, scope and definition, in a few words ("Practicing physicians",
+  "All hospital beds, public and private", "PPP, current international dollars"). The generator
+  prints it in small gray text under the label; the value stays short, with no source names.
+- `"tier"`: 1, 2 or 3, the tier the value came from.
+- `"newer_checked"`, only when a metric is past its age limit and the value is still kept: one line
+  saying which tier 1 and 2 sources were searched and that none had a newer value.
+Where two sources give different values for the same metric (different year, definition or scope,
+for example public hospital beds against all beds), state both with their basis, never one as if it
+settled the other.
+
+Gate: `python3 scripts/freshness.py check output/<country>_profile.json` before assembling. It lists
+stale metrics with no tier 1 or 2 source or search record, and numeric facts with no basis. Fix them
+or run with `--lenient` only for profiles made before this rule.
 
 ## Length and competitive landscape
 

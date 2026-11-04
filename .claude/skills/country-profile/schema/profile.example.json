@@ -108,7 +108,10 @@
         "facts": [
           {
             "label": "Physicians per 1,000",
-            "value": "... (year)"
+            "value": "... (year)",
+            "basis": "Practicing physicians (what is measured, scope, definition)",
+            "tier": 2,
+            "newer_checked": "Only when older than the age limit: sources searched, none newer"
           }
         ],
         "narrative": "Optional.",

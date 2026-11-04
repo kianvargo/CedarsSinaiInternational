@@ -338,6 +338,10 @@ def add_facts_table(doc, facts, sources, registry, columns=2):
         lrun.bold = True
         lrun.font.size = Pt(10.5)
         lrun.font.color.rgb = DARK_RED
+        if fact.get("basis"):  # what is measured, shown small under the label (see freshness.py)
+            brun = lp.add_run("\n" + fact["basis"])
+            brun.font.size = Pt(8)
+            brun.font.color.rgb = GRAY
         vp = table.cell(row, group * 2 + 1).paragraphs[0]
         vp.paragraph_format.space_after = Pt(3)
         cited |= add_cited_text(vp, str(fact["value"]), sources, registry, size=10.5)
