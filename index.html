@@ -37,6 +37,8 @@
   .contact { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:10px 12px; margin:8px 0; }
   .contact b { font-size:1.05rem; } .contact .meta { color:var(--muted); font-size:.9rem; word-break:break-word; }
   .tag { display:inline-block; font-size:.75rem; border:1px solid var(--line); border-radius:99px; padding:1px 8px; margin:4px 4px 0 0; }
+  .chip { display:inline-block; margin:3px 4px 3px 0; padding:4px 10px; border:1px solid var(--line); border-radius:99px;
+    background:var(--card); font-size:.85rem; cursor:pointer; } .chip.on { background:var(--accent); color:#fff; border-color:var(--accent); }
   .grp { margin:16px 0 4px; font-weight:600; border-bottom:1px solid var(--line); }
 </style>
 </head>
@@ -77,6 +79,8 @@
   <section id="review" class="view">
     <img id="photo" alt="Captured card">
     <h2>Check and fix the details</h2>
+    <p style="color:var(--muted);font-size:.9rem;margin:0 0 6px">Wrong guess? Tap a line below, then tap the field to put it in.</p>
+    <div id="chips"></div>
     <div class="grid" id="fields"></div>
     <details style="margin-top:12px"><summary>Raw OCR text</summary><pre id="raw"></pre></details>
     <div class="row"><button id="saveBtn">Save</button><button id="retakeBtn" class="sec">Retake</button>
@@ -198,45 +202,78 @@ async function process(srcCanvas) {
       if (m.status === "recognizing text") { const p = Math.round(m.progress * 100); msg("Reading card... " + p + "%"); prog(p); }
       else msg("Preparing OCR: " + m.status + "..."); } });
     prog(null); msg("");
-    editingId = null; openReview({ ...parse(r.data.text), raw: r.data.text });
+    const L = (r.data.lines || r.data.text.split("\n").map(t => ({ text: t, confidence: 100, bbox: { y0: 0, y1: 1 } })))
+      .map(l => ({ t: l.text.replace(/[|©®™•_~]+/g, " ").replace(/\s+/g, " ").trim(), conf: l.confidence, h: l.bbox.y1 - l.bbox.y0 }))
+      .filter(l => (l.t.match(/[A-Za-z0-9]/g) || []).length >= 3 && l.conf >= 35);   // drop OCR noise
+    editingId = null; openReview({ ...parse(L), raw: L.map(l => l.t).join("\n") });
   } catch (e) { prog(null); msg("OCR failed: " + (e.message || e), true); }
 }
 
-/* ---------- Parsing ---------- */
+/* ---------- Parsing ----------
+   Every OCR line gets a score for "name" and "company"; the best one wins.
+   Signals: shares words with the email/domain, text height (names are big), job/company words, junk like digits. */
 const word = (line, list) => list.some(w => new RegExp("(^|[^A-Za-z])" + w.replace(/\./g, "\\.") + "([^A-Za-z]|$)", "i").test(line));
 const CRED = /,?\s*(MD|M\.D\.|DO|PhD|Ph\.D\.|RN|NP|MBA|MPH|FACC|FACS)(,?\s*(MD|M\.D\.|DO|PhD|Ph\.D\.|RN|NP|MBA|MPH|FACC|FACS))*\s*$/i;
 const STATES = "AL AK AZ AR CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY DC".split(" ");
+const NOT_NAME = ["Street","St","Ave","Avenue","Blvd","Boulevard","Road","Rd","Suite","Floor","Drive","Tel","Phone","Fax","Mobile","Cell","Email","Web","Office"];
 const EMAIL = /[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/;
+const letters = x => x.toLowerCase().replace(/[^a-z]/g, "");
 
 function guess(map, hay, dflt) {
   for (const [label, kws] of Object.entries(map))
     if (kws.some(k => new RegExp("\\b" + k.replace(/\./g, "\\.") + (k.length <= 3 ? "\\b" : ""), "i").test(hay))) return label;
   return dflt;
 }
-function parse(text) {
-  const o = Object.fromEntries(KEYS.map(k => [k, ""]));
-  const lines = text.split(/\r?\n/).map(l => l.trim()).filter(l => l.length > 1);
+function parse(L) {                               // L = [{t: text, conf, h: line height}]
+  const o = Object.fromEntries(KEYS.map(k => [k, ""])), lines = L.map(l => l.t), text = lines.join("\n");
   o.email = (text.match(EMAIL) || [""])[0];
   const rest = text.replace(new RegExp(EMAIL, "g"), " ");
   o.phone = (rest.match(/(?:\+?\d{1,3}[\s.-]?)?(?:\(\d{2,4}\)|\d{2,4})[\s.-]?\d{3,4}[\s.-]?\d{3,4}/) || [""])[0].trim();
   o.website = ((rest.match(/\b(?:https?:\/\/)?www\.[^\s,;|]+/i) ||
     rest.match(/\b[a-z0-9-]+(?:\.[a-z0-9-]+)*\.(?:com|org|edu|net|io|health|gov|co|us)\b[^\s,;|]*/i) || [""])[0]).replace(/[.,;]+$/, "");
-  for (const l of lines) {                       // "City, ST"
-    if (l.replace(CRED, "") !== l) continue;      // skip "Jane Doe, MD" (MD is also Maryland) or "City, ST 12345"
+  for (const l of lines) {                        // "City, ST" or "City, ST 12345"
+    if (l.replace(CRED, "") !== l) continue;      // skip "Jane Doe, MD" (MD is also Maryland)
     const m = l.match(/([A-Z][A-Za-z.'\- ]+?),\s*([A-Z]{2})\b(?:\s+\d{5}(?:-\d{4})?)?/);
     if (m && STATES.includes(m[2])) { o.city = m[1].trim() + ", " + m[2]; break; }
   }
-  const tl = lines.find(l => word(l.replace(CRED, ""), TITLE_WORDS) && !EMAIL.test(l)); o.title = tl || "";
-  const cl = lines.find(l => l !== tl && word(l, COMPANY_WORDS) && !EMAIL.test(l));
-  if (cl) o.company = cl;
-  else if (o.email) { const p = o.email.split("@")[1].split(".").slice(0, -1).pop() || ""; o.company = p.charAt(0).toUpperCase() + p.slice(1); }
-  for (const l of lines) {                       // name: 2-3 capitalized words, not title/company
-    const clean = l.replace(CRED, "").replace(/^(Dr|Prof|Mr|Mrs|Ms)\.?\s+/i, "").trim();
-    if (l === tl || l === cl || /[@\d]/.test(l) || word(clean, TITLE_WORDS) || word(clean, COMPANY_WORDS)) continue;
-    const w = clean.split(/\s+/);
-    if (w.length >= 2 && w.length <= 3 && w.every(x => /^[A-Z][A-Za-z'’.\-]*$/.test(x))) { o.name = clean; break; }
-  }
-  const hay = lines.join(" ");   // credentials like "MD" may sit on the name line
+  const maxH = Math.max(1, ...L.map(l => l.h));
+  const local = (o.email.split("@")[0] || "").toLowerCase().split(/[._\-+]/).map(letters).filter(x => x.length > 1);
+  const domain = letters((o.email.split("@")[1] || o.website.replace(/^https?:\/\/|^www\./gi, "")).split(".")[0]);
+  const isInfo = l => EMAIL.test(l.t) || /www\.|https?:/i.test(l.t) || /\d{3}[\s.)-]*\d{3,4}/.test(l.t);
+
+  // NAME: 2-4 capitalized words; bonus for matching the email and for large text
+  let best = { s: 1, name: "", line: null };
+  L.forEach((l, i) => {
+    if (isInfo(l)) return;
+    const clean = l.t.replace(CRED, "").replace(/^(Dr|Prof|Mr|Mrs|Ms)\.?\s+/i, "").trim(), w = clean.split(/\s+/);
+    if (w.length < 2 || w.length > 4 || !w.every(x => /^[A-Za-z][A-Za-z'’.\-]*$/.test(x))) return;
+    if (w.some(x => /^[a-z]/.test(x) && !/^(de|van|von|la|del|da|bin)$/.test(x))) return;
+    let sc = 1 + 2 * l.h / maxH - i * 0.2;
+    if (word(clean, TITLE_WORDS) || word(clean, COMPANY_WORDS) || word(clean, NOT_NAME)) sc -= 4;
+    sc += 3 * w.filter(x => local.includes(letters(x))).length;
+    if (local.length === 1 && letters(w[w.length - 1]).length > 2 && local[0].endsWith(letters(w[w.length - 1]))) sc += 3;  // jdoe@
+    if (sc > best.s) best = { s: sc, name: clean === clean.toUpperCase() ? clean.toLowerCase().replace(/(^|[\s'’-])([a-z])/g, (m, a, b) => a + b.toUpperCase()) : clean, line: l };
+  });
+  o.name = best.name;
+
+  // TITLE: first non-name line with a job word (credentials like ", MD" don't count)
+  const tl = L.find(l => l !== best.line && !isInfo(l) && word(l.t.replace(CRED, ""), TITLE_WORDS));
+  o.title = tl ? tl.t : "";
+
+  // COMPANY: company words, or a line matching the email/website domain
+  let bc = { s: 2, line: null };
+  L.forEach(l => {
+    if (isInfo(l) || l === best.line || l === tl) return;
+    let sc = 0.5 * l.h / maxH;
+    if (word(l.t, COMPANY_WORDS)) sc += 3;
+    if (domain.length > 2 && letters(l.t).includes(domain)) sc += 4;
+    if (/\d/.test(l.t)) sc -= 2;
+    if (/,\s*[A-Z]{2}\b/.test(l.t)) sc -= 2;
+    if (sc > bc.s) bc = { s: sc, line: l };
+  });
+  o.company = bc.line ? bc.line.t : domain ? domain.charAt(0).toUpperCase() + domain.slice(1) : "";
+
+  const hay = [o.title, o.company, best.line ? best.line.t : ""].join(" ");   // name line may hold ", MD"
   o.field = guess(FIELD_MAP, hay, FIELD_DEFAULT); o.role = guess(ROLE_MAP, hay, ROLE_DEFAULT);
   return o;
 }
@@ -244,10 +281,21 @@ function parse(text) {
 /* ---------- Review ---------- */
 function openReview(c) {
   $("photo").src = c.photo || photoData; $("raw").textContent = c.raw || "(none)";
+  picked = null;
+  $("chips").innerHTML = (c.raw || "").split("\n").filter(Boolean).map(t => `<span class="chip">${esc(t)}</span>`).join("");
   $("fields").innerHTML = KEYS.map(k => `<div><label for="f_${k}">${k[0].toUpperCase() + k.slice(1)}</label>
     <input type="text" id="f_${k}" value="${esc(c[k])}"></div>`).join("");
   show("review"); window.scrollTo(0, 0);
 }
+let picked = null;   // tap-to-assign: tap an OCR line, then tap a field
+$("chips").onclick = e => {
+  if (!e.target.classList.contains("chip")) return;
+  document.querySelectorAll(".chip.on").forEach(c => c.classList.remove("on"));
+  picked = picked === e.target.textContent ? null : e.target.textContent; if (picked) e.target.classList.add("on");
+};
+$("fields").onclick = e => {
+  if (picked && e.target.tagName === "INPUT") { e.target.value = picked; picked = null; document.querySelectorAll(".chip.on").forEach(c => c.classList.remove("on")); }
+};
 $("saveBtn").onclick = () => {
   const data = Object.fromEntries(KEYS.map(k => [k, $("f_" + k).value.trim()]));
   if (editingId) { const c = contacts.find(x => x.id === editingId); Object.assign(c, data); }
