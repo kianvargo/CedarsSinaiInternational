@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Card Scanner PoC</title>
+<style>
+  :root { --bg:#f5f6f8; --fg:#1b1f24; --muted:#6a727c; --accent:#0b5cad; --card:#fff; --line:#d9dde3; --err:#c0392b; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14171a; --fg:#e8eaed; --muted:#9aa3ad; --accent:#5aa2ee; --card:#1e2226; --line:#333a41; --err:#ff7b6b; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.4 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--fg); }
+  main { max-width:760px; margin:0 auto; padding:16px; }
+  h1 { font-size:1.3rem; margin:0 0 12px; } h2 { font-size:1.05rem; margin:20px 0 8px; }
+  button, .btn { font:inherit; padding:11px 16px; border-radius:10px; border:1px solid var(--accent);
+    background:var(--accent); color:#fff; cursor:pointer; display:inline-block; }
+  button.sec, .btn.sec { background:transparent; color:var(--accent); }
+  button.small { padding:6px 10px; font-size:.85rem; }
+  .row { display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin:10px 0; }
+  .view { display:none; } .view.on { display:block; }
+  #stage { position:relative; width:100%; aspect-ratio:3/4; max-height:72vh; background:#000; overflow:hidden; border-radius:12px; }
+  @media (min-width:700px) { #stage { aspect-ratio:16/9; } }
+  #video { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+  #guide { position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:88%; aspect-ratio:1.75/1;
+    max-height:88%; border:3px solid #fff; border-radius:10px; box-shadow:0 0 0 9999px rgba(0,0,0,.5); pointer-events:none; }
+  #capture { font-size:1.2rem; padding:16px 36px; }
+  #msg { min-height:1.4em; color:var(--muted); margin:8px 0; } #msg.err { color:var(--err); }
+  progress { width:100%; height:10px; display:none; }
+  #photo { max-width:100%; border-radius:8px; border:1px solid var(--line); }
+  .grid { display:grid; gap:10px; grid-template-columns:1fr; }
+  @media (min-width:560px) { .grid { grid-template-columns:1fr 1fr; } }
+  label { font-size:.8rem; color:var(--muted); display:block; }
+  input[type=text], input[type=search], select { width:100%; padding:10px; font:inherit; color:var(--fg);
+    background:var(--card); border:1px solid var(--line); border-radius:8px; }
+  pre { white-space:pre-wrap; background:var(--card); border:1px solid var(--line); padding:10px; border-radius:8px; }
+  .contact { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:10px 12px; margin:8px 0; }
+  .contact b { font-size:1.05rem; } .contact .meta { color:var(--muted); font-size:.9rem; word-break:break-word; }
+  .tag { display:inline-block; font-size:.75rem; border:1px solid var(--line); border-radius:99px; padding:1px 8px; margin:4px 4px 0 0; }
+  .grp { margin:16px 0 4px; font-weight:600; border-bottom:1px solid var(--line); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Business Card Scanner</h1>
+  <div id="msg"></div>
+  <progress id="prog" max="100" value="0"></progress>
+
+  <!-- HOME -->
+  <section id="home" class="view on">
+    <div class="row">
+      <button id="scanBtn">Scan card</button>
+      <label class="btn sec" style="font-size:1rem;color:var(--accent)">Upload photo
+        <input id="file" type="file" accept="image/*" capture="environment" hidden></label>
+    </div>
+    <h2>Contacts <span id="count"></span></h2>
+    <div class="grid">
+      <input id="q" type="search" placeholder="Search any field...">
+      <select id="groupBy"><option value="">Group by: None</option><option>Field</option><option>Role</option>
+        <option>City</option><option>Company</option></select>
+    </div>
+    <div class="row"><button id="csvBtn" class="sec small">Export CSV</button></div>
+    <div id="list"></div>
+  </section>
+
+  <!-- CAMERA -->
+  <section id="cam" class="view">
+    <div id="stage"><video id="video" playsinline muted autoplay></video><div id="guide"></div></div>
+    <div class="row" style="justify-content:center">
+      <button id="cancelBtn" class="sec">Cancel</button>
+      <button id="capture">Capture</button>
+      <button id="switchBtn" class="sec" hidden>Switch camera</button>
+    </div>
+  </section>
+
+  <!-- REVIEW -->
+  <section id="review" class="view">
+    <img id="photo" alt="Captured card">
+    <h2>Check and fix the details</h2>
+    <div class="grid" id="fields"></div>
+    <details style="margin-top:12px"><summary>Raw OCR text</summary><pre id="raw"></pre></details>
+    <div class="row"><button id="saveBtn">Save</button><button id="retakeBtn" class="sec">Retake</button>
+      <button id="discardBtn" class="sec">Cancel</button></div>
+  </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/tesseract.js@5.1.1/dist/tesseract.min.js"></script>
+<script>
+/* ============ EDIT ME: keyword maps ============
+   Label -> keywords. Matched (case-insensitive) against "title + company".
+   First label that matches wins, so put specific entries first.
+   Keywords of 3 chars or fewer must match a whole word ("md", "vp", "do"). */
+const FIELD_MAP = {
+  "Cardiology":      ["cardio", "heart"],
+  "Surgery":         ["surgery", "surgeon", "surgical"],
+  "Oncology":        ["oncolog", "cancer"],
+  "Pediatrics":      ["pediatric", "paediatric"],
+  "Health Policy":   ["health policy", "public health"],
+  "Venture Capital": ["capital", "ventures"],
+  "Technology":      ["software", "tech"],
+};
+const ROLE_MAP = {
+  "Physician":           ["md", "do", "physician", "m.d."],
+  "Researcher/Academic": ["professor", "phd", "ph.d", "research"],
+  "Executive":           ["ceo", "vp", "chief", "president", "founder"],
+  "Administrator":       ["manager", "coordinator", "administrator"],
+  "Sales/BD":            ["sales", "business development"],
+};
+const FIELD_DEFAULT = "Other", ROLE_DEFAULT = "Other";
+const TITLE_WORDS = ["Director","Manager","MD","M.D.","PhD","Ph.D.","Professor","Chief","VP","Vice President","President",
+  "Engineer","Analyst","Consultant","Founder","Partner","Nurse","Resident","Officer","Head","Dean","Physician","Surgeon",
+  "Coordinator","Administrator","Associate","Fellow","Scientist","Attending","CEO","CFO","COO","CTO","Principal"];
+const COMPANY_WORDS = ["Inc","LLC","Ltd","Corp","Hospital","University","Center","Centre","Group","Health","Labs","Institute",
+  "Clinic","Foundation","Medical","Company","Associates","Partners","Capital","Ventures","College","Systems"];
+const KEYS = ["name","title","company","email","phone","website","city","field","role"];
+/* ================================================ */
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+let stream = null, devices = [], devIdx = 0, contacts = [], editingId = null, photoData = "";
+try { contacts = JSON.parse(localStorage.getItem("cards_v1") || "[]"); } catch {}
+const persist = () => { try { localStorage.setItem("cards_v1", JSON.stringify(contacts)); } catch { msg("Storage full: could not save.", true); } };
+
+function msg(t, err) { $("msg").textContent = t || ""; $("msg").className = err ? "err" : ""; }
+function prog(p) { $("prog").style.display = p == null ? "none" : "block"; if (p != null) $("prog").value = p; }
+function show(id) { document.querySelectorAll(".view").forEach(v => v.classList.toggle("on", v.id === id)); }
+
+/* ---------- Camera ---------- */
+async function startCam(deviceId) {
+  stopCam();
+  const size = { width: { ideal: 1920 }, height: { ideal: 1080 } };
+  stream = await navigator.mediaDevices.getUserMedia({ video: deviceId
+    ? { deviceId: { exact: deviceId }, ...size } : { facingMode: "environment", ...size } });
+  $("video").srcObject = stream;
+  await $("video").play().catch(() => {});
+  devices = (await navigator.mediaDevices.enumerateDevices()).filter(d => d.kind === "videoinput");
+  const cur = stream.getVideoTracks()[0].getSettings().deviceId;
+  devIdx = Math.max(0, devices.findIndex(d => d.deviceId === cur));
+  $("switchBtn").hidden = devices.length < 2;
+}
+function stopCam() { if (stream) stream.getTracks().forEach(t => t.stop()); stream = null; $("video").srcObject = null; }
+
+$("scanBtn").onclick = async () => {
+  if (!navigator.mediaDevices?.getUserMedia) { msg("No camera access here (needs HTTPS or localhost). Use Upload photo.", true); return; }
+  try { show("cam"); msg("Starting camera..."); await startCam(); msg("Fit the card inside the frame."); }
+  catch (e) { stopCam(); show("home"); msg("Camera unavailable (" + (e.name || e) + "). Use Upload photo instead.", true); }
+};
+$("cancelBtn").onclick = () => { stopCam(); show("home"); msg(""); };
+$("switchBtn").onclick = async () => {
+  devIdx = (devIdx + 1) % devices.length;
+  try { await startCam(devices[devIdx].deviceId); } catch (e) { msg("Could not switch camera: " + e.name, true); }
+};
+$("capture").onclick = () => {
+  const v = $("video"), vw = v.videoWidth, vh = v.videoHeight;
+  if (!vw) return msg("Camera not ready yet.", true);
+  // Video is object-fit:cover, so map the guide box (screen px) back to video px.
+  const s = $("stage").getBoundingClientRect(), g = $("guide").getBoundingClientRect();
+  const k = Math.max(s.width / vw, s.height / vh);
+  const ox = (vw * k - s.width) / 2, oy = (vh * k - s.height) / 2;
+  const sx = Math.max(0, (g.left - s.left + ox) / k), sy = Math.max(0, (g.top - s.top + oy) / k);
+  const sw = Math.min(vw - sx, g.width / k), sh = Math.min(vh - sy, g.height / k);
+  const c = document.createElement("canvas"); c.width = Math.round(sw); c.height = Math.round(sh);
+  c.getContext("2d").drawImage(v, sx, sy, sw, sh, 0, 0, c.width, c.height);
+  stopCam(); show("home"); process(c);
+};
+$("file").onchange = e => {
+  const f = e.target.files[0]; if (!f) return;
+  const img = new Image();
+  img.onload = () => {
+    const c = document.createElement("canvas"); c.width = img.naturalWidth; c.height = img.naturalHeight;
+    c.getContext("2d").drawImage(img, 0, 0); URL.revokeObjectURL(img.src); process(c);
+  };
+  img.onerror = () => msg("Could not read that image.", true);
+  img.src = URL.createObjectURL(f); e.target.value = "";
+};
+
+/* ---------- Preprocess + OCR ---------- */
+function preprocess(src) {
+  const W = 1600, H = Math.round(src.height * W / src.width);
+  const c = document.createElement("canvas"); c.width = W; c.height = H;
+  const ctx = c.getContext("2d"); ctx.drawImage(src, 0, 0, W, H);
+  const img = ctx.getImageData(0, 0, W, H), d = img.data; let sum = 0;
+  for (let i = 0; i < d.length; i += 4) { const g = .299 * d[i] + .587 * d[i+1] + .114 * d[i+2]; d[i] = g; sum += g; }
+  const mean = sum / (d.length / 4);
+  for (let i = 0; i < d.length; i += 4) {   // contrast boost around the mean
+    const v = Math.max(0, Math.min(255, (d[i] - mean) * 1.6 + mean)); d[i] = d[i+1] = d[i+2] = v;
+  }
+  ctx.putImageData(img, 0, 0); return c;
+}
+async function process(srcCanvas) {
+  const thumb = document.createElement("canvas"); thumb.width = 700; thumb.height = Math.round(srcCanvas.height * 700 / srcCanvas.width);
+  thumb.getContext("2d").drawImage(srcCanvas, 0, 0, thumb.width, thumb.height);
+  photoData = thumb.toDataURL("image/jpeg", .6);
+  if (typeof Tesseract === "undefined") return msg("Tesseract.js did not load (check your internet connection).", true);
+  msg("Reading card... 0%"); prog(0);
+  try {
+    const r = await Tesseract.recognize(preprocess(srcCanvas), "eng", { logger: m => {
+      if (m.status === "recognizing text") { const p = Math.round(m.progress * 100); msg("Reading card... " + p + "%"); prog(p); }
+      else msg("Preparing OCR: " + m.status + "..."); } });
+    prog(null); msg("");
+    editingId = null; openReview({ ...parse(r.data.text), raw: r.data.text });
+  } catch (e) { prog(null); msg("OCR failed: " + (e.message || e), true); }
+}
+
+/* ---------- Parsing ---------- */
+const word = (line, list) => list.some(w => new RegExp("(^|[^A-Za-z])" + w.replace(/\./g, "\\.") + "([^A-Za-z]|$)", "i").test(line));
+const CRED = /,?\s*(MD|M\.D\.|DO|PhD|Ph\.D\.|RN|NP|MBA|MPH|FACC|FACS)(,?\s*(MD|M\.D\.|DO|PhD|Ph\.D\.|RN|NP|MBA|MPH|FACC|FACS))*\s*$/i;
+const STATES = "AL AK AZ AR CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY DC".split(" ");
+const EMAIL = /[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/;
+
+function guess(map, hay, dflt) {
+  for (const [label, kws] of Object.entries(map))
+    if (kws.some(k => new RegExp("\\b" + k.replace(/\./g, "\\.") + (k.length <= 3 ? "\\b" : ""), "i").test(hay))) return label;
+  return dflt;
+}
+function parse(text) {
+  const o = Object.fromEntries(KEYS.map(k => [k, ""]));
+  const lines = text.split(/\r?\n/).map(l => l.trim()).filter(l => l.length > 1);
+  o.email = (text.match(EMAIL) || [""])[0];
+  const rest = text.replace(new RegExp(EMAIL, "g"), " ");
+  o.phone = (rest.match(/(?:\+?\d{1,3}[\s.-]?)?(?:\(\d{2,4}\)|\d{2,4})[\s.-]?\d{3,4}[\s.-]?\d{3,4}/) || [""])[0].trim();
+  o.website = ((rest.match(/\b(?:https?:\/\/)?www\.[^\s,;|]+/i) ||
+    rest.match(/\b[a-z0-9-]+(?:\.[a-z0-9-]+)*\.(?:com|org|edu|net|io|health|gov|co|us)\b[^\s,;|]*/i) || [""])[0]).replace(/[.,;]+$/, "");
+  for (const l of lines) {                       // "City, ST"
+    if (l.replace(CRED, "") !== l) continue;      // skip "Jane Doe, MD" (MD is also Maryland) or "City, ST 12345"
+    const m = l.match(/([A-Z][A-Za-z.'\- ]+?),\s*([A-Z]{2})\b(?:\s+\d{5}(?:-\d{4})?)?/);
+    if (m && STATES.includes(m[2])) { o.city = m[1].trim() + ", " + m[2]; break; }
+  }
+  const tl = lines.find(l => word(l.replace(CRED, ""), TITLE_WORDS) && !EMAIL.test(l)); o.title = tl || "";
+  const cl = lines.find(l => l !== tl && word(l, COMPANY_WORDS) && !EMAIL.test(l));
+  if (cl) o.company = cl;
+  else if (o.email) { const p = o.email.split("@")[1].split(".").slice(0, -1).pop() || ""; o.company = p.charAt(0).toUpperCase() + p.slice(1); }
+  for (const l of lines) {                       // name: 2-3 capitalized words, not title/company
+    const clean = l.replace(CRED, "").replace(/^(Dr|Prof|Mr|Mrs|Ms)\.?\s+/i, "").trim();
+    if (l === tl || l === cl || /[@\d]/.test(l) || word(clean, TITLE_WORDS) || word(clean, COMPANY_WORDS)) continue;
+    const w = clean.split(/\s+/);
+    if (w.length >= 2 && w.length <= 3 && w.every(x => /^[A-Z][A-Za-z'’.\-]*$/.test(x))) { o.name = clean; break; }
+  }
+  const hay = lines.join(" ");   // credentials like "MD" may sit on the name line
+  o.field = guess(FIELD_MAP, hay, FIELD_DEFAULT); o.role = guess(ROLE_MAP, hay, ROLE_DEFAULT);
+  return o;
+}
+
+/* ---------- Review ---------- */
+function openReview(c) {
+  $("photo").src = c.photo || photoData; $("raw").textContent = c.raw || "(none)";
+  $("fields").innerHTML = KEYS.map(k => `<div><label for="f_${k}">${k[0].toUpperCase() + k.slice(1)}</label>
+    <input type="text" id="f_${k}" value="${esc(c[k])}"></div>`).join("");
+  show("review"); window.scrollTo(0, 0);
+}
+$("saveBtn").onclick = () => {
+  const data = Object.fromEntries(KEYS.map(k => [k, $("f_" + k).value.trim()]));
+  if (editingId) { const c = contacts.find(x => x.id === editingId); Object.assign(c, data); }
+  else contacts.unshift({ id: Date.now().toString(36), ...data, raw: $("raw").textContent, photo: photoData });
+  persist(); editingId = null; show("home"); msg("Saved."); render();
+};
+$("retakeBtn").onclick = () => { editingId = null; $("scanBtn").click(); };
+$("discardBtn").onclick = () => { editingId = null; show("home"); msg(""); };
+
+/* ---------- List, search, group, export ---------- */
+function render() {
+  const q = $("q").value.toLowerCase(), gb = $("groupBy").value.toLowerCase();
+  const rows = contacts.filter(c => !q || KEYS.some(k => (c[k] || "").toLowerCase().includes(q)));
+  $("count").textContent = `(${rows.length}${rows.length !== contacts.length ? " of " + contacts.length : ""})`;
+  const groups = {};
+  rows.forEach(c => (groups[gb ? (c[gb] || "(blank)") : ""] ||= []).push(c));
+  $("list").innerHTML = rows.length ? Object.keys(groups).sort().map(g =>
+    (gb ? `<div class="grp">${esc(g)} (${groups[g].length})</div>` : "") + groups[g].map(card).join("")).join("")
+    : '<p style="color:var(--muted)">No contacts yet.</p>';
+}
+const card = c => `<div class="contact"><b>${esc(c.name || "(no name)")}</b>
+  <div class="meta">${esc([c.title, c.company].filter(Boolean).join(" · "))}</div>
+  <div class="meta">${esc([c.email, c.phone, c.website, c.city].filter(Boolean).join(" · "))}</div>
+  <span class="tag">${esc(c.field)}</span><span class="tag">${esc(c.role)}</span>
+  <div class="row"><button class="sec small" data-edit="${c.id}">Edit</button>
+  <button class="sec small" data-del="${c.id}">Delete</button></div></div>`;
+
+$("list").onclick = e => {
+  const ed = e.target.dataset.edit, del = e.target.dataset.del;
+  if (ed) { editingId = ed; openReview(contacts.find(c => c.id === ed)); }
+  if (del && confirm("Delete this contact?")) { contacts = contacts.filter(c => c.id !== del); persist(); render(); }
+};
+$("q").oninput = $("groupBy").onchange = render;
+$("csvBtn").onclick = () => {
+  if (!contacts.length) return msg("Nothing to export yet.", true);
+  const cell = v => '"' + String(v ?? "").replace(/"/g, '""') + '"';
+  const csv = [KEYS.join(","), ...contacts.map(c => KEYS.map(k => cell(c[k])).join(","))].join("\r\n");
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([csv], { type: "text/csv" })); a.download = "contacts.csv"; a.click();
+};
+window.addEventListener("pagehide", stopCam);
+render();
+</script>
+</body>
+</html>
