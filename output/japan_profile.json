@@ -1,0 +1,1066 @@
+{
+ "country": "Japan",
+ "generated_date": "2026-11-17",
+ "research": {
+  "country_overview": {
+   "demographics": {
+    "facts": [
+     {
+      "label": "Capital",
+      "value": "Tokyo{{3}}"
+     },
+     {
+      "label": "Language",
+      "value": "Japanese{{3}}"
+     },
+     {
+      "label": "Population",
+      "value": "About 122.97 million (2025 census, 1 October 2025){{1}}"
+     },
+     {
+      "label": "Area",
+      "value": "377,974.87 sq km (1 April 2026){{3}}"
+     },
+     {
+      "label": "GDP (PPP), total",
+      "value": "About 7.03 trillion international dollars (2025), fifth largest in the world{{4}}"
+     },
+     {
+      "label": "GDP (PPP), per capita",
+      "value": "About 57,040 international dollars (2025){{5}}"
+     },
+     {
+      "label": "Government type",
+      "value": "Parliamentary constitutional monarchy{{8}}"
+     },
+     {
+      "label": "Head of state",
+      "value": "The Emperor, the symbol of the State{{8}}"
+     },
+     {
+      "label": "Head of government",
+      "value": "Prime Minister Sanae Takaichi (Liberal Democratic Party){{9}}"
+     },
+     {
+      "label": "Currency",
+      "value": "Japanese yen{{3}}"
+     },
+     {
+      "label": "Population aged 65 and over",
+      "value": "36.14 million, 29.4% of the total (2025 census){{1}}"
+     },
+     {
+      "label": "Population aged 75 and over",
+      "value": "21.56 million (1 May 2026 estimate){{2}}"
+     },
+     {
+      "label": "Total fertility rate",
+      "value": "1.14 births per woman (2025){{6}}"
+     },
+     {
+      "label": "Life expectancy at birth",
+      "value": "81.35 years for men, 87.33 years for women (2025){{7}}"
+     }
+    ],
+    "narrative": "The 2025 census counted 122,972,528 residents on 1 October 2025, down 3.17 million, or 2.5 percent, from 2020.{{1}} Japanese nationals numbered about 119.13 million, down 3.5 percent, while foreign residents reached 3.84 million (3.1 percent of the total), up 39.8 percent.{{1}} People aged 65 and over numbered 36.14 million (29.4 percent) and children under 15 numbered 13.35 million (10.9 percent).{{1}} The monthly estimate for 1 October 2026 is 122.69 million, based on the 2020 census and due to be rebased on the 2025 census from the November 2026 report.{{2}}\n\nFinal figures for 2025 show 671,270 births among Japanese nationals, the lowest on record and the tenth straight annual decline, a total fertility rate of 1.14, and 1,589,533 deaths, for a natural decrease of 918,263.{{6}} Life expectancy at birth was 81.35 years for men and 87.33 years for women, and Japanese women ranked first among the countries the ministry compared.{{7}} The National Institute of Population and Social Security Research projects a population of 87 million in 2070.{{10}} For a foreign academic medical center, this points to demand centered on geriatric, oncology and chronic disease care in a shrinking, long-lived population.",
+    "sources": [
+     {
+      "author": "Statistics Bureau of Japan, Ministry of Internal Affairs and Communications",
+      "title": "2025 Population Census: Summary of the Results of the Basic Complete Tabulation on Population and Households (in Japanese)",
+      "publisher": "Statistics Bureau of Japan",
+      "date": "29 September 2026",
+      "url": "https://www.stat.go.jp/data/kokusei/2025/kekka/pdf/summary_01.pdf"
+     },
+     {
+      "author": "Statistics Bureau of Japan, Ministry of Internal Affairs and Communications",
+      "title": "Population Estimates, October 2026 report (population as of 1 October 2026 provisional, 1 May 2026 final)",
+      "publisher": "Statistics Bureau of Japan",
+      "date": "20 October 2026",
+      "url": "https://www.stat.go.jp/data/jinsui/pdf/202610.pdf"
+     },
+     {
+      "author": "Government of Japan",
+      "title": "About Japan: General Information",
+      "publisher": "JapanGov",
+      "date": "",
+      "url": "https://www.japan.go.jp/japan/index.html"
+     },
+     {
+      "author": "International Monetary Fund",
+      "title": "GDP based on PPP, valuation of country GDP (PPPGDP), Japan, DataMapper (World Economic Outlook)",
+      "publisher": "International Monetary Fund",
+      "date": "",
+      "url": "https://www.imf.org/external/datamapper/api/v1/PPPGDP/JPN"
+     },
+     {
+      "author": "International Monetary Fund",
+      "title": "GDP per capita, current prices, purchasing power parity (PPPPC), Japan, DataMapper (World Economic Outlook)",
+      "publisher": "International Monetary Fund",
+      "date": "",
+      "url": "https://www.imf.org/external/datamapper/api/v1/PPPPC/JPN"
+     },
+     {
+      "author": "Ministry of Health, Labour and Welfare",
+      "title": "Press release: 2025 Vital Statistics (final figures)",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "date": "30 September 2026",
+      "url": "https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/kakutei25/dl/04_houdouR07.pdf"
+     },
+     {
+      "author": "Ministry of Health, Labour and Welfare",
+      "title": "Press release: 2025 Abridged Life Tables (Reiwa 7)",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "date": "24 July 2026",
+      "url": "https://www.mhlw.go.jp/toukei/saikin/hw/life/life25/dl/life25-14.pdf"
+     },
+     {
+      "author": "Government of Japan",
+      "title": "The Constitution of Japan",
+      "publisher": "House of Councillors, National Diet of Japan",
+      "date": "",
+      "url": "https://www.sangiin.go.jp/eng/law/tcoj/index.htm"
+     },
+     {
+      "author": "Prime Minister's Office of Japan",
+      "title": "TAKAICHI Sanae, Prime Minister (Cabinet profile)",
+      "publisher": "Prime Minister's Office of Japan",
+      "date": "",
+      "url": "https://japan.kantei.go.jp/105/meibo/daijin/takaichi_sanae.html"
+     },
+     {
+      "author": "National Institute of Population and Social Security Research",
+      "title": "Population Projections for Japan (2023 revision): 2021 to 2070, Summary of Results",
+      "publisher": "National Institute of Population and Social Security Research",
+      "date": "April 2023",
+      "url": "https://www.ipss.go.jp/pp-zenkoku/e/zenkoku_e2023/pp2023e_Summary.pdf"
+     }
+    ]
+   },
+   "government": {
+    "narrative": "Japan is a parliamentary system under a constitution in which the Emperor is the symbol of the State.{{1}} The Diet, made up of the 465-member House of Representatives and the 248-member House of Councillors, is the sole law-making organ, and it designates the Prime Minister, who leads a Cabinet collectively responsible to it.{{1}}{{2}}\n\nSanae Takaichi of the Liberal Democratic Party became the 104th prime minister in October 2025 and was designated the 105th in February 2026, after the party won 316 of the 465 House of Representatives seats in the 8 February election.{{3}}{{4}} She reshuffled the cabinet on 17 September 2026, keeping Kenichiro Ueno as health minister and bringing in the first minister from the coalition partner, the Japan Innovation Party.{{5}}{{6}} House members serve four-year terms, so the next general election is due by early 2030 unless the House is dissolved sooner, and half of the House of Councillors next stands for election in 2028.{{1}} Health policy and the fee schedule are set nationally, and prefectures develop regional care delivery.{{7}}",
+    "sources": [
+     {
+      "author": "Government of Japan",
+      "title": "The Constitution of Japan",
+      "publisher": "House of Councillors, National Diet of Japan",
+      "date": "",
+      "url": "https://www.sangiin.go.jp/eng/law/tcoj/index.htm"
+     },
+     {
+      "author": "Government of Japan",
+      "title": "About Japan: General Information",
+      "publisher": "JapanGov",
+      "date": "",
+      "url": "https://www.japan.go.jp/japan/index.html"
+     },
+     {
+      "author": "Prime Minister's Office of Japan",
+      "title": "TAKAICHI Sanae, Prime Minister (Cabinet profile)",
+      "publisher": "Prime Minister's Office of Japan",
+      "date": "",
+      "url": "https://japan.kantei.go.jp/105/meibo/daijin/takaichi_sanae.html"
+     },
+     {
+      "author": "nippon.com",
+      "title": "A Landslide for Takaichi's LDP: House of Representatives Election Results",
+      "publisher": "Nippon Communications Foundation (nippon.com)",
+      "date": "9 February 2026",
+      "url": "https://www.nippon.com/en/japan-data/h02703/"
+     },
+     {
+      "author": "Prime Minister's Office of Japan",
+      "title": "Inauguration of the Reshuffled Second Takaichi Cabinet",
+      "publisher": "Prime Minister's Office of Japan",
+      "date": "17 September 2026",
+      "url": "https://japan.kantei.go.jp/105/actions/202609/17takaichinaikaku2.html"
+     },
+     {
+      "author": "nippon.com",
+      "title": "Takaichi Opts for Stability in First Cabinet Reshuffle",
+      "publisher": "Nippon Communications Foundation (nippon.com)",
+      "date": "September 2026",
+      "url": "https://www.nippon.com/en/japan-data/h02906/takaichi-opts-for-stability-in-first-cabinet-reshuffle.html"
+     },
+     {
+      "author": "The Commonwealth Fund",
+      "title": "International Health Care System Profiles: Japan (Health System Overview)",
+      "publisher": "The Commonwealth Fund",
+      "date": "December 2020",
+      "url": "https://CommonwealthFund.org/sites/default/files/2020-12/2020_IntlOverview_JAPAN.pdf"
+     }
+    ]
+   },
+   "economy": {
+    "narrative": "Japan's economy was about 7.03 trillion international dollars at purchasing power parity in 2025, or about 57,040 per person, which the IMF ranks fifth in the world and puts at 3.3 percent of world GDP.{{1}}{{2}}{{3}} The IMF puts real growth at 1.2 percent in 2025.{{4}} The Cabinet Office's first preliminary estimate, released on 16 November 2026, showed real GDP essentially flat in July to September 2026, edging down less than 0.1 percent from the previous quarter, the first decline in four quarters, after growth of 0.4 percent in April to June.{{5}} Household consumption fell 0.3 percent, while private nonresidential investment rose 1.6 percent.{{5}} A second preliminary estimate is due on 8 December 2026.{{5}}\n\nMonetary policy has tightened. The Bank of Japan raised its overnight call rate guideline to about 1.0 percent in June and about 1.25 percent in September 2026, and kept it at about 1.25 percent on 30 October in an 8 to 1 vote.{{6}}{{7}}{{8}} The Bank also decided to raise the pace of its exchange-traded fund sales to about ¥860 billion (US$5.48 billion) a year on a book-value basis, starting in January 2027.{{8}} Inflation and wage growth are also raising costs for hospitals, which the Health System section covers.",
+    "sources": [
+     {
+      "author": "International Monetary Fund",
+      "title": "GDP based on PPP, valuation of country GDP (PPPGDP), Japan and all countries, DataMapper (World Economic Outlook)",
+      "publisher": "International Monetary Fund",
+      "date": "",
+      "url": "https://www.imf.org/external/datamapper/api/v1/PPPGDP"
+     },
+     {
+      "author": "International Monetary Fund",
+      "title": "GDP per capita, current prices, purchasing power parity (PPPPC), Japan, DataMapper (World Economic Outlook)",
+      "publisher": "International Monetary Fund",
+      "date": "",
+      "url": "https://www.imf.org/external/datamapper/api/v1/PPPPC/JPN"
+     },
+     {
+      "author": "International Monetary Fund",
+      "title": "Share of world GDP based on PPP (PPPSH), Japan, DataMapper (World Economic Outlook)",
+      "publisher": "International Monetary Fund",
+      "date": "",
+      "url": "https://www.imf.org/external/datamapper/api/v1/PPPSH/JPN"
+     },
+     {
+      "author": "International Monetary Fund",
+      "title": "Real GDP growth (NGDP_RPCH), Japan, DataMapper (World Economic Outlook)",
+      "publisher": "International Monetary Fund",
+      "date": "",
+      "url": "https://www.imf.org/external/datamapper/api/v1/NGDP_RPCH/JPN"
+     },
+     {
+      "author": "Economic and Social Research Institute, Cabinet Office",
+      "title": "Quarterly Estimates of GDP for July-September 2026 (First Preliminary Estimates)",
+      "publisher": "Cabinet Office, Government of Japan",
+      "date": "16 November 2026",
+      "url": "https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/2026/qe263/gdemenuea.html"
+     },
+     {
+      "author": "Bank of Japan",
+      "title": "Change in the Guideline for Money Market Operations, 16 June 2026",
+      "publisher": "Bank of Japan",
+      "date": "16 June 2026",
+      "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616a.pdf"
+     },
+     {
+      "author": "Bank of Japan",
+      "title": "Change in the Guideline for Money Market Operations, 18 September 2026",
+      "publisher": "Bank of Japan",
+      "date": "18 September 2026",
+      "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf"
+     },
+     {
+      "author": "Bank of Japan",
+      "title": "Statement on Monetary Policy, 30 October 2026",
+      "publisher": "Bank of Japan",
+      "date": "30 October 2026",
+      "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030a.pdf"
+     }
+    ]
+   },
+   "disease_prevalence": {
+    "facts": [
+     {
+      "label": "Deaths, all causes",
+      "value": "1,589,533 (2025){{1}}"
+     },
+     {
+      "label": "Deaths from malignant neoplasms (cancer)",
+      "value": "378,829, 23.8% of deaths (2025){{1}}"
+     },
+     {
+      "label": "Deaths from heart disease (excluding hypertensive)",
+      "value": "220,539, 13.9% of deaths (2025){{1}}"
+     },
+     {
+      "label": "Deaths from senility",
+      "value": "214,712, 13.5% of deaths (2025){{1}}"
+     },
+     {
+      "label": "Deaths from cerebrovascular disease",
+      "value": "100,361, 6.3% of deaths (2025){{1}}"
+     },
+     {
+      "label": "Current tobacco smoking, age-standardized",
+      "value": "17.1% of adults (2025 WHO estimate){{2}}"
+     },
+     {
+      "label": "Adults overweight (BMI 25 or higher), age-standardized",
+      "value": "24.4% (2024 WHO estimate){{3}}"
+     },
+     {
+      "label": "Adults with obesity (BMI 30 or higher), age-standardized",
+      "value": "5.9% (2024 WHO estimate){{4}}"
+     }
+    ],
+    "narrative": "The health ministry recorded 1,589,533 deaths in 2025 in its final figures, 15,845 fewer than in 2024.{{1}} Malignant neoplasms were the leading cause with 378,829 deaths (23.8 percent of the total).{{1}} Heart disease excluding hypertensive disease caused 220,539 deaths (13.9 percent), senility 214,712 (13.5 percent) and cerebrovascular disease 100,361 (6.3 percent).{{1}} Pneumonia caused 84,021 deaths and aspiration pneumonia 64,396, the fifth and sixth causes.{{1}}\n\nWHO estimates that 17.1 percent of adults smoked in 2025, down from 33.4 percent in 2000, and that 24.4 percent of adults were overweight and 5.9 percent had obesity in 2024.{{2}}{{3}}{{4}} This suggests sustained demand in oncology, cardiology, neurology and geriatric care.",
+    "sources": [
+     {
+      "author": "Ministry of Health, Labour and Welfare",
+      "title": "Summary of the 2025 Vital Statistics (final figures), including causes of death",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "date": "30 September 2026",
+      "url": "https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/kakutei25/dl/05_gaikyouR07.pdf"
+     },
+     {
+      "author": "World Health Organization",
+      "title": "Estimate of current tobacco smoking prevalence (%) (age-standardized), Japan (M_Est_smk_curr_std)",
+      "publisher": "WHO Global Health Observatory",
+      "date": "",
+      "url": "https://ghoapi.azureedge.net/api/M_Est_smk_curr_std?$filter=SpatialDim eq 'JPN' and Dim1 eq 'SEX_BTSX'"
+     },
+     {
+      "author": "World Health Organization",
+      "title": "Overweight among adults, BMI 25 kg/m2 or higher (age-standardized estimate) (%), Japan (NCD_BMI_25A)",
+      "publisher": "WHO Global Health Observatory",
+      "date": "",
+      "url": "https://ghoapi.azureedge.net/api/NCD_BMI_25A?$filter=SpatialDim eq 'JPN'"
+     },
+     {
+      "author": "World Health Organization",
+      "title": "Obesity among adults, BMI 30 kg/m2 or higher (age-standardized estimate) (%), Japan (NCD_BMI_30A)",
+      "publisher": "WHO Global Health Observatory",
+      "date": "",
+      "url": "https://ghoapi.azureedge.net/api/NCD_BMI_30A?$filter=SpatialDim eq 'JPN'"
+     }
+    ]
+   }
+  },
+  "health_system": {
+   "public_system": {
+    "narrative": "Japan's statutory health insurance provides universal coverage, funded mainly by taxes and individual contributions, and enrollment in either an employment-based or a residence-based plan is required.{{1}} As of March 2024, the Japan Health Insurance Association plan covered 39.54 million people, society-managed plans 28.03 million, National Health Insurance 25.66 million and the system for people aged 75 and over 19.79 million.{{2}} Patients usually pay 30 percent of costs, children before compulsory schooling pay 20 percent, people aged 70 to 74 pay 20 percent (30 percent at higher incomes), and people aged 75 and over pay 10 percent (20 or 30 percent at higher incomes), with monthly out-of-pocket caps.{{2}}\n\nThe national government sets the fee schedule and prefectures develop regional delivery, and patients need no GP registration and no referral at clinics, according to a 2020 Commonwealth Fund profile.{{1}} In fiscal 2024, insurance premiums supplied 50.3 percent of national medical expenditure, public funds 37.4 percent and patient payments 11.8 percent.{{3}} Fees are revised every two years, and the latest revision raised the main portion by 3.09 percent on average over fiscal 2026 and 2027 (2.41 percent in fiscal 2026 and 3.77 percent in fiscal 2027, from June 2026), while drug prices were cut 0.86 percent from April 2026.{{4}}",
+    "sources": [
+     {
+      "author": "The Commonwealth Fund",
+      "title": "International Health Care System Profiles: Japan (Health System Overview)",
+      "publisher": "The Commonwealth Fund",
+      "date": "December 2020",
+      "url": "https://CommonwealthFund.org/sites/default/files/2020-12/2020_IntlOverview_JAPAN.pdf"
+     },
+     {
+      "author": "Ministry of Health, Labour and Welfare",
+      "title": "Health Care Insurance (Health and Medical Services), Annual Health, Labour and Welfare Report 2025",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "date": "2025",
+      "url": "https://www.mhlw.go.jp/wp/hakusyo/kousei/25-2/dl/02_en.pdf"
+     },
+     {
+      "author": "Ministry of Health, Labour and Welfare",
+      "title": "Overview of National Medical Expenditure, Fiscal 2024 (Reiwa 6): summary of results",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "date": "30 October 2026",
+      "url": "https://www.mhlw.go.jp/toukei/saikin/hw/k-iryohi/24/dl/R06kekka.pdf"
+     },
+     {
+      "author": "Ministry of Health, Labour and Welfare",
+      "title": "Medical fee revision for fiscal 2026 (Reiwa 8): outline of the main portion and drug price revision (Central Social Insurance Medical Council material, in Japanese)",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "date": "26 December 2025",
+      "url": "https://www.mhlw.go.jp/content/10808000/001766422.pdf"
+     }
+    ]
+   },
+   "private_system": {
+    "narrative": "Most hospitals are run by private or other nonprofit corporations. At the end of August 2026 Japan had 7,941 hospitals with 1,440,637 beds, 105,754 general clinics and 64,940 dental clinics.{{1}} Medical corporations ran 5,550 hospitals with 816,811 beds, against 179 prefectural and 574 municipal hospitals, 140 under the National Hospital Organization and 47 national university hospitals; companies ran 23 hospitals, and individuals owned 37,950 clinics.{{1}} National, prefectural, municipal and local independent administrative bodies together ran about 1,200 hospitals, roughly 15 percent of the total.{{1}}\n\nHospital finances are strained. In the ministry's survey for fiscal 2024, covering 1,167 hospitals, general hospitals other than psychiatric ones had an average profit margin of minus 7.3 percent, and minus 3.9 percent after adding subsidies and other non-operating income; the margin was minus 1.0 percent at medical corporations and minus 18.5 percent at public hospitals, while clinics run by medical corporations earned plus 4.8 percent.{{2}}",
+    "sources": [
+     {
+      "author": "Ministry of Health, Labour and Welfare",
+      "title": "Survey of Medical Institutions (Dynamic), end of August 2026, provisional figures",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "date": "30 October 2026",
+      "url": "https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/m26/dl/is2608.pdf"
+     },
+     {
+      "author": "Ministry of Health, Labour and Welfare",
+      "title": "25th Survey on Economic Conditions in Health Care (medical institutions), report for fiscal 2024 (Central Social Insurance Medical Council, in Japanese)",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "date": "26 November 2025",
+      "url": "https://www.mhlw.go.jp/bunya/iryouhoken/database/zenpan/jittaityousa/dl/25_houkoku_iryoukikan.pdf"
+     }
+    ]
+   },
+   "financing": {
+    "facts": [
+     {
+      "label": "Current health expenditure, share of GDP",
+      "value": "10.74% (2023); 12.32% in 2022; 10.67% in 2012{{1}}"
+     },
+     {
+      "label": "Current health expenditure per capita",
+      "value": "US$3,638 (2023, current US$){{2}}"
+     },
+     {
+      "label": "Out-of-pocket share of current health expenditure",
+      "value": "12.24% (2023){{3}}"
+     },
+     {
+      "label": "Government share of current health expenditure",
+      "value": "84.83% (2023){{4}}"
+     },
+     {
+      "label": "Comparison, current health expenditure share of GDP (2023)",
+      "value": "Japan 10.74%, South Korea 8.57%, United Kingdom 10.99%, France 11.52%, Germany 11.74%, United States 16.69%{{1}}"
+     },
+     {
+      "label": "National medical expenditure, fiscal 2024",
+      "value": "¥48.81 trillion (US$311 billion); ¥394,300 (US$2,510) per person; 7.60% of GDP{{5}}"
+     },
+     {
+      "label": "Spending on people aged 65 and over, fiscal 2024",
+      "value": "¥29.35 trillion (US$187 billion), 60.1% of the total{{5}}"
+     }
+    ],
+    "narrative": "Current health expenditure was 10.74 percent of GDP in 2023, down from a peak of 12.32 percent in 2022 and close to the 10.67 percent of 2012, according to WHO's Global Health Expenditure Database.{{1}} Spending per person was US$3,638 in 2023.{{2}} In 2023 the share of GDP was above South Korea's 8.57 percent and below the United Kingdom's 10.99, France's 11.52, Germany's 11.74 and the United States' 16.69 percent.{{1}} Out-of-pocket spending was 12.24 percent of current health expenditure, and domestic general government spending was 84.83 percent.{{3}}{{4}} \n\nThe health ministry's own series puts fiscal 2024 national medical expenditure at ¥48.81 trillion (US$311 billion), or ¥394,300 (US$2,510) per person and 7.60 percent of GDP, a lower share than WHO's current health expenditure measure.{{5}} People aged 65 and over accounted for 60.1 percent of it.{{5}}",
+    "sources": [
+     {
+      "author": "World Health Organization",
+      "title": "Current health expenditure (CHE) as percentage of gross domestic product (GDP) (%), Global Health Expenditure Database (GHED_CHEGDP_SHA2011)",
+      "publisher": "WHO Global Health Observatory",
+      "date": "5 December 2025",
+      "url": "https://ghoapi.azureedge.net/api/GHED_CHEGDP_SHA2011?$filter=SpatialDim eq 'JPN'"
+     },
+     {
+      "author": "World Health Organization",
+      "title": "Current health expenditure (CHE) per capita in US$, Global Health Expenditure Database (GHED_CHE_pc_US_SHA2011), Japan",
+      "publisher": "WHO Global Health Observatory",
+      "date": "5 December 2025",
+      "url": "https://ghoapi.azureedge.net/api/GHED_CHE_pc_US_SHA2011?$filter=SpatialDim eq 'JPN'"
+     },
+     {
+      "author": "World Health Organization",
+      "title": "Out-of-pocket expenditure as percentage of current health expenditure (CHE) (%), Global Health Expenditure Database (GHED_OOPSCHE_SHA2011), Japan",
+      "publisher": "WHO Global Health Observatory",
+      "date": "5 December 2025",
+      "url": "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filter=SpatialDim eq 'JPN'"
+     },
+     {
+      "author": "World Health Organization",
+      "title": "Domestic general government health expenditure (GGHE-D) as percentage of current health expenditure (CHE) (%), Global Health Expenditure Database (GHED_GGHE-DCHE_SHA2011), Japan",
+      "publisher": "WHO Global Health Observatory",
+      "date": "5 December 2025",
+      "url": "https://ghoapi.azureedge.net/api/GHED_GGHE-DCHE_SHA2011?$filter=SpatialDim eq 'JPN'"
+     },
+     {
+      "author": "Ministry of Health, Labour and Welfare",
+      "title": "Overview of National Medical Expenditure, Fiscal 2024 (Reiwa 6): summary of results",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "date": "30 October 2026",
+      "url": "https://www.mhlw.go.jp/toukei/saikin/hw/k-iryohi/24/dl/R06kekka.pdf"
+     }
+    ]
+   },
+   "workforce": {
+    "facts": [
+     {
+      "label": "Registered physicians",
+      "value": "347,772 (31 December 2024), up 1.3% on 2022{{1}}"
+     },
+     {
+      "label": "Physicians per 100,000 people",
+      "value": "280.9 (2024){{1}}"
+     },
+     {
+      "label": "Dentists",
+      "value": "103,652 (31 December 2024){{1}}"
+     },
+     {
+      "label": "Pharmacists",
+      "value": "329,045 (31 December 2024){{1}}"
+     },
+     {
+      "label": "Medical doctors per 10,000 people (WHO)",
+      "value": "26.49 (2022){{2}}"
+     },
+     {
+      "label": "Nursing and midwifery personnel per 10,000 people (WHO)",
+      "value": "124.44 (2022){{3}}"
+     },
+     {
+      "label": "Hospital beds per 10,000 people (ministry count, August 2026)",
+      "value": "About 117 (1,440,637 beds){{6}}{{8}}"
+     },
+     {
+      "label": "Beds per 10,000 people (WHO series)",
+      "value": "125.87 (2022){{4}}"
+     }
+    ],
+    "narrative": "Japan had 347,772 registered physicians at the end of 2024, or 280.9 per 100,000 people, up 1.3 percent from 2022, along with 103,652 dentists and 329,045 pharmacists.{{1}} WHO's series gives 26.49 medical doctors per 10,000 people in 2022, slightly below the ministry's 274.7 per 100,000 for the same year.{{1}}{{2}} WHO's latest values are 26.63 for South Korea (2023), 26.54 for the United States (2022), and 33.54, 40.09 and 45.93 for the United Kingdom, France and Germany (all 2023), against 23.1 for the Western Pacific Region and 34.5 for high-income countries (both 2024).{{2}} Nursing and midwifery personnel numbered 124.44 per 10,000 people in 2022.{{3}} The Finance Ministry expects supply and demand for doctors to balance around 2029 to 2032 and to tilt toward oversupply afterward.{{5}}\n\nThe ministry counted 1,440,637 hospital beds in August 2026, about 117 per 10,000 people.{{6}}{{8}} WHO's higher figure of 125.87 beds per 10,000 for 2022 is consistent with the ministry's 2022 counts of 1,492,957 hospital beds plus 80,436 general clinic beds, so the two measures should not be compared directly.{{4}}{{7}}",
+    "sources": [
+     {
+      "author": "Ministry of Health, Labour and Welfare",
+      "title": "Overview of the 2024 Survey of Physicians, Dentists and Pharmacists",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "date": "23 December 2025",
+      "url": "https://www.mhlw.go.jp/toukei/saikin/hw/ishi/24/dl/R06_1gaikyo.pdf"
+     },
+     {
+      "author": "World Health Organization",
+      "title": "Medical doctors (per 10,000) (HWF_0001), Japan, South Korea, United States, United Kingdom, France, Germany and regional aggregates",
+      "publisher": "WHO Global Health Observatory",
+      "date": "23 January 2026",
+      "url": "https://ghoapi.azureedge.net/api/HWF_0001"
+     },
+     {
+      "author": "World Health Organization",
+      "title": "Nursing and midwifery personnel (per 10,000) (HWF_0006), Japan",
+      "publisher": "WHO Global Health Observatory",
+      "date": "23 January 2026",
+      "url": "https://ghoapi.azureedge.net/api/HWF_0006?$filter=SpatialDim eq 'JPN'"
+     },
+     {
+      "author": "World Health Organization",
+      "title": "Hospital beds (per 10 000 population) (WHS6_102), Japan",
+      "publisher": "WHO Global Health Observatory",
+      "date": "30 September 2025",
+      "url": "https://ghoapi.azureedge.net/api/WHS6_102?$filter=SpatialDim eq 'JPN'"
+     },
+     {
+      "author": "Ministry of Finance, Japan",
+      "title": "Strengthening Overall National Strength amid Population Decline (Fiscal Topics I), Fiscal System Council, Fiscal System Subcommittee material 1 (in Japanese)",
+      "publisher": "Ministry of Finance, Japan",
+      "date": "23 April 2026",
+      "url": "https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20260423/01.pdf"
+     },
+     {
+      "author": "Ministry of Health, Labour and Welfare",
+      "title": "Survey of Medical Institutions (Dynamic), end of August 2026, provisional figures",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "date": "30 October 2026",
+      "url": "https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/m26/dl/is2608.pdf"
+     },
+     {
+      "author": "Ministry of Health, Labour and Welfare",
+      "title": "Press release: 2022 Survey of Medical Institutions (Dynamic) and Hospital Report, annual results (in Japanese)",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "date": "26 September 2023",
+      "url": "https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/22/dl/10houdou04.pdf"
+     },
+     {
+      "author": "Statistics Bureau of Japan, Ministry of Internal Affairs and Communications",
+      "title": "Population Estimates, October 2026 report (population as of 1 October 2026 provisional, 1 May 2026 final)",
+      "publisher": "Statistics Bureau of Japan",
+      "date": "20 October 2026",
+      "url": "https://www.stat.go.jp/data/jinsui/pdf/202610.pdf"
+     }
+    ]
+   },
+   "education": {
+    "narrative": "Japan has had 82 medical schools since 2017. No new schools opened from 1979 under a policy to limit the number of physicians, until Tohoku Medical and Pharmaceutical University opened a medical school in 2016 and the International University of Health and Welfare in Narita City, Chiba, the newest, opened in April 2017 as the 82nd.{{2}} The Ministry of Education, Culture, Sports, Science and Technology regulates them.{{1}} The standard undergraduate program is six years, typically four years of preclinical and two of clinical education, and high school graduates are eligible to enter.{{1}}\n\nGraduates take the National Medical Practitioners Examination once a year; the 120th sitting, held on 7 and 8 February 2026, drew 9,980 candidates with a 91.6 percent pass rate, and the examination has 400 questions.{{3}}{{4}} The law requires two years of postgraduate training, with a residency matching system that began in 2004.{{1}} Those details come from a 2006 review, and a 2023 account still describes a national licensure exam and a residency matching process.{{2}}\n\nOn 23 April 2026 the Finance Ministry told its advisory council that doctor supply and demand should balance around 2029 to 2032 and that a future surplus is already certain given the six-year degree, and it urged a bold, planned cut in medical school capacity.{{5}}",
+    "sources": [
+     {
+      "author": "Tadahiko Kozu",
+      "title": "Medical Education in Japan",
+      "publisher": "Academic Medicine, 81(12):1069-1075",
+      "date": "December 2006",
+      "url": "https://journals.lww.com/academicmedicine/Fulltext/2006/12000/Medical_Education_in_Japan.10.aspx"
+     },
+     {
+      "author": "Haruko Akatsu",
+      "title": "IUHW School of Medicine: overview of the six-year journey of an innovative, international new medical school in Japan",
+      "publisher": "Author's copy hosted on researchmap, 28(2)",
+      "date": "2023",
+      "url": "https://researchmap.jp/harukomd/published_papers/45799338/attachment_file.pdf"
+     },
+     {
+      "author": "Ministry of Health, Labour and Welfare",
+      "title": "Press release: Announcement of results of the 120th National Medical Practitioners Examination (in Japanese)",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "date": "16 March 2026",
+      "url": "https://www.mhlw.go.jp/content/10803000/001674268.pdf"
+     },
+     {
+      "author": "Toshitsugu Sakurai, Daichi Aizawa, Kazuyoshi Okawa, Ryo Kofuchi, Masatsugu Hirota, Hiroya Gotouda, Takatsugu Yamamoto and Chikahiro Ohkubo",
+      "title": "Assessment Design in the Era of Large Language Models: Evidence From Japanese Health Professions Licensing Examinations",
+      "publisher": "Journal of Medical Education and Curricular Development (via PubMed Central)",
+      "date": "7 September 2026",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13554591/"
+     },
+     {
+      "author": "Ministry of Finance, Japan",
+      "title": "Strengthening Overall National Strength amid Population Decline (Fiscal Topics I), Fiscal System Council, Fiscal System Subcommittee material 1 (in Japanese)",
+      "publisher": "Ministry of Finance, Japan",
+      "date": "23 April 2026",
+      "url": "https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20260423/01.pdf"
+     }
+    ]
+   },
+   "outlook": {
+    "narrative": "Demand will keep rising as the population ages. At the 2025 census, 36.14 million people, 29.4 percent of the population, were 65 or older.{{1}} The national institute projects the share aged 65 and over rising from 28.6 percent in 2020 to 38.7 percent in 2070, while the population falls to 87 million.{{2}} In fiscal 2024, spending on people 65 and over was ¥29.35 trillion (US$187 billion), or ¥809,800 (US$5,160) per person, against ¥222,300 (US$1,420) for those under 65.{{3}}\n\nPolicy is aimed at keeping providers solvent. The government agreed to raise the main portion of fees by 3.09 percent on average over fiscal 2026 and 2027 (2.41 percent, then 3.77 percent) while cutting drug prices 0.86 percent, so the overall revision is the first net increase in 12 years and the first main-portion rise of 3 percent or more in about 30 years.{{4}}{{5}} Finances are the constraint: general hospitals averaged a profit margin of minus 7.3 percent in fiscal 2024, and public hospitals minus 18.5 percent.{{6}} On supply, the Finance Ministry expects a doctor surplus after 2032 and has proposed cutting medical school enrollment.{{7}} For a foreign partner, the openings lie in research, training and specialized clinical collaboration rather than in filling capacity gaps.",
+    "sources": [
+     {
+      "author": "Statistics Bureau of Japan, Ministry of Internal Affairs and Communications",
+      "title": "2025 Population Census: Summary of the Results of the Basic Complete Tabulation on Population and Households (in Japanese)",
+      "publisher": "Statistics Bureau of Japan",
+      "date": "29 September 2026",
+      "url": "https://www.stat.go.jp/data/kokusei/2025/kekka/pdf/summary_01.pdf"
+     },
+     {
+      "author": "National Institute of Population and Social Security Research",
+      "title": "Population Projections for Japan (2023 revision): 2021 to 2070, Summary of Results",
+      "publisher": "National Institute of Population and Social Security Research",
+      "date": "April 2023",
+      "url": "https://www.ipss.go.jp/pp-zenkoku/e/zenkoku_e2023/pp2023e_Summary.pdf"
+     },
+     {
+      "author": "Ministry of Health, Labour and Welfare",
+      "title": "Overview of National Medical Expenditure, Fiscal 2024 (Reiwa 6): summary of results",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "date": "30 October 2026",
+      "url": "https://www.mhlw.go.jp/toukei/saikin/hw/k-iryohi/24/dl/R06kekka.pdf"
+     },
+     {
+      "author": "Ministry of Health, Labour and Welfare",
+      "title": "Medical fee revision for fiscal 2026 (Reiwa 8): outline of the main portion and drug price revision (Central Social Insurance Medical Council material, in Japanese)",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "date": "26 December 2025",
+      "url": "https://www.mhlw.go.jp/content/10808000/001766422.pdf"
+     },
+     {
+      "author": "The Japan Times",
+      "title": "Japanese ministers agree to raise medical service fees",
+      "publisher": "The Japan Times",
+      "date": "24 December 2025",
+      "url": "https://www.japantimes.co.jp/news/2025/12/24/japan/medical-service-fees-agreement/"
+     },
+     {
+      "author": "Ministry of Health, Labour and Welfare",
+      "title": "25th Survey on Economic Conditions in Health Care (medical institutions), report for fiscal 2024 (Central Social Insurance Medical Council, in Japanese)",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "date": "26 November 2025",
+      "url": "https://www.mhlw.go.jp/bunya/iryouhoken/database/zenpan/jittaityousa/dl/25_houkoku_iryoukikan.pdf"
+     },
+     {
+      "author": "Ministry of Finance, Japan",
+      "title": "Strengthening Overall National Strength amid Population Decline (Fiscal Topics I), Fiscal System Council, Fiscal System Subcommittee material 1 (in Japanese)",
+      "publisher": "Ministry of Finance, Japan",
+      "date": "23 April 2026",
+      "url": "https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20260423/01.pdf"
+     }
+    ]
+   },
+   "competitive_landscape": {
+    "narrative": "The tracker below lists 66 active partnerships with 64 foreign institutions, 19 of them US academic medical centers, mostly research ties. The National Cancer Center Japan's August 2026 list names MD Anderson, Dana-Farber, Massachusetts General Hospital and Mount Sinai.{{1}} In February 2025 Kanagawa Prefecture, Ohio State's Wexner Medical Center, Tokushukai and Japan Airport Terminal agreed to plan a clinic at Haneda Airport.{{2}}",
+    "closing": "Japan is working to attract international patients. An estimated record 42,683,600 foreign visitors arrived in 2025, up 15.8 percent, but short-term visitors are excluded from public health insurance and no national database of their emergency hospitalizations exists.{{3}}{{4}} Hospitals accredited by Medical Excellence JAPAN admitted 2,099 new international patients in fiscal 2024, and the group launched a patient portal on 12 November 2026.{{5}}{{6}} No official count of medical travelers or of Japanese patients treated abroad was found.",
+    "sources": [
+     {
+      "author": "National Cancer Center Japan",
+      "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+      "publisher": "National Cancer Center Japan",
+      "date": "August 2026",
+      "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+     },
+     {
+      "author": "Kanagawa Prefecture",
+      "title": "Kanagawa Prefecture, Ohio State University, Medical Corporation Tokushukai and Japan Airport Terminal sign a memorandum on international contribution in medicine and healthcare (press release, in Japanese)",
+      "publisher": "Kanagawa Prefecture",
+      "date": "5 February 2025",
+      "url": "https://www.pref.kanagawa.jp/docs/bs5/prs/r1277547.html"
+     },
+     {
+      "author": "Japan National Tourism Organization",
+      "title": "Number of visitor arrivals to Japan: 3,617,700 in December 2025 (preliminary figures estimated by JNTO)",
+      "publisher": "Japan National Tourism Organization",
+      "date": "21 January 2026",
+      "url": "https://www.jnto.go.jp/en/news/20260121.pdf"
+     },
+     {
+      "author": "Soichiro Saeki, Chihaya Hinohara, Eri Yamada, Kaori Minamitani and Ryo Kawasaki",
+      "title": "ACCESS Japan Registry: Toward a nationwide evidence platform for foreign visitors requiring emergency hospitalization in Japan",
+      "publisher": "Global Health & Medicine",
+      "date": "31 October 2026",
+      "url": "https://www.jstage.jst.go.jp/article/ghm/8/5/8_2026.01066/_article"
+     },
+     {
+      "author": "Kayoko Beppu",
+      "title": "Taking Japan's Quality of Care to the World: Implementing the Japan-Style Medical Inbound Model",
+      "publisher": "Japan SPOTLIGHT, Japan Economic Foundation",
+      "date": "November/December 2025",
+      "url": "https://www.jef.or.jp/journal/pdf/264th_Cover_Story_02.pdf"
+     },
+     {
+      "author": "Medical Excellence JAPAN",
+      "title": "News release: MEJ Launches Japan International Healthcare, an Official Portal for International Patients Seeking Care in Japan",
+      "publisher": "Medical Excellence JAPAN",
+      "date": "12 November 2026",
+      "url": "https://medicalexcellencejapan.org/en/notice/detail/848/"
+     }
+    ],
+    "tracker_country": "Japan"
+   }
+  },
+  "recent_developments": [
+   {
+    "date": "2026-11",
+    "headline": "Medical Excellence JAPAN launches a portal for international patients",
+    "summary": "Medical Excellence JAPAN announced on 12 November 2026 that it launched Japan International Healthcare, an official portal for international patients that lists 36 hospitals it has assessed.{{1}}",
+    "sources": [
+     {
+      "author": "Medical Excellence JAPAN",
+      "title": "News release: MEJ Launches Japan International Healthcare, an Official Portal for International Patients Seeking Care in Japan",
+      "publisher": "Medical Excellence JAPAN",
+      "date": "12 November 2026",
+      "url": "https://medicalexcellencejapan.org/en/notice/detail/848/"
+     }
+    ]
+   },
+   {
+    "date": "2026-10",
+    "headline": "National medical expenditure reached ¥48.81 trillion in fiscal 2024",
+    "summary": "The health ministry reported fiscal 2024 national medical expenditure of ¥48.81 trillion (US$311 billion), up 1.5 percent, or ¥394,300 (US$2,510) per person.{{1}} It equaled 7.60 percent of GDP, down from 7.76 percent the year before.{{1}}",
+    "sources": [
+     {
+      "author": "Ministry of Health, Labour and Welfare",
+      "title": "Overview of National Medical Expenditure, Fiscal 2024 (Reiwa 6): summary of results",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "date": "30 October 2026",
+      "url": "https://www.mhlw.go.jp/toukei/saikin/hw/k-iryohi/24/dl/R06kekka.pdf"
+     }
+    ]
+   },
+   {
+    "date": "2026-09",
+    "headline": "Final 2025 figures confirm record-low births and a fertility rate of 1.14",
+    "summary": "Final figures published on 30 September 2026 showed 671,270 births among Japanese nationals, a record low and a tenth straight decline, and a total fertility rate of 1.14.{{1}} Deaths fell 15,845 to 1,589,533, and the natural decrease was 918,263, the 19th straight year of decline.{{1}}",
+    "sources": [
+     {
+      "author": "Ministry of Health, Labour and Welfare",
+      "title": "Press release: 2025 Vital Statistics (final figures)",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "date": "30 September 2026",
+      "url": "https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/kakutei25/dl/04_houdouR07.pdf"
+     }
+    ]
+   },
+   {
+    "date": "2026-04",
+    "headline": "Finance Ministry proposes a drastic cut in medical school enrollment",
+    "summary": "On 23 April 2026 the Finance Ministry told its advisory council that doctor supply and demand would balance around 2029 to 2032 and that a later surplus was already certain, and urged a bold, planned reduction in medical school enrollment.{{1}}",
+    "sources": [
+     {
+      "author": "Ministry of Finance, Japan",
+      "title": "Strengthening Overall National Strength amid Population Decline (Fiscal Topics I), Fiscal System Council, Fiscal System Subcommittee material 1 (in Japanese)",
+      "publisher": "Ministry of Finance, Japan",
+      "date": "23 April 2026",
+      "url": "https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20260423/01.pdf"
+     }
+    ]
+   },
+   {
+    "date": "2025-12",
+    "headline": "Government agrees a fiscal 2026 medical fee revision averaging 3.09 percent",
+    "summary": "On 24 December 2025 the finance and health ministers agreed to raise the main portion of fees by 3.09 percent on average over fiscal 2026 and 2027 (2.41 percent, then 3.77 percent) and to cut drug prices 0.86 percent.{{1}} Drug prices changed in April 2026 and the main fees in June 2026.{{1}}{{2}}",
+    "sources": [
+     {
+      "author": "Ministry of Health, Labour and Welfare",
+      "title": "Medical fee revision for fiscal 2026 (Reiwa 8): outline of the main portion and drug price revision (Central Social Insurance Medical Council material, in Japanese)",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "date": "26 December 2025",
+      "url": "https://www.mhlw.go.jp/content/10808000/001766422.pdf"
+     },
+     {
+      "author": "The Japan Times",
+      "title": "Japanese ministers agree to raise medical service fees",
+      "publisher": "The Japan Times",
+      "date": "24 December 2025",
+      "url": "https://www.japantimes.co.jp/news/2025/12/24/japan/medical-service-fees-agreement/"
+     }
+    ]
+   }
+  ],
+  "resolution_log": [
+   "World Bank Indicators API (api.worldbank.org) timed out on every request, so japan_wb.json was not available and no World Bank pages could be read. Spending, workforce and bed series use the WHO Global Health Observatory API (Global Health Expenditure Database and Health Workforce indicators), which was readable. WHO's series for doctors is lower than the ministry's registration count, so both are shown and labeled.",
+   "The OECD average could not be read (oecd.org returned 403), so the workforce chart uses WHO regional and high-income group averages for 2024 instead.",
+   "Not readable from this environment, so not cited: mofa.go.jp pages (403), Commonwealth Fund international site (403), OECD Health at a Glance (403). The Commonwealth Fund overview used is the December 2020 PDF, so structural points (coverage shares, cost-sharing, ownership in 2016) predate 2026. Kozu (2006) describes the medical education pathway; the 2023 Akatsu article confirms the national exam, matching process and 82 schools.",
+   "Fiscal 2024 national medical expenditure (published 30 October 2026) is the ministry's own definition, so its 7.60 percent of GDP differs from WHO's current health expenditure share of 10.74 percent for 2023. Yen amounts use the repository rate of 157.05 yen per US dollar (22 October 2026).",
+   "Largest private hospital group data (Tokushukai, Shinkokai, Seirei, Kameda) could not be reliably sourced to hospitals or beds, so the market chart uses WHO hospital beds per 10,000 people. The competitive landscape cites only pages read directly; other tracker leads in tracker_combined.json were not re-verified here.",
+   "The Prime Minister's reshuffle of 17 September 2026 appears in news coverage that could not be read, so it is not in the text; the Cabinet Office page confirms Takaichi as the 105th Prime Minister since 18 February 2026."
+  ]
+ },
+ "resolution_log": [
+  "Research pass 17 November 2026; three independent verification passes, resolved by the lead editor, with every flagged point re-checked on its source page and single-verifier points checked with extra care.",
+  "Corrected: fiscal 2026 medical fee revision restated as a two-year average (3.09 percent; 2.41 percent in fiscal 2026 and 3.77 percent in fiscal 2027) per the MHLW document, drug price cut 0.86 percent (0.87 percent with materials), net 2.22 percent on the same average basis; 'largest since 1996' (Jiji, which also wrongly said 'in fiscal 2026') replaced by the Japan Times wording, a main-portion rise of 3 percent or more for the first time in about 30 years; fee changes took effect April and June 2026.",
+  "Updated: GDP to the 16 November 2026 first preliminary estimate for July to September 2026 (about flat, first fall in four quarters); 195 economies count dropped (the IMF site could not be reopened to settle 195 versus 197); Bank of Japan sentence now cites the June, September and October statements and drops the unsupported 'highest since April 1995' phrase; final 2025 vital statistics (30 September 2026) and the 2025 census (29 September 2026) replace preliminary and 2020-based figures, with the monthly estimate labeled as 2020-census-based.",
+  "Government: added the 8 February 2026 election (LDP 316 of 465 seats), the 17 September 2026 reshuffle and next election timing (four-year House of Representatives term; half of the House of Councillors in 2028, from Articles 45 and 46). The Prime Minister's Office profile lists Takaichi as the 104th prime minister (October 2025) and the 105th (February 2026), so both numbers stay, each with its date.",
+  "Health system: copayment rates and subscriber counts from the MHLW 2025 annual report (2020 Commonwealth Fund shares dropped; 2016 ownership share and the 70 percent private insurance figure replaced by August 2026 MHLW ownership counts); hospital margins now cited to the MHLW survey; medical school enrollment claims cited to the Finance Ministry paper (the 274 to 340 doctors per 100,000 projection was dropped because the primary paper does not state it); physician exam updated to 400 questions over two days, Tohoku Medical and Pharmaceutical University (2016) added before IUHW (2017), typeset.io link replaced by the Academic Medicine record; WHO bed series (125.87) reconciled with the MHLW count (about 117) in the text and in the market chart.",
+  "Added: JNTO source for 42,683,600 arrivals, Japan International Hospitals new patient counts (2,262 in fiscal 2023 and 2,099 in fiscal 2024 at 39 hospitals) from the Medical Excellence JAPAN author's article, and the direct Medical Excellence JAPAN release dated 12 November 2026. No official count of medical travelers exists. A METI study group estimate of 20,000 to 30,000, found only in a secondary article, was left out.",
+  "Recent developments kept at five health-sector items; the reshuffle and the Bank of Japan decision were not added because they are not health-sector news. Unresolved: IMF data vintage (the DataMapper pages could not be reopened), and the NCC partner list gives no signing dates for the US partners."
+ ],
+ "csi_manual": {
+  "patient_volume_and_revenue": "",
+  "referral_sources": "",
+  "relationship_history": "",
+  "complications": "",
+  "key_contacts": "",
+  "opportunities": "",
+  "csi_recommendation": ""
+ },
+ "charts": [
+  {
+   "id": "spending",
+   "page": "health",
+   "kind": "line",
+   "title": "Japan: health spending and out-of-pocket share, 2012 to 2023",
+   "unit": "%",
+   "note": "Current health expenditure as a share of GDP, and out-of-pocket spending as a share of current health expenditure, from the WHO Global Health Expenditure Database.",
+   "highlight": "Japan",
+   "series": [
+    {
+     "name": "Current health expenditure (% of GDP)",
+     "points": [
+      [
+       "2012",
+       10.67
+      ],
+      [
+       "2013",
+       10.67
+      ],
+      [
+       "2014",
+       10.73
+      ],
+      [
+       "2015",
+       10.75
+      ],
+      [
+       "2016",
+       10.66
+      ],
+      [
+       "2017",
+       10.66
+      ],
+      [
+       "2018",
+       10.74
+      ],
+      [
+       "2019",
+       10.97
+      ],
+      [
+       "2020",
+       11.45
+      ],
+      [
+       "2021",
+       12.08
+      ],
+      [
+       "2022",
+       12.32
+      ],
+      [
+       "2023",
+       10.74
+      ]
+     ]
+    },
+    {
+     "name": "Out-of-pocket (% of current health expenditure)",
+     "points": [
+      [
+       "2012",
+       12.97
+      ],
+      [
+       "2013",
+       12.7
+      ],
+      [
+       "2014",
+       12.87
+      ],
+      [
+       "2015",
+       12.95
+      ],
+      [
+       "2016",
+       12.85
+      ],
+      [
+       "2017",
+       12.65
+      ],
+      [
+       "2018",
+       12.99
+      ],
+      [
+       "2019",
+       12.9
+      ],
+      [
+       "2020",
+       11.56
+      ],
+      [
+       "2021",
+       10.82
+      ],
+      [
+       "2022",
+       11.15
+      ],
+      [
+       "2023",
+       12.24
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Health Organization",
+     "title": "Current health expenditure (CHE) as percentage of gross domestic product (GDP) (%), Global Health Expenditure Database (GHED_CHEGDP_SHA2011), Japan",
+     "publisher": "WHO Global Health Observatory",
+     "date": "5 December 2025",
+     "url": "https://ghoapi.azureedge.net/api/GHED_CHEGDP_SHA2011?$filter=SpatialDim eq 'JPN'"
+    },
+    {
+     "author": "World Health Organization",
+     "title": "Out-of-pocket expenditure as percentage of current health expenditure (CHE) (%), Global Health Expenditure Database (GHED_OOPSCHE_SHA2011), Japan",
+     "publisher": "WHO Global Health Observatory",
+     "date": "5 December 2025",
+     "url": "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filter=SpatialDim eq 'JPN'"
+    }
+   ],
+   "split": true
+  },
+  {
+   "id": "workforce",
+   "page": "health",
+   "kind": "bar",
+   "title": "Medical doctors per 10,000 people, Japan and comparators (latest year available)",
+   "unit": "per 10,000",
+   "note": "Latest year available in the WHO series for each country, shown in brackets; comparison years differ (2022, 2023 and 2024). Regional and income-group averages are WHO aggregates for 2024.",
+   "highlight": "Japan (2022)",
+   "series": [
+    {
+     "name": "Medical doctors per 10,000",
+     "points": [
+      [
+       "WHO Western Pacific Region (2024)",
+       23.1
+      ],
+      [
+       "Japan (2022)",
+       26.49
+      ],
+      [
+       "South Korea (2023)",
+       26.63
+      ],
+      [
+       "United States (2022)",
+       26.54
+      ],
+      [
+       "United Kingdom (2023)",
+       33.54
+      ],
+      [
+       "WHO high-income countries (2024)",
+       34.5
+      ],
+      [
+       "France (2023)",
+       40.09
+      ],
+      [
+       "Germany (2023)",
+       45.93
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Health Organization",
+     "title": "Medical doctors (per 10,000) (HWF_0001), Japan, South Korea, United States, United Kingdom, France, Germany, Western Pacific Region and World Bank high-income group",
+     "publisher": "WHO Global Health Observatory",
+     "date": "23 January 2026",
+     "url": "https://ghoapi.azureedge.net/api/HWF_0001"
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "page": "market",
+   "kind": "line",
+   "title": "Japan: beds per 10,000 people in WHO's hospital bed series, 2012 to 2022",
+   "unit": "per 10,000",
+   "note": "Hospital beds per 10,000 population as reported to WHO; 2022 is the latest year in the series. For 2022 the WHO value (125.87) is consistent with the health ministry's counts of hospital plus general clinic beds (1,573,393), whereas hospital beds alone were about 117 per 10,000 in August 2026 (1,440,637 beds).",
+   "highlight": "2022",
+   "series": [
+    {
+     "name": "Beds per 10,000 (WHO series)",
+     "points": [
+      [
+       "2012",
+       133.19
+      ],
+      [
+       "2013",
+       132.72
+      ],
+      [
+       "2014",
+       131.83
+      ],
+      [
+       "2015",
+       131.49
+      ],
+      [
+       "2016",
+       130.89
+      ],
+      [
+       "2017",
+       130.11
+      ],
+      [
+       "2018",
+       129.33
+      ],
+      [
+       "2019",
+       127.86
+      ],
+      [
+       "2020",
+       126.17
+      ],
+      [
+       "2021",
+       126.01
+      ],
+      [
+       "2022",
+       125.87
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "author": "World Health Organization",
+     "title": "Hospital beds (per 10 000 population) (WHS6_102), Japan",
+     "publisher": "WHO Global Health Observatory",
+     "date": "30 September 2025",
+     "url": "https://ghoapi.azureedge.net/api/WHS6_102?$filter=SpatialDim eq 'JPN'"
+    },
+    {
+     "author": "Ministry of Health, Labour and Welfare",
+     "title": "Press release: 2022 Survey of Medical Institutions (Dynamic) and Hospital Report, annual results (in Japanese)",
+     "publisher": "Ministry of Health, Labour and Welfare",
+     "date": "26 September 2023",
+     "url": "https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/22/dl/10houdou04.pdf"
+    },
+    {
+     "author": "Ministry of Health, Labour and Welfare",
+     "title": "Survey of Medical Institutions (Dynamic), end of August 2026, provisional figures",
+     "publisher": "Ministry of Health, Labour and Welfare",
+     "date": "30 October 2026",
+     "url": "https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/m26/dl/is2608.pdf"
+    }
+   ]
+  }
+ ]
+}

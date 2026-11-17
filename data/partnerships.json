@@ -3958,6 +3958,2174 @@
       "id": "indonesia--ramsay-health-care--rs-premier-jatinegara-bintaro-and-surabaya"
     },
     {
+      "foreign_institution": "Cleveland Clinic",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Okinawa Institute of Science and Technology Graduate University (OIST)",
+      "partner_city": "Onna, Okinawa",
+      "type": "Training and education",
+      "description": "Cleveland Clinic and OIST signed an MOU on 30 October 2022 that created a one-year research fellowship at OIST for a Cleveland Clinic medical student or trainee and serves as a framework for a longer partnership. The first fellow completed the placement in 2025.",
+      "status": "Active",
+      "start": "2022-10",
+      "end": "",
+      "last_evidence": "2025-07",
+      "evidence": "OIST news of MOU signing; Cleveland Clinic newsroom July 2025 on inaugural fellow (seen in search results, OIST page not readable by fetch).",
+      "sources": [
+        {
+          "author": "OIST",
+          "title": "OIST and Cleveland Clinic sign partnership agreement",
+          "publisher": "OIST",
+          "date": "2022-12-11",
+          "url": "https://www.oist.jp/news-center/news/2022/12/11/oist-and-cleveland-clinic-sign-partnership-agreement"
+        },
+        {
+          "author": "Cleveland Clinic Newsroom",
+          "title": "For CCLCM students, a once in a lifetime research opportunity",
+          "publisher": "Cleveland Clinic",
+          "date": "2025-07-16",
+          "url": "https://newsroom.clevelandclinic.org/2025/07/16/for-cclcm-students-a-once-in-a-lifetime-research-opportunity"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--cleveland-clinic--okinawa-institute-of-science-and-technology-graduate-university-oist"
+    },
+    {
+      "foreign_institution": "Dana-Farber Cancer Institute",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--dana-farber-cancer-institute--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "Icahn School of Medicine at Mount Sinai",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--icahn-school-of-medicine-at-mount-sinai--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "Johns Hopkins University",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Brain Research Institute, Niigata University",
+      "partner_city": "Niigata",
+      "type": "Research collaboration",
+      "description": "Niigata University's Brain Research Institute and Johns Hopkins University signed an MOU on joint brain tumor research on 18 February 2020. A ceremony in Baltimore on 23 February 2026 extended it to resume direct research exchanges that COVID-19 had paused.",
+      "status": "Active",
+      "start": "2020-02",
+      "end": "",
+      "last_evidence": "2026-02",
+      "evidence": "Niigata University BRI news items of 5 March 2020 (original signing) and 27 March 2026 (extension).",
+      "sources": [
+        {
+          "author": "Niigata University Brain Research Institute",
+          "title": "Signing ceremony held to confirm extension of MOU with Johns Hopkins University",
+          "publisher": "Niigata University",
+          "date": "2026-02-23",
+          "url": "https://www.bri.niigata-u.ac.jp/en/info/news/002421.html"
+        },
+        {
+          "author": "Brain Research Institute, Niigata University",
+          "title": "MOU signed with Johns Hopkins University for facilitating neuropathology and neuroscience collaboration",
+          "publisher": "Niigata University",
+          "date": "2020-03-05",
+          "url": "https://www.bri.niigata-u.ac.jp/en/info/news/001305.html"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--johns-hopkins-university--brain-research-institute-niigata-university"
+    },
+    {
+      "foreign_institution": "MIT Koch Institute for Integrative Cancer Research",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Research Institute, National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "The Koch Institute and the NCC Research Institute signed an MOU announced on 1 June 2026 on immuno-oncology, cancer prevention and screening research, with joint symposia and faculty exchange.",
+      "status": "Active",
+      "start": "2026-06",
+      "end": "",
+      "last_evidence": "2026-06",
+      "evidence": "Both the Koch Institute and National Cancer Center Japan published the announcement dated 1 June 2026.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "MIT Koch Institute and the Research Institute of National Cancer Center Japan Launch Strategic Collaboration",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-06-01",
+          "url": "https://www.ncc.go.jp/en/information/2026/0525/index.html"
+        },
+        {
+          "author": "MIT Koch Institute",
+          "title": "MIT Koch Institute and the Research Institute, National Cancer Center Japan launch strategic collaboration",
+          "publisher": "Koch Institute",
+          "date": "2026-06-01",
+          "url": "https://ki.mit.edu/news/2026/mit-koch-institute-and-the-research-institute-national-cancer-center-japan-launch"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--mit-koch-institute-for-integrative-cancer-research--research-institute-national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "Massachusetts General Hospital (Mass General Brigham)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Clinical affiliation",
+      "description": "NCC and the Massachusetts General Hospital Cancer Center signed an MOU in 2014 for academic collaboration in cancer care and research, starting with a nurse training exchange. MGH is still on NCC's memorandum of understanding partner list of August 2026.",
+      "status": "Active",
+      "start": "2014-07",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "NCC press release 17 July 2014 on signing; still listed on NCC partner list dated 14 August 2026.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "MOU with Massachusetts General Hospital Cancer Center",
+          "publisher": "National Cancer Center Japan",
+          "date": "2014-07-17",
+          "url": "https://www.ncc.go.jp/en/information/press_release/2014/0717/index.html"
+        },
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--massachusetts-general-hospital-mass-general-brigham--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "NYC Health + Hospitals/Bellevue",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Japan Institute for Health Security (JIHS)",
+      "partner_city": "Tokyo",
+      "type": "Training and education",
+      "description": "Bellevue and JIHS (formed in April 2025 from the National Center for Global Health and Medicine and the National Institute of Infectious Diseases) entered a strategic partnership MOU on special pathogen preparedness, joint training and research. JIHS delegates took part in a training exchange at Bellevue in February 2026.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-02",
+      "evidence": "NYC Health + Hospitals press release on the partnership (date not readable here) and its February 2026 release on the training exchange; NETEC reported in June 2025 that JIHS signed agreements at three US sites. Exact signing date not confirmed, so start is left blank.",
+      "sources": [
+        {
+          "author": "NYC Health + Hospitals",
+          "title": "NYC Health + Hospitals/Bellevue and Japan Institute for Health Security announce international strategic partnership",
+          "publisher": "NYC Health + Hospitals",
+          "date": "",
+          "url": "https://www.nychealthandhospitals.org/pressrelease/nyc-health-hospitals-bellevue-and-japan-institute-for-health-security-announce-international-strategic-partnership-to-enhance-high-consequence-infectious-disease-preparedness/"
+        },
+        {
+          "author": "Bronx Post",
+          "title": "Bellevue, Japan's JIHS Partner to Tackle Infectious Disease Threats",
+          "publisher": "Bronx Post",
+          "date": "",
+          "url": "https://bronxpost.com/bellevue-japans-jihs-partner-to-tackle-infectious-disease-threats/"
+        },
+        {
+          "author": "NETEC",
+          "title": "Strengthening Global Preparedness: NETEC hosts Japan Institute for Health Security Delegation",
+          "publisher": "UTMB SPECTRE",
+          "date": "2025-06-30",
+          "url": "https://www.utmb.edu/spectre/news-events/all-news/article/relevant-articles/2025/06/30/netec-news---blog--strengthening-global-preparedness--netec-hosts-japan-institute-for-health-security-delegation"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--nyc-health-hospitals-bellevue--japan-institute-for-health-security-jihs"
+    },
+    {
+      "foreign_institution": "Ohio State University Wexner Medical Center",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Medical Corporation Tokushukai (Shonan Kamakura General Hospital)",
+      "partner_city": "Kamakura",
+      "type": "Clinical affiliation",
+      "description": "Ohio State, Tokushukai, Kanagawa Prefecture and Japan Airport Terminal signed an MOU on 5 February 2025 to consider a joint Ohio State and Tokushukai clinic at Haneda Airport and joint functions at Shonan Kamakura General Hospital. The clinic was still at the planning stage.",
+      "status": "Active",
+      "start": "2025-02",
+      "end": "",
+      "last_evidence": "2025-02",
+      "evidence": "Kanagawa Prefecture press release and signed MOU dated 5 February 2025, and the Shonan Kamakura General Hospital news item of the same date.",
+      "sources": [
+        {
+          "author": "Kanagawa Prefecture",
+          "title": "Kanagawa Prefecture, Ohio State University, Tokushukai and Japan Airport Terminal sign MOU on international contribution in healthcare",
+          "publisher": "Kanagawa Prefecture",
+          "date": "2025-02-05",
+          "url": "https://www.pref.kanagawa.jp/docs/bs5/prs/r1277547.html"
+        },
+        {
+          "author": "Kanagawa Prefectural Government",
+          "title": "Memorandum of Understanding between The Ohio State University, Medical Corporation Tokushukai, JATCO and Kanagawa Prefecture",
+          "publisher": "Kanagawa Prefecture",
+          "date": "2025-02-05",
+          "url": "https://www.pref.kanagawa.jp/documents/112905/mou.pdf"
+        },
+        {
+          "author": "Shonan Kamakura General Hospital",
+          "title": "Medical Corporation Tokushukai, Kanagawa Prefecture, Ohio State University Wexner Medical Center and Japan Airport Terminal sign MoU",
+          "publisher": "Shonan Kamakura General Hospital",
+          "date": "2025-02-05",
+          "url": "https://www.skgh.jp/news/133082/"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--ohio-state-university-wexner-medical-center--medical-corporation-tokushukai-shonan-kamakura-general-hospital"
+    },
+    {
+      "foreign_institution": "The University of Texas MD Anderson Cancer Center",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--the-university-of-texas-md-anderson-cancer-center--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "Thomas Jefferson University",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Kobe University",
+      "partner_city": "Kobe",
+      "type": "Training and education",
+      "description": "Jefferson and Kobe University signed a university-wide MOU in June 2025 for student and faculty exchange, joint research, symposia and shared education, particularly in medicine, medical device development and engineering.",
+      "status": "Active",
+      "start": "2025-06",
+      "end": "",
+      "last_evidence": "2025-07",
+      "evidence": "Jefferson news release, July 2025.",
+      "sources": [
+        {
+          "author": "Kerry O'Connor",
+          "title": "Thomas Jefferson University & Kobe University Sign Academic Exchange Agreement",
+          "publisher": "Thomas Jefferson University",
+          "date": "2025-07",
+          "url": "https://www.jefferson.edu/news/2025/07/thomas-jefferson-university-and-kobe-university-sign-academic-exchange-agreement.html"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--thomas-jefferson-university--kobe-university"
+    },
+    {
+      "foreign_institution": "University of Alabama at Birmingham",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Fujita Health University",
+      "partner_city": "Toyoake, Aichi",
+      "type": "Research collaboration",
+      "description": "UAB and Fujita Health University signed a five-year MOU on 21 September 2026 for exchange of faculty, researchers and students, starting with kidney and infectious disease work. A student and staff exchange agreement accompanies it.",
+      "status": "Active",
+      "start": "2026-09",
+      "end": "",
+      "last_evidence": "2026-09",
+      "evidence": "UAB Heersink School of Medicine news reported the signing ceremony attended by both presidents.",
+      "sources": [
+        {
+          "author": "Quyen Garner",
+          "title": "Novak helps build UAB partnership with Fujita Health University",
+          "publisher": "UAB Heersink School of Medicine",
+          "date": "2026-09-29",
+          "url": "https://www.uab.edu/medicine/news/microbiology/novak-helps-build-uab-partnership-with-fujita-health-university"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--university-of-alabama-at-birmingham--fujita-health-university"
+    },
+    {
+      "foreign_institution": "University of California San Diego",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Osaka Metropolitan University",
+      "partner_city": "Osaka",
+      "type": "Research collaboration",
+      "description": "Osaka Metropolitan University signed an MOU with UC San Diego on 8 November 2025, held alongside a phage therapy symposium.",
+      "status": "Active",
+      "start": "2025-11",
+      "end": "",
+      "last_evidence": "2025-11",
+      "evidence": "OMU news reported the signing ceremony of 8 November 2025.",
+      "sources": [
+        {
+          "author": "Osaka Metropolitan University",
+          "title": "OMU signs MOU with UC San Diego and hosts Phage Therapy Symposium",
+          "publisher": "Osaka Metropolitan University",
+          "date": "2025-11",
+          "url": "https://www.omu.ac.jp/en/info/omu-news/entry-95732.html"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--university-of-california-san-diego--osaka-metropolitan-university"
+    },
+    {
+      "foreign_institution": "University of California San Diego",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Tohoku University",
+      "partner_city": "Sendai",
+      "type": "Research collaboration",
+      "description": "Tohoku University and UC San Diego signed a university-wide MOU in June 2025 covering materials science, semiconductors, life sciences and disaster prevention. A Tohoku delegation then toured UCSD Health and the School of Medicine surgical simulation center to plan life science activities.",
+      "status": "Active",
+      "start": "2025-06",
+      "end": "",
+      "last_evidence": "2025-08",
+      "evidence": "Tohoku University reported the June 2025 MOU and the 23 to 25 June delegation visit in a notice of 19 August 2025.",
+      "sources": [
+        {
+          "author": "Tohoku University",
+          "title": "Tohoku University delegation visits the University of California, San Diego",
+          "publisher": "Tohoku University",
+          "date": "2025-08-19",
+          "url": "https://www.tohoku.ac.jp/en/news/international_visit/tohoku_university_delegation_visits_the_university_of_california_san_diego.html"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--university-of-california-san-diego--tohoku-university"
+    },
+    {
+      "foreign_institution": "University of Hawai'i Cancer Center",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--university-of-hawai-i-cancer-center--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "University of Hawai'i John A. Burns School of Medicine",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Okinawa Prefectural Chubu Hospital",
+      "partner_city": "Uruma, Okinawa",
+      "type": "Training and education",
+      "description": "JABSOM runs a postgraduate medical education program at Okinawa Chubu Hospital, a collaboration with Okinawa Prefecture that the school describes as more than 50 years old. The school's 2025 to 2026 global health handbook, revised in February 2026, still lists it.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-02",
+      "evidence": "JABSOM Global Health and International Medicine student handbook 2025 to 2026, revised February 2026; start date not stated.",
+      "sources": [
+        {
+          "author": "John A. Burns School of Medicine",
+          "title": "Global Health and International Medicine MD Student Handbook 2025-2026",
+          "publisher": "University of Hawai'i",
+          "date": "2026-02",
+          "url": "https://jabsom.hawaii.edu/_images/_education/_global-health/global-health-handbook-2025-2026.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--university-of-hawai-i-john-a-burns-school-of-medicine--okinawa-prefectural-chubu-hospital"
+    },
+    {
+      "foreign_institution": "University of Miami School of Nursing and Health Studies",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Juntendo University",
+      "partner_city": "Tokyo",
+      "type": "Training and education",
+      "description": "The University of Miami nursing school and Juntendo University agreed a student exchange; Miami's dean visited Juntendo in December 2025, and 11 Miami undergraduates became the first participants in Tokyo in May 2026.",
+      "status": "Active",
+      "start": "2025",
+      "end": "",
+      "last_evidence": "2026-07",
+      "evidence": "University of Miami reports of January 2026 (December 2025 visit) and 1 July 2026 (first cohort arrived 17 May 2026).",
+      "sources": [
+        {
+          "author": "University of Miami",
+          "title": "Milestone meeting takes place in Japan",
+          "publisher": "University of Miami News",
+          "date": "2026-01",
+          "url": "https://news.miami.edu/sonhs/stories/2026/01/milestone-meeting-takes-place-in-japan.html"
+        },
+        {
+          "author": "University of Miami News",
+          "title": "School's first program in Japan makes the grade",
+          "publisher": "University of Miami",
+          "date": "2026-07-01",
+          "url": "https://news.miami.edu/sonhs/stories/2026/07/schools-first-program-in-japan-makes-the-grade.html"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--university-of-miami-school-of-nursing-and-health-studies--juntendo-university"
+    },
+    {
+      "foreign_institution": "University of Nebraska Medical Center (UNMC)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Japan Institute for Health Security (JIHS)",
+      "partner_city": "Tokyo",
+      "type": "Training and education",
+      "description": "UNMC and JIHS signed a new memorandum of understanding on 3 June 2025 renewing a collaboration traced to a 2016 Japanese delegation visit. It covers infectious disease preparedness, clinical research networks and joint training.",
+      "status": "Active",
+      "start": "2016",
+      "end": "",
+      "last_evidence": "2025-06",
+      "evidence": "UNMC newsroom, 10 June 2025, on the 3 June signing ceremony and visits in 2016, 2022 and 2023.",
+      "sources": [
+        {
+          "author": "UNMC",
+          "title": "UNMC, Japan partners sign new agreement",
+          "publisher": "UNMC Newsroom",
+          "date": "2025-06-10",
+          "url": "https://www.unmc.edu/newsroom/2025/06/10/unmc-japan-partners-sign-new-agreement/"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--university-of-nebraska-medical-center-unmc--japan-institute-for-health-security-jihs"
+    },
+    {
+      "foreign_institution": "University of North Carolina at Chapel Hill",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Nagoya University (Graduate School of Medicine)",
+      "partner_city": "Nagoya",
+      "type": "Training and education",
+      "description": "UNC-Chapel Hill and Nagoya University run medical school scholar exchanges and an aging and family symposium series, and their presidents met in September 2025 to expand the partnership.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2025-10",
+      "evidence": "Nagoya University reported the 24 September 2025 presidential meeting and a symposium series with a first event on 14 to 16 October 2025. The original agreement date was not found.",
+      "sources": [
+        {
+          "author": "Nagoya University",
+          "title": "UNC-Chapel Hill and Nagoya University deepen research ties during presidential visit",
+          "publisher": "Nagoya University",
+          "date": "2025-10-22",
+          "url": "https://en.nagoya-u.ac.jp/news/articles/unc-chapel-hill-and-nagoya-university-deepen-research-ties-during-presidential-visit/"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--university-of-north-carolina-at-chapel-hill--nagoya-university-graduate-school-of-medicine"
+    },
+    {
+      "foreign_institution": "University of Washington",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Tohoku University",
+      "partner_city": "Sendai",
+      "type": "Research collaboration",
+      "description": "UW and Tohoku University signed an expanded Q-DREAM agreement in Tokyo on 27 February 2026 that adds medicine to a collaboration running since 1996.",
+      "status": "Active",
+      "start": "1996",
+      "end": "",
+      "last_evidence": "2026-02",
+      "evidence": "The UW news release reported the signing and said medicine is one of the framework's focus areas, to roll out over the next few years.",
+      "sources": [
+        {
+          "author": "University of Washington",
+          "title": "University of Washington and Tohoku University Japan announce expansion of their collaboration with the Q-DREAM framework",
+          "publisher": "UW News",
+          "date": "2026-02-27",
+          "url": "https://www.washington.edu/news/2026/02/27/university-of-washington-and-tohoku-university-japan-announce-expansion-of-their-collaboration-with-the-q-dream-framework"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--university-of-washington--tohoku-university"
+    },
+    {
+      "foreign_institution": "108 Military Central Hospital",
+      "foreign_country": "Vietnam",
+      "group": "Other foreign health systems",
+      "indian_partner": "Toho University (Faculty of Medicine)",
+      "partner_city": "Tokyo",
+      "type": "Training and education",
+      "description": "The hospital and Toho University's medical school signed an MoU in Tokyo on 22 June 2026 on faculty and student exchange, joint research and conferences, building on cooperation since 2024.",
+      "status": "Active",
+      "start": "2024",
+      "end": "",
+      "last_evidence": "2026-06",
+      "evidence": "Vietnam Embassy in Japan report on the 22 June 2026 signing.",
+      "sources": [
+        {
+          "author": "Embassy of Vietnam in Japan",
+          "title": "Vietnam and Japan Advance Healthcare Cooperation to Realize High-Level Commitments",
+          "publisher": "Embassy of Vietnam in Japan",
+          "date": "2026-06",
+          "url": "https://vnembassy-jp.org/en/vietnam-and-japan-advance-healthcare-cooperation-realize-high-level-commitments"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--108-military-central-hospital--toho-university-faculty-of-medicine"
+    },
+    {
+      "foreign_institution": "19-8 Hospital, Ministry of Public Security",
+      "foreign_country": "Vietnam",
+      "group": "Other foreign health systems",
+      "indian_partner": "Osaka Metropolitan University School of Medicine",
+      "partner_city": "Osaka",
+      "type": "Training and education",
+      "description": "A delegation from 19-8 Hospital visited the Abeno Campus and signed an MOU with the School of Medicine on 1 July 2026 to widen exchanges between departments, including the University Hospital.",
+      "status": "Active",
+      "start": "2026-07",
+      "end": "",
+      "last_evidence": "2026-07",
+      "evidence": "Osaka Metropolitan University School of Medicine news item of 3 July 2026, seen in search results; the page did not load for the fetch tool.",
+      "sources": [
+        {
+          "author": "Osaka Metropolitan University School of Medicine",
+          "title": "MOU signed with 19-8 HOSPITAL",
+          "publisher": "Osaka Metropolitan University",
+          "date": "2026-07-03",
+          "url": "https://www.omu.ac.jp/med/en/info/news/entry-24836.html"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--19-8-hospital-ministry-of-public-security--osaka-metropolitan-university-school-of-medicine"
+    },
+    {
+      "foreign_institution": "Asan Medical Center",
+      "foreign_country": "South Korea",
+      "group": "Other foreign health systems",
+      "indian_partner": "QST Hospital (National Institutes for Quantum Science and Technology)",
+      "partner_city": "Chiba",
+      "type": "Training and education",
+      "description": "Asan signed an MoU with QST Hospital on 27 October 2025 on carbon ion therapy, covering professional training, patient exchange and clinical research ahead of Asan's planned heavy ion system.",
+      "status": "Active",
+      "start": "2025-10",
+      "end": "",
+      "last_evidence": "2025-11",
+      "evidence": "Asan Medical Center news release dated 5 Nov 2025.",
+      "sources": [
+        {
+          "author": "Asan Medical Center",
+          "title": "Asan Medical Center Signs Agreement with Japan's QST Hospital on Heavy Ion Therapy",
+          "publisher": "Asan Medical Center",
+          "date": "2025-11-05",
+          "url": "https://news-en.amc.seoul.kr/news/eng/detail.do?cntId=3140"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--asan-medical-center--qst-hospital-national-institutes-for-quantum-science-and-technology"
+    },
+    {
+      "foreign_institution": "Bach Mai Hospital",
+      "foreign_country": "Vietnam",
+      "group": "Other foreign health systems",
+      "indian_partner": "Shonan Kamakura General Hospital (Tokushukai Medical Corporation)",
+      "partner_city": "Kamakura",
+      "type": "Clinical affiliation",
+      "description": "Bach Mai Hospital and Shonan Kamakura General Hospital signed an MoU on cooperation in advanced medical services and healthcare workforce development.",
+      "status": "Active",
+      "start": "2025-11",
+      "end": "",
+      "last_evidence": "2025-11",
+      "evidence": "Shonan Kamakura General Hospital news item of 25 November 2025.",
+      "sources": [
+        {
+          "author": "Shonan Kamakura General Hospital",
+          "title": "Shonan Kamakura General Hospital Signs MoUs with Vietnam National Cancer Hospital and Bach Mai Hospital",
+          "publisher": "Shonan Kamakura General Hospital (Tokushukai)",
+          "date": "2025-11-25",
+          "url": "https://www.skgh.jp/news/141234/"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--bach-mai-hospital--shonan-kamakura-general-hospital-tokushukai-medical-corporation"
+    },
+    {
+      "foreign_institution": "Bangkok Dusit Medical Services (Wattanosoth Cancer Hospital)",
+      "foreign_country": "Thailand",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan (Hospital)",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "BDMS and the National Cancer Center signed an MoU in November 2022 on cancer research and care for Thai and foreign patients, with joint academic activities. BDMS is still on the Center's partner list in August 2026.",
+      "status": "Active",
+      "start": "2022-11",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "NCC page confirms the Nov 2022 MoU and a June 2023 BDMS visit; BDMS appears on the NCC Global Partners list dated 14 Aug 2026.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "BDMS visits the National Cancer Center",
+          "publisher": "National Cancer Center Japan",
+          "date": "2023-06",
+          "url": "https://www.ncc.go.jp/en/information/2023/0602/index.html"
+        },
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--bangkok-dusit-medical-services-wattanosoth-cancer-hospital--national-cancer-center-japan-hospital"
+    },
+    {
+      "foreign_institution": "Bangkok Hospital Headquarters (BDMS)",
+      "foreign_country": "Thailand",
+      "group": "Other foreign health systems",
+      "indian_partner": "Tokushukai Medical Corporation",
+      "partner_city": "Tokyo",
+      "type": "Clinical affiliation",
+      "description": "Bangkok Hospital Headquarters and Tokushukai Medical Corporation signed an MoU on 20 May 2025 on medical services and human resource development. Planned activities include case presentations, telemedicine conferences, joint seminars and support for expatriate patients.",
+      "status": "Active",
+      "start": "2025-05",
+      "end": "",
+      "last_evidence": "2025-05",
+      "evidence": "Shonan Kamakura General Hospital news items of 23 May 2025 (English and Japanese) confirm the 20 May 2025 signing at Bangkok Hospital Headquarters; the Bangkok Hospital page was updated in December 2025.",
+      "sources": [
+        {
+          "author": "Shonan Kamakura General Hospital",
+          "title": "Bangkok Hospital Headquarters and Tokushukai Medical Corporation Establish Strategic Partnership",
+          "publisher": "Shonan Kamakura General Hospital (Tokushukai)",
+          "date": "2025-05-23",
+          "url": "https://www.skgh.jp/news/136488/"
+        },
+        {
+          "author": "Shonan Kamakura General Hospital",
+          "title": "覚書（MOU）締結について",
+          "publisher": "Shonan Kamakura General Hospital (Tokushukai)",
+          "date": "2025-05-23",
+          "url": "https://www.skgh.jp/news/136463/"
+        },
+        {
+          "author": "Bangkok Hospital",
+          "title": "MOU Bangkok Hospital and Tokushukai Medical Corporation",
+          "publisher": "Bangkok Hospital (BDMS)",
+          "date": "2025-12",
+          "url": "https://www.bangkokhospital.com/en/bangkok/content/news-mou-bangkok-hospital-and-tokushukai-medical-corporation"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--bangkok-hospital-headquarters-bdms--tokushukai-medical-corporation"
+    },
+    {
+      "foreign_institution": "Cancer Biology Research Center, Tel Aviv University",
+      "foreign_country": "Israel",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--cancer-biology-research-center-tel-aviv-university--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "Cancer Science Institute of Singapore, National University of Singapore",
+      "foreign_country": "Singapore",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--cancer-science-institute-of-singapore-national-university-of-singapore--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "China-Japan Friendship Hospital",
+      "foreign_country": "China",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--china-japan-friendship-hospital--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "Chosun University College of Medicine",
+      "foreign_country": "South Korea",
+      "group": "Other foreign health systems",
+      "indian_partner": "St. Marianna University School of Medicine",
+      "partner_city": "Kawasaki, Kanagawa",
+      "type": "Training and education",
+      "description": "The two medical schools signed an MOU in Tokyo on 26 February 2026 on medical education, clinical training, student and faculty exchange and joint research.",
+      "status": "Active",
+      "start": "2026-02",
+      "end": "",
+      "last_evidence": "2026-03",
+      "evidence": "Asia Economy report of 11 March 2026 on the signing ceremony of 26 February 2026.",
+      "sources": [
+        {
+          "author": "Asia Economy",
+          "title": "Chosun University and St. Marianna University Sign MOU for Cooperation in Medical and Clinical Education",
+          "publisher": "Asia Economy",
+          "date": "2026-03-11",
+          "url": "https://www.asiae.co.kr/en/article/2026031115190759155"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--chosun-university-college-of-medicine--st-marianna-university-school-of-medicine"
+    },
+    {
+      "foreign_institution": "Chung Shan Medical University",
+      "foreign_country": "Taiwan",
+      "group": "Other foreign health systems",
+      "indian_partner": "University of Toyama",
+      "partner_city": "Toyama",
+      "type": "Training and education",
+      "description": "The two universities signed an MoU in January 2026 to advance international medical education.",
+      "status": "Active",
+      "start": "2026-01",
+      "end": "",
+      "last_evidence": "2026-01",
+      "evidence": "CSMU press page dated 23 Jan 2026.",
+      "sources": [
+        {
+          "author": "Chung Shan Medical University",
+          "title": "CSMU and University of Toyama Sign MOU to Advance International Medical Education",
+          "publisher": "CSMU",
+          "date": "2026-01-23",
+          "url": "https://pr.csmu.edu.tw/p/16-1024-74661.php?Lang=zh-tw"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--chung-shan-medical-university--university-of-toyama"
+    },
+    {
+      "foreign_institution": "Cleveland Clinic Abu Dhabi and M42",
+      "foreign_country": "United Arab Emirates",
+      "group": "Other foreign health systems",
+      "indian_partner": "Gunma University (Heavy Ion Medical Center)",
+      "partner_city": "Maebashi",
+      "type": "Research collaboration",
+      "description": "Cleveland Clinic Abu Dhabi, M42 and Gunma University signed a Memorandum of Cooperation to share knowledge and research on heavy ion therapy, ahead of a heavy ion facility planned at the Abu Dhabi campus.",
+      "status": "Active",
+      "start": "2025-05",
+      "end": "",
+      "last_evidence": "2025-05",
+      "evidence": "M42 press release dated 28 May 2025 reporting the signing during a delegation visit to Japan. No Gunma University page was found.",
+      "sources": [
+        {
+          "author": "M42",
+          "title": "Cleveland Clinic Abu Dhabi, M42 and Gunma University in Japan join forces to drive innovation in heavy ion therapy",
+          "publisher": "M42",
+          "date": "2025-05-28",
+          "url": "https://m42.ae/media-resources/news/cleveland-clinic-abu-dhabi-m42-and-gunma-university-in-japan-join-forces-to-drive-innovation-in-heavy-ion-therapy/"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--cleveland-clinic-abu-dhabi-and-m42--gunma-university-heavy-ion-medical-center"
+    },
+    {
+      "foreign_institution": "College of Medicine, National Taiwan University",
+      "foreign_country": "Taiwan",
+      "group": "Other foreign health systems",
+      "indian_partner": "Kyorin University School of Medicine",
+      "partner_city": "Tokyo",
+      "type": "Training and education",
+      "description": "Kyorin and NTU's College of Medicine signed an academic exchange agreement on 4 July 2025.",
+      "status": "Active",
+      "start": "2025-07",
+      "end": "",
+      "last_evidence": "2025-07",
+      "evidence": "Kyorin University international page.",
+      "sources": [
+        {
+          "author": "Kyorin University",
+          "title": "Academic exchange agreement with NTU College of Medicine",
+          "publisher": "Kyorin University",
+          "date": "2025-07-04",
+          "url": "https://www.kyorin-u.ac.jp/univ/faculty/medicine/international/1011-1143/"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--college-of-medicine-national-taiwan-university--kyorin-university-school-of-medicine"
+    },
+    {
+      "foreign_institution": "Faculty of Medicine Ramathibodi Hospital, Mahidol University",
+      "foreign_country": "Thailand",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--faculty-of-medicine-ramathibodi-hospital-mahidol-university--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "Faculty of Medicine, Chulalongkorn University",
+      "foreign_country": "Thailand",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Hospital (Japan)",
+      "partner_city": "Tokyo",
+      "type": "Training and education",
+      "description": "The hospital and Chulalongkorn signed a new MoU on 29 September 2023 building on years of trainee hosting in endoscopy and a clinical research network. Chulalongkorn is on the August 2026 partner list.",
+      "status": "Active",
+      "start": "2023-09",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "NCC newsroom dated 13 Oct 2023 and partner list of Aug 2026.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "MoU signed with Chulalongkorn University",
+          "publisher": "National Cancer Center Japan",
+          "date": "2023-10-13",
+          "url": "https://www.ncc.go.jp/en/information/2023/1012/index.html"
+        },
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--faculty-of-medicine-chulalongkorn-university--national-cancer-center-hospital-japan"
+    },
+    {
+      "foreign_institution": "Faculty of Medicine, Khon Kaen University",
+      "foreign_country": "Thailand",
+      "group": "Other foreign health systems",
+      "indian_partner": "St. Marianna University School of Medicine",
+      "partner_city": "Kawasaki, Kanagawa",
+      "type": "Training and education",
+      "description": "The two schools renewed their MOU at a signing ceremony on 29 October 2026, continuing regular student exchanges since 2019.",
+      "status": "Active",
+      "start": "2019",
+      "end": "",
+      "last_evidence": "2026-10",
+      "evidence": "Khon Kaen University Faculty of Medicine news item of 30 October 2026.",
+      "sources": [
+        {
+          "author": "Faculty of Medicine, Khon Kaen University",
+          "title": "MDKKU Renews MOU with St. Marianna University School of Medicine to Strengthen Academic Collaboration",
+          "publisher": "Khon Kaen University",
+          "date": "2026-10-30",
+          "url": "https://www.intermed.kku.ac.th/mdkku-renews-mou-with-st-marianna-university-school-of-medicine-to-strengthen-academic-collaboration/"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--faculty-of-medicine-khon-kaen-university--st-marianna-university-school-of-medicine"
+    },
+    {
+      "foreign_institution": "Henan Cancer Hospital",
+      "foreign_country": "China",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--henan-cancer-hospital--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "Ho Chi Minh City Oncology Hospital",
+      "foreign_country": "Vietnam",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--ho-chi-minh-city-oncology-hospital--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "Institut Curie",
+      "foreign_country": "France",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--institut-curie--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "Istanbul Medipol University (Medipol hospitals)",
+      "foreign_country": "Turkey",
+      "group": "Other foreign health systems",
+      "indian_partner": "Kameda Medical Center",
+      "partner_city": "Kamogawa",
+      "type": "Training and education",
+      "description": "Kameda Medical Center and Istanbul Medipol University signed an MoU during a visit by Kameda's president, reported in July 2025. Terms were not published.",
+      "status": "Active",
+      "start": "2025-07",
+      "end": "",
+      "last_evidence": "2025-07",
+      "evidence": "Istanbul Medipol University news item dated 17 July 2025 on the visit and signing; Kameda newsroom not checked.",
+      "sources": [
+        {
+          "author": "Istanbul Medipol University",
+          "title": "One of the world's best hospitals from Japan visited our university",
+          "publisher": "Istanbul Medipol University",
+          "date": "2025-07-17",
+          "url": "https://mio.medipol.edu.tr/events/one-worlds-best-hospitals-japan-visited-our-university"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--istanbul-medipol-university-medipol-hospitals--kameda-medical-center"
+    },
+    {
+      "foreign_institution": "National Cancer Center Korea",
+      "foreign_country": "South Korea",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner, and Korean press reported that the two national cancer centers renewed their MOU in February 2025. The partner list does not state the scope.",
+      "status": "Active",
+      "start": "2016",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "NCC partner list (file dated 14 August 2026); KIMA report of 6 March 2025 on the renewal announced 13 February 2025; earlier MOUs in 2016 and 2019 are reported in Korean coverage.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        },
+        {
+          "author": "KIMA",
+          "title": "Korea-Japan National Cancer Centers Renew MOU for Cancer Conquest",
+          "publisher": "KIMA News",
+          "date": "2025-03-06",
+          "url": "https://www.koreahealthtour.co.kr/post/12516"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--national-cancer-center-korea--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "National Cancer Centre Singapore",
+      "foreign_country": "Singapore",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Hospital (Japan)",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "The two cancer centers signed an MoU on 10 July 2026 covering clinical research, personnel exchange and education, tied to the ATLAS Asian clinical trials network led by the Japanese hospital.",
+      "status": "Active",
+      "start": "2026-07",
+      "end": "",
+      "last_evidence": "2026-07",
+      "evidence": "Signing announced on the NCC newsroom (page dated 29 July 2026); NCCS also on NCC partner list.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "MoU signed with National Cancer Centre Singapore",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-07-29",
+          "url": "https://www.ncc.go.jp/en/information/2026/0729/index.html"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--national-cancer-centre-singapore--national-cancer-center-hospital-japan"
+    },
+    {
+      "foreign_institution": "National Cancer Hospital, Vietnam",
+      "foreign_country": "Vietnam",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--national-cancer-hospital-vietnam--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "National Cancer Institute, Thailand",
+      "foreign_country": "Thailand",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner; NCC held a signing ceremony for a renewed MoU with the institute on 27 February 2024. The partner list does not state the scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "NCC partner list (file dated 14 August 2026); NCC page of 14 March 2024 on the renewed MoU.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        },
+        {
+          "author": "National Cancer Center Japan",
+          "title": "MoU signing ceremony with National Cancer Institute, Thailand",
+          "publisher": "National Cancer Center Japan",
+          "date": "2024-03-14",
+          "url": "https://www.ncc.go.jp/en/information/2024/0227/index.html"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--national-cancer-institute-thailand--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "National Taiwan University Hospital",
+      "foreign_country": "Taiwan",
+      "group": "Other foreign health systems",
+      "indian_partner": "Keio University School of Medicine",
+      "partner_city": "Tokyo",
+      "type": "Training and education",
+      "description": "NTUH is a partner institution of Keio School of Medicine; six NTUH physicians visited Keio in September 2026 to exchange on education, research and AI.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-09",
+      "evidence": "Keio School of Medicine news dated 16 Sept 2026; start date of the partnership not stated.",
+      "sources": [
+        {
+          "author": "Keio University",
+          "title": "Six Physicians from National Taiwan University Hospital Visit Keio University",
+          "publisher": "Keio University",
+          "date": "2026-09-16",
+          "url": "https://www.keio.ac.jp/en/med/news/20260916/"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--national-taiwan-university-hospital--keio-university-school-of-medicine"
+    },
+    {
+      "foreign_institution": "National Taiwan University Hospital",
+      "foreign_country": "Taiwan",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--national-taiwan-university-hospital--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "National Yang Ming Chiao Tung University",
+      "foreign_country": "Taiwan",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--national-yang-ming-chiao-tung-university--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "Network of University Medicine (NUM)",
+      "foreign_country": "Germany",
+      "group": "Other foreign health systems",
+      "indian_partner": "Japan Institute for Health Security (JIHS)",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "JIHS and NUM, the clinical research network of Germany's university medical centers, signed an MoU in April 2026 on infectious disease research, multicenter studies and personnel exchange for an initial three years.",
+      "status": "Active",
+      "start": "2026-04",
+      "end": "",
+      "last_evidence": "2026-04",
+      "evidence": "JIHS release on the MoU signed in Berlin in April 2026.",
+      "sources": [
+        {
+          "author": "Japan Institute for Health Security",
+          "title": "JIHS and the Network of University Medicine sign Memorandum of Understanding to advance bilateral collaboration in infectious disease research",
+          "publisher": "Japan Institute for Health Security",
+          "date": "2026-04",
+          "url": "https://www.jihs.go.jp/en/030/PDF/JIHS-NUM_MOU_en.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--network-of-university-medicine-num--japan-institute-for-health-security-jihs"
+    },
+    {
+      "foreign_institution": "Peking University First Hospital",
+      "foreign_country": "China",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--peking-university-first-hospital--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "Persahabatan Hospital",
+      "foreign_country": "Indonesia",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--persahabatan-hospital--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "Peter MacCallum Cancer Centre",
+      "foreign_country": "Australia",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--peter-maccallum-cancer-centre--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "Royal Medical Services, Bahrain Defence Force",
+      "foreign_country": "Bahrain",
+      "group": "Other foreign health systems",
+      "indian_partner": "Shonan Kamakura General Hospital",
+      "partner_city": "Kamakura",
+      "type": "Clinical affiliation",
+      "description": "The Royal Medical Services of the Bahrain Defence Force signed an MoU with Shonan Kamakura General Hospital, the Tokushukai core hospital, on coordination of medical cases, specialised training and academic programmes, visits, research and conferences.",
+      "status": "Active",
+      "start": "2026-02",
+      "end": "",
+      "last_evidence": "2026-02",
+      "evidence": "Biz Bahrain report of 17 February 2026 on the signing during the RMS commander's visit to Japan.",
+      "sources": [
+        {
+          "author": "Biz Bahrain",
+          "title": "RMS signs MoU with Japan's Shonan Kamakura General Hospital",
+          "publisher": "Biz Bahrain",
+          "date": "2026-02-17",
+          "url": "https://www.bizbahrain.com/rms-signs-mou-with-japans-shonan-kamakura-general-hospital/"
+        },
+        {
+          "author": "Gulf Daily News",
+          "title": "MoU between Royal Medical Services and Shonan Kamakura General Hospital",
+          "publisher": "Gulf Daily News",
+          "date": "2026",
+          "url": "https://www.gdnonline.com/Details/1376318"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--royal-medical-services-bahrain-defence-force--shonan-kamakura-general-hospital"
+    },
+    {
+      "foreign_institution": "Seoul National University College of Medicine",
+      "foreign_country": "South Korea",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--seoul-national-university-college-of-medicine--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "Siriraj Hospital, Faculty of Medicine, Mahidol University",
+      "foreign_country": "Thailand",
+      "group": "Other foreign health systems",
+      "indian_partner": "The University of Tokyo Hospital",
+      "partner_city": "Tokyo",
+      "type": "Training and education",
+      "description": "The two hospitals signed an MoU in July 2025 on biodesign, covering exchange of faculty, researchers and staff and joint education and research in medical device innovation.",
+      "status": "Active",
+      "start": "2025-07",
+      "end": "",
+      "last_evidence": "2025-07",
+      "evidence": "MoU announced on the University of Tokyo newsroom; signing ceremony reported as 18 July 2025 in Bangkok.",
+      "sources": [
+        {
+          "author": "The University of Tokyo",
+          "title": "The University of Tokyo Hospital signs MoU with Siriraj Hospital, Mahidol University",
+          "publisher": "The University of Tokyo",
+          "date": "2025-07",
+          "url": "https://www.u-tokyo.ac.jp/focus/en/articles/z0103_00031.html"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--siriraj-hospital-faculty-of-medicine-mahidol-university--the-university-of-tokyo-hospital"
+    },
+    {
+      "foreign_institution": "Siriraj Hospital, Mahidol University",
+      "foreign_country": "Thailand",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner; NCC reported an MoU signed with Siriraj Hospital in June 2022. The partner list does not state the scope.",
+      "status": "Active",
+      "start": "2022-06",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "NCC partner list (file dated 14 August 2026); NCC page on the June 2022 MoU signing.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        },
+        {
+          "author": "National Cancer Center Japan",
+          "title": "MoU signed between NCC and Siriraj Hospital, Mahidol University, Thailand, June 2022",
+          "publisher": "National Cancer Center Japan",
+          "date": "2022-07",
+          "url": "https://www.ncc.go.jp/en/ncch/division/international_development/Asian_Partnerships/News20220712.html"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--siriraj-hospital-mahidol-university--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "Taipei Veterans General Hospital",
+      "foreign_country": "Taiwan",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--taipei-veterans-general-hospital--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "Tata Memorial Centre",
+      "foreign_country": "India",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--tata-memorial-centre--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "The Christie NHS Foundation Trust",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--the-christie-nhs-foundation-trust--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "The First Hospital of Hebei Medical University",
+      "foreign_country": "China",
+      "group": "Other foreign health systems",
+      "indian_partner": "The University of Tokyo Hospital (Center for International Preventive Medicine)",
+      "partner_city": "Tokyo",
+      "type": "Clinical affiliation",
+      "description": "The center concluded a cooperation agreement with the hospital in January 2025 for post-examination medical support and exchange in clinical practice, education and research.",
+      "status": "Active",
+      "start": "2025-01",
+      "end": "",
+      "last_evidence": "2025-01",
+      "evidence": "University of Tokyo Hospital center page lists the agreement as concluded in January 2025.",
+      "sources": [
+        {
+          "author": "Center for International Preventive Medicine, The University of Tokyo Hospital",
+          "title": "Conclusion of cooperation agreements with overseas medical institutions",
+          "publisher": "The University of Tokyo Hospital",
+          "date": "",
+          "url": "https://www.intl-pvntmed-uth.jp/eng/contents/about.html"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--the-first-hospital-of-hebei-medical-university--the-university-of-tokyo-hospital-center-for-international-preventive-medicine"
+    },
+    {
+      "foreign_institution": "Tianjin Medical University Cancer Institute and Hospital",
+      "foreign_country": "China",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--tianjin-medical-university-cancer-institute-and-hospital--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "UHN Princess Margaret Cancer Centre",
+      "foreign_country": "Canada",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--uhn-princess-margaret-cancer-centre--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "Universitaetsklinikum Essen",
+      "foreign_country": "Germany",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--universitaetsklinikum-essen--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "University of Manchester",
+      "foreign_country": "United Kingdom",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--university-of-manchester--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "Vietnam National Cancer Hospital (K Hospital)",
+      "foreign_country": "Vietnam",
+      "group": "Other foreign health systems",
+      "indian_partner": "Shonan Kamakura General Hospital (Tokushukai Medical Corporation)",
+      "partner_city": "Kamakura",
+      "type": "Clinical affiliation",
+      "description": "K Hospital and Shonan Kamakura General Hospital signed an MoU to combine cancer treatment expertise and develop the healthcare workforce.",
+      "status": "Active",
+      "start": "2025-11",
+      "end": "",
+      "last_evidence": "2025-11",
+      "evidence": "Shonan Kamakura General Hospital news item of 25 November 2025.",
+      "sources": [
+        {
+          "author": "Shonan Kamakura General Hospital",
+          "title": "Shonan Kamakura General Hospital Signs MoUs with Vietnam National Cancer Hospital and Bach Mai Hospital",
+          "publisher": "Shonan Kamakura General Hospital (Tokushukai)",
+          "date": "2025-11-25",
+          "url": "https://www.skgh.jp/news/141234/"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--vietnam-national-cancer-hospital-k-hospital--shonan-kamakura-general-hospital-tokushukai-medical-corporation"
+    },
+    {
+      "foreign_institution": "Yonsei University",
+      "foreign_country": "South Korea",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Cancer Center Japan",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "Listed by National Cancer Center Japan as a memorandum of understanding partner on its global partner list. The list does not state a signing date or scope.",
+      "status": "Active",
+      "start": "",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "National Cancer Center Japan partner list (file dated 14 August 2026); no signing date or scope given, so start is left blank.",
+      "sources": [
+        {
+          "author": "National Cancer Center Japan",
+          "title": "Our Global Partners with a Memorandum of Understanding (MOU)",
+          "publisher": "National Cancer Center Japan",
+          "date": "2026-08-14",
+          "url": "https://www.ncc.go.jp/en/ncc-about/20260814AboutNCCGlobalPartners.pdf"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--yonsei-university--national-cancer-center-japan"
+    },
+    {
+      "foreign_institution": "Yonsei University Wonju College of Medicine",
+      "foreign_country": "South Korea",
+      "group": "Other foreign health systems",
+      "indian_partner": "Kurume University School of Medicine",
+      "partner_city": "Kurume, Fukuoka",
+      "type": "Research collaboration",
+      "description": "The two medical schools signed an MOU in October 2025 on hyperbaric oxygen therapy research, environmental medicine and exchange of researchers, educators and students. A student exchange begins in August 2027.",
+      "status": "Active",
+      "start": "2025-10",
+      "end": "",
+      "last_evidence": "2025-10",
+      "evidence": "Korea Biomedical Review article on the MOU and the Kurume delegation visit.",
+      "sources": [
+        {
+          "author": "Korea Biomedical Review",
+          "title": "Yonsei Wonju, Japan's Kurume University to begin medical student exchange in 2027",
+          "publisher": "Korea Biomedical Review",
+          "date": "2026",
+          "url": "https://www.koreabiomed.com/news/articleView.html?idxno=33335"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--yonsei-university-wonju-college-of-medicine--kurume-university-school-of-medicine"
+    },
+    {
+      "foreign_institution": "Zhejiang Cancer Hospital",
+      "foreign_country": "China",
+      "group": "Other foreign health systems",
+      "indian_partner": "Shizuoka Cancer Center",
+      "partner_city": "Nagaizumi, Shizuoka",
+      "type": "Clinical affiliation",
+      "description": "The two cancer hospitals held a memorandum signing ceremony for friendly and cooperative relations in February 2025.",
+      "status": "Active",
+      "start": "2025-02",
+      "end": "",
+      "last_evidence": "2025-02",
+      "evidence": "Shizuoka Cancer Center topics page lists the ceremony under February 2025.",
+      "sources": [
+        {
+          "author": "Shizuoka Cancer Center",
+          "title": "Memorandum Signing Ceremony Held for Friendly and Cooperative Relations between the Shizuoka Cancer Center and the Zhejiang Cancer Hospital",
+          "publisher": "Shizuoka Cancer Center",
+          "date": "2025-02",
+          "url": "https://www.scchr.jp/en/topics.html"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--zhejiang-cancer-hospital--shizuoka-cancer-center"
+    },
+    {
+      "foreign_institution": "Icahn School of Medicine at Mount Sinai",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Chiba Institute of Technology",
+      "partner_city": "Narashino, Chiba",
+      "type": "Research collaboration",
+      "description": "Mount Sinai and the Chiba Institute of Technology signed an MOU in 2023 to run international clinical trials using artificial intelligence in cardiovascular research.",
+      "status": "Unclear",
+      "start": "2023",
+      "end": "",
+      "last_evidence": "2023-08",
+      "evidence": "Mount Sinai announced the partnership in its 2023 newsroom. No later activity was found.",
+      "sources": [
+        {
+          "author": "Mount Sinai",
+          "title": "Mount Sinai announces partnership with the Chiba Institute of Technology in Japan focusing on artificial intelligence to transform cardiovascular research",
+          "publisher": "Mount Sinai Newsroom",
+          "date": "2023",
+          "url": "https://www.mountsinai.org/about/newsroom/2023/mount-sinai-announces-partnership-with-the-chiba-institute-of-technology-in-japan-focusing-on-artificial-intelligence-to-transform-cardiovascular-research"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--icahn-school-of-medicine-at-mount-sinai--chiba-institute-of-technology"
+    },
+    {
+      "foreign_institution": "Rutgers University and RWJBarnabas Health",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Hiroshima University",
+      "partner_city": "Hiroshima",
+      "type": "Research collaboration",
+      "description": "Rutgers, RWJBarnabas Health and Hiroshima University signed a letter of intent on 15 October 2023 on digestive tract cancer clinical trials and researcher and student exchange. Evidence is press coverage of a New Jersey governor's mission, with no later activity found.",
+      "status": "Unclear",
+      "start": "2023-10",
+      "end": "",
+      "last_evidence": "2023-10",
+      "evidence": "Choose New Jersey and ROI-NJ reports of the 15 October 2023 letter of intent; no Rutgers, RWJBarnabas or Hiroshima page found and no later activity.",
+      "sources": [
+        {
+          "author": "Choose New Jersey",
+          "title": "Rutgers University, RWJBarnabas Health, and Hiroshima University Partner to Strengthen Health Sciences Research",
+          "publisher": "Choose New Jersey",
+          "date": "2023-10-15",
+          "url": "https://choosenj.com/news/rutgers-university-rwjbarnabas-health-and-hiroshima-university-partner-to-strengthen-health-sciences-research/"
+        },
+        {
+          "author": "ROI-NJ",
+          "title": "Rutgers, RWJBarnabas Health to partner with Hiroshima University on health sciences research",
+          "publisher": "ROI-NJ",
+          "date": "2023-10-15",
+          "url": "https://www.roi-nj.com/2023/10/15/healthcare/rutgers-rwjbarnabas-health-to-partner-with-hiroshima-university-on-health-sciences-research/"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--rutgers-university-and-rwjbarnabas-health--hiroshima-university"
+    },
+    {
+      "foreign_institution": "Thomas Jefferson University",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Fujita Health University",
+      "partner_city": "Toyoake, Aichi",
+      "type": "Training and education",
+      "description": "Jefferson and Fujita Health University signed an MOU on 4 March 2021 for academic exchange, and Jefferson leaders visited the Fujita campus in April 2023.",
+      "status": "Unclear",
+      "start": "2021-03",
+      "end": "",
+      "last_evidence": "2023-04",
+      "evidence": "Fujita's international office posted the online signing on 4 March 2021 and a Jefferson delegation visit on 20 April 2023. No later activity was found.",
+      "sources": [
+        {
+          "author": "Fujita Health University",
+          "title": "MOU with Thomas Jefferson University",
+          "publisher": "Fujita Health University",
+          "date": "2021-03",
+          "url": "https://fujita-hu.ac.jp/~intl/news/tju/index.html"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--thomas-jefferson-university--fujita-health-university"
+    },
+    {
+      "foreign_institution": "University of Hawai'i System",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Tsuzuki Education Group, Daiichi University of Pharmacy and Yokohama University of Pharmacy",
+      "partner_city": "Fukuoka and Yokohama",
+      "type": "Training and education",
+      "description": "The University of Hawai'i and the Tsuzuki Education Group with two Japanese pharmacy universities signed an MOU on 27 June 2024 to extend the One Health certificate program to Japanese pharmacy students.",
+      "status": "Unclear",
+      "start": "2024-06",
+      "end": "",
+      "last_evidence": "2024-06",
+      "evidence": "UH news reported the June 2024 signing at Manoa.",
+      "sources": [
+        {
+          "author": "University of Hawai'i",
+          "title": "UH, Fukuoka join forces for One Health initiative",
+          "publisher": "UH News",
+          "date": "2024-11-12",
+          "url": "https://www.hawaii.edu/news/2024/11/12/one-health-initiative-fukuoka/"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--university-of-hawai-i-system--tsuzuki-education-group-daiichi-university-of-pharmacy-and-yokohama-university-of-pharmacy"
+    },
+    {
+      "foreign_institution": "Faculty of Medicine, Dentistry and Health Sciences, University of Melbourne",
+      "foreign_country": "Australia",
+      "group": "Other foreign health systems",
+      "indian_partner": "Hokkaido University (Faculty of Health Sciences)",
+      "partner_city": "Sapporo",
+      "type": "Training and education",
+      "description": "Hokkaido's health sciences faculty signed an MOU with Melbourne's medical faculty in September 2023. No later activity found.",
+      "status": "Unclear",
+      "start": "2023-09",
+      "end": "",
+      "last_evidence": "2023-09",
+      "evidence": "Hokkaido University overseas agreements page.",
+      "sources": [
+        {
+          "author": "Hokkaido University",
+          "title": "Departmental agreements with overseas",
+          "publisher": "Hokkaido University",
+          "date": "2023-09",
+          "url": "https://www.hs.hokudai.ac.jp/e/research/departmental-agreements-with-overseas"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--faculty-of-medicine-dentistry-and-health-sciences-university-of-melbourne--hokkaido-university-faculty-of-health-sciences"
+    },
+    {
+      "foreign_institution": "Hanoi Medical University",
+      "foreign_country": "Vietnam",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Center for Global Health and Medicine (now part of Japan Institute for Health Security)",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "NCGM and Hanoi Medical University signed a five-year MoU on 12 June 2024 centered on joint clinical research. No activity after September 2024 was found.",
+      "status": "Unclear",
+      "start": "2024-06",
+      "end": "",
+      "last_evidence": "2024-06",
+      "evidence": "NCGM Center for Clinical Sciences news; no activity after Sept 2024 found.",
+      "sources": [
+        {
+          "author": "NCGM",
+          "title": "NCGM and Hanoi Medical University sign MOU",
+          "publisher": "NCGM",
+          "date": "2024-06-26",
+          "url": "https://ccs.ncgm.go.jp/050/en/news/202406261400.html"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--hanoi-medical-university--national-center-for-global-health-and-medicine-now-part-of-japan-institute-for-health-security"
+    },
+    {
+      "foreign_institution": "LMU Klinikum (Dental Clinic), Munich",
+      "foreign_country": "Germany",
+      "group": "Other foreign health systems",
+      "indian_partner": "Osaka University Dental Hospital",
+      "partner_city": "Osaka",
+      "type": "Research collaboration",
+      "description": "The LMU dental clinic and Osaka University's dental clinic signed a cooperation contract in April 2024. No later activity found.",
+      "status": "Unclear",
+      "start": "2024-04",
+      "end": "",
+      "last_evidence": "2024-04",
+      "evidence": "LMU Klinikum news dated 26 Apr 2024.",
+      "sources": [
+        {
+          "author": "LMU Klinikum",
+          "title": "Zahnklinik startet Kooperation mit Osaka",
+          "publisher": "LMU Klinikum",
+          "date": "2024-04-26",
+          "url": "https://www.lmu-klinikum.de/aktuelles/newsmeldungen/zahnklinik-startet-kooperation-mit-osaka/b5984c81f543e775"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--lmu-klinikum-dental-clinic-munich--osaka-university-dental-hospital"
+    },
+    {
+      "foreign_institution": "M42",
+      "foreign_country": "United Arab Emirates",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Institutes for Quantum Science and Technology (QST)",
+      "partner_city": "Chiba",
+      "type": "Research collaboration",
+      "description": "M42 and QST signed a Memorandum of Cooperation in July 2023 to share research on carbon ion therapy. No later activity found specific to this pair.",
+      "status": "Unclear",
+      "start": "2023-07",
+      "end": "",
+      "last_evidence": "2023-07",
+      "evidence": "M42 news release dated 20 July 2023; later 2025 M42 activity was with Gunma University.",
+      "sources": [
+        {
+          "author": "M42",
+          "title": "M42 and QST Collaborate to Share Research on Carbon Ion Therapy",
+          "publisher": "M42",
+          "date": "2023-07-20",
+          "url": "https://m42.ae/media-resources/news/m42-and-qst-collaborate-to-share-research-on-carbon-ion-therapy/"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--m42--national-institutes-for-quantum-science-and-technology-qst"
+    },
+    {
+      "foreign_institution": "National Taiwan University (College of Medicine)",
+      "foreign_country": "Taiwan",
+      "group": "Other foreign health systems",
+      "indian_partner": "Institute of Science Tokyo (formerly Tokyo Medical and Dental University)",
+      "partner_city": "Tokyo",
+      "type": "Training and education",
+      "description": "NTU's College of Medicine and the Faculty of Medicine of Tokyo Medical and Dental University, now Institute of Science Tokyo, replaced their 2005 exchange agreement with a new one signed on 30 July 2024 and running to 2029. No activity after September 2024 was found.",
+      "status": "Unclear",
+      "start": "2005-06",
+      "end": "",
+      "last_evidence": "2024-07",
+      "evidence": "NTU Office of International Affairs agreement database lists the 2024-07-30 to 2029-07-30 agreement as active; the 2005 agreement expired on 27 June 2025.",
+      "sources": [
+        {
+          "author": "NTU Office of International Affairs",
+          "title": "College of Medicine agreements",
+          "publisher": "National Taiwan University",
+          "date": "2026",
+          "url": "https://oia.ntu.edu.tw/en/agreement/unit/college/36"
+        },
+        {
+          "author": "NTU Office of International Affairs",
+          "title": "Tokyo Medical and Dental University agreement",
+          "publisher": "National Taiwan University",
+          "date": "2025",
+          "url": "https://oia.ntu.edu.tw/en/agreement/country/school/2884"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--national-taiwan-university-college-of-medicine--institute-of-science-tokyo-formerly-tokyo-medical-and-dental-university"
+    },
+    {
+      "foreign_institution": "Peking Union Medical College Hospital",
+      "foreign_country": "China",
+      "group": "Other foreign health systems",
+      "indian_partner": "The University of Tokyo Hospital (Center for International Preventive Medicine)",
+      "partner_city": "Tokyo",
+      "type": "Clinical affiliation",
+      "description": "The center concluded a cooperation agreement with the hospital in October 2023 for post-examination medical support and exchange in clinical practice, education and research. No later activity was found.",
+      "status": "Unclear",
+      "start": "2023-10",
+      "end": "",
+      "last_evidence": "2023-10",
+      "evidence": "University of Tokyo Hospital center page lists the agreement as concluded in October 2023.",
+      "sources": [
+        {
+          "author": "Center for International Preventive Medicine, The University of Tokyo Hospital",
+          "title": "Conclusion of cooperation agreements with overseas medical institutions",
+          "publisher": "The University of Tokyo Hospital",
+          "date": "",
+          "url": "https://www.intl-pvntmed-uth.jp/eng/contents/about.html"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--peking-union-medical-college-hospital--the-university-of-tokyo-hospital-center-for-international-preventive-medicine"
+    },
+    {
+      "foreign_institution": "Siloam Hospitals Group",
+      "foreign_country": "Indonesia",
+      "group": "Other foreign health systems",
+      "indian_partner": "National Center for Global Health and Medicine (now part of Japan Institute for Health Security)",
+      "partner_city": "Tokyo",
+      "type": "Research collaboration",
+      "description": "NCGM and Siloam Hospitals signed an MoU on 13 August 2022 for clinical research cooperation. No later activity found.",
+      "status": "Unclear",
+      "start": "2022-08",
+      "end": "",
+      "last_evidence": "2022-10",
+      "evidence": "NCGM news dated 7 Oct 2022.",
+      "sources": [
+        {
+          "author": "NCGM",
+          "title": "NCGM and Siloam Hospitals Group have signed a MoU for clinical research cooperation",
+          "publisher": "NCGM",
+          "date": "2022-10-07",
+          "url": "https://www.ncgm.go.jp/en/news/FY2022/20221007.html"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--siloam-hospitals-group--national-center-for-global-health-and-medicine-now-part-of-japan-institute-for-health-security"
+    },
+    {
+      "foreign_institution": "Vietnam National Cancer Hospital (K Hospital)",
+      "foreign_country": "Vietnam",
+      "group": "Other foreign health systems",
+      "indian_partner": "Nagoya University Hospital",
+      "partner_city": "Nagoya",
+      "type": "Research collaboration",
+      "description": "K Hospital and Nagoya University Hospital signed an MoU on 23 February 2024 on cooperation in cancer treatment, following joint robotic surgery. No later activity was found.",
+      "status": "Unclear",
+      "start": "2024-02",
+      "end": "",
+      "last_evidence": "2024-02",
+      "evidence": "VietnamPlus and Tuoi Tre reports of the 23 February 2024 signing.",
+      "sources": [
+        {
+          "author": "VietnamPlus",
+          "title": "K Hospital, Japanese hospital cooperate in cancer research",
+          "publisher": "VietnamPlus",
+          "date": "2024-02",
+          "url": "https://en.vietnamplus.vn/k-hospital-japanese-hospital-cooperate-in-cancer-research-post282840.vnp"
+        },
+        {
+          "author": "Tuoi Tre News",
+          "title": "Vietnam's robotic cancer treatment techniques impress Japanese physicians",
+          "publisher": "Tuoi Tre News",
+          "date": "2024-02-25",
+          "url": "https://tuoitrenews.vn/news/society/20240225/vietnam-s-robotic-cancer-treatment-techniques-impress-japanese-physicians/78439.html"
+        }
+      ],
+      "country": "Japan",
+      "last_checked": "2026-11-17",
+      "id": "japan--vietnam-national-cancer-hospital-k-hospital--nagoya-university-hospital"
+    },
+    {
       "foreign_institution": "Johns Hopkins University (Bloomberg School of Public Health, Center for Indigenous Health)",
       "foreign_country": "United States",
       "group": "US academic medical centers",
