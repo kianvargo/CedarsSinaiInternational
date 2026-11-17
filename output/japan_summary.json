@@ -1,0 +1,81 @@
+{
+ "country": "Japan",
+ "at_a_glance": [
+  {
+   "value": "122.97 m",
+   "label": "Population, 1 October 2025 census",
+   "cite": "{{country_overview.demographics:1}}"
+  },
+  {
+   "value": "57,040",
+   "label": "GDP per capita, PPP (international dollars), 2025",
+   "cite": "{{country_overview.demographics:5}}"
+  },
+  {
+   "value": "10.74%",
+   "label": "Current health expenditure, share of GDP, 2023",
+   "cite": "{{health_system.financing:1}}"
+  },
+  {
+   "value": "12.24%",
+   "label": "Out-of-pocket share of current health expenditure, 2023",
+   "cite": "{{health_system.financing:3}}"
+  },
+  {
+   "value": "26.49",
+   "label": "Medical doctors per 10,000 people, WHO series, 2022",
+   "cite": "{{health_system.workforce:2}}"
+  },
+  {
+   "value": "81.35 men, 87.33 women",
+   "label": "Life expectancy at birth, years, 2025",
+   "cite": "{{country_overview.demographics:7}}"
+  },
+  {
+   "value": "29.4%",
+   "label": "Population aged 65 and over, 2025 census",
+   "cite": "{{country_overview.demographics:1}}"
+  },
+  {
+   "value": "¥48.81 tn (US$311 bn)",
+   "label": "National medical expenditure, fiscal 2024",
+   "cite": "{{health_system.financing:5}}"
+  }
+ ],
+ "key_takeaways": [
+  "Current health expenditure was 10.74 percent of GDP in 2023, down from a peak of 12.32 percent in 2022.{{health_system.financing:1}}",
+  "People aged 65 and over are 29.4 percent of the population, projected to reach 38.7 percent by 2070.{{country_overview.demographics:1}}{{health_system.outlook:2}}",
+  "General hospitals averaged a profit margin of minus 7.3 percent in fiscal 2024, and public hospitals minus 18.5 percent.{{health_system.private_system:2}}",
+  "Fees rise 3.09 percent on average over fiscal 2026 and 2027, the first net increase in 12 years.{{health_system.outlook:4}}{{health_system.outlook:5}}"
+ ],
+ "health_system": [
+  "Statutory health insurance is universal, and enrollment in an employment-based or residence-based plan is required.{{health_system.public_system:1}}",
+  "Patients usually pay 30 percent of costs, while people aged 75 and over pay 10 percent.{{health_system.public_system:2}}",
+  "Japan had 347,772 registered physicians at the end of 2024, or 280.9 per 100,000 people.{{health_system.workforce:1}}"
+ ],
+ "market": [
+  "Medical corporations ran 5,550 of 7,941 hospitals in August 2026; public bodies ran about 15 percent.{{health_system.private_system:1}}",
+  "The tracker lists 66 active partnerships with 64 foreign institutions, 19 of them US centers.{{health_system.competitive_landscape:1}}",
+  "Hospitals accredited by Medical Excellence JAPAN admitted 2,099 new international patients in fiscal 2024.{{health_system.competitive_landscape:5}}"
+ ],
+ "risks": [
+  "Births hit a record low of 671,270 in 2025, and the population is projected to fall to 87 million.{{country_overview.demographics:6}}{{country_overview.demographics:10}}",
+  "The Finance Ministry expects a doctor surplus after 2032 and urges a planned cut in medical school enrollment.{{health_system.outlook:7}}",
+  "Real GDP edged down less than 0.1 percent in July to September 2026, the first decline in four quarters.{{country_overview.economy:5}}"
+ ],
+ "recent": [
+  {
+   "date": "2025-12",
+   "text": "Ministers agreed on 24 December 2025 to raise main fees 3.09 percent on average over fiscal 2026 and 2027.{{recent_developments.4:1}}"
+  },
+  {
+   "date": "2026-10",
+   "text": "The health ministry reported fiscal 2024 national medical expenditure of ¥48.81 trillion (US$311 billion), up 1.5 percent.{{recent_developments.1:1}}"
+  },
+  {
+   "date": "2026-11",
+   "text": "Medical Excellence JAPAN launched an official portal for international patients on 12 November 2026.{{recent_developments.0:1}}"
+  }
+ ],
+ "country_background": "Japan, a parliamentary constitutional monarchy with its capital in Tokyo, counted 122.97 million residents in the 2025 census.{{country_overview.demographics:3}}{{country_overview.demographics:8}}{{country_overview.demographics:1}} The Emperor is the symbol of the State, and Sanae Takaichi of the Liberal Democratic Party became prime minister in October 2025 and was designated again in February 2026.{{country_overview.government:1}}{{country_overview.government:3}}{{country_overview.government:4}} The economy was about 7.03 trillion international dollars at purchasing power parity in 2025, fifth largest in the world.{{country_overview.economy:1}}{{country_overview.economy:2}} Life expectancy was 81.35 years for men and 87.33 for women in 2025, and 29.4 percent of people were 65 or older.{{country_overview.demographics:7}}{{country_overview.demographics:1}} The key risk is demographic: births hit a record low in 2025, and the population is projected to fall to 87 million by 2070.{{country_overview.demographics:6}}{{country_overview.demographics:10}}"
+}
