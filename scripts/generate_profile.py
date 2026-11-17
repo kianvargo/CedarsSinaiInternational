@@ -435,6 +435,97 @@ def active_by_institution(country):
     return sorted(out.values(), key=lambda e: (GROUPS.index(e["group"]) if e["group"] in GROUPS else 9, e["institution"]))
 
 
+COMPACT_ABOVE = 30  # trackers with more institutions than this are grouped by country and type of work
+COMPACT_MIN_COUNTRY = 3  # in the compact table, countries with fewer institutions share an "Other countries" block
+
+
+def add_compact_tracker_table(doc, insts, registry):
+    """Long trackers: one row per country and type of collaboration, with the institutions listed in one
+    cell (each followed by its source number unless registry is None), so a country with dozens of partners
+    stays near one page."""
+    fs = Pt(8)
+    table = doc.add_table(rows=1, cols=3)
+    set_table_borders(table)
+    for i, h in enumerate(("Based in", "Nature of collaboration", "Institutions")):
+        cell = table.rows[0].cells[i]
+        set_cell_shading(cell, "D91F2C")
+        r = cell.paragraphs[0].add_run(h)
+        r.bold = True
+        r.font.size = Pt(9)
+        r.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
+
+    def add_block(label, es, show_country):
+        natures = {}
+        for e in es:
+            for nat in e["natures"]:
+                natures.setdefault(nat, []).append(e)
+        first_row = len(table.rows)
+        for k, (nat, members) in enumerate(sorted(natures.items(), key=lambda kv: (-len(kv[1]), kv[0]))):
+            cells = table.add_row().cells
+            if k == 0:
+                run = cells[0].paragraphs[0].add_run(f"{label} ({len(es)})")
+                run.font.size = fs
+                run.bold = True
+            run = cells[1].paragraphs[0].add_run(f"{nat} ({len(members)})")
+            run.font.size = fs
+            par = cells[2].paragraphs[0]
+            for j, e in enumerate(sorted(members, key=lambda x: x["institution"])):
+                name = e["institution"] + (f" ({e['based_in']})" if show_country else "")
+                par.add_run(name).font.size = fs
+                if registry is not None:
+                    add_citations(par, sorted({registry.number(src) for src in e["sources"]}), registry)
+                if j < len(members) - 1:
+                    par.add_run("; ").font.size = fs
+        if len(table.rows) - first_row > 1:
+            table.rows[first_row].cells[0].merge(table.rows[len(table.rows) - 1].cells[0])
+
+    for group in GROUPS:
+        members = [e for e in insts if e["group"] == group]
+        if not members:
+            continue
+        row = table.add_row()
+        merged = row.cells[0].merge(row.cells[2])
+        set_cell_shading(merged, "F6E3E4")
+        gr = merged.paragraphs[0].add_run(group)
+        gr.bold = True
+        gr.font.size = Pt(9)
+        gr.font.color.rgb = DARK_RED
+        by_country = {}
+        for e in members:
+            by_country.setdefault(e["based_in"], []).append(e)
+        big = {c: es for c, es in by_country.items() if len(es) >= COMPACT_MIN_COUNTRY or group == GROUPS[0]}
+        small = [e for c, es in by_country.items() if c not in big for e in es]
+        for country_name, es in sorted(big.items(), key=lambda kv: (-len(kv[1]), kv[0])):
+            add_block(country_name, es, False)
+        if small:
+            add_block("Other countries", small, True)
+
+    for ri, row in enumerate(table.rows):
+        for i, w in enumerate((Cm(2.4), Cm(3.0), Cm(11.6))):
+            if i < len(row.cells):
+                row.cells[i].width = w
+        for cell in row.cells:
+            for par in cell.paragraphs:
+                pf = par.paragraph_format
+                pf.space_before = Pt(0)
+                pf.space_after = Pt(1)
+                pf.line_spacing = 1.0
+                if ri < 2:  # header and first group row stay with the rows below
+                    pf.keep_with_next = True
+    # citation links are not python-docx runs and default to the body size, which inflates line height
+    for r_el in table._tbl.iter(qn("w:r")):
+        r_pr = r_el.find(qn("w:rPr"))
+        if r_pr is None:
+            r_pr = OxmlElement("w:rPr")
+            r_el.insert(0, r_pr)
+        if r_pr.find(qn("w:sz")) is None:
+            for tag in ("w:sz", "w:szCs"):
+                el = OxmlElement(tag)
+                el.set(qn("w:val"), "16")
+                r_pr.append(el)
+    return table
+
+
 def add_tracker_block(doc, country, registry, map_width=Cm(13.5), out_dir=None):
     """Competitive landscape from the verified tracker: confirmed active partnerships only,
     summarized by the nature of the collaboration rather than the partner hospital."""
@@ -448,7 +539,7 @@ def add_tracker_block(doc, country, registry, map_width=Cm(13.5), out_dir=None):
     checked = max(r["last_checked"] for r in tracker_rows(country))
     png = partner_map(country, out_dir or ROOT / "output")
     if png:
-        doc.add_picture(str(png), width=map_width)
+        doc.add_picture(str(png), width=Cm(11.5) if len(insts) > COMPACT_ABOVE else map_width)
         doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
         cap = doc.add_paragraph()
         cr = cap.add_run(MAP_CAPTION.format(country=country, checked=checked))
@@ -458,9 +549,21 @@ def add_tracker_block(doc, country, registry, map_width=Cm(13.5), out_dir=None):
 
     t = doc.add_paragraph()
     t.paragraph_format.space_before = Pt(8)
-    tr = t.add_run("Confirmed active partnerships by institution")
+    compact = len(insts) > COMPACT_ABOVE
+    tr = t.add_run("Confirmed active partnerships by country and type of collaboration" if compact
+                   else "Confirmed active partnerships by institution")
     tr.bold = True
     tr.font.color.rgb = DARK_RED
+    if compact:
+        add_compact_tracker_table(doc, insts, registry)
+        note = doc.add_paragraph()
+        nr = note.add_run("Only partnerships with dated evidence of activity in the last 24 months are listed; numbers "
+                          "in brackets count institutions, and superscripts link to each source. Latest evidence, "
+                          "unclear and recently ended partnerships are in the CSI partnerships tracker.")
+        nr.italic = True
+        nr.font.size = Pt(8)
+        nr.font.color.rgb = GRAY
+        return
     table = doc.add_table(rows=1, cols=4)
     set_table_borders(table)
     for i, h in enumerate(("Institution", "Based in", "Nature of collaboration", "Latest evidence")):

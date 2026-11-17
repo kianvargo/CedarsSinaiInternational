@@ -429,7 +429,52 @@ def manual_block(doc, label):
     hr.font.color.rgb = gp.GRAY
 
 
+def country_table(doc, insts):
+    """Long partner lists: institutions and types of collaboration per country (names stay in the profile)."""
+    by_country = {}
+    for e in insts:
+        by_country.setdefault(e["based_in"], []).append(e)
+    big = sorted(((c, es) for c, es in by_country.items() if len(es) >= gp.COMPACT_MIN_COUNTRY),
+                 key=lambda kv: (-len(kv[1]), kv[0]))
+    small = sorted((c, es) for c, es in by_country.items() if len(es) < gp.COMPACT_MIN_COUNTRY)
+    rows = [(c, len(es), es) for c, es in big]
+    if small:
+        rows.append(("Other countries", sum(len(es) for _, es in small), [e for _, es in small for e in es]))
+    table = doc.add_table(rows=1, cols=3)
+    gp.set_table_borders(table)
+    for i, h in enumerate(("Based in", "Institutions", "Nature of collaboration")):
+        cell = table.rows[0].cells[i]
+        gp.set_cell_shading(cell, "D91F2C")
+        r = cell.paragraphs[0].add_run(h)
+        r.bold = True
+        r.font.size = Pt(9)
+        r.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
+    for name, n, es in rows:
+        kinds = {}
+        for e in es:
+            for k in e["natures"]:
+                kinds[k] = kinds.get(k, 0) + 1
+        text = ", ".join(f"{k.lower()} {v}" for k, v in sorted(kinds.items(), key=lambda kv: (-kv[1], kv[0])))
+        cells = table.add_row().cells
+        r = cells[0].paragraphs[0].add_run(name)
+        r.bold = True
+        r.font.size = Pt(9)
+        cells[1].paragraphs[0].add_run(str(n)).font.size = Pt(9)
+        cells[2].paragraphs[0].add_run(text[0].upper() + text[1:]).font.size = Pt(9)
+    for row in table.rows:
+        for i, w in enumerate((Cm(4.0), Cm(2.4), Cm(10.6))):
+            row.cells[i].width = w
+    note = doc.add_paragraph()
+    nr = note.add_run("Other countries: " + ", ".join(c for c, _ in small) + ". Institution names are in the full profile.")
+    nr.italic = True
+    nr.font.size = Pt(8)
+    nr.font.color.rgb = gp.GRAY
+
+
 def nature_table(doc, insts):
+    if len(insts) > gp.COMPACT_ABOVE:  # long lists: one row per country; the profile has the full list
+        country_table(doc, insts)
+        return
     table = doc.add_table(rows=1, cols=2)
     gp.set_table_borders(table)
     for i, h in enumerate(("Institution", "Nature of collaboration")):

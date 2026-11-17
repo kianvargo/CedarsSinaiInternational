@@ -110,8 +110,8 @@
     35.14
    ],
    [
-    -14,
-    -10
+    0,
+    -17
    ]
   ],
   "Maebashi": [
@@ -120,8 +120,8 @@
     36.39
    ],
    [
-    -14,
-    0
+    14,
+    6
    ]
   ],
   "Niigata": [
@@ -591,6 +591,108 @@
     "Osaka"
    ],
    "partner": "Osaka Metropolitan University School of Medicine"
+  }
+ },
+ "compact": true,
+ "legend": {
+  "loc": "lower right"
+ },
+ "merged": {
+  "Osaka and Kobe": {
+   "cities": [
+    "Osaka",
+    "Kobe"
+   ],
+   "at": [
+    135.35,
+    34.69
+   ],
+   "offset": [
+    -14,
+    0
+   ]
+  },
+  "Nagoya area": {
+   "cities": [
+    "Nagoya",
+    "Toyoake"
+   ],
+   "at": [
+    136.96,
+    35.12
+   ],
+   "offset": [
+    -8,
+    9
+   ]
+  },
+  "Fukuoka area": {
+   "cities": [
+    "Fukuoka",
+    "Kurume"
+   ],
+   "at": [
+    130.45,
+    33.45
+   ],
+   "offset": [
+    14,
+    0
+   ]
+  }
+ },
+ "clusters": {
+  "Greater Tokyo": {
+   "cities": [
+    "Tokyo",
+    "Kawasaki",
+    "Kamakura",
+    "Chiba",
+    "Kamogawa"
+   ],
+   "at": [
+    142.4,
+    35.9
+   ],
+   "offset": [
+    0,
+    -24
+   ],
+   "inset": {
+    "bounds": [
+     139.2,
+     140.4,
+     34.98,
+     35.85
+    ],
+    "anchor": [
+     0.62,
+     0.13
+    ],
+    "width": 0.36,
+    "labels": {
+     "Tokyo": [
+      16,
+      0
+     ],
+     "Kawasaki": [
+      -12,
+      -4
+     ],
+     "Kamakura": [
+      12,
+      0
+     ],
+     "Chiba": [
+      12,
+      2
+     ],
+     "Kamogawa": [
+      -12,
+      0
+     ]
+    }
+   }
   }
  }
 }
