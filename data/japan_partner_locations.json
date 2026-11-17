@@ -1,0 +1,596 @@
+{
+ "note": "Each partnership is placed in the Japanese partner's home city; National Cancer Center Japan is placed in Tokyo (its Kashiwa campus is not shown separately), Okinawa shows Onna and Uruma as one point, and Kawasaki is St. Marianna University.",
+ "bounds": [
+  122.5,
+  146.5,
+  24.0,
+  45.8
+ ],
+ "metros": [
+  "Tokyo",
+  "Osaka",
+  "Nagoya",
+  "Fukuoka",
+  "Sapporo"
+ ],
+ "cities": {
+  "Tokyo": [
+   [
+    139.69,
+    35.68
+   ],
+   [
+    14,
+    8
+   ]
+  ],
+  "Osaka": [
+   [
+    135.5,
+    34.69
+   ],
+   [
+    -14,
+    0
+   ]
+  ],
+  "Nagoya": [
+   [
+    136.91,
+    35.18
+   ],
+   [
+    -14,
+    0
+   ]
+  ],
+  "Fukuoka": [
+   [
+    130.4,
+    33.59
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Sapporo": [
+   [
+    141.35,
+    43.06
+   ],
+   [
+    12,
+    0
+   ]
+  ],
+  "Kamakura": [
+   [
+    139.55,
+    35.32
+   ],
+   [
+    -14,
+    -8
+   ]
+  ],
+  "Kawasaki": [
+   [
+    139.7,
+    35.53
+   ],
+   [
+    -14,
+    6
+   ]
+  ],
+  "Chiba": [
+   [
+    140.12,
+    35.61
+   ],
+   [
+    14,
+    10
+   ]
+  ],
+  "Kamogawa": [
+   [
+    140.1,
+    35.11
+   ],
+   [
+    14,
+    -6
+   ]
+  ],
+  "Nagaizumi": [
+   [
+    138.9,
+    35.14
+   ],
+   [
+    -14,
+    -10
+   ]
+  ],
+  "Maebashi": [
+   [
+    139.06,
+    36.39
+   ],
+   [
+    -14,
+    0
+   ]
+  ],
+  "Niigata": [
+   [
+    139.04,
+    37.92
+   ],
+   [
+    -14,
+    0
+   ]
+  ],
+  "Sendai": [
+   [
+    140.87,
+    38.27
+   ],
+   [
+    14,
+    0
+   ]
+  ],
+  "Toyama": [
+   [
+    137.21,
+    36.7
+   ],
+   [
+    -14,
+    0
+   ]
+  ],
+  "Toyoake": [
+   [
+    137.01,
+    35.05
+   ],
+   [
+    -8,
+    -16
+   ]
+  ],
+  "Kobe": [
+   [
+    135.2,
+    34.69
+   ],
+   [
+    -14,
+    -8
+   ]
+  ],
+  "Kurume": [
+   [
+    130.52,
+    33.32
+   ],
+   [
+    -14,
+    -6
+   ]
+  ],
+  "Okinawa": [
+   [
+    127.85,
+    26.45
+   ],
+   [
+    14,
+    0
+   ]
+  ]
+ },
+ "locations": {
+  "japan--the-university-of-texas-md-anderson-cancer-center--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--icahn-school-of-medicine-at-mount-sinai--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--dana-farber-cancer-institute--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--university-of-hawai-i-cancer-center--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--uhn-princess-margaret-cancer-centre--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--institut-curie--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--universitaetsklinikum-essen--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--university-of-manchester--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--the-christie-nhs-foundation-trust--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--peter-maccallum-cancer-centre--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--china-japan-friendship-hospital--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--henan-cancer-hospital--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--peking-university-first-hospital--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--tianjin-medical-university-cancer-institute-and-hospital--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--national-cancer-center-korea--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--seoul-national-university-college-of-medicine--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--yonsei-university--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--national-yang-ming-chiao-tung-university--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--national-taiwan-university-hospital--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--taipei-veterans-general-hospital--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--tata-memorial-centre--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--persahabatan-hospital--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--cancer-science-institute-of-singapore-national-university-of-singapore--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--faculty-of-medicine-ramathibodi-hospital-mahidol-university--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--siriraj-hospital-mahidol-university--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--national-cancer-institute-thailand--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--ho-chi-minh-city-oncology-hospital--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--national-cancer-hospital-vietnam--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--cancer-biology-research-center-tel-aviv-university--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--massachusetts-general-hospital-mass-general-brigham--national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan"
+  },
+  "japan--mit-koch-institute-for-integrative-cancer-research--research-institute-national-cancer-center-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "Research Institute, National Cancer Center Japan"
+  },
+  "japan--bangkok-dusit-medical-services-wattanosoth-cancer-hospital--national-cancer-center-japan-hospital": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Japan (Hospital)"
+  },
+  "japan--national-cancer-centre-singapore--national-cancer-center-hospital-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Hospital (Japan)"
+  },
+  "japan--faculty-of-medicine-chulalongkorn-university--national-cancer-center-hospital-japan": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "National Cancer Center Hospital (Japan)"
+  },
+  "japan--cleveland-clinic--okinawa-institute-of-science-and-technology-graduate-university-oist": {
+   "cities": [
+    "Okinawa"
+   ],
+   "partner": "Okinawa Institute of Science and Technology Graduate University (OIST)"
+  },
+  "japan--cleveland-clinic-abu-dhabi-and-m42--gunma-university-heavy-ion-medical-center": {
+   "cities": [
+    "Maebashi"
+   ],
+   "partner": "Gunma University (Heavy Ion Medical Center)"
+  },
+  "japan--johns-hopkins-university--brain-research-institute-niigata-university": {
+   "cities": [
+    "Niigata"
+   ],
+   "partner": "Brain Research Institute, Niigata University"
+  },
+  "japan--nyc-health-hospitals-bellevue--japan-institute-for-health-security-jihs": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "Japan Institute for Health Security (JIHS)"
+  },
+  "japan--university-of-nebraska-medical-center-unmc--japan-institute-for-health-security-jihs": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "Japan Institute for Health Security (JIHS)"
+  },
+  "japan--thomas-jefferson-university--kobe-university": {
+   "cities": [
+    "Kobe"
+   ],
+   "partner": "Kobe University"
+  },
+  "japan--ohio-state-university-wexner-medical-center--medical-corporation-tokushukai-shonan-kamakura-general-hospital": {
+   "cities": [
+    "Kamakura"
+   ],
+   "partner": "Medical Corporation Tokushukai (Shonan Kamakura General Hospital)"
+  },
+  "japan--university-of-alabama-at-birmingham--fujita-health-university": {
+   "cities": [
+    "Toyoake"
+   ],
+   "partner": "Fujita Health University"
+  },
+  "japan--university-of-california-san-diego--osaka-metropolitan-university": {
+   "cities": [
+    "Osaka"
+   ],
+   "partner": "Osaka Metropolitan University"
+  },
+  "japan--university-of-california-san-diego--tohoku-university": {
+   "cities": [
+    "Sendai"
+   ],
+   "partner": "Tohoku University"
+  },
+  "japan--university-of-washington--tohoku-university": {
+   "cities": [
+    "Sendai"
+   ],
+   "partner": "Tohoku University"
+  },
+  "japan--university-of-north-carolina-at-chapel-hill--nagoya-university-graduate-school-of-medicine": {
+   "cities": [
+    "Nagoya"
+   ],
+   "partner": "Nagoya University (Graduate School of Medicine)"
+  },
+  "japan--university-of-miami-school-of-nursing-and-health-studies--juntendo-university": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "Juntendo University"
+  },
+  "japan--siriraj-hospital-faculty-of-medicine-mahidol-university--the-university-of-tokyo-hospital": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "The University of Tokyo Hospital"
+  },
+  "japan--bangkok-hospital-headquarters-bdms--tokushukai-medical-corporation": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "Tokushukai Medical Corporation"
+  },
+  "japan--asan-medical-center--qst-hospital-national-institutes-for-quantum-science-and-technology": {
+   "cities": [
+    "Chiba"
+   ],
+   "partner": "QST Hospital (National Institutes for Quantum Science and Technology)"
+  },
+  "japan--royal-medical-services-bahrain-defence-force--shonan-kamakura-general-hospital": {
+   "cities": [
+    "Kamakura"
+   ],
+   "partner": "Shonan Kamakura General Hospital"
+  },
+  "japan--istanbul-medipol-university-medipol-hospitals--kameda-medical-center": {
+   "cities": [
+    "Kamogawa"
+   ],
+   "partner": "Kameda Medical Center"
+  },
+  "japan--national-taiwan-university-hospital--keio-university-school-of-medicine": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "Keio University School of Medicine"
+  },
+  "japan--chung-shan-medical-university--university-of-toyama": {
+   "cities": [
+    "Toyama"
+   ],
+   "partner": "University of Toyama"
+  },
+  "japan--college-of-medicine-national-taiwan-university--kyorin-university-school-of-medicine": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "Kyorin University School of Medicine"
+  },
+  "japan--bach-mai-hospital--shonan-kamakura-general-hospital-tokushukai-medical-corporation": {
+   "cities": [
+    "Kamakura"
+   ],
+   "partner": "Shonan Kamakura General Hospital (Tokushukai Medical Corporation)"
+  },
+  "japan--vietnam-national-cancer-hospital-k-hospital--shonan-kamakura-general-hospital-tokushukai-medical-corporation": {
+   "cities": [
+    "Kamakura"
+   ],
+   "partner": "Shonan Kamakura General Hospital (Tokushukai Medical Corporation)"
+  },
+  "japan--zhejiang-cancer-hospital--shizuoka-cancer-center": {
+   "cities": [
+    "Nagaizumi"
+   ],
+   "partner": "Shizuoka Cancer Center"
+  },
+  "japan--108-military-central-hospital--toho-university-faculty-of-medicine": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "Toho University (Faculty of Medicine)"
+  },
+  "japan--chosun-university-college-of-medicine--st-marianna-university-school-of-medicine": {
+   "cities": [
+    "Kawasaki"
+   ],
+   "partner": "St. Marianna University School of Medicine"
+  },
+  "japan--faculty-of-medicine-khon-kaen-university--st-marianna-university-school-of-medicine": {
+   "cities": [
+    "Kawasaki"
+   ],
+   "partner": "St. Marianna University School of Medicine"
+  },
+  "japan--yonsei-university-wonju-college-of-medicine--kurume-university-school-of-medicine": {
+   "cities": [
+    "Kurume"
+   ],
+   "partner": "Kurume University School of Medicine"
+  },
+  "japan--the-first-hospital-of-hebei-medical-university--the-university-of-tokyo-hospital-center-for-international-preventive-medicine": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "The University of Tokyo Hospital (Center for International Preventive Medicine)"
+  },
+  "japan--university-of-hawai-i-john-a-burns-school-of-medicine--okinawa-prefectural-chubu-hospital": {
+   "cities": [
+    "Okinawa"
+   ],
+   "partner": "Okinawa Prefectural Chubu Hospital"
+  },
+  "japan--network-of-university-medicine-num--japan-institute-for-health-security-jihs": {
+   "cities": [
+    "Tokyo"
+   ],
+   "partner": "Japan Institute for Health Security (JIHS)"
+  },
+  "japan--19-8-hospital-ministry-of-public-security--osaka-metropolitan-university-school-of-medicine": {
+   "cities": [
+    "Osaka"
+   ],
+   "partner": "Osaka Metropolitan University School of Medicine"
+  }
+ }
+}
