@@ -53,11 +53,13 @@ OVERVIEW_SECTIONS = [
 HEALTH_SECTIONS = [
     ("public_system", "Public Healthcare System"),
     ("private_system", "Private Healthcare System"),
+    ("hospitals", "Hospitals and Capacity"),  # optional section
     ("financing", "Healthcare Financing"),
     ("workforce", "Workforce"),
     ("education", "Education"),
     ("outlook", "Healthcare Outlook"),
     ("competitive_landscape", "Competitive Landscape"),
+    ("patient_flows", "Patient Flows and Medical Travel"),  # optional section
 ]
 
 
