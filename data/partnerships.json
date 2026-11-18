@@ -39,7 +39,7 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--boston-children-s-hospital--murdoch-children-s-research-institute-and-the-royal-children-s-hospital"
     },
     {
@@ -72,7 +72,7 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--cleveland-clinic--epworth-healthcare-epworth-richmond"
     },
     {
@@ -82,12 +82,12 @@
       "indian_partner": "The University of Queensland (Queensland Emory Vaccine Centre)",
       "partner_city": "Brisbane",
       "type": "Research collaboration",
-      "description": "Emory University and the University of Queensland jointly established the Queensland Emory Vaccine Centre at UQ's St Lucia campus through a A$32 million partnership. It builds on a drug discovery collaboration begun in 2012 and a continuing Emory-UQ research grant scheme.",
+      "description": "Emory University and the University of Queensland jointly established the Queensland Emory Vaccine Centre at UQ's St Lucia campus through a A$32 million (US$22.4 million) partnership. It builds on a drug discovery collaboration begun in 2012 and a continuing Emory-UQ research grant scheme.",
       "status": "Active",
       "start": "2012",
       "end": "",
       "last_evidence": "2025-01",
-      "evidence": "Emory News, 7 June 2024, and UQ News, 31 May 2024, announced the centre. UQ News of 27 January 2025 describes it as a A$32 million partnership with Emory, and UQ's US partnerships page lists the 2024 Emory-UQ Collaborative Partnership Research Grant.",
+      "evidence": "Emory News, 7 June 2024, and UQ News, 31 May 2024, announced the centre. UQ News of 27 January 2025 describes it as a A$32 million (US$22.4 million) partnership with Emory, and UQ's US partnerships page lists the 2024 Emory-UQ Collaborative Partnership Research Grant.",
       "sources": [
         {
           "author": "Emory University",
@@ -119,8 +119,34 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--emory-university--the-university-of-queensland-queensland-emory-vaccine-centre"
+    },
+    {
+      "foreign_institution": "Mayo Clinic (Mayo Clinic Global Consulting)",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "TLC Healthcare",
+      "partner_city": "Melbourne",
+      "type": "Advisory and consulting",
+      "description": "TLC Healthcare engaged Mayo Clinic Global Consulting in August 2026 to advise on its first Hospital Day Surgery at Hallam, Victoria, covering facility design, quality and safety, team-based care and activation readiness. Hallam is the first of seven planned, with completion scheduled for 2028.",
+      "status": "Active",
+      "start": "2026-08",
+      "end": "",
+      "last_evidence": "2026-08",
+      "evidence": "TLC Healthcare's Business Wire release of 19 August 2026 (read in full) announces the advisory contract and a kick-off visit by its chief executive to Mayo Clinic in Rochester, Minnesota, with a joint symposium planned.",
+      "sources": [
+        {
+          "author": "TLC Healthcare",
+          "title": "TLC Healthcare engages Mayo Clinic Global Consulting to advance healthcare excellence",
+          "publisher": "Business Wire via Medianet",
+          "date": "2026-08-19",
+          "url": "https://newshub.medianet.com.au/2026/08/tlc-healthcare-engages-mayo-clinic-global-consulting-to-advance-healthcare-excellence/167334/"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-11-18",
+      "id": "australia--mayo-clinic-mayo-clinic-global-consulting--tlc-healthcare"
     },
     {
       "foreign_institution": "Memorial Sloan Kettering Cancer Center",
@@ -129,12 +155,12 @@
       "indian_partner": "Northern Sydney Local Health District (Royal North Shore Hospital and North Shore Private Hospital)",
       "partner_city": "Sydney",
       "type": "Research collaboration",
-      "description": "Memorial Sloan Kettering and Northern Sydney Local Health District partner on international cancer clinical trials through the NORTH S.T.A.R VNP trials centre at Royal North Shore Hospital, funded by a A$20 million gift. MSK is also a member of the US-Australia Cancer Consortium.",
+      "description": "Memorial Sloan Kettering and Northern Sydney Local Health District partner on international cancer clinical trials through the NORTH S.T.A.R VNP trials centre at Royal North Shore Hospital, funded by a A$20 million (US$14 million) gift. MSK is also a member of the US-Australia Cancer Consortium.",
       "status": "Active",
       "start": "2024-08",
       "end": "",
       "last_evidence": "2026-07",
-      "evidence": "NSW Health announced the partnership on 17 August 2024. On 3 July 2026 NSW Health reported the early phase trials unit opened at Royal North Shore Hospital, with investigators from the hospital and MSK partnering on international trials.",
+      "evidence": "NSW Health announced the partnership on 17 August 2024. On 3 July 2026 NSW Health reported the early phase trials unit opened at Royal North Shore Hospital, with investigators from the hospital and MSK partnering on international trials. Northern Sydney Local Health District's newsletter of 27 February 2026 reports a half-day summit of NSLHD and MSK clinicians on the ongoing trials partnership.",
       "sources": [
         {
           "author": "NSW Health",
@@ -163,10 +189,17 @@
           "publisher": "Memorial Sloan Kettering Cancer Center",
           "date": "2024",
           "url": "https://www.mskcc.org/experience/become-patient/international-patients/international-collaborations/msk-member-of-usa-australia-cancer-consortium"
+        },
+        {
+          "author": "Northern Sydney Local Health District",
+          "title": "NSLHD News, 27 February 2026",
+          "publisher": "Northern Sydney Local Health District",
+          "date": "2026-02-27",
+          "url": "https://online.flippingbook.com/view/430511762"
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--memorial-sloan-kettering-cancer-center--northern-sydney-local-health-district-royal-north-shore-hospital-and-north-shore-private-hospital"
     },
     {
@@ -180,8 +213,8 @@
       "status": "Active",
       "start": "2009",
       "end": "",
-      "last_evidence": "2025-12",
-      "evidence": "UQ announced on 15 September 2023 that the partnership was extended until at least 2030 after a contract signing in New Orleans. Ochsner's release of 2 December 2025 reports the Class of 2025 culmination ceremony held on 22 November 2025, with 87 graduates and more than 1,100 alumni.",
+      "last_evidence": "2026-01",
+      "evidence": "UQ announced on 15 September 2023 that the partnership was extended until at least 2030. The UQ-Ochsner program's own site reports on 2 December 2025 that 82 doctors graduated in the Class of 2025, bringing alumni to over 1,000, and on 15 January 2026 that the next class began clinical training in New Orleans at a white coat ceremony.",
       "sources": [
         {
           "author": "The University of Queensland",
@@ -189,6 +222,20 @@
           "publisher": "The University of Queensland",
           "date": "2023-09-15",
           "url": "https://global-partnerships.uq.edu.au/node/7432"
+        },
+        {
+          "author": "UQ-Ochsner MD Program",
+          "title": "Celebrating the graduating class of 2025",
+          "publisher": "The University of Queensland and Ochsner Health",
+          "date": "2025-12-02",
+          "url": "https://ochsner.uq.edu.au/stories/celebrating-graduating-class-2025"
+        },
+        {
+          "author": "UQ-Ochsner MD Program",
+          "title": "White coat ceremony marks start of clinical training in New Orleans",
+          "publisher": "The University of Queensland and Ochsner Health",
+          "date": "2026-01-15",
+          "url": "https://ochsner.uq.edu.au/stories/white-coat-ceremony-marks-start-clinical-training-new-orleans"
         },
         {
           "author": "Ochsner Health",
@@ -206,7 +253,7 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--ochsner-health--the-university-of-queensland-uq-medical-school"
     },
     {
@@ -239,7 +286,7 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--weill-cornell-medicine--monash-university"
     },
     {
@@ -272,7 +319,7 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--apollo-hospitals--monash-university-faculty-of-information-technology"
     },
     {
@@ -305,7 +352,7 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--great-ormond-street-hospital-and-ucl-great-ormond-street-institute-of-child-health--murdoch-children-s-research-institute-and-the-royal-children-s-hospital"
     },
     {
@@ -331,7 +378,7 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--ho-chi-minh-city-eye-hospital--university-of-western-australia-doctor-of-optometry"
     },
     {
@@ -371,8 +418,34 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--hokkaido-university-faculty-of-health-sciences--university-of-melbourne-faculty-of-medicine-dentistry-and-health-sciences"
+    },
+    {
+      "foreign_institution": "Khon Kaen University, Faculty of Medicine",
+      "foreign_country": "Thailand",
+      "group": "Other foreign health systems",
+      "indian_partner": "James Cook University (Australian Institute of Tropical Health and Medicine) and QIMR Berghofer Medical Research Institute",
+      "partner_city": "Townsville and Brisbane",
+      "type": "Research collaboration",
+      "description": "Memoranda of understanding signed on 5 February 2026 strengthen tropical medicine research collaboration and academic exchange between the Thai medical faculty and the two Australian institutions.",
+      "status": "Active",
+      "start": "2026-02",
+      "end": "",
+      "last_evidence": "2026-02",
+      "evidence": "Khon Kaen University Faculty of Medicine International Relations Office news item of 13 February 2026 (fetched) reports the 5 February 2026 signing with Professor Darren Gray (QIMR Berghofer) and Professor Alex Loukas (James Cook University). University partner is borderline (no hospital party on the Australian side except through the research institute).",
+      "sources": [
+        {
+          "author": "Khon Kaen University Faculty of Medicine",
+          "title": "KKU Faculty of Medicine Signs MoUs with Two Leading Australian Institutions to Strengthen Tropical Medicine Research Collaboration",
+          "publisher": "Khon Kaen University International Relations Office",
+          "date": "2026-02-13",
+          "url": "https://www.intermed.kku.ac.th/kku-faculty-of-medicine-signs-mous-with-two-leading-australian-institutions-to-strengthen-tropical-medicine-research-collaboration/"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-11-18",
+      "id": "australia--khon-kaen-university-faculty-of-medicine--james-cook-university-australian-institute-of-tropical-health-and-medicine-and-qimr-berghofer-medical-research-institute"
     },
     {
       "foreign_institution": "Manipal Academy of Higher Education (MAHE)",
@@ -404,7 +477,7 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--manipal-academy-of-higher-education-mahe--university-of-sydney"
     },
     {
@@ -437,8 +510,48 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--max-healthcare--monash-university-biomedicine-discovery-institute"
+    },
+    {
+      "foreign_institution": "Princess Margaret Cancer Centre (University Health Network)",
+      "foreign_country": "Canada",
+      "group": "Other foreign health systems",
+      "indian_partner": "Peter MacCallum Cancer Centre",
+      "partner_city": "Melbourne",
+      "type": "Training and education",
+      "description": "Princess Margaret Cancer Centre (University Health Network, Toronto) lists Peter MacCallum Cancer Centre among its Global Cancer Program partners. The two centres run the PM2 Collaborative Education Series, a joint virtual series on topics in cancer care.",
+      "status": "Active",
+      "start": "2022-12",
+      "end": "",
+      "last_evidence": "2025-01",
+      "evidence": "Peter Mac announced the alliance after a Princess Margaret lecture in December 2022. The Princess Margaret Global Cancer Program 2025 annual report (published July 2026) lists Peter Mac among its Asia-Pacific partners and says the Cancer Education Program organized a 2025 PM2 session with Peter Mac on Indigenous knowledge and cultural exchange. The report gives no month for the session, so January 2025 is used as the earliest possible date.",
+      "sources": [
+        {
+          "author": "Princess Margaret Global Cancer Program, University Health Network",
+          "title": "2025 Annual Report",
+          "publisher": "University Health Network",
+          "date": "2026-07-29",
+          "url": "https://www.uhn.ca/PrincessMargaret/Global_Cancer_Program/Documents/2025_GCP_Annual_Report.pdf"
+        },
+        {
+          "author": "Peter MacCallum Cancer Centre",
+          "title": "Collaboration with leading Canadian cancer centre commences with lecture from supportive and palliative care expert",
+          "publisher": "Peter MacCallum Cancer Centre",
+          "date": "2022-12-14",
+          "url": "https://petermac.org/about-us/news-and-events/news/details/collaboration-with-leading-canadian-cancer-centre-commences-with-lecture-from-supportive-and-palliative-care-expert"
+        },
+        {
+          "author": "Peter MacCallum Cancer Centre",
+          "title": "Peter MacCallum Cancer Institute Annual Report 2022-23",
+          "publisher": "Peter MacCallum Cancer Centre",
+          "date": "2023",
+          "url": "https://www.parliament.vic.gov.au/4a25f1/globalassets/tabled-paper-documents/tabled-paper-7735/peter-maccallum-cancer-institute-annual-report-2022-23.pdf"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-11-18",
+      "id": "australia--princess-margaret-cancer-centre-university-health-network--peter-maccallum-cancer-centre"
     },
     {
       "foreign_institution": "Sichuan Provincial People's Hospital",
@@ -470,7 +583,7 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--sichuan-provincial-people-s-hospital--st-vincent-s-hospital-melbourne-st-vincent-s-health-australia"
     },
     {
@@ -503,7 +616,7 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--the-chinese-medicine-hospital-of-hong-kong--western-sydney-university-nicm-health-research-institute"
     },
     {
@@ -543,7 +656,7 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--the-christie-nhs-foundation-trust--peter-maccallum-cancer-centre"
     },
     {
@@ -576,7 +689,7 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--the-hospital-for-sick-children-sickkids--murdoch-children-s-research-institute-and-the-royal-children-s-hospital"
     },
     {
@@ -602,8 +715,34 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--university-of-galway-bioinnovate-ireland--university-of-western-australia-perth-biodesign"
+    },
+    {
+      "foreign_institution": "Vinmec Healthcare System and VinUniversity College of Health Sciences (Vingroup)",
+      "foreign_country": "Vietnam",
+      "group": "Other foreign health systems",
+      "indian_partner": "The University of Western Australia",
+      "partner_city": "Perth",
+      "type": "Training and education",
+      "description": "A February 2026 memorandum of understanding signed in Hanoi builds on UWA's VinUni pathway and uses Vinmec's clinical network for student pathways, clinician training in Australia, research and workforce development, including Helicobacter pylori research.",
+      "status": "Active",
+      "start": "2026-02",
+      "end": "",
+      "last_evidence": "2026-02",
+      "evidence": "UWA news item 'UWA strengthens health and medical ties in Vietnam' (February 2026, fetched) reports the signing with VinMec Healthcare System and VinUni College of Health Sciences in Hanoi.",
+      "sources": [
+        {
+          "author": "University of Western Australia",
+          "title": "UWA strengthens health and medical ties in Vietnam",
+          "publisher": "University of Western Australia",
+          "date": "2026-02",
+          "url": "https://www.uwa.edu.au/news/article/2026/february/uwa-strengthens-health-and-medical-ties-in-vietnam"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-11-18",
+      "id": "australia--vinmec-healthcare-system-and-vinuniversity-college-of-health-sciences-vingroup--the-university-of-western-australia"
     },
     {
       "foreign_institution": "West China Hospital, Sichuan University",
@@ -628,7 +767,7 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--west-china-hospital-sichuan-university--university-of-queensland-institute-for-molecular-bioscience"
     },
     {
@@ -643,7 +782,7 @@
       "start": "2016-06",
       "end": "",
       "last_evidence": "2022-11",
-      "evidence": "The Dana-Farber release of 17 November 2022 (Peter Mac release dated 15 November 2022) announces the three-year MOU. No renewal, extension or later dated activity was found, so the status after the term ending about late 2025 is unconfirmed.",
+      "evidence": "The Dana-Farber release of 17 November 2022 (Peter Mac release dated 15 November 2022) announces the three-year MOU. No renewal, extension or later dated activity was found, so the status after the term ending about late 2025 is unconfirmed. Rechecked 18 November 2026: no renewal, extension or newer joint activity found on either institution's pages; the three-year term would have ended around November 2025.",
       "sources": [
         {
           "author": "Dana-Farber Cancer Institute",
@@ -668,7 +807,7 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--dana-farber-cancer-institute--peter-maccallum-cancer-centre"
     },
     {
@@ -694,8 +833,41 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--mayo-clinic-laboratories-mayo-clinic--sydpath-st-vincent-s-hospital-sydney-st-vincent-s-health-australia"
+    },
+    {
+      "foreign_institution": "Northwell Health",
+      "foreign_country": "United States",
+      "group": "US academic medical centers",
+      "indian_partner": "Epworth HealthCare",
+      "partner_city": "Melbourne",
+      "type": "Training and education",
+      "description": "Northwell Health lists Epworth HealthCare as a strategic alliance partner. Epworth describes the link as a medical education alliance with a staff scholarship to Northwell.",
+      "status": "Unclear",
+      "start": "",
+      "end": "",
+      "last_evidence": "2025-02",
+      "evidence": "Northwell's 'We Are Northwell' fact sheet (document code dated 26 February 2025, read in full) names Epworth HealthCare under Strategic alliances. Epworth's own affiliations page describes the alliance (surfaced in search; the page blocks our fetcher, so its wording is not independently read). The start date is not published. Epworth's Mass General nurse study tour (July 2023) is a separate lead and is not counted. Only a static entry in a corporate fact sheet was found; no dated activity since October 2024, so the status is Unclear.",
+      "sources": [
+        {
+          "author": "Northwell Health",
+          "title": "We Are Northwell fact sheet (updated February 2025)",
+          "publisher": "Northwell Health via Zucker School of Medicine at Hofstra/Northwell",
+          "date": "2025-02-26",
+          "url": "https://medicine.hofstra.edu/sites/medicine.hofstra.edu/files/2025-07/we-are-northwell-fact-sheet-updatefeb2025printer-spreadsv1.pdf"
+        },
+        {
+          "author": "Epworth HealthCare",
+          "title": "Affiliations",
+          "publisher": "Epworth HealthCare",
+          "date": "",
+          "url": "https://epworth.org.au/about-us/affiliations"
+        }
+      ],
+      "country": "Australia",
+      "last_checked": "2026-11-18",
+      "id": "australia--northwell-health--epworth-healthcare"
     },
     {
       "foreign_institution": "National University of Singapore, Saw Swee Hock School of Public Health",
@@ -720,41 +892,8 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--national-university-of-singapore-saw-swee-hock-school-of-public-health--australian-national-university-college-of-health-and-medicine"
-    },
-    {
-      "foreign_institution": "Princess Margaret Cancer Centre (University Health Network)",
-      "foreign_country": "Canada",
-      "group": "Other foreign health systems",
-      "indian_partner": "Peter MacCallum Cancer Centre",
-      "partner_city": "Melbourne",
-      "type": "Training and education",
-      "description": "The two cancer centres formed an alliance partnership in December 2022 to benchmark research, nursing and allied health practice and to train the cancer workforce together.",
-      "status": "Unclear",
-      "start": "2022-12",
-      "end": "",
-      "last_evidence": "2022-12",
-      "evidence": "Peter Mac news item of 14 December 2022 announced the alliance and cited a visit by Princess Margaret's supportive care lead. A March 2026 Manchester agenda lists a Peter Mac visit that included Princess Margaret staff, but it is a joint visit with The Christie and was not confirmed as bilateral activity. No dated bilateral activity found after December 2022.",
-      "sources": [
-        {
-          "author": "Peter MacCallum Cancer Centre",
-          "title": "Collaboration with leading Canadian cancer centre commences with lecture from supportive and palliative care expert",
-          "publisher": "Peter MacCallum Cancer Centre",
-          "date": "2022-12-14",
-          "url": "https://petermac.org/about-us/news-and-events/news/details/collaboration-with-leading-canadian-cancer-centre-commences-with-lecture-from-supportive-and-palliative-care-expert"
-        },
-        {
-          "author": "Peter MacCallum Cancer Centre",
-          "title": "Peter MacCallum Cancer Institute Annual Report 2022-23",
-          "publisher": "Peter MacCallum Cancer Centre",
-          "date": "2023",
-          "url": "https://www.parliament.vic.gov.au/4a25f1/globalassets/tabled-paper-documents/tabled-paper-7735/peter-maccallum-cancer-institute-annual-report-2022-23.pdf"
-        }
-      ],
-      "country": "Australia",
-      "last_checked": "2026-10-20",
-      "id": "australia--princess-margaret-cancer-centre-university-health-network--peter-maccallum-cancer-centre"
     },
     {
       "foreign_institution": "Sheba Medical Center",
@@ -768,7 +907,7 @@
       "start": "2023-03",
       "end": "",
       "last_evidence": "2023-06",
-      "evidence": "Monash and Victorian Government releases of March 2023 report the signing, with $200,000 from Victoria for cardiovascular work. Peter Mac reported the partnership's ARC innovation program in June 2023; no dated activity was found after that.",
+      "evidence": "Monash and Victorian Government releases of March 2023 report the signing, with A$200,000 (US$140,000) from Victoria for cardiovascular work. Peter Mac reported the partnership's ARC innovation program in June 2023; no dated activity was found after that.",
       "sources": [
         {
           "author": "Monash University",
@@ -793,7 +932,7 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--sheba-medical-center--monash-university-with-monash-health-and-the-victorian-government"
     },
     {
@@ -826,7 +965,7 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--sheba-medical-center--nsw-health-new-south-wales-government"
     },
     {
@@ -866,7 +1005,7 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--sheba-medical-center--peter-maccallum-cancer-centre-with-australian-friends-of-sheba"
     },
     {
@@ -892,7 +1031,7 @@
         }
       ],
       "country": "Australia",
-      "last_checked": "2026-10-20",
+      "last_checked": "2026-11-18",
       "id": "australia--siriraj-hospital-faculty-of-medicine-mahidol-university--university-of-sydney-faculty-of-medicine-and-health"
     },
     {

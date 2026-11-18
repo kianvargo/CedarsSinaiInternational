@@ -73,6 +73,16 @@
     -12,
     0
    ]
+  ],
+  "Townsville": [
+   [
+    146.82,
+    -19.26
+   ],
+   [
+    12,
+    0
+   ]
   ]
  },
  "locations": {
@@ -204,6 +214,22 @@
   "australia--siriraj-hospital-faculty-of-medicine-mahidol-university--university-of-sydney-faculty-of-medicine-and-health": {
    "cities": [
     "Sydney"
+   ]
+  },
+  "australia--mayo-clinic-mayo-clinic-global-consulting--tlc-healthcare": {
+   "cities": [
+    "Melbourne"
+   ]
+  },
+  "australia--khon-kaen-university-faculty-of-medicine--james-cook-university-australian-institute-of-tropical-health-and-medicine-and-qimr-berghofer-medical-research-institute": {
+   "cities": [
+    "Townsville",
+    "Brisbane"
+   ]
+  },
+  "australia--vinmec-healthcare-system-and-vinuniversity-college-of-health-sciences-vingroup--the-university-of-western-australia": {
+   "cities": [
+    "Perth"
    ]
   }
  }
