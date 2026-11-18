@@ -6137,7 +6137,7 @@
       "start": "2023-01",
       "end": "",
       "last_evidence": "2026-01",
-      "evidence": "JHCIH won the LEGO Foundation Build a World of Play Challenge in December 2022 and funding began in 2023. A JHCIH Q&A published 21 January 2026 says the program is past its halfway point and names the University of Otago's Eru Pōmare centre as lead partner in Aotearoa, with partners meeting in Alice Springs in August 2024. The program page lists its status as Active.",
+      "evidence": "JHCIH won the LEGO Foundation Build a World of Play Challenge in December 2022 and funding began in 2023. A JHCIH Q&A published 21 January 2026 says the program is past its halfway point and names the University of Otago's Eru Pōmare centre as lead partner in Aotearoa, with partners meeting in Alice Springs in August 2024. The program page lists its status as Active. Re-checked 17 November 2026: the program page still lists the status as Active and names the Eru Pōmare centre at Otago as a partner; no newer dated item.",
       "sources": [
         {
           "author": "Johns Hopkins Center for Indigenous Health",
@@ -6162,8 +6162,55 @@
         }
       ],
       "country": "New Zealand",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-11-18",
       "id": "new-zealand--johns-hopkins-university-bloomberg-school-of-public-health-center-for-indigenous-health--university-of-otago-te-r-p-rangahau-hauora-a-eru-p-mare-eru-p-mare-m-ori-health-research-centre"
+    },
+    {
+      "foreign_institution": "Children's Cancer Institute and Sydney Children's Hospital, Randwick (Zero Childhood Cancer Program)",
+      "foreign_country": "Australia",
+      "indian_partner": "Starship Children's Hospital and Christchurch Hospital (Health New Zealand)",
+      "partner_city": "Auckland and Christchurch",
+      "type": "Research collaboration",
+      "description": "The ZERO precision medicine program, led by Children's Cancer Institute and Sydney Children's Hospital Randwick, opened to New Zealand children in 2024. Starship's tumours are sent for genomic analysis that guides treatment, and Christchurch was listed as a second site.",
+      "status": "Active",
+      "start": "2024-07",
+      "end": "",
+      "last_evidence": "2025-06",
+      "evidence": "ANZCHOG, the study sponsor, announced on 19 August 2024 that ZERO2 opened at Starship on 17 July 2024. The ZERO2 registry record (NCT05504772, last updated July 2024) lists Starship as recruiting and Christchurch as not yet recruiting. Children's Cancer Institute's undated program page says both New Zealand sites opened in 2024. No dated evidence from October 2024 or later was found. Re-checked 17 November 2026: ANZCHOG's ZERO2 page lists Starship and Christchurch as open sites but carries no date, so the status stays Unclear. The ANZCHOG ZERO2 site status page lists Christchurch Hospital as open from 27 June 2025.",
+      "sources": [
+        {
+          "author": "ANZCHOG",
+          "title": "ZERO2 opens in NZ",
+          "publisher": "Australian and New Zealand Children's Haematology/Oncology Group",
+          "date": "2024-08-19",
+          "url": "https://anzchog.org/zero2-opens-in-nz/"
+        },
+        {
+          "author": "Children's Cancer Institute",
+          "title": "Zero Childhood Cancer",
+          "publisher": "Children's Cancer Institute",
+          "date": "",
+          "url": "https://www.ccia.org.au/personalised-medicine/zero-childhood-cancer"
+        },
+        {
+          "author": "ANZCHOG",
+          "title": "Precision Medicine for Every Child With Cancer (NCT05504772)",
+          "publisher": "ClinicalTrials.gov",
+          "date": "2024-07-17",
+          "url": "https://clinicaltrials.gov/study/NCT05504772"
+        },
+        {
+          "author": "ANZCHOG",
+          "title": "ZERO2 precision medicine program: site status",
+          "publisher": "Australian and New Zealand Children's Haematology/Oncology Group",
+          "date": "",
+          "url": "https://anzchog.org/sponsored-trials/zero2/"
+        }
+      ],
+      "group": "Other foreign health systems",
+      "country": "New Zealand",
+      "last_checked": "2026-11-18",
+      "id": "new-zealand--children-s-cancer-institute-and-sydney-children-s-hospital-randwick-zero-childhood-cancer-program--starship-children-s-hospital-and-christchurch-hospital-health-new-zealand"
     },
     {
       "foreign_institution": "Icon Oncology Group (Icon Group)",
@@ -6176,7 +6223,7 @@
       "start": "2017-07",
       "end": "",
       "last_evidence": "2025-02",
-      "evidence": "Newshub reported the Prime Minister opening the centre in July 2017. Icon's current group pages (copyright 2026, and mentioning its 2024 Pharmaxo acquisition) still describe Bowen Icon Cancer Centre as a joint venture with Evolution Healthcare, and the centre's own site is live under Icon branding. None of these pages carries a dated news item on the joint venture after 2017, so Active rests on current corporate pages rather than a dated release. Icon's 4 February 2025 news item says it introduced clinical trials at Bowen Icon Cancer Centre.",
+      "evidence": "Newshub reported the Prime Minister opening the centre in July 2017. Icon's current group pages (copyright 2026, and mentioning its 2024 Pharmaxo acquisition) still describe Bowen Icon Cancer Centre as a joint venture with Evolution Healthcare, and the centre's own site is live under Icon branding. None of these pages carries a dated news item on the joint venture after 2017, so Active rests on current corporate pages rather than a dated release. Icon's 4 February 2025 news item says it introduced clinical trials at Bowen Icon Cancer Centre. Re-checked 17 November 2026: the Icon page for New Zealand still describes Bowen Icon Cancer Centre as a joint venture with Evolution Healthcare.",
       "sources": [
         {
           "author": "Icon Oncology Group",
@@ -6187,7 +6234,7 @@
         },
         {
           "author": "Icon Oncology Group",
-          "title": "Cancer Services – New Zealand",
+          "title": "Cancer Services: New Zealand",
           "publisher": "Icon Oncology Group",
           "date": "2026",
           "url": "https://icongroup.global/our-services/cancer-services-new-zealand/"
@@ -6209,7 +6256,7 @@
       ],
       "group": "Other foreign health systems",
       "country": "New Zealand",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-11-18",
       "id": "new-zealand--icon-oncology-group-icon-group--bowen-icon-cancer-centre-joint-venture-with-evolution-healthcare-bowen-hospital"
     },
     {
@@ -6223,7 +6270,7 @@
       "start": "2006",
       "end": "",
       "last_evidence": "2025-08",
-      "evidence": "The Liggins Institute's partnerships page cites formal agreements with NUS and the Singapore Institute for Clinical Sciences. The NiPPeR Child study (NCT05934422) names NUS, NUHS and National University Hospital as collaborators and Shiao-Yng Chan of NUS as a principal investigator alongside Auckland. It completed in August 2025, and the record was updated in November 2025. The NiPPeR Child follow-up ran from June 2023 to its completion on 14 August 2025.",
+      "evidence": "The Liggins Institute's partnerships page cites formal agreements with NUS and the Singapore Institute for Clinical Sciences. The NiPPeR Child study (NCT05934422) names NUS, NUHS and National University Hospital as collaborators and Shiao-Yng Chan of NUS as a principal investigator alongside Auckland. It completed in August 2025, and the record was updated in November 2025. The NiPPeR Child follow-up ran from June 2023 to its completion on 14 August 2025. Re-checked 17 November 2026: the Liggins partnerships page still lists formal agreements with NUS and the Singapore Institute for Clinical Sciences.",
       "sources": [
         {
           "author": "Liggins Institute",
@@ -6242,34 +6289,8 @@
       ],
       "group": "Other foreign health systems",
       "country": "New Zealand",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-11-18",
       "id": "new-zealand--national-university-of-singapore-and-national-university-health-system--liggins-institute-university-of-auckland"
-    },
-    {
-      "foreign_institution": "UCLPartners",
-      "foreign_country": "United Kingdom",
-      "indian_partner": "Health New Zealand Te Whatu Ora (HealthX programme)",
-      "partner_city": "Wellington",
-      "type": "Advisory and consulting",
-      "description": "Health New Zealand's HealthX programme signed an agreement with UCLPartners, the London academic health science partnership of NHS organisations and universities. UCLPartners advises on testing and scaling digital and AI tools such as emergency department AI scribes.",
-      "status": "Active",
-      "start": "2026-07",
-      "end": "",
-      "last_evidence": "2026-07",
-      "evidence": "A Health NZ sector update republished by HiNZ on 8 July 2026 announces the agreement, quotes Health NZ chief executive Dale Bramley and UCLPartners chief executive Chris Laing, and says UCLPartners horizon scanning already informed the AI scribe rollout.",
-      "sources": [
-        {
-          "author": "Health New Zealand Te Whatu Ora",
-          "title": "Health NZ international partnership strengthens approach to digital and AI innovation",
-          "publisher": "HiNZ (eHealthNews.nz)",
-          "date": "2026-07-08",
-          "url": "https://www.hinz.org.nz/news/730824/Health-NZ-international-partnership-strengthens-digital-innovation.htm"
-        }
-      ],
-      "group": "Other foreign health systems",
-      "country": "New Zealand",
-      "last_checked": "2026-10-21",
-      "id": "new-zealand--uclpartners--health-new-zealand-te-whatu-ora-healthx-programme"
     },
     {
       "foreign_institution": "Universitas Indonesia (Faculty of Public Health)",
@@ -6294,7 +6315,7 @@
       ],
       "group": "Other foreign health systems",
       "country": "New Zealand",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-11-18",
       "id": "new-zealand--universitas-indonesia-faculty-of-public-health--university-of-otago-faculty-of-medicine"
     },
     {
@@ -6308,7 +6329,7 @@
       "start": "2006",
       "end": "",
       "last_evidence": "2025-08",
-      "evidence": "The Liggins Institute lists itself as a foundation partner of EpiGen, established 2006, with two Southampton units. The NiPPeR Child follow-up study (NCT05934422), sponsored by Southampton with Auckland as a site and Wayne Cutfield as a principal investigator, ran from June 2023 to August 2025, and its registry record was updated in November 2025. The NiPPeR Child follow-up ran from June 2023 to its completion on 14 August 2025.",
+      "evidence": "The Liggins Institute lists itself as a foundation partner of EpiGen, established 2006, with two Southampton units. The NiPPeR Child follow-up study (NCT05934422), sponsored by Southampton with Auckland as a site and Wayne Cutfield as a principal investigator, ran from June 2023 to August 2025, and its registry record was updated in November 2025. The NiPPeR Child follow-up ran from June 2023 to its completion on 14 August 2025. Re-checked 17 November 2026: the Liggins EpiGen page still lists Southampton as a foundation partner.",
       "sources": [
         {
           "author": "Liggins Institute",
@@ -6327,8 +6348,67 @@
       ],
       "group": "Other foreign health systems",
       "country": "New Zealand",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-11-18",
       "id": "new-zealand--university-of-southampton-mrc-lifecourse-epidemiology-centre-epigen-global-research-consortium--liggins-institute-university-of-auckland"
+    },
+    {
+      "foreign_institution": "University of Southern Queensland; Darling Downs Hospital and Health Service; West Moreton Hospital and Health Service",
+      "foreign_country": "Australia",
+      "group": "Other foreign health systems",
+      "indian_partner": "University of Auckland",
+      "partner_city": "Auckland",
+      "type": "Research collaboration",
+      "description": "The University of Auckland joined a collaborative research agreement with the University of Southern Queensland and two Queensland public hospital and health services. The research scope is not stated in the public record.",
+      "status": "Active",
+      "start": "2025",
+      "end": "",
+      "last_evidence": "2025-12",
+      "evidence": "University of Auckland Council agenda of 10 December 2025 records the council seal applied to a deed of accession to the Collaborative Research Agreement among the University of Southern Queensland, Darling Downs Hospital and Health Service and West Moreton Hospital and Health Service. No press release was found.",
+      "sources": [
+        {
+          "author": "University of Auckland Council",
+          "title": "Council Agenda 10.12.2025, Part A (Open Agenda), item 11.1 Seal",
+          "publisher": "University of Auckland",
+          "date": "2025-12-10",
+          "url": "https://www.auckland.ac.nz/assets/about-us/about-the-university/the-university/governance-and-committees/university-council/agenda/2025/Part%20A%2010.12.2025%20Council%20Agenda%20and%20attachments%20for%20public%20and%20press1.pdf"
+        }
+      ],
+      "country": "New Zealand",
+      "last_checked": "2026-11-18",
+      "id": "new-zealand--university-of-southern-queensland-darling-downs-hospital-and-health-service-west-moreton-hospital-and-health-service--university-of-auckland"
+    },
+    {
+      "foreign_institution": "University of Texas at Austin (Oden Institute for Computational Engineering and Sciences)",
+      "foreign_country": "United States",
+      "group": "Other foreign health systems",
+      "indian_partner": "Auckland Bioengineering Institute, University of Auckland",
+      "partner_city": "Auckland",
+      "type": "Research collaboration",
+      "description": "The Oden Institute and the Auckland Bioengineering Institute are building physics-informed AI and digital twin models of organs for uses such as drug development and clinical decision tools. New Zealand's Catalyst Fund is paying up to NZD 4.5 million (USD 2.6 million) over four years, with a second phase tied to matching US federal funding.",
+      "status": "Active",
+      "start": "2025-09",
+      "end": "",
+      "last_evidence": "2025-09",
+      "evidence": "The University of Auckland announced on 18 September 2025 that the Catalyst Fund backs the New Zealand United States Digital Twin Research programme joining the Auckland Bioengineering Institute and the Oden Institute, and quotes Oden director Karen Willcox on launching the partnership. The Oden Institute is a university research institute rather than a hospital, and the work is biomedical modeling.",
+      "sources": [
+        {
+          "author": "University of Auckland",
+          "title": "Digital twin NZ US collaboration awarded $4.5m funding",
+          "publisher": "University of Auckland",
+          "date": "2025-09-18",
+          "url": "https://www.auckland.ac.nz/en/news/2025/09/18/digital-twin-nz-us-collaboration-receives-catalyst-funding.html"
+        },
+        {
+          "author": "Ministry of Business, Innovation and Employment",
+          "title": "Government backs NZ-US digital twin collaboration",
+          "publisher": "MBIE",
+          "date": "",
+          "url": "https://www.mbie.govt.nz/about/news/government-backs-nzus-digital-twin-collaboration"
+        }
+      ],
+      "country": "New Zealand",
+      "last_checked": "2026-11-18",
+      "id": "new-zealand--university-of-texas-at-austin-oden-institute-for-computational-engineering-and-sciences--auckland-bioengineering-institute-university-of-auckland"
     },
     {
       "foreign_institution": "University of Wollongong (Graduate School of Medicine)",
@@ -6341,26 +6421,26 @@
       "start": "2025-10",
       "end": "",
       "last_evidence": "2025-10",
-      "evidence": "A University of Wollongong release dated 17 October 2025 announces the MoU signing by Vice-Chancellors Max Lu and Neil Quigley, with quotes from Waikato's Pro Vice-Chancellor Health.",
+      "evidence": "A University of Wollongong release dated 17 October 2025 announces the MoU signing by Vice-Chancellors Max Lu and Neil Quigley, with quotes from Waikato's Pro Vice-Chancellor Health. Re-checked 17 November 2026: the Waikato and Wollongong release pages are unchanged.",
       "sources": [
         {
           "author": "University of Wollongong",
           "title": "Wollongong and Waikato partner to shape future of rural health in New Zealand",
           "publisher": "University of Wollongong",
-          "date": "2025-10-20",
+          "date": "2025-10-17",
           "url": "https://www.uow.edu.au/media/2025/wollongong-and-waikato-partner-to-shape-future-of-rural-health-in-new-zealand.php"
         },
         {
           "author": "University of Waikato",
           "title": "Waikato to work with regional health education experts to shape med school curriculum",
           "publisher": "University of Waikato",
-          "date": "2025-10-20",
+          "date": "2025-10-17",
           "url": "https://www.waikato.ac.nz/news-events/news/waikato-wollongong-mou/"
         }
       ],
       "group": "Other foreign health systems",
       "country": "New Zealand",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-11-18",
       "id": "new-zealand--university-of-wollongong-graduate-school-of-medicine--university-of-waikato-new-zealand-graduate-school-of-medicine"
     },
     {
@@ -6386,7 +6466,7 @@
       ],
       "group": "Other foreign health systems",
       "country": "New Zealand",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-11-18",
       "id": "new-zealand--west-visayas-state-university--university-of-otago"
     },
     {
@@ -6401,7 +6481,7 @@
       "start": "2018-01",
       "end": "",
       "last_evidence": "2021-05",
-      "evidence": "A May 2021 SiouxFalls.Business report says Sanford helped build a $30 million network of clinics with Omni Health through multiple investments, with a Sanford executive acting as its COO from Sioux Falls. Sanford's current World Clinic page says it has collaborated with Omni Health since 2018. Sanford World Clinic's recruiting page on PracticeMatch lists Omni Health physician openings posted 6 October 2025. The October 2025 recruitment listing could not be re-verified; Sanford's current page says in the present tense that it has collaborated with Omni Health since 2018 but carries no date.",
+      "evidence": "A May 2021 SiouxFalls.Business report says Sanford helped build a $30 million network of clinics with Omni Health through multiple investments, with a Sanford executive acting as its COO from Sioux Falls. Sanford's current World Clinic page says it has collaborated with Omni Health since 2018. Sanford World Clinic's recruiting page on PracticeMatch lists Omni Health physician openings posted 6 October 2025. The October 2025 recruitment listing could not be re-verified; Sanford's current page says in the present tense that it has collaborated with Omni Health since 2018 but carries no date. Re-checked 17 November 2026: Sanford's New Zealand page is still undated, so the status stays Unclear; the recruitment listings could not be opened.",
       "sources": [
         {
           "author": "Sanford Health",
@@ -6433,48 +6513,8 @@
         }
       ],
       "country": "New Zealand",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-11-18",
       "id": "new-zealand--sanford-health-sanford-world-clinic--omni-health-omnihealth-primary-care-network"
-    },
-    {
-      "foreign_institution": "Children's Cancer Institute and Sydney Children's Hospital, Randwick (Zero Childhood Cancer Program)",
-      "foreign_country": "Australia",
-      "indian_partner": "Starship Children's Hospital and Christchurch Hospital (Health New Zealand)",
-      "partner_city": "Auckland and Christchurch",
-      "type": "Research collaboration",
-      "description": "The ZERO precision medicine program, led by Children's Cancer Institute and Sydney Children's Hospital Randwick, opened to New Zealand children in 2024. Starship's tumours are sent for genomic analysis that guides treatment, and Christchurch was listed as a second site.",
-      "status": "Unclear",
-      "start": "2024-07",
-      "end": "",
-      "last_evidence": "2024-08",
-      "evidence": "ANZCHOG, the study sponsor, announced on 19 August 2024 that ZERO2 opened at Starship on 17 July 2024. The ZERO2 registry record (NCT05504772, last updated July 2024) lists Starship as recruiting and Christchurch as not yet recruiting. Children's Cancer Institute's undated program page says both New Zealand sites opened in 2024. No dated evidence from October 2024 or later was found.",
-      "sources": [
-        {
-          "author": "ANZCHOG",
-          "title": "ZERO2 opens in NZ",
-          "publisher": "Australian and New Zealand Children's Haematology/Oncology Group",
-          "date": "2024-08-19",
-          "url": "https://anzchog.org/zero2-opens-in-nz/"
-        },
-        {
-          "author": "Children's Cancer Institute",
-          "title": "Zero Childhood Cancer",
-          "publisher": "Children's Cancer Institute",
-          "date": "",
-          "url": "https://www.ccia.org.au/personalised-medicine/zero-childhood-cancer"
-        },
-        {
-          "author": "ANZCHOG",
-          "title": "Precision Medicine for Every Child With Cancer (NCT05504772)",
-          "publisher": "ClinicalTrials.gov",
-          "date": "2024-07-17",
-          "url": "https://clinicaltrials.gov/study/NCT05504772"
-        }
-      ],
-      "group": "Other foreign health systems",
-      "country": "New Zealand",
-      "last_checked": "2026-10-21",
-      "id": "new-zealand--children-s-cancer-institute-and-sydney-children-s-hospital-randwick-zero-childhood-cancer-program--starship-children-s-hospital-and-christchurch-hospital-health-new-zealand"
     },
     {
       "foreign_institution": "Children's Hospital of Zhejiang University School of Medicine",
@@ -6487,7 +6527,7 @@
       "start": "2017-10",
       "end": "",
       "last_evidence": "2022-07",
-      "evidence": "The centre reported the October 2017 MoU signing. Its report on the 5 to 6 July 2022 forum cites a presentation by the hospital's vice president Jun-Fen Fu on obesity and diabetes in children. Nothing later was found. Later evidence is forum participation only (a virtual 2022 forum); the MoU dates from 2017.",
+      "evidence": "The centre reported the October 2017 MoU signing. Its report on the 5 to 6 July 2022 forum cites a presentation by the hospital's vice president Jun-Fen Fu on obesity and diabetes in children. Nothing later was found. Later evidence is forum participation only (a virtual 2022 forum); the MoU dates from 2017. Re-checked 17 November 2026: the centre's news pages show nothing after 2022.",
       "sources": [
         {
           "author": "NZ-China NCD Research Collaboration Centre",
@@ -6506,7 +6546,7 @@
       ],
       "group": "Other foreign health systems",
       "country": "New Zealand",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-11-18",
       "id": "new-zealand--children-s-hospital-of-zhejiang-university-school-of-medicine--nz-china-non-communicable-diseases-research-collaboration-centre-university-of-otago"
     },
     {
@@ -6532,7 +6572,7 @@
       ],
       "group": "Other foreign health systems",
       "country": "New Zealand",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-11-18",
       "id": "new-zealand--fiji-national-university-college-of-medicine-nursing-and-health-sciences--university-of-auckland"
     },
     {
@@ -6546,7 +6586,7 @@
       "start": "2017-10",
       "end": "",
       "last_evidence": "2022-07",
-      "evidence": "The centre reported the October 2017 signing of four MoUs including Huashan. Its report on the 3rd NZ-China NCD forum, held 5 to 6 July 2022, cites a Huashan Hospital presentation on AI digital monitoring. Nothing later was found. Later evidence is forum participation only (a virtual 2022 forum); the MoU dates from 2017.",
+      "evidence": "The centre reported the October 2017 signing of four MoUs including Huashan. Its report on the 3rd NZ-China NCD forum, held 5 to 6 July 2022, cites a Huashan Hospital presentation on AI digital monitoring. Nothing later was found. Later evidence is forum participation only (a virtual 2022 forum); the MoU dates from 2017. Re-checked 17 November 2026: the centre's news pages show nothing after 2022.",
       "sources": [
         {
           "author": "NZ-China NCD Research Collaboration Centre",
@@ -6565,7 +6605,7 @@
       ],
       "group": "Other foreign health systems",
       "country": "New Zealand",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-11-18",
       "id": "new-zealand--huashan-hospital-fudan-university--nz-china-non-communicable-diseases-research-collaboration-centre-university-of-otago"
     },
     {
@@ -6591,8 +6631,34 @@
       ],
       "group": "Other foreign health systems",
       "country": "New Zealand",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-11-18",
       "id": "new-zealand--shanghai-ninth-people-s-hospital-shanghai-jiao-tong-university-school-of-medicine--university-of-otago-faculty-of-dentistry"
+    },
+    {
+      "foreign_institution": "Tata Memorial Hospital (Tata Memorial Centre), Mumbai",
+      "foreign_country": "India",
+      "group": "Other foreign health systems",
+      "indian_partner": "University of Auckland",
+      "partner_city": "Auckland",
+      "type": "Research collaboration",
+      "description": "The two institutions signed a memorandum of understanding for long-term cooperation in cancer care using digital health. Initial projects were a digital clinical trials platform, more efficient outpatient clinics and a prescription safety tool.",
+      "status": "Unclear",
+      "start": "2023-02",
+      "end": "",
+      "last_evidence": "2023-02",
+      "evidence": "A Government of India Press Information Bureau release dated 22 February 2023 reports the signing during a University of Auckland delegation visit to Mumbai. No later activity was found in searches on 17 November 2026.",
+      "sources": [
+        {
+          "author": "Press Information Bureau, Mumbai",
+          "title": "Auckland and Mumbai to collaborate on cancer care",
+          "publisher": "Ministry of Health and Family Welfare, Government of India",
+          "date": "2023-02-22",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1901336"
+        }
+      ],
+      "country": "New Zealand",
+      "last_checked": "2026-11-18",
+      "id": "new-zealand--tata-memorial-hospital-tata-memorial-centre-mumbai--university-of-auckland"
     },
     {
       "foreign_institution": "Healthe Care Australia (then a subsidiary of Luye Medical Group)",
@@ -6624,7 +6690,7 @@
       ],
       "group": "Other foreign health systems",
       "country": "New Zealand",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-11-18",
       "id": "new-zealand--healthe-care-australia-then-a-subsidiary-of-luye-medical-group--boulcott-hospital-pulse-health-nz"
     },
     {
