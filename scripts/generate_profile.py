@@ -343,15 +343,25 @@ def add_facts_table(doc, facts, sources, registry, columns=2):
         vp = table.cell(row, group * 2 + 1).paragraphs[0]
         vp.paragraph_format.space_after = Pt(3)
         cited |= add_cited_text(vp, str(fact["value"]), sources, registry, size=10.5)
+    if columns == 1:  # long values: a narrow label column and a wide value column
+        for row in table.rows:
+            row.cells[0].width = Cm(5.2)
+            row.cells[1].width = Cm(11.8)
     doc.add_paragraph().paragraph_format.space_after = Pt(2)
     return cited
+
+
+def facts_columns(facts):
+    """Two label/value pairs per row suit short values; long values get one wide pair per row."""
+    lengths = [len(str(f["value"])) for f in facts]
+    return 1 if lengths and (max(lengths) > 140 or sum(lengths) / len(lengths) > 85) else 2
 
 
 def add_section_body(doc, section, registry):
     sources = section.get("sources", [])
     cited = False
     if section.get("facts"):
-        cited |= add_facts_table(doc, section["facts"], sources, registry)
+        cited |= add_facts_table(doc, section["facts"], sources, registry, columns=facts_columns(section["facts"]))
     last = None
     for para in re.split(r"\n\s*\n|\n", section.get("narrative", "") or ""):
         if para.strip():
